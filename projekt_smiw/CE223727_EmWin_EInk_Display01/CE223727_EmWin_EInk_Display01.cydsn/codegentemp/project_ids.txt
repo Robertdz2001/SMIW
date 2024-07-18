@@ -1,0 +1,6 @@
+C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj|09b4ace9-8a3e-4eec-80cf-b192971a9bbf
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|6dadf3b8-3092-4699-808a-00bfd61ed3ca
+C:\Users\rober\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|c371bb52-8f12-4bfc-85bd-f431d2b0b793
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|31565361-4ecd-4973-9302-68340569bf06
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|bbc9aa73-0215-4182-b300-82f54b6a7338
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0ff48ef7-2f61-4fba-90ed-1cc5b95c7ba4
