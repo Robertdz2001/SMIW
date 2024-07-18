@@ -195,8 +195,9 @@ int compareValue = 50;
 int start_point = 0;
 
 int which_data_table = 1;
-
-#define GRAPH_POINTS 15
+int dataSize_global = 0;
+#define GRAPH_POINTS 12
+int modeSwitch = 0;
 
 void WaitforSwitchPressAndRelease(void)
 {   
@@ -212,19 +213,25 @@ void WaitforSwitchPressAndRelease(void)
         CyDelay(20);
     };
     
-    if(start_point + 6 < GRAPH_POINTS)
+    if(modeSwitch == 1)
+    {
+        start_point = 0;
+        which_data_table = 1;
+        modeSwitch = 0;
+    }
+    else if(start_point + 6 < dataSize_global)
     {
         start_point += 6;
     }
-    
     else
     {
-    start_point = 0;
-    which_data_table++;
-    
-    if(which_data_table == 3){
-        which_data_table = 1;
-    }
+        start_point = 0;
+        which_data_table++;
+        
+        if(which_data_table == 3){
+            which_data_table = 1;
+            modeSwitch = 1;
+        }
     }
 }
 
@@ -246,78 +253,6 @@ void WaitforSwitchPressAndRelease(void)
 *  None
 *
 *******************************************************************************/
-#define MAX_POINTS 100
-int graphData[MAX_POINTS];
-int pointIndex = 0;
-
-void ShowGraph_WithUpdate(void)
-{
-    /* Set font size, foreground and background colors */
-    GUI_SetColor(GUI_BLACK);
-    GUI_SetBkColor(GUI_WHITE);
-    GUI_SetTextMode(GUI_TM_NORMAL);
-    GUI_SetTextStyle(GUI_TS_NORMAL);
-
-    /* Clear the screen */
-    GUI_Clear();
-
-    /* Display page title */
-    GUI_SetFont(GUI_FONT_13B_1);
-    GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt("LINE GRAPH DEMO", 132, 5);
-    
-    /* Define axis labels and ticks */
-    char xAxisLabels[6][6] = {"0", "20", "40", "60", "80", "100"};
-    char yAxisLabels[6][4] = {"0", "20", "40", "60", "80", "100"};
-    int xAxisTicks[6] = {30, 70, 110, 150, 190, 230};
-    int yAxisTicks[6] = {20, 50, 80, 110, 140, 170};
-
-    while (1)
-    {
-        /* Add a new point to the graph */
-        if (pointIndex < MAX_POINTS)
-        {
-            graphData[pointIndex] = rand() % 100;  // Random value for demonstration
-            pointIndex++;
-        }
-        else
-        {
-            // Shift data to the left to make room for new data
-            memmove(graphData, &graphData[1], (MAX_POINTS - 1) * sizeof(int));
-            graphData[MAX_POINTS - 1] = rand() % 100;
-        }
-
-        /* Draw the graph */
-        GUI_ClearRect(10, 20, 254, 150);  // Clear the area where the graph will be drawn
-        
-        
-                /* Draw X and Y axis */
-        GUI_DrawLine(30, 20, 30, 170); // Y axis
-        GUI_DrawLine(30, 150, 250, 150); // X axis
-
-        /* Draw axis labels and ticks */
-        for (int i = 0; i < 6; i++) {
-            GUI_DrawLine(xAxisTicks[i], 150, xAxisTicks[i], 155);
-            GUI_DispStringAt(xAxisLabels[i], xAxisTicks[i] - 10, 155);
-        }
-
-        for (int i = 0; i < 6; i++) {
-            GUI_DrawLine(25, 170 - yAxisTicks[i], 30, 170 - yAxisTicks[i]);
-            GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
-        }
-
-        for (int i = 1; i < pointIndex; i++)
-        {
-            GUI_DrawLine(10 + (i - 1) * 2 + 30, 150 - graphData[i - 1], 10 + i * 2 + 30, 150 - graphData[i]);
-        }
-
-        /* Update the display */
-        UpdateDisplay(CY_EINK_PARTIAL, true);
-
-        /* Wait for 1 second */
-        CyDelay(1000);
-    }
-}
 
 void InitGraph()
 {
@@ -336,10 +271,19 @@ void InitGraph()
     GUI_DispStringAt("LINE GRAPH DEMO", 132, 5);
 }
 
-int leadFreeProfile[GRAPH_POINTS] = {25, 150, 200, 220, 240, 250, 250, 240, 220, 200, 150, 25, 1, 2, 3};
-int leadProfile[GRAPH_POINTS] = {25, 125, 150, 180, 210, 230, 230, 210, 180, 150, 125, 25, 4, 5, 6};
+typedef struct {
+    int time;
+    int temperature;
+} DataPoint;
 
-int timeStamps[GRAPH_POINTS] = {0, 30, 60, 90, 120, 140, 160, 180, 200, 220, 240, 260, 290, 320, 350};
+DataPoint reflowData[5] = {
+    {0, 0}, {90, 150}, {180, 150}, {220, 245}, {360, 0}
+};
+
+DataPoint leadData[GRAPH_POINTS] = {
+    {0, 25}, {30, 125}, {60, 150}, {90, 180}, {120, 210}, {140, 230}, {160, 230},
+    {180, 210}, {200, 180}, {220, 150}, {240, 125}, {260, 25}
+};
 
 int whichData = 0;
 
@@ -353,25 +297,38 @@ void ShowGraph(void)
         whichData = 1;
     }
     
-    int data[GRAPH_POINTS];
+    int dataSize = 0;
     
     if(whichData == 1)
     {
-        for (int i = 0; i < GRAPH_POINTS; i++) {
-            data[i] = leadFreeProfile[i];
+        dataSize = sizeof(reflowData) / sizeof(reflowData[0]);
+    }
+    else if(whichData == 2)
+    {
+        dataSize = sizeof(leadData) / sizeof(leadData[0]);
+    }
+    
+    DataPoint data[dataSize];
+    
+    if(whichData == 1)
+    {
+        for (int i = 0; i < dataSize; i++) {
+            data[i].temperature = reflowData[i].temperature;
+            data[i].time = reflowData[i].time;
         }
     }
     else if(whichData == 2)
     {
-        for (int i = 0; i < GRAPH_POINTS; i++) {
-            data[i] = leadProfile[i];
+        for (int i = 0; i < dataSize; i++) {
+            data[i].temperature = leadData[i].temperature;
+            data[i].time = leadData[i].time;
         }
     }
     
     /* Define axis labels and ticks */
-    char xAxisLabels[7][6] = {"0", "45", "90", "135", "180", "225", "270"};
+    char xAxisLabels[8][6] = {"0", "60", "120", "180", "240", "300", "360", "420"};
     char yAxisLabels[6][4] = {"0", "60", "120", "180", "240", "300"};
-    int xAxisTicks[7] = {30, 60, 90, 120, 150, 180, 210};
+    int xAxisTicks[8] = {30, 60, 90, 120, 150, 180, 210, 240};
     int yAxisTicks[6] = {20, 50, 80, 110, 140, 170};
     
     /* Draw the graph */
@@ -382,7 +339,7 @@ void ShowGraph(void)
     GUI_DrawLine(30, 150, 250, 150); // X axis
 
     /* Draw axis labels and ticks */
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 8; i++) {
         GUI_DrawLine(xAxisTicks[i], 150, xAxisTicks[i], 155);
         GUI_DispStringAt(xAxisLabels[i], xAxisTicks[i] - 10, 155);
     }
@@ -392,13 +349,96 @@ void ShowGraph(void)
         GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
     }
 
-    for (int i = 1; i < GRAPH_POINTS; i++)
+    for (int i = 1; i < dataSize; i++)
     {
-        GUI_DrawLine(timeStamps[i - 1] * 2 / 3 + 30, 150 - data[i - 1]/2, timeStamps[i]* 2 / 3 + 30, 150 - data[i]/2);
+        GUI_DrawLine(data[i - 1].time / 2 + 30, 150 - data[i - 1].temperature/2, data[i].time / 2 + 30, 150 - data[i].temperature/2);
     }
 
     /* Update the display */
     UpdateDisplay(CY_EINK_PARTIAL, true);
+}
+
+void ShowGraph_WithUpdate(void)
+{
+    ClearScreen();
+    
+    whichData++;
+    
+    if(whichData == 3){
+        whichData = 1;
+    }
+    
+    int dataSize = 0;
+    
+    if(whichData == 1)
+    {
+        dataSize = sizeof(reflowData) / sizeof(reflowData[0]);
+    }
+    else if(whichData == 2)
+    {
+        dataSize = sizeof(leadData) / sizeof(leadData[0]);
+    }
+    
+    DataPoint data[dataSize];
+    
+    if(whichData == 1)
+    {
+        for (int i = 0; i < dataSize; i++) {
+            data[i].temperature = reflowData[i].temperature;
+            data[i].time = reflowData[i].time;
+        }
+    }
+    else if(whichData == 2)
+    {
+        for (int i = 0; i < dataSize; i++) {
+            data[i].temperature = leadData[i].temperature;
+            data[i].time = leadData[i].time;
+        }
+    }
+    
+    /* Define axis labels and ticks */
+    char xAxisLabels[8][6] = {"0", "60", "120", "180", "240", "300", "360", "420"};
+    char yAxisLabels[6][4] = {"0", "60", "120", "180", "240", "300"};
+    int xAxisTicks[8] = {30, 60, 90, 120, 150, 180, 210, 240};
+    int yAxisTicks[6] = {20, 50, 80, 110, 140, 170};
+    
+    /* Draw the graph */
+    GUI_ClearRect(10, 20, 254, 150);  // Clear the area where the graph will be drawn
+    
+    /* Draw X and Y axis */
+    GUI_DrawLine(30, 20, 30, 200); // Y axis
+    GUI_DrawLine(30, 150, 250, 150); // X axis
+
+    /* Draw axis labels and ticks */
+    for (int i = 0; i < 8; i++) {
+        GUI_DrawLine(xAxisTicks[i], 150, xAxisTicks[i], 155);
+        GUI_DispStringAt(xAxisLabels[i], xAxisTicks[i] - 10, 155);
+    }
+
+    for (int i = 0; i < 6; i++) {
+        GUI_DrawLine(25, 170 - yAxisTicks[i], 30, 170 - yAxisTicks[i]);
+        GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
+    }
+    
+    int min = 0;
+    int max = 300;
+    
+    int randomTemperature1 = 0;
+    int randomTemperature2 = 0;
+
+    for(int i = 10; i <= data[dataSize-1].time; i+=10){
+        if(Status_SW2_Read() == 0){
+            break;
+        }
+        
+        randomTemperature2 = (rand() % (max - min + 1)) + min;
+        
+        GUI_DrawLine((i-10) / 2 + 30, 150 - randomTemperature1/2, i / 2 + 30, 150 - randomTemperature2/2);
+        /* Update the display */
+        UpdateDisplay(CY_EINK_PARTIAL, true);
+        CyDelay(1000);
+        randomTemperature1 = randomTemperature2;
+    }
 }
 
 void ShowTable(void)
@@ -414,19 +454,35 @@ void ShowTable(void)
     /* Clear the screen */
     GUI_Clear();
     
-    int data[GRAPH_POINTS];
-    char* data_title[2] = {"Lead-Free Profile", "Lead Profile"};
+    int dataSize = 0;
     
     if(which_data_table == 1)
     {
-        for (int i = start_point; i < GRAPH_POINTS; i++) {
-            data[i] = leadFreeProfile[i];
+        dataSize = sizeof(reflowData) / sizeof(reflowData[0]);
+    }
+    else if(which_data_table == 2)
+    {
+        dataSize = sizeof(leadData) / sizeof(leadData[0]);
+    }
+    
+    dataSize_global = dataSize;
+    
+    DataPoint data[dataSize];
+    
+    char* data_title[2] = {"Reflow Profile", "Lead Profile"};
+    
+    if(which_data_table == 1)
+    {
+        for (int i = start_point; i < dataSize; i++) {
+            data[i].temperature = reflowData[i].temperature;
+            data[i].time = reflowData[i].time;
         }
     }
     else if(which_data_table == 2)
     {
-        for (int i = start_point; i < GRAPH_POINTS; i++) {
-            data[i] = leadProfile[i];
+        for (int i = start_point; i < dataSize; i++) {
+            data[i].temperature = leadData[i].temperature;
+            data[i].time = leadData[i].time;
         }
     }
     
@@ -437,9 +493,9 @@ void ShowTable(void)
     
     int last_point = start_point + 6;
     
-    if(last_point > GRAPH_POINTS)
+    if(last_point > dataSize)
     {
-        last_point = GRAPH_POINTS;
+        last_point = dataSize;
     }
     
     /* Display table data */
@@ -454,8 +510,8 @@ void ShowTable(void)
         char timeString[10];
         char dataString[10];
         
-        sprintf(timeString, "%d", timeStamps[i]);
-        sprintf(dataString, "%d", data[i]);
+        sprintf(timeString, "%d", data[i].time);
+        sprintf(dataString, "%d", data[i].temperature);
         
         GUI_DispStringAt(timeString, 20, 50 + (i-start_point) * 20);
         GUI_DispStringAt(dataString, 100, 50 + (i-start_point) * 20);
@@ -484,8 +540,14 @@ int main(void)
     
     for(;;)
     {
-        ShowTable();
-        WaitforSwitchPressAndRelease();
+        if(modeSwitch == 0){
+            ShowTable();   
+            WaitforSwitchPressAndRelease();
+        }
+        else {
+            ShowGraph_WithUpdate();
+            WaitforSwitchPressAndRelease();
+        }
     }
 }
 

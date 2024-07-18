@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
   27:eInk Library/pervasive_eink_hardware_driver.c **** *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   28:eInk Library/pervasive_eink_hardware_driver.c **** *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   29:eInk Library/pervasive_eink_hardware_driver.c **** *******************************************************************************/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 2
 
 
   30:eInk Library/pervasive_eink_hardware_driver.c **** /******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
   84:eInk Library/pervasive_eink_hardware_driver.c **** driver_data_packet_t  static driverPacket;
   85:eInk Library/pervasive_eink_hardware_driver.c **** 
   86:eInk Library/pervasive_eink_hardware_driver.c **** /* Scan table for the four stages of display update*/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 3
 
 
   87:eInk Library/pervasive_eink_hardware_driver.c **** uint8_t const               scanTable[PV_EINK_SCAN_TABLE_SIZE] =
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
   47              	.LBB59:
   48              		.file 2 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/gpio/cy_gpio.h"
    1:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /***************************************************************************//**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 4
 
 
    2:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \file cy_gpio.h
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
   56:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * 
   57:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * - Port output data register
   58:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * - Port output data set register
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 5
 
 
   59:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * - Port output data clear register
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  113:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   \defgroup group_gpio_functions_gpio       GPIO Functions
  114:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   \defgroup group_gpio_functions_sio        SIO Functions
  115:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   \defgroup group_gpio_functions_interrupt  Port Interrupt Functions
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 6
 
 
  116:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  170:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** ***************************************/
  171:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  172:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 7
 
 
  173:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \addtogroup group_gpio_data_structures
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  227:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_STATUS_MASK               (0x01UL)   /**< Single pin mask for interrupt status
  228:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_EN_MASK                   (0x01UL)   /**< Single pin mask for interrupt status
  229:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_MASKED_MASK               (0x01UL)   /**< Single pin mask for masked interrupt
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 8
 
 
  230:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_SET_MASK                  (0x01UL)   /**< Single pin mask for setting the inte
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  284:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 (CY_GPIO_INTR_RISING   == (intEdge)) || \
  285:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 (CY_GPIO_INTR_FALLING  == (intEdge)) || \
  286:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 (CY_GPIO_INTR_BOTH     == (intEdge)))
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 9
 
 
  287:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  341:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DM_STRONG                      (0x0EUL) /**< \brief Strong Drive. Input buffer on *
  342:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DM_PULLUP_DOWN                 (0x0FUL) /**< \brief Resistive Pull-Up/Down. Input b
  343:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 10
 
 
  344:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  398:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
  399:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_IBUF_SINGLEENDED                (0x00UL) /**< \brief Single ended input buffer */
  400:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_IBUF_DIFFERENTIAL               (0x01UL) /**< \brief Differential input buffer */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 11
 
 
  401:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  455:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  456:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** cy_en_gpio_status_t Cy_GPIO_Pin_Init(GPIO_PRT_Type* base, uint32_t pinNum, const cy_stc_gpio_pin_co
  457:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** cy_en_gpio_status_t Cy_GPIO_Port_Init(GPIO_PRT_Type* base, const cy_stc_gpio_prt_config_t *config);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 12
 
 
  458:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** void Cy_GPIO_Pin_FastInit(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t driveMode, uint32_t outVal
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  512:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_ClearInterrupt(GPIO_PRT_Type* base, uint32_t pinNum);
  513:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetInterruptMask(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value)
  514:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetInterruptMask(GPIO_PRT_Type* base, uint32_t pinNum);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 13
 
 
  515:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetInterruptStatusMasked(GPIO_PRT_Type* base, uint32_t pinNum);
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  569:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * not thread safe as the resource is shared among multiple pins on a port.
  570:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  571:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \funcusage
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 14
 
 
  572:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \snippet gpio/gpio_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_GPIO_SetHSIOM
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  626:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     CY_ASSERT_L2(CY_GPIO_IS_PIN_VALID(pinNum));
  627:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  628:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     portNum = ((uint32_t)(base) - GPIO_BASE) / GPIO_PRT_SECTION_SIZE;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 15
 
 
  629:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     portAddrHSIOM = (HSIOM_PRT_Type*)(HSIOM_BASE + (HSIOM_PRT_SECTION_SIZE * portNum));
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  683:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
  684:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \addtogroup group_gpio_functions_gpio
  685:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 16
 
 
  686:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  740:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *******************************************************************************/
  741:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_Write(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value)
  742:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 17
 
 
  743:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     CY_ASSERT_L2(CY_GPIO_IS_PIN_VALID(pinNum));
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  135:eInk Library/pervasive_eink_hardware_driver.c ****     /* Pull the chip select line LOW to begin communication */
  136:eInk Library/pervasive_eink_hardware_driver.c ****     CY_EINK_CsLow;
  137:eInk Library/pervasive_eink_hardware_driver.c ****     
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 18
 
 
  138:eInk Library/pervasive_eink_hardware_driver.c ****     /* Send the header of data write index */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  159:eInk Library/pervasive_eink_hardware_driver.c **** * Summary: Sends a byte of data to the E-INK driver.
  160:eInk Library/pervasive_eink_hardware_driver.c **** *
  161:eInk Library/pervasive_eink_hardware_driver.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 19
 
 
  162:eInk Library/pervasive_eink_hardware_driver.c **** *  uint8_t regAddr: Display driver register address
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  182:eInk Library/pervasive_eink_hardware_driver.c **** *  from the driver.
  183:eInk Library/pervasive_eink_hardware_driver.c **** *
  184:eInk Library/pervasive_eink_hardware_driver.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 20
 
 
  185:eInk Library/pervasive_eink_hardware_driver.c **** *  uint8_t regAddr: Display driver register address
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  179              	.LVL20:
  180              	.LBB68:
  181              	.LBB69:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 21
 
 
  182              		.loc 2 753 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  217              		.size	Pv_EINK_ReadByte, .-Pv_EINK_ReadByte
  218              		.section	.text.Pv_EINK_Init,"ax",%progbits
  219              		.align	2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 22
 
 
  220              		.global	Pv_EINK_Init
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  255              	.LBB79:
  256 000e 1023     		movs	r3, #16
  257 0010 6360     		str	r3, [r4, #4]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 23
 
 
  258              	.LVL29:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  295 0030 00063240 		.word	1077020160
  296              		.cfi_endproc
  297              	.LFE579:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 24
 
 
  298              		.size	Pv_EINK_Init, .-Pv_EINK_Init
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  324 000e 631C     		adds	r3, r4, #1
  325 0010 2367     		str	r3, [r4, #112]
  285:eInk Library/pervasive_eink_hardware_driver.c ****     dataLineOdd  = &driverPacket.lineDataBySize.odd[0];
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 25
 
 
  326              		.loc 1 285 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  358 0044 0228     		cmp	r0, #2
  359 0046 5CD1     		bne	.L23
  307:eInk Library/pervasive_eink_hardware_driver.c ****                           PV_EINK_DRIVER_ID_COMMAND_DATA)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 26
 
 
  308:eInk Library/pervasive_eink_hardware_driver.c ****                           & PV_EINK_DRIVER_ID_MASK)
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  384 0070 0720     		movs	r0, #7
  385 0072 FFF7FEFF 		bl	Pv_EINK_SendByte
  386              	.LVL46:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 27
 
 
  338:eInk Library/pervasive_eink_hardware_driver.c ****                      PV_EINK_OSC_SETTING_COMMAND_DATA);
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  357:eInk Library/pervasive_eink_hardware_driver.c ****     /* Start the charge pump */
  358:eInk Library/pervasive_eink_hardware_driver.c ****     do
  359:eInk Library/pervasive_eink_hardware_driver.c ****     {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 28
 
 
  360:eInk Library/pervasive_eink_hardware_driver.c ****         /* Start charge pump positive voltage (VGH & VDH on) */
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  442              	.LVL58:
  371:eInk Library/pervasive_eink_hardware_driver.c ****                       PV_EINK_VCOM_DRIVE_ON_COMMAND_DATA);
  443              		.loc 1 371 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 29
 
 
  444 00c6 0F21     		movs	r1, #15
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  486 0100 10BD     		pop	{r4, pc}
  487              	.L23:
  312:eInk Library/pervasive_eink_hardware_driver.c ****     }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 30
 
 
  488              		.loc 1 312 0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  517              		.loc 1 419 0
  518              		.cfi_startproc
  519              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 31
 
 
  520              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  544              		.loc 1 449 0
  545 0020 5A22     		movs	r2, #90
  546 0022 10E0     		b	.L31
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 32
 
 
  547              	.L32:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  587              	.LFE581:
  588              		.size	Pv_EINK_SetTempFactor, .-Pv_EINK_SetTempFactor
  589              		.section	.text.Pv_EINK_FullStageHandler,"ax",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 33
 
 
  590              		.align	2
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  612              		.cfi_offset 11, -8
  613              		.cfi_offset 14, -4
  614 0004 0646     		mov	r6, r0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 34
 
 
  615 0006 0D46     		mov	r5, r1
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  512:eInk Library/pervasive_eink_hardware_driver.c ****         
  636              		.loc 1 512 0
  637 001a FF24     		movs	r4, #255
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 35
 
 
  638              	.LVL74:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  671 0054 0630     		adds	r0, r0, #6
  672 0056 5867     		str	r0, [r3, #116]
  543:eInk Library/pervasive_eink_hardware_driver.c ****         dataLineScan = &bulkDriverPacket[y].lineDataBySize.scan[0];
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 36
 
 
  673              		.loc 1 543 0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  706              		.loc 1 564 0
  707 0084 00EB030C 		add	ip, r0, r3
  708 0088 14F0400F 		tst	r4, #64
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 37
 
 
  709 008c 01D0     		beq	.L92
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  755 00e2 0EEB020C 		add	ip, lr, r2
  756 00e6 14F0800F 		tst	r4, #128
  757 00ea 01D0     		beq	.L96
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 38
 
 
  758              		.loc 1 572 0 is_stmt 0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  806 0140 8CF80010 		strb	r1, [ip]
  579:eInk Library/pervasive_eink_hardware_driver.c ****                                         PV_EINK_BLACK3 : PV_EINK_WHITE3);
  580:eInk Library/pervasive_eink_hardware_driver.c ****                 break;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 39
 
 
  807              		.loc 1 580 0 is_stmt 1 discriminator 4
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  851 0196 01E0     		b	.L63
  852              	.L103:
  853 0198 4FF0010A 		mov	r10, #1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 40
 
 
  854              	.L63:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  900 01ee 14F0020F 		tst	r4, #2
  901 01f2 02D0     		beq	.L107
  902              		.loc 1 598 0 is_stmt 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 41
 
 
  903 01f4 6FF07F0A 		mvn	r10, #127
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  947              		.loc 1 608 0 discriminator 4
  948 0246 4AEA0101 		orr	r1, r10, r1
  949 024a 8CF80010 		strb	r1, [ip]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 42
 
 
  609:eInk Library/pervasive_eink_hardware_driver.c ****                                         PV_EINK_BLACK1 : PV_EINK_NOTHING1);
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  996              		.loc 1 616 0 discriminator 4
  997 02a4 4AEA0101 		orr	r1, r10, r1
  998 02a8 8CF80010 		strb	r1, [ip]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 43
 
 
  617:eInk Library/pervasive_eink_hardware_driver.c ****                                         PV_EINK_BLACK2 : PV_EINK_NOTHING2);
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  628:eInk Library/pervasive_eink_hardware_driver.c ****                 dataLineOdd[x]      |= ((tempByte & PV_EINK_ODD_MASK_C)  ? 
  1042              		.loc 1 628 0 is_stmt 1 discriminator 4
  1043 02f8 14F0040F 		tst	r4, #4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 44
 
 
  1044 02fc 02D0     		beq	.L118
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1092 0358 4FF00C0A 		mov	r10, #12
  1093              	.L81:
  1094              		.loc 1 634 0 discriminator 4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 45
 
 
  1095 035c 4AEA0101 		orr	r1, r10, r1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1136              		.loc 1 645 0 is_stmt 1 discriminator 2
  1137 03a2 C8F1AF03 		rsb	r3, r8, #175
  1138              	.LVL96:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 46
 
 
  1139 03a6 1BB2     		sxth	r3, r3
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  662:eInk Library/pervasive_eink_hardware_driver.c ****                           (uint8_t*) &bulkDriverPacket[y].lineBuffer,
  1174              		.loc 1 662 0 discriminator 3
  1175 03d8 C4EBC403 		rsb	r3, r4, r4, lsl #3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 47
 
 
  1176 03dc C4EB0313 		rsb	r3, r4, r3, lsl #4
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1214 0414 03000080 		.word	-2147483645
  1215 0418 00000000 		.word	.LANCHOR1
  1216 041c 00000000 		.word	bulkDriverPacket
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 48
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 48
 
 
  1217 0420 00000000 		.word	.LANCHOR0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1238              		.cfi_offset 6, -24
  1239              		.cfi_offset 7, -20
  1240              		.cfi_offset 8, -16
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 49
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 49
 
 
  1241              		.cfi_offset 9, -12
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1268 002e FFF7FEFF 		bl	memset
  1269              	.LVL117:
  736:eInk Library/pervasive_eink_hardware_driver.c ****                sizeof(bulkDriverPacket[y].lineBuffer)) ;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 50
 
 
  737:eInk Library/pervasive_eink_hardware_driver.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  759:eInk Library/pervasive_eink_hardware_driver.c ****             dataLineOdd[x]       = ((oldByte ^ newByte) & PV_EINK_ODD_MASK_A)
  1302              		.loc 1 759 0
  1303 0066 0EEB0105 		add	r5, lr, r1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 51
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 51
 
 
  1304 006a 82EA0902 		eor	r2, r2, r9
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1350 00ba 04E0     		b	.L134
  1351              	.L150:
  1352 00bc 4FF0040A 		mov	r10, #4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 52
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 52
 
 
  1353 00c0 01E0     		b	.L134
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  779:eInk Library/pervasive_eink_hardware_driver.c ****             dataLineEven[k]     |= ((oldByte ^ newByte) & PV_EINK_EVEN_MASK_B) 
  1396              		.loc 1 779 0 is_stmt 1 discriminator 8
  1397 010a 5BB2     		sxtb	r3, r3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 53
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 53
 
 
  1398 010c 12F0200F 		tst	r2, #32
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1444 0160 6FF07F02 		mvn	r2, #127
  1445 0164 03E0     		b	.L139
  1446              	.L160:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 54
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 54
 
 
  1447 0166 4022     		movs	r2, #64
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1486 0196 224A     		ldr	r2, .L163+8
  1487 0198 02FA83F3 		sxtah	r3, r2, r3
  1488 019c 1B7A     		ldrb	r3, [r3, #8]	@ zero_extendqisi2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 55
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 55
 
 
  797:eInk Library/pervasive_eink_hardware_driver.c ****                             [(scanlineNumber % PV_EINK_SCAN_TABLE_SIZE)];
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  815:eInk Library/pervasive_eink_hardware_driver.c ****             
  816:eInk Library/pervasive_eink_hardware_driver.c ****             /* Calculate the current line under scan */
  817:eInk Library/pervasive_eink_hardware_driver.c ****             scanlineNumber = PV_EINK_VERTICAL_SIZE - y;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 56
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 56
 
 
  818:eInk Library/pervasive_eink_hardware_driver.c ****             scanlineNumber--;
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1559 0202 8442     		cmp	r4, r0
  1560 0204 D2D8     		bhi	.L145
  834:eInk Library/pervasive_eink_hardware_driver.c ****     
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 57
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 57
 
 
  835:eInk Library/pervasive_eink_hardware_driver.c ****     /* Stop system timer */
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  861:eInk Library/pervasive_eink_hardware_driver.c **** {
  1589              		.loc 1 861 0
  1590              		.cfi_startproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 58
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 58
 
 
  1591              		@ args = 0, pretend = 0, frame = 0
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1628 001e A608     		lsrs	r6, r4, #2
  1629 0020 0C4D     		ldr	r5, .L171
  1630 0022 AA6F     		ldr	r2, [r5, #120]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 59
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 59
 
 
  876:eInk Library/pervasive_eink_hardware_driver.c ****                             [(byteCounter % PV_EINK_SCAN_TABLE_SIZE)];
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1668 0054 00000000 		.word	.LANCHOR0
  1669 0058 00000000 		.word	.LANCHOR1
  1670              		.cfi_endproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 60
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 60
 
 
  1671              	.LFE584:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1697 0008 094A     		ldr	r2, .L177
  1698 000a D154     		strb	r1, [r2, r3]
  915:eInk Library/pervasive_eink_hardware_driver.c ****     {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 61
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 61
 
 
  1699              		.loc 1 915 0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  930:eInk Library/pervasive_eink_hardware_driver.c **** }
  931:eInk Library/pervasive_eink_hardware_driver.c **** 
  932:eInk Library/pervasive_eink_hardware_driver.c **** /*******************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 62
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 62
 
 
  933:eInk Library/pervasive_eink_hardware_driver.c **** * Function Name: pv_eink_status_t Pv_EINK_HardwarePowerOn()
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1770 0012 0822     		movs	r2, #8
  1771 0014 0A4B     		ldr	r3, .L181+4
  1772 0016 9A60     		str	r2, [r3, #8]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 63
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 63
 
 
  1773              	.LVL173:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1815              	.LVL180:
  968:eInk Library/pervasive_eink_hardware_driver.c ****     
  969:eInk Library/pervasive_eink_hardware_driver.c ****     /* Initialize E-INK Driver */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 64
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 64
 
 
  970:eInk Library/pervasive_eink_hardware_driver.c ****     return(Pv_EINK_InitDriver());
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1847              		.loc 1 992 0
  1848 0002 FFF7FEFF 		bl	Pv_EINK_NothingFrame
  1849              	.LVL182:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 65
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 65
 
 
  993:eInk Library/pervasive_eink_hardware_driver.c ****     Pv_EINK_DummyLine();
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
 1012:eInk Library/pervasive_eink_hardware_driver.c ****     Pv_EINK_SendByte(PV_EINK_PWR_SAVING_COMMAND_INDEX,
  1884              		.loc 1 1012 0
  1885 002c 0021     		movs	r1, #0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 66
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 66
 
 
  1886 002e 0B20     		movs	r0, #11
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1920 0064 0720     		movs	r0, #7
  1921 0066 FFF7FEFF 		bl	Pv_EINK_SendByte
  1922              	.LVL196:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 67
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 67
 
 
 1033:eInk Library/pervasive_eink_hardware_driver.c ****                      PV_EINK_OSC_OFF_COMMAND_DATA);
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  1965              	.LBB111:
  1966              		.loc 2 753 0
  1967 008a 2025     		movs	r5, #32
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 68
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 68
 
 
  1968 008c A560     		str	r5, [r4, #8]
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2011 0003 7F       		.byte	127
  2012 0004 FF       		.byte	-1
  2013 0005 FE       		.byte	-2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 69
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 69
 
 
  2014 0006 00       		.byte	0
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2064              		.file 14 "Generated_Source\\PSoC6/PWM.h"
  2065              		.file 15 "eInk Library\\cy_eink_psoc_interface.h"
  2066              		.section	.debug_info,"",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 70
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 70
 
 
  2067              	.Ldebug_info0:
@@ -4147,10 +4147,10 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2070 0006 00000000 		.4byte	.Ldebug_abbrev0
  2071 000a 04       		.byte	0x4
  2072 000b 01       		.uleb128 0x1
- 2073 000c 74050000 		.4byte	.LASF178
+ 2073 000c E7050000 		.4byte	.LASF178
  2074 0010 0C       		.byte	0xc
- 2075 0011 08020000 		.4byte	.LASF179
- 2076 0015 F9090000 		.4byte	.LASF180
+ 2075 0011 7B020000 		.4byte	.LASF179
+ 2076 0015 22000000 		.4byte	.LASF180
  2077 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2078 001d 00000000 		.4byte	0
  2079 0021 00000000 		.4byte	.Ldebug_line0
@@ -4161,116 +4161,116 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2084 002c 03       		.uleb128 0x3
  2085 002d 04       		.byte	0x4
  2086 002e 07       		.byte	0x7
- 2087 002f FB010000 		.4byte	.LASF0
+ 2087 002f 6E020000 		.4byte	.LASF0
  2088 0033 03       		.uleb128 0x3
  2089 0034 08       		.byte	0x8
  2090 0035 05       		.byte	0x5
- 2091 0036 51010000 		.4byte	.LASF1
+ 2091 0036 C4010000 		.4byte	.LASF1
  2092 003a 03       		.uleb128 0x3
  2093 003b 08       		.byte	0x8
  2094 003c 04       		.byte	0x4
- 2095 003d E9070000 		.4byte	.LASF2
+ 2095 003d 5C080000 		.4byte	.LASF2
  2096 0041 04       		.uleb128 0x4
- 2097 0042 0A010000 		.4byte	.LASF4
+ 2097 0042 7D010000 		.4byte	.LASF4
  2098 0046 03       		.byte	0x3
  2099 0047 1B       		.byte	0x1b
  2100 0048 4C000000 		.4byte	0x4c
  2101 004c 03       		.uleb128 0x3
  2102 004d 01       		.byte	0x1
  2103 004e 06       		.byte	0x6
- 2104 004f 6F000000 		.4byte	.LASF3
+ 2104 004f E2000000 		.4byte	.LASF3
  2105 0053 04       		.uleb128 0x4
- 2106 0054 7B000000 		.4byte	.LASF5
+ 2106 0054 EE000000 		.4byte	.LASF5
  2107 0058 03       		.byte	0x3
  2108 0059 1D       		.byte	0x1d
  2109 005a 5E000000 		.4byte	0x5e
  2110 005e 03       		.uleb128 0x3
  2111 005f 01       		.byte	0x1
  2112 0060 08       		.byte	0x8
- 2113 0061 BD060000 		.4byte	.LASF6
+ 2113 0061 30070000 		.4byte	.LASF6
  2114 0065 04       		.uleb128 0x4
- 2115 0066 E1020000 		.4byte	.LASF7
+ 2115 0066 54030000 		.4byte	.LASF7
  2116 006a 03       		.byte	0x3
  2117 006b 29       		.byte	0x29
  2118 006c 70000000 		.4byte	0x70
  2119 0070 03       		.uleb128 0x3
  2120 0071 02       		.byte	0x2
  2121 0072 05       		.byte	0x5
- 2122 0073 36020000 		.4byte	.LASF8
+ 2122 0073 A9020000 		.4byte	.LASF8
  2123 0077 04       		.uleb128 0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 71
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 71
 
 
- 2124 0078 47080000 		.4byte	.LASF9
+ 2124 0078 BA080000 		.4byte	.LASF9
  2125 007c 03       		.byte	0x3
  2126 007d 2B       		.byte	0x2b
  2127 007e 82000000 		.4byte	0x82
  2128 0082 03       		.uleb128 0x3
  2129 0083 02       		.byte	0x2
  2130 0084 07       		.byte	0x7
- 2131 0085 BD030000 		.4byte	.LASF10
+ 2131 0085 30040000 		.4byte	.LASF10
  2132 0089 04       		.uleb128 0x4
- 2133 008a 6D080000 		.4byte	.LASF11
+ 2133 008a E0080000 		.4byte	.LASF11
  2134 008e 03       		.byte	0x3
  2135 008f 3F       		.byte	0x3f
  2136 0090 94000000 		.4byte	0x94
  2137 0094 03       		.uleb128 0x3
  2138 0095 04       		.byte	0x4
  2139 0096 05       		.byte	0x5
- 2140 0097 E1010000 		.4byte	.LASF12
+ 2140 0097 54020000 		.4byte	.LASF12
  2141 009b 04       		.uleb128 0x4
- 2142 009c B4020000 		.4byte	.LASF13
+ 2142 009c 27030000 		.4byte	.LASF13
  2143 00a0 03       		.byte	0x3
  2144 00a1 41       		.byte	0x41
  2145 00a2 A6000000 		.4byte	0xa6
  2146 00a6 03       		.uleb128 0x3
  2147 00a7 04       		.byte	0x4
  2148 00a8 07       		.byte	0x7
- 2149 00a9 56030000 		.4byte	.LASF14
+ 2149 00a9 C9030000 		.4byte	.LASF14
  2150 00ad 03       		.uleb128 0x3
  2151 00ae 08       		.byte	0x8
  2152 00af 07       		.byte	0x7
- 2153 00b0 CF000000 		.4byte	.LASF15
+ 2153 00b0 42010000 		.4byte	.LASF15
  2154 00b4 03       		.uleb128 0x3
  2155 00b5 04       		.byte	0x4
  2156 00b6 07       		.byte	0x7
- 2157 00b7 1E050000 		.4byte	.LASF16
+ 2157 00b7 91050000 		.4byte	.LASF16
  2158 00bb 05       		.uleb128 0x5
  2159 00bc 04       		.byte	0x4
  2160 00bd 03       		.uleb128 0x3
  2161 00be 01       		.byte	0x1
  2162 00bf 08       		.byte	0x8
- 2163 00c0 F5070000 		.4byte	.LASF17
+ 2163 00c0 68080000 		.4byte	.LASF17
  2164 00c4 04       		.uleb128 0x4
- 2165 00c5 0A050000 		.4byte	.LASF18
+ 2165 00c5 7D050000 		.4byte	.LASF18
  2166 00c9 04       		.byte	0x4
  2167 00ca 14       		.byte	0x14
  2168 00cb 41000000 		.4byte	0x41
  2169 00cf 04       		.uleb128 0x4
- 2170 00d0 6F090000 		.4byte	.LASF19
+ 2170 00d0 E2090000 		.4byte	.LASF19
  2171 00d4 04       		.byte	0x4
  2172 00d5 18       		.byte	0x18
  2173 00d6 53000000 		.4byte	0x53
  2174 00da 04       		.uleb128 0x4
- 2175 00db 3A010000 		.4byte	.LASF20
+ 2175 00db AD010000 		.4byte	.LASF20
  2176 00df 04       		.byte	0x4
  2177 00e0 20       		.byte	0x20
  2178 00e1 65000000 		.4byte	0x65
  2179 00e5 04       		.uleb128 0x4
- 2180 00e6 40020000 		.4byte	.LASF21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 72
+ 2180 00e6 B3020000 		.4byte	.LASF21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 72
 
 
  2181 00ea 04       		.byte	0x4
  2182 00eb 24       		.byte	0x24
  2183 00ec 77000000 		.4byte	0x77
  2184 00f0 04       		.uleb128 0x4
- 2185 00f1 B5060000 		.4byte	.LASF22
+ 2185 00f1 28070000 		.4byte	.LASF22
  2186 00f5 04       		.byte	0x4
  2187 00f6 2C       		.byte	0x2c
  2188 00f7 89000000 		.4byte	0x89
  2189 00fb 04       		.uleb128 0x4
- 2190 00fc C7070000 		.4byte	.LASF23
+ 2190 00fc 3A080000 		.4byte	.LASF23
  2191 0100 04       		.byte	0x4
  2192 0101 30       		.byte	0x30
  2193 0102 9B000000 		.4byte	0x9b
@@ -4297,19 +4297,19 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2214 012f 06010000 		.4byte	0x106
  2215 0133 00       		.byte	0
  2216 0134 0C       		.uleb128 0xc
- 2217 0135 27060000 		.4byte	.LASF24
+ 2217 0135 9A060000 		.4byte	.LASF24
  2218 0139 05       		.byte	0x5
  2219 013a 24       		.byte	0x24
  2220 013b 06010000 		.4byte	0x106
  2221 013f 04       		.byte	0x4
  2222 0140 0C       		.uleb128 0xc
- 2223 0141 05040000 		.4byte	.LASF25
+ 2223 0141 78040000 		.4byte	.LASF25
  2224 0145 05       		.byte	0x5
  2225 0146 25       		.byte	0x25
  2226 0147 06010000 		.4byte	0x106
  2227 014b 08       		.byte	0x8
  2228 014c 0C       		.uleb128 0xc
- 2229 014d 47030000 		.4byte	.LASF26
+ 2229 014d BA030000 		.4byte	.LASF26
  2230 0151 05       		.byte	0x5
  2231 0152 26       		.byte	0x26
  2232 0153 06010000 		.4byte	0x106
@@ -4318,37 +4318,37 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2235 0159 494E00   		.ascii	"IN\000"
  2236 015c 05       		.byte	0x5
  2237 015d 27       		.byte	0x27
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 73
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 73
 
 
  2238 015e 0B010000 		.4byte	0x10b
  2239 0162 10       		.byte	0x10
  2240 0163 0C       		.uleb128 0xc
- 2241 0164 51050000 		.4byte	.LASF27
+ 2241 0164 C4050000 		.4byte	.LASF27
  2242 0168 05       		.byte	0x5
  2243 0169 28       		.byte	0x28
  2244 016a 06010000 		.4byte	0x106
  2245 016e 14       		.byte	0x14
  2246 016f 0C       		.uleb128 0xc
- 2247 0170 81030000 		.4byte	.LASF28
+ 2247 0170 F4030000 		.4byte	.LASF28
  2248 0174 05       		.byte	0x5
  2249 0175 29       		.byte	0x29
  2250 0176 06010000 		.4byte	0x106
  2251 017a 18       		.byte	0x18
  2252 017b 0C       		.uleb128 0xc
- 2253 017c D0030000 		.4byte	.LASF29
+ 2253 017c 43040000 		.4byte	.LASF29
  2254 0180 05       		.byte	0x5
  2255 0181 2A       		.byte	0x2a
  2256 0182 0B010000 		.4byte	0x10b
  2257 0186 1C       		.byte	0x1c
  2258 0187 0C       		.uleb128 0xc
- 2259 0188 BD040000 		.4byte	.LASF30
+ 2259 0188 30050000 		.4byte	.LASF30
  2260 018c 05       		.byte	0x5
  2261 018d 2B       		.byte	0x2b
  2262 018e 06010000 		.4byte	0x106
  2263 0192 20       		.byte	0x20
  2264 0193 0C       		.uleb128 0xc
- 2265 0194 B4040000 		.4byte	.LASF31
+ 2265 0194 27050000 		.4byte	.LASF31
  2266 0198 05       		.byte	0x5
  2267 0199 2C       		.byte	0x2c
  2268 019a 06010000 		.4byte	0x106
@@ -4360,40 +4360,40 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2274 01a6 06010000 		.4byte	0x106
  2275 01aa 28       		.byte	0x28
  2276 01ab 0C       		.uleb128 0xc
- 2277 01ac 7A030000 		.4byte	.LASF32
+ 2277 01ac ED030000 		.4byte	.LASF32
  2278 01b0 05       		.byte	0x5
  2279 01b1 2E       		.byte	0x2e
  2280 01b2 06010000 		.4byte	0x106
  2281 01b6 2C       		.byte	0x2c
  2282 01b7 0C       		.uleb128 0xc
- 2283 01b8 B5090000 		.4byte	.LASF33
+ 2283 01b8 280A0000 		.4byte	.LASF33
  2284 01bc 05       		.byte	0x5
  2285 01bd 2F       		.byte	0x2f
  2286 01be 06010000 		.4byte	0x106
  2287 01c2 30       		.byte	0x30
  2288 01c3 0C       		.uleb128 0xc
- 2289 01c4 4B060000 		.4byte	.LASF34
+ 2289 01c4 BE060000 		.4byte	.LASF34
  2290 01c8 05       		.byte	0x5
  2291 01c9 30       		.byte	0x30
  2292 01ca 06010000 		.4byte	0x106
  2293 01ce 34       		.byte	0x34
  2294 01cf 0C       		.uleb128 0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 74
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 74
 
 
- 2295 01d0 50070000 		.4byte	.LASF35
+ 2295 01d0 C3070000 		.4byte	.LASF35
  2296 01d4 05       		.byte	0x5
  2297 01d5 31       		.byte	0x31
  2298 01d6 0B010000 		.4byte	0x10b
  2299 01da 38       		.byte	0x38
  2300 01db 0C       		.uleb128 0xc
- 2301 01dc 3D060000 		.4byte	.LASF36
+ 2301 01dc B0060000 		.4byte	.LASF36
  2302 01e0 05       		.byte	0x5
  2303 01e1 32       		.byte	0x32
  2304 01e2 06010000 		.4byte	0x106
  2305 01e6 3C       		.byte	0x3c
  2306 01e7 0C       		.uleb128 0xc
- 2307 01e8 53060000 		.4byte	.LASF37
+ 2307 01e8 C6060000 		.4byte	.LASF37
  2308 01ec 05       		.byte	0x5
  2309 01ed 33       		.byte	0x33
  2310 01ee F9010000 		.4byte	0x1f9
@@ -4404,7 +4404,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2315 01f9 07       		.uleb128 0x7
  2316 01fa F4010000 		.4byte	0x1f4
  2317 01fe 04       		.uleb128 0x4
- 2318 01ff 39080000 		.4byte	.LASF38
+ 2318 01ff AC080000 		.4byte	.LASF38
  2319 0203 05       		.byte	0x5
  2320 0204 34       		.byte	0x34
  2321 0205 20010000 		.4byte	0x120
@@ -4420,58 +4420,58 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2331 0219 94020000 		.4byte	0x294
  2332 021d 00       		.byte	0
  2333 021e 0E       		.uleb128 0xe
- 2334 021f FA070000 		.4byte	.LASF39
+ 2334 021f 6D080000 		.4byte	.LASF39
  2335 0223 05       		.byte	0x5
  2336 0224 3B       		.byte	0x3b
  2337 0225 0B010000 		.4byte	0x10b
  2338 0229 0040     		.2byte	0x4000
  2339 022b 0E       		.uleb128 0xe
- 2340 022c 06080000 		.4byte	.LASF40
+ 2340 022c 79080000 		.4byte	.LASF40
  2341 0230 05       		.byte	0x5
  2342 0231 3C       		.byte	0x3c
  2343 0232 0B010000 		.4byte	0x10b
  2344 0236 0440     		.2byte	0x4004
  2345 0238 0E       		.uleb128 0xe
- 2346 0239 12080000 		.4byte	.LASF41
+ 2346 0239 85080000 		.4byte	.LASF41
  2347 023d 05       		.byte	0x5
  2348 023e 3D       		.byte	0x3d
  2349 023f 0B010000 		.4byte	0x10b
  2350 0243 0840     		.2byte	0x4008
  2351 0245 0E       		.uleb128 0xe
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 75
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 75
 
 
- 2352 0246 1E080000 		.4byte	.LASF42
+ 2352 0246 91080000 		.4byte	.LASF42
  2353 024a 05       		.byte	0x5
  2354 024b 3E       		.byte	0x3e
  2355 024c 0B010000 		.4byte	0x10b
  2356 0250 0C40     		.2byte	0x400c
  2357 0252 0E       		.uleb128 0xe
- 2358 0253 E3040000 		.4byte	.LASF43
+ 2358 0253 56050000 		.4byte	.LASF43
  2359 0257 05       		.byte	0x5
  2360 0258 3F       		.byte	0x3f
  2361 0259 0B010000 		.4byte	0x10b
  2362 025d 1040     		.2byte	0x4010
  2363 025f 0E       		.uleb128 0xe
- 2364 0260 62070000 		.4byte	.LASF44
+ 2364 0260 D5070000 		.4byte	.LASF44
  2365 0264 05       		.byte	0x5
  2366 0265 40       		.byte	0x40
  2367 0266 06010000 		.4byte	0x106
  2368 026a 1440     		.2byte	0x4014
  2369 026c 0E       		.uleb128 0xe
- 2370 026d A9000000 		.4byte	.LASF45
+ 2370 026d 1C010000 		.4byte	.LASF45
  2371 0271 05       		.byte	0x5
  2372 0272 41       		.byte	0x41
  2373 0273 06010000 		.4byte	0x106
  2374 0277 1840     		.2byte	0x4018
  2375 0279 0E       		.uleb128 0xe
- 2376 027a 84080000 		.4byte	.LASF46
+ 2376 027a F7080000 		.4byte	.LASF46
  2377 027e 05       		.byte	0x5
  2378 027f 42       		.byte	0x42
  2379 0280 0B010000 		.4byte	0x10b
  2380 0284 1C40     		.2byte	0x401c
  2381 0286 0E       		.uleb128 0xe
- 2382 0287 8B030000 		.4byte	.LASF47
+ 2382 0287 FE030000 		.4byte	.LASF47
  2383 028b 05       		.byte	0x5
  2384 028c 43       		.byte	0x43
  2385 028d 06010000 		.4byte	0x106
@@ -4485,49 +4485,49 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2393 02a2 7F       		.byte	0x7f
  2394 02a3 00       		.byte	0
  2395 02a4 04       		.uleb128 0x4
- 2396 02a5 BD090000 		.4byte	.LASF48
+ 2396 02a5 300A0000 		.4byte	.LASF48
  2397 02a9 05       		.byte	0x5
  2398 02aa 44       		.byte	0x44
  2399 02ab 09020000 		.4byte	0x209
  2400 02af 0F       		.uleb128 0xf
- 2401 02b0 4F030000 		.4byte	.LASF49
+ 2401 02b0 C2030000 		.4byte	.LASF49
  2402 02b4 06       		.byte	0x6
  2403 02b5 C401     		.2byte	0x1c4
  2404 02b7 BD000000 		.4byte	0xbd
  2405 02bb 03       		.uleb128 0x3
  2406 02bc 04       		.byte	0x4
  2407 02bd 04       		.byte	0x4
- 2408 02be 37060000 		.4byte	.LASF50
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 76
+ 2408 02be AA060000 		.4byte	.LASF50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 76
 
 
  2409 02c2 03       		.uleb128 0x3
  2410 02c3 08       		.byte	0x8
  2411 02c4 04       		.byte	0x4
- 2412 02c5 970A0000 		.4byte	.LASF51
+ 2412 02c5 9C0A0000 		.4byte	.LASF51
  2413 02c9 0F       		.uleb128 0xf
- 2414 02ca AF090000 		.4byte	.LASF52
+ 2414 02ca 220A0000 		.4byte	.LASF52
  2415 02ce 06       		.byte	0x6
  2416 02cf 8903     		.2byte	0x389
  2417 02d1 DA000000 		.4byte	0xda
  2418 02d5 03       		.uleb128 0x3
  2419 02d6 01       		.byte	0x1
  2420 02d7 02       		.byte	0x2
- 2421 02d8 AF060000 		.4byte	.LASF53
+ 2421 02d8 22070000 		.4byte	.LASF53
  2422 02dc 10       		.uleb128 0x10
- 2423 02dd EE040000 		.4byte	.LASF74
+ 2423 02dd 61050000 		.4byte	.LASF74
  2424 02e1 4C       		.byte	0x4c
  2425 02e2 07       		.byte	0x7
  2426 02e3 2B       		.byte	0x2b
  2427 02e4 CD030000 		.4byte	0x3cd
  2428 02e8 0C       		.uleb128 0xc
- 2429 02e9 A2000000 		.4byte	.LASF54
+ 2429 02e9 15010000 		.4byte	.LASF54
  2430 02ed 07       		.byte	0x7
  2431 02ee 2D       		.byte	0x2d
  2432 02ef FB000000 		.4byte	0xfb
  2433 02f3 00       		.byte	0
  2434 02f4 0C       		.uleb128 0xc
- 2435 02f5 E6000000 		.4byte	.LASF55
+ 2435 02f5 59010000 		.4byte	.LASF55
  2436 02f9 07       		.byte	0x7
  2437 02fa 2F       		.byte	0x2f
  2438 02fb FB000000 		.4byte	0xfb
@@ -4539,26 +4539,26 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2444 0307 FB000000 		.4byte	0xfb
  2445 030b 08       		.byte	0x8
  2446 030c 0C       		.uleb128 0xc
- 2447 030d 85000000 		.4byte	.LASF57
+ 2447 030d F8000000 		.4byte	.LASF57
  2448 0311 07       		.byte	0x7
  2449 0312 31       		.byte	0x31
  2450 0313 FB000000 		.4byte	0xfb
  2451 0317 0C       		.byte	0xc
  2452 0318 0C       		.uleb128 0xc
- 2453 0319 97070000 		.4byte	.LASF58
+ 2453 0319 0A080000 		.4byte	.LASF58
  2454 031d 07       		.byte	0x7
  2455 031e 33       		.byte	0x33
  2456 031f FB000000 		.4byte	0xfb
  2457 0323 10       		.byte	0x10
  2458 0324 0C       		.uleb128 0xc
- 2459 0325 E0070000 		.4byte	.LASF59
+ 2459 0325 53080000 		.4byte	.LASF59
  2460 0329 07       		.byte	0x7
  2461 032a 34       		.byte	0x34
  2462 032b FB000000 		.4byte	0xfb
  2463 032f 14       		.byte	0x14
  2464 0330 0C       		.uleb128 0xc
- 2465 0331 F0090000 		.4byte	.LASF60
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 77
+ 2465 0331 630A0000 		.4byte	.LASF60
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 77
 
 
  2466 0335 07       		.byte	0x7
@@ -4566,119 +4566,119 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2468 0337 FB000000 		.4byte	0xfb
  2469 033b 18       		.byte	0x18
  2470 033c 0C       		.uleb128 0xc
- 2471 033d 68030000 		.4byte	.LASF61
+ 2471 033d DB030000 		.4byte	.LASF61
  2472 0341 07       		.byte	0x7
  2473 0342 36       		.byte	0x36
  2474 0343 D5020000 		.4byte	0x2d5
  2475 0347 1C       		.byte	0x1c
  2476 0348 0C       		.uleb128 0xc
- 2477 0349 94080000 		.4byte	.LASF62
+ 2477 0349 07090000 		.4byte	.LASF62
  2478 034d 07       		.byte	0x7
  2479 034e 38       		.byte	0x38
  2480 034f FB000000 		.4byte	0xfb
  2481 0353 20       		.byte	0x20
  2482 0354 0C       		.uleb128 0xc
- 2483 0355 8D020000 		.4byte	.LASF63
+ 2483 0355 00030000 		.4byte	.LASF63
  2484 0359 07       		.byte	0x7
  2485 035a 39       		.byte	0x39
  2486 035b FB000000 		.4byte	0xfb
  2487 035f 24       		.byte	0x24
  2488 0360 0C       		.uleb128 0xc
- 2489 0361 B7000000 		.4byte	.LASF64
+ 2489 0361 2A010000 		.4byte	.LASF64
  2490 0365 07       		.byte	0x7
  2491 0366 3B       		.byte	0x3b
  2492 0367 FB000000 		.4byte	0xfb
  2493 036b 28       		.byte	0x28
  2494 036c 0C       		.uleb128 0xc
- 2495 036d C7090000 		.4byte	.LASF65
+ 2495 036d 3A0A0000 		.4byte	.LASF65
  2496 0371 07       		.byte	0x7
  2497 0372 3C       		.byte	0x3c
  2498 0373 FB000000 		.4byte	0xfb
  2499 0377 2C       		.byte	0x2c
  2500 0378 0C       		.uleb128 0xc
- 2501 0379 A5080000 		.4byte	.LASF66
+ 2501 0379 18090000 		.4byte	.LASF66
  2502 037d 07       		.byte	0x7
  2503 037e 3E       		.byte	0x3e
  2504 037f FB000000 		.4byte	0xfb
  2505 0383 30       		.byte	0x30
  2506 0384 0C       		.uleb128 0xc
- 2507 0385 CD080000 		.4byte	.LASF67
+ 2507 0385 40090000 		.4byte	.LASF67
  2508 0389 07       		.byte	0x7
  2509 038a 3F       		.byte	0x3f
  2510 038b FB000000 		.4byte	0xfb
  2511 038f 34       		.byte	0x34
  2512 0390 0C       		.uleb128 0xc
- 2513 0391 A9040000 		.4byte	.LASF68
+ 2513 0391 1C050000 		.4byte	.LASF68
  2514 0395 07       		.byte	0x7
  2515 0396 41       		.byte	0x41
  2516 0397 FB000000 		.4byte	0xfb
  2517 039b 38       		.byte	0x38
  2518 039c 0C       		.uleb128 0xc
- 2519 039d 94000000 		.4byte	.LASF69
+ 2519 039d 07010000 		.4byte	.LASF69
  2520 03a1 07       		.byte	0x7
  2521 03a2 42       		.byte	0x42
  2522 03a3 FB000000 		.4byte	0xfb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 78
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 78
 
 
  2523 03a7 3C       		.byte	0x3c
  2524 03a8 0C       		.uleb128 0xc
- 2525 03a9 C3080000 		.4byte	.LASF70
+ 2525 03a9 36090000 		.4byte	.LASF70
  2526 03ad 07       		.byte	0x7
  2527 03ae 44       		.byte	0x44
  2528 03af FB000000 		.4byte	0xfb
  2529 03b3 40       		.byte	0x40
  2530 03b4 0C       		.uleb128 0xc
- 2531 03b5 9A040000 		.4byte	.LASF71
+ 2531 03b5 0D050000 		.4byte	.LASF71
  2532 03b9 07       		.byte	0x7
  2533 03ba 45       		.byte	0x45
  2534 03bb FB000000 		.4byte	0xfb
  2535 03bf 44       		.byte	0x44
  2536 03c0 0C       		.uleb128 0xc
- 2537 03c1 8C0A0000 		.4byte	.LASF72
+ 2537 03c1 910A0000 		.4byte	.LASF72
  2538 03c5 07       		.byte	0x7
  2539 03c6 47       		.byte	0x47
  2540 03c7 FB000000 		.4byte	0xfb
  2541 03cb 48       		.byte	0x48
  2542 03cc 00       		.byte	0
  2543 03cd 04       		.uleb128 0x4
- 2544 03ce 5F010000 		.4byte	.LASF73
+ 2544 03ce D2010000 		.4byte	.LASF73
  2545 03d2 07       		.byte	0x7
  2546 03d3 48       		.byte	0x48
  2547 03d4 DC020000 		.4byte	0x2dc
  2548 03d8 10       		.uleb128 0x10
- 2549 03d9 AF070000 		.4byte	.LASF75
+ 2549 03d9 22080000 		.4byte	.LASF75
  2550 03dd 64       		.byte	0x64
  2551 03de 08       		.byte	0x8
  2552 03df 2B       		.byte	0x2b
  2553 03e0 11050000 		.4byte	0x511
  2554 03e4 0C       		.uleb128 0xc
- 2555 03e5 2F060000 		.4byte	.LASF76
+ 2555 03e5 A2060000 		.4byte	.LASF76
  2556 03e9 08       		.byte	0x8
  2557 03ea 2D       		.byte	0x2d
  2558 03eb FB000000 		.4byte	0xfb
  2559 03ef 00       		.byte	0
  2560 03f0 0C       		.uleb128 0xc
- 2561 03f1 E6000000 		.4byte	.LASF55
+ 2561 03f1 59010000 		.4byte	.LASF55
  2562 03f5 08       		.byte	0x8
  2563 03f6 2F       		.byte	0x2f
  2564 03f7 FB000000 		.4byte	0xfb
  2565 03fb 04       		.byte	0x4
  2566 03fc 0C       		.uleb128 0xc
- 2567 03fd 56000000 		.4byte	.LASF77
+ 2567 03fd C9000000 		.4byte	.LASF77
  2568 0401 08       		.byte	0x8
  2569 0402 30       		.byte	0x30
  2570 0403 FB000000 		.4byte	0xfb
  2571 0407 08       		.byte	0x8
  2572 0408 0C       		.uleb128 0xc
- 2573 0409 8B040000 		.4byte	.LASF78
+ 2573 0409 FE040000 		.4byte	.LASF78
  2574 040d 08       		.byte	0x8
  2575 040e 31       		.byte	0x31
  2576 040f FB000000 		.4byte	0xfb
  2577 0413 0C       		.byte	0xc
  2578 0414 0C       		.uleb128 0xc
  2579 0415 00000000 		.4byte	.LASF56
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 79
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 79
 
 
  2580 0419 08       		.byte	0x8
@@ -4686,119 +4686,119 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2582 041b FB000000 		.4byte	0xfb
  2583 041f 10       		.byte	0x10
  2584 0420 0C       		.uleb128 0xc
- 2585 0421 EB080000 		.4byte	.LASF79
+ 2585 0421 5E090000 		.4byte	.LASF79
  2586 0425 08       		.byte	0x8
  2587 0426 33       		.byte	0x33
  2588 0427 FB000000 		.4byte	0xfb
  2589 042b 14       		.byte	0x14
  2590 042c 0C       		.uleb128 0xc
- 2591 042d 32010000 		.4byte	.LASF80
+ 2591 042d A5010000 		.4byte	.LASF80
  2592 0431 08       		.byte	0x8
  2593 0432 34       		.byte	0x34
  2594 0433 FB000000 		.4byte	0xfb
  2595 0437 18       		.byte	0x18
  2596 0438 0C       		.uleb128 0xc
- 2597 0439 80070000 		.4byte	.LASF81
+ 2597 0439 F3070000 		.4byte	.LASF81
  2598 043d 08       		.byte	0x8
  2599 043e 35       		.byte	0x35
  2600 043f D5020000 		.4byte	0x2d5
  2601 0443 1C       		.byte	0x1c
  2602 0444 0C       		.uleb128 0xc
- 2603 0445 E0070000 		.4byte	.LASF59
+ 2603 0445 53080000 		.4byte	.LASF59
  2604 0449 08       		.byte	0x8
  2605 044a 36       		.byte	0x36
  2606 044b FB000000 		.4byte	0xfb
  2607 044f 20       		.byte	0x20
  2608 0450 0C       		.uleb128 0xc
- 2609 0451 F0090000 		.4byte	.LASF60
+ 2609 0451 630A0000 		.4byte	.LASF60
  2610 0455 08       		.byte	0x8
  2611 0456 37       		.byte	0x37
  2612 0457 FB000000 		.4byte	0xfb
  2613 045b 24       		.byte	0x24
  2614 045c 0C       		.uleb128 0xc
- 2615 045d 68030000 		.4byte	.LASF61
+ 2615 045d DB030000 		.4byte	.LASF61
  2616 0461 08       		.byte	0x8
  2617 0462 38       		.byte	0x38
  2618 0463 D5020000 		.4byte	0x2d5
  2619 0467 28       		.byte	0x28
  2620 0468 0C       		.uleb128 0xc
- 2621 0469 94080000 		.4byte	.LASF62
+ 2621 0469 07090000 		.4byte	.LASF62
  2622 046d 08       		.byte	0x8
  2623 046e 3A       		.byte	0x3a
  2624 046f FB000000 		.4byte	0xfb
  2625 0473 2C       		.byte	0x2c
  2626 0474 0C       		.uleb128 0xc
- 2627 0475 7E040000 		.4byte	.LASF82
+ 2627 0475 F1040000 		.4byte	.LASF82
  2628 0479 08       		.byte	0x8
  2629 047a 3B       		.byte	0x3b
  2630 047b FB000000 		.4byte	0xfb
  2631 047f 30       		.byte	0x30
  2632 0480 0C       		.uleb128 0xc
- 2633 0481 61090000 		.4byte	.LASF83
+ 2633 0481 D4090000 		.4byte	.LASF83
  2634 0485 08       		.byte	0x8
  2635 0486 3C       		.byte	0x3c
  2636 0487 FB000000 		.4byte	0xfb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 80
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 80
 
 
  2637 048b 34       		.byte	0x34
  2638 048c 0C       		.uleb128 0xc
- 2639 048d 5D060000 		.4byte	.LASF84
+ 2639 048d D0060000 		.4byte	.LASF84
  2640 0491 08       		.byte	0x8
  2641 0492 3D       		.byte	0x3d
  2642 0493 FB000000 		.4byte	0xfb
  2643 0497 38       		.byte	0x38
  2644 0498 0C       		.uleb128 0xc
- 2645 0499 AF030000 		.4byte	.LASF85
+ 2645 0499 22040000 		.4byte	.LASF85
  2646 049d 08       		.byte	0x8
  2647 049e 3E       		.byte	0x3e
  2648 049f FB000000 		.4byte	0xfb
  2649 04a3 3C       		.byte	0x3c
  2650 04a4 0C       		.uleb128 0xc
- 2651 04a5 90090000 		.4byte	.LASF86
+ 2651 04a5 030A0000 		.4byte	.LASF86
  2652 04a9 08       		.byte	0x8
  2653 04aa 40       		.byte	0x40
  2654 04ab FB000000 		.4byte	0xfb
  2655 04af 40       		.byte	0x40
  2656 04b0 0C       		.uleb128 0xc
- 2657 04b1 C7090000 		.4byte	.LASF65
+ 2657 04b1 3A0A0000 		.4byte	.LASF65
  2658 04b5 08       		.byte	0x8
  2659 04b6 41       		.byte	0x41
  2660 04b7 FB000000 		.4byte	0xfb
  2661 04bb 44       		.byte	0x44
  2662 04bc 0C       		.uleb128 0xc
- 2663 04bd A5080000 		.4byte	.LASF66
+ 2663 04bd 18090000 		.4byte	.LASF66
  2664 04c1 08       		.byte	0x8
  2665 04c2 43       		.byte	0x43
  2666 04c3 FB000000 		.4byte	0xfb
  2667 04c7 48       		.byte	0x48
  2668 04c8 0C       		.uleb128 0xc
- 2669 04c9 CD080000 		.4byte	.LASF67
+ 2669 04c9 40090000 		.4byte	.LASF67
  2670 04cd 08       		.byte	0x8
  2671 04ce 44       		.byte	0x44
  2672 04cf FB000000 		.4byte	0xfb
  2673 04d3 4C       		.byte	0x4c
  2674 04d4 0C       		.uleb128 0xc
- 2675 04d5 A9040000 		.4byte	.LASF68
+ 2675 04d5 1C050000 		.4byte	.LASF68
  2676 04d9 08       		.byte	0x8
  2677 04da 46       		.byte	0x46
  2678 04db FB000000 		.4byte	0xfb
  2679 04df 50       		.byte	0x50
  2680 04e0 0C       		.uleb128 0xc
- 2681 04e1 0D040000 		.4byte	.LASF87
+ 2681 04e1 80040000 		.4byte	.LASF87
  2682 04e5 08       		.byte	0x8
  2683 04e6 47       		.byte	0x47
  2684 04e7 FB000000 		.4byte	0xfb
  2685 04eb 54       		.byte	0x54
  2686 04ec 0C       		.uleb128 0xc
- 2687 04ed 22000000 		.4byte	.LASF88
+ 2687 04ed 95000000 		.4byte	.LASF88
  2688 04f1 08       		.byte	0x8
  2689 04f2 49       		.byte	0x49
  2690 04f3 FB000000 		.4byte	0xfb
  2691 04f7 58       		.byte	0x58
  2692 04f8 0C       		.uleb128 0xc
- 2693 04f9 9A040000 		.4byte	.LASF71
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 81
+ 2693 04f9 0D050000 		.4byte	.LASF71
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 81
 
 
  2694 04fd 08       		.byte	0x8
@@ -4806,7 +4806,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2696 04ff FB000000 		.4byte	0xfb
  2697 0503 5C       		.byte	0x5c
  2698 0504 0C       		.uleb128 0xc
- 2699 0505 8C0A0000 		.4byte	.LASF72
+ 2699 0505 910A0000 		.4byte	.LASF72
  2700 0509 08       		.byte	0x8
  2701 050a 4C       		.byte	0x4c
  2702 050b FB000000 		.4byte	0xfb
@@ -4829,81 +4829,81 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2719 052e 04       		.byte	0x4
  2720 052f CF000000 		.4byte	0xcf
  2721 0533 0F       		.uleb128 0xf
- 2722 0534 C3010000 		.4byte	.LASF90
+ 2722 0534 36020000 		.4byte	.LASF90
  2723 0538 09       		.byte	0x9
  2724 0539 BF01     		.2byte	0x1bf
  2725 053b 1C050000 		.4byte	0x51c
  2726 053f 14       		.uleb128 0x14
- 2727 0540 7D010000 		.4byte	.LASF91
+ 2727 0540 F0010000 		.4byte	.LASF91
  2728 0544 24       		.byte	0x24
  2729 0545 09       		.byte	0x9
  2730 0546 4102     		.2byte	0x241
  2731 0548 C2050000 		.4byte	0x5c2
  2732 054c 15       		.uleb128 0x15
- 2733 054d 5A090000 		.4byte	.LASF92
+ 2733 054d CD090000 		.4byte	.LASF92
  2734 0551 09       		.byte	0x9
  2735 0552 4402     		.2byte	0x244
  2736 0554 06010000 		.4byte	0x106
  2737 0558 00       		.byte	0
  2738 0559 15       		.uleb128 0x15
- 2739 055a 16090000 		.4byte	.LASF93
+ 2739 055a 89090000 		.4byte	.LASF93
  2740 055e 09       		.byte	0x9
  2741 055f 4602     		.2byte	0x246
  2742 0561 BB000000 		.4byte	0xbb
  2743 0565 04       		.byte	0x4
  2744 0566 15       		.uleb128 0x15
- 2745 0567 AA020000 		.4byte	.LASF94
+ 2745 0567 1D030000 		.4byte	.LASF94
  2746 056b 09       		.byte	0x9
  2747 056c 4702     		.2byte	0x247
  2748 056e FB000000 		.4byte	0xfb
  2749 0572 08       		.byte	0x8
  2750 0573 15       		.uleb128 0x15
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 82
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 82
 
 
- 2751 0574 EB020000 		.4byte	.LASF95
+ 2751 0574 5E030000 		.4byte	.LASF95
  2752 0578 09       		.byte	0x9
  2753 0579 4802     		.2byte	0x248
  2754 057b 06010000 		.4byte	0x106
  2755 057f 0C       		.byte	0xc
  2756 0580 15       		.uleb128 0x15
- 2757 0581 32040000 		.4byte	.LASF96
+ 2757 0581 A5040000 		.4byte	.LASF96
  2758 0585 09       		.byte	0x9
  2759 0586 4A02     		.2byte	0x24a
  2760 0588 BB000000 		.4byte	0xbb
  2761 058c 10       		.byte	0x10
  2762 058d 15       		.uleb128 0x15
- 2763 058e 31030000 		.4byte	.LASF97
+ 2763 058e A4030000 		.4byte	.LASF97
  2764 0592 09       		.byte	0x9
  2765 0593 4B02     		.2byte	0x24b
  2766 0595 FB000000 		.4byte	0xfb
  2767 0599 14       		.byte	0x14
  2768 059a 15       		.uleb128 0x15
- 2769 059b 9E0A0000 		.4byte	.LASF98
+ 2769 059b A30A0000 		.4byte	.LASF98
  2770 059f 09       		.byte	0x9
  2771 05a0 4C02     		.2byte	0x24c
  2772 05a2 06010000 		.4byte	0x106
  2773 05a6 18       		.byte	0x18
  2774 05a7 15       		.uleb128 0x15
- 2775 05a8 1B040000 		.4byte	.LASF99
+ 2775 05a8 8E040000 		.4byte	.LASF99
  2776 05ac 09       		.byte	0x9
  2777 05ad 5202     		.2byte	0x252
  2778 05af 33050000 		.4byte	0x533
  2779 05b3 1C       		.byte	0x1c
  2780 05b4 15       		.uleb128 0x15
- 2781 05b5 0E090000 		.4byte	.LASF100
+ 2781 05b5 81090000 		.4byte	.LASF100
  2782 05b9 09       		.byte	0x9
  2783 05ba 5502     		.2byte	0x255
  2784 05bc FB000000 		.4byte	0xfb
  2785 05c0 20       		.byte	0x20
  2786 05c1 00       		.byte	0
  2787 05c2 0F       		.uleb128 0xf
- 2788 05c3 56040000 		.4byte	.LASF101
+ 2788 05c3 C9040000 		.4byte	.LASF101
  2789 05c7 09       		.byte	0x9
  2790 05c8 5802     		.2byte	0x258
  2791 05ca 3F050000 		.4byte	0x53f
  2792 05ce 04       		.uleb128 0x4
- 2793 05cf F5000000 		.4byte	.LASF102
+ 2793 05cf 68010000 		.4byte	.LASF102
  2794 05d3 0A       		.byte	0xa
  2795 05d4 35       		.byte	0x35
  2796 05d5 5E000000 		.4byte	0x5e
@@ -4914,29 +4914,29 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2801 05e0 39       		.byte	0x39
  2802 05e1 0A060000 		.4byte	0x60a
  2803 05e5 17       		.uleb128 0x17
- 2804 05e6 A0060000 		.4byte	.LASF103
+ 2804 05e6 13070000 		.4byte	.LASF103
  2805 05ea 00       		.byte	0
  2806 05eb 17       		.uleb128 0x17
- 2807 05ec F2030000 		.4byte	.LASF104
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 83
+ 2807 05ec 65040000 		.4byte	.LASF104
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 83
 
 
  2808 05f0 01       		.byte	0x1
  2809 05f1 17       		.uleb128 0x17
- 2810 05f2 77060000 		.4byte	.LASF105
+ 2810 05f2 EA060000 		.4byte	.LASF105
  2811 05f6 02       		.byte	0x2
  2812 05f7 17       		.uleb128 0x17
- 2813 05f8 31090000 		.4byte	.LASF106
+ 2813 05f8 A4090000 		.4byte	.LASF106
  2814 05fc 03       		.byte	0x3
  2815 05fd 17       		.uleb128 0x17
- 2816 05fe 670A0000 		.4byte	.LASF107
+ 2816 05fe 6C0A0000 		.4byte	.LASF107
  2817 0602 04       		.byte	0x4
  2818 0603 17       		.uleb128 0x17
- 2819 0604 3D000000 		.4byte	.LASF108
+ 2819 0604 B0000000 		.4byte	.LASF108
  2820 0608 05       		.byte	0x5
  2821 0609 00       		.byte	0
  2822 060a 04       		.uleb128 0x4
- 2823 060b 66060000 		.4byte	.LASF109
+ 2823 060b D9060000 		.4byte	.LASF109
  2824 060f 0A       		.byte	0xa
  2825 0610 40       		.byte	0x40
  2826 0611 D9050000 		.4byte	0x5d9
@@ -4947,38 +4947,38 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2831 061c 44       		.byte	0x44
  2832 061d 3A060000 		.4byte	0x63a
  2833 0621 17       		.uleb128 0x17
- 2834 0622 38040000 		.4byte	.LASF110
+ 2834 0622 AB040000 		.4byte	.LASF110
  2835 0626 00       		.byte	0
  2836 0627 17       		.uleb128 0x17
- 2837 0628 47040000 		.4byte	.LASF111
+ 2837 0628 BA040000 		.4byte	.LASF111
  2838 062c 01       		.byte	0x1
  2839 062d 17       		.uleb128 0x17
- 2840 062e 42010000 		.4byte	.LASF112
+ 2840 062e B5010000 		.4byte	.LASF112
  2841 0632 02       		.byte	0x2
  2842 0633 17       		.uleb128 0x17
- 2843 0634 6F040000 		.4byte	.LASF113
+ 2843 0634 E2040000 		.4byte	.LASF113
  2844 0638 03       		.byte	0x3
  2845 0639 00       		.byte	0
  2846 063a 04       		.uleb128 0x4
- 2847 063b D3040000 		.4byte	.LASF114
+ 2847 063b 46050000 		.4byte	.LASF114
  2848 063f 0A       		.byte	0xa
  2849 0640 49       		.byte	0x49
  2850 0641 15060000 		.4byte	0x615
  2851 0645 10       		.uleb128 0x10
- 2852 0646 24040000 		.4byte	.LASF115
+ 2852 0646 97040000 		.4byte	.LASF115
  2853 064a 6F       		.byte	0x6f
  2854 064b 01       		.byte	0x1
  2855 064c 33       		.byte	0x33
  2856 064d 82060000 		.4byte	0x682
  2857 0651 0C       		.uleb128 0xc
- 2858 0652 5B020000 		.4byte	.LASF116
+ 2858 0652 CE020000 		.4byte	.LASF116
  2859 0656 01       		.byte	0x1
  2860 0657 36       		.byte	0x36
  2861 0658 CF000000 		.4byte	0xcf
  2862 065c 00       		.byte	0
  2863 065d 0C       		.uleb128 0xc
- 2864 065e 3A050000 		.4byte	.LASF117
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 84
+ 2864 065e AD050000 		.4byte	.LASF117
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 84
 
 
  2865 0662 01       		.byte	0x1
@@ -4986,7 +4986,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2867 0664 82060000 		.4byte	0x682
  2868 0668 01       		.byte	0x1
  2869 0669 0C       		.uleb128 0xc
- 2870 066a EA010000 		.4byte	.LASF118
+ 2870 066a 5D020000 		.4byte	.LASF118
  2871 066e 01       		.byte	0x1
  2872 066f 3C       		.byte	0x3c
  2873 0670 92060000 		.4byte	0x692
@@ -5018,12 +5018,12 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2899 06a5 43       		.byte	0x43
  2900 06a6 C1060000 		.4byte	0x6c1
  2901 06aa 19       		.uleb128 0x19
- 2902 06ab 27070000 		.4byte	.LASF119
+ 2902 06ab 9A070000 		.4byte	.LASF119
  2903 06af 01       		.byte	0x1
  2904 06b0 46       		.byte	0x46
  2905 06b1 45060000 		.4byte	0x645
  2906 06b5 19       		.uleb128 0x19
- 2907 06b6 C4000000 		.4byte	.LASF120
+ 2907 06b6 37010000 		.4byte	.LASF120
  2908 06ba 01       		.byte	0x1
  2909 06bb 49       		.byte	0x49
  2910 06bc C1060000 		.4byte	0x6c1
@@ -5036,31 +5036,31 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2917 06cf 6E       		.byte	0x6e
  2918 06d0 00       		.byte	0
  2919 06d1 04       		.uleb128 0x4
- 2920 06d2 EA060000 		.4byte	.LASF121
+ 2920 06d2 5D070000 		.4byte	.LASF121
  2921 06d6 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 85
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 85
 
 
  2922 06d7 4C       		.byte	0x4c
  2923 06d8 A2060000 		.4byte	0x6a2
  2924 06dc 1A       		.uleb128 0x1a
- 2925 06dd B5010000 		.4byte	.LASF181
+ 2925 06dd 28020000 		.4byte	.LASF181
  2926 06e1 02       		.byte	0x2
  2927 06e2 E502     		.2byte	0x2e5
  2928 06e4 03       		.byte	0x3
  2929 06e5 0E070000 		.4byte	0x70e
  2930 06e9 1B       		.uleb128 0x1b
- 2931 06ea CE040000 		.4byte	.LASF122
+ 2931 06ea 41050000 		.4byte	.LASF122
  2932 06ee 02       		.byte	0x2
  2933 06ef E502     		.2byte	0x2e5
  2934 06f1 0E070000 		.4byte	0x70e
  2935 06f5 1B       		.uleb128 0x1b
- 2936 06f6 A8070000 		.4byte	.LASF123
+ 2936 06f6 1B080000 		.4byte	.LASF123
  2937 06fa 02       		.byte	0x2
  2938 06fb E502     		.2byte	0x2e5
  2939 06fd FB000000 		.4byte	0xfb
  2940 0701 1B       		.uleb128 0x1b
- 2941 0702 91070000 		.4byte	.LASF124
+ 2941 0702 04080000 		.4byte	.LASF124
  2942 0706 02       		.byte	0x2
  2943 0707 E502     		.2byte	0x2e5
  2944 0709 FB000000 		.4byte	0xfb
@@ -5069,7 +5069,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2947 070f 04       		.byte	0x4
  2948 0710 FE010000 		.4byte	0x1fe
  2949 0714 1C       		.uleb128 0x1c
- 2950 0715 94010000 		.4byte	.LASF128
+ 2950 0715 07020000 		.4byte	.LASF128
  2951 0719 01       		.byte	0x1
  2952 071a 79       		.byte	0x79
  2953 071b 00000000 		.4byte	.LFB576
@@ -5078,19 +5078,19 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2956 0724 9C       		.byte	0x9c
  2957 0725 65080000 		.4byte	0x865
  2958 0729 1D       		.uleb128 0x1d
- 2959 072a C6040000 		.4byte	.LASF125
+ 2959 072a 39050000 		.4byte	.LASF125
  2960 072e 01       		.byte	0x1
  2961 072f 79       		.byte	0x79
  2962 0730 CF000000 		.4byte	0xcf
  2963 0734 00000000 		.4byte	.LLST0
  2964 0738 1D       		.uleb128 0x1d
- 2965 0739 AA030000 		.4byte	.LASF126
+ 2965 0739 1D040000 		.4byte	.LASF126
  2966 073d 01       		.byte	0x1
  2967 073e 79       		.byte	0x79
  2968 073f 2D050000 		.4byte	0x52d
  2969 0743 21000000 		.4byte	.LLST1
  2970 0747 1D       		.uleb128 0x1d
- 2971 0748 82020000 		.4byte	.LASF127
+ 2971 0748 F5020000 		.4byte	.LASF127
  2972 074c 01       		.byte	0x1
  2973 074d 79       		.byte	0x79
  2974 074e E5000000 		.4byte	0xe5
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  2976 0756 1E       		.uleb128 0x1e
  2977 0757 DC060000 		.4byte	0x6dc
  2978 075b 0A000000 		.4byte	.LBB58
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 86
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 86
 
 
  2979 075f 06000000 		.4byte	.LBE58-.LBB58
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3033 07f2 12080000 		.4byte	0x812
  3034 07f6 1F       		.uleb128 0x1f
  3035 07f7 01070000 		.4byte	0x701
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 87
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 87
 
 
  3036 07fb 2E010000 		.4byte	.LLST12
@@ -5218,12 +5218,12 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3090 0861 77       		.byte	0x77
  3091 0862 00       		.sleb128 0
  3092 0863 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 88
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 88
 
 
  3093 0864 00       		.byte	0
  3094 0865 1C       		.uleb128 0x1c
- 3095 0866 2C000000 		.4byte	.LASF129
+ 3095 0866 9F000000 		.4byte	.LASF129
  3096 086a 01       		.byte	0x1
  3097 086b AB       		.byte	0xab
  3098 086c 00000000 		.4byte	.LFB577
@@ -5232,13 +5232,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3101 0875 9C       		.byte	0x9c
  3102 0876 AE080000 		.4byte	0x8ae
  3103 087a 1D       		.uleb128 0x1d
- 3104 087b C6040000 		.4byte	.LASF125
+ 3104 087b 39050000 		.4byte	.LASF125
  3105 087f 01       		.byte	0x1
  3106 0880 AB       		.byte	0xab
  3107 0881 CF000000 		.4byte	0xcf
  3108 0885 6E010000 		.4byte	.LLST15
  3109 0889 1D       		.uleb128 0x1d
- 3110 088a AA030000 		.4byte	.LASF126
+ 3110 088a 1D040000 		.4byte	.LASF126
  3111 088e 01       		.byte	0x1
  3112 088f AB       		.byte	0xab
  3113 0890 CF000000 		.4byte	0xcf
@@ -5260,7 +5260,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3129 08ac 00       		.byte	0
  3130 08ad 00       		.byte	0
  3131 08ae 23       		.uleb128 0x23
- 3132 08af 71020000 		.4byte	.LASF131
+ 3132 08af E4020000 		.4byte	.LASF131
  3133 08b3 01       		.byte	0x1
  3134 08b4 C2       		.byte	0xc2
  3135 08b5 CF000000 		.4byte	0xcf
@@ -5270,22 +5270,22 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3139 08c2 9C       		.byte	0x9c
  3140 08c3 FB090000 		.4byte	0x9fb
  3141 08c7 1D       		.uleb128 0x1d
- 3142 08c8 C6040000 		.4byte	.LASF125
+ 3142 08c8 39050000 		.4byte	.LASF125
  3143 08cc 01       		.byte	0x1
  3144 08cd C2       		.byte	0xc2
  3145 08ce CF000000 		.4byte	0xcf
  3146 08d2 BA010000 		.4byte	.LLST17
  3147 08d6 1D       		.uleb128 0x1d
- 3148 08d7 AA030000 		.4byte	.LASF126
+ 3148 08d7 1D040000 		.4byte	.LASF126
  3149 08db 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 89
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 89
 
 
  3150 08dc C2       		.byte	0xc2
  3151 08dd CF000000 		.4byte	0xcf
  3152 08e1 DB010000 		.4byte	.LLST18
  3153 08e5 24       		.uleb128 0x24
- 3154 08e6 F3080000 		.4byte	.LASF133
+ 3154 08e6 66090000 		.4byte	.LASF133
  3155 08ea 01       		.byte	0x1
  3156 08eb C5       		.byte	0xc5
  3157 08ec CF000000 		.4byte	0xcf
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3204 096c 1F       		.uleb128 0x1f
  3205 096d F5060000 		.4byte	0x6f5
  3206 0971 90020000 		.4byte	.LLST26
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 90
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 90
 
 
  3207 0975 1F       		.uleb128 0x1f
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3261 09ea 22       		.uleb128 0x22
  3262 09eb 28000000 		.4byte	.LVL24
  3263 09ef AA160000 		.4byte	0x16aa
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 91
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 91
 
 
  3264 09f3 21       		.uleb128 0x21
@@ -5410,7 +5410,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3270 09f9 00       		.byte	0
  3271 09fa 00       		.byte	0
  3272 09fb 1C       		.uleb128 0x1c
- 3273 09fc 56050000 		.4byte	.LASF130
+ 3273 09fc C9050000 		.4byte	.LASF130
  3274 0a00 01       		.byte	0x1
  3275 0a01 EF       		.byte	0xef
  3276 0a02 00000000 		.4byte	.LFB579
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3318 0a77 04000000 		.4byte	.LBE78-.LBB78
  3319 0a7b 01       		.byte	0x1
  3320 0a7c F6       		.byte	0xf6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 92
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 92
 
 
  3321 0a7d 9D0A0000 		.4byte	0xa9d
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3375 0b13 3C040000 		.4byte	.LLST46
  3376 0b17 1F       		.uleb128 0x1f
  3377 0b18 F5060000 		.4byte	0x6f5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 93
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 93
 
 
  3378 0b1c 50040000 		.4byte	.LLST47
@@ -5534,7 +5534,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3388 0b38 C0160000 		.4byte	0x16c0
  3389 0b3c 00       		.byte	0
  3390 0b3d 26       		.uleb128 0x26
- 3391 0b3e 27050000 		.4byte	.LASF132
+ 3391 0b3e 9A050000 		.4byte	.LASF132
  3392 0b42 01       		.byte	0x1
  3393 0b43 1301     		.2byte	0x113
  3394 0b45 0A060000 		.4byte	0x60a
@@ -5544,7 +5544,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3398 0b52 9C       		.byte	0x9c
  3399 0b53 7F0D0000 		.4byte	0xd7f
  3400 0b57 27       		.uleb128 0x27
- 3401 0b58 63000000 		.4byte	.LASF134
+ 3401 0b58 D6000000 		.4byte	.LASF134
  3402 0b5c 01       		.byte	0x1
  3403 0b5d 1601     		.2byte	0x116
  3404 0b5f E5000000 		.4byte	0xe5
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3432 0b90 28000000 		.4byte	.LVL38
  3433 0b94 D4160000 		.4byte	0x16d4
  3434 0b98 25       		.uleb128 0x25
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 94
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 94
 
 
  3435 0b99 30000000 		.4byte	.LVL39
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3489 0bff 01       		.uleb128 0x1
  3490 0c00 3B       		.byte	0x3b
  3491 0c01 21       		.uleb128 0x21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 95
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 95
 
 
  3492 0c02 01       		.uleb128 0x1
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3546 0c56 01       		.uleb128 0x1
  3547 0c57 32       		.byte	0x32
  3548 0c58 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 96
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 96
 
 
  3549 0c59 20       		.uleb128 0x20
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3603 0cb3 33       		.byte	0x33
  3604 0cb4 21       		.uleb128 0x21
  3605 0cb5 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 97
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 97
 
 
  3606 0cb6 51       		.byte	0x51
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3660 0d10 00       		.byte	0
  3661 0d11 20       		.uleb128 0x20
  3662 0d12 C6000000 		.4byte	.LVL58
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 98
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 98
 
 
  3663 0d16 F5160000 		.4byte	0x16f5
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3717 0d73 01       		.uleb128 0x1
  3718 0d74 50       		.byte	0x50
  3719 0d75 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 99
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 99
 
 
  3720 0d76 32       		.byte	0x32
@@ -5891,7 +5891,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3727 0d7d 00       		.byte	0
  3728 0d7e 00       		.byte	0
  3729 0d7f 28       		.uleb128 0x28
- 3730 0d80 DC030000 		.4byte	.LASF135
+ 3730 0d80 4F040000 		.4byte	.LASF135
  3731 0d84 01       		.byte	0x1
  3732 0d85 A201     		.2byte	0x1a2
  3733 0d87 00000000 		.4byte	.LFB581
@@ -5900,14 +5900,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3736 0d90 9C       		.byte	0x9c
  3737 0d91 B20D0000 		.4byte	0xdb2
  3738 0d95 29       		.uleb128 0x29
- 3739 0d96 65020000 		.4byte	.LASF136
+ 3739 0d96 D8020000 		.4byte	.LASF136
  3740 0d9a 01       		.byte	0x1
  3741 0d9b A201     		.2byte	0x1a2
  3742 0d9d C4000000 		.4byte	0xc4
  3743 0da1 01       		.uleb128 0x1
  3744 0da2 50       		.byte	0x50
  3745 0da3 2A       		.uleb128 0x2a
- 3746 0da4 48090000 		.4byte	.LASF137
+ 3746 0da4 BB090000 		.4byte	.LASF137
  3747 0da8 01       		.byte	0x1
  3748 0da9 A501     		.2byte	0x1a5
  3749 0dab E5000000 		.4byte	0xe5
@@ -5915,7 +5915,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3751 0db0 52       		.byte	0x52
  3752 0db1 00       		.byte	0
  3753 0db2 28       		.uleb128 0x28
- 3754 0db3 77090000 		.4byte	.LASF138
+ 3754 0db3 EA090000 		.4byte	.LASF138
  3755 0db7 01       		.byte	0x1
  3756 0db8 E701     		.2byte	0x1e7
  3757 0dba 00000000 		.4byte	.LFB582
@@ -5924,13 +5924,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3760 0dc3 9C       		.byte	0x9c
  3761 0dc4 C40E0000 		.4byte	0xec4
  3762 0dc8 2B       		.uleb128 0x2b
- 3763 0dc9 59070000 		.4byte	.LASF139
+ 3763 0dc9 CC070000 		.4byte	.LASF139
  3764 0dcd 01       		.byte	0x1
  3765 0dce E701     		.2byte	0x1e7
  3766 0dd0 C40E0000 		.4byte	0xec4
  3767 0dd4 C8040000 		.4byte	.LLST50
  3768 0dd8 2B       		.uleb128 0x2b
- 3769 0dd9 9E020000 		.4byte	.LASF140
+ 3769 0dd9 11030000 		.4byte	.LASF140
  3770 0ddd 01       		.byte	0x1
  3771 0dde E801     		.2byte	0x1e8
  3772 0de0 3A060000 		.4byte	0x63a
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3774 0de8 2C       		.uleb128 0x2c
  3775 0de9 7800     		.ascii	"x\000"
  3776 0deb 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 100
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 100
 
 
  3777 0dec EB01     		.2byte	0x1eb
@@ -5957,19 +5957,19 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3790 0e0a E5000000 		.4byte	0xe5
  3791 0e0e 95050000 		.4byte	.LLST54
  3792 0e12 27       		.uleb128 0x27
- 3793 0e13 DC080000 		.4byte	.LASF141
+ 3793 0e13 4F090000 		.4byte	.LASF141
  3794 0e17 01       		.byte	0x1
  3795 0e18 F201     		.2byte	0x1f2
  3796 0e1a C9020000 		.4byte	0x2c9
  3797 0e1e E1050000 		.4byte	.LLST55
  3798 0e22 27       		.uleb128 0x27
- 3799 0e23 D8020000 		.4byte	.LASF142
+ 3799 0e23 4B030000 		.4byte	.LASF142
  3800 0e27 01       		.byte	0x1
  3801 0e28 F501     		.2byte	0x1f5
  3802 0e2a CF000000 		.4byte	0xcf
  3803 0e2e 30060000 		.4byte	.LLST56
  3804 0e32 27       		.uleb128 0x27
- 3805 0e33 36070000 		.4byte	.LASF143
+ 3805 0e33 A9070000 		.4byte	.LASF143
  3806 0e37 01       		.byte	0x1
  3807 0e38 F801     		.2byte	0x1f8
  3808 0e3a D5020000 		.4byte	0x2d5
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3831 0e66 02       		.uleb128 0x2
  3832 0e67 08       		.byte	0x8
  3833 0e68 6F       		.byte	0x6f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 101
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 101
 
 
  3834 0e69 00       		.byte	0
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3888 0eba 25       		.uleb128 0x25
  3889 0ebb 0E040000 		.4byte	.LVL110
  3890 0ebf EA160000 		.4byte	0x16ea
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 102
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 102
 
 
  3891 0ec3 00       		.byte	0
@@ -6066,7 +6066,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3893 0ec5 04       		.byte	0x4
  3894 0ec6 CE050000 		.4byte	0x5ce
  3895 0eca 28       		.uleb128 0x28
- 3896 0ecb 0B070000 		.4byte	.LASF144
+ 3896 0ecb 7E070000 		.4byte	.LASF144
  3897 0ecf 01       		.byte	0x1
  3898 0ed0 C202     		.2byte	0x2c2
  3899 0ed2 00000000 		.4byte	.LFB583
@@ -6075,13 +6075,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3902 0edb 9C       		.byte	0x9c
  3903 0edc 31100000 		.4byte	0x1031
  3904 0ee0 2B       		.uleb128 0x2b
- 3905 0ee1 63050000 		.4byte	.LASF145
+ 3905 0ee1 D6050000 		.4byte	.LASF145
  3906 0ee5 01       		.byte	0x1
  3907 0ee6 C202     		.2byte	0x2c2
  3908 0ee8 C40E0000 		.4byte	0xec4
  3909 0eec 84060000 		.4byte	.LLST58
  3910 0ef0 2B       		.uleb128 0x2b
- 3911 0ef1 FF060000 		.4byte	.LASF146
+ 3911 0ef1 72070000 		.4byte	.LASF146
  3912 0ef5 01       		.byte	0x1
  3913 0ef6 C302     		.2byte	0x2c3
  3914 0ef8 C40E0000 		.4byte	0xec4
@@ -6105,20 +6105,20 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  3932 0f22 E5000000 		.4byte	0xe5
  3933 0f26 62070000 		.4byte	.LLST62
  3934 0f2a 27       		.uleb128 0x27
- 3935 0f2b 48070000 		.4byte	.LASF147
+ 3935 0f2b BB070000 		.4byte	.LASF147
  3936 0f2f 01       		.byte	0x1
  3937 0f30 CD02     		.2byte	0x2cd
  3938 0f32 CF000000 		.4byte	0xcf
  3939 0f36 8D070000 		.4byte	.LLST63
  3940 0f3a 27       		.uleb128 0x27
- 3941 0f3b CB060000 		.4byte	.LASF148
+ 3941 0f3b 3E070000 		.4byte	.LASF148
  3942 0f3f 01       		.byte	0x1
  3943 0f40 CF02     		.2byte	0x2cf
  3944 0f42 CF000000 		.4byte	0xcf
  3945 0f46 AC070000 		.4byte	.LLST64
  3946 0f4a 27       		.uleb128 0x27
- 3947 0f4b DC080000 		.4byte	.LASF141
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 103
+ 3947 0f4b 4F090000 		.4byte	.LASF141
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 103
 
 
  3948 0f4f 01       		.byte	0x1
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4002 0fad 21       		.uleb128 0x21
  4003 0fae 01       		.uleb128 0x1
  4004 0faf 51       		.byte	0x51
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 104
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 104
 
 
  4005 0fb0 02       		.uleb128 0x2
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4059 1001 01       		.uleb128 0x1
  4060 1002 32       		.byte	0x32
  4061 1003 21       		.uleb128 0x21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 105
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 105
 
 
  4062 1004 01       		.uleb128 0x1
@@ -6269,7 +6269,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4087 102f 00       		.byte	0
  4088 1030 00       		.byte	0
  4089 1031 28       		.uleb128 0x28
- 4090 1032 6B070000 		.4byte	.LASF149
+ 4090 1032 DE070000 		.4byte	.LASF149
  4091 1036 01       		.byte	0x1
  4092 1037 5C03     		.2byte	0x35c
  4093 1039 00000000 		.4byte	.LFB584
@@ -6278,7 +6278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4096 1042 9C       		.byte	0x9c
  4097 1043 8B100000 		.4byte	0x108b
  4098 1047 27       		.uleb128 0x27
- 4099 1048 3B030000 		.4byte	.LASF150
+ 4099 1048 AE030000 		.4byte	.LASF150
  4100 104c 01       		.byte	0x1
  4101 104d 5F03     		.2byte	0x35f
  4102 104f E5000000 		.4byte	0xe5
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4116 106c 02       		.uleb128 0x2
  4117 106d 75       		.byte	0x75
  4118 106e 00       		.sleb128 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 106
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 106
 
 
  4119 106f 21       		.uleb128 0x21
@@ -6324,7 +6324,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4139 1089 00       		.byte	0
  4140 108a 00       		.byte	0
  4141 108b 28       		.uleb128 0x28
- 4142 108c 20010000 		.4byte	.LASF151
+ 4142 108c 93010000 		.4byte	.LASF151
  4143 1090 01       		.byte	0x1
  4144 1091 8B03     		.2byte	0x38b
  4145 1093 00000000 		.4byte	.LFB585
@@ -6333,7 +6333,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4148 109c 9C       		.byte	0x9c
  4149 109d 00110000 		.4byte	0x1100
  4150 10a1 27       		.uleb128 0x27
- 4151 10a2 3B030000 		.4byte	.LASF150
+ 4151 10a2 AE030000 		.4byte	.LASF150
  4152 10a6 01       		.byte	0x1
  4153 10a7 8E03     		.2byte	0x38e
  4154 10a9 CF000000 		.4byte	0xcf
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4173 10ce 14070000 		.4byte	0x714
  4174 10d2 EB100000 		.4byte	0x10eb
  4175 10d6 21       		.uleb128 0x21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 107
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 107
 
 
  4176 10d7 01       		.uleb128 0x1
@@ -6394,7 +6394,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4206 10fe 00       		.byte	0
  4207 10ff 00       		.byte	0
  4208 1100 26       		.uleb128 0x26
- 4209 1101 88060000 		.4byte	.LASF152
+ 4209 1101 FB060000 		.4byte	.LASF152
  4210 1105 01       		.byte	0x1
  4211 1106 B403     		.2byte	0x3b4
  4212 1108 0A060000 		.4byte	0x60a
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4230 113c C7080000 		.4byte	.LLST69
  4231 1140 1F       		.uleb128 0x1f
  4232 1141 E9060000 		.4byte	0x6e9
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 108
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 108
 
 
  4233 1145 DB080000 		.4byte	.LLST70
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4287 11db DC060000 		.4byte	0x6dc
  4288 11df 26000000 		.4byte	.LBB94
  4289 11e3 02000000 		.4byte	.LBE94-.LBB94
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 109
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 109
 
 
  4290 11e7 01       		.byte	0x1
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4344 126a 2E000000 		.4byte	.LVL178
  4345 126e F5160000 		.4byte	0x16f5
  4346 1272 7C120000 		.4byte	0x127c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 110
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 110
 
 
  4347 1276 21       		.uleb128 0x21
@@ -6562,7 +6562,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4365 1294 3D0B0000 		.4byte	0xb3d
  4366 1298 00       		.byte	0
  4367 1299 26       		.uleb128 0x26
- 4368 129a D7090000 		.4byte	.LASF153
+ 4368 129a 4A0A0000 		.4byte	.LASF153
  4369 129e 01       		.byte	0x1
  4370 129f DD03     		.2byte	0x3dd
  4371 12a1 0A060000 		.4byte	0x60a
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4401 12f7 1F       		.uleb128 0x1f
  4402 12f8 01070000 		.4byte	0x701
  4403 12fc 730A0000 		.4byte	.LLST89
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 111
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 111
 
 
  4404 1300 1F       		.uleb128 0x1f
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4458 1399 1F       		.uleb128 0x1f
  4459 139a E9060000 		.4byte	0x6e9
  4460 139e 5B0B0000 		.4byte	.LLST100
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 112
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 112
 
 
  4461 13a2 00       		.byte	0
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4515 1438 31100000 		.4byte	0x1031
  4516 143c 25       		.uleb128 0x25
  4517 143d 0A000000 		.4byte	.LVL183
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 113
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 113
 
 
  4518 1441 8B100000 		.4byte	0x108b
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4572 14a1 65080000 		.4byte	0x865
  4573 14a5 B4140000 		.4byte	0x14b4
  4574 14a9 21       		.uleb128 0x21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 114
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 114
 
 
  4575 14aa 01       		.uleb128 0x1
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4629 1501 11150000 		.4byte	0x1511
  4630 1505 21       		.uleb128 0x21
  4631 1506 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 115
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 115
 
 
  4632 1507 50       		.byte	0x50
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4686 155e 80000000 		.4byte	.LVL201
  4687 1562 F5160000 		.4byte	0x16f5
  4688 1566 70150000 		.4byte	0x1570
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 116
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 116
 
 
  4689 156a 21       		.uleb128 0x21
@@ -6918,7 +6918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4703 157e 00       		.byte	0
  4704 157f 00       		.byte	0
  4705 1580 24       		.uleb128 0x24
- 4706 1581 77080000 		.4byte	.LASF154
+ 4706 1581 EA080000 		.4byte	.LASF154
  4707 1585 01       		.byte	0x1
  4708 1586 54       		.byte	0x54
  4709 1587 D1060000 		.4byte	0x6d1
@@ -6926,7 +6926,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4711 158c 03       		.byte	0x3
  4712 158d 00000000 		.4byte	driverPacket
  4713 1591 24       		.uleb128 0x24
- 4714 1592 C9020000 		.4byte	.LASF155
+ 4714 1592 3C030000 		.4byte	.LASF155
  4715 1596 01       		.byte	0x1
  4716 1597 5F       		.byte	0x5f
  4717 1598 E5000000 		.4byte	0xe5
@@ -6934,7 +6934,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4719 159d 03       		.byte	0x3
  4720 159e 7C000000 		.4byte	fullUpdateTime
  4721 15a2 24       		.uleb128 0x24
- 4722 15a3 98030000 		.4byte	.LASF156
+ 4722 15a3 0B040000 		.4byte	.LASF156
  4723 15a7 01       		.byte	0x1
  4724 15a8 60       		.byte	0x60
  4725 15a9 E5000000 		.4byte	0xe5
@@ -6942,7 +6942,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4727 15ae 03       		.byte	0x3
  4728 15af 7E000000 		.4byte	partialUpdateTime
  4729 15b3 24       		.uleb128 0x24
- 4730 15b4 11050000 		.4byte	.LASF157
+ 4730 15b4 84050000 		.4byte	.LASF157
  4731 15b8 01       		.byte	0x1
  4732 15b9 63       		.byte	0x63
  4733 15ba 2D050000 		.4byte	0x52d
@@ -6950,7 +6950,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4735 15bf 03       		.byte	0x3
  4736 15c0 70000000 		.4byte	dataLineEven
  4737 15c4 24       		.uleb128 0x24
- 4738 15c5 EF010000 		.4byte	.LASF158
+ 4738 15c5 62020000 		.4byte	.LASF158
  4739 15c9 01       		.byte	0x1
  4740 15ca 64       		.byte	0x64
  4741 15cb 2D050000 		.4byte	0x52d
@@ -6958,10 +6958,10 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4743 15d0 03       		.byte	0x3
  4744 15d1 74000000 		.4byte	dataLineOdd
  4745 15d5 24       		.uleb128 0x24
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 117
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 117
 
 
- 4746 15d6 F4020000 		.4byte	.LASF159
+ 4746 15d6 67030000 		.4byte	.LASF159
  4747 15da 01       		.byte	0x1
  4748 15db 65       		.byte	0x65
  4749 15dc 2D050000 		.4byte	0x52d
@@ -6969,26 +6969,26 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4751 15e1 03       		.byte	0x3
  4752 15e2 78000000 		.4byte	dataLineScan
  4753 15e6 2E       		.uleb128 0x2e
- 4754 15e7 13010000 		.4byte	.LASF160
+ 4754 15e7 86010000 		.4byte	.LASF160
  4755 15eb 0B       		.byte	0xb
  4756 15ec EA07     		.2byte	0x7ea
  4757 15ee F2150000 		.4byte	0x15f2
  4758 15f2 06       		.uleb128 0x6
  4759 15f3 F0000000 		.4byte	0xf0
  4760 15f7 2F       		.uleb128 0x2f
- 4761 15f8 1C090000 		.4byte	.LASF161
+ 4761 15f8 8F090000 		.4byte	.LASF161
  4762 15fc 0C       		.byte	0xc
  4763 15fd 5E       		.byte	0x5e
  4764 15fe C2050000 		.4byte	0x5c2
  4765 1602 2F       		.uleb128 0x2f
- 4766 1603 9A090000 		.4byte	.LASF162
+ 4766 1603 0D0A0000 		.4byte	.LASF162
  4767 1607 0D       		.byte	0xd
  4768 1608 1F       		.byte	0x1f
  4769 1609 0D160000 		.4byte	0x160d
  4770 160d 07       		.uleb128 0x7
  4771 160e CD030000 		.4byte	0x3cd
  4772 1612 2F       		.uleb128 0x2f
- 4773 1613 52080000 		.4byte	.LASF163
+ 4773 1613 C5080000 		.4byte	.LASF163
  4774 1617 0E       		.byte	0xe
  4775 1618 1F       		.byte	0x1f
  4776 1619 1D160000 		.4byte	0x161d
@@ -7002,7 +7002,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4784 1630 AF       		.byte	0xaf
  4785 1631 00       		.byte	0
  4786 1632 30       		.uleb128 0x30
- 4787 1633 20030000 		.4byte	.LASF164
+ 4787 1633 93030000 		.4byte	.LASF164
  4788 1637 01       		.byte	0x1
  4789 1638 50       		.byte	0x50
  4790 1639 22160000 		.4byte	0x1622
@@ -7018,11 +7018,11 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4800 1652 00       		.byte	0
  4801 1653 07       		.uleb128 0x7
  4802 1654 CF000000 		.4byte	0xcf
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 118
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 118
 
 
  4803 1658 30       		.uleb128 0x30
- 4804 1659 BF020000 		.4byte	.LASF165
+ 4804 1659 32030000 		.4byte	.LASF165
  4805 165d 01       		.byte	0x1
  4806 165e 57       		.byte	0x57
  4807 165f 69160000 		.4byte	0x1669
@@ -7039,7 +7039,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4818 167c 07       		.byte	0x7
  4819 167d 00       		.byte	0
  4820 167e 30       		.uleb128 0x30
- 4821 167f 12030000 		.4byte	.LASF166
+ 4821 167f 85030000 		.4byte	.LASF166
  4822 1683 01       		.byte	0x1
  4823 1684 5B       		.byte	0x5b
  4824 1685 8F160000 		.4byte	0x168f
@@ -7049,64 +7049,64 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4828 168f 07       		.uleb128 0x7
  4829 1690 6E160000 		.4byte	0x166e
  4830 1694 31       		.uleb128 0x31
- 4831 1695 01030000 		.4byte	.LASF167
- 4832 1699 01030000 		.4byte	.LASF167
+ 4831 1695 74030000 		.4byte	.LASF167
+ 4832 1699 74030000 		.4byte	.LASF167
  4833 169d 0F       		.byte	0xf
  4834 169e 85       		.byte	0x85
  4835 169f 31       		.uleb128 0x31
- 4836 16a0 D3060000 		.4byte	.LASF168
- 4837 16a4 D3060000 		.4byte	.LASF168
+ 4836 16a0 46070000 		.4byte	.LASF168
+ 4837 16a4 46070000 		.4byte	.LASF168
  4838 16a8 0A       		.byte	0xa
  4839 16a9 58       		.byte	0x58
  4840 16aa 31       		.uleb128 0x31
- 4841 16ab A5010000 		.4byte	.LASF169
- 4842 16af A5010000 		.4byte	.LASF169
+ 4841 16ab 18020000 		.4byte	.LASF169
+ 4842 16af 18020000 		.4byte	.LASF169
  4843 16b3 0F       		.byte	0xf
  4844 16b4 86       		.byte	0x86
  4845 16b5 31       		.uleb128 0x31
- 4846 16b6 5D080000 		.4byte	.LASF170
- 4847 16ba 5D080000 		.4byte	.LASF170
+ 4846 16b6 D0080000 		.4byte	.LASF170
+ 4847 16ba D0080000 		.4byte	.LASF170
  4848 16be 0F       		.byte	0xf
  4849 16bf 82       		.byte	0x82
  4850 16c0 31       		.uleb128 0x31
- 4851 16c1 49020000 		.4byte	.LASF171
- 4852 16c5 49020000 		.4byte	.LASF171
+ 4851 16c1 BC020000 		.4byte	.LASF171
+ 4852 16c5 BC020000 		.4byte	.LASF171
  4853 16c9 0F       		.byte	0xf
  4854 16ca 7D       		.byte	0x7d
  4855 16cb 32       		.uleb128 0x32
- 4856 16cc 53090000 		.4byte	.LASF182
- 4857 16d0 53090000 		.4byte	.LASF182
+ 4856 16cc C6090000 		.4byte	.LASF182
+ 4857 16d0 C6090000 		.4byte	.LASF182
  4858 16d4 31       		.uleb128 0x31
- 4859 16d5 780A0000 		.4byte	.LASF172
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 119
+ 4859 16d5 7D0A0000 		.4byte	.LASF172
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 119
 
 
- 4860 16d9 780A0000 		.4byte	.LASF172
+ 4860 16d9 7D0A0000 		.4byte	.LASF172
  4861 16dd 0F       		.byte	0xf
  4862 16de 7F       		.byte	0x7f
  4863 16df 31       		.uleb128 0x31
- 4864 16e0 2A080000 		.4byte	.LASF173
- 4865 16e4 2A080000 		.4byte	.LASF173
+ 4864 16e0 9D080000 		.4byte	.LASF173
+ 4865 16e4 9D080000 		.4byte	.LASF173
  4866 16e8 0F       		.byte	0xf
  4867 16e9 88       		.byte	0x88
  4868 16ea 31       		.uleb128 0x31
- 4869 16eb B1080000 		.4byte	.LASF174
- 4870 16ef B1080000 		.4byte	.LASF174
+ 4869 16eb 24090000 		.4byte	.LASF174
+ 4870 16ef 24090000 		.4byte	.LASF174
  4871 16f3 0F       		.byte	0xf
  4872 16f4 7E       		.byte	0x7e
  4873 16f5 33       		.uleb128 0x33
- 4874 16f6 D0070000 		.4byte	.LASF175
- 4875 16fa D0070000 		.4byte	.LASF175
+ 4874 16f6 43080000 		.4byte	.LASF175
+ 4875 16fa 43080000 		.4byte	.LASF175
  4876 16fe 06       		.byte	0x6
  4877 16ff 2103     		.2byte	0x321
  4878 1701 31       		.uleb128 0x31
- 4879 1702 FC080000 		.4byte	.LASF176
- 4880 1706 FC080000 		.4byte	.LASF176
+ 4879 1702 6F090000 		.4byte	.LASF176
+ 4880 1706 6F090000 		.4byte	.LASF176
  4881 170a 0F       		.byte	0xf
  4882 170b 83       		.byte	0x83
  4883 170c 31       		.uleb128 0x31
- 4884 170d 3F050000 		.4byte	.LASF177
- 4885 1711 3F050000 		.4byte	.LASF177
+ 4884 170d B2050000 		.4byte	.LASF177
+ 4885 1711 B2050000 		.4byte	.LASF177
  4886 1715 0F       		.byte	0xf
  4887 1716 84       		.byte	0x84
  4888 1717 00       		.byte	0
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4914 0017 0B       		.uleb128 0xb
  4915 0018 3E       		.uleb128 0x3e
  4916 0019 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 120
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 120
 
 
  4917 001a 03       		.uleb128 0x3
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  4971 0050 01       		.uleb128 0x1
  4972 0051 13       		.uleb128 0x13
  4973 0052 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 121
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 121
 
 
  4974 0053 00       		.byte	0
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5028 0089 13       		.uleb128 0x13
  5029 008a 01       		.byte	0x1
  5030 008b 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 122
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 122
 
 
  5031 008c 05       		.uleb128 0x5
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5085 00c2 00       		.byte	0
  5086 00c3 0B       		.uleb128 0xb
  5087 00c4 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 123
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 123
 
 
  5088 00c5 49       		.uleb128 0x49
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5142 00fb 0B       		.uleb128 0xb
  5143 00fc 49       		.uleb128 0x49
  5144 00fd 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 124
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 124
 
 
  5145 00fe 3A       		.uleb128 0x3a
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5199 0134 20       		.uleb128 0x20
  5200 0135 0B       		.uleb128 0xb
  5201 0136 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 125
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 125
 
 
  5202 0137 13       		.uleb128 0x13
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5256 016e 00       		.byte	0
  5257 016f 00       		.byte	0
  5258 0170 1E       		.uleb128 0x1e
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 126
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 126
 
 
  5259 0171 1D       		.uleb128 0x1d
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5313 01ae 23       		.uleb128 0x23
  5314 01af 2E       		.uleb128 0x2e
  5315 01b0 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 127
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 127
 
 
  5316 01b1 3F       		.uleb128 0x3f
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5370 01ea 0E       		.uleb128 0xe
  5371 01eb 3A       		.uleb128 0x3a
  5372 01ec 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 128
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 128
 
 
  5373 01ed 3B       		.uleb128 0x3b
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5427 0225 01       		.uleb128 0x1
  5428 0226 13       		.uleb128 0x13
  5429 0227 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 129
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 129
 
 
  5430 0228 00       		.byte	0
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5484 025e 05       		.uleb128 0x5
  5485 025f 49       		.uleb128 0x49
  5486 0260 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 130
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 130
 
 
  5487 0261 02       		.uleb128 0x2
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5541 0297 00       		.byte	0
  5542 0298 30       		.uleb128 0x30
  5543 0299 34       		.uleb128 0x34
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 131
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 131
 
 
  5544 029a 00       		.byte	0
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5598 02d0 03       		.uleb128 0x3
  5599 02d1 0E       		.uleb128 0xe
  5600 02d2 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 132
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 132
 
 
  5601 02d3 0B       		.uleb128 0xb
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5655              	.LLST3:
  5656 006e 0A000000 		.4byte	.LVL1
  5657 0072 10000000 		.4byte	.LVL2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 133
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 133
 
 
  5658 0076 0200     		.2byte	0x2
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5712 00fe 00000000 		.4byte	0
  5713              	.LLST10:
  5714 0102 1E000000 		.4byte	.LVL6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 134
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 134
 
 
  5715 0106 20000000 		.4byte	.LVL7
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5769              	.LLST16:
  5770 018f 00000000 		.4byte	.LVL12
  5771 0193 0E000000 		.4byte	.LVL13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 135
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 135
 
 
  5772 0197 0100     		.2byte	0x1
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5826 021a 33       		.byte	0x33
  5827 021b 9F       		.byte	0x9f
  5828 021c 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 136
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 136
 
 
  5829 0220 00000000 		.4byte	0
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5883 02ac 0600     		.2byte	0x6
  5884 02ae 0C       		.byte	0xc
  5885 02af 00063240 		.4byte	0x40320600
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 137
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 137
 
 
  5886 02b3 9F       		.byte	0x9f
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5940 033c 08000000 		.4byte	.LVL27
  5941 0340 0E000000 		.4byte	.LVL28
  5942 0344 0200     		.2byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 138
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 138
 
 
  5943 0346 30       		.byte	0x30
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  5997              	.LLST41:
  5998 03d0 16000000 		.4byte	.LVL30
  5999 03d4 1C000000 		.4byte	.LVL31
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 139
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 139
 
 
  6000 03d8 0200     		.2byte	0x2
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6054 0460 00000000 		.4byte	0
  6055              	.LLST48:
  6056 0464 1E000000 		.4byte	.LVL32
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 140
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 140
 
 
  6057 0468 22000000 		.4byte	.LVL33
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6111 04f5 56       		.byte	0x56
  6112 04f6 00000000 		.4byte	0
  6113 04fa 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 141
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 141
 
 
  6114              	.LLST51:
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6168 0586 02040000 		.4byte	.LVL108
  6169 058a 0100     		.2byte	0x1
  6170 058c 54       		.byte	0x54
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 142
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 142
 
 
  6171 058d 00000000 		.4byte	0
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6225 0613 AF       		.byte	0xaf
  6226 0614 78       		.byte	0x78
  6227 0615 00       		.sleb128 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 143
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 143
 
 
  6228 0616 1C       		.byte	0x1c
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6282 069a 5E000000 		.4byte	.LVL120
  6283 069e 7A010000 		.4byte	.LVL130
  6284 06a2 0100     		.2byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 144
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 144
 
 
  6285 06a4 57       		.byte	0x57
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6339 0735 0100     		.2byte	0x1
  6340 0737 54       		.byte	0x54
  6341 0738 AC010000 		.4byte	.LVL137
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 145
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 145
 
 
  6342 073c B0010000 		.4byte	.LVL138
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6396 07c9 30       		.byte	0x30
  6397 07ca 9F       		.byte	0x9f
  6398 07cb 80010000 		.4byte	.LVL131
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 146
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 146
 
 
  6399 07cf 86010000 		.4byte	.LVL132
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6453 0839 0600     		.2byte	0x6
  6454 083b 08       		.byte	0x8
  6455 083c B0       		.byte	0xb0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 147
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 147
 
 
  6456 083d 74       		.byte	0x74
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6510              	.LLST69:
  6511 08c7 02000000 		.4byte	.LVL169
  6512 08cb 08000000 		.4byte	.LVL170
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 148
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 148
 
 
  6513 08cf 0200     		.2byte	0x2
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6567 0957 00000000 		.4byte	0
  6568              	.LLST76:
  6569 095b 18000000 		.4byte	.LVL173
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 149
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 149
 
 
  6570 095f 1C000000 		.4byte	.LVL174
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6624 09ea 9F       		.byte	0x9f
  6625 09eb 00000000 		.4byte	0
  6626 09ef 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 150
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 150
 
 
  6627              	.LLST83:
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6681 0a7d 31       		.byte	0x31
  6682 0a7e 9F       		.byte	0x9f
  6683 0a7f 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 151
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 151
 
 
  6684 0a83 00000000 		.4byte	0
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6738 0b0f 0200     		.2byte	0x2
  6739 0b11 36       		.byte	0x36
  6740 0b12 9F       		.byte	0x9f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 152
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 152
 
 
  6741 0b13 00000000 		.4byte	0
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6795 0b9f 8A000000 		.4byte	.LVL203
  6796 0ba3 0600     		.2byte	0x6
  6797 0ba5 0C       		.byte	0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 153
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 153
 
 
  6798 0ba6 80023240 		.4byte	0x40320280
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6852              		.section	.debug_aranges,"",%progbits
  6853 0000 74000000 		.4byte	0x74
  6854 0004 0200     		.2byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 154
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 154
 
 
  6855 0006 00000000 		.4byte	.Ldebug_info0
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6909 0054 44000000 		.4byte	.LFE586
  6910 0058 00000000 		.4byte	.LFB587
  6911 005c A8000000 		.4byte	.LFE587
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 155
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 155
 
 
  6912 0060 00000000 		.4byte	0
@@ -9259,902 +9259,903 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 1
  6920      6370776D 
  6920      5F70776D 
  6920      5F636F6E 
- 6921              	.LASF88:
- 6922 0022 6B696C6C 		.ascii	"killInput\000"
- 6922      496E7075 
- 6922      7400
- 6923              	.LASF129:
- 6924 002c 50765F45 		.ascii	"Pv_EINK_SendByte\000"
- 6924      494E4B5F 
- 6924      53656E64 
- 6924      42797465 
- 6924      00
- 6925              	.LASF108:
- 6926 003d 50565F45 		.ascii	"PV_EINK_ERROR_CHARGEPUMP\000"
- 6926      494E4B5F 
- 6926      4552524F 
- 6926      525F4348 
- 6926      41524745 
- 6927              	.LASF77:
- 6928 0056 70776D41 		.ascii	"pwmAlignment\000"
- 6928      6C69676E 
- 6928      6D656E74 
+ 6921              	.LASF180:
+ 6922 0022 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW_projekt\\projekt_sm"
+ 6922      73657273 
+ 6922      5C726F62 
+ 6922      65725C44 
+ 6922      65736B74 
+ 6923 0050 69775C43 		.ascii	"iw\\CE223727_EmWin_EInk_Display01\\CE223727_EmWin_E"
+ 6923      45323233 
+ 6923      3732375F 
+ 6923      456D5769 
+ 6923      6E5F4549 
+ 6924 0081 496E6B5F 		.ascii	"Ink_Display01.cydsn\000"
+ 6924      44697370 
+ 6924      6C617930 
+ 6924      312E6379 
+ 6924      64736E00 
+ 6925              	.LASF88:
+ 6926 0095 6B696C6C 		.ascii	"killInput\000"
+ 6926      496E7075 
+ 6926      7400
+ 6927              	.LASF129:
+ 6928 009f 50765F45 		.ascii	"Pv_EINK_SendByte\000"
+ 6928      494E4B5F 
+ 6928      53656E64 
+ 6928      42797465 
  6928      00
- 6929              	.LASF134:
- 6930 0063 6C6F6F70 		.ascii	"loopCounter\000"
- 6930      436F756E 
- 6930      74657200 
- 6931              	.LASF3:
- 6932 006f 7369676E 		.ascii	"signed char\000"
- 6932      65642063 
- 6932      68617200 
- 6933              	.LASF5:
- 6934 007b 5F5F7569 		.ascii	"__uint8_t\000"
- 6934      6E74385F 
- 6934      7400
- 6935              	.LASF57:
- 6936 0085 636F756E 		.ascii	"countDirection\000"
- 6936      74446972 
- 6936      65637469 
- 6936      6F6E00
- 6937              	.LASF69:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 156
+ 6929              	.LASF108:
+ 6930 00b0 50565F45 		.ascii	"PV_EINK_ERROR_CHARGEPUMP\000"
+ 6930      494E4B5F 
+ 6930      4552524F 
+ 6930      525F4348 
+ 6930      41524745 
+ 6931              	.LASF77:
+ 6932 00c9 70776D41 		.ascii	"pwmAlignment\000"
+ 6932      6C69676E 
+ 6932      6D656E74 
+ 6932      00
+ 6933              	.LASF134:
+ 6934 00d6 6C6F6F70 		.ascii	"loopCounter\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 156
 
 
- 6938 0094 73746F70 		.ascii	"stopInputMode\000"
- 6938      496E7075 
- 6938      744D6F64 
- 6938      6500
- 6939              	.LASF54:
- 6940 00a2 70657269 		.ascii	"period\000"
- 6940      6F6400
- 6941              	.LASF45:
- 6942 00a9 5644445F 		.ascii	"VDD_INTR_MASK\000"
- 6942      494E5452 
- 6942      5F4D4153 
- 6942      4B00
- 6943              	.LASF64:
- 6944 00b7 63617074 		.ascii	"captureInput\000"
- 6944      75726549 
- 6944      6E707574 
- 6944      00
- 6945              	.LASF120:
- 6946 00c4 6C696E65 		.ascii	"lineBuffer\000"
- 6946      42756666 
- 6946      657200
- 6947              	.LASF15:
- 6948 00cf 6C6F6E67 		.ascii	"long long unsigned int\000"
- 6948      206C6F6E 
- 6948      6720756E 
- 6948      7369676E 
- 6948      65642069 
- 6949              	.LASF55:
- 6950 00e6 636C6F63 		.ascii	"clockPrescaler\000"
- 6950      6B507265 
- 6950      7363616C 
+ 6934      436F756E 
+ 6934      74657200 
+ 6935              	.LASF3:
+ 6936 00e2 7369676E 		.ascii	"signed char\000"
+ 6936      65642063 
+ 6936      68617200 
+ 6937              	.LASF5:
+ 6938 00ee 5F5F7569 		.ascii	"__uint8_t\000"
+ 6938      6E74385F 
+ 6938      7400
+ 6939              	.LASF57:
+ 6940 00f8 636F756E 		.ascii	"countDirection\000"
+ 6940      74446972 
+ 6940      65637469 
+ 6940      6F6E00
+ 6941              	.LASF69:
+ 6942 0107 73746F70 		.ascii	"stopInputMode\000"
+ 6942      496E7075 
+ 6942      744D6F64 
+ 6942      6500
+ 6943              	.LASF54:
+ 6944 0115 70657269 		.ascii	"period\000"
+ 6944      6F6400
+ 6945              	.LASF45:
+ 6946 011c 5644445F 		.ascii	"VDD_INTR_MASK\000"
+ 6946      494E5452 
+ 6946      5F4D4153 
+ 6946      4B00
+ 6947              	.LASF64:
+ 6948 012a 63617074 		.ascii	"captureInput\000"
+ 6948      75726549 
+ 6948      6E707574 
+ 6948      00
+ 6949              	.LASF120:
+ 6950 0137 6C696E65 		.ascii	"lineBuffer\000"
+ 6950      42756666 
  6950      657200
- 6951              	.LASF102:
- 6952 00f5 70765F65 		.ascii	"pv_eink_frame_data_t\000"
- 6952      696E6B5F 
- 6952      6672616D 
- 6952      655F6461 
- 6952      74615F74 
- 6953              	.LASF4:
- 6954 010a 5F5F696E 		.ascii	"__int8_t\000"
- 6954      74385F74 
- 6954      00
- 6955              	.LASF160:
- 6956 0113 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 6956      52784275 
- 6956      66666572 
- 6956      00
- 6957              	.LASF151:
- 6958 0120 50765F45 		.ascii	"Pv_EINK_DummyLine\000"
- 6958      494E4B5F 
- 6958      44756D6D 
- 6958      794C696E 
- 6958      6500
- 6959              	.LASF80:
- 6960 0132 70657269 		.ascii	"period1\000"
- 6960      6F643100 
- 6961              	.LASF20:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 157
+ 6951              	.LASF15:
+ 6952 0142 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 6952      206C6F6E 
+ 6952      6720756E 
+ 6952      7369676E 
+ 6952      65642069 
+ 6953              	.LASF55:
+ 6954 0159 636C6F63 		.ascii	"clockPrescaler\000"
+ 6954      6B507265 
+ 6954      7363616C 
+ 6954      657200
+ 6955              	.LASF102:
+ 6956 0168 70765F65 		.ascii	"pv_eink_frame_data_t\000"
+ 6956      696E6B5F 
+ 6956      6672616D 
+ 6956      655F6461 
+ 6956      74615F74 
+ 6957              	.LASF4:
+ 6958 017d 5F5F696E 		.ascii	"__int8_t\000"
+ 6958      74385F74 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 157
 
 
- 6962 013a 696E7431 		.ascii	"int16_t\000"
- 6962      365F7400 
- 6963              	.LASF112:
- 6964 0142 50565F45 		.ascii	"PV_EINK_STAGE3\000"
- 6964      494E4B5F 
- 6964      53544147 
- 6964      453300
- 6965              	.LASF1:
- 6966 0151 6C6F6E67 		.ascii	"long long int\000"
- 6966      206C6F6E 
- 6966      6720696E 
- 6966      7400
- 6967              	.LASF73:
- 6968 015f 63795F73 		.ascii	"cy_stc_tcpwm_counter_config_t\000"
- 6968      74635F74 
- 6968      6370776D 
- 6968      5F636F75 
- 6968      6E746572 
- 6969              	.LASF91:
- 6970 017d 63795F73 		.ascii	"cy_stc_scb_spi_context\000"
- 6970      74635F73 
- 6970      63625F73 
- 6970      70695F63 
- 6970      6F6E7465 
- 6971              	.LASF128:
- 6972 0194 50765F45 		.ascii	"Pv_EINK_SendData\000"
- 6972      494E4B5F 
- 6972      53656E64 
- 6972      44617461 
- 6972      00
- 6973              	.LASF169:
- 6974 01a5 43795F45 		.ascii	"Cy_EINK_ReadSPI\000"
- 6974      494E4B5F 
- 6974      52656164 
- 6974      53504900 
- 6975              	.LASF181:
- 6976 01b5 43795F47 		.ascii	"Cy_GPIO_Write\000"
- 6976      50494F5F 
- 6976      57726974 
- 6976      6500
- 6977              	.LASF90:
- 6978 01c3 63795F63 		.ascii	"cy_cb_scb_spi_handle_events_t\000"
- 6978      625F7363 
- 6978      625F7370 
- 6978      695F6861 
- 6978      6E646C65 
- 6979              	.LASF12:
- 6980 01e1 6C6F6E67 		.ascii	"long int\000"
- 6980      20696E74 
- 6980      00
- 6981              	.LASF118:
- 6982 01ea 7363616E 		.ascii	"scan\000"
- 6982      00
- 6983              	.LASF158:
- 6984 01ef 64617461 		.ascii	"dataLineOdd\000"
- 6984      4C696E65 
- 6984      4F646400 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 158
+ 6958      00
+ 6959              	.LASF160:
+ 6960 0186 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 6960      52784275 
+ 6960      66666572 
+ 6960      00
+ 6961              	.LASF151:
+ 6962 0193 50765F45 		.ascii	"Pv_EINK_DummyLine\000"
+ 6962      494E4B5F 
+ 6962      44756D6D 
+ 6962      794C696E 
+ 6962      6500
+ 6963              	.LASF80:
+ 6964 01a5 70657269 		.ascii	"period1\000"
+ 6964      6F643100 
+ 6965              	.LASF20:
+ 6966 01ad 696E7431 		.ascii	"int16_t\000"
+ 6966      365F7400 
+ 6967              	.LASF112:
+ 6968 01b5 50565F45 		.ascii	"PV_EINK_STAGE3\000"
+ 6968      494E4B5F 
+ 6968      53544147 
+ 6968      453300
+ 6969              	.LASF1:
+ 6970 01c4 6C6F6E67 		.ascii	"long long int\000"
+ 6970      206C6F6E 
+ 6970      6720696E 
+ 6970      7400
+ 6971              	.LASF73:
+ 6972 01d2 63795F73 		.ascii	"cy_stc_tcpwm_counter_config_t\000"
+ 6972      74635F74 
+ 6972      6370776D 
+ 6972      5F636F75 
+ 6972      6E746572 
+ 6973              	.LASF91:
+ 6974 01f0 63795F73 		.ascii	"cy_stc_scb_spi_context\000"
+ 6974      74635F73 
+ 6974      63625F73 
+ 6974      70695F63 
+ 6974      6F6E7465 
+ 6975              	.LASF128:
+ 6976 0207 50765F45 		.ascii	"Pv_EINK_SendData\000"
+ 6976      494E4B5F 
+ 6976      53656E64 
+ 6976      44617461 
+ 6976      00
+ 6977              	.LASF169:
+ 6978 0218 43795F45 		.ascii	"Cy_EINK_ReadSPI\000"
+ 6978      494E4B5F 
+ 6978      52656164 
+ 6978      53504900 
+ 6979              	.LASF181:
+ 6980 0228 43795F47 		.ascii	"Cy_GPIO_Write\000"
+ 6980      50494F5F 
+ 6980      57726974 
+ 6980      6500
+ 6981              	.LASF90:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 158
 
 
- 6985              	.LASF0:
- 6986 01fb 756E7369 		.ascii	"unsigned int\000"
- 6986      676E6564 
- 6986      20696E74 
+ 6982 0236 63795F63 		.ascii	"cy_cb_scb_spi_handle_events_t\000"
+ 6982      625F7363 
+ 6982      625F7370 
+ 6982      695F6861 
+ 6982      6E646C65 
+ 6983              	.LASF12:
+ 6984 0254 6C6F6E67 		.ascii	"long int\000"
+ 6984      20696E74 
+ 6984      00
+ 6985              	.LASF118:
+ 6986 025d 7363616E 		.ascii	"scan\000"
  6986      00
- 6987              	.LASF179:
- 6988 0208 65496E6B 		.ascii	"eInk Library\\pervasive_eink_hardware_driver.c\000"
- 6988      204C6962 
- 6988      72617279 
- 6988      5C706572 
- 6988      76617369 
- 6989              	.LASF8:
- 6990 0236 73686F72 		.ascii	"short int\000"
- 6990      7420696E 
- 6990      7400
- 6991              	.LASF21:
- 6992 0240 75696E74 		.ascii	"uint16_t\000"
- 6992      31365F74 
- 6992      00
- 6993              	.LASF171:
- 6994 0249 43795F45 		.ascii	"Cy_EINK_TimerInit\000"
- 6994      494E4B5F 
- 6994      54696D65 
- 6994      72496E69 
+ 6987              	.LASF158:
+ 6988 0262 64617461 		.ascii	"dataLineOdd\000"
+ 6988      4C696E65 
+ 6988      4F646400 
+ 6989              	.LASF0:
+ 6990 026e 756E7369 		.ascii	"unsigned int\000"
+ 6990      676E6564 
+ 6990      20696E74 
+ 6990      00
+ 6991              	.LASF179:
+ 6992 027b 65496E6B 		.ascii	"eInk Library\\pervasive_eink_hardware_driver.c\000"
+ 6992      204C6962 
+ 6992      72617279 
+ 6992      5C706572 
+ 6992      76617369 
+ 6993              	.LASF8:
+ 6994 02a9 73686F72 		.ascii	"short int\000"
+ 6994      7420696E 
  6994      7400
- 6995              	.LASF116:
- 6996 025b 64756D6D 		.ascii	"dummyData\000"
- 6996      79446174 
- 6996      6100
- 6997              	.LASF136:
- 6998 0265 74656D70 		.ascii	"temperature\000"
- 6998      65726174 
- 6998      75726500 
- 6999              	.LASF131:
- 7000 0271 50765F45 		.ascii	"Pv_EINK_ReadByte\000"
- 7000      494E4B5F 
- 7000      52656164 
- 7000      42797465 
- 7000      00
- 7001              	.LASF127:
- 7002 0282 64617461 		.ascii	"dataLength\000"
- 7002      4C656E67 
- 7002      746800
- 7003              	.LASF63:
- 7004 028d 63617074 		.ascii	"captureInputMode\000"
- 7004      75726549 
- 7004      6E707574 
- 7004      4D6F6465 
+ 6995              	.LASF21:
+ 6996 02b3 75696E74 		.ascii	"uint16_t\000"
+ 6996      31365F74 
+ 6996      00
+ 6997              	.LASF171:
+ 6998 02bc 43795F45 		.ascii	"Cy_EINK_TimerInit\000"
+ 6998      494E4B5F 
+ 6998      54696D65 
+ 6998      72496E69 
+ 6998      7400
+ 6999              	.LASF116:
+ 7000 02ce 64756D6D 		.ascii	"dummyData\000"
+ 7000      79446174 
+ 7000      6100
+ 7001              	.LASF136:
+ 7002 02d8 74656D70 		.ascii	"temperature\000"
+ 7002      65726174 
+ 7002      75726500 
+ 7003              	.LASF131:
+ 7004 02e4 50765F45 		.ascii	"Pv_EINK_ReadByte\000"
+ 7004      494E4B5F 
+ 7004      52656164 
+ 7004      42797465 
  7004      00
- 7005              	.LASF140:
- 7006 029e 73746167 		.ascii	"stageNumber\000"
- 7006      654E756D 
- 7006      62657200 
- 7007              	.LASF94:
- 7008 02aa 72784275 		.ascii	"rxBufSize\000"
- 7008      6653697A 
- 7008      6500
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 159
+ 7005              	.LASF127:
+ 7006 02f5 64617461 		.ascii	"dataLength\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 159
 
 
- 7009              	.LASF13:
- 7010 02b4 5F5F7569 		.ascii	"__uint32_t\000"
- 7010      6E743332 
- 7010      5F7400
- 7011              	.LASF165:
- 7012 02bf 7363616E 		.ascii	"scanTable\000"
- 7012      5461626C 
+ 7006      4C656E67 
+ 7006      746800
+ 7007              	.LASF63:
+ 7008 0300 63617074 		.ascii	"captureInputMode\000"
+ 7008      75726549 
+ 7008      6E707574 
+ 7008      4D6F6465 
+ 7008      00
+ 7009              	.LASF140:
+ 7010 0311 73746167 		.ascii	"stageNumber\000"
+ 7010      654E756D 
+ 7010      62657200 
+ 7011              	.LASF94:
+ 7012 031d 72784275 		.ascii	"rxBufSize\000"
+ 7012      6653697A 
  7012      6500
- 7013              	.LASF155:
- 7014 02c9 66756C6C 		.ascii	"fullUpdateTime\000"
- 7014      55706461 
- 7014      74655469 
- 7014      6D6500
- 7015              	.LASF142:
- 7016 02d8 74656D70 		.ascii	"tempByte\000"
- 7016      42797465 
- 7016      00
- 7017              	.LASF7:
- 7018 02e1 5F5F696E 		.ascii	"__int16_t\000"
- 7018      7431365F 
- 7018      7400
- 7019              	.LASF95:
- 7020 02eb 72784275 		.ascii	"rxBufIdx\000"
- 7020      66496478 
+ 7013              	.LASF13:
+ 7014 0327 5F5F7569 		.ascii	"__uint32_t\000"
+ 7014      6E743332 
+ 7014      5F7400
+ 7015              	.LASF165:
+ 7016 0332 7363616E 		.ascii	"scanTable\000"
+ 7016      5461626C 
+ 7016      6500
+ 7017              	.LASF155:
+ 7018 033c 66756C6C 		.ascii	"fullUpdateTime\000"
+ 7018      55706461 
+ 7018      74655469 
+ 7018      6D6500
+ 7019              	.LASF142:
+ 7020 034b 74656D70 		.ascii	"tempByte\000"
+ 7020      42797465 
  7020      00
- 7021              	.LASF159:
- 7022 02f4 64617461 		.ascii	"dataLineScan\000"
- 7022      4C696E65 
- 7022      5363616E 
- 7022      00
- 7023              	.LASF167:
- 7024 0301 43795F45 		.ascii	"Cy_EINK_WriteSPI\000"
- 7024      494E4B5F 
- 7024      57726974 
- 7024      65535049 
+ 7021              	.LASF7:
+ 7022 0354 5F5F696E 		.ascii	"__int16_t\000"
+ 7022      7431365F 
+ 7022      7400
+ 7023              	.LASF95:
+ 7024 035e 72784275 		.ascii	"rxBufIdx\000"
+ 7024      66496478 
  7024      00
- 7025              	.LASF166:
- 7026 0312 6368616E 		.ascii	"channelSelect\000"
- 7026      6E656C53 
- 7026      656C6563 
- 7026      7400
- 7027              	.LASF164:
- 7028 0320 62756C6B 		.ascii	"bulkDriverPacket\000"
- 7028      44726976 
- 7028      65725061 
- 7028      636B6574 
+ 7025              	.LASF159:
+ 7026 0367 64617461 		.ascii	"dataLineScan\000"
+ 7026      4C696E65 
+ 7026      5363616E 
+ 7026      00
+ 7027              	.LASF167:
+ 7028 0374 43795F45 		.ascii	"Cy_EINK_WriteSPI\000"
+ 7028      494E4B5F 
+ 7028      57726974 
+ 7028      65535049 
  7028      00
- 7029              	.LASF97:
- 7030 0331 74784275 		.ascii	"txBufSize\000"
- 7030      6653697A 
- 7030      6500
- 7031              	.LASF150:
- 7032 033b 62797465 		.ascii	"byteCounter\000"
- 7032      436F756E 
- 7032      74657200 
- 7033              	.LASF26:
- 7034 0347 4F55545F 		.ascii	"OUT_INV\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 160
+ 7029              	.LASF166:
+ 7030 0385 6368616E 		.ascii	"channelSelect\000"
+ 7030      6E656C53 
+ 7030      656C6563 
+ 7030      7400
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 160
 
 
- 7034      494E5600 
- 7035              	.LASF49:
- 7036 034f 63686172 		.ascii	"char_t\000"
- 7036      5F7400
- 7037              	.LASF14:
- 7038 0356 6C6F6E67 		.ascii	"long unsigned int\000"
- 7038      20756E73 
- 7038      69676E65 
- 7038      6420696E 
- 7038      7400
- 7039              	.LASF61:
- 7040 0368 656E6162 		.ascii	"enableCompareSwap\000"
- 7040      6C65436F 
- 7040      6D706172 
- 7040      65537761 
- 7040      7000
- 7041              	.LASF32:
- 7042 037a 4346475F 		.ascii	"CFG_IN\000"
- 7042      494E00
- 7043              	.LASF28:
- 7044 0381 494E5452 		.ascii	"INTR_MASK\000"
- 7044      5F4D4153 
- 7044      4B00
- 7045              	.LASF47:
- 7046 038b 5644445F 		.ascii	"VDD_INTR_SET\000"
- 7046      494E5452 
- 7046      5F534554 
- 7046      00
- 7047              	.LASF156:
- 7048 0398 70617274 		.ascii	"partialUpdateTime\000"
- 7048      69616C55 
- 7048      70646174 
- 7048      6554696D 
- 7048      6500
- 7049              	.LASF126:
- 7050 03aa 64617461 		.ascii	"data\000"
+ 7031              	.LASF164:
+ 7032 0393 62756C6B 		.ascii	"bulkDriverPacket\000"
+ 7032      44726976 
+ 7032      65725061 
+ 7032      636B6574 
+ 7032      00
+ 7033              	.LASF97:
+ 7034 03a4 74784275 		.ascii	"txBufSize\000"
+ 7034      6653697A 
+ 7034      6500
+ 7035              	.LASF150:
+ 7036 03ae 62797465 		.ascii	"byteCounter\000"
+ 7036      436F756E 
+ 7036      74657200 
+ 7037              	.LASF26:
+ 7038 03ba 4F55545F 		.ascii	"OUT_INV\000"
+ 7038      494E5600 
+ 7039              	.LASF49:
+ 7040 03c2 63686172 		.ascii	"char_t\000"
+ 7040      5F7400
+ 7041              	.LASF14:
+ 7042 03c9 6C6F6E67 		.ascii	"long unsigned int\000"
+ 7042      20756E73 
+ 7042      69676E65 
+ 7042      6420696E 
+ 7042      7400
+ 7043              	.LASF61:
+ 7044 03db 656E6162 		.ascii	"enableCompareSwap\000"
+ 7044      6C65436F 
+ 7044      6D706172 
+ 7044      65537761 
+ 7044      7000
+ 7045              	.LASF32:
+ 7046 03ed 4346475F 		.ascii	"CFG_IN\000"
+ 7046      494E00
+ 7047              	.LASF28:
+ 7048 03f4 494E5452 		.ascii	"INTR_MASK\000"
+ 7048      5F4D4153 
+ 7048      4B00
+ 7049              	.LASF47:
+ 7050 03fe 5644445F 		.ascii	"VDD_INTR_SET\000"
+ 7050      494E5452 
+ 7050      5F534554 
  7050      00
- 7051              	.LASF85:
- 7052 03af 73776170 		.ascii	"swapInputMode\000"
- 7052      496E7075 
- 7052      744D6F64 
+ 7051              	.LASF156:
+ 7052 040b 70617274 		.ascii	"partialUpdateTime\000"
+ 7052      69616C55 
+ 7052      70646174 
+ 7052      6554696D 
  7052      6500
- 7053              	.LASF10:
- 7054 03bd 73686F72 		.ascii	"short unsigned int\000"
- 7054      7420756E 
- 7054      7369676E 
- 7054      65642069 
- 7054      6E7400
- 7055              	.LASF29:
- 7056 03d0 494E5452 		.ascii	"INTR_MASKED\000"
- 7056      5F4D4153 
- 7056      4B454400 
- 7057              	.LASF135:
- 7058 03dc 50765F45 		.ascii	"Pv_EINK_SetTempFactor\000"
- 7058      494E4B5F 
- 7058      53657454 
- 7058      656D7046 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 161
+ 7053              	.LASF126:
+ 7054 041d 64617461 		.ascii	"data\000"
+ 7054      00
+ 7055              	.LASF85:
+ 7056 0422 73776170 		.ascii	"swapInputMode\000"
+ 7056      496E7075 
+ 7056      744D6F64 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 161
 
 
- 7058      6163746F 
- 7059              	.LASF104:
- 7060 03f2 50565F45 		.ascii	"PV_EINK_ERROR_BUSY\000"
- 7060      494E4B5F 
- 7060      4552524F 
- 7060      525F4255 
- 7060      535900
- 7061              	.LASF25:
- 7062 0405 4F55545F 		.ascii	"OUT_SET\000"
- 7062      53455400 
- 7063              	.LASF87:
- 7064 040d 6B696C6C 		.ascii	"killInputMode\000"
- 7064      496E7075 
- 7064      744D6F64 
- 7064      6500
- 7065              	.LASF99:
- 7066 041b 63624576 		.ascii	"cbEvents\000"
- 7066      656E7473 
- 7066      00
- 7067              	.LASF115:
- 7068 0424 65696E6B 		.ascii	"eink_lineData\000"
- 7068      5F6C696E 
- 7068      65446174 
- 7068      6100
- 7069              	.LASF96:
- 7070 0432 74784275 		.ascii	"txBuf\000"
- 7070      6600
- 7071              	.LASF110:
- 7072 0438 50565F45 		.ascii	"PV_EINK_STAGE1\000"
- 7072      494E4B5F 
- 7072      53544147 
- 7072      453100
- 7073              	.LASF111:
- 7074 0447 50565F45 		.ascii	"PV_EINK_STAGE2\000"
- 7074      494E4B5F 
- 7074      53544147 
- 7074      453200
- 7075              	.LASF101:
- 7076 0456 63795F73 		.ascii	"cy_stc_scb_spi_context_t\000"
- 7076      74635F73 
- 7076      63625F73 
- 7076      70695F63 
- 7076      6F6E7465 
- 7077              	.LASF113:
- 7078 046f 50565F45 		.ascii	"PV_EINK_STAGE4\000"
+ 7056      6500
+ 7057              	.LASF10:
+ 7058 0430 73686F72 		.ascii	"short unsigned int\000"
+ 7058      7420756E 
+ 7058      7369676E 
+ 7058      65642069 
+ 7058      6E7400
+ 7059              	.LASF29:
+ 7060 0443 494E5452 		.ascii	"INTR_MASKED\000"
+ 7060      5F4D4153 
+ 7060      4B454400 
+ 7061              	.LASF135:
+ 7062 044f 50765F45 		.ascii	"Pv_EINK_SetTempFactor\000"
+ 7062      494E4B5F 
+ 7062      53657454 
+ 7062      656D7046 
+ 7062      6163746F 
+ 7063              	.LASF104:
+ 7064 0465 50565F45 		.ascii	"PV_EINK_ERROR_BUSY\000"
+ 7064      494E4B5F 
+ 7064      4552524F 
+ 7064      525F4255 
+ 7064      535900
+ 7065              	.LASF25:
+ 7066 0478 4F55545F 		.ascii	"OUT_SET\000"
+ 7066      53455400 
+ 7067              	.LASF87:
+ 7068 0480 6B696C6C 		.ascii	"killInputMode\000"
+ 7068      496E7075 
+ 7068      744D6F64 
+ 7068      6500
+ 7069              	.LASF99:
+ 7070 048e 63624576 		.ascii	"cbEvents\000"
+ 7070      656E7473 
+ 7070      00
+ 7071              	.LASF115:
+ 7072 0497 65696E6B 		.ascii	"eink_lineData\000"
+ 7072      5F6C696E 
+ 7072      65446174 
+ 7072      6100
+ 7073              	.LASF96:
+ 7074 04a5 74784275 		.ascii	"txBuf\000"
+ 7074      6600
+ 7075              	.LASF110:
+ 7076 04ab 50565F45 		.ascii	"PV_EINK_STAGE1\000"
+ 7076      494E4B5F 
+ 7076      53544147 
+ 7076      453100
+ 7077              	.LASF111:
+ 7078 04ba 50565F45 		.ascii	"PV_EINK_STAGE2\000"
  7078      494E4B5F 
  7078      53544147 
- 7078      453400
- 7079              	.LASF82:
- 7080 047e 696E7665 		.ascii	"invertPWMOut\000"
- 7080      72745057 
- 7080      4D4F7574 
- 7080      00
- 7081              	.LASF78:
- 7082 048b 64656164 		.ascii	"deadTimeClocks\000"
- 7082      54696D65 
- 7082      436C6F63 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 162
+ 7078      453200
+ 7079              	.LASF101:
+ 7080 04c9 63795F73 		.ascii	"cy_stc_scb_spi_context_t\000"
+ 7080      74635F73 
+ 7080      63625F73 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 162
 
 
- 7082      6B7300
- 7083              	.LASF71:
- 7084 049a 636F756E 		.ascii	"countInputMode\000"
- 7084      74496E70 
- 7084      75744D6F 
- 7084      646500
- 7085              	.LASF68:
- 7086 04a9 73746172 		.ascii	"startInput\000"
- 7086      74496E70 
- 7086      757400
- 7087              	.LASF31:
- 7088 04b4 494E5452 		.ascii	"INTR_CFG\000"
- 7088      5F434647 
- 7088      00
- 7089              	.LASF30:
- 7090 04bd 494E5452 		.ascii	"INTR_SET\000"
- 7090      5F534554 
- 7090      00
- 7091              	.LASF125:
- 7092 04c6 72656741 		.ascii	"regAddr\000"
- 7092      64647200 
- 7093              	.LASF122:
- 7094 04ce 62617365 		.ascii	"base\000"
+ 7080      70695F63 
+ 7080      6F6E7465 
+ 7081              	.LASF113:
+ 7082 04e2 50565F45 		.ascii	"PV_EINK_STAGE4\000"
+ 7082      494E4B5F 
+ 7082      53544147 
+ 7082      453400
+ 7083              	.LASF82:
+ 7084 04f1 696E7665 		.ascii	"invertPWMOut\000"
+ 7084      72745057 
+ 7084      4D4F7574 
+ 7084      00
+ 7085              	.LASF78:
+ 7086 04fe 64656164 		.ascii	"deadTimeClocks\000"
+ 7086      54696D65 
+ 7086      436C6F63 
+ 7086      6B7300
+ 7087              	.LASF71:
+ 7088 050d 636F756E 		.ascii	"countInputMode\000"
+ 7088      74496E70 
+ 7088      75744D6F 
+ 7088      646500
+ 7089              	.LASF68:
+ 7090 051c 73746172 		.ascii	"startInput\000"
+ 7090      74496E70 
+ 7090      757400
+ 7091              	.LASF31:
+ 7092 0527 494E5452 		.ascii	"INTR_CFG\000"
+ 7092      5F434647 
+ 7092      00
+ 7093              	.LASF30:
+ 7094 0530 494E5452 		.ascii	"INTR_SET\000"
+ 7094      5F534554 
  7094      00
- 7095              	.LASF114:
- 7096 04d3 70765F65 		.ascii	"pv_eink_stage_t\000"
- 7096      696E6B5F 
- 7096      73746167 
- 7096      655F7400 
- 7097              	.LASF43:
- 7098 04e3 5644445F 		.ascii	"VDD_ACTIVE\000"
- 7098      41435449 
- 7098      564500
- 7099              	.LASF74:
- 7100 04ee 63795F73 		.ascii	"cy_stc_tcpwm_counter_config\000"
- 7100      74635F74 
- 7100      6370776D 
- 7100      5F636F75 
- 7100      6E746572 
- 7101              	.LASF18:
- 7102 050a 696E7438 		.ascii	"int8_t\000"
- 7102      5F7400
- 7103              	.LASF157:
- 7104 0511 64617461 		.ascii	"dataLineEven\000"
- 7104      4C696E65 
- 7104      4576656E 
- 7104      00
- 7105              	.LASF16:
- 7106 051e 73697A65 		.ascii	"sizetype\000"
- 7106      74797065 
- 7106      00
- 7107              	.LASF132:
- 7108 0527 50765F45 		.ascii	"Pv_EINK_InitDriver\000"
- 7108      494E4B5F 
- 7108      496E6974 
- 7108      44726976 
- 7108      657200
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 163
+ 7095              	.LASF125:
+ 7096 0539 72656741 		.ascii	"regAddr\000"
+ 7096      64647200 
+ 7097              	.LASF122:
+ 7098 0541 62617365 		.ascii	"base\000"
+ 7098      00
+ 7099              	.LASF114:
+ 7100 0546 70765F65 		.ascii	"pv_eink_stage_t\000"
+ 7100      696E6B5F 
+ 7100      73746167 
+ 7100      655F7400 
+ 7101              	.LASF43:
+ 7102 0556 5644445F 		.ascii	"VDD_ACTIVE\000"
+ 7102      41435449 
+ 7102      564500
+ 7103              	.LASF74:
+ 7104 0561 63795F73 		.ascii	"cy_stc_tcpwm_counter_config\000"
+ 7104      74635F74 
+ 7104      6370776D 
+ 7104      5F636F75 
+ 7104      6E746572 
+ 7105              	.LASF18:
+ 7106 057d 696E7438 		.ascii	"int8_t\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 163
 
 
- 7109              	.LASF117:
- 7110 053a 6576656E 		.ascii	"even\000"
+ 7106      5F7400
+ 7107              	.LASF157:
+ 7108 0584 64617461 		.ascii	"dataLineEven\000"
+ 7108      4C696E65 
+ 7108      4576656E 
+ 7108      00
+ 7109              	.LASF16:
+ 7110 0591 73697A65 		.ascii	"sizetype\000"
+ 7110      74797065 
  7110      00
- 7111              	.LASF177:
- 7112 053f 43795F45 		.ascii	"Cy_EINK_DetachSPI\000"
+ 7111              	.LASF132:
+ 7112 059a 50765F45 		.ascii	"Pv_EINK_InitDriver\000"
  7112      494E4B5F 
- 7112      44657461 
- 7112      63685350 
- 7112      4900
- 7113              	.LASF27:
- 7114 0551 494E5452 		.ascii	"INTR\000"
+ 7112      496E6974 
+ 7112      44726976 
+ 7112      657200
+ 7113              	.LASF117:
+ 7114 05ad 6576656E 		.ascii	"even\000"
  7114      00
- 7115              	.LASF130:
- 7116 0556 50765F45 		.ascii	"Pv_EINK_Init\000"
+ 7115              	.LASF177:
+ 7116 05b2 43795F45 		.ascii	"Cy_EINK_DetachSPI\000"
  7116      494E4B5F 
- 7116      496E6974 
- 7116      00
- 7117              	.LASF145:
- 7118 0563 70726576 		.ascii	"previousImagePtr\000"
- 7118      696F7573 
- 7118      496D6167 
- 7118      65507472 
+ 7116      44657461 
+ 7116      63685350 
+ 7116      4900
+ 7117              	.LASF27:
+ 7118 05c4 494E5452 		.ascii	"INTR\000"
  7118      00
- 7119              	.LASF178:
- 7120 0574 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 7120      43313120 
- 7120      352E342E 
- 7120      31203230 
- 7120      31363036 
- 7121 05a7 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
- 7121      20726576 
- 7121      6973696F 
- 7121      6E203233 
- 7121      37373135 
- 7122 05da 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
- 7122      70202D6D 
- 7122      6670753D 
- 7122      66707634 
- 7122      2D73702D 
- 7123 060d 65637469 		.ascii	"ections -ffat-lto-objects\000"
- 7123      6F6E7320 
- 7123      2D666661 
- 7123      742D6C74 
- 7123      6F2D6F62 
- 7124              	.LASF24:
- 7125 0627 4F55545F 		.ascii	"OUT_CLR\000"
- 7125      434C5200 
- 7126              	.LASF76:
- 7127 062f 70776D4D 		.ascii	"pwmMode\000"
- 7127      6F646500 
- 7128              	.LASF50:
- 7129 0637 666C6F61 		.ascii	"float\000"
- 7129      7400
- 7130              	.LASF36:
- 7131 063d 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
- 7131      494E5F47 
- 7131      50494F35 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 164
+ 7119              	.LASF130:
+ 7120 05c9 50765F45 		.ascii	"Pv_EINK_Init\000"
+ 7120      494E4B5F 
+ 7120      496E6974 
+ 7120      00
+ 7121              	.LASF145:
+ 7122 05d6 70726576 		.ascii	"previousImagePtr\000"
+ 7122      696F7573 
+ 7122      496D6167 
+ 7122      65507472 
+ 7122      00
+ 7123              	.LASF178:
+ 7124 05e7 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 7124      43313120 
+ 7124      352E342E 
+ 7124      31203230 
+ 7124      31363036 
+ 7125 061a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 7125      20726576 
+ 7125      6973696F 
+ 7125      6E203233 
+ 7125      37373135 
+ 7126 064d 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 7126      70202D6D 
+ 7126      6670753D 
+ 7126      66707634 
+ 7126      2D73702D 
+ 7127 0680 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 7127      6F6E7320 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 164
 
 
- 7131      5600
- 7132              	.LASF34:
- 7133 064b 4346475F 		.ascii	"CFG_SIO\000"
- 7133      53494F00 
- 7134              	.LASF37:
- 7135 0653 52455345 		.ascii	"RESERVED1\000"
- 7135      52564544 
- 7135      3100
- 7136              	.LASF84:
- 7137 065d 6B696C6C 		.ascii	"killMode\000"
- 7137      4D6F6465 
- 7137      00
- 7138              	.LASF109:
- 7139 0666 70765F65 		.ascii	"pv_eink_status_t\000"
- 7139      696E6B5F 
- 7139      73746174 
- 7139      75735F74 
- 7139      00
- 7140              	.LASF105:
- 7141 0677 50565F45 		.ascii	"PV_EINK_ERROR_ID\000"
- 7141      494E4B5F 
- 7141      4552524F 
- 7141      525F4944 
+ 7127      2D666661 
+ 7127      742D6C74 
+ 7127      6F2D6F62 
+ 7128              	.LASF24:
+ 7129 069a 4F55545F 		.ascii	"OUT_CLR\000"
+ 7129      434C5200 
+ 7130              	.LASF76:
+ 7131 06a2 70776D4D 		.ascii	"pwmMode\000"
+ 7131      6F646500 
+ 7132              	.LASF50:
+ 7133 06aa 666C6F61 		.ascii	"float\000"
+ 7133      7400
+ 7134              	.LASF36:
+ 7135 06b0 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
+ 7135      494E5F47 
+ 7135      50494F35 
+ 7135      5600
+ 7136              	.LASF34:
+ 7137 06be 4346475F 		.ascii	"CFG_SIO\000"
+ 7137      53494F00 
+ 7138              	.LASF37:
+ 7139 06c6 52455345 		.ascii	"RESERVED1\000"
+ 7139      52564544 
+ 7139      3100
+ 7140              	.LASF84:
+ 7141 06d0 6B696C6C 		.ascii	"killMode\000"
+ 7141      4D6F6465 
  7141      00
- 7142              	.LASF152:
- 7143 0688 50765F45 		.ascii	"Pv_EINK_HardwarePowerOn\000"
- 7143      494E4B5F 
- 7143      48617264 
- 7143      77617265 
- 7143      506F7765 
- 7144              	.LASF103:
- 7145 06a0 50565F45 		.ascii	"PV_EINK_RES_OK\000"
+ 7142              	.LASF109:
+ 7143 06d9 70765F65 		.ascii	"pv_eink_status_t\000"
+ 7143      696E6B5F 
+ 7143      73746174 
+ 7143      75735F74 
+ 7143      00
+ 7144              	.LASF105:
+ 7145 06ea 50565F45 		.ascii	"PV_EINK_ERROR_ID\000"
  7145      494E4B5F 
- 7145      5245535F 
- 7145      4F4B00
- 7146              	.LASF53:
- 7147 06af 5F426F6F 		.ascii	"_Bool\000"
- 7147      6C00
- 7148              	.LASF22:
- 7149 06b5 696E7433 		.ascii	"int32_t\000"
- 7149      325F7400 
- 7150              	.LASF6:
- 7151 06bd 756E7369 		.ascii	"unsigned char\000"
- 7151      676E6564 
- 7151      20636861 
- 7151      7200
- 7152              	.LASF148:
- 7153 06cb 6E657742 		.ascii	"newByte\000"
- 7153      79746500 
- 7154              	.LASF168:
- 7155 06d3 43795F45 		.ascii	"Cy_EINK_WriteSPIBuffer\000"
- 7155      494E4B5F 
- 7155      57726974 
- 7155      65535049 
- 7155      42756666 
- 7156              	.LASF121:
- 7157 06ea 64726976 		.ascii	"driver_data_packet_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 165
+ 7145      4552524F 
+ 7145      525F4944 
+ 7145      00
+ 7146              	.LASF152:
+ 7147 06fb 50765F45 		.ascii	"Pv_EINK_HardwarePowerOn\000"
+ 7147      494E4B5F 
+ 7147      48617264 
+ 7147      77617265 
+ 7147      506F7765 
+ 7148              	.LASF103:
+ 7149 0713 50565F45 		.ascii	"PV_EINK_RES_OK\000"
+ 7149      494E4B5F 
+ 7149      5245535F 
+ 7149      4F4B00
+ 7150              	.LASF53:
+ 7151 0722 5F426F6F 		.ascii	"_Bool\000"
+ 7151      6C00
+ 7152              	.LASF22:
+ 7153 0728 696E7433 		.ascii	"int32_t\000"
+ 7153      325F7400 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 165
 
 
- 7157      65725F64 
- 7157      6174615F 
- 7157      7061636B 
- 7157      65745F74 
- 7158              	.LASF146:
- 7159 06ff 6E657749 		.ascii	"newImagePtr\000"
- 7159      6D616765 
- 7159      50747200 
- 7160              	.LASF144:
- 7161 070b 50765F45 		.ascii	"Pv_EINK_PartialStageHandler\000"
- 7161      494E4B5F 
- 7161      50617274 
- 7161      69616C53 
- 7161      74616765 
- 7162              	.LASF119:
- 7163 0727 6C696E65 		.ascii	"lineDataBySize\000"
- 7163      44617461 
- 7163      42795369 
- 7163      7A6500
- 7164              	.LASF143:
- 7165 0736 626C6163 		.ascii	"blackOrWhiteFrame\000"
- 7165      6B4F7257 
- 7165      68697465 
- 7165      4672616D 
- 7165      6500
- 7166              	.LASF147:
- 7167 0748 6F6C6442 		.ascii	"oldByte\000"
- 7167      79746500 
- 7168              	.LASF35:
- 7169 0750 52455345 		.ascii	"RESERVED\000"
- 7169      52564544 
- 7169      00
- 7170              	.LASF139:
- 7171 0759 696D6167 		.ascii	"imagePtr\000"
- 7171      65507472 
- 7171      00
- 7172              	.LASF44:
- 7173 0762 5644445F 		.ascii	"VDD_INTR\000"
- 7173      494E5452 
+ 7154              	.LASF6:
+ 7155 0730 756E7369 		.ascii	"unsigned char\000"
+ 7155      676E6564 
+ 7155      20636861 
+ 7155      7200
+ 7156              	.LASF148:
+ 7157 073e 6E657742 		.ascii	"newByte\000"
+ 7157      79746500 
+ 7158              	.LASF168:
+ 7159 0746 43795F45 		.ascii	"Cy_EINK_WriteSPIBuffer\000"
+ 7159      494E4B5F 
+ 7159      57726974 
+ 7159      65535049 
+ 7159      42756666 
+ 7160              	.LASF121:
+ 7161 075d 64726976 		.ascii	"driver_data_packet_t\000"
+ 7161      65725F64 
+ 7161      6174615F 
+ 7161      7061636B 
+ 7161      65745F74 
+ 7162              	.LASF146:
+ 7163 0772 6E657749 		.ascii	"newImagePtr\000"
+ 7163      6D616765 
+ 7163      50747200 
+ 7164              	.LASF144:
+ 7165 077e 50765F45 		.ascii	"Pv_EINK_PartialStageHandler\000"
+ 7165      494E4B5F 
+ 7165      50617274 
+ 7165      69616C53 
+ 7165      74616765 
+ 7166              	.LASF119:
+ 7167 079a 6C696E65 		.ascii	"lineDataBySize\000"
+ 7167      44617461 
+ 7167      42795369 
+ 7167      7A6500
+ 7168              	.LASF143:
+ 7169 07a9 626C6163 		.ascii	"blackOrWhiteFrame\000"
+ 7169      6B4F7257 
+ 7169      68697465 
+ 7169      4672616D 
+ 7169      6500
+ 7170              	.LASF147:
+ 7171 07bb 6F6C6442 		.ascii	"oldByte\000"
+ 7171      79746500 
+ 7172              	.LASF35:
+ 7173 07c3 52455345 		.ascii	"RESERVED\000"
+ 7173      52564544 
  7173      00
- 7174              	.LASF149:
- 7175 076b 50765F45 		.ascii	"Pv_EINK_NothingFrame\000"
- 7175      494E4B5F 
- 7175      4E6F7468 
- 7175      696E6746 
- 7175      72616D65 
- 7176              	.LASF81:
- 7177 0780 656E6162 		.ascii	"enablePeriodSwap\000"
- 7177      6C655065 
- 7177      72696F64 
- 7177      53776170 
+ 7174              	.LASF139:
+ 7175 07cc 696D6167 		.ascii	"imagePtr\000"
+ 7175      65507472 
+ 7175      00
+ 7176              	.LASF44:
+ 7177 07d5 5644445F 		.ascii	"VDD_INTR\000"
+ 7177      494E5452 
  7177      00
- 7178              	.LASF124:
- 7179 0791 76616C75 		.ascii	"value\000"
- 7179      6500
- 7180              	.LASF58:
- 7181 0797 636F6D70 		.ascii	"compareOrCapture\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 166
+ 7178              	.LASF149:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 166
 
 
- 7181      6172654F 
- 7181      72436170 
- 7181      74757265 
+ 7179 07de 50765F45 		.ascii	"Pv_EINK_NothingFrame\000"
+ 7179      494E4B5F 
+ 7179      4E6F7468 
+ 7179      696E6746 
+ 7179      72616D65 
+ 7180              	.LASF81:
+ 7181 07f3 656E6162 		.ascii	"enablePeriodSwap\000"
+ 7181      6C655065 
+ 7181      72696F64 
+ 7181      53776170 
  7181      00
- 7182              	.LASF123:
- 7183 07a8 70696E4E 		.ascii	"pinNum\000"
- 7183      756D00
- 7184              	.LASF75:
- 7185 07af 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
- 7185      74635F74 
- 7185      6370776D 
- 7185      5F70776D 
- 7185      5F636F6E 
- 7186              	.LASF23:
- 7187 07c7 75696E74 		.ascii	"uint32_t\000"
- 7187      33325F74 
- 7187      00
- 7188              	.LASF175:
- 7189 07d0 43795F53 		.ascii	"Cy_SysLib_Delay\000"
- 7189      79734C69 
- 7189      625F4465 
- 7189      6C617900 
- 7190              	.LASF59:
- 7191 07e0 636F6D70 		.ascii	"compare0\000"
- 7191      61726530 
+ 7182              	.LASF124:
+ 7183 0804 76616C75 		.ascii	"value\000"
+ 7183      6500
+ 7184              	.LASF58:
+ 7185 080a 636F6D70 		.ascii	"compareOrCapture\000"
+ 7185      6172654F 
+ 7185      72436170 
+ 7185      74757265 
+ 7185      00
+ 7186              	.LASF123:
+ 7187 081b 70696E4E 		.ascii	"pinNum\000"
+ 7187      756D00
+ 7188              	.LASF75:
+ 7189 0822 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
+ 7189      74635F74 
+ 7189      6370776D 
+ 7189      5F70776D 
+ 7189      5F636F6E 
+ 7190              	.LASF23:
+ 7191 083a 75696E74 		.ascii	"uint32_t\000"
+ 7191      33325F74 
  7191      00
- 7192              	.LASF2:
- 7193 07e9 6C6F6E67 		.ascii	"long double\000"
- 7193      20646F75 
- 7193      626C6500 
- 7194              	.LASF17:
- 7195 07f5 63686172 		.ascii	"char\000"
+ 7192              	.LASF175:
+ 7193 0843 43795F53 		.ascii	"Cy_SysLib_Delay\000"
+ 7193      79734C69 
+ 7193      625F4465 
+ 7193      6C617900 
+ 7194              	.LASF59:
+ 7195 0853 636F6D70 		.ascii	"compare0\000"
+ 7195      61726530 
  7195      00
- 7196              	.LASF39:
- 7197 07fa 494E5452 		.ascii	"INTR_CAUSE0\000"
- 7197      5F434155 
- 7197      53453000 
- 7198              	.LASF40:
- 7199 0806 494E5452 		.ascii	"INTR_CAUSE1\000"
- 7199      5F434155 
- 7199      53453100 
- 7200              	.LASF41:
- 7201 0812 494E5452 		.ascii	"INTR_CAUSE2\000"
+ 7196              	.LASF2:
+ 7197 085c 6C6F6E67 		.ascii	"long double\000"
+ 7197      20646F75 
+ 7197      626C6500 
+ 7198              	.LASF17:
+ 7199 0868 63686172 		.ascii	"char\000"
+ 7199      00
+ 7200              	.LASF39:
+ 7201 086d 494E5452 		.ascii	"INTR_CAUSE0\000"
  7201      5F434155 
- 7201      53453200 
- 7202              	.LASF42:
- 7203 081e 494E5452 		.ascii	"INTR_CAUSE3\000"
+ 7201      53453000 
+ 7202              	.LASF40:
+ 7203 0879 494E5452 		.ascii	"INTR_CAUSE1\000"
  7203      5F434155 
- 7203      53453300 
- 7204              	.LASF173:
- 7205 082a 43795F45 		.ascii	"Cy_EINK_IsBusy\000"
- 7205      494E4B5F 
- 7205      49734275 
- 7205      737900
- 7206              	.LASF38:
- 7207 0839 4750494F 		.ascii	"GPIO_PRT_Type\000"
- 7207      5F505254 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 167
+ 7203      53453100 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 167
 
 
- 7207      5F547970 
- 7207      6500
- 7208              	.LASF9:
- 7209 0847 5F5F7569 		.ascii	"__uint16_t\000"
- 7209      6E743136 
- 7209      5F7400
- 7210              	.LASF163:
- 7211 0852 50574D5F 		.ascii	"PWM_config\000"
- 7211      636F6E66 
- 7211      696700
- 7212              	.LASF170:
- 7213 085d 43795F45 		.ascii	"Cy_EINK_InitSPI\000"
- 7213      494E4B5F 
- 7213      496E6974 
- 7213      53504900 
- 7214              	.LASF11:
- 7215 086d 5F5F696E 		.ascii	"__int32_t\000"
- 7215      7433325F 
- 7215      7400
- 7216              	.LASF154:
- 7217 0877 64726976 		.ascii	"driverPacket\000"
- 7217      65725061 
- 7217      636B6574 
- 7217      00
- 7218              	.LASF46:
- 7219 0884 5644445F 		.ascii	"VDD_INTR_MASKED\000"
- 7219      494E5452 
- 7219      5F4D4153 
- 7219      4B454400 
- 7220              	.LASF62:
- 7221 0894 696E7465 		.ascii	"interruptSources\000"
- 7221      72727570 
- 7221      74536F75 
- 7221      72636573 
+ 7204              	.LASF41:
+ 7205 0885 494E5452 		.ascii	"INTR_CAUSE2\000"
+ 7205      5F434155 
+ 7205      53453200 
+ 7206              	.LASF42:
+ 7207 0891 494E5452 		.ascii	"INTR_CAUSE3\000"
+ 7207      5F434155 
+ 7207      53453300 
+ 7208              	.LASF173:
+ 7209 089d 43795F45 		.ascii	"Cy_EINK_IsBusy\000"
+ 7209      494E4B5F 
+ 7209      49734275 
+ 7209      737900
+ 7210              	.LASF38:
+ 7211 08ac 4750494F 		.ascii	"GPIO_PRT_Type\000"
+ 7211      5F505254 
+ 7211      5F547970 
+ 7211      6500
+ 7212              	.LASF9:
+ 7213 08ba 5F5F7569 		.ascii	"__uint16_t\000"
+ 7213      6E743136 
+ 7213      5F7400
+ 7214              	.LASF163:
+ 7215 08c5 50574D5F 		.ascii	"PWM_config\000"
+ 7215      636F6E66 
+ 7215      696700
+ 7216              	.LASF170:
+ 7217 08d0 43795F45 		.ascii	"Cy_EINK_InitSPI\000"
+ 7217      494E4B5F 
+ 7217      496E6974 
+ 7217      53504900 
+ 7218              	.LASF11:
+ 7219 08e0 5F5F696E 		.ascii	"__int32_t\000"
+ 7219      7433325F 
+ 7219      7400
+ 7220              	.LASF154:
+ 7221 08ea 64726976 		.ascii	"driverPacket\000"
+ 7221      65725061 
+ 7221      636B6574 
  7221      00
- 7222              	.LASF66:
- 7223 08a5 72656C6F 		.ascii	"reloadInput\000"
- 7223      6164496E 
- 7223      70757400 
- 7224              	.LASF174:
- 7225 08b1 43795F45 		.ascii	"Cy_EINK_TimerStop\000"
- 7225      494E4B5F 
- 7225      54696D65 
- 7225      7253746F 
- 7225      7000
- 7226              	.LASF70:
- 7227 08c3 73746F70 		.ascii	"stopInput\000"
- 7227      496E7075 
- 7227      7400
- 7228              	.LASF67:
- 7229 08cd 73746172 		.ascii	"startInputMode\000"
- 7229      74496E70 
- 7229      75744D6F 
- 7229      646500
- 7230              	.LASF141:
- 7231 08dc 7363616E 		.ascii	"scanlineNumber\000"
- 7231      6C696E65 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 168
+ 7222              	.LASF46:
+ 7223 08f7 5644445F 		.ascii	"VDD_INTR_MASKED\000"
+ 7223      494E5452 
+ 7223      5F4D4153 
+ 7223      4B454400 
+ 7224              	.LASF62:
+ 7225 0907 696E7465 		.ascii	"interruptSources\000"
+ 7225      72727570 
+ 7225      74536F75 
+ 7225      72636573 
+ 7225      00
+ 7226              	.LASF66:
+ 7227 0918 72656C6F 		.ascii	"reloadInput\000"
+ 7227      6164496E 
+ 7227      70757400 
+ 7228              	.LASF174:
+ 7229 0924 43795F45 		.ascii	"Cy_EINK_TimerStop\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 168
 
 
- 7231      4E756D62 
- 7231      657200
- 7232              	.LASF79:
- 7233 08eb 70657269 		.ascii	"period0\000"
- 7233      6F643000 
- 7234              	.LASF133:
- 7235 08f3 64617461 		.ascii	"dataRead\000"
- 7235      52656164 
- 7235      00
- 7236              	.LASF176:
- 7237 08fc 43795F45 		.ascii	"Cy_EINK_AttachSPI\000"
- 7237      494E4B5F 
- 7237      41747461 
- 7237      63685350 
- 7237      4900
- 7238              	.LASF100:
- 7239 090e 696E6974 		.ascii	"initKey\000"
- 7239      4B657900 
- 7240              	.LASF93:
- 7241 0916 72784275 		.ascii	"rxBuf\000"
- 7241      6600
- 7242              	.LASF161:
- 7243 091c 43595F45 		.ascii	"CY_EINK_SPIM_context\000"
- 7243      494E4B5F 
- 7243      5350494D 
- 7243      5F636F6E 
- 7243      74657874 
- 7244              	.LASF106:
- 7245 0931 50565F45 		.ascii	"PV_EINK_ERROR_BREAKAGE\000"
- 7245      494E4B5F 
- 7245      4552524F 
- 7245      525F4252 
- 7245      45414B41 
- 7246              	.LASF137:
- 7247 0948 75706461 		.ascii	"updateTime\000"
- 7247      74655469 
- 7247      6D6500
- 7248              	.LASF182:
- 7249 0953 6D656D73 		.ascii	"memset\000"
- 7249      657400
- 7250              	.LASF92:
- 7251 095a 73746174 		.ascii	"status\000"
- 7251      757300
- 7252              	.LASF83:
- 7253 0961 696E7665 		.ascii	"invertPWMOutN\000"
- 7253      72745057 
- 7253      4D4F7574 
- 7253      4E00
- 7254              	.LASF19:
- 7255 096f 75696E74 		.ascii	"uint8_t\000"
- 7255      385F7400 
- 7256              	.LASF138:
- 7257 0977 50765F45 		.ascii	"Pv_EINK_FullStageHandler\000"
- 7257      494E4B5F 
- 7257      46756C6C 
- 7257      53746167 
- 7257      6548616E 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 169
+ 7229      494E4B5F 
+ 7229      54696D65 
+ 7229      7253746F 
+ 7229      7000
+ 7230              	.LASF70:
+ 7231 0936 73746F70 		.ascii	"stopInput\000"
+ 7231      496E7075 
+ 7231      7400
+ 7232              	.LASF67:
+ 7233 0940 73746172 		.ascii	"startInputMode\000"
+ 7233      74496E70 
+ 7233      75744D6F 
+ 7233      646500
+ 7234              	.LASF141:
+ 7235 094f 7363616E 		.ascii	"scanlineNumber\000"
+ 7235      6C696E65 
+ 7235      4E756D62 
+ 7235      657200
+ 7236              	.LASF79:
+ 7237 095e 70657269 		.ascii	"period0\000"
+ 7237      6F643000 
+ 7238              	.LASF133:
+ 7239 0966 64617461 		.ascii	"dataRead\000"
+ 7239      52656164 
+ 7239      00
+ 7240              	.LASF176:
+ 7241 096f 43795F45 		.ascii	"Cy_EINK_AttachSPI\000"
+ 7241      494E4B5F 
+ 7241      41747461 
+ 7241      63685350 
+ 7241      4900
+ 7242              	.LASF100:
+ 7243 0981 696E6974 		.ascii	"initKey\000"
+ 7243      4B657900 
+ 7244              	.LASF93:
+ 7245 0989 72784275 		.ascii	"rxBuf\000"
+ 7245      6600
+ 7246              	.LASF161:
+ 7247 098f 43595F45 		.ascii	"CY_EINK_SPIM_context\000"
+ 7247      494E4B5F 
+ 7247      5350494D 
+ 7247      5F636F6E 
+ 7247      74657874 
+ 7248              	.LASF106:
+ 7249 09a4 50565F45 		.ascii	"PV_EINK_ERROR_BREAKAGE\000"
+ 7249      494E4B5F 
+ 7249      4552524F 
+ 7249      525F4252 
+ 7249      45414B41 
+ 7250              	.LASF137:
+ 7251 09bb 75706461 		.ascii	"updateTime\000"
+ 7251      74655469 
+ 7251      6D6500
+ 7252              	.LASF182:
+ 7253 09c6 6D656D73 		.ascii	"memset\000"
+ 7253      657400
+ 7254              	.LASF92:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 169
 
 
- 7258              	.LASF86:
- 7259 0990 73776170 		.ascii	"swapInput\000"
- 7259      496E7075 
- 7259      7400
- 7260              	.LASF162:
- 7261 099a 43595F45 		.ascii	"CY_EINK_Timer_config\000"
+ 7255 09cd 73746174 		.ascii	"status\000"
+ 7255      757300
+ 7256              	.LASF83:
+ 7257 09d4 696E7665 		.ascii	"invertPWMOutN\000"
+ 7257      72745057 
+ 7257      4D4F7574 
+ 7257      4E00
+ 7258              	.LASF19:
+ 7259 09e2 75696E74 		.ascii	"uint8_t\000"
+ 7259      385F7400 
+ 7260              	.LASF138:
+ 7261 09ea 50765F45 		.ascii	"Pv_EINK_FullStageHandler\000"
  7261      494E4B5F 
- 7261      54696D65 
- 7261      725F636F 
- 7261      6E666967 
- 7262              	.LASF52:
- 7263 09af 696E7431 		.ascii	"int16\000"
- 7263      3600
- 7264              	.LASF33:
- 7265 09b5 4346475F 		.ascii	"CFG_OUT\000"
- 7265      4F555400 
- 7266              	.LASF48:
- 7267 09bd 4750494F 		.ascii	"GPIO_Type\000"
- 7267      5F547970 
- 7267      6500
- 7268              	.LASF65:
- 7269 09c7 72656C6F 		.ascii	"reloadInputMode\000"
- 7269      6164496E 
- 7269      7075744D 
- 7269      6F646500 
- 7270              	.LASF153:
- 7271 09d7 50765F45 		.ascii	"Pv_EINK_HardwarePowerOff\000"
- 7271      494E4B5F 
- 7271      48617264 
- 7271      77617265 
- 7271      506F7765 
- 7272              	.LASF60:
- 7273 09f0 636F6D70 		.ascii	"compare1\000"
- 7273      61726531 
- 7273      00
- 7274              	.LASF180:
- 7275 09f9 433A5C55 		.ascii	"C:\\Users\\rober\\Documents\\PSoC Creator\\test2\\C"
- 7275      73657273 
- 7275      5C726F62 
- 7275      65725C44 
- 7275      6F63756D 
- 7276 0a26 45323233 		.ascii	"E223727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_D"
- 7276      3732375F 
- 7276      456D5769 
- 7276      6E5F4549 
- 7276      6E6B5F44 
- 7277 0a58 6973706C 		.ascii	"isplay01.cydsn\000"
- 7277      61793031 
- 7277      2E637964 
- 7277      736E00
+ 7261      46756C6C 
+ 7261      53746167 
+ 7261      6548616E 
+ 7262              	.LASF86:
+ 7263 0a03 73776170 		.ascii	"swapInput\000"
+ 7263      496E7075 
+ 7263      7400
+ 7264              	.LASF162:
+ 7265 0a0d 43595F45 		.ascii	"CY_EINK_Timer_config\000"
+ 7265      494E4B5F 
+ 7265      54696D65 
+ 7265      725F636F 
+ 7265      6E666967 
+ 7266              	.LASF52:
+ 7267 0a22 696E7431 		.ascii	"int16\000"
+ 7267      3600
+ 7268              	.LASF33:
+ 7269 0a28 4346475F 		.ascii	"CFG_OUT\000"
+ 7269      4F555400 
+ 7270              	.LASF48:
+ 7271 0a30 4750494F 		.ascii	"GPIO_Type\000"
+ 7271      5F547970 
+ 7271      6500
+ 7272              	.LASF65:
+ 7273 0a3a 72656C6F 		.ascii	"reloadInputMode\000"
+ 7273      6164496E 
+ 7273      7075744D 
+ 7273      6F646500 
+ 7274              	.LASF153:
+ 7275 0a4a 50765F45 		.ascii	"Pv_EINK_HardwarePowerOff\000"
+ 7275      494E4B5F 
+ 7275      48617264 
+ 7275      77617265 
+ 7275      506F7765 
+ 7276              	.LASF60:
+ 7277 0a63 636F6D70 		.ascii	"compare1\000"
+ 7277      61726531 
+ 7277      00
  7278              	.LASF107:
- 7279 0a67 50565F45 		.ascii	"PV_EINK_ERROR_DC\000"
+ 7279 0a6c 50565F45 		.ascii	"PV_EINK_ERROR_DC\000"
  7279      494E4B5F 
  7279      4552524F 
  7279      525F4443 
  7279      00
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccP1FIlg.s 			page 170
+
+
  7280              	.LASF172:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccoMERih.s 			page 170
-
-
- 7281 0a78 43795F45 		.ascii	"Cy_EINK_GetTimeTick\000"
+ 7281 0a7d 43795F45 		.ascii	"Cy_EINK_GetTimeTick\000"
  7281      494E4B5F 
  7281      47657454 
  7281      696D6554 
  7281      69636B00 
  7282              	.LASF72:
- 7283 0a8c 636F756E 		.ascii	"countInput\000"
+ 7283 0a91 636F756E 		.ascii	"countInput\000"
  7283      74496E70 
  7283      757400
  7284              	.LASF51:
- 7285 0a97 646F7562 		.ascii	"double\000"
+ 7285 0a9c 646F7562 		.ascii	"double\000"
  7285      6C6500
  7286              	.LASF98:
- 7287 0a9e 74784275 		.ascii	"txBufIdx\000"
+ 7287 0aa3 74784275 		.ascii	"txBufIdx\000"
  7287      66496478 
  7287      00
  7288              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

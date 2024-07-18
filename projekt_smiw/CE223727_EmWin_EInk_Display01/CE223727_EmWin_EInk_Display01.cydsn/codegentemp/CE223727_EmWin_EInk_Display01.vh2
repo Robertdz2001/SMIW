@@ -2,7 +2,7 @@
 --	Conversion of CE223727_EmWin_EInk_Display01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Jul 18 13:48:02 2024
+--	Thu Jul 18 14:17:51 2024
 --
 
 USE cypress.cypress.all;

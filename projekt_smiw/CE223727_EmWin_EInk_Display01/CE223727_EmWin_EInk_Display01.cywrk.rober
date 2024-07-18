@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\main_cm4.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat">
 <ExpandedNodeIds>
 <v>CE223727_EmWin_EInk_Display01</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01</v>
