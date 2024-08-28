@@ -1,6 +1,6 @@
 -- ======================================================================
 -- CE223727_EmWin_EInk_Display01.ctl generated from CE223727_EmWin_EInk_Display01
--- 07/18/2024 at 14:17
+-- 08/28/2024 at 14:39
 -- This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 -- ======================================================================
 

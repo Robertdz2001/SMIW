@@ -1,5 +1,5 @@
 -- Project:   CE223727_EmWin_EInk_Display01
--- Generated: 07/18/2024 14:17:58
+-- Generated: 08/28/2024 14:39:31
 -- PSoC Creator  4.4
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -63,6 +63,8 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL ClockBlock_SlowClk : bit;
     SIGNAL ClockBlock_WCO : bit;
     SIGNAL GreenLED(0)__PA : bit;
+    SIGNAL Net_10_ff11 : bit;
+    ATTRIBUTE global_signal OF Net_10_ff11 : SIGNAL IS true;
     SIGNAL Net_120 : bit;
     SIGNAL Net_125 : bit;
     SIGNAL Net_128 : bit;
@@ -73,13 +75,17 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL Net_153 : bit;
     SIGNAL Net_154 : bit;
     SIGNAL Net_155 : bit;
-    SIGNAL Net_156_ff11 : bit;
-    ATTRIBUTE global_signal OF Net_156_ff11 : SIGNAL IS true;
+    SIGNAL Net_156_ff12 : bit;
+    ATTRIBUTE global_signal OF Net_156_ff12 : SIGNAL IS true;
     SIGNAL Net_157 : bit;
     SIGNAL Net_158 : bit;
+    SIGNAL Net_240 : bit;
+    SIGNAL Net_242 : bit;
+    SIGNAL Net_246 : bit;
+    SIGNAL Net_28 : bit;
     SIGNAL Net_32 : bit;
-    SIGNAL Net_700_ff12 : bit;
-    ATTRIBUTE global_signal OF Net_700_ff12 : SIGNAL IS true;
+    SIGNAL Net_700_ff13 : bit;
+    ATTRIBUTE global_signal OF Net_700_ff13 : SIGNAL IS true;
     SIGNAL Pin(0)__PA : bit;
     SIGNAL SW2(0)__PA : bit;
     SIGNAL \CY_EINK_SPIM:Net_216\ : bit;
@@ -96,6 +102,8 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL \CY_EINK_SPIM:sclk_m_wire\ : bit;
     SIGNAL \CY_EINK_Timer:Net_1\ : bit;
     SIGNAL \CY_EINK_Timer:Net_2\ : bit;
+    SIGNAL \Timer:Net_1\ : bit;
+    SIGNAL \Timer:Net_2\ : bit;
     SIGNAL __ONE__ : bit;
     ATTRIBUTE POWER OF __ONE__ : SIGNAL IS true;
     SIGNAL __ZERO__ : bit;
@@ -543,8 +551,9 @@ BEGIN
             wco => ClockBlock_WCO,
             lfclk => ClockBlock_LFClk,
             ff_div_0 => \CY_EINK_SPIM:Net_847_ff0\,
-            ff_div_11 => Net_156_ff11,
-            ff_div_12 => Net_700_ff12,
+            ff_div_11 => Net_10_ff11,
+            ff_div_12 => Net_156_ff12,
+            ff_div_13 => Net_700_ff13,
             periclk_App => periclk_App);
 
     CPUSS:CPUSS
@@ -1409,7 +1418,7 @@ BEGIN
             exact_width => 0,
             width => 16)
         PORT MAP(
-            clock => Net_700_ff12,
+            clock => Net_700_ff13,
             capture => '0',
             count => '1',
             reload => '0',
@@ -1444,7 +1453,7 @@ BEGIN
             exact_width => 0,
             width => 16)
         PORT MAP(
-            clock => Net_156_ff11,
+            clock => Net_156_ff12,
             capture => '0',
             count => '1',
             reload => '0',
@@ -1456,5 +1465,33 @@ BEGIN
             line_compl => Net_158,
             line => Net_157,
             interrupt => Net_152);
+
+    \Timer:TCPWM\:TCPWM
+        GENERIC MAP(
+            cy_registers => "",
+            exact_width => 0,
+            width => 16)
+        PORT MAP(
+            clock => Net_10_ff11,
+            capture => '0',
+            count => '1',
+            reload => '0',
+            stop => '0',
+            start => '0',
+            tr_underflow => Net_246,
+            tr_compare_match => Net_240,
+            tr_overflow => Net_242,
+            line_compl => \Timer:Net_1\,
+            line => \Timer:Net_2\,
+            interrupt => Net_28);
+
+    isrTimer:interrupt
+        GENERIC MAP(
+            cy_registers => "",
+            deepsleep_required => 0,
+            int_type => "10")
+        PORT MAP(
+            interrupt => Net_28,
+            clock => ClockBlock_PeriClk);
 
 END __DEFAULT__;

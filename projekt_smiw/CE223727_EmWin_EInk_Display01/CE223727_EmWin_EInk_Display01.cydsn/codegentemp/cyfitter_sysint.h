@@ -18,6 +18,14 @@
 #define INCLUDED_CYFITTER_SYSINT_H
 #include "cy_device_headers.h"
 
+/* isrTimer */
+#define isrTimer__INTC_CORTEXM4_ASSIGNED 1
+#define isrTimer__INTC_CORTEXM4_PRIORITY 7u
+#define isrTimer__INTC_NUMBER 91u
+#define isrTimer_INTC_CORTEXM4_ASSIGNED 1
+#define isrTimer_INTC_CORTEXM4_PRIORITY 7u
+#define isrTimer_INTC_NUMBER 91u
+
 /* CY_EINK_SPIM_SCB_IRQ */
 #define CY_EINK_SPIM_SCB_IRQ__INTC_CORTEXM4_ASSIGNED 1
 #define CY_EINK_SPIM_SCB_IRQ__INTC_CORTEXM4_PRIORITY 7u

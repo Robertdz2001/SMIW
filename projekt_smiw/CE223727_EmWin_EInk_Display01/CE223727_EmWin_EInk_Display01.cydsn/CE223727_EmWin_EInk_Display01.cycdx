@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+  <block name="GreenLED" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  </block>
+  <block name="Clock_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Status_SW2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <register name="Status_SW2_STATUS_REG" address="0x40341604" bitWidth="8" desc="" hidden="false" />
     <register name="Status_SW2_MASK_REG" address="0x40341804" bitWidth="8" desc="" hidden="false" />
@@ -30,20 +36,16 @@
       </field>
     </register>
   </block>
-  <block name="Clock_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="CY_EINK_Timer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+  <block name="Clock_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="isrTimer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Timer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
-  <block name="SW2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Pin" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="GreenLED" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="PWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
-    <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  </block>
-  <block name="EINK_Clock" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="CY_EINK_DispEn" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CY_EINK_Discharge" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="CY_EINK_Border" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="CY_EINK_DispEn" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CY_EINK_SPIM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="sclk_s_VM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="select_s_VM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -60,8 +62,11 @@
     <block name="miso_m" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
   <block name="CY_EINK_DispRst" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="CY_EINK_DispBusy" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="EINK_Clock" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="CY_EINK_Timer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  </block>
   <block name="CY_EINK_Ssel" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="CY_EINK_Border" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CY_EINK_DispIoEn" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="CY_EINK_DispBusy" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>

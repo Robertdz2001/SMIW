@@ -1,5 +1,5 @@
 # CE223727_EmWin_EInk_Display01
-# 2024-07-18 12:17:58Z
+# 2024-08-28 12:39:32Z
 
 dont_use_location p4usbcell -1 -1 0
 dont_use_location USB -1 -1 0
@@ -26,4 +26,6 @@ set_location "\CY_EINK_SPIM:SCB\" SCB -1 -1 6
 set_location "\CY_EINK_SPIM:SCB_IRQ\" interrupt -1 -1 47
 set_location "\CY_EINK_Timer:TCPWM\" TCPWM -1 -1 0
 set_location "\Status_SW2:sts:sts_reg\" 1 5 3
-set_location "\PWM:TCPWM\" TCPWM -1 -1 1
+set_location "\PWM:TCPWM\" TCPWM -1 -1 2
+set_location "\Timer:TCPWM\" TCPWM -1 -1 1
+set_location "isrTimer" interrupt -1 -1 91

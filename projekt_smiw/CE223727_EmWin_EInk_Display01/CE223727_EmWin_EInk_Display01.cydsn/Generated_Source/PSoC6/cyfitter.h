@@ -21,20 +21,31 @@
 #include "cyfitter_sysint.h"
 
 /* PWM */
-#define PWM_TCPWM__CNT_HW TCPWM0_CNT1
-#define PWM_TCPWM__CNT_IDX 1u
+#define PWM_TCPWM__CNT_HW TCPWM0_CNT2
+#define PWM_TCPWM__CNT_IDX 2u
 #define PWM_TCPWM__HW TCPWM0
 #define PWM_TCPWM__IDX 0u
 
+/* Timer */
+#define Timer_TCPWM__CNT_HW TCPWM0_CNT1
+#define Timer_TCPWM__CNT_IDX 1u
+#define Timer_TCPWM__HW TCPWM0
+#define Timer_TCPWM__IDX 0u
+
 /* Clock_1 */
-#define Clock_1__DIV_IDX 1
-#define Clock_1__DIV_NUM 1
+#define Clock_1__DIV_IDX 2
+#define Clock_1__DIV_NUM 2
 #define Clock_1__DIV_TYPE CY_SYSCLK_DIV_8_BIT
 
 /* Clock_2 */
 #define Clock_2__DIV_IDX 28
 #define Clock_2__DIV_NUM 0
 #define Clock_2__DIV_TYPE CY_SYSCLK_DIV_24_5_BIT
+
+/* Clock_3 */
+#define Clock_3__DIV_IDX 1
+#define Clock_3__DIV_NUM 1
+#define Clock_3__DIV_TYPE CY_SYSCLK_DIV_8_BIT
 
 /* EINK_Clock */
 #define EINK_Clock__DIV_IDX 8

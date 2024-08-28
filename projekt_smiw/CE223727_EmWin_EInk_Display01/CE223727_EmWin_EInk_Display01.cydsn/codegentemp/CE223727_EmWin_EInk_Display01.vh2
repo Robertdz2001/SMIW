@@ -2,7 +2,7 @@
 --	Conversion of CE223727_EmWin_EInk_Display01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Jul 18 14:17:51 2024
+--	Wed Aug 28 14:39:24 2024
 --
 
 USE cypress.cypress.all;
@@ -118,6 +118,18 @@ SIGNAL Net_152 : bit;
 SIGNAL tmpFB_0__Pin_net_0 : bit;
 SIGNAL tmpIO_0__Pin_net_0 : bit;
 TERMINAL tmpSIOVREF__Pin_net_0 : bit;
+SIGNAL Net_10 : bit;
+SIGNAL \Timer:capture\ : bit;
+SIGNAL \Timer:count\ : bit;
+SIGNAL \Timer:reload\ : bit;
+SIGNAL \Timer:stop\ : bit;
+SIGNAL \Timer:start\ : bit;
+SIGNAL Net_246 : bit;
+SIGNAL Net_240 : bit;
+SIGNAL Net_242 : bit;
+SIGNAL \Timer:Net_1\ : bit;
+SIGNAL \Timer:Net_2\ : bit;
+SIGNAL Net_28 : bit;
 BEGIN
 
 one <=  ('1') ;
@@ -649,5 +661,36 @@ Pin:cy_mxs40_gpio_v1_0
 		io=>(tmpIO_0__Pin_net_0),
 		annotation=>(open),
 		siovref=>(tmpSIOVREF__Pin_net_0));
+\Timer:TCPWM\:cy_mxs40_tcpwm_v1_0
+	GENERIC MAP(cy_registers=>"",
+		width=>16,
+		exact_width=>'0')
+	PORT MAP(clock=>Net_10,
+		capture=>zero,
+		count=>one,
+		reload=>zero,
+		stop=>zero,
+		start=>zero,
+		tr_underflow=>Net_246,
+		tr_compare_match=>Net_240,
+		tr_overflow=>Net_242,
+		line_compl=>\Timer:Net_1\,
+		line=>\Timer:Net_2\,
+		interrupt=>Net_28);
+Clock_3:cy_clock_v1_0
+	GENERIC MAP(cy_registers=>"",
+		id=>"4c8f5849-d785-41b6-ba62-e45cae171a29",
+		source_clock_id=>"2FB4EC85-8328-4C5A-9ED9-8B63060178EB",
+		divisor=>0,
+		period=>"1000000000",
+		is_direct=>'0',
+		is_digital=>'0')
+	PORT MAP(clock_out=>Net_10,
+		dig_domain_out=>open);
+isrTimer:cy_mxs40_isr_v1_0
+	GENERIC MAP(cy_registers=>"",
+		deepsleep_required=>'0',
+		int_type=>"10")
+	PORT MAP(int_signal=>Net_28);
 
 END R_T_L;

@@ -70,16 +70,8 @@ uint8 imageBufferCache[CY_EINK_FRAME_SIZE] = {0};
 /* Reference to the bitmap image for the startup screen */
 extern GUI_CONST_STORAGE GUI_BITMAP bmCypressLogoFullColor_PNG_1bpp;
 
-/* Function prototypes */
-void ShowGraph(void);
+#define TIMER_PERIOD   1000000U
 
-/* Array of demo pages functions */
-void (*demoPageArray[])(void) = {
-    ShowGraph
-};
-
-/* Number of demo pages */
-#define NUMBER_OF_DEMO_PAGES    (sizeof(demoPageArray)/sizeof(demoPageArray[0]))
 
 /*******************************************************************************
 * Function Name: void UpdateDisplay(void)
@@ -287,76 +279,8 @@ DataPoint leadData[GRAPH_POINTS] = {
 
 int whichData = 0;
 
-void ShowGraph(void)
-{
-    ClearScreen();
-    
-    whichData++;
-    
-    if(whichData == 3){
-        whichData = 1;
-    }
-    
-    int dataSize = 0;
-    
-    if(whichData == 1)
-    {
-        dataSize = sizeof(reflowData) / sizeof(reflowData[0]);
-    }
-    else if(whichData == 2)
-    {
-        dataSize = sizeof(leadData) / sizeof(leadData[0]);
-    }
-    
-    DataPoint data[dataSize];
-    
-    if(whichData == 1)
-    {
-        for (int i = 0; i < dataSize; i++) {
-            data[i].temperature = reflowData[i].temperature;
-            data[i].time = reflowData[i].time;
-        }
-    }
-    else if(whichData == 2)
-    {
-        for (int i = 0; i < dataSize; i++) {
-            data[i].temperature = leadData[i].temperature;
-            data[i].time = leadData[i].time;
-        }
-    }
-    
-    /* Define axis labels and ticks */
-    char xAxisLabels[8][6] = {"0", "60", "120", "180", "240", "300", "360", "420"};
-    char yAxisLabels[6][4] = {"0", "60", "120", "180", "240", "300"};
-    int xAxisTicks[8] = {30, 60, 90, 120, 150, 180, 210, 240};
-    int yAxisTicks[6] = {20, 50, 80, 110, 140, 170};
-    
-    /* Draw the graph */
-    GUI_ClearRect(10, 20, 254, 150);  // Clear the area where the graph will be drawn
-    
-    /* Draw X and Y axis */
-    GUI_DrawLine(30, 20, 30, 170); // Y axis
-    GUI_DrawLine(30, 150, 250, 150); // X axis
-
-    /* Draw axis labels and ticks */
-    for (int i = 0; i < 8; i++) {
-        GUI_DrawLine(xAxisTicks[i], 150, xAxisTicks[i], 155);
-        GUI_DispStringAt(xAxisLabels[i], xAxisTicks[i] - 10, 155);
-    }
-
-    for (int i = 0; i < 6; i++) {
-        GUI_DrawLine(25, 170 - yAxisTicks[i], 30, 170 - yAxisTicks[i]);
-        GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
-    }
-
-    for (int i = 1; i < dataSize; i++)
-    {
-        GUI_DrawLine(data[i - 1].time / 2 + 30, 150 - data[i - 1].temperature/2, data[i].time / 2 + 30, 150 - data[i].temperature/2);
-    }
-
-    /* Update the display */
-    UpdateDisplay(CY_EINK_PARTIAL, true);
-}
+bool programStarted = false;
+int maxTimeInGraph = 0;
 
 void ShowGraph_WithUpdate(void)
 {
@@ -420,25 +344,8 @@ void ShowGraph_WithUpdate(void)
         GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
     }
     
-    int min = 0;
-    int max = 300;
-    
-    int randomTemperature1 = 0;
-    int randomTemperature2 = 0;
-
-    for(int i = 10; i <= data[dataSize-1].time; i+=10){
-        if(Status_SW2_Read() == 0){
-            break;
-        }
-        
-        randomTemperature2 = (rand() % (max - min + 1)) + min;
-        
-        GUI_DrawLine((i-10) / 2 + 30, 150 - randomTemperature1/2, i / 2 + 30, 150 - randomTemperature2/2);
-        /* Update the display */
-        UpdateDisplay(CY_EINK_PARTIAL, true);
-        CyDelay(1000);
-        randomTemperature1 = randomTemperature2;
-    }
+    maxTimeInGraph = data[dataSize-1].time;
+    programStarted = true;
 }
 
 void ShowTable(void)
@@ -521,12 +428,68 @@ void ShowTable(void)
     UpdateDisplay(CY_EINK_PARTIAL, true);
 }
 
+void TimerInterruptHandler(void)
+{
+    /* Clear the terminal count interrupt */
+    Cy_TCPWM_ClearInterrupt(Timer_HW, Timer_CNT_NUM, CY_TCPWM_INT_ON_TC);
+    
+    if(programStarted)
+    {
+        int min = 0;
+        int max = 300;
+        static int pointCounter = 10;
+    
+        static int randomTemperature1 = 0;
+        static int randomTemperature2 = 0;
+            
+        randomTemperature2 = (rand() % (max - min + 1)) + min;
+            
+        GUI_DrawLine((pointCounter-10) / 2 + 30, 150 - randomTemperature1/2, pointCounter / 2 + 30, 150 - randomTemperature2/2);
+
+        UpdateDisplay(CY_EINK_PARTIAL, true);
+        randomTemperature1 = randomTemperature2;
+        pointCounter+=10;
+        
+        if(Status_SW2_Read() == 0 || pointCounter >= maxTimeInGraph){
+            programStarted = false;
+            pointCounter = 10;
+            randomTemperature1 = 0;
+            randomTemperature2 = 0;
+        }
+    }
+}
+
+void Init_Interrupts()
+{
+    /* Initialize the interrupt vector table with the timer interrupt handler
+    * address and assign priority. */
+    Cy_SysInt_Init(&isrTimer_cfg, TimerInterruptHandler);
+    NVIC_ClearPendingIRQ(isrTimer_cfg.intrSrc);/* Clears the interrupt */
+    NVIC_EnableIRQ(isrTimer_cfg.intrSrc); /* Enable the core interrupt */
+    __enable_irq(); /* Enable global interrupts. */
+    
+    /* Start the TCPWM component in timer/counter mode. The return value of the
+     * function indicates whether the arguments are valid or not. It is not used
+     * here for simplicity. */
+    (void)Cy_TCPWM_Counter_Init(Timer_HW, Timer_CNT_NUM, &Timer_config);
+    Cy_TCPWM_Enable_Multiple(Timer_HW, Timer_CNT_MASK); /* Enable the counter instance */
+    
+    /* Set the timer period in milliseconds. To count N cycles, period should be
+     * set to N-1. */
+    Cy_TCPWM_Counter_SetPeriod(Timer_HW, Timer_CNT_NUM, TIMER_PERIOD - 1);
+    
+    /* Trigger a software reload on the counter instance. This is required when 
+     * no other hardware input signal is connected to the component to act as
+     * a trigger source. */
+    Cy_TCPWM_TriggerReloadOrIndex(Timer_HW, Timer_CNT_MASK); 
+}
+
 int main(void)
 {
     
     uint8 pageNumber = 0;
     
-    __enable_irq(); /* Enable global interrupts. */
+    Init_Interrupts();
     
     /* Initialize emWin Graphics */
     PWM_Start();
@@ -540,13 +503,15 @@ int main(void)
     
     for(;;)
     {
-        if(modeSwitch == 0){
-            ShowTable();   
-            WaitforSwitchPressAndRelease();
-        }
-        else {
-            ShowGraph_WithUpdate();
-            WaitforSwitchPressAndRelease();
+        if(!programStarted) {
+            if(modeSwitch == 0){
+                ShowTable();   
+                WaitforSwitchPressAndRelease();
+            }
+            else {
+                ShowGraph_WithUpdate();
+                WaitforSwitchPressAndRelease();
+            }
         }
     }
 }
