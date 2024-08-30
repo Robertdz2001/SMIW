@@ -11,24 +11,6 @@
 <CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256 type_name="CyDesigner.Common.ProjMgmt.Model.CyConfigDependencies" version="1">
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" xml_contents_version="2">
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
-<file name=".\CortexM0p\ARM_GCC_541\Debug\GUIConf.o">
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
-<dep name=".\GUIConf.c" />
-<dep name=".\GUIConf.h" />
-</file>
-<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
-<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
-<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
-<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
-<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
-<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
-<file name=".\GUIConf.c" />
-<file name=".\GUIConf.h" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\GUI_X.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -134,6 +116,13 @@
 <file name=".\Generated_Source\PSoC6\pdl\devices\psoc6\psoc63\include\psoc63_config.h" />
 <file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\cy_syslib.h" />
 <file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\systick\cy_systick.h" />
+<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
+<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
+<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
+<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
+<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
+<file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
+<file name=".\GUIConf.h" />
 <file name=".\GUI_X.c" />
 <file name=".\system_psoc63.h" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\CY_EINK_SPIM.o">
@@ -536,10 +525,6 @@
 <dep name=".\system_psoc63.h" />
 </file>
 <file name=".\Generated_Source\PSoC6\cyfitter_sysint_cfg.c" />
-<file name=".\CortexM0p\ARM_GCC_541\Debug\cymetadata.o">
-<dep name=".\Generated_Source\PSoC6\cymetadata.c" />
-</file>
-<file name=".\Generated_Source\PSoC6\cymetadata.c" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\cy_efuse.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -1526,10 +1511,6 @@
 <dep name=".\system_psoc63.h" />
 </file>
 <file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\cy_syslib.c" />
-<file name=".\CortexM0p\ARM_GCC_541\Debug\cy_syslib_gcc.o">
-<dep name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
-</file>
-<file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\cy_syspm.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -2025,10 +2006,6 @@
 </file>
 <file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\drivers\BitPlains\GUIDRV_BitPlains.h" />
 <file name=".\LCDConf.c" />
-<file name=".\CortexM0p\ARM_GCC_541\Debug\startup_psoc63_cm0plus.o">
-<dep name=".\armgcc\startup\startup_psoc63_cm0plus.S" />
-</file>
-<file name=".\armgcc\startup\startup_psoc63_cm0plus.S" />
 <file name=".\CortexM0p\ARM_GCC_541\Debug\cy_ipc_config.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -2246,6 +2223,29 @@
 <dep name=".\system_psoc63_cm0plus.c" />
 </file>
 <file name=".\system_psoc63_cm0plus.c" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\GUIConf.o">
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
+<dep name=".\GUIConf.c" />
+<dep name=".\GUIConf.h" />
+</file>
+<file name=".\GUIConf.c" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\cymetadata.o">
+<dep name=".\Generated_Source\PSoC6\cymetadata.c" />
+</file>
+<file name=".\Generated_Source\PSoC6\cymetadata.c" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\cy_syslib_gcc.o">
+<dep name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
+</file>
+<file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
+<file name=".\CortexM0p\ARM_GCC_541\Debug\startup_psoc63_cm0plus.o">
+<dep name=".\armgcc\startup\startup_psoc63_cm0plus.S" />
+</file>
+<file name=".\armgcc\startup\startup_psoc63_cm0plus.S" />
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
 </dependency_info>
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM4" xml_contents_version="2">
@@ -2462,17 +2462,6 @@
 <file name=".\cy_ipc_config.h" />
 <file name=".\main_cm4.c" />
 <file name=".\system_psoc63.h" />
-<file name=".\CortexM4\ARM_GCC_541\Debug\GUIConf.o">
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
-<dep name=".\GUIConf.c" />
-<dep name=".\GUIConf.h" />
-</file>
-<file name=".\GUIConf.c" />
 <file name=".\CortexM4\ARM_GCC_541\Debug\GUI_X.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -2856,10 +2845,6 @@
 <dep name=".\system_psoc63.h" />
 </file>
 <file name=".\Generated_Source\PSoC6\cyfitter_sysint_cfg.c" />
-<file name=".\CortexM4\ARM_GCC_541\Debug\cymetadata.o">
-<dep name=".\Generated_Source\PSoC6\cymetadata.c" />
-</file>
-<file name=".\Generated_Source\PSoC6\cymetadata.c" />
 <file name=".\CortexM4\ARM_GCC_541\Debug\cy_efuse.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -3833,10 +3818,6 @@
 <dep name=".\system_psoc63.h" />
 </file>
 <file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\cy_syslib.c" />
-<file name=".\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o">
-<dep name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
-</file>
-<file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
 <file name=".\CortexM4\ARM_GCC_541\Debug\cy_syspm.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -4267,17 +4248,6 @@
 <dep name=".\system_psoc63.h" />
 </file>
 <file name=".\Generated_Source\PSoC6\pdl\middleware\ble\cy_ble_clk.c" />
-<file name=".\CortexM4\ARM_GCC_541\Debug\Cypress Logo Full Color_PNG_1bpp.o">
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
-<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
-<dep name=".\GUIConf.h" />
-<dep name=".\Images\Cypress Logo Full Color_PNG_1bpp.c" />
-</file>
-<file name=".\Images\Cypress Logo Full Color_PNG_1bpp.c" />
 <file name=".\CortexM4\ARM_GCC_541\Debug\LCDConf.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -4338,10 +4308,6 @@
 </file>
 <file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\drivers\BitPlains\GUIDRV_BitPlains.h" />
 <file name=".\LCDConf.c" />
-<file name=".\CortexM4\ARM_GCC_541\Debug\startup_psoc63_cm4.o">
-<dep name=".\armgcc\startup\startup_psoc63_cm4.S" />
-</file>
-<file name=".\armgcc\startup\startup_psoc63_cm4.S" />
 <file name=".\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o">
 <dep name=".\Generated_Source\PSoC6\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC6\cyfitter_gpio.h" />
@@ -4756,6 +4722,40 @@
 <dep name=".\system_psoc63_cm4.c" />
 </file>
 <file name=".\system_psoc63_cm4.c" />
+<file name=".\CortexM4\ARM_GCC_541\Debug\GUIConf.o">
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
+<dep name=".\GUIConf.c" />
+<dep name=".\GUIConf.h" />
+</file>
+<file name=".\GUIConf.c" />
+<file name=".\CortexM4\ARM_GCC_541\Debug\cymetadata.o">
+<dep name=".\Generated_Source\PSoC6\cymetadata.c" />
+</file>
+<file name=".\Generated_Source\PSoC6\cymetadata.c" />
+<file name=".\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o">
+<dep name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
+</file>
+<file name=".\Generated_Source\PSoC6\pdl\drivers\peripheral\syslib\gcc\cy_syslib_gcc.S" />
+<file name=".\CortexM4\ARM_GCC_541\Debug\Cypress Logo Full Color_PNG_1bpp.o">
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_ConfDefaults.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Type.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\GUI_Version.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\Global.h" />
+<dep name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\LCD.h" />
+<dep name=".\GUIConf.h" />
+<dep name=".\Images\Cypress Logo Full Color_PNG_1bpp.c" />
+</file>
+<file name=".\Images\Cypress Logo Full Color_PNG_1bpp.c" />
+<file name=".\CortexM4\ARM_GCC_541\Debug\startup_psoc63_cm4.o">
+<dep name=".\armgcc\startup\startup_psoc63_cm4.S" />
+</file>
+<file name=".\armgcc\startup\startup_psoc63_cm4.S" />
 <file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\BUTTON.h" />
 <file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\CALENDAR.h" />
 <file name=".\Generated_Source\PSoC6\pdl\middleware\emWin\code\include\CHECKBOX.h" />
@@ -5390,9 +5390,9 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cy_psoc3_inc.v</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="133693223811824787" />
+<deps_time v="133694941627074768" />
 <top_block v="TopDesign" />
-<last_generation v="3" />
+<last_generation v="5" />
 <pdl_path v="C:\Program Files (x86)\Cypress\PDL\3.0.4" />
 <sw_packages>
 <v>Graphics::emWin::Core:5.46:nOSnTS:Segger</v>
@@ -5403,8 +5403,8 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" v="133693223940868524" />
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM4" v="133693225647771256" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" v="133693231524783320" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM4" v="133694976590414746" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

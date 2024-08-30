@@ -1,6 +1,6 @@
 // ======================================================================
 // CE223727_EmWin_EInk_Display01.v generated from TopDesign.cysch
-// 08/28/2024 at 14:39
+// 08/30/2024 at 14:22
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -590,7 +590,6 @@ module top ;
           wire  Net_139;
           wire  Net_138;
           wire  Net_137;
-          wire  Net_136;
           wire  Net_135;
           wire  Net_134;
           wire  Net_133;
@@ -616,9 +615,10 @@ module top ;
           wire  Net_113;
           wire  Net_112;
           wire  Net_111;
+          wire  Net_136;
+          wire  Net_32;
           wire  Net_28;
           wire  Net_10;
-          wire  Net_32;
           wire  Net_700;
 
     SCB_SPI_PDL_v2_0_0 CY_EINK_SPIM (

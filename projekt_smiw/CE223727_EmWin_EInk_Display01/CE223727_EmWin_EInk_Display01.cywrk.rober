@@ -44,11 +44,13 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM0p (Core 0)\Source Files\main_cm0p.c</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM0p (Core 0)\Source Files\system_psoc63_cm0plus.c</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM GCC Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM IAR Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM MDK Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_library.c</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_library.h</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_psoc_interface.c</v>
@@ -82,10 +84,11 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Shared Files\system_psoc63.h</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_SW2</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc63_cm4.S</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc63_cm4.s</v>
@@ -117,8 +120,6 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Pins and Interrupts</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\PWM</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_SW2</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_SW2\Status_SW2.c</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_SW2\Status_SW2.h</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Timer</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cycodeshareexport.ld</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cycodeshareimport.ld</v>
@@ -262,52 +263,6 @@
 <VisibleNodeIds>
 <v>CE223727_EmWin_EInk_Display01</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CY_EINK_SPIM.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CY_EINK_Timer.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_config.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_counter.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_pwm.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_quaddec.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\GUI_X.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\GUIConf.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\LCDConf.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm0plus.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_SW2.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc63_cm0plus.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -356,12 +311,19 @@
 </TreeStatesV2>
 </CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
 </dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
 <name v=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 <name v=".\CE223727_EmWin_EInk_Display01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cydwr" />
+<name v=".\CE218136_EINK_CapSense_RTOS01.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -369,7 +331,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1498, 711" SelectedTabbedMdiWindow="2964d31f-e7f4-4eff-b125-26de895b59ba"><DocumentWindow Key="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" Guid="2964d31f-e7f4-4eff-b125-26de895b59ba" /><DocumentWindow Key="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\TopDesign\TopDesign.cysch" Guid="3d142cd2-9bd7-4544-a058-63e11e4d9202" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="363703b9-3e36-4c8e-8f78-fdb56ee6f81b" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1537, 711" SelectedTabbedMdiWindow="e8639a6b-fc7f-4456-b436-323c5720ba80"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="363703b9-3e36-4c8e-8f78-fdb56ee6f81b" /><DocumentWindow Key="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" Guid="56bb7b5b-4d69-4d12-8c00-c61964625606" /><DocumentWindow Key="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\TopDesign\TopDesign.cysch" Guid="205b1aaf-38d3-4a88-bdb1-7aad9a8e72ba" /><DocumentWindow Key="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cydwr" Guid="fe8e5dc4-a7f8-4f14-85c3-93811779ad26" /><DocumentWindow Key="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE218136_EINK_CapSense_RTOS01.cydsn\TopDesign\TopDesign.cysch" Guid="e8639a6b-fc7f-4456-b436-323c5720ba80" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

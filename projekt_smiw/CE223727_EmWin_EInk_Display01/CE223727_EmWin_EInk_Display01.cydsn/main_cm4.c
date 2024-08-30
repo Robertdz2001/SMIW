@@ -72,6 +72,9 @@ extern GUI_CONST_STORAGE GUI_BITMAP bmCypressLogoFullColor_PNG_1bpp;
 
 #define TIMER_PERIOD   1000000U
 
+//maksymalna liczba punktow w tabeli.
+#define MAX_POINTS 100
+
 
 /*******************************************************************************
 * Function Name: void UpdateDisplay(void)
@@ -106,40 +109,6 @@ void UpdateDisplay(cy_eink_update_t updateMethod, bool powerCycle)
 
     /* Copy the EmWin display buffer to the imageBuffer cache*/
     memcpy(imageBufferCache, pEmwinBuffer, CY_EINK_FRAME_SIZE);
-}
-
-/*******************************************************************************
-* Function Name: void ShowStartupScreen(void)
-********************************************************************************
-*
-* Summary: This function displays the startup screen with Cypress Logo and 
-*			the demo description text
-*
-* Parameters:
-*  None
-*
-* Return:
-*  None
-*
-*******************************************************************************/
-void ShowStartupScreen(void)
-{
-    /* Set foreground and background color and font size */
-    GUI_SetFont(GUI_FONT_16B_1);
-    GUI_SetColor(GUI_BLACK);
-    GUI_SetBkColor(GUI_WHITE);
-    GUI_Clear();
-
-    GUI_DrawBitmap(&bmCypressLogoFullColor_PNG_1bpp, 2, 2);
-    GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt("CYPRESS", 132, 85);
-    GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt("EMWIN GRAPHICS", 132, 105);
-    GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt("EINK DISPLAY DEMO", 132, 125);
-
-    /* Send the display buffer data to display*/
-    UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
 /*******************************************************************************
@@ -182,17 +151,59 @@ void ClearScreen(void)
 *  This is a blocking function and exits only on a button press and release
 *
 *******************************************************************************/
+
+//zmienna do sterowania pwm
 int compareValue = 50;
 
+//zmienna ktora przechowuje informacje o tym, ktory punkt ma byc w tabeli wyswietlony jako pierwszy.
 int start_point = 0;
 
-int which_data_table = 1;
+//ktora tabela zostala wybrana.
+int which_data_table = 0;
+
+//przechowuje informacje o liczbie punktow w wybranej tabeli.
 int dataSize_global = 0;
-#define GRAPH_POINTS 12
+
+//wybor trybu.
 int modeSwitch = 0;
+
+//struktura do przechowywania danych o tabeli.
+typedef struct {
+    int time;
+    int temperature;
+} DataPoint;
+
+typedef struct {
+    DataPoint data[MAX_POINTS]; //tablica z punktami.
+    int dataSize;    // Rozmiar tej tablicy
+    char* name; //Nazwa tablicy.
+} DataSet;
+
+//zmienna przechowujaca tablice z danymi.
+DataSet table_data[3] = {
+    {
+        .data = {{0, 25}, {90, 150}, {180, 150}, {220, 245}, {360, 0}},
+        .dataSize = 5,
+        .name = "Reflow Profile"
+    },
+    {
+        .data = {{0, 25}, {30, 125}, {60, 150}, {90, 180}, {120, 210}, {140, 230}, {160, 230},
+                 {180, 210}, {200, 180}, {220, 150}, {240, 125}, {260, 25}},
+        .dataSize = 12,
+        .name = "Lead Profile"
+    },
+    {
+        .data = {{0, 1}, {30, 2}, {60, 3}, {90, 4}, {120, 5}, {140, 6}, {160, 7}},
+        .dataSize = 7,
+        .name = "Test"
+    }
+};
 
 void WaitforSwitchPressAndRelease(void)
 {   
+    int button_pressed_time = 0;
+    int table_count = sizeof(table_data) / sizeof(table_data[0]);
+    
     Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
     /* Wait for SW2 to be pressed */
     while(Status_SW2_Read() != 0);
@@ -200,124 +211,61 @@ void WaitforSwitchPressAndRelease(void)
     /* Wait for SW2 to be released */
     while(Status_SW2_Read() == 0)
     {
+        button_pressed_time++;
         Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
         compareValue = (compareValue + 1) % 100;
         CyDelay(20);
     };
     
-    if(modeSwitch == 1)
+    //Przycisk wcisniety dluzej niz sekunda.
+    if(button_pressed_time >= 50)
     {
-        start_point = 0;
-        which_data_table = 1;
-        modeSwitch = 0;
+        modeSwitch = 1;
     }
-    else if(start_point + 6 < dataSize_global)
-    {
-        start_point += 6;
-    }
+    //Przycisk wcisniety krocej.
     else
     {
-        start_point = 0;
-        which_data_table++;
-        
-        if(which_data_table == 3){
-            which_data_table = 1;
-            modeSwitch = 1;
+        //tryb zostal zmieniony.
+        if(modeSwitch == 1)
+        {
+            start_point = 0;
+            modeSwitch = 0;
+        }
+        //wyswietlenie kolejnej strony tabeli.
+        else if(start_point + 6 < dataSize_global)
+        {
+            start_point += 6;
+        }
+        //wyswietlenie kolejnej tabeli.
+        else
+        {
+            start_point = 0;
+            which_data_table++;
+            if(which_data_table == table_count)
+            {
+                which_data_table = 0;   
+            }
         }
     }
 }
 
-/*******************************************************************************
-* Function Name: int main(void)
-********************************************************************************
-*
-* Summary: This is the main function.  Following functions are performed
-*			1. Initialize the EmWin library
-*			2. Display the startup screen for 3 seconds
-*			3. Display the instruction screen and wait for key press and release
-*			4. Inside a while loop scroll through the 6 demo pages on every
-*				key press and release
-*
-* Parameters:
-*  None
-*
-* Return:
-*  None
-*
-*******************************************************************************/
-
-void InitGraph()
-{
-        /* Set font size, foreground and background colors */
-    GUI_SetColor(GUI_BLACK);
-    GUI_SetBkColor(GUI_WHITE);
-    GUI_SetTextMode(GUI_TM_NORMAL);
-    GUI_SetTextStyle(GUI_TS_NORMAL);
-
-    /* Clear the screen */
-    GUI_Clear();
-
-    /* Display page title */
-    GUI_SetFont(GUI_FONT_13B_1);
-    GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt("LINE GRAPH DEMO", 132, 5);
-}
-
-typedef struct {
-    int time;
-    int temperature;
-} DataPoint;
-
-DataPoint reflowData[5] = {
-    {0, 0}, {90, 150}, {180, 150}, {220, 245}, {360, 0}
-};
-
-DataPoint leadData[GRAPH_POINTS] = {
-    {0, 25}, {30, 125}, {60, 150}, {90, 180}, {120, 210}, {140, 230}, {160, 230},
-    {180, 210}, {200, 180}, {220, 150}, {240, 125}, {260, 25}
-};
-
-int whichData = 0;
-
+//czy program (rysowanie wykresu) zostal uruchomiony.
 bool programStarted = false;
+
+//ile trwa program dla danej tabeli.
 int maxTimeInGraph = 0;
 
 void ShowGraph_WithUpdate(void)
 {
     ClearScreen();
     
-    whichData++;
-    
-    if(whichData == 3){
-        whichData = 1;
-    }
-    
-    int dataSize = 0;
-    
-    if(whichData == 1)
-    {
-        dataSize = sizeof(reflowData) / sizeof(reflowData[0]);
-    }
-    else if(whichData == 2)
-    {
-        dataSize = sizeof(leadData) / sizeof(leadData[0]);
-    }
+    int dataSize = table_data[which_data_table].dataSize;
     
     DataPoint data[dataSize];
     
-    if(whichData == 1)
-    {
-        for (int i = 0; i < dataSize; i++) {
-            data[i].temperature = reflowData[i].temperature;
-            data[i].time = reflowData[i].time;
-        }
-    }
-    else if(whichData == 2)
-    {
-        for (int i = 0; i < dataSize; i++) {
-            data[i].temperature = leadData[i].temperature;
-            data[i].time = leadData[i].time;
-        }
+    for (int i = 0; i < dataSize; i++) {
+        data[i].temperature = table_data[which_data_table].data[i].temperature;
+        data[i].time = table_data[which_data_table].data[i].time;
     }
     
     /* Define axis labels and ticks */
@@ -361,42 +309,21 @@ void ShowTable(void)
     /* Clear the screen */
     GUI_Clear();
     
-    int dataSize = 0;
-    
-    if(which_data_table == 1)
-    {
-        dataSize = sizeof(reflowData) / sizeof(reflowData[0]);
-    }
-    else if(which_data_table == 2)
-    {
-        dataSize = sizeof(leadData) / sizeof(leadData[0]);
-    }
+    int dataSize = table_data[which_data_table].dataSize;
     
     dataSize_global = dataSize;
     
     DataPoint data[dataSize];
     
-    char* data_title[2] = {"Reflow Profile", "Lead Profile"};
-    
-    if(which_data_table == 1)
-    {
-        for (int i = start_point; i < dataSize; i++) {
-            data[i].temperature = reflowData[i].temperature;
-            data[i].time = reflowData[i].time;
-        }
-    }
-    else if(which_data_table == 2)
-    {
-        for (int i = start_point; i < dataSize; i++) {
-            data[i].temperature = leadData[i].temperature;
-            data[i].time = leadData[i].time;
-        }
+    for (int i = start_point; i < dataSize; i++) {
+        data[i].temperature = table_data[which_data_table].data[i].temperature;
+        data[i].time = table_data[which_data_table].data[i].time;
     }
     
     /* Display page title */
     GUI_SetFont(GUI_FONT_13B_1);
     GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt(data_title[which_data_table-1], 132, 5);
+    GUI_DispStringAt(table_data[which_data_table].name, 132, 5);
     
     int last_point = start_point + 6;
     
@@ -455,6 +382,7 @@ void TimerInterruptHandler(void)
             pointCounter = 10;
             randomTemperature1 = 0;
             randomTemperature2 = 0;
+            which_data_table = 0;
         }
     }
 }
@@ -486,20 +414,15 @@ void Init_Interrupts()
 
 int main(void)
 {
-    
-    uint8 pageNumber = 0;
-    
     Init_Interrupts();
     
-    /* Initialize emWin Graphics */
     PWM_Start();
+    /* Initialize emWin Graphics */
     GUI_Init();
 
     /* Start the eInk display interface and turn on the display power */
     Cy_EINK_Start(20);
     Cy_EINK_Power(1);
-    
-    InitGraph();
     
     for(;;)
     {
