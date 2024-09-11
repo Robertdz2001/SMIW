@@ -20,6 +20,20 @@ net Net_10_ff11
 	switch ":Clockcontainer:ff_permute.Clock[0]ff_div_20==>:TCPWMcontainer:TCPWM[1].clock"
 	term   ":TCPWMcontainer:TCPWM[1].clock"
 end Net_10_ff11
+net Net_136
+	term   ":ioport9:pin7.fb"
+	switch ":ioport9:pin7.fb==>:ioport9:smartio_mux_out7.direct_in"
+	switch ":ioport9:smartio_mux_out7.smartio_mux_out==>:IO[9]_out[7]_input_permute.ioport9_dsiOut7"
+	switch ":IO[9]_out[7]_input_permute.IO[9]_out[7]==>:UDB_Array:DSI_new10:LHO_Sel19.2"
+	switch ":UDB_Array:DSI_new10:LHO_Sel19.lho19==>:UDB_Array:DSI_new11:LHO_Sel19.15"
+	switch ":UDB_Array:DSI_new11:LHO_Sel19.lho19==>:UDB_Array:DSI_new11:LVO_Sel7.1"
+	switch ":UDB_Array:DSI_new11:LVO_Sel7.vo7==>:UDB_Array:UDBroute5:TOP_V_BOT7.1"
+	switch ":UDB_Array:UDBroute5:TOP_V_BOT7.vi7==>:UDB_Array:UDBroute5:LVO_Sel7.15"
+	switch ":UDB_Array:UDBroute5:LVO_Sel7.vo7==>:UDB_Array:UDBroute5:LHO_Sel43.13"
+	switch ":UDB_Array:UDBroute5:LHO_Sel43.lho43==>:UDB_Array:UDBroute5:TUI_Sel30.2"
+	switch ":UDB_Array:UDBroute5:TUI_Sel30.tui30==>:UDB_Array:udb@[UDB=(0,0)]:StatusControl:statuscell.status_0"
+	term   ":UDB_Array:udb@[UDB=(0,0)]:StatusControl:statuscell.status_0"
+end Net_136
 net Net_156_ff12
 	term   ":Clockcontainer:Clock[0].ff_div_13"
 	switch ":Clockcontainer:Clock[0].ff_div_13==>:Clockcontainer:ff_permute.ff_div_13"
@@ -42,19 +56,32 @@ net Net_28
 	switch ":TCPWMcontainer:TCPWM[1].interrupt==>:intc_0:interrupt91.interrupt"
 	term   ":intc_0:interrupt91.interrupt"
 end Net_28
-net Net_32
-	term   ":ioport0:pin4.fb"
-	switch ":ioport0:pin4.fb==>:ioport0:smartio_mux_out4.direct_in"
-	switch ":ioport0:smartio_mux_out4.smartio_mux_out==>:IO[0]_out[4]_input_permute.ioport0_dsiOut4"
-	switch ":IO[0]_out[4]_input_permute.IO[0]_out[4]==>:UDB_Array:DSI_new0:LHO_Sel4.1"
-	switch ":UDB_Array:DSI_new0:LHO_Sel4.lho4==>:UDB_Array:DSI_new0:LVO_Sel10.0"
-	switch ":UDB_Array:DSI_new0:LVO_Sel10.vo10==>:UDB_Array:UDBroute0:TOP_V_BOT10.0"
-	switch ":UDB_Array:UDBroute0:TOP_V_BOT10.vi10==>:UDB_Array:UDBroute0:LVO_Sel10.15"
-	switch ":UDB_Array:UDBroute0:LVO_Sel10.vo10==>:UDB_Array:UDBroute0:LHO_Sel68.13"
-	switch ":UDB_Array:UDBroute0:LHO_Sel68.lho68==>:UDB_Array:UDBroute0:BUI_Sel30.5"
-	switch ":UDB_Array:UDBroute0:BUI_Sel30.bui30==>:UDB_Array:udb@[UDB=(1,5)]:StatusControl:statuscell.status_0"
-	term   ":UDB_Array:udb@[UDB=(1,5)]:StatusControl:statuscell.status_0"
-end Net_32
+net Net_302
+	term   ":ioport9:pin6.fb"
+	switch ":ioport9:pin6.fb==>:ioport9:smartio_mux_out6.direct_in"
+	switch ":ioport9:smartio_mux_out6.smartio_mux_out==>:IO[9]_out[6]_input_permute.ioport9_dsiOut6"
+	switch ":IO[9]_out[6]_input_permute.IO[9]_out[6]==>:UDB_Array:DSI_new10:LHO_Sel16.1"
+	switch ":UDB_Array:DSI_new10:LHO_Sel16.lho16==>:UDB_Array:DSI_new10:LVO_Sel6.1"
+	switch ":UDB_Array:DSI_new10:LVO_Sel6.vo6==>:UDB_Array:UDBroute4:TOP_V_BOT6.1"
+	switch ":UDB_Array:UDBroute4:TOP_V_BOT6.vi6==>:UDB_Array:UDBroute4:LVO_Sel6.15"
+	switch ":UDB_Array:UDBroute4:LVO_Sel6.vo6==>:UDB_Array:UDBroute4:LHO_Sel18.13"
+	switch ":UDB_Array:UDBroute4:LHO_Sel18.lho18==>:UDB_Array:UDBroute4:BUI_Sel30.0"
+	switch ":UDB_Array:UDBroute4:BUI_Sel30.bui30==>:UDB_Array:udb@[UDB=(1,1)]:StatusControl:statuscell.status_0"
+	term   ":UDB_Array:udb@[UDB=(1,1)]:StatusControl:statuscell.status_0"
+end Net_302
+net Net_362
+	term   ":ioport9:pin5.fb"
+	switch ":ioport9:pin5.fb==>:ioport9:smartio_mux_out5.direct_in"
+	switch ":ioport9:smartio_mux_out5.smartio_mux_out==>:IO[9]_out[5]_input_permute.ioport9_dsiOut5"
+	switch ":IO[9]_out[5]_input_permute.IO[9]_out[5]==>:UDB_Array:DSI_new10:LHO_Sel92.1"
+	switch ":UDB_Array:DSI_new10:LHO_Sel92.lho92==>:UDB_Array:DSI_new10:LVO_Sel2.7"
+	switch ":UDB_Array:DSI_new10:LVO_Sel2.vo2==>:UDB_Array:UDBroute4:TOP_V_BOT2.1"
+	switch ":UDB_Array:UDBroute4:TOP_V_BOT2.vi2==>:UDB_Array:UDBroute4:LVO_Sel2.15"
+	switch ":UDB_Array:UDBroute4:LVO_Sel2.vo2==>:UDB_Array:UDBroute4:LHO_Sel66.13"
+	switch ":UDB_Array:UDBroute4:LHO_Sel66.lho66==>:UDB_Array:UDBroute4:TUI_Sel30.4"
+	switch ":UDB_Array:UDBroute4:TUI_Sel30.tui30==>:UDB_Array:udb@[UDB=(0,1)]:StatusControl:statuscell.status_0"
+	term   ":UDB_Array:udb@[UDB=(0,1)]:StatusControl:statuscell.status_0"
+end Net_362
 net Net_700_ff13
 	term   ":Clockcontainer:Clock[0].ff_div_11"
 	switch ":Clockcontainer:Clock[0].ff_div_11==>:Clockcontainer:ff_permute.ff_div_11"

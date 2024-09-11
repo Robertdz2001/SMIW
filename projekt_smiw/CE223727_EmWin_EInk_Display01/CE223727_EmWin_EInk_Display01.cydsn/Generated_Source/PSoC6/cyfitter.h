@@ -55,19 +55,14 @@
 /* Status_SW2 */
 #define Status_SW2_sts_sts_reg__0__MASK 0x01u
 #define Status_SW2_sts_sts_reg__0__POS 0
-#define Status_SW2_sts_sts_reg__16BIT_STATUS_AUX_CTL_REG 0x40341904u
-#define Status_SW2_sts_sts_reg__16BIT_STATUS_REG 0x40341604u
-#define Status_SW2_sts_sts_reg__32BIT_MASK_REG 0x40341804u
-#define Status_SW2_sts_sts_reg__32BIT_STATUS_AUX_CTL_REG 0x40341904u
-#define Status_SW2_sts_sts_reg__32BIT_STATUS_REG 0x40341604u
 #define Status_SW2_sts_sts_reg__MASK 0x01u
-#define Status_SW2_sts_sts_reg__MASK_REG 0x40341804u
-#define Status_SW2_sts_sts_reg__RC_CFG0 0x403420DCu
-#define Status_SW2_sts_sts_reg__RC_CFG1 0x403420E0u
-#define Status_SW2_sts_sts_reg__SC_CFG0 0x403420D4u
-#define Status_SW2_sts_sts_reg__SC_CFG1 0x403420D8u
-#define Status_SW2_sts_sts_reg__STATUS_AUX_CTL_REG 0x40341904u
-#define Status_SW2_sts_sts_reg__STATUS_REG 0x40341604u
+#define Status_SW2_sts_sts_reg__MASK_REG 0x4034182Cu
+#define Status_SW2_sts_sts_reg__RC_CFG0 0x40342ADCu
+#define Status_SW2_sts_sts_reg__RC_CFG1 0x40342AE0u
+#define Status_SW2_sts_sts_reg__SC_CFG0 0x40342AD4u
+#define Status_SW2_sts_sts_reg__SC_CFG1 0x40342AD8u
+#define Status_SW2_sts_sts_reg__STATUS_AUX_CTL_REG 0x4034192Cu
+#define Status_SW2_sts_sts_reg__STATUS_REG 0x4034162Cu
 
 /* CY_EINK_SPIM */
 #define CY_EINK_SPIM_SCB__HW SCB6
@@ -85,6 +80,37 @@
 #define CY_EINK_Timer_TCPWM__CNT_IDX 0u
 #define CY_EINK_Timer_TCPWM__HW TCPWM0
 #define CY_EINK_Timer_TCPWM__IDX 0u
+
+/* Status_Button2 */
+#define Status_Button2_sts_sts_reg__0__MASK 0x01u
+#define Status_Button2_sts_sts_reg__0__POS 0
+#define Status_Button2_sts_sts_reg__16BIT_STATUS_AUX_CTL_REG 0x40341924u
+#define Status_Button2_sts_sts_reg__16BIT_STATUS_REG 0x40341624u
+#define Status_Button2_sts_sts_reg__MASK 0x01u
+#define Status_Button2_sts_sts_reg__MASK_REG 0x40341824u
+#define Status_Button2_sts_sts_reg__RC_CFG0 0x403428DCu
+#define Status_Button2_sts_sts_reg__RC_CFG1 0x403428E0u
+#define Status_Button2_sts_sts_reg__SC_CFG0 0x403428D4u
+#define Status_Button2_sts_sts_reg__SC_CFG1 0x403428D8u
+#define Status_Button2_sts_sts_reg__STATUS_AUX_CTL_REG 0x40341924u
+#define Status_Button2_sts_sts_reg__STATUS_REG 0x40341624u
+
+/* Status_Button3 */
+#define Status_Button3_sts_sts_reg__0__MASK 0x01u
+#define Status_Button3_sts_sts_reg__0__POS 0
+#define Status_Button3_sts_sts_reg__16BIT_STATUS_AUX_CTL_REG 0x40341920u
+#define Status_Button3_sts_sts_reg__16BIT_STATUS_REG 0x40341620u
+#define Status_Button3_sts_sts_reg__32BIT_MASK_REG 0x40341820u
+#define Status_Button3_sts_sts_reg__32BIT_STATUS_AUX_CTL_REG 0x40341920u
+#define Status_Button3_sts_sts_reg__32BIT_STATUS_REG 0x40341620u
+#define Status_Button3_sts_sts_reg__MASK 0x01u
+#define Status_Button3_sts_sts_reg__MASK_REG 0x40341820u
+#define Status_Button3_sts_sts_reg__RC_CFG0 0x4034285Cu
+#define Status_Button3_sts_sts_reg__RC_CFG1 0x40342860u
+#define Status_Button3_sts_sts_reg__SC_CFG0 0x40342854u
+#define Status_Button3_sts_sts_reg__SC_CFG1 0x40342858u
+#define Status_Button3_sts_sts_reg__STATUS_AUX_CTL_REG 0x40341920u
+#define Status_Button3_sts_sts_reg__STATUS_REG 0x40341620u
 
 /* Miscellaneous */
 #define CPUSS__CTI_TR_IN_0 TRIG5_OUT_CPUSS_CTI_TR_IN0

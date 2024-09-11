@@ -96,6 +96,10 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Timer.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Timer.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Clock_3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button3.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\Generated_Source\PSoC6\pdl\cmsis\include">

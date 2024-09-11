@@ -96,6 +96,8 @@
 #include "Clock_1.h"
 #include "Timer.h"
 #include "Clock_3.h"
+#include "Status_Button2.h"
+#include "Status_Button3.h"
 #include "CY_EINK_SPIM_SCBCLK.h"
 
 /*[]*/

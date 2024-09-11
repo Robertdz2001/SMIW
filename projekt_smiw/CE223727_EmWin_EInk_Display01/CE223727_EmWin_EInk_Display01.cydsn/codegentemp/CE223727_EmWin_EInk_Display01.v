@@ -1,6 +1,6 @@
 // ======================================================================
 // CE223727_EmWin_EInk_Display01.v generated from TopDesign.cysch
-// 08/30/2024 at 14:22
+// 09/12/2024 at 00:30
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -558,6 +558,24 @@ endmodule
 // top
 module top ;
 
+          wire [7:0] Net_388;
+          wire  Net_387;
+          wire  Net_386;
+          wire  Net_385;
+          wire  Net_384;
+          wire  Net_383;
+          wire  Net_382;
+          wire  Net_381;
+          wire  Net_380;
+          wire [7:0] Net_295;
+          wire  Net_294;
+          wire  Net_293;
+          wire  Net_292;
+          wire  Net_291;
+          wire  Net_290;
+          wire  Net_289;
+          wire  Net_288;
+          wire  Net_287;
           wire  Net_259;
           wire  Net_246;
           wire  Net_245;
@@ -615,8 +633,10 @@ module top ;
           wire  Net_113;
           wire  Net_112;
           wire  Net_111;
+          wire  Net_362;
+          wire  Net_302;
           wire  Net_136;
-          wire  Net_32;
+          wire  Net_335;
           wire  Net_28;
           wire  Net_10;
           wire  Net_700;
@@ -914,8 +934,8 @@ module top ;
         .stop(1'b0),
         .undrflw(Net_135));
 
-	wire [0:0] tmpIO_0__SW2_net;
-	electrical [0:0] tmpSIOVREF__SW2_net;
+	wire [0:0] tmpIO_0__Button1_net;
+	electrical [0:0] tmpSIOVREF__Button1_net;
 
 	cy_mxs40_gpio_v1_0
 		#(.id("122d9389-0083-4701-afa6-d5a418aa7bf2"),
@@ -941,18 +961,18 @@ module top ;
 		  .vtrip("0"),
 		  .use_annotation("0"),
 		  .hotswap_needed("0"))
-		SW2
+		Button1
 		 (.oe({1'b1}),
 		  .y({1'b0}),
-		  .fb({Net_32}),
-		  .io({tmpIO_0__SW2_net[0:0]}),
-		  .siovref(tmpSIOVREF__SW2_net));
+		  .fb({Net_136}),
+		  .io({tmpIO_0__Button1_net[0:0]}),
+		  .siovref(tmpSIOVREF__Button1_net));
 
 
     CyStatusReg_v1_90 Status_SW2 (
-        .clock(Net_136),
+        .clock(Net_335),
         .intr(Net_137),
-        .status_0(Net_32),
+        .status_0(Net_136),
         .status_1(1'b0),
         .status_2(1'b0),
         .status_3(1'b0),
@@ -983,7 +1003,7 @@ module top ;
 		  .is_direct(0),
 		  .is_digital(0))
 		Clock_2
-		 (.clock_out(Net_136));
+		 (.clock_out(Net_335));
 
 
 	wire [0:0] tmpFB_0__GreenLED_net;
@@ -1115,6 +1135,126 @@ module top ;
 		isrTimer
 		 (.int_signal(Net_28));
 
+
+	wire [0:0] tmpIO_0__Button2_net;
+	electrical [0:0] tmpSIOVREF__Button2_net;
+
+	cy_mxs40_gpio_v1_0
+		#(.id("14226c1e-a26d-40ea-9622-084317f5d5f4"),
+		  .width(1),
+		  .sio_grp_cnt(0),
+		  .drive_mode("2"),
+		  .ibuf_enabled("1"),
+		  .init_dr_st("1"),
+		  .input_sync("0"),
+		  .intr_mode("0"),
+		  .io_voltage(""),
+		  .output_conn("0"),
+		  .oe_conn("0"),
+		  .output_sync("0"),
+		  .oe_sync("0"),
+		  .drive_strength("0"),
+		  .max_frequency("100"),
+		  .i2c_mode("0"),
+		  .output_current_cap("8"),
+		  .pin_aliases(""),
+		  .pin_mode("I"),
+		  .slew_rate("0"),
+		  .vtrip("0"),
+		  .use_annotation("0"),
+		  .hotswap_needed("0"))
+		Button2
+		 (.oe({1'b1}),
+		  .y({1'b0}),
+		  .fb({Net_302}),
+		  .io({tmpIO_0__Button2_net[0:0]}),
+		  .siovref(tmpSIOVREF__Button2_net));
+
+
+	wire [0:0] tmpIO_0__Button3_net;
+	electrical [0:0] tmpSIOVREF__Button3_net;
+
+	cy_mxs40_gpio_v1_0
+		#(.id("9c363873-8e12-4b7c-ae13-5aaeeae84ab7"),
+		  .width(1),
+		  .sio_grp_cnt(0),
+		  .drive_mode("2"),
+		  .ibuf_enabled("1"),
+		  .init_dr_st("1"),
+		  .input_sync("0"),
+		  .intr_mode("0"),
+		  .io_voltage(""),
+		  .output_conn("0"),
+		  .oe_conn("0"),
+		  .output_sync("0"),
+		  .oe_sync("0"),
+		  .drive_strength("0"),
+		  .max_frequency("100"),
+		  .i2c_mode("0"),
+		  .output_current_cap("8"),
+		  .pin_aliases(""),
+		  .pin_mode("I"),
+		  .slew_rate("0"),
+		  .vtrip("0"),
+		  .use_annotation("0"),
+		  .hotswap_needed("0"))
+		Button3
+		 (.oe({1'b1}),
+		  .y({1'b0}),
+		  .fb({Net_362}),
+		  .io({tmpIO_0__Button3_net[0:0]}),
+		  .siovref(tmpSIOVREF__Button3_net));
+
+
+    CyStatusReg_v1_90 Status_Button2 (
+        .clock(Net_335),
+        .intr(Net_287),
+        .status_0(Net_302),
+        .status_1(1'b0),
+        .status_2(1'b0),
+        .status_3(1'b0),
+        .status_4(1'b0),
+        .status_5(1'b0),
+        .status_6(1'b0),
+        .status_7(1'b0),
+        .status_bus(8'b0));
+    defparam Status_Button2.Bit0Mode = 0;
+    defparam Status_Button2.Bit1Mode = 0;
+    defparam Status_Button2.Bit2Mode = 0;
+    defparam Status_Button2.Bit3Mode = 0;
+    defparam Status_Button2.Bit4Mode = 0;
+    defparam Status_Button2.Bit5Mode = 0;
+    defparam Status_Button2.Bit6Mode = 0;
+    defparam Status_Button2.Bit7Mode = 0;
+    defparam Status_Button2.BusDisplay = 0;
+    defparam Status_Button2.Interrupt = 0;
+    defparam Status_Button2.MaskValue = 0;
+    defparam Status_Button2.NumInputs = 1;
+
+    CyStatusReg_v1_90 Status_Button3 (
+        .clock(Net_335),
+        .intr(Net_380),
+        .status_0(Net_362),
+        .status_1(1'b0),
+        .status_2(1'b0),
+        .status_3(1'b0),
+        .status_4(1'b0),
+        .status_5(1'b0),
+        .status_6(1'b0),
+        .status_7(1'b0),
+        .status_bus(8'b0));
+    defparam Status_Button3.Bit0Mode = 0;
+    defparam Status_Button3.Bit1Mode = 0;
+    defparam Status_Button3.Bit2Mode = 0;
+    defparam Status_Button3.Bit3Mode = 0;
+    defparam Status_Button3.Bit4Mode = 0;
+    defparam Status_Button3.Bit5Mode = 0;
+    defparam Status_Button3.Bit6Mode = 0;
+    defparam Status_Button3.Bit7Mode = 0;
+    defparam Status_Button3.BusDisplay = 0;
+    defparam Status_Button3.Interrupt = 0;
+    defparam Status_Button3.MaskValue = 0;
+    defparam Status_Button3.NumInputs = 1;
 
 
 

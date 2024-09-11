@@ -1,5 +1,5 @@
 -- Project:   CE223727_EmWin_EInk_Display01
--- Generated: 08/30/2024 14:22:33
+-- Generated: 09/12/2024 00:30:15
 -- PSoC Creator  4.4
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -14,9 +14,11 @@ ENTITY CE223727_EmWin_EInk_Display01 IS
         CY_EINK_DispIoEn(0)_PAD : OUT std_ulogic;
         CY_EINK_DispBusy(0)_PAD : IN std_ulogic;
         CY_EINK_Ssel(0)_PAD : OUT std_ulogic;
-        SW2(0)_PAD : IN std_ulogic;
+        Button1(0)_PAD : IN std_ulogic;
         GreenLED(0)_PAD : OUT std_ulogic;
-        Pin(0)_PAD : OUT std_ulogic);
+        Pin(0)_PAD : OUT std_ulogic;
+        Button2(0)_PAD : IN std_ulogic;
+        Button3(0)_PAD : IN std_ulogic);
     ATTRIBUTE voltage_VBACKUP OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDD_NS OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDDA_CSD OF __DEFAULT__ : ENTITY IS 3.3e0;
@@ -33,6 +35,9 @@ ENTITY CE223727_EmWin_EInk_Display01 IS
 END CE223727_EmWin_EInk_Display01;
 
 ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
+    SIGNAL Button1(0)__PA : bit;
+    SIGNAL Button2(0)__PA : bit;
+    SIGNAL Button3(0)__PA : bit;
     SIGNAL CPUSS_swj_swclk_tclk : bit;
     SIGNAL CPUSS_swj_swdio_tms : bit;
     SIGNAL CY_CPUSS_SWJ_SWCLK_TCLK(0)__PA : bit;
@@ -71,6 +76,7 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL Net_130 : bit;
     SIGNAL Net_131 : bit;
     SIGNAL Net_135 : bit;
+    SIGNAL Net_136 : bit;
     SIGNAL Net_152 : bit;
     SIGNAL Net_153 : bit;
     SIGNAL Net_154 : bit;
@@ -83,11 +89,11 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL Net_242 : bit;
     SIGNAL Net_246 : bit;
     SIGNAL Net_28 : bit;
-    SIGNAL Net_32 : bit;
+    SIGNAL Net_302 : bit;
+    SIGNAL Net_362 : bit;
     SIGNAL Net_700_ff13 : bit;
     ATTRIBUTE global_signal OF Net_700_ff13 : SIGNAL IS true;
     SIGNAL Pin(0)__PA : bit;
-    SIGNAL SW2(0)__PA : bit;
     SIGNAL \CY_EINK_SPIM:Net_216\ : bit;
     SIGNAL \CY_EINK_SPIM:Net_488\ : bit;
     SIGNAL \CY_EINK_SPIM:Net_489\ : bit;
@@ -140,20 +146,28 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     ATTRIBUTE Location OF CY_EINK_DispBusy(0) : LABEL IS "P5[3]";
     ATTRIBUTE lib_model OF CY_EINK_Ssel(0) : LABEL IS "iocell12";
     ATTRIBUTE Location OF CY_EINK_Ssel(0) : LABEL IS "P12[3]";
-    ATTRIBUTE lib_model OF SW2(0) : LABEL IS "iocell13";
-    ATTRIBUTE Location OF SW2(0) : LABEL IS "P0[4]";
+    ATTRIBUTE lib_model OF Button1(0) : LABEL IS "iocell13";
+    ATTRIBUTE Location OF Button1(0) : LABEL IS "P9[7]";
     ATTRIBUTE lib_model OF GreenLED(0) : LABEL IS "iocell14";
     ATTRIBUTE Location OF GreenLED(0) : LABEL IS "P1[1]";
     ATTRIBUTE lib_model OF Pin(0) : LABEL IS "iocell15";
     ATTRIBUTE Location OF Pin(0) : LABEL IS "P0[3]";
+    ATTRIBUTE lib_model OF Button2(0) : LABEL IS "iocell16";
+    ATTRIBUTE Location OF Button2(0) : LABEL IS "P9[6]";
+    ATTRIBUTE lib_model OF Button3(0) : LABEL IS "iocell17";
+    ATTRIBUTE Location OF Button3(0) : LABEL IS "P9[5]";
     ATTRIBUTE Location OF \CY_EINK_SPIM:SCB\ : LABEL IS "F(SCB,6)";
     ATTRIBUTE Location OF \CY_EINK_SPIM:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(47)]";
     ATTRIBUTE Location OF \CY_EINK_Timer:TCPWM\ : LABEL IS "F(TCPWM,0)";
     ATTRIBUTE lib_model OF \Status_SW2:sts:sts_reg\ : LABEL IS "statuscell1";
-    ATTRIBUTE Location OF \Status_SW2:sts:sts_reg\ : LABEL IS "U(1,5)";
+    ATTRIBUTE Location OF \Status_SW2:sts:sts_reg\ : LABEL IS "U(0,0)";
     ATTRIBUTE Location OF \PWM:TCPWM\ : LABEL IS "F(TCPWM,2)";
     ATTRIBUTE Location OF \Timer:TCPWM\ : LABEL IS "F(TCPWM,1)";
     ATTRIBUTE Location OF isrTimer : LABEL IS "[IntrContainer=(0)][IntrId=(91)]";
+    ATTRIBUTE lib_model OF \Status_Button2:sts:sts_reg\ : LABEL IS "statuscell2";
+    ATTRIBUTE Location OF \Status_Button2:sts:sts_reg\ : LABEL IS "U(1,1)";
+    ATTRIBUTE lib_model OF \Status_Button3:sts:sts_reg\ : LABEL IS "statuscell3";
+    ATTRIBUTE Location OF \Status_Button3:sts:sts_reg\ : LABEL IS "U(0,1)";
     COMPONENT CLK_GEN
         PORT (
             gen_clk_in_0 : IN std_ulogic;
@@ -1221,7 +1235,7 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
-    SW2:logicalport
+    Button1:logicalport
         GENERIC MAP(
             cy_registers => "",
             drive_mode => "010",
@@ -1256,19 +1270,19 @@ BEGIN
             out_clken_mode => 1,
             out_rst_inv => 0);
 
-    SW2(0):iocell
+    Button1(0):iocell
         GENERIC MAP(
             in_sync_mode => 0,
             out_sync_mode => 0,
             oe_sync_mode => 0,
-            logicalport => "SW2",
+            logicalport => "Button1",
             logicalport_pin_id => 0,
             io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
         PORT MAP(
-            pa_out => SW2(0)__PA,
+            pa_out => Button1(0)__PA,
             oe => open,
-            fb => Net_32,
-            pad_in => SW2(0)_PAD,
+            fb => Net_136,
+            pad_in => Button1(0)_PAD,
             in_clock => open,
             in_clock_en => open,
             in_reset => open,
@@ -1386,6 +1400,116 @@ BEGIN
             out_clock_en => open,
             out_reset => open);
 
+    Button2:logicalport
+        GENERIC MAP(
+            cy_registers => "",
+            drive_mode => "010",
+            drive_strength => "0",
+            hotswap_needed => "0",
+            i2c_mode => "0",
+            ibuf_enabled => "1",
+            id => "14226c1e-a26d-40ea-9622-084317f5d5f4",
+            init_dr_st => "1",
+            input_sync => "0",
+            intr_mode => "00",
+            io_voltage => "",
+            max_frequency => "100",
+            oe_conn => "0",
+            oe_sync => "0",
+            output_conn => "0",
+            output_current_cap => "8",
+            output_sync => "0",
+            pin_aliases => "",
+            pin_mode => "B",
+            sio_grp_cnt => 0,
+            slew_rate => "0",
+            use_annotation => "0",
+            vtrip => "00",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0);
+
+    Button2(0):iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "Button2",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
+        PORT MAP(
+            pa_out => Button2(0)__PA,
+            oe => open,
+            fb => Net_302,
+            pad_in => Button2(0)_PAD,
+            in_clock => open,
+            in_clock_en => open,
+            in_reset => open,
+            out_clock => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    Button3:logicalport
+        GENERIC MAP(
+            cy_registers => "",
+            drive_mode => "010",
+            drive_strength => "0",
+            hotswap_needed => "0",
+            i2c_mode => "0",
+            ibuf_enabled => "1",
+            id => "9c363873-8e12-4b7c-ae13-5aaeeae84ab7",
+            init_dr_st => "1",
+            input_sync => "0",
+            intr_mode => "00",
+            io_voltage => "",
+            max_frequency => "100",
+            oe_conn => "0",
+            oe_sync => "0",
+            output_conn => "0",
+            output_current_cap => "8",
+            output_sync => "0",
+            pin_aliases => "",
+            pin_mode => "B",
+            sio_grp_cnt => 0,
+            slew_rate => "0",
+            use_annotation => "0",
+            vtrip => "00",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0);
+
+    Button3(0):iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "Button3",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000101")
+        PORT MAP(
+            pa_out => Button3(0)__PA,
+            oe => open,
+            fb => Net_362,
+            pad_in => Button3(0)_PAD,
+            in_clock => open,
+            in_clock_en => open,
+            in_reset => open,
+            out_clock => open,
+            out_clock_en => open,
+            out_reset => open);
+
     \CY_EINK_SPIM:SCB\:SCB
         GENERIC MAP(
             cy_registers => "",
@@ -1452,7 +1576,7 @@ BEGIN
             status_3 => open,
             status_2 => open,
             status_1 => open,
-            status_0 => Net_32);
+            status_0 => Net_136);
 
     \PWM:TCPWM\:TCPWM
         GENERIC MAP(
@@ -1500,5 +1624,37 @@ BEGIN
         PORT MAP(
             interrupt => Net_28,
             clock => ClockBlock_PeriClk);
+
+    \Status_Button2:sts:sts_reg\:statuscell
+        GENERIC MAP(
+            cy_force_order => 1,
+            cy_md_select => "00000000",
+            clken_mode => 1)
+        PORT MAP(
+            clock => open,
+            status_7 => open,
+            status_6 => open,
+            status_5 => open,
+            status_4 => open,
+            status_3 => open,
+            status_2 => open,
+            status_1 => open,
+            status_0 => Net_302);
+
+    \Status_Button3:sts:sts_reg\:statuscell
+        GENERIC MAP(
+            cy_force_order => 1,
+            cy_md_select => "00000000",
+            clken_mode => 1)
+        PORT MAP(
+            clock => open,
+            status_7 => open,
+            status_6 => open,
+            status_5 => open,
+            status_4 => open,
+            status_3 => open,
+            status_2 => open,
+            status_1 => open,
+            status_0 => Net_362);
 
 END __DEFAULT__;

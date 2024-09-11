@@ -155,14 +155,8 @@ void ClearScreen(void)
 //zmienna do sterowania pwm
 int compareValue = 50;
 
-//zmienna ktora przechowuje informacje o tym, ktory punkt ma byc w tabeli wyswietlony jako pierwszy.
-int start_point = 0;
-
 //ktora tabela zostala wybrana.
 int which_data_table = 0;
-
-//przechowuje informacje o liczbie punktow w wybranej tabeli.
-int dataSize_global = 0;
 
 //wybor trybu.
 int modeSwitch = 0;
@@ -179,72 +173,62 @@ typedef struct {
     char* name; //Nazwa tablicy.
 } DataSet;
 
+int dataSize = 6;
+    
+DataPoint data[6];
+
 //zmienna przechowujaca tablice z danymi.
 DataSet table_data[3] = {
     {
-        .data = {{0, 25}, {90, 150}, {180, 150}, {220, 245}, {360, 0}},
-        .dataSize = 5,
-        .name = "Reflow Profile"
+        .data = {{0, 25}, {90, 90}, {180, 130}, {210, 138}, {240, 165}, {270, 138}},
+        .dataSize = 6,
+        .name = "Reflow Sn42/Bi57.6/Ag0.4"
     },
     {
-        .data = {{0, 25}, {30, 125}, {60, 150}, {90, 180}, {120, 210}, {140, 230}, {160, 230},
-                 {180, 210}, {200, 180}, {220, 150}, {240, 125}, {260, 25}},
-        .dataSize = 12,
-        .name = "Lead Profile"
+        .data = {{0, 25}, {30, 100}, {120, 150}, {150, 183}, {210, 235}, {240, 183}},
+        .dataSize = 6,
+        .name = "Reflow Sn63/Pb37 T4"
     },
     {
-        .data = {{0, 1}, {30, 2}, {60, 3}, {90, 4}, {120, 5}, {140, 6}, {160, 7}},
-        .dataSize = 7,
-        .name = "Test"
+        .data = {{0, 25}, {90, 90}, {180, 130}, {210, 170}, {240, 197}, {270, 170}},
+        .dataSize = 6,
+        .name = "Reflow Sn60/Bi40 T4"
     }
 };
 
 void WaitforSwitchPressAndRelease(void)
 {   
-    int button_pressed_time = 0;
     int table_count = sizeof(table_data) / sizeof(table_data[0]);
     
     Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
     /* Wait for SW2 to be pressed */
-    while(Status_SW2_Read() != 0);
+    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0);
     
     /* Wait for SW2 to be released */
     while(Status_SW2_Read() == 0)
     {
-        button_pressed_time++;
         Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
         compareValue = (compareValue + 1) % 100;
         CyDelay(20);
     };
     
-    //Przycisk wcisniety dluzej niz sekunda.
-    if(button_pressed_time >= 50)
+    //Wcisniety drugi przycisk
+    if(Status_Button2_Read() == 0)
     {
         modeSwitch = 1;
+        return;
     }
-    //Przycisk wcisniety krocej.
+    
+    if(modeSwitch == 1)
+    {
+        modeSwitch = 0;
+    }
     else
     {
-        //tryb zostal zmieniony.
-        if(modeSwitch == 1)
+        which_data_table++;
+        if(which_data_table == 3)
         {
-            start_point = 0;
-            modeSwitch = 0;
-        }
-        //wyswietlenie kolejnej strony tabeli.
-        else if(start_point + 6 < dataSize_global)
-        {
-            start_point += 6;
-        }
-        //wyswietlenie kolejnej tabeli.
-        else
-        {
-            start_point = 0;
-            which_data_table++;
-            if(which_data_table == table_count)
-            {
-                which_data_table = 0;   
-            }
+            modeSwitch = 2;   
         }
     }
 }
@@ -258,10 +242,6 @@ int maxTimeInGraph = 0;
 void ShowGraph_WithUpdate(void)
 {
     ClearScreen();
-    
-    int dataSize = table_data[which_data_table].dataSize;
-    
-    DataPoint data[dataSize];
     
     for (int i = 0; i < dataSize; i++) {
         data[i].temperature = table_data[which_data_table].data[i].temperature;
@@ -309,13 +289,7 @@ void ShowTable(void)
     /* Clear the screen */
     GUI_Clear();
     
-    int dataSize = table_data[which_data_table].dataSize;
-    
-    dataSize_global = dataSize;
-    
-    DataPoint data[dataSize];
-    
-    for (int i = start_point; i < dataSize; i++) {
+    for (int i = 0; i < dataSize; i++) {
         data[i].temperature = table_data[which_data_table].data[i].temperature;
         data[i].time = table_data[which_data_table].data[i].time;
     }
@@ -325,20 +299,14 @@ void ShowTable(void)
     GUI_SetTextAlign(GUI_TA_HCENTER);
     GUI_DispStringAt(table_data[which_data_table].name, 132, 5);
     
-    int last_point = start_point + 6;
-    
-    if(last_point > dataSize)
-    {
-        last_point = dataSize;
-    }
-    
     /* Display table data */
-    for (int i = start_point; i < last_point; i++)
-    {   
-        if(i == start_point)
+    for (int i = 0; i < dataSize; i++)
+    {           
+        if(i == 0)
         {
             GUI_DispStringAt("Time (s)", 20, 30);
             GUI_DispStringAt("Temperature (C deg)", 100, 30);
+            continue;
         }
         
         char timeString[10];
@@ -347,12 +315,147 @@ void ShowTable(void)
         sprintf(timeString, "%d", data[i].time);
         sprintf(dataString, "%d", data[i].temperature);
         
-        GUI_DispStringAt(timeString, 20, 50 + (i-start_point) * 20);
-        GUI_DispStringAt(dataString, 100, 50 + (i-start_point) * 20);
+        GUI_DispStringAt(timeString, 20, 50 + (i-1) * 20);
+        GUI_DispStringAt(dataString, 100, 50 + (i-1) * 20);
     }
 
     /* Update the display */
     UpdateDisplay(CY_EINK_PARTIAL, true);
+}
+
+void AddNew()
+{
+    ClearScreen();
+    
+    /* Set font size, foreground and background colors */
+    GUI_SetColor(GUI_BLACK);
+    GUI_SetBkColor(GUI_WHITE);
+    GUI_SetTextMode(GUI_TM_NORMAL);
+    GUI_SetTextStyle(GUI_TS_NORMAL);
+
+    /* Clear the screen */
+    GUI_Clear();
+    
+    /* Display page title */
+    GUI_SetFont(GUI_FONT_13B_1);
+    GUI_SetTextAlign(GUI_TA_HCENTER);
+    GUI_DispStringAt("Add temperature points", 132, 5);
+    
+    int currentTemp = 25; // Początkowa wartość temperatury
+    char tempBuffer[32];   // Bufor na string wyświetlający temperaturę
+    int currentIndex = 1;  // Bieżący indeks w tablicy data[]
+    
+    data[0].temperature = currentTemp;
+    data[0].time = 0;
+    
+    // Wyświetlenie początkowej temperatury
+    sprintf(tempBuffer, "Current Temperature: %dC", currentTemp);
+    GUI_DispStringAt(tempBuffer, 10, 30);
+    
+    UpdateDisplay(CY_EINK_PARTIAL, true);
+
+    // Pętla do wprowadzania wartości
+    while (currentIndex < 6)
+    {
+        bool btn1_Pressed = false;
+        bool btn2_Pressed = false;
+
+        // Sprawdzanie stanu przycisków w pętli
+        while (Status_SW2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
+        
+        // Sprawdzenie czy SW2 został wciśnięty
+        while (Status_SW2_Read() == 0)
+        {
+            btn1_Pressed = true;  // Przycisk został wciśnięty
+        }
+        
+        // Sprawdzenie czy Button2 został wciśnięty
+        while (Status_Button3_Read() == 0)
+        {
+            btn2_Pressed = true;  // Przycisk został wciśnięty
+        }
+
+        // Jeśli SW2 został wciśnięty i puszczony, zwiększ temperaturę
+        if (btn1_Pressed)
+        {
+            currentTemp++;  // Zwiększenie temperatury o 1
+
+            // Aktualizacja wyświetlanej wartości temperatury
+            GUI_ClearRect(10, 30, 200, 50);  // Wyczyść poprzednią wartość temperatury
+            sprintf(tempBuffer, "Current Temperature: %dC", currentTemp);
+            GUI_DispStringAt(tempBuffer, 10, 30);  // Wyświetlenie nowej wartości temperatury
+            UpdateDisplay(CY_EINK_PARTIAL, true);
+        }
+
+        // Jeśli Button2 został wciśnięty i puszczony, dodaj temperaturę do tablicy
+        if (btn2_Pressed)
+        {
+            data[currentIndex].temperature = currentTemp; // Zapis temperatury do tablicy
+            data[currentIndex].time = currentIndex * 5;   // Przykładowo ustawiamy czas jako indeks * 5
+
+            // Wyświetlenie informacji o dodanej temperaturze
+            sprintf(tempBuffer, "Added Temp %d: %dC", currentIndex + 1, currentTemp);
+            GUI_DispStringAt(tempBuffer, 10, 50 + (currentIndex * 20)); // Wyświetlenie na ekranie w różnych miejscach
+
+            currentIndex++;  // Przejdź do kolejnego indeksu tablicy
+
+            // Resetowanie temperatury do 25, jeśli chcesz, by po dodaniu każdej temperatury zaczynało się od nowa
+            currentTemp = 25;
+
+            // Aktualizacja wyświetlanej wartości temperatury
+            GUI_ClearRect(10, 30, 200, 50);  // Wyczyść poprzednią wartość temperatury
+            sprintf(tempBuffer, "Current Temperature: %dC", currentTemp);
+            GUI_DispStringAt(tempBuffer, 10, 30);  // Wyświetlenie nowej wartości temperatury
+            UpdateDisplay(CY_EINK_PARTIAL, true);
+        }
+    }
+}
+
+
+void ShowAddNewPage(void)
+{
+    ClearScreen();
+    
+    /* Set font size, foreground and background colors */
+    GUI_SetColor(GUI_BLACK);
+    GUI_SetBkColor(GUI_WHITE);
+    GUI_SetTextMode(GUI_TM_NORMAL);
+    GUI_SetTextStyle(GUI_TS_NORMAL);
+
+    /* Clear the screen */
+    GUI_Clear();
+    
+    /* Display page title */
+    GUI_SetFont(GUI_FONT_13B_1);
+    GUI_SetTextAlign(GUI_TA_HCENTER);
+    GUI_DispStringAt("Users Profile - click one to add", 132, 5);
+
+    /* Update the display */
+    UpdateDisplay(CY_EINK_PARTIAL, true);
+    
+    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0);
+    
+    bool btn1_Pressed = false;
+    bool btn2_Pressed = false;
+    
+    while(Status_SW2_Read() == 0)
+    {
+        btn1_Pressed = true;
+    }
+    while (Status_Button2_Read() == 0)
+    {
+        btn2_Pressed = true;
+    }
+    
+    if(btn1_Pressed)
+    {
+        AddNew();
+    }
+    else if(btn2_Pressed)
+    {
+        modeSwitch = 0;
+        which_data_table = 0;
+    }
 }
 
 void TimerInterruptHandler(void)
@@ -431,9 +534,12 @@ int main(void)
                 ShowTable();   
                 WaitforSwitchPressAndRelease();
             }
-            else {
+            else if (modeSwitch == 1){
                 ShowGraph_WithUpdate();
                 WaitforSwitchPressAndRelease();
+            }
+            else if (modeSwitch == 2){
+                ShowAddNewPage();
             }
         }
     }

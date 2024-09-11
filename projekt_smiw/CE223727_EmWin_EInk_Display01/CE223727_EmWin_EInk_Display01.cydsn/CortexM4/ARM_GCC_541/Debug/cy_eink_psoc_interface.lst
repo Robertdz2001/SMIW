@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   27:eInk Library/cy_eink_psoc_interface.c **** * written permission of Cypress.
   28:eInk Library/cy_eink_psoc_interface.c **** *
   29:eInk Library/cy_eink_psoc_interface.c **** * Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 2
 
 
   30:eInk Library/cy_eink_psoc_interface.c **** * EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   35              		.cfi_offset 3, -8
   36              		.cfi_offset 14, -4
   37              	.LVL0:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 3
 
 
   38              	.LBB134:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   51:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h ****     uint32_t    compareOrCapture;   
   52:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h ****     uint32_t    compare0;           /**< Sets the value for Compare0*/
   53:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h ****     uint32_t    compare1;           /**< Sets the value for Compare1*/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 4
 
 
   54:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h ****     bool        enableCompareSwap;  /**< If enabled, the compare values are swapped each time the c
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  108:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** #define CY_TCPWM_COUNTER_PRESCALER_DIVBY_64     (6U) /**< Divide by 64 */
  109:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** #define CY_TCPWM_COUNTER_PRESCALER_DIVBY_128    (7U) /**< Divide by 128 */
  110:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** /** \} group_tcpwm_counter_clk_prescalers */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 5
 
 
  111:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  165:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
  166:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \param base
  167:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The pointer to a TCPWM instance.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 6
 
 
  168:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  222:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *******************************************************************************/
  223:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** __STATIC_INLINE uint32_t Cy_TCPWM_Counter_GetStatus(TCPWM_Type const  *base, uint32_t cntNum)
  224:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 7
 
 
  225:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h ****     uint32_t status = base->CNT[cntNum].STATUS;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  279:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *******************************************************************************/
  280:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** __STATIC_INLINE uint32_t Cy_TCPWM_Counter_GetCaptureBuf(TCPWM_Type const  *base, uint32_t cntNum)
  281:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 8
 
 
  282:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h ****     return(base->CNT[cntNum].CC_BUFF);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  336:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** /*******************************************************************************
  337:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * Function Name: Cy_TCPWM_Counter_SetCompare1
  338:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** ****************************************************************************//**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 9
 
 
  339:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  393:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The pointer to a TCPWM instance.
  394:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
  395:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \param cntNum 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 10
 
 
  396:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The Counter instance number in the selected TCPWM.
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   80:eInk Library/cy_eink_psoc_interface.c ****     
   81:eInk Library/cy_eink_psoc_interface.c ****     /* Initialize the Timer */
   82:eInk Library/cy_eink_psoc_interface.c ****     CY_EINK_Timer_Start();
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 11
 
 
   50              		.loc 1 82 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  446:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
  447:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * Returns the value in the counter.
  448:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 12
 
 
  449:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \param base
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  117:eInk Library/cy_eink_psoc_interface.c **** * Summary:
  118:eInk Library/cy_eink_psoc_interface.c **** *  Stops the E-INK Timer.
  119:eInk Library/cy_eink_psoc_interface.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 13
 
 
  120:eInk Library/cy_eink_psoc_interface.c **** * Parameters:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   34:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * the counter you want to touch next. 
   35:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * For some functions, you can manage multiple counters simultaneously. You 
   36:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * provide a bit field representing each counter, rather than the single counter 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 14
 
 
   37:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * index). 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   91:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \n
   92:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \b Quadrature \b Decoder
   93:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 15
 
 
   94:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * A quadrature decoder is used to decode the output of a quadrature encoder. 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  148:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
  149:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * For more information on the TCPWM peripheral, refer to the technical 
  150:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * reference manual (TRM).
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 16
 
 
  151:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  205:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #include <stddef.h>
  206:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #include "syslib/cy_syslib.h"
  207:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #include "cy_device_headers.h"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 17
 
 
  208:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  262:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \defgroup group_tcpwm_input_modes  Input Modes
  263:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \{
  264:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * Configures how TCPWM inputs behave
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 18
 
 
  265:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  319:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
  320:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /*******************************************************************************
  321:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****  * Enumerations
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 19
 
 
  322:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****  ******************************************************************************/
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  376:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *******************************************************************************/
  377:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** __STATIC_INLINE void Cy_TCPWM_Enable_Multiple(TCPWM_Type *base, uint32_t counters)
  378:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 20
 
 
  379:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****     base->CTRL_SET = counters;
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  137:eInk Library/cy_eink_psoc_interface.c **** ********************************************************************************
  138:eInk Library/cy_eink_psoc_interface.c **** *
  139:eInk Library/cy_eink_psoc_interface.c **** * Summary:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 21
 
 
  140:eInk Library/cy_eink_psoc_interface.c **** *  Initializes the SPI block that communicates with the E-INK display.
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   22:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * TI: Uses a short pulse on "spi_select" to indicate a start of transaction.
   23:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * National Semiconductor (Microwire): Transmissions and Receptions occur
   24:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   separately.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 22
 
 
   25:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * In addition to the standard 8-bit word length, the component supports a
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   79:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \ref group_sysclk driver API to do that.
   80:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
   81:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \snippet SCB_CompDatasheet_sut_01_revA.cydsn\spi_snippets.c SPI_CFG_DATA_RATE_SLAVE
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 23
 
 
   82:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  136:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
  137:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * The statuses can be polled using: \ref Cy_SCB_SPI_GetRxFifoStatus,
  138:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   \ref Cy_SCB_SPI_GetTxFifoStatus and \ref Cy_SCB_SPI_GetSlaveMasterStatus.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 24
 
 
  139:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   <em>The statuses are <b>W1C (Write 1 to Clear)</b> and after a status
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  193:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \note
  194:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * To properly handle DMA level request signal activation and de-activation from the SCB
  195:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * peripheral block the DMA Descriptor typically must be configured to re-trigger
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 25
 
 
  196:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * after 16 Clk_Slow cycles.
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  250:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *         different data types: uint8_t (4-8 bits) or uint16_t (9-16 bits).
  251:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *         The cast operation is safe because the configuration is verified
  252:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *         before operation is performed.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 26
 
 
  253:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *         * The functions \ref Cy_SCB_SPI_DeepSleepCallback and
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  307:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *     <td>Added parameters validation for public API.</td>
  308:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *     <td></td>
  309:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   </tr>
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 27
 
 
  310:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   <tr>
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  364:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     CY_SCB_SPI_BAD_PARAM = (CY_SCB_ID | CY_PDL_STATUS_ERROR | CY_SCB_SPI_ID | 1U),
  365:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  366:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 28
 
 
  367:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     * The SPI is busy processing a transfer. Call \ref Cy_SCB_SPI_Transfer
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  421:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** } cy_en_scb_spi_slave_select_t;
  422:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  423:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** SPI Polarity */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 29
 
 
  424:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** typedef enum
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  478:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     */
  479:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     uint32_t    rxDataWidth;
  480:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 30
 
 
  481:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     /**
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  535:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     * the RX trigger output goes high. This output can be connected
  536:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     * to a DMA channel through a trigger mux.
  537:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     * Also, it controls the \ref CY_SCB_SPI_RX_TRIGGER interrupt source.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 31
 
 
  538:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     */
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  592:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     * \ref group_scb_spi_macros_callback_events occurs
  593:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     */
  594:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     cy_cb_scb_spi_handle_events_t cbEvents;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 32
 
 
  595:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  649:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  650:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** __STATIC_INLINE uint32_t Cy_SCB_SPI_GetTxFifoStatus  (CySCB_Type const *base);
  651:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** __STATIC_INLINE void     Cy_SCB_SPI_ClearTxFifoStatus(CySCB_Type *base, uint32_t clearMask);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 33
 
 
  652:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  706:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  707:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** The TX FIFO is not full, there is a space for more data */
  708:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** #define CY_SCB_SPI_TX_NOT_FULL      (SCB_INTR_TX_NOT_FULL_Msk)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 34
 
 
  709:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  763:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** #define CY_SCB_SPI_MASTER_DONE     (SCB_INTR_M_SPI_DONE_Msk)
  764:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** \} group_scb_spi_macros_master_slave_status */
  765:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 35
 
 
  766:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /**
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  820:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  821:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** Default TX value when no TX buffer is defined */
  822:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** #define CY_SCB_SPI_DEFAULT_TX  (0x0000FFFFUL)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 36
 
 
  823:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  877:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  878:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** \} group_scb_spi_macros */
  879:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 37
 
 
  880:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   22:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
   23:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Initialization can be performed either at the port level or by configuring the
   24:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * individual pins. For efficient use of code space, port
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 38
 
 
   25:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * configuration should be used in the field. Refer to the product device header files 
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   79:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *         to const if the pointer is not used to modify the addressed object.</td>
   80:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td>The objects pointed to by the base addresses of the GPIO port are not always modified.
   81:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *         While a const qualifier can be used in select scenarios, it brings little benefit
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 39
 
 
   82:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *         in adding this to the affected functions. </td>
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  136:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** Driver major version */
  137:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DRV_VERSION_MAJOR       1
  138:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 40
 
 
  139:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** Driver minor version */
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  193:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     uint32_t driveMode;      /**< Drive mode */
  194:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     en_hsiom_sel_t hsiom;   /**< HSIOM selection */
  195:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     uint32_t intEdge;        /**< Interrupt Edge type */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 41
 
 
  196:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     uint32_t intMask;        /**< Interrupt enable mask */
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  250:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_HSIOM_OFFSET                   (3UL)      /**< Offset for HSIOM */
  251:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DRIVE_MODE_OFFSET              (2UL)      /**< Offset for Drive mode */
  252:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INBUF_OFFSET                   (3UL)      /**< Offset for input buffer */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 42
 
 
  253:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_CFG_OUT_DRIVE_OFFSET           (16UL)     /**< Offset for drive strength */
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  307:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_PIN_BIT_VALID(pinBit)       (0U == ((pinBit) & (uint32_t)~CY_GPIO_PRT_PINS_MASK)
  308:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_INTR_CFG_VALID(intrCfg)     (0U == ((intrCfg) & (uint32_t)~CY_GPIO_PRT_INTR_CFG_
  309:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_INTR_MASK_VALID(intrMask)   (0U == ((intrMask) & (uint32_t)~CY_GPIO_PRT_INT_MASK
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 43
 
 
  310:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_IS_SEL_ACT_VALID(selActive)    (0U == ((selActive) & (uint32_t)~CY_GPIO_PRT_SEL_ACT
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  364:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \defgroup group_gpio_driveStrength Pin drive strength
  365:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
  366:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Constants to be used for setting the drive strength of the pin.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 44
 
 
  367:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  421:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VREF_AMUX_A                     (0x02UL) /**< \brief Vref from AMUXBUS_A */
  422:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_VREF_AMUX_B                     (0x03UL) /**< \brief Vref from AMUXBUS_B */
  423:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 45
 
 
  424:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  478:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetDrivemode(GPIO_PRT_Type* base, uint32_t pinNum);
  479:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetVtrip(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value);
  480:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetVtrip(GPIO_PRT_Type* base, uint32_t pinNum);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 46
 
 
  481:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetSlewRate(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value);
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  535:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetInterruptCause3(void);
  536:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #endif /* (IOSS_GPIO_GPIO_PORT_NR_96_127 != 0) */
  537:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 47
 
 
  538:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} group_gpio_functions_interrupt */
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  592:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     else
  593:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     {
  594:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****         pinNum -= CY_GPIO_PRT_HALF;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 48
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 48
 
 
  595:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****         tempReg = portAddrHSIOM->PORT_SEL1 & ~(CY_GPIO_HSIOM_MASK << (pinNum << CY_GPIO_HSIOM_OFFSE
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  649:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \brief Retrieves the port address based on the given port number.
  650:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  651:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * This is a helper function to calculate the port base address when given a port
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 49
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 49
 
 
  652:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * number. It is to be used when pin access needs to be calculated at runtime.
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  706:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  707:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *******************************************************************************/
  708:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_Read(GPIO_PRT_Type* base, uint32_t pinNum)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 50
 
 
  709:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** {
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  173 0020 00006740 		.word	1080492032
  174 0024 00000000 		.word	CY_EINK_SPIM_context
  175 0028 00000000 		.word	CY_EINK_SPIM_config
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 51
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 51
 
 
  176 002c 00063240 		.word	1077020160
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  206              	.LBB150:
  207              		.loc 4 902 0
  208 0006 044A     		ldr	r2, .L16+4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 52
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 52
 
 
  209 0008 1368     		ldr	r3, [r2]
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  238              		.cfi_offset 3, -8
  239              		.cfi_offset 14, -4
  204:eInk Library/cy_eink_psoc_interface.c ****     /* Stop the SPI master */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 53
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 53
 
 
  205:eInk Library/cy_eink_psoc_interface.c ****     Cy_SCB_SPI_Disable(CY_EINK_SPIM_HW, &CY_EINK_SPIM_context);
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  273              	.LBB152:
  903:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** }
  904:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 54
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 54
 
 
  905:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  959:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     CY_ASSERT_L3(CY_SCB_SPI_IS_SLAVE_SEL_VALID(slaveSelect));
  960:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  961:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     base->SPI_CTRL = _CLR_SET_FLD32U(base->SPI_CTRL, SCB_SPI_CTRL_SSEL, (uint32_t) slaveSelect);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 55
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 55
 
 
  962:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** }
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1016:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * Clear the active statuses to let the SCB hardware update them.
 1017:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
 1018:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \param base
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 56
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 56
 
 
 1019:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The pointer to the SPI SCB instance.
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1073:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \note
 1074:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * This number does not include any data currently in the RX shifter.
 1075:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 57
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 57
 
 
 1076:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *******************************************************************************/
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1130:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
 1131:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \param clearMask
 1132:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The mask of which statuses to clear.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 58
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 58
 
 
 1133:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * See \ref group_scb_spi_macros_tx_fifo_status for the set of constants.
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1187:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** __STATIC_INLINE bool Cy_SCB_SPI_IsTxComplete(CySCB_Type const *base)
 1188:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** {
 1189:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     return Cy_SCB_IsTxComplete(base);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 59
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 59
 
 
 1190:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** }
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1244:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** }
 1245:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
 1246:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 60
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 60
 
 
 1247:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /*******************************************************************************
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1301:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** {
 1302:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     return Cy_SCB_ReadRxFifo(base);
 1303:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 61
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 61
 
 
 1304:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1358:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
 1359:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \return
 1360:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The number of data elements placed in the TX FIFO: 0 or 1.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 62
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 62
 
 
 1361:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   27:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \{
   28:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
   29:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Common API for the Serial Communication Block.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 63
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 63
 
 
   30:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
   84:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *   <tr>
   85:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *     <td>1.0</td>
   86:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *     <td>Initial version.</td>
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 64
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 64
 
 
   87:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *     <td></td>
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  141:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetRxInterruptStatus(CySCB_Type const *base);
  142:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE void     Cy_SCB_SetRxInterruptMask  (CySCB_Type *base, uint32_t interruptMask);
  143:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetRxInterruptMask  (CySCB_Type const *base);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 65
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 65
 
 
  144:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetRxInterruptStatusMasked(CySCB_Type const *base);
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  198:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetFifoSize (CySCB_Type const *base);
  199:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE void     Cy_SCB_FwBlockReset(CySCB_Type *base);
  200:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE bool     Cy_SCB_IsRxDataWidthByte(CySCB_Type const *base);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 66
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 66
 
 
  201:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE bool     Cy_SCB_IsTxDataWidthByte(CySCB_Type const *base);
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  255:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  256:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** Interrupt from I2C externally clocked interrupt sources */
  257:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_I2C_INTR    SCB_INTR_CAUSE_I2C_EC_Msk
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 67
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 67
 
 
  258:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  312:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** The RX FIFO is full */
  313:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_RX_INTR_FULL              SCB_INTR_RX_FULL_Msk
  314:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 68
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 68
 
 
  315:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** An attempt to write to a full RX FIFO */
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  369:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * The SPI slave select line is deselected at an expected time during an
  370:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * SPI transfer.
  371:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 69
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 69
 
 
  372:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_SLAVE_INTR_SPI_BUS_ERROR     SCB_INTR_S_SPI_BUS_ERROR_Msk
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  426:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *         Internal Constants
  427:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** ***************************************/
  428:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 70
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 70
 
 
  429:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** \cond INTERNAL */
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  483:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  484:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /* RX and TX control register values */
  485:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_I2C_RX_CTRL      (_VAL2FLD(SCB_RX_CTRL_DATA_WIDTH, CY_SCB_I2C_DATA_WIDTH) | \
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 71
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 71
 
 
  486:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****                                  SCB_RX_CTRL_MSB_FIRST_Msk)
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  540:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****                                  CY_SCB_SLAVE_INTR_I2C_BUS_ERROR  | CY_SCB_SLAVE_INTR_SPI_BUS_ERROR
  541:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  542:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_MASTER_INTR_MASK (CY_SCB_MASTER_INTR_I2C_ARB_LOST  | CY_SCB_MASTER_INTR_I2C_NACK | \
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 72
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 72
 
 
  543:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****                                  CY_SCB_MASTER_INTR_I2C_ACK       | CY_SCB_MASTER_INTR_I2C_STOP | \
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  597:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * The pointer to the SCB instance.
  598:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  599:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \param level
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 73
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 73
 
 
  600:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * When there are more data elements in the FIFO than this level, the RX level
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  654:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Clears the RX FIFO and shifter.
  655:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  656:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \param base
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 74
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 74
 
 
  657:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * The pointer to the SCB instance.
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  711:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  712:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****     base->TX_FIFO_CTRL = _CLR_SET_FLD32U(base->TX_FIFO_CTRL, SCB_TX_FIFO_CTRL_TRIGGER_LEVEL, level)
  713:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 75
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 75
 
 
  714:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  768:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** {
  769:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****      return (0UL == (Cy_SCB_GetNumInTxFifo(base) + Cy_SCB_GetTxSrValid(base)));
  770:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 76
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 76
 
 
  771:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  825:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  826:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /*******************************************************************************
  827:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Function Name: Cy_SCB_GetInterruptCause
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 77
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 77
 
 
  828:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** ****************************************************************************//**
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  296 0014 F9D0     		beq	.L23
  297              	.LVL19:
  298              	.LBB156:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 78
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 78
 
 
  299              	.LBB157:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  879:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * The pointer to the SCB instance.
  880:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  881:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \param interruptMask
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 79
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 79
 
 
  882:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Enabled RX interrupt sources.
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  936:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
  937:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  938:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 80
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 80
 
 
  939:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /*******************************************************************************
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  232:eInk Library/cy_eink_psoc_interface.c ****     {
  233:eInk Library/cy_eink_psoc_interface.c ****     }
  234:eInk Library/cy_eink_psoc_interface.c ****     /* Clear the TX and RX buffers */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 81
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 81
 
 
  235:eInk Library/cy_eink_psoc_interface.c ****     Cy_SCB_SPI_ClearTxFifo(CY_EINK_SPIM_HW);
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  391              	.LBE167:
  258:eInk Library/cy_eink_psoc_interface.c ****     /* Variable used to store the return data*/
  259:eInk Library/cy_eink_psoc_interface.c ****     uint8_t readData;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 82
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 82
 
 
  260:eInk Library/cy_eink_psoc_interface.c ****     
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  668:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
  434              		.loc 6 668 0
  435 0050 D3F80423 		ldr	r2, [r3, #772]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 83
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 83
 
 
  436              	.LVL31:
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  285:eInk Library/cy_eink_psoc_interface.c **** * Summary:
  286:eInk Library/cy_eink_psoc_interface.c **** *  Write a byte of data to the E-INK driver and read a return byte.
  287:eInk Library/cy_eink_psoc_interface.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 84
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 84
 
 
  288:eInk Library/cy_eink_psoc_interface.c **** * Parameters:
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  790:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****     base->TX_FIFO_CTRL &= (uint32_t) ~SCB_TX_FIFO_CTRL_CLEAR_Msk;
  507              		.loc 6 790 0
  508 0016 164B     		ldr	r3, .L36
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 85
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 85
 
 
  509 0018 D3F80422 		ldr	r2, [r3, #516]
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  549              	.LBB196:
  550              	.LBB197:
  665:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****     base->RX_FIFO_CTRL &= (uint32_t) ~SCB_RX_FIFO_CTRL_CLEAR_Msk;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 86
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 86
 
 
  551              		.loc 6 665 0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  594              		.type	Cy_EINK_WriteSPIBuffer, %function
  595              	Cy_EINK_WriteSPIBuffer:
  596              	.LFB612:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 87
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 87
 
 
  322:eInk Library/cy_eink_psoc_interface.c **** 
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
 1395:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The number of data elements to transmit.
 1396:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
 1397:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \return
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 88
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 88
 
 
 1398:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The number of data elements placed in the TX FIFO.
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  612              		.loc 4 1451 0
  613 0004 0546     		mov	r5, r0
  614 0006 00B1     		cbz	r0, .L39
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 89
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 89
 
 
  615 0008 21B9     		cbnz	r1, .L40
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  662              	.LBB230:
  790:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****     base->TX_FIFO_CTRL &= (uint32_t) ~SCB_TX_FIFO_CTRL_CLEAR_Msk;
  663              		.loc 6 790 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 90
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 90
 
 
  664 0034 124B     		ldr	r3, .L43+4
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  350:eInk Library/cy_eink_psoc_interface.c ****     
  351:eInk Library/cy_eink_psoc_interface.c ****     return dataLength;
  352:eInk Library/cy_eink_psoc_interface.c **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 91
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 91
 
 
  707              		.loc 1 352 0
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  372:eInk Library/cy_eink_psoc_interface.c ****     /* Return the status of CY_EINK_DispBusy pin */
  373:eInk Library/cy_eink_psoc_interface.c ****     if (Cy_GPIO_Read(CY_EINK_DispBusy_PORT, CY_EINK_DispBusy_NUM))
  741              		.loc 1 373 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 92
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 92
 
 
  742 0004 13F0080F 		tst	r3, #8
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  781              		.file 15 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
  782              		.file 16 "Generated_Source\\PSoC6/CY_EINK_SPIM.h"
  783              		.file 17 "Generated_Source\\PSoC6/PWM.h"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 93
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 93
 
 
  784              		.file 18 "Generated_Source\\PSoC6/Timer.h"
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  838 0070 74000000 		.4byte	0x74
  839 0074 02       		.uleb128 0x2
  840 0075 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 94
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 94
 
 
  841 0076 07       		.byte	0x7
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  895 00e5 CF000000 		.4byte	0xcf
  896 00e9 F4000000 		.4byte	0xf4
  897 00ed 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 95
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 95
 
 
  898 00ee C3000000 		.4byte	0xc3
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  952 0166 09       		.byte	0x9
  953 0167 22       		.byte	0x22
  954 0168 38020000 		.4byte	0x238
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 96
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 96
 
 
  955 016c 0A       		.uleb128 0xa
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1009 01d7 0B       		.uleb128 0xb
  1010 01d8 670D0000 		.4byte	.LASF25
  1011 01dc 09       		.byte	0x9
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 97
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 97
 
 
  1012 01dd 2C       		.byte	0x2c
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1066 0249 64010000 		.4byte	0x164
  1067 024d 0C       		.uleb128 0xc
  1068 024e 2440     		.2byte	0x4024
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 98
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 98
 
 
  1069 0250 09       		.byte	0x9
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1123 02c3 42       		.byte	0x42
  1124 02c4 CF000000 		.4byte	0xcf
  1125 02c8 1C40     		.2byte	0x401c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 99
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 99
 
 
  1126 02ca 0D       		.uleb128 0xd
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1180 033a CA000000 		.4byte	0xca
  1181 033e 08       		.byte	0x8
  1182 033f 0A       		.uleb128 0xa
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 100
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 100
 
 
  1183 0340 434300   		.ascii	"CC\000"
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1237 03ab DC030000 		.4byte	.LASF21
  1238 03af 0A       		.byte	0xa
  1239 03b0 2F       		.byte	0x2f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 101
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 101
 
 
  1240 03b1 CA000000 		.4byte	0xca
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1294 041e 0C       		.byte	0xc
  1295 041f 0B       		.uleb128 0xb
  1296 0420 36010000 		.4byte	.LASF56
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 102
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 102
 
 
  1297 0424 0A       		.byte	0xa
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1351 0494 8D060000 		.4byte	.LASF60
  1352 0498 0A       		.byte	0xa
  1353 0499 43       		.byte	0x43
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 103
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 103
 
 
  1354 049a E6030000 		.4byte	0x3e6
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1408 050a 24       		.byte	0x24
  1409 050b 0B       		.uleb128 0xb
  1410 050c 5D0A0000 		.4byte	.LASF31
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 104
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 104
 
 
  1411 0510 0B       		.byte	0xb
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1465 057c 0B       		.byte	0xb
  1466 057d 32       		.byte	0x32
  1467 057e CA000000 		.4byte	0xca
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 105
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 105
 
 
  1468 0582 68       		.byte	0x68
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1522 05f3 0C02     		.2byte	0x20c
  1523 05f5 0D       		.uleb128 0xd
  1524 05f6 460E0000 		.4byte	.LASF83
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 106
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 106
 
 
  1525 05fa 0B       		.byte	0xb
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1579 066f 0B       		.byte	0xb
  1580 0670 45       		.byte	0x45
  1581 0671 CF000000 		.4byte	0xcf
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 107
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 107
 
 
  1582 0675 4403     		.2byte	0x344
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1636 06ea 8C0E     		.2byte	0xe8c
  1637 06ec 0D       		.uleb128 0xd
  1638 06ed BB0D0000 		.4byte	.LASF101
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 108
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 108
 
 
  1639 06f1 0B       		.byte	0xb
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1693 0766 0B       		.byte	0xb
  1694 0767 58       		.byte	0x58
  1695 0768 CF000000 		.4byte	0xcf
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 109
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 109
 
 
  1696 076c 0C0F     		.2byte	0xf0c
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1750 07e1 880F     		.2byte	0xf88
  1751 07e3 0D       		.uleb128 0xd
  1752 07e4 1E0B0000 		.4byte	.LASF120
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 110
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 110
 
 
  1753 07e8 0B       		.byte	0xb
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1807 0860 05       		.uleb128 0x5
  1808 0861 50080000 		.4byte	0x850
  1809 0865 06       		.uleb128 0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 111
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 111
 
 
  1810 0866 60080000 		.4byte	0x860
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1864 08ee 05       		.uleb128 0x5
  1865 08ef 44010000 		.4byte	0x144
  1866 08f3 06       		.uleb128 0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 112
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 112
 
 
  1867 08f4 EE080000 		.4byte	0x8ee
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1921 095f B8000000 		.4byte	0xb8
  1922 0963 04       		.byte	0x4
  1923 0964 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 113
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 113
 
 
  1924 0965 DD090000 		.4byte	.LASF136
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  1978 09d1 E8080000 		.4byte	.LASF145
  1979 09d5 02       		.byte	0x2
  1980 09d6 3C       		.byte	0x3c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 114
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 114
 
 
  1981 09d7 B8000000 		.4byte	0xb8
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2035 0a43 2B       		.byte	0x2b
  2036 0a44 750B0000 		.4byte	0xb75
  2037 0a48 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 115
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 115
 
 
  2038 0a49 DA010000 		.4byte	.LASF156
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2092 0ab5 35020000 		.4byte	.LASF140
  2093 0ab9 0D       		.byte	0xd
  2094 0aba 37       		.byte	0x37
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 116
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 116
 
 
  2095 0abb B8000000 		.4byte	0xb8
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2149 0b27 B8000000 		.4byte	0xb8
  2150 0b2b 48       		.byte	0x48
  2151 0b2c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 117
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 117
 
 
  2152 0b2d C9040000 		.4byte	.LASF147
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2206 0b99 3E000000 		.4byte	0x3e
  2207 0b9d 04       		.byte	0x4
  2208 0b9e 7701     		.2byte	0x177
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 118
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 118
 
 
  2209 0ba0 B10B0000 		.4byte	0xbb1
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2263 0c13 03       		.byte	0x3
  2264 0c14 00       		.byte	0
  2265 0c15 10       		.uleb128 0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 119
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 119
 
 
  2266 0c16 D8000000 		.4byte	.LASF182
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2320 0c8e EB01     		.2byte	0x1eb
  2321 0c90 39090000 		.4byte	0x939
  2322 0c94 10       		.byte	0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 120
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 120
 
 
  2323 0c95 19       		.uleb128 0x19
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2377 0d0a 19       		.uleb128 0x19
  2378 0d0b 880E0000 		.4byte	.LASF201
  2379 0d0f 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 121
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 121
 
 
  2380 0d10 2F02     		.2byte	0x22f
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2434 0d85 4B02     		.2byte	0x24b
  2435 0d87 B8000000 		.4byte	0xb8
  2436 0d8b 14       		.byte	0x14
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 122
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 122
 
 
  2437 0d8c 19       		.uleb128 0x19
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2491 0e06 00       		.byte	0
  2492 0e07 1A       		.uleb128 0x1a
  2493 0e08 920F0000 		.4byte	.LASF218
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 123
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 123
 
 
  2494 0e0c 06       		.byte	0x6
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2548 0e83 4802     		.2byte	0x248
  2549 0e85 B8000000 		.4byte	0xb8
  2550 0e89 03       		.byte	0x3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 124
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 124
 
 
  2551 0e8a 9B0E0000 		.4byte	0xe9b
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2605 0f05 03       		.byte	0x3
  2606 0f06 230F0000 		.4byte	0xf23
  2607 0f0a 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 125
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 125
 
 
  2608 0f0b 0A040000 		.4byte	.LASF217
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2662 0f82 03       		.byte	0x3
  2663 0f83 1C       		.uleb128 0x1c
  2664 0f84 6F040000 		.4byte	.LASF232
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 126
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 126
 
 
  2665 0f88 05       		.byte	0x5
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2719 1000 29050000 		.4byte	.LASF238
  2720 1004 04       		.byte	0x4
  2721 1005 0104     		.2byte	0x401
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 127
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 127
 
 
  2722 1007 B8000000 		.4byte	0xb8
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2776 107f B8000000 		.4byte	0xb8
  2777 1083 03       		.byte	0x3
  2778 1084 95100000 		.4byte	0x1095
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 128
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 128
 
 
  2779 1088 1B       		.uleb128 0x1b
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2833 1102 00000000 		.4byte	.LFB603
  2834 1106 14000000 		.4byte	.LFE603-.LFB603
  2835 110a 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 129
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 129
 
 
  2836 110b 9C       		.byte	0x9c
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2890 1196 22       		.uleb128 0x22
  2891 1197 F90E0000 		.4byte	0xef9
  2892 119b 00000000 		.4byte	.LBB138
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 130
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 130
 
 
  2893 119f 06000000 		.4byte	.LBE138-.LBB138
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  2947 1221 08000000 		.4byte	.LBE143-.LBB143
  2948 1225 01       		.byte	0x1
  2949 1226 9B       		.byte	0x9b
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 131
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 131
 
 
  2950 1227 35120000 		.4byte	0x1235
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3004 12ab F0000000 		.4byte	.LLST13
  3005 12af 21       		.uleb128 0x21
  3006 12b0 900F0000 		.4byte	0xf90
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 132
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 132
 
 
  3007 12b4 04010000 		.4byte	.LLST14
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3061 132f 59130000 		.4byte	0x1359
  3062 1333 21       		.uleb128 0x21
  3063 1334 F20F0000 		.4byte	0xff2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 133
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 133
 
 
  3064 1338 55010000 		.4byte	.LLST17
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3118 13c1 8B010000 		.4byte	.LLST20
  3119 13c5 00       		.byte	0
  3120 13c6 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 134
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 134
 
 
  3121 13c7 20       		.uleb128 0x20
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3175 1454 68000000 		.4byte	.LFE610-.LFB610
  3176 1458 01       		.uleb128 0x1
  3177 1459 9C       		.byte	0x9c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 135
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 135
 
 
  3178 145a DD150000 		.4byte	0x15dd
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3232 14e3 21       		.uleb128 0x21
  3233 14e4 180E0000 		.4byte	0xe18
  3234 14e8 26020000 		.4byte	.LLST30
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 136
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 136
 
 
  3235 14ec 00       		.byte	0
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3289 157b 22       		.uleb128 0x22
  3290 157c 250E0000 		.4byte	0xe25
  3291 1580 38000000 		.4byte	.LBB177
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 137
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 137
 
 
  3292 1584 1C000000 		.4byte	.LBE177-.LBB177
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3346 1610 08000000 		.4byte	.LBE182-.LBB182
  3347 1614 01       		.byte	0x1
  3348 1615 2C01     		.2byte	0x12c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 138
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 138
 
 
  3349 1617 47160000 		.4byte	0x1647
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3403 169b 00       		.byte	0
  3404 169c 00       		.byte	0
  3405 169d 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 139
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 139
 
 
  3406 169e FF0F0000 		.4byte	0xfff
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3460 1733 1C000000 		.4byte	.LBE196-.LBB196
  3461 1737 04       		.byte	0x4
  3462 1738 4A04     		.2byte	0x44a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 140
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 140
 
 
  3463 173a 21       		.uleb128 0x21
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3517 17be 2B       		.uleb128 0x2b
  3518 17bf 27100000 		.4byte	.LASF259
  3519 17c3 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 141
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 141
 
 
  3520 17c4 5401     		.2byte	0x154
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3574 184a 6C1A0000 		.4byte	0x1a6c
  3575 184e 28       		.uleb128 0x28
  3576 184f 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 142
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 142
 
 
  3577 1850 50       		.byte	0x50
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3631 18c9 21       		.uleb128 0x21
  3632 18ca D10D0000 		.4byte	0xdd1
  3633 18ce 7D040000 		.4byte	.LLST64
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 143
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 143
 
 
  3634 18d2 00       		.byte	0
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3688 195e 21       		.uleb128 0x21
  3689 195f 2A100000 		.4byte	0x102a
  3690 1963 D9040000 		.4byte	.LLST70
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 144
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 144
 
 
  3691 1967 22       		.uleb128 0x22
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3745 19ec EB010000 		.4byte	.LASF264
  3746 19f0 10       		.byte	0x10
  3747 19f1 5E       		.byte	0x5e
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 145
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 145
 
 
  3748 19f2 B40D0000 		.4byte	0xdb4
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3802 1a6d 0D0F0000 		.4byte	.LASF273
  3803 1a71 0D0F0000 		.4byte	.LASF273
  3804 1a75 06       		.byte	0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 146
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 146
 
 
  3805 1a76 C1       		.byte	0xc1
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3859 0032 03       		.uleb128 0x3
  3860 0033 08       		.uleb128 0x8
  3861 0034 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 147
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 147
 
 
  3862 0035 00       		.byte	0
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3916 006b 0B       		.uleb128 0xb
  3917 006c 49       		.uleb128 0x49
  3918 006d 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 148
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 148
 
 
  3919 006e 38       		.uleb128 0x38
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  3973 00a4 3B       		.uleb128 0x3b
  3974 00a5 0B       		.uleb128 0xb
  3975 00a6 49       		.uleb128 0x49
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 149
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 149
 
 
  3976 00a7 13       		.uleb128 0x13
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4030 00dd 49       		.uleb128 0x49
  4031 00de 13       		.uleb128 0x13
  4032 00df 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 150
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 150
 
 
  4033 00e0 00       		.byte	0
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4087 0116 00       		.byte	0
  4088 0117 00       		.byte	0
  4089 0118 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 151
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 151
 
 
  4090 0119 0D       		.uleb128 0xd
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4144 014f 05       		.uleb128 0x5
  4145 0150 27       		.uleb128 0x27
  4146 0151 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 152
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 152
 
 
  4147 0152 20       		.uleb128 0x20
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4201 0188 06       		.uleb128 0x6
  4202 0189 40       		.uleb128 0x40
  4203 018a 18       		.uleb128 0x18
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 153
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 153
 
 
  4204 018b 9742     		.uleb128 0x2117
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4258 01c4 00       		.byte	0
  4259 01c5 00       		.byte	0
  4260 01c6 24       		.uleb128 0x24
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 154
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 154
 
 
  4261 01c7 2E       		.uleb128 0x2e
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4315 01fe 27       		.uleb128 0x27
  4316 01ff 898201   		.uleb128 0x4109
  4317 0202 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 155
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 155
 
 
  4318 0203 11       		.uleb128 0x11
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4372 023c 11       		.uleb128 0x11
  4373 023d 01       		.uleb128 0x1
  4374 023e 12       		.uleb128 0x12
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 156
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 156
 
 
  4375 023f 06       		.uleb128 0x6
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4429 0276 00       		.byte	0
  4430 0277 00       		.byte	0
  4431 0278 2F       		.uleb128 0x2f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 157
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 157
 
 
  4432 0279 898201   		.uleb128 0x4109
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4486 02b1 13       		.uleb128 0x13
  4487 02b2 3F       		.uleb128 0x3f
  4488 02b3 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 158
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 158
 
 
  4489 02b4 02       		.uleb128 0x2
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4543 001f 00003840 		.4byte	0x40380000
  4544 0023 9F       		.byte	0x9f
  4545 0024 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 159
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 159
 
 
  4546 0028 00000000 		.4byte	0
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4600 00b4 1C000000 		.4byte	.LVL9
  4601 00b8 0200     		.2byte	0x2
  4602 00ba 33       		.byte	0x33
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 160
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 160
 
 
  4603 00bb 9F       		.byte	0x9f
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4657 0149 F3       		.byte	0xf3
  4658 014a 01       		.uleb128 0x1
  4659 014b 50       		.byte	0x50
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 161
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 161
 
 
  4660 014c 9F       		.byte	0x9f
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4714 01da 00006740 		.4byte	0x40670000
  4715 01de 9F       		.byte	0x9f
  4716 01df 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 162
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 162
 
 
  4717 01e3 00000000 		.4byte	0
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4771 026e 38000000 		.4byte	.LVL30
  4772 0272 54000000 		.4byte	.LVL31
  4773 0276 0600     		.2byte	0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 163
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 163
 
 
  4774 0278 0C       		.byte	0xc
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4828 0303 00000000 		.4byte	0
  4829              	.LLST44:
  4830 0307 0C000000 		.4byte	.LVL36
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 164
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 164
 
 
  4831 030b 10000000 		.4byte	.LVL37
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4885 039b 0600     		.2byte	0x6
  4886 039d 0C       		.byte	0xc
  4887 039e 00006740 		.4byte	0x40670000
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 165
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 165
 
 
  4888 03a2 9F       		.byte	0x9f
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4942 042b 50       		.byte	0x50
  4943 042c 10000000 		.4byte	.LVL50
  4944 0430 7C000000 		.4byte	.LVL59
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 166
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 166
 
 
  4945 0434 0100     		.2byte	0x1
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  4999 04bd 00000000 		.4byte	0
  5000 04c1 00000000 		.4byte	0
  5001              	.LLST69:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 167
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 167
 
 
  5002 04c5 6E000000 		.4byte	.LVL57
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5056 0044 60000000 		.4byte	.LFE609-.LFB609
  5057 0048 00000000 		.4byte	.LFB610
  5058 004c 68000000 		.4byte	.LFE610-.LFB610
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 168
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 168
 
 
  5059 0050 00000000 		.4byte	.LFB611
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5102              	.LASF33:
  5103 0021 494E5452 		.ascii	"INTR_CAUSE0\000"
  5103      5F434155 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 169
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 169
 
 
  5103      53453000 
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5125      00
  5126              	.LASF182:
  5127 00d8 63795F65 		.ascii	"cy_en_scb_spi_sclk_mode_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 170
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 170
 
 
  5127      6E5F7363 
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5151      63625F73 
  5151      70695F63 
  5151      6F6E6669 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 171
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 171
 
 
  5152              	.LASF113:
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5175      747900
  5176              	.LASF139:
  5177 022c 636F6D70 		.ascii	"compare0\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 172
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 172
 
 
  5177      61726530 
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5194      725F5374 
  5194      61727400 
  5195              	.LASF126:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 173
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 173
 
 
  5196 0351 43795343 		.ascii	"CySCB_Type\000"
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5220      6C654D69 
  5220      736F4C61 
  5220      74655361 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 174
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 174
 
 
  5220      6D706C65 
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5246 0490 5F5F7569 		.ascii	"__uint16_t\000"
  5246      6E743136 
  5246      5F7400
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 175
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 175
 
 
  5247              	.LASF30:
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5272 0529 43795F53 		.ascii	"Cy_SCB_SPI_GetRxFifoStatus\000"
  5272      43425F53 
  5272      50495F47 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 176
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 176
 
 
  5272      65745278 
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5298 05e2 70776D41 		.ascii	"pwmAlignment\000"
  5298      6C69676E 
  5298      6D656E74 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 177
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 177
 
 
  5298      00
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5320      75726549 
  5320      6E707574 
  5320      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 178
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 178
 
 
  5321              	.LASF47:
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5346      00
  5347              	.LASF213:
  5348 073c 696E6974 		.ascii	"initKey\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 179
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 179
 
 
  5348      4B657900 
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5370      744D6F64 
  5370      6500
  5371              	.LASF261:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 180
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 180
 
 
  5372 07ef 43795F45 		.ascii	"Cy_EINK_IsBusy\000"
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5390      6F6E7465 
  5391              	.LASF145:
  5392 08e8 72656C6F 		.ascii	"reloadInputMode\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 181
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 181
 
 
  5392      6164496E 
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5416      20646F75 
  5416      626C6500 
  5417              	.LASF14:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 182
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 182
 
 
  5418 099c 75696E74 		.ascii	"uint16_t\000"
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5438      4400
  5439              	.LASF138:
  5440 0a4c 636F6D70 		.ascii	"compareOrCapture\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 183
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 183
 
 
  5440      6172654F 
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5465              	.LASF247:
  5466 0adb 43795F45 		.ascii	"Cy_EINK_TimerInit\000"
  5466      494E4B5F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 184
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 184
 
 
  5466      54696D65 
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5488      53544154 
  5488      555300
  5489              	.LASF226:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 185
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 185
 
 
  5490 0b8e 636E744E 		.ascii	"cntNum\000"
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5514      496E7075 
  5514      7400
  5515              	.LASF167:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 186
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 186
 
 
  5516 0c3d 6B696C6C 		.ascii	"killInputMode\000"
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5538      4900
  5539              	.LASF64:
  5540 0ceb 5350495F 		.ascii	"SPI_STATUS\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 187
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 187
 
 
  5540      53544154 
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5562      6F6E7465 
  5563              	.LASF95:
  5564 0d9a 52455345 		.ascii	"RESERVED10\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 188
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 188
 
 
  5564      52564544 
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5589              	.LASF220:
  5590 0e51 43795F53 		.ascii	"Cy_SCB_ClearRxFifo\000"
  5590      43425F43 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 189
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 189
 
 
  5590      6C656172 
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5613              	.LASF124:
  5614 0f00 494E5452 		.ascii	"INTR_RX_MASK\000"
  5614      5F52585F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 190
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 190
 
 
  5614      4D41534B 
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 1
  5638      6E5F7363 
  5638      625F7370 
  5638      695F7375 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccH0Z6fd.s 			page 191
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc2xwBaV.s 			page 191
 
 
  5638      625F6D6F 

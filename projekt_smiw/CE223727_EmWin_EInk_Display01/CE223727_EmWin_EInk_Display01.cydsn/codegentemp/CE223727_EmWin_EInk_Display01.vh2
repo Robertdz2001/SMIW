@@ -2,7 +2,7 @@
 --	Conversion of CE223727_EmWin_EInk_Display01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Fri Aug 30 14:22:26 2024
+--	Thu Sep 12 00:30:07 2024
 --
 
 USE cypress.cypress.all;
@@ -88,9 +88,9 @@ SIGNAL Net_131 : bit;
 SIGNAL \CY_EINK_Timer:Net_1\ : bit;
 SIGNAL \CY_EINK_Timer:Net_2\ : bit;
 SIGNAL Net_130 : bit;
-SIGNAL Net_32 : bit;
-SIGNAL tmpIO_0__SW2_net_0 : bit;
-TERMINAL tmpSIOVREF__SW2_net_0 : bit;
+SIGNAL Net_136 : bit;
+SIGNAL tmpIO_0__Button1_net_0 : bit;
+TERMINAL tmpSIOVREF__Button1_net_0 : bit;
 SIGNAL \Status_SW2:status_0\ : bit;
 SIGNAL \Status_SW2:status_1\ : bit;
 SIGNAL \Status_SW2:status_2\ : bit;
@@ -99,7 +99,7 @@ SIGNAL \Status_SW2:status_4\ : bit;
 SIGNAL \Status_SW2:status_5\ : bit;
 SIGNAL \Status_SW2:status_6\ : bit;
 SIGNAL \Status_SW2:status_7\ : bit;
-SIGNAL Net_136 : bit;
+SIGNAL Net_335 : bit;
 SIGNAL tmpFB_0__GreenLED_net_0 : bit;
 SIGNAL tmpIO_0__GreenLED_net_0 : bit;
 TERMINAL tmpSIOVREF__GreenLED_net_0 : bit;
@@ -130,6 +130,28 @@ SIGNAL Net_242 : bit;
 SIGNAL \Timer:Net_1\ : bit;
 SIGNAL \Timer:Net_2\ : bit;
 SIGNAL Net_28 : bit;
+SIGNAL Net_302 : bit;
+SIGNAL tmpIO_0__Button2_net_0 : bit;
+TERMINAL tmpSIOVREF__Button2_net_0 : bit;
+SIGNAL Net_362 : bit;
+SIGNAL tmpIO_0__Button3_net_0 : bit;
+TERMINAL tmpSIOVREF__Button3_net_0 : bit;
+SIGNAL \Status_Button2:status_0\ : bit;
+SIGNAL \Status_Button2:status_1\ : bit;
+SIGNAL \Status_Button2:status_2\ : bit;
+SIGNAL \Status_Button2:status_3\ : bit;
+SIGNAL \Status_Button2:status_4\ : bit;
+SIGNAL \Status_Button2:status_5\ : bit;
+SIGNAL \Status_Button2:status_6\ : bit;
+SIGNAL \Status_Button2:status_7\ : bit;
+SIGNAL \Status_Button3:status_0\ : bit;
+SIGNAL \Status_Button3:status_1\ : bit;
+SIGNAL \Status_Button3:status_2\ : bit;
+SIGNAL \Status_Button3:status_3\ : bit;
+SIGNAL \Status_Button3:status_4\ : bit;
+SIGNAL \Status_Button3:status_5\ : bit;
+SIGNAL \Status_Button3:status_6\ : bit;
+SIGNAL \Status_Button3:status_7\ : bit;
 BEGIN
 
 one <=  ('1') ;
@@ -522,7 +544,7 @@ EINK_Clock:cy_clock_v1_0
 		line_compl=>\CY_EINK_Timer:Net_1\,
 		line=>\CY_EINK_Timer:Net_2\,
 		interrupt=>Net_130);
-SW2:cy_mxs40_gpio_v1_0
+Button1:cy_mxs40_gpio_v1_0
 	GENERIC MAP(cy_registers=>"",
 		width=>1,
 		sio_grp_cnt=>0,
@@ -549,18 +571,18 @@ SW2:cy_mxs40_gpio_v1_0
 		hotswap_needed=>"0")
 	PORT MAP(oe=>(one),
 		y=>(zero),
-		fb=>Net_32,
+		fb=>Net_136,
 		analog=>(open),
-		io=>(tmpIO_0__SW2_net_0),
+		io=>(tmpIO_0__Button1_net_0),
 		annotation=>(open),
-		siovref=>(tmpSIOVREF__SW2_net_0));
+		siovref=>(tmpSIOVREF__Button1_net_0));
 \Status_SW2:sts:sts_reg\:cy_psoc3_status
 	GENERIC MAP(cy_force_order=>'1',
 		cy_md_select=>"00000000")
 	PORT MAP(reset=>zero,
-		clock=>Net_136,
+		clock=>Net_335,
 		status=>(zero, zero, zero, zero,
-			zero, zero, zero, Net_32));
+			zero, zero, zero, Net_136));
 Clock_2:cy_clock_v1_0
 	GENERIC MAP(cy_registers=>"",
 		id=>"0fb2d049-5c16-4a2b-aca7-55b89cf8132e",
@@ -569,7 +591,7 @@ Clock_2:cy_clock_v1_0
 		period=>"10000000000000",
 		is_direct=>'0',
 		is_digital=>'0')
-	PORT MAP(clock_out=>Net_136,
+	PORT MAP(clock_out=>Net_335,
 		dig_domain_out=>open);
 GreenLED:cy_mxs40_gpio_v1_0
 	GENERIC MAP(cy_registers=>"",
@@ -692,5 +714,83 @@ isrTimer:cy_mxs40_isr_v1_0
 		deepsleep_required=>'0',
 		int_type=>"10")
 	PORT MAP(int_signal=>Net_28);
+Button2:cy_mxs40_gpio_v1_0
+	GENERIC MAP(cy_registers=>"",
+		width=>1,
+		sio_grp_cnt=>0,
+		id=>"14226c1e-a26d-40ea-9622-084317f5d5f4",
+		drive_mode=>"2",
+		ibuf_enabled=>"1",
+		init_dr_st=>"1",
+		input_sync=>"0",
+		intr_mode=>"0",
+		io_voltage=>"",
+		output_conn=>"0",
+		oe_conn=>"0",
+		output_sync=>"0",
+		oe_sync=>"0",
+		drive_strength=>"0",
+		max_frequency=>"100",
+		output_current_cap=>"8",
+		i2c_mode=>"0",
+		pin_aliases=>"",
+		pin_mode=>"I",
+		slew_rate=>"0",
+		vtrip=>"0",
+		use_annotation=>"0",
+		hotswap_needed=>"0")
+	PORT MAP(oe=>(one),
+		y=>(zero),
+		fb=>Net_302,
+		analog=>(open),
+		io=>(tmpIO_0__Button2_net_0),
+		annotation=>(open),
+		siovref=>(tmpSIOVREF__Button2_net_0));
+Button3:cy_mxs40_gpio_v1_0
+	GENERIC MAP(cy_registers=>"",
+		width=>1,
+		sio_grp_cnt=>0,
+		id=>"9c363873-8e12-4b7c-ae13-5aaeeae84ab7",
+		drive_mode=>"2",
+		ibuf_enabled=>"1",
+		init_dr_st=>"1",
+		input_sync=>"0",
+		intr_mode=>"0",
+		io_voltage=>"",
+		output_conn=>"0",
+		oe_conn=>"0",
+		output_sync=>"0",
+		oe_sync=>"0",
+		drive_strength=>"0",
+		max_frequency=>"100",
+		output_current_cap=>"8",
+		i2c_mode=>"0",
+		pin_aliases=>"",
+		pin_mode=>"I",
+		slew_rate=>"0",
+		vtrip=>"0",
+		use_annotation=>"0",
+		hotswap_needed=>"0")
+	PORT MAP(oe=>(one),
+		y=>(zero),
+		fb=>Net_362,
+		analog=>(open),
+		io=>(tmpIO_0__Button3_net_0),
+		annotation=>(open),
+		siovref=>(tmpSIOVREF__Button3_net_0));
+\Status_Button2:sts:sts_reg\:cy_psoc3_status
+	GENERIC MAP(cy_force_order=>'1',
+		cy_md_select=>"00000000")
+	PORT MAP(reset=>zero,
+		clock=>Net_335,
+		status=>(zero, zero, zero, zero,
+			zero, zero, zero, Net_302));
+\Status_Button3:sts:sts_reg\:cy_psoc3_status
+	GENERIC MAP(cy_force_order=>'1',
+		cy_md_select=>"00000000")
+	PORT MAP(reset=>zero,
+		clock=>Net_335,
+		status=>(zero, zero, zero, zero,
+			zero, zero, zero, Net_362));
 
 END R_T_L;
