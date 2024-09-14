@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
   28:Generated_Source\PSoC6/Status_Button2.c **** *  Reads the current value assigned to the Status Register.
   29:Generated_Source\PSoC6/Status_Button2.c **** *
   30:Generated_Source\PSoC6/Status_Button2.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 2
 
 
   31:Generated_Source\PSoC6/Status_Button2.c **** *  None.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
   58:Generated_Source\PSoC6/Status_Button2.c **** {
   55              		.loc 1 58 0
   56              		.cfi_startproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 3
 
 
   57              		@ args = 0, pretend = 0, frame = 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
   73:Generated_Source\PSoC6/Status_Button2.c **** * Parameters:
   74:Generated_Source\PSoC6/Status_Button2.c **** *  None.
   75:Generated_Source\PSoC6/Status_Button2.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 4
 
 
   76:Generated_Source\PSoC6/Status_Button2.c **** * Return:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
   89:Generated_Source\PSoC6/Status_Button2.c **** /*******************************************************************************
   90:Generated_Source\PSoC6/Status_Button2.c **** * Function Name: Status_Button2_WriteMask
   91:Generated_Source\PSoC6/Status_Button2.c **** ********************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 5
 
 
   92:Generated_Source\PSoC6/Status_Button2.c **** *
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  115:Generated_Source\PSoC6/Status_Button2.c **** *
  116:Generated_Source\PSoC6/Status_Button2.c **** * Summary:
  117:Generated_Source\PSoC6/Status_Button2.c **** *  Reads the current interrupt mask assigned to the Status Register.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 6
 
 
  118:Generated_Source\PSoC6/Status_Button2.c **** *
@@ -334,8 +334,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  187              		.size	Status_Button2_ReadMask, .-Status_Button2_ReadMask
  188              		.text
  189              	.Letext0:
- 190              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 191              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 190              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 191              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
  192              		.file 4 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/syslib/cy_syslib.h"
  193              		.section	.debug_info,"",%progbits
  194              	.Ldebug_info0:
@@ -344,28 +344,28 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  197 0006 00000000 		.4byte	.Ldebug_abbrev0
  198 000a 04       		.byte	0x4
  199 000b 01       		.uleb128 0x1
- 200 000c 34020000 		.4byte	.LASF27
+ 200 000c 2C020000 		.4byte	.LASF27
  201 0010 0C       		.byte	0xc
  202 0011 0A000000 		.4byte	.LASF28
- 203 0015 B5000000 		.4byte	.LASF29
+ 203 0015 25010000 		.4byte	.LASF29
  204 0019 00000000 		.4byte	.Ldebug_ranges0+0
  205 001d 00000000 		.4byte	0
  206 0021 00000000 		.4byte	.Ldebug_line0
  207 0025 02       		.uleb128 0x2
  208 0026 02       		.byte	0x2
  209 0027 05       		.byte	0x5
- 210 0028 13020000 		.4byte	.LASF0
+ 210 0028 0B020000 		.4byte	.LASF0
  211 002c 02       		.uleb128 0x2
  212 002d 01       		.byte	0x1
  213 002e 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 7
 
 
  214 002f A2000000 		.4byte	.LASF1
  215 0033 02       		.uleb128 0x2
  216 0034 01       		.byte	0x1
  217 0035 06       		.byte	0x6
- 218 0036 C6020000 		.4byte	.LASF2
+ 218 0036 BE020000 		.4byte	.LASF2
  219 003a 03       		.uleb128 0x3
  220 003b 00000000 		.4byte	.LASF5
  221 003f 02       		.byte	0x2
@@ -378,24 +378,24 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  228 004c 02       		.uleb128 0x2
  229 004d 04       		.byte	0x4
  230 004e 05       		.byte	0x5
- 231 004f 26020000 		.4byte	.LASF4
+ 231 004f 1E020000 		.4byte	.LASF4
  232 0053 03       		.uleb128 0x3
- 233 0054 8D010000 		.4byte	.LASF6
+ 233 0054 1A010000 		.4byte	.LASF6
  234 0058 02       		.byte	0x2
  235 0059 41       		.byte	0x41
  236 005a 5E000000 		.4byte	0x5e
  237 005e 02       		.uleb128 0x2
  238 005f 04       		.byte	0x4
  239 0060 07       		.byte	0x7
- 240 0061 37010000 		.4byte	.LASF7
+ 240 0061 C4000000 		.4byte	.LASF7
  241 0065 02       		.uleb128 0x2
  242 0066 08       		.byte	0x8
  243 0067 05       		.byte	0x5
- 244 0068 EC010000 		.4byte	.LASF8
+ 244 0068 E4010000 		.4byte	.LASF8
  245 006c 02       		.uleb128 0x2
  246 006d 08       		.byte	0x8
  247 006e 07       		.byte	0x7
- 248 006f C4010000 		.4byte	.LASF9
+ 248 006f BC010000 		.4byte	.LASF9
  249 0073 04       		.uleb128 0x4
  250 0074 04       		.byte	0x4
  251 0075 05       		.byte	0x5
@@ -403,22 +403,22 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  253 007a 02       		.uleb128 0x2
  254 007b 04       		.byte	0x4
  255 007c 07       		.byte	0x7
- 256 007d B7010000 		.4byte	.LASF10
+ 256 007d AF010000 		.4byte	.LASF10
  257 0081 03       		.uleb128 0x3
- 258 0082 DB010000 		.4byte	.LASF11
+ 258 0082 D3010000 		.4byte	.LASF11
  259 0086 03       		.byte	0x3
  260 0087 18       		.byte	0x18
  261 0088 3A000000 		.4byte	0x3a
  262 008c 03       		.uleb128 0x3
- 263 008d 1D020000 		.4byte	.LASF12
+ 263 008d 15020000 		.4byte	.LASF12
  264 0091 03       		.byte	0x3
  265 0092 30       		.byte	0x30
  266 0093 53000000 		.4byte	0x53
  267 0097 02       		.uleb128 0x2
  268 0098 04       		.byte	0x4
  269 0099 07       		.byte	0x7
- 270 009a E3010000 		.4byte	.LASF13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 8
+ 270 009a DB010000 		.4byte	.LASF13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 8
 
 
  271 009e 05       		.uleb128 0x5
@@ -426,7 +426,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  273 00a3 02       		.uleb128 0x2
  274 00a4 01       		.byte	0x1
  275 00a5 08       		.byte	0x8
- 276 00a6 2F020000 		.4byte	.LASF14
+ 276 00a6 27020000 		.4byte	.LASF14
  277 00aa 02       		.uleb128 0x2
  278 00ab 04       		.byte	0x4
  279 00ac 04       		.byte	0x4
@@ -434,9 +434,9 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  281 00b1 02       		.uleb128 0x2
  282 00b2 08       		.byte	0x8
  283 00b3 04       		.byte	0x4
- 284 00b4 86010000 		.4byte	.LASF16
+ 284 00b4 13010000 		.4byte	.LASF16
  285 00b8 06       		.uleb128 0x6
- 286 00b9 61010000 		.4byte	.LASF17
+ 286 00b9 EE000000 		.4byte	.LASF17
  287 00bd 04       		.byte	0x4
  288 00be 8503     		.2byte	0x385
  289 00c0 81000000 		.4byte	0x81
@@ -446,7 +446,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  293 00ca 9103     		.2byte	0x391
  294 00cc 9E000000 		.4byte	0x9e
  295 00d0 07       		.uleb128 0x7
- 296 00d1 FF010000 		.4byte	.LASF23
+ 296 00d1 F7010000 		.4byte	.LASF23
  297 00d5 01       		.byte	0x1
  298 00d6 25       		.byte	0x25
  299 00d7 B8000000 		.4byte	0xb8
@@ -455,7 +455,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  302 00e3 01       		.uleb128 0x1
  303 00e4 9C       		.byte	0x9c
  304 00e5 08       		.uleb128 0x8
- 305 00e6 67010000 		.4byte	.LASF19
+ 305 00e6 F4000000 		.4byte	.LASF19
  306 00ea 01       		.byte	0x1
  307 00eb 39       		.byte	0x39
  308 00ec 00000000 		.4byte	.LFB37
@@ -464,7 +464,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  311 00f5 9C       		.byte	0x9c
  312 00f6 1C010000 		.4byte	0x11c
  313 00fa 09       		.uleb128 0x9
- 314 00fb 28010000 		.4byte	.LASF21
+ 314 00fb B5000000 		.4byte	.LASF21
  315 00ff 01       		.byte	0x1
  316 0100 3B       		.byte	0x3b
  317 0101 B8000000 		.4byte	0xb8
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  325 011b 00       		.byte	0
  326 011c 08       		.uleb128 0x8
  327 011d 56000000 		.4byte	.LASF20
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 9
 
 
  328 0121 01       		.byte	0x1
@@ -489,7 +489,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  333 012c 9C       		.byte	0x9c
  334 012d 53010000 		.4byte	0x153
  335 0131 09       		.uleb128 0x9
- 336 0132 28010000 		.4byte	.LASF21
+ 336 0132 B5000000 		.4byte	.LASF21
  337 0136 01       		.byte	0x1
  338 0137 52       		.byte	0x52
  339 0138 B8000000 		.4byte	0xb8
@@ -511,14 +511,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  355 0163 9C       		.byte	0x9c
  356 0164 78010000 		.4byte	0x178
  357 0168 0B       		.uleb128 0xb
- 358 0169 FA010000 		.4byte	.LASF30
+ 358 0169 F2010000 		.4byte	.LASF30
  359 016d 01       		.byte	0x1
  360 016e 67       		.byte	0x67
  361 016f B8000000 		.4byte	0xb8
  362 0173 26000000 		.4byte	.LLST2
  363 0177 00       		.byte	0
  364 0178 07       		.uleb128 0x7
- 365 0179 49010000 		.4byte	.LASF24
+ 365 0179 D6000000 		.4byte	.LASF24
  366 017d 01       		.byte	0x1
  367 017e 7E       		.byte	0x7e
  368 017f B8000000 		.4byte	0xb8
@@ -527,8 +527,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  371 018b 01       		.uleb128 0x1
  372 018c 9C       		.byte	0x9c
  373 018d 0C       		.uleb128 0xc
- 374 018e 98010000 		.4byte	.LASF25
- 375 0192 98010000 		.4byte	.LASF25
+ 374 018e 90010000 		.4byte	.LASF25
+ 375 0192 90010000 		.4byte	.LASF25
  376 0196 04       		.byte	0x4
  377 0197 4D03     		.2byte	0x34d
  378 0199 0C       		.uleb128 0xc
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  382 01a3 5C03     		.2byte	0x35c
  383 01a5 00       		.byte	0
  384              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 10
 
 
  385              	.Ldebug_abbrev0:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  439 0035 00       		.byte	0
  440 0036 05       		.uleb128 0x5
  441 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 11
 
 
  442 0038 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  496 006f 27       		.uleb128 0x27
  497 0070 19       		.uleb128 0x19
  498 0071 11       		.uleb128 0x11
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 12
 
 
  499 0072 01       		.uleb128 0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  553 00ab 19       		.uleb128 0x19
  554 00ac 3C       		.uleb128 0x3c
  555 00ad 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 13
 
 
  556 00ae 6E       		.uleb128 0x6e
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  610 0030 00000000 		.4byte	.LFB40
  611 0034 0C000000 		.4byte	.LFE40-.LFB40
  612 0038 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 14
 
 
  613 003c 00000000 		.4byte	0
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  644 0089 53746174 		.ascii	"Status_Button2_WriteMask\000"
  644      75735F42 
  644      7574746F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 15
 
 
  644      6E325F57 
@@ -851,132 +851,130 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 1
  647              	.LASF18:
  648 00b0 72656738 		.ascii	"reg8\000"
  648      00
- 649              	.LASF29:
- 650 00b5 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW_projekt\\projekt_sm"
- 650      73657273 
- 650      5C726F62 
- 650      65725C44 
- 650      65736B74 
- 651 00e3 69775C43 		.ascii	"iw\\CE223727_EmWin_EInk_Display01\\CE223727_EmWin_E"
- 651      45323233 
- 651      3732375F 
- 651      456D5769 
- 651      6E5F4549 
- 652 0114 496E6B5F 		.ascii	"Ink_Display01.cydsn\000"
- 652      44697370 
- 652      6C617930 
- 652      312E6379 
- 652      64736E00 
- 653              	.LASF21:
- 654 0128 696E7465 		.ascii	"interruptState\000"
- 654      72727570 
- 654      74537461 
- 654      746500
- 655              	.LASF7:
- 656 0137 6C6F6E67 		.ascii	"long unsigned int\000"
- 656      20756E73 
- 656      69676E65 
- 656      6420696E 
- 656      7400
- 657              	.LASF24:
- 658 0149 53746174 		.ascii	"Status_Button2_ReadMask\000"
+ 649              	.LASF21:
+ 650 00b5 696E7465 		.ascii	"interruptState\000"
+ 650      72727570 
+ 650      74537461 
+ 650      746500
+ 651              	.LASF7:
+ 652 00c4 6C6F6E67 		.ascii	"long unsigned int\000"
+ 652      20756E73 
+ 652      69676E65 
+ 652      6420696E 
+ 652      7400
+ 653              	.LASF24:
+ 654 00d6 53746174 		.ascii	"Status_Button2_ReadMask\000"
+ 654      75735F42 
+ 654      7574746F 
+ 654      6E325F52 
+ 654      6561644D 
+ 655              	.LASF17:
+ 656 00ee 75696E74 		.ascii	"uint8\000"
+ 656      3800
+ 657              	.LASF19:
+ 658 00f4 53746174 		.ascii	"Status_Button2_InterruptEnable\000"
  658      75735F42 
  658      7574746F 
- 658      6E325F52 
- 658      6561644D 
- 659              	.LASF17:
- 660 0161 75696E74 		.ascii	"uint8\000"
- 660      3800
- 661              	.LASF19:
- 662 0167 53746174 		.ascii	"Status_Button2_InterruptEnable\000"
- 662      75735F42 
- 662      7574746F 
- 662      6E325F49 
- 662      6E746572 
- 663              	.LASF16:
- 664 0186 646F7562 		.ascii	"double\000"
- 664      6C6500
- 665              	.LASF6:
- 666 018d 5F5F7569 		.ascii	"__uint32_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 16
+ 658      6E325F49 
+ 658      6E746572 
+ 659              	.LASF16:
+ 660 0113 646F7562 		.ascii	"double\000"
+ 660      6C6500
+ 661              	.LASF6:
+ 662 011a 5F5F7569 		.ascii	"__uint32_t\000"
+ 662      6E743332 
+ 662      5F7400
+ 663              	.LASF29:
+ 664 0125 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 664      73657273 
+ 664      5C726F62 
+ 664      65725C44 
+ 664      65736B74 
+ 665 0152 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 665      5F456D57 
+ 665      696E5F45 
+ 665      496E6B5F 
+ 665      44697370 
+ 666 0184 6C617930 		.ascii	"lay01.cydsn\000"
+ 666      312E6379 
+ 666      64736E00 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 16
 
 
- 666      6E743332 
- 666      5F7400
  667              	.LASF25:
- 668 0198 43795F53 		.ascii	"Cy_SysLib_EnterCriticalSection\000"
+ 668 0190 43795F53 		.ascii	"Cy_SysLib_EnterCriticalSection\000"
  668      79734C69 
  668      625F456E 
  668      74657243 
  668      72697469 
  669              	.LASF10:
- 670 01b7 756E7369 		.ascii	"unsigned int\000"
+ 670 01af 756E7369 		.ascii	"unsigned int\000"
  670      676E6564 
  670      20696E74 
  670      00
  671              	.LASF9:
- 672 01c4 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 672 01bc 6C6F6E67 		.ascii	"long long unsigned int\000"
  672      206C6F6E 
  672      6720756E 
  672      7369676E 
  672      65642069 
  673              	.LASF11:
- 674 01db 75696E74 		.ascii	"uint8_t\000"
+ 674 01d3 75696E74 		.ascii	"uint8_t\000"
  674      385F7400 
  675              	.LASF13:
- 676 01e3 73697A65 		.ascii	"sizetype\000"
+ 676 01db 73697A65 		.ascii	"sizetype\000"
  676      74797065 
  676      00
  677              	.LASF8:
- 678 01ec 6C6F6E67 		.ascii	"long long int\000"
+ 678 01e4 6C6F6E67 		.ascii	"long long int\000"
  678      206C6F6E 
  678      6720696E 
  678      7400
  679              	.LASF30:
- 680 01fa 6D61736B 		.ascii	"mask\000"
+ 680 01f2 6D61736B 		.ascii	"mask\000"
  680      00
  681              	.LASF23:
- 682 01ff 53746174 		.ascii	"Status_Button2_Read\000"
+ 682 01f7 53746174 		.ascii	"Status_Button2_Read\000"
  682      75735F42 
  682      7574746F 
  682      6E325F52 
  682      65616400 
  683              	.LASF0:
- 684 0213 73686F72 		.ascii	"short int\000"
+ 684 020b 73686F72 		.ascii	"short int\000"
  684      7420696E 
  684      7400
  685              	.LASF12:
- 686 021d 75696E74 		.ascii	"uint32_t\000"
+ 686 0215 75696E74 		.ascii	"uint32_t\000"
  686      33325F74 
  686      00
  687              	.LASF4:
- 688 0226 6C6F6E67 		.ascii	"long int\000"
+ 688 021e 6C6F6E67 		.ascii	"long int\000"
  688      20696E74 
  688      00
  689              	.LASF14:
- 690 022f 63686172 		.ascii	"char\000"
+ 690 0227 63686172 		.ascii	"char\000"
  690      00
  691              	.LASF27:
- 692 0234 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccCCYGQn.s 			page 17
-
-
+ 692 022c 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  692      43313120 
  692      352E342E 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccDT34et.s 			page 17
+
+
  692      31203230 
  692      31363036 
- 693 0267 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 693 025f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
  693      20726576 
  693      6973696F 
  693      6E203233 
  693      37373135 
- 694 029a 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 694 0292 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
  694      67202D66 
  694      66756E63 
  694      74696F6E 
  694      2D736563 
  695              	.LASF2:
- 696 02c6 7369676E 		.ascii	"signed char\000"
+ 696 02be 7369676E 		.ascii	"signed char\000"
  696      65642063 
  696      68617200 
  697              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

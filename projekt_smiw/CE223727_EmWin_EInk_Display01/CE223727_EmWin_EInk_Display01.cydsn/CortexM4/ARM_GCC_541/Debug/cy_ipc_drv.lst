@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
   27:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * \param base
   28:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * This parameter is a handle that represents the base address of the registers
   29:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * of the IPC channel.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 2
 
 
   30:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * The parameter is generally returned from a call to the \ref
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
   22:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * The inter-processor communication (IPC) driver provides a safe and reliable
   23:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * method to transfer data between CPUs. Hardware locking ensures that only one
   24:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * device can acquire and transfer data at a time so no data is lost or
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 3
 
 
   25:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * overwritten by asynchronous processes or CPUs.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
   79:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * This design enables any number of processes on the sending core to put
   80:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * arbitrary data into a single pipe. The first element of that data is the
   81:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * client ID of the client that should handle the data.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 4
 
 
   82:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  136:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * The ISR can perform any task required by the design. However, as part of its
  137:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * function it calls \ref Cy_IPC_Pipe_ExecCallback. This function retrieves the
  138:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * client ID from the data and calls the associated callback function.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 5
 
 
  139:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * The user-supplied callback function handles the data in whatever way is
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  193:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * must have at least 32 semaphores. Semaphores 0-15 are reserved for
  194:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * system use. Your application can use semaphores greater than 15.
  195:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 6
 
 
  196:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \section group_ipc_more_information More Information
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  250:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *     <td>Interface improvement, documentation update</td>
  251:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *   </tr>
  252:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *   <tr>
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 7
 
 
  253:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *     <td>1.10.1</td>
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  307:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** */
  308:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** 
  309:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** /** Driver major version */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 8
 
 
  310:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** #define CY_IPC_DRV_VERSION_MAJOR       1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  364:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** __STATIC_INLINE uint32_t Cy_IPC_Drv_ReadDataValue (IPC_STRUCT_Type const * base);
  365:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** 
  366:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** __STATIC_INLINE uint32_t Cy_IPC_Drv_ExtractAcquireMask (uint32_t intMask);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 9
 
 
  367:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** __STATIC_INLINE uint32_t Cy_IPC_Drv_ExtractReleaseMask (uint32_t intMask);
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  421:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
  422:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *******************************************************************************/
  423:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** __STATIC_INLINE IPC_STRUCT_Type* Cy_IPC_Drv_GetIpcBaseAddress (uint32_t ipcIndex)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 10
 
 
  424:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  478:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *******************************************************************************/
  479:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** __STATIC_INLINE void  Cy_IPC_Drv_SetInterruptMask (IPC_INTR_STRUCT_Type* base,
  480:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h ****                                               uint32_t ipcReleaseMask, uint32_t ipcAcquireMask)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 11
 
 
  481:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  535:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
  536:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \funcusage
  537:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \snippet IPC_sut_01.cydsn/main_cm4.c snippet_Cy_IPC_Drv_GetInterruptStatusMasked
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 12
 
 
  538:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  592:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * An encoded list of all IPC channels that can trigger the interrupt on a
  593:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * notify event.
  594:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 13
 
 
  595:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \funcusage
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  649:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \param base
  650:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * This parameter is a handle that represents the base address of the registers
  651:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * of the IPC channel.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 14
 
 
  652:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * The parameter is generally returned from a call to the \ref
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  706:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * of the IPC channel.
  707:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * The parameter is generally returned from a call to the \ref
  708:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * Cy_IPC_Drv_GetIpcBaseAddress.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 15
 
 
  709:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  763:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
  764:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *******************************************************************************/
  765:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** __STATIC_INLINE bool Cy_IPC_Drv_IsLockAcquired (IPC_STRUCT_Type const * base)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 16
 
 
  766:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** {
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
   81              	.LVL9:
   61:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c ****     }
   62:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 17
 
 
   63:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c ****     return (retStatus);
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  100              		.loc 1 98 0
  101              		.cfi_startproc
  102              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 18
 
 
  103              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  811:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** {
  812:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h ****     return _FLD2VAL(IPC_INTR_STRUCT_INTR_MASK_NOTIFY, intMask);
  813:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 19
 
 
  814:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  868:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \funcusage
  869:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** * \snippet IPC_sut_01.cydsn/main_cm4.c snippet_Cy_IPC_Drv_SendMsgPtr
  870:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 20
 
 
  871:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *******************************************************************************/
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  925:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *   \retval CY_IPC_DRV_SUCCESS: The IPC was successfully acquired
  926:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *   \retval CY_IPC_DRV_ERROR:   The IPC was not acquired because it was already acquired
  927:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *                       by another master
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 21
 
 
  928:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.h **** *
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  154 0028 A160     		str	r1, [r4, #8]
  155              	.LVL19:
  156              	.LBE25:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 22
 
 
  157              	.LBE24:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  129:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * \param base
  130:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * This parameter is a handle that represents the base address of the registers
  131:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * of the IPC channel.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 23
 
 
  132:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c **** * The parameter is generally returned from a call to the \ref
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  155:Generated_Source\PSoC6\pdl\drivers\peripheral\ipc/cy_ipc_drv.c ****     if ( Cy_IPC_Drv_IsLockAcquired(base) )
  214              		.loc 1 155 0
  215 0012 002B     		cmp	r3, #0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 24
 
 
  216 0014 03DA     		bge	.L20
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  251      63795F69 
  251      70635F64 
  251      72762E68 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 25
 
 
  251      00
@@ -1456,8 +1456,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  255      00
  256              		.text
  257              	.Letext0:
- 258              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 259              		.file 4 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 258              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 259              		.file 4 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
  260              		.file 5 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/ip/cyip_ipc.h"
  261              		.file 6 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/syslib/cy_syslib.h"
  262              		.file 7 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
@@ -1468,10 +1468,10 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  267 0006 00000000 		.4byte	.Ldebug_abbrev0
  268 000a 04       		.byte	0x4
  269 000b 01       		.uleb128 0x1
- 270 000c DC020000 		.4byte	.LASF45
+ 270 000c D4020000 		.4byte	.LASF45
  271 0010 0C       		.byte	0xc
- 272 0011 63020000 		.4byte	.LASF46
- 273 0015 AC000000 		.4byte	.LASF47
+ 272 0011 5B020000 		.4byte	.LASF46
+ 273 0015 1E010000 		.4byte	.LASF47
  274 0019 00000000 		.4byte	.Ldebug_ranges0+0
  275 001d 00000000 		.4byte	0
  276 0021 00000000 		.4byte	.Ldebug_line0
@@ -1482,15 +1482,15 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  281 002c 02       		.uleb128 0x2
  282 002d 01       		.byte	0x1
  283 002e 08       		.byte	0x8
- 284 002f 51010000 		.4byte	.LASF1
+ 284 002f DE000000 		.4byte	.LASF1
  285 0033 02       		.uleb128 0x2
  286 0034 02       		.byte	0x2
  287 0035 05       		.byte	0x5
- 288 0036 BB020000 		.4byte	.LASF2
+ 288 0036 B3020000 		.4byte	.LASF2
  289 003a 02       		.uleb128 0x2
  290 003b 02       		.byte	0x2
  291 003c 07       		.byte	0x7
- 292 003d 31010000 		.4byte	.LASF3
+ 292 003d BE000000 		.4byte	.LASF3
  293 0041 03       		.uleb128 0x3
  294 0042 5E000000 		.4byte	.LASF5
  295 0046 03       		.byte	0x3
@@ -1498,28 +1498,28 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  297 0048 4C000000 		.4byte	0x4c
  298 004c 02       		.uleb128 0x2
  299 004d 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 26
 
 
  300 004e 05       		.byte	0x5
- 301 004f 98030000 		.4byte	.LASF4
+ 301 004f 90030000 		.4byte	.LASF4
  302 0053 03       		.uleb128 0x3
- 303 0054 86010000 		.4byte	.LASF6
+ 303 0054 13010000 		.4byte	.LASF6
  304 0058 03       		.byte	0x3
  305 0059 41       		.byte	0x41
  306 005a 5E000000 		.4byte	0x5e
  307 005e 02       		.uleb128 0x2
  308 005f 04       		.byte	0x4
  309 0060 07       		.byte	0x7
- 310 0061 1F010000 		.4byte	.LASF7
+ 310 0061 AC000000 		.4byte	.LASF7
  311 0065 02       		.uleb128 0x2
  312 0066 08       		.byte	0x8
  313 0067 05       		.byte	0x5
- 314 0068 50020000 		.4byte	.LASF8
+ 314 0068 48020000 		.4byte	.LASF8
  315 006c 02       		.uleb128 0x2
  316 006d 08       		.byte	0x8
  317 006e 07       		.byte	0x7
- 318 006f D5010000 		.4byte	.LASF9
+ 318 006f CD010000 		.4byte	.LASF9
  319 0073 04       		.uleb128 0x4
  320 0074 04       		.byte	0x4
  321 0075 05       		.byte	0x5
@@ -1527,21 +1527,21 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  323 007a 02       		.uleb128 0x2
  324 007b 04       		.byte	0x4
  325 007c 07       		.byte	0x7
- 326 007d A0010000 		.4byte	.LASF10
+ 326 007d 98010000 		.4byte	.LASF10
  327 0081 03       		.uleb128 0x3
- 328 0082 3F020000 		.4byte	.LASF11
+ 328 0082 37020000 		.4byte	.LASF11
  329 0086 04       		.byte	0x4
  330 0087 2C       		.byte	0x2c
  331 0088 41000000 		.4byte	0x41
  332 008c 03       		.uleb128 0x3
- 333 008d 8F030000 		.4byte	.LASF12
+ 333 008d 87030000 		.4byte	.LASF12
  334 0091 04       		.byte	0x4
  335 0092 30       		.byte	0x30
  336 0093 53000000 		.4byte	0x53
  337 0097 02       		.uleb128 0x2
  338 0098 04       		.byte	0x4
  339 0099 07       		.byte	0x7
- 340 009a 47020000 		.4byte	.LASF13
+ 340 009a 3F020000 		.4byte	.LASF13
  341 009e 05       		.uleb128 0x5
  342 009f 8C000000 		.4byte	0x8c
  343 00a3 06       		.uleb128 0x6
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  354 00ba 05       		.byte	0x5
  355 00bb 23       		.byte	0x23
  356 00bc 09010000 		.4byte	0x109
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 27
 
 
  357 00c0 0A       		.uleb128 0xa
@@ -1574,7 +1574,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  367 00d3 9E000000 		.4byte	0x9e
  368 00d7 04       		.byte	0x4
  369 00d8 0A       		.uleb128 0xa
- 370 00d9 C4030000 		.4byte	.LASF16
+ 370 00d9 BC030000 		.4byte	.LASF16
  371 00dd 05       		.byte	0x5
  372 00de 26       		.byte	0x26
  373 00df 9E000000 		.4byte	0x9e
@@ -1592,7 +1592,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  385 00f7 A3000000 		.4byte	0xa3
  386 00fb 10       		.byte	0x10
  387 00fc 0A       		.uleb128 0xa
- 388 00fd 7D010000 		.4byte	.LASF19
+ 388 00fd 0A010000 		.4byte	.LASF19
  389 0101 05       		.byte	0x5
  390 0102 29       		.byte	0x29
  391 0103 0E010000 		.4byte	0x10e
@@ -1603,22 +1603,22 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  396 010e 06       		.uleb128 0x6
  397 010f 09010000 		.4byte	0x109
  398 0113 03       		.uleb128 0x3
- 399 0114 EF030000 		.4byte	.LASF20
+ 399 0114 E7030000 		.4byte	.LASF20
  400 0118 05       		.byte	0x5
  401 0119 2A       		.byte	0x2a
  402 011a B8000000 		.4byte	0xb8
  403 011e 0B       		.uleb128 0xb
- 404 011f E2030000 		.4byte	.LASF21
+ 404 011f DA030000 		.4byte	.LASF21
  405 0123 06       		.byte	0x6
  406 0124 C401     		.2byte	0x1c4
  407 0126 2A010000 		.4byte	0x12a
  408 012a 02       		.uleb128 0x2
  409 012b 01       		.byte	0x1
  410 012c 08       		.byte	0x8
- 411 012d 5E020000 		.4byte	.LASF22
+ 411 012d 56020000 		.4byte	.LASF22
  412 0131 02       		.uleb128 0x2
  413 0132 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 28
 
 
  414 0133 04       		.byte	0x4
@@ -1626,11 +1626,11 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  416 0138 02       		.uleb128 0x2
  417 0139 08       		.byte	0x8
  418 013a 04       		.byte	0x4
- 419 013b 76010000 		.4byte	.LASF24
+ 419 013b 03010000 		.4byte	.LASF24
  420 013f 02       		.uleb128 0x2
  421 0140 08       		.byte	0x8
  422 0141 04       		.byte	0x4
- 423 0142 A1030000 		.4byte	.LASF25
+ 423 0142 99030000 		.4byte	.LASF25
  424 0146 0C       		.uleb128 0xc
  425 0147 04       		.byte	0x4
  426 0148 7A000000 		.4byte	0x7a
@@ -1638,26 +1638,26 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  428 014d 5901     		.2byte	0x159
  429 014f 63010000 		.4byte	0x163
  430 0153 0D       		.uleb128 0xd
- 431 0154 16020000 		.4byte	.LASF26
+ 431 0154 0E020000 		.4byte	.LASF26
  432 0158 00       		.byte	0
  433 0159 0E       		.uleb128 0xe
- 434 015a C4010000 		.4byte	.LASF27
+ 434 015a BC010000 		.4byte	.LASF27
  435 015e 01008A00 		.4byte	0x8a0001
  436 0162 00       		.byte	0
  437 0163 0B       		.uleb128 0xb
- 438 0164 29020000 		.4byte	.LASF28
+ 438 0164 21020000 		.4byte	.LASF28
  439 0168 02       		.byte	0x2
  440 0169 6001     		.2byte	0x160
  441 016b 46010000 		.4byte	0x146
  442 016f 0F       		.uleb128 0xf
- 443 0170 FC010000 		.4byte	.LASF32
+ 443 0170 F4010000 		.4byte	.LASF32
  444 0174 02       		.byte	0x2
  445 0175 FD02     		.2byte	0x2fd
  446 0177 8D010000 		.4byte	0x18d
  447 017b 03       		.byte	0x3
  448 017c 8D010000 		.4byte	0x18d
  449 0180 10       		.uleb128 0x10
- 450 0181 9B010000 		.4byte	.LASF30
+ 450 0181 93010000 		.4byte	.LASF30
  451 0185 02       		.byte	0x2
  452 0186 FD02     		.2byte	0x2fd
  453 0188 94010000 		.4byte	0x194
@@ -1665,7 +1665,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  455 018d 02       		.uleb128 0x2
  456 018e 01       		.byte	0x1
  457 018f 02       		.byte	0x2
- 458 0190 E9030000 		.4byte	.LASF29
+ 458 0190 E1030000 		.4byte	.LASF29
  459 0194 11       		.uleb128 0x11
  460 0195 04       		.byte	0x4
  461 0196 9A010000 		.4byte	0x19a
@@ -1678,15 +1678,15 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  468 01a7 03       		.byte	0x3
  469 01a8 C5010000 		.4byte	0x1c5
  470 01ac 10       		.uleb128 0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 29
 
 
- 471 01ad 9B010000 		.4byte	.LASF30
+ 471 01ad 93010000 		.4byte	.LASF30
  472 01b1 02       		.byte	0x2
  473 01b2 B102     		.2byte	0x2b1
  474 01b4 C5010000 		.4byte	0x1c5
  475 01b8 10       		.uleb128 0x10
- 476 01b9 EC010000 		.4byte	.LASF31
+ 476 01b9 E4010000 		.4byte	.LASF31
  477 01bd 02       		.byte	0x2
  478 01be B102     		.2byte	0x2b1
  479 01c0 8C000000 		.4byte	0x8c
@@ -1695,14 +1695,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  482 01c6 04       		.byte	0x4
  483 01c7 13010000 		.4byte	0x113
  484 01cb 0F       		.uleb128 0xf
- 485 01cc 5F010000 		.4byte	.LASF33
+ 485 01cc EC000000 		.4byte	.LASF33
  486 01d0 02       		.byte	0x2
  487 01d1 A503     		.2byte	0x3a5
  488 01d3 63010000 		.4byte	0x163
  489 01d7 03       		.byte	0x3
  490 01d8 E9010000 		.4byte	0x1e9
  491 01dc 10       		.uleb128 0x10
- 492 01dd 9B010000 		.4byte	.LASF30
+ 492 01dd 93010000 		.4byte	.LASF30
  493 01e1 02       		.byte	0x2
  494 01e2 A503     		.2byte	0x3a5
  495 01e4 94010000 		.4byte	0x194
@@ -1714,12 +1714,12 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  501 01f1 03       		.byte	0x3
  502 01f2 0F020000 		.4byte	0x20f
  503 01f6 10       		.uleb128 0x10
- 504 01f7 9B010000 		.4byte	.LASF30
+ 504 01f7 93010000 		.4byte	.LASF30
  505 01fb 02       		.byte	0x2
  506 01fc 9802     		.2byte	0x298
  507 01fe C5010000 		.4byte	0x1c5
  508 0202 10       		.uleb128 0x10
- 509 0203 EC010000 		.4byte	.LASF31
+ 509 0203 E4010000 		.4byte	.LASF31
  510 0207 02       		.byte	0x2
  511 0208 9802     		.2byte	0x298
  512 020a 8C000000 		.4byte	0x8c
@@ -1731,34 +1731,34 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  518 0217 03       		.byte	0x3
  519 0218 35020000 		.4byte	0x235
  520 021c 10       		.uleb128 0x10
- 521 021d 9B010000 		.4byte	.LASF30
+ 521 021d 93010000 		.4byte	.LASF30
  522 0221 02       		.byte	0x2
  523 0222 CA02     		.2byte	0x2ca
  524 0224 C5010000 		.4byte	0x1c5
  525 0228 10       		.uleb128 0x10
- 526 0229 91010000 		.4byte	.LASF37
+ 526 0229 89010000 		.4byte	.LASF37
  527 022d 02       		.byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 30
 
 
  528 022e CA02     		.2byte	0x2ca
  529 0230 8C000000 		.4byte	0x8c
  530 0234 00       		.byte	0
  531 0235 0F       		.uleb128 0xf
- 532 0236 A2020000 		.4byte	.LASF38
+ 532 0236 9A020000 		.4byte	.LASF38
  533 023a 02       		.byte	0x2
  534 023b E202     		.2byte	0x2e2
  535 023d 8C000000 		.4byte	0x8c
  536 0241 03       		.byte	0x3
  537 0242 53020000 		.4byte	0x253
  538 0246 10       		.uleb128 0x10
- 539 0247 9B010000 		.4byte	.LASF30
+ 539 0247 93010000 		.4byte	.LASF30
  540 024b 02       		.byte	0x2
  541 024c E202     		.2byte	0x2e2
  542 024e 94010000 		.4byte	0x194
  543 0252 00       		.byte	0
  544 0253 13       		.uleb128 0x13
- 545 0254 AD030000 		.4byte	.LASF40
+ 545 0254 A5030000 		.4byte	.LASF40
  546 0258 01       		.byte	0x1
  547 0259 2E       		.byte	0x2e
  548 025a 63010000 		.4byte	0x163
@@ -1768,7 +1768,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  552 0267 9C       		.byte	0x9c
  553 0268 F3020000 		.4byte	0x2f3
  554 026c 14       		.uleb128 0x14
- 555 026d 9B010000 		.4byte	.LASF30
+ 555 026d 93010000 		.4byte	.LASF30
  556 0271 01       		.byte	0x1
  557 0272 2E       		.byte	0x2e
  558 0273 C5010000 		.4byte	0x1c5
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  582 02b5 00       		.byte	0
  583 02b6 18       		.uleb128 0x18
  584 02b7 9F010000 		.4byte	0x19f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 31
 
 
  585 02bb 0C000000 		.4byte	.LBB18
@@ -1830,7 +1830,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  611 02f1 00       		.byte	0
  612 02f2 00       		.byte	0
  613 02f3 13       		.uleb128 0x13
- 614 02f4 AD010000 		.4byte	.LASF41
+ 614 02f4 A5010000 		.4byte	.LASF41
  615 02f8 01       		.byte	0x1
  616 02f9 61       		.byte	0x61
  617 02fa 63010000 		.4byte	0x163
@@ -1840,13 +1840,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  621 0307 9C       		.byte	0x9c
  622 0308 C8030000 		.4byte	0x3c8
  623 030c 14       		.uleb128 0x14
- 624 030d 9B010000 		.4byte	.LASF30
+ 624 030d 93010000 		.4byte	.LASF30
  625 0311 01       		.byte	0x1
  626 0312 61       		.byte	0x61
  627 0313 C5010000 		.4byte	0x1c5
  628 0317 CE000000 		.4byte	.LLST6
  629 031b 14       		.uleb128 0x14
- 630 031c EC010000 		.4byte	.LASF31
+ 630 031c E4010000 		.4byte	.LASF31
  631 0320 01       		.byte	0x1
  632 0321 61       		.byte	0x61
  633 0322 8C000000 		.4byte	0x8c
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  639 0331 8C000000 		.4byte	0x8c
  640 0335 2E010000 		.4byte	.LLST8
  641 0339 15       		.uleb128 0x15
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 32
 
 
  642 033a 00000000 		.4byte	.LASF43
@@ -1918,14 +1918,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  696 03c1 03       		.uleb128 0x3
  697 03c2 0A       		.byte	0xa
  698 03c3 9A02     		.2byte	0x29a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 33
 
 
  699 03c5 00       		.byte	0
  700 03c6 00       		.byte	0
  701 03c7 00       		.byte	0
  702 03c8 13       		.uleb128 0x13
- 703 03c9 C5020000 		.4byte	.LASF44
+ 703 03c9 BD020000 		.4byte	.LASF44
  704 03cd 01       		.byte	0x1
  705 03ce 95       		.byte	0x95
  706 03cf 63010000 		.4byte	0x163
@@ -1935,7 +1935,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  710 03dc 9C       		.byte	0x9c
  711 03dd 62040000 		.4byte	0x462
  712 03e1 14       		.uleb128 0x14
- 713 03e2 9B010000 		.4byte	.LASF30
+ 713 03e2 93010000 		.4byte	.LASF30
  714 03e6 01       		.byte	0x1
  715 03e7 95       		.byte	0x95
  716 03e8 94010000 		.4byte	0x194
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  753 0449 10000000 		.4byte	.LVL25
  754 044d 79040000 		.4byte	0x479
  755 0451 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 34
 
 
  756 0452 01       		.uleb128 0x1
@@ -1998,15 +1998,15 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  770 0463 04       		.byte	0x4
  771 0464 8C000000 		.4byte	0x8c
  772 0468 1B       		.uleb128 0x1b
- 773 0469 44010000 		.4byte	.LASF48
+ 773 0469 D1000000 		.4byte	.LASF48
  774 046d 07       		.byte	0x7
  775 046e EA07     		.2byte	0x7ea
  776 0470 74040000 		.4byte	0x474
  777 0474 05       		.uleb128 0x5
  778 0475 81000000 		.4byte	0x81
  779 0479 1C       		.uleb128 0x1c
- 780 047a CB030000 		.4byte	.LASF49
- 781 047e CB030000 		.4byte	.LASF49
+ 780 047a C3030000 		.4byte	.LASF49
+ 781 047e C3030000 		.4byte	.LASF49
  782 0482 06       		.byte	0x6
  783 0483 2A03     		.2byte	0x32a
  784 0485 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  810 0017 0B       		.uleb128 0xb
  811 0018 3E       		.uleb128 0x3e
  812 0019 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 35
 
 
  813 001a 03       		.uleb128 0x3
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  867 0050 49       		.uleb128 0x49
  868 0051 13       		.uleb128 0x13
  869 0052 2F       		.uleb128 0x2f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 36
 
 
  870 0053 0B       		.uleb128 0xb
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  924 0089 05       		.uleb128 0x5
  925 008a 01       		.uleb128 0x1
  926 008b 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 37
 
 
  927 008c 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  981 00c2 00       		.byte	0
  982 00c3 0B       		.uleb128 0xb
  983 00c4 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 38
 
 
  984 00c5 49       		.uleb128 0x49
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1038 00fc 0B       		.uleb128 0xb
  1039 00fd 3B       		.uleb128 0x3b
  1040 00fe 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 39
 
 
  1041 00ff 49       		.uleb128 0x49
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1095 0135 12       		.uleb128 0x12
  1096 0136 06       		.uleb128 0x6
  1097 0137 58       		.uleb128 0x58
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 40
 
 
  1098 0138 0B       		.uleb128 0xb
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1152 0173 05       		.uleb128 0x5
  1153 0174 00       		.byte	0
  1154 0175 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 41
 
 
  1155 0176 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1209 0083 04000000 		.4byte	.LVL2
  1210 0087 0100     		.2byte	0x1
  1211 0089 50       		.byte	0x50
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 42
 
 
  1212 008a 00000000 		.4byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1266 011a 55       		.byte	0x55
  1267 011b 2E000000 		.4byte	.LVL20
  1268 011f 3C000000 		.4byte	.LFE145
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 43
 
 
  1269 0123 0100     		.2byte	0x1
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1323 01ae 00000000 		.4byte	0
  1324              	.LLST13:
  1325 01b2 16000000 		.4byte	.LVL14
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 44
 
 
  1326 01b6 1C000000 		.4byte	.LVL15
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1380 0245 55       		.byte	0x55
  1381 0246 22000000 		.4byte	.LVL32
  1382 024a 2C000000 		.4byte	.LFE146
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 45
 
 
  1383 024e 0400     		.2byte	0x4
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1437 000c 3C000000 		.4byte	.LFE145
  1438 0010 00000000 		.4byte	.LFB146
  1439 0014 2C000000 		.4byte	.LFE146
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 46
 
 
  1440 0018 00000000 		.4byte	0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1465              	.LASF23:
  1466 0092 666C6F61 		.ascii	"float\000"
  1466      7400
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 47
 
 
  1467              	.LASF0:
@@ -2768,221 +2768,219 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 1
  1469              	.LASF15:
  1470 00a4 52454C45 		.ascii	"RELEASE\000"
  1470      41534500 
- 1471              	.LASF47:
- 1472 00ac 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW_projekt\\projekt_sm"
- 1472      73657273 
- 1472      5C726F62 
- 1472      65725C44 
- 1472      65736B74 
- 1473 00da 69775C43 		.ascii	"iw\\CE223727_EmWin_EInk_Display01\\CE223727_EmWin_E"
- 1473      45323233 
- 1473      3732375F 
- 1473      456D5769 
- 1473      6E5F4549 
- 1474 010b 496E6B5F 		.ascii	"Ink_Display01.cydsn\000"
- 1474      44697370 
- 1474      6C617930 
- 1474      312E6379 
- 1474      64736E00 
- 1475              	.LASF7:
- 1476 011f 6C6F6E67 		.ascii	"long unsigned int\000"
- 1476      20756E73 
- 1476      69676E65 
- 1476      6420696E 
- 1476      7400
- 1477              	.LASF3:
- 1478 0131 73686F72 		.ascii	"short unsigned int\000"
- 1478      7420756E 
- 1478      7369676E 
- 1478      65642069 
- 1478      6E7400
- 1479              	.LASF48:
- 1480 0144 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1480      52784275 
- 1480      66666572 
- 1480      00
- 1481              	.LASF1:
- 1482 0151 756E7369 		.ascii	"unsigned char\000"
- 1482      676E6564 
- 1482      20636861 
- 1482      7200
- 1483              	.LASF33:
- 1484 015f 43795F49 		.ascii	"Cy_IPC_Drv_LockAcquire\000"
- 1484      50435F44 
- 1484      72765F4C 
- 1484      6F636B41 
- 1484      63717569 
- 1485              	.LASF24:
- 1486 0176 646F7562 		.ascii	"double\000"
- 1486      6C6500
- 1487              	.LASF19:
- 1488 017d 52455345 		.ascii	"RESERVED\000"
- 1488      52564544 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 48
+ 1471              	.LASF7:
+ 1472 00ac 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1472      20756E73 
+ 1472      69676E65 
+ 1472      6420696E 
+ 1472      7400
+ 1473              	.LASF3:
+ 1474 00be 73686F72 		.ascii	"short unsigned int\000"
+ 1474      7420756E 
+ 1474      7369676E 
+ 1474      65642069 
+ 1474      6E7400
+ 1475              	.LASF48:
+ 1476 00d1 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1476      52784275 
+ 1476      66666572 
+ 1476      00
+ 1477              	.LASF1:
+ 1478 00de 756E7369 		.ascii	"unsigned char\000"
+ 1478      676E6564 
+ 1478      20636861 
+ 1478      7200
+ 1479              	.LASF33:
+ 1480 00ec 43795F49 		.ascii	"Cy_IPC_Drv_LockAcquire\000"
+ 1480      50435F44 
+ 1480      72765F4C 
+ 1480      6F636B41 
+ 1480      63717569 
+ 1481              	.LASF24:
+ 1482 0103 646F7562 		.ascii	"double\000"
+ 1482      6C6500
+ 1483              	.LASF19:
+ 1484 010a 52455345 		.ascii	"RESERVED\000"
+ 1484      52564544 
+ 1484      00
+ 1485              	.LASF6:
+ 1486 0113 5F5F7569 		.ascii	"__uint32_t\000"
+ 1486      6E743332 
+ 1486      5F7400
+ 1487              	.LASF47:
+ 1488 011e 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 1488      73657273 
+ 1488      5C726F62 
+ 1488      65725C44 
+ 1488      65736B74 
+ 1489 014b 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 1489      5F456D57 
+ 1489      696E5F45 
+ 1489      496E6B5F 
+ 1489      44697370 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 48
 
 
- 1488      00
- 1489              	.LASF6:
- 1490 0186 5F5F7569 		.ascii	"__uint32_t\000"
- 1490      6E743332 
- 1490      5F7400
+ 1490 017d 6C617930 		.ascii	"lay01.cydsn\000"
+ 1490      312E6379 
+ 1490      64736E00 
  1491              	.LASF37:
- 1492 0191 64617461 		.ascii	"dataValue\000"
+ 1492 0189 64617461 		.ascii	"dataValue\000"
  1492      56616C75 
  1492      6500
  1493              	.LASF30:
- 1494 019b 62617365 		.ascii	"base\000"
+ 1494 0193 62617365 		.ascii	"base\000"
  1494      00
  1495              	.LASF10:
- 1496 01a0 756E7369 		.ascii	"unsigned int\000"
+ 1496 0198 756E7369 		.ascii	"unsigned int\000"
  1496      676E6564 
  1496      20696E74 
  1496      00
  1497              	.LASF41:
- 1498 01ad 43795F49 		.ascii	"Cy_IPC_Drv_SendMsgWord\000"
+ 1498 01a5 43795F49 		.ascii	"Cy_IPC_Drv_SendMsgWord\000"
  1498      50435F44 
  1498      72765F53 
  1498      656E644D 
  1498      7367576F 
  1499              	.LASF27:
- 1500 01c4 43595F49 		.ascii	"CY_IPC_DRV_ERROR\000"
+ 1500 01bc 43595F49 		.ascii	"CY_IPC_DRV_ERROR\000"
  1500      50435F44 
  1500      52565F45 
  1500      52524F52 
  1500      00
  1501              	.LASF9:
- 1502 01d5 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1502 01cd 6C6F6E67 		.ascii	"long long unsigned int\000"
  1502      206C6F6E 
  1502      6720756E 
  1502      7369676E 
  1502      65642069 
  1503              	.LASF31:
- 1504 01ec 6E6F7469 		.ascii	"notifyEventIntr\000"
+ 1504 01e4 6E6F7469 		.ascii	"notifyEventIntr\000"
  1504      66794576 
  1504      656E7449 
  1504      6E747200 
  1505              	.LASF32:
- 1506 01fc 43795F49 		.ascii	"Cy_IPC_Drv_IsLockAcquired\000"
+ 1506 01f4 43795F49 		.ascii	"Cy_IPC_Drv_IsLockAcquired\000"
  1506      50435F44 
  1506      72765F49 
  1506      734C6F63 
  1506      6B416371 
  1507              	.LASF26:
- 1508 0216 43595F49 		.ascii	"CY_IPC_DRV_SUCCESS\000"
+ 1508 020e 43595F49 		.ascii	"CY_IPC_DRV_SUCCESS\000"
  1508      50435F44 
  1508      52565F53 
  1508      55434345 
  1508      535300
  1509              	.LASF28:
- 1510 0229 63795F65 		.ascii	"cy_en_ipcdrv_status_t\000"
+ 1510 0221 63795F65 		.ascii	"cy_en_ipcdrv_status_t\000"
  1510      6E5F6970 
  1510      63647276 
  1510      5F737461 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 49
-
-
  1510      7475735F 
  1511              	.LASF11:
- 1512 023f 696E7433 		.ascii	"int32_t\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 49
+
+
+ 1512 0237 696E7433 		.ascii	"int32_t\000"
  1512      325F7400 
  1513              	.LASF13:
- 1514 0247 73697A65 		.ascii	"sizetype\000"
+ 1514 023f 73697A65 		.ascii	"sizetype\000"
  1514      74797065 
  1514      00
  1515              	.LASF8:
- 1516 0250 6C6F6E67 		.ascii	"long long int\000"
+ 1516 0248 6C6F6E67 		.ascii	"long long int\000"
  1516      206C6F6E 
  1516      6720696E 
  1516      7400
  1517              	.LASF22:
- 1518 025e 63686172 		.ascii	"char\000"
+ 1518 0256 63686172 		.ascii	"char\000"
  1518      00
  1519              	.LASF46:
- 1520 0263 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\"
+ 1520 025b 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\"
  1520      72617465 
  1520      645F536F 
  1520      75726365 
  1520      5C50536F 
- 1521 0291 6970635C 		.ascii	"ipc\\cy_ipc_drv.c\000"
+ 1521 0289 6970635C 		.ascii	"ipc\\cy_ipc_drv.c\000"
  1521      63795F69 
  1521      70635F64 
  1521      72762E63 
  1521      00
  1522              	.LASF38:
- 1523 02a2 43795F49 		.ascii	"Cy_IPC_Drv_ReadDataValue\000"
+ 1523 029a 43795F49 		.ascii	"Cy_IPC_Drv_ReadDataValue\000"
  1523      50435F44 
  1523      72765F52 
  1523      65616444 
  1523      61746156 
  1524              	.LASF2:
- 1525 02bb 73686F72 		.ascii	"short int\000"
+ 1525 02b3 73686F72 		.ascii	"short int\000"
  1525      7420696E 
  1525      7400
  1526              	.LASF44:
- 1527 02c5 43795F49 		.ascii	"Cy_IPC_Drv_ReadMsgWord\000"
+ 1527 02bd 43795F49 		.ascii	"Cy_IPC_Drv_ReadMsgWord\000"
  1527      50435F44 
  1527      72765F52 
  1527      6561644D 
  1527      7367576F 
  1528              	.LASF45:
- 1529 02dc 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1529 02d4 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  1529      43313120 
  1529      352E342E 
  1529      31203230 
  1529      31363036 
- 1530 030f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 1530 0307 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
  1530      20726576 
  1530      6973696F 
  1530      6E203233 
  1530      37373135 
- 1531 0342 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 1531 033a 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
  1531      70202D6D 
  1531      6670753D 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccSvjdYC.s 			page 50
-
-
  1531      66707634 
  1531      2D73702D 
- 1532 0375 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cc5JPVKf.s 			page 50
+
+
+ 1532 036d 65637469 		.ascii	"ections -ffat-lto-objects\000"
  1532      6F6E7320 
  1532      2D666661 
  1532      742D6C74 
  1532      6F2D6F62 
  1533              	.LASF12:
- 1534 038f 75696E74 		.ascii	"uint32_t\000"
+ 1534 0387 75696E74 		.ascii	"uint32_t\000"
  1534      33325F74 
  1534      00
  1535              	.LASF4:
- 1536 0398 6C6F6E67 		.ascii	"long int\000"
+ 1536 0390 6C6F6E67 		.ascii	"long int\000"
  1536      20696E74 
  1536      00
  1537              	.LASF25:
- 1538 03a1 6C6F6E67 		.ascii	"long double\000"
+ 1538 0399 6C6F6E67 		.ascii	"long double\000"
  1538      20646F75 
  1538      626C6500 
  1539              	.LASF40:
- 1540 03ad 43795F49 		.ascii	"Cy_IPC_Drv_LockRelease\000"
+ 1540 03a5 43795F49 		.ascii	"Cy_IPC_Drv_LockRelease\000"
  1540      50435F44 
  1540      72765F4C 
  1540      6F636B52 
  1540      656C6561 
  1541              	.LASF16:
- 1542 03c4 4E4F5449 		.ascii	"NOTIFY\000"
+ 1542 03bc 4E4F5449 		.ascii	"NOTIFY\000"
  1542      465900
  1543              	.LASF49:
- 1544 03cb 43795F53 		.ascii	"Cy_SysLib_AssertFailed\000"
+ 1544 03c3 43795F53 		.ascii	"Cy_SysLib_AssertFailed\000"
  1544      79734C69 
  1544      625F4173 
  1544      73657274 
  1544      4661696C 
  1545              	.LASF21:
- 1546 03e2 63686172 		.ascii	"char_t\000"
+ 1546 03da 63686172 		.ascii	"char_t\000"
  1546      5F7400
  1547              	.LASF29:
- 1548 03e9 5F426F6F 		.ascii	"_Bool\000"
+ 1548 03e1 5F426F6F 		.ascii	"_Bool\000"
  1548      6C00
  1549              	.LASF20:
- 1550 03ef 4950435F 		.ascii	"IPC_STRUCT_Type\000"
+ 1550 03e7 4950435F 		.ascii	"IPC_STRUCT_Type\000"
  1550      53545255 
  1550      43545F54 
  1550      79706500 

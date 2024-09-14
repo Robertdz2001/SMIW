@@ -243,11 +243,6 @@ void ShowGraph_WithUpdate(void)
 {
     ClearScreen();
     
-    for (int i = 0; i < dataSize; i++) {
-        data[i].temperature = table_data[which_data_table].data[i].temperature;
-        data[i].time = table_data[which_data_table].data[i].time;
-    }
-    
     /* Define axis labels and ticks */
     char xAxisLabels[8][6] = {"0", "60", "120", "180", "240", "300", "360", "420"};
     char yAxisLabels[6][4] = {"0", "60", "120", "180", "240", "300"};
@@ -275,6 +270,45 @@ void ShowGraph_WithUpdate(void)
     maxTimeInGraph = data[dataSize-1].time;
     programStarted = true;
 }
+
+void ShowGraph(void) { 
+    ClearScreen();
+    
+    /* Set font size, foreground and background colors */
+    GUI_SetColor(GUI_BLACK);
+    GUI_SetBkColor(GUI_WHITE);
+    GUI_SetTextMode(GUI_TM_NORMAL);
+    GUI_SetTextStyle(GUI_TS_NORMAL);
+    
+    char xAxisLabels[8][6] = {"0", "60", "120", "180", "240", "300", "360", "420"};
+    char yAxisLabels[6][4] = {"0", "60", "120", "180", "240", "300"};
+    int xAxisTicks[8] = {30, 60, 90, 120, 150, 180, 210, 240};
+    int yAxisTicks[6] = {20, 50, 80, 110, 140, 170};
+        GUI_ClearRect(10, 20, 254, 150);  // Clear the area where the graph will be drawn
+    
+    /* Draw X and Y axis */
+    GUI_DrawLine(30, 20, 30, 170); // Y axis
+    GUI_DrawLine(30, 150, 250, 150); // X axis
+
+    /* Draw axis labels and ticks */
+    for (int i = 0; i < 8; i++) {
+        GUI_DrawLine(xAxisTicks[i], 150, xAxisTicks[i], 155);
+        GUI_DispStringAt(xAxisLabels[i], xAxisTicks[i] - 10, 155);
+    }
+  
+    for (int i = 0; i < 6; i++) {
+        GUI_DrawLine(25, 170 - yAxisTicks[i], 30, 170 - yAxisTicks[i]);
+        GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
+    }
+    
+    for (int i = 1; i < dataSize; i++)
+    {
+        GUI_DrawLine(data[i - 1].time / 2 + 30, 150 - data[i - 1].temperature/2, data[i].time / 2 + 30, 150 - data[i].temperature/2);
+    }
+    /* Update the display */
+    UpdateDisplay(CY_EINK_PARTIAL, true);
+}
+
 
 void ShowTable(void)
 {
@@ -342,11 +376,13 @@ void AddNew()
     GUI_DispStringAt("Add temperature points", 132, 5);
     
     int currentTemp = 25; // Początkowa wartość temperatury
+    int currentTime = 0; // Początkowa wartość czasu
     char tempBuffer[32];   // Bufor na string wyświetlający temperaturę
+    char timeBuffer[32];   // Bufor na string wyświetlający czas
     int currentIndex = 1;  // Bieżący indeks w tablicy data[]
     
     data[0].temperature = currentTemp;
-    data[0].time = 0;
+    data[0].time = currentTime;
     
     // Wyświetlenie początkowej temperatury
     sprintf(tempBuffer, "Current Temperature: %dC", currentTemp);
@@ -358,27 +394,24 @@ void AddNew()
     while (currentIndex < 6)
     {
         bool btn1_Pressed = false;
-        bool btn2_Pressed = false;
+        bool btn3_Pressed = false;
 
         // Sprawdzanie stanu przycisków w pętli
-        while (Status_SW2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
+        while (Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
         
         // Sprawdzenie czy SW2 został wciśnięty
-        while (Status_SW2_Read() == 0)
+        while (Status_SW2_Read() == 0 || Status_Button2_Read() == 0)
         {
-            btn1_Pressed = true;  // Przycisk został wciśnięty
-        }
-        
-        // Sprawdzenie czy Button2 został wciśnięty
-        while (Status_Button3_Read() == 0)
-        {
-            btn2_Pressed = true;  // Przycisk został wciśnięty
-        }
-
-        // Jeśli SW2 został wciśnięty i puszczony, zwiększ temperaturę
-        if (btn1_Pressed)
-        {
-            currentTemp++;  // Zwiększenie temperatury o 1
+            if(Status_SW2_Read() == 0){
+                currentTemp++;
+            }
+            else {
+                currentTemp += 10;
+            }
+            
+            if(currentTemp >= 300) {
+                currentTemp = 25;
+            }
 
             // Aktualizacja wyświetlanej wartości temperatury
             GUI_ClearRect(10, 30, 200, 50);  // Wyczyść poprzednią wartość temperatury
@@ -386,15 +419,21 @@ void AddNew()
             GUI_DispStringAt(tempBuffer, 10, 30);  // Wyświetlenie nowej wartości temperatury
             UpdateDisplay(CY_EINK_PARTIAL, true);
         }
+        
+        // Sprawdzenie czy Button2 został wciśnięty
+        while (Status_Button3_Read() == 0)
+        {
+            btn3_Pressed = true;  // Przycisk został wciśnięty
+        }
 
         // Jeśli Button2 został wciśnięty i puszczony, dodaj temperaturę do tablicy
-        if (btn2_Pressed)
+        if (btn3_Pressed)
         {
             data[currentIndex].temperature = currentTemp; // Zapis temperatury do tablicy
             data[currentIndex].time = currentIndex * 5;   // Przykładowo ustawiamy czas jako indeks * 5
 
             // Wyświetlenie informacji o dodanej temperaturze
-            sprintf(tempBuffer, "Added Temp %d: %dC", currentIndex + 1, currentTemp);
+            sprintf(tempBuffer, "Added Temp %d: %dC", currentIndex, currentTemp);
             GUI_DispStringAt(tempBuffer, 10, 50 + (currentIndex * 20)); // Wyświetlenie na ekranie w różnych miejscach
 
             currentIndex++;  // Przejdź do kolejnego indeksu tablicy
@@ -408,6 +447,130 @@ void AddNew()
             GUI_DispStringAt(tempBuffer, 10, 30);  // Wyświetlenie nowej wartości temperatury
             UpdateDisplay(CY_EINK_PARTIAL, true);
         }
+    }
+    
+    ClearScreen();
+    
+    /* Set font size, foreground and background colors */
+    GUI_SetColor(GUI_BLACK);
+    GUI_SetBkColor(GUI_WHITE);
+    GUI_SetTextMode(GUI_TM_NORMAL);
+    GUI_SetTextStyle(GUI_TS_NORMAL);
+
+    /* Clear the screen */
+    GUI_Clear();
+    
+    /* Display page title */
+    GUI_SetFont(GUI_FONT_13B_1);
+    GUI_SetTextAlign(GUI_TA_HCENTER);
+    GUI_DispStringAt("Add time points", 132, 5);
+    
+    sprintf(timeBuffer, "Current Time: %ds", currentTime + 1);
+    GUI_DispStringAt(timeBuffer, 10, 30);
+    UpdateDisplay(CY_EINK_PARTIAL, true);
+    
+    currentIndex = 1;
+    int lastCurrentTime = currentTime;
+    
+    while (currentIndex < 6)
+    {
+        bool btn1_Pressed = false;
+        bool btn3_Pressed = false;
+        
+        if(currentTime == lastCurrentTime) {
+            currentTime = lastCurrentTime + 1;
+        }
+
+        // Sprawdzanie stanu przycisków w pętli
+        while (Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
+        
+        // Sprawdzenie czy SW2 został wciśnięty
+        while (Status_SW2_Read() == 0 || Status_Button2_Read() == 0)
+        {
+            if(Status_SW2_Read() == 0){
+                currentTime++;
+            }
+            else {
+                currentTime += 10;
+            }
+            
+            if(currentTime >= 400) {
+                currentTime = lastCurrentTime + 1;
+            }
+
+            // Aktualizacja wyświetlanej wartości czasu
+            GUI_ClearRect(10, 30, 200, 50);  // Wyczyść poprzednią wartość czasu
+            sprintf(timeBuffer, "Current Time: %ds", currentTime);
+            GUI_DispStringAt(timeBuffer, 10, 30);  // Wyświetlenie nowej wartości czasu
+            UpdateDisplay(CY_EINK_PARTIAL, true);
+        }
+        
+        // Sprawdzenie czy Button3 został wciśnięty
+        while (Status_Button3_Read() == 0)
+        {
+            btn3_Pressed = true;  // Przycisk został wciśnięty
+        }
+
+        // Jeśli Button2 został wciśnięty i puszczony, dodaj czas do tablicy
+        if (btn3_Pressed)
+        {
+            data[currentIndex].time = currentTime;
+            lastCurrentTime = currentTime;
+
+            // Wyświetlenie informacji o dodanym czasie
+            sprintf(timeBuffer, "Added Time %d: %ds", currentIndex, currentTime);
+            GUI_DispStringAt(timeBuffer, 10, 50 + (currentIndex * 20)); // Wyświetlenie na ekranie w różnych miejscach
+
+            currentIndex++;  // Przejdź do kolejnego indeksu tablicy
+
+            // Aktualizacja wyświetlanej wartości czasu
+            GUI_ClearRect(10, 30, 200, 50);  // Wyczyść poprzednią wartość czasu
+            sprintf(timeBuffer, "Current Time: %ds", currentTime);
+            GUI_DispStringAt(timeBuffer, 10, 30);  // Wyświetlenie nowej wartości czasu
+            UpdateDisplay(CY_EINK_PARTIAL, true);
+        }
+    }
+    
+    ClearScreen();
+    
+    /* Set font size, foreground and background colors */
+    GUI_SetColor(GUI_BLACK);
+    GUI_SetBkColor(GUI_WHITE);
+    GUI_SetTextMode(GUI_TM_NORMAL);
+    GUI_SetTextStyle(GUI_TS_NORMAL);
+
+    /* Clear the screen */
+    GUI_Clear();
+    
+    /* Display page title */
+    GUI_SetFont(GUI_FONT_13B_1);
+    GUI_SetTextAlign(GUI_TA_HCENTER);
+    GUI_DispStringAt("Click one to start, click two to break.", 132, 5);
+    UpdateDisplay(CY_EINK_PARTIAL, true);
+    
+    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0);
+    
+    bool btn1_Pressed = false;
+    bool btn2_Pressed = false;
+    
+    while(Status_SW2_Read() == 0)
+    {
+        btn1_Pressed = true;
+    }
+    while (Status_Button2_Read() == 0)
+    {
+        btn2_Pressed = true;
+    }
+    
+    if(btn1_Pressed)
+    {
+        modeSwitch = 1;
+        which_data_table = 0;
+    }
+    else if(btn2_Pressed)
+    {
+        modeSwitch = 0;
+        which_data_table = 0;
     }
 }
 
@@ -535,7 +698,8 @@ int main(void)
                 WaitforSwitchPressAndRelease();
             }
             else if (modeSwitch == 1){
-                ShowGraph_WithUpdate();
+                //ShowGraph_WithUpdate();
+                ShowGraph();
                 WaitforSwitchPressAndRelease();
             }
             else if (modeSwitch == 2){

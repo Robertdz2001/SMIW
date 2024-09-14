@@ -1,10 +1,10 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2024-09-11T22:30:23Z")
+ (DATE "2024-09-14T11:22:20Z")
  (DESIGN "CE223727_EmWin_EInk_Display01")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
- (VERSION " 4.4")
+ (VERSION " 4.2")
  (DIVIDER .)
  (TIMESCALE 1 ns)
  (CELL

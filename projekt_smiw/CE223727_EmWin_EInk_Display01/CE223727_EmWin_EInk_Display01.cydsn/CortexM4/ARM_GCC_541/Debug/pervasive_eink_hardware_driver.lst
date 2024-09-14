@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
   27:eInk Library/pervasive_eink_hardware_driver.c **** *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
   28:eInk Library/pervasive_eink_hardware_driver.c **** *  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   29:eInk Library/pervasive_eink_hardware_driver.c **** *******************************************************************************/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 2
 
 
   30:eInk Library/pervasive_eink_hardware_driver.c **** /******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
   84:eInk Library/pervasive_eink_hardware_driver.c **** driver_data_packet_t  static driverPacket;
   85:eInk Library/pervasive_eink_hardware_driver.c **** 
   86:eInk Library/pervasive_eink_hardware_driver.c **** /* Scan table for the four stages of display update*/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 3
 
 
   87:eInk Library/pervasive_eink_hardware_driver.c **** uint8_t const               scanTable[PV_EINK_SCAN_TABLE_SIZE] =
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
   47              	.LBB59:
   48              		.file 2 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/gpio/cy_gpio.h"
    1:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /***************************************************************************//**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 4
 
 
    2:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \file cy_gpio.h
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
   56:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * 
   57:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * - Port output data register
   58:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * - Port output data set register
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 5
 
 
   59:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * - Port output data clear register
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  113:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   \defgroup group_gpio_functions_gpio       GPIO Functions
  114:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   \defgroup group_gpio_functions_sio        SIO Functions
  115:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   \defgroup group_gpio_functions_interrupt  Port Interrupt Functions
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 6
 
 
  116:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \}
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  170:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** ***************************************/
  171:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  172:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 7
 
 
  173:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \addtogroup group_gpio_data_structures
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  227:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_STATUS_MASK               (0x01UL)   /**< Single pin mask for interrupt status
  228:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_EN_MASK                   (0x01UL)   /**< Single pin mask for interrupt status
  229:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_MASKED_MASK               (0x01UL)   /**< Single pin mask for masked interrupt
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 8
 
 
  230:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_INTR_SET_MASK                  (0x01UL)   /**< Single pin mask for setting the inte
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  284:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 (CY_GPIO_INTR_RISING   == (intEdge)) || \
  285:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 (CY_GPIO_INTR_FALLING  == (intEdge)) || \
  286:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 (CY_GPIO_INTR_BOTH     == (intEdge)))
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 9
 
 
  287:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  341:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DM_STRONG                      (0x0EUL) /**< \brief Strong Drive. Input buffer on *
  342:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DM_PULLUP_DOWN                 (0x0FUL) /**< \brief Resistive Pull-Up/Down. Input b
  343:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 10
 
 
  344:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  398:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
  399:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_IBUF_SINGLEENDED                (0x00UL) /**< \brief Single ended input buffer */
  400:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_SIO_IBUF_DIFFERENTIAL               (0x01UL) /**< \brief Differential input buffer */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 11
 
 
  401:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  455:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  456:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** cy_en_gpio_status_t Cy_GPIO_Pin_Init(GPIO_PRT_Type* base, uint32_t pinNum, const cy_stc_gpio_pin_co
  457:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** cy_en_gpio_status_t Cy_GPIO_Port_Init(GPIO_PRT_Type* base, const cy_stc_gpio_prt_config_t *config);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 12
 
 
  458:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** void Cy_GPIO_Pin_FastInit(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t driveMode, uint32_t outVal
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  512:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_ClearInterrupt(GPIO_PRT_Type* base, uint32_t pinNum);
  513:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetInterruptMask(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value)
  514:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetInterruptMask(GPIO_PRT_Type* base, uint32_t pinNum);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 13
 
 
  515:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetInterruptStatusMasked(GPIO_PRT_Type* base, uint32_t pinNum);
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  569:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * not thread safe as the resource is shared among multiple pins on a port.
  570:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  571:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \funcusage
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 14
 
 
  572:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \snippet gpio/gpio_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_GPIO_SetHSIOM
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  626:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     CY_ASSERT_L2(CY_GPIO_IS_PIN_VALID(pinNum));
  627:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  628:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     portNum = ((uint32_t)(base) - GPIO_BASE) / GPIO_PRT_SECTION_SIZE;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 15
 
 
  629:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     portAddrHSIOM = (HSIOM_PRT_Type*)(HSIOM_BASE + (HSIOM_PRT_SECTION_SIZE * portNum));
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  683:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
  684:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \addtogroup group_gpio_functions_gpio
  685:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 16
 
 
  686:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  740:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *******************************************************************************/
  741:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_Write(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value)
  742:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 17
 
 
  743:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     CY_ASSERT_L2(CY_GPIO_IS_PIN_VALID(pinNum));
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  135:eInk Library/pervasive_eink_hardware_driver.c ****     /* Pull the chip select line LOW to begin communication */
  136:eInk Library/pervasive_eink_hardware_driver.c ****     CY_EINK_CsLow;
  137:eInk Library/pervasive_eink_hardware_driver.c ****     
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 18
 
 
  138:eInk Library/pervasive_eink_hardware_driver.c ****     /* Send the header of data write index */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  159:eInk Library/pervasive_eink_hardware_driver.c **** * Summary: Sends a byte of data to the E-INK driver.
  160:eInk Library/pervasive_eink_hardware_driver.c **** *
  161:eInk Library/pervasive_eink_hardware_driver.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 19
 
 
  162:eInk Library/pervasive_eink_hardware_driver.c **** *  uint8_t regAddr: Display driver register address
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  182:eInk Library/pervasive_eink_hardware_driver.c **** *  from the driver.
  183:eInk Library/pervasive_eink_hardware_driver.c **** *
  184:eInk Library/pervasive_eink_hardware_driver.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 20
 
 
  185:eInk Library/pervasive_eink_hardware_driver.c **** *  uint8_t regAddr: Display driver register address
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  179              	.LVL20:
  180              	.LBB68:
  181              	.LBB69:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 21
 
 
  182              		.loc 2 753 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  217              		.size	Pv_EINK_ReadByte, .-Pv_EINK_ReadByte
  218              		.section	.text.Pv_EINK_Init,"ax",%progbits
  219              		.align	2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 22
 
 
  220              		.global	Pv_EINK_Init
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  255              	.LBB79:
  256 000e 1023     		movs	r3, #16
  257 0010 6360     		str	r3, [r4, #4]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 23
 
 
  258              	.LVL29:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  295 0030 00063240 		.word	1077020160
  296              		.cfi_endproc
  297              	.LFE606:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 24
 
 
  298              		.size	Pv_EINK_Init, .-Pv_EINK_Init
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  324 000e 631C     		adds	r3, r4, #1
  325 0010 2367     		str	r3, [r4, #112]
  285:eInk Library/pervasive_eink_hardware_driver.c ****     dataLineOdd  = &driverPacket.lineDataBySize.odd[0];
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 25
 
 
  326              		.loc 1 285 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  358 0044 0228     		cmp	r0, #2
  359 0046 5CD1     		bne	.L23
  307:eInk Library/pervasive_eink_hardware_driver.c ****                           PV_EINK_DRIVER_ID_COMMAND_DATA)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 26
 
 
  308:eInk Library/pervasive_eink_hardware_driver.c ****                           & PV_EINK_DRIVER_ID_MASK)
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  384 0070 0720     		movs	r0, #7
  385 0072 FFF7FEFF 		bl	Pv_EINK_SendByte
  386              	.LVL46:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 27
 
 
  338:eInk Library/pervasive_eink_hardware_driver.c ****                      PV_EINK_OSC_SETTING_COMMAND_DATA);
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  357:eInk Library/pervasive_eink_hardware_driver.c ****     /* Start the charge pump */
  358:eInk Library/pervasive_eink_hardware_driver.c ****     do
  359:eInk Library/pervasive_eink_hardware_driver.c ****     {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 28
 
 
  360:eInk Library/pervasive_eink_hardware_driver.c ****         /* Start charge pump positive voltage (VGH & VDH on) */
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  442              	.LVL58:
  371:eInk Library/pervasive_eink_hardware_driver.c ****                       PV_EINK_VCOM_DRIVE_ON_COMMAND_DATA);
  443              		.loc 1 371 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 29
 
 
  444 00c6 0F21     		movs	r1, #15
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  486 0100 10BD     		pop	{r4, pc}
  487              	.L23:
  312:eInk Library/pervasive_eink_hardware_driver.c ****     }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 30
 
 
  488              		.loc 1 312 0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  517              		.loc 1 419 0
  518              		.cfi_startproc
  519              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 31
 
 
  520              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  544              		.loc 1 449 0
  545 0020 5A22     		movs	r2, #90
  546 0022 10E0     		b	.L31
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 32
 
 
  547              	.L32:
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  587              	.LFE608:
  588              		.size	Pv_EINK_SetTempFactor, .-Pv_EINK_SetTempFactor
  589              		.section	.text.Pv_EINK_FullStageHandler,"ax",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 33
 
 
  590              		.align	2
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  612              		.cfi_offset 11, -8
  613              		.cfi_offset 14, -4
  614 0004 0646     		mov	r6, r0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 34
 
 
  615 0006 0D46     		mov	r5, r1
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  512:eInk Library/pervasive_eink_hardware_driver.c ****         
  636              		.loc 1 512 0
  637 001a FF24     		movs	r4, #255
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 35
 
 
  638              	.LVL74:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  671 0054 0630     		adds	r0, r0, #6
  672 0056 5867     		str	r0, [r3, #116]
  543:eInk Library/pervasive_eink_hardware_driver.c ****         dataLineScan = &bulkDriverPacket[y].lineDataBySize.scan[0];
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 36
 
 
  673              		.loc 1 543 0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  706              		.loc 1 564 0
  707 0084 00EB030C 		add	ip, r0, r3
  708 0088 14F0400F 		tst	r4, #64
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 37
 
 
  709 008c 01D0     		beq	.L92
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  755 00e2 0EEB020C 		add	ip, lr, r2
  756 00e6 14F0800F 		tst	r4, #128
  757 00ea 01D0     		beq	.L96
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 38
 
 
  758              		.loc 1 572 0 is_stmt 0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  806 0140 8CF80010 		strb	r1, [ip]
  579:eInk Library/pervasive_eink_hardware_driver.c ****                                         PV_EINK_BLACK3 : PV_EINK_WHITE3);
  580:eInk Library/pervasive_eink_hardware_driver.c ****                 break;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 39
 
 
  807              		.loc 1 580 0 is_stmt 1 discriminator 4
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  851 0196 01E0     		b	.L63
  852              	.L103:
  853 0198 4FF0010A 		mov	r10, #1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 40
 
 
  854              	.L63:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  900 01ee 14F0020F 		tst	r4, #2
  901 01f2 02D0     		beq	.L107
  902              		.loc 1 598 0 is_stmt 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 41
 
 
  903 01f4 6FF07F0A 		mvn	r10, #127
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  947              		.loc 1 608 0 discriminator 4
  948 0246 4AEA0101 		orr	r1, r10, r1
  949 024a 8CF80010 		strb	r1, [ip]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 42
 
 
  609:eInk Library/pervasive_eink_hardware_driver.c ****                                         PV_EINK_BLACK1 : PV_EINK_NOTHING1);
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  996              		.loc 1 616 0 discriminator 4
  997 02a4 4AEA0101 		orr	r1, r10, r1
  998 02a8 8CF80010 		strb	r1, [ip]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 43
 
 
  617:eInk Library/pervasive_eink_hardware_driver.c ****                                         PV_EINK_BLACK2 : PV_EINK_NOTHING2);
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  628:eInk Library/pervasive_eink_hardware_driver.c ****                 dataLineOdd[x]      |= ((tempByte & PV_EINK_ODD_MASK_C)  ? 
  1042              		.loc 1 628 0 is_stmt 1 discriminator 4
  1043 02f8 14F0040F 		tst	r4, #4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 44
 
 
  1044 02fc 02D0     		beq	.L118
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1092 0358 4FF00C0A 		mov	r10, #12
  1093              	.L81:
  1094              		.loc 1 634 0 discriminator 4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 45
 
 
  1095 035c 4AEA0101 		orr	r1, r10, r1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1136              		.loc 1 645 0 is_stmt 1 discriminator 2
  1137 03a2 C8F1AF03 		rsb	r3, r8, #175
  1138              	.LVL96:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 46
 
 
  1139 03a6 1BB2     		sxth	r3, r3
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  662:eInk Library/pervasive_eink_hardware_driver.c ****                           (uint8_t*) &bulkDriverPacket[y].lineBuffer,
  1174              		.loc 1 662 0 discriminator 3
  1175 03d8 C4EBC403 		rsb	r3, r4, r4, lsl #3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 47
 
 
  1176 03dc C4EB0313 		rsb	r3, r4, r3, lsl #4
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1214 0414 03000080 		.word	-2147483645
  1215 0418 00000000 		.word	.LANCHOR1
  1216 041c 00000000 		.word	bulkDriverPacket
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 48
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 48
 
 
  1217 0420 00000000 		.word	.LANCHOR0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1238              		.cfi_offset 6, -24
  1239              		.cfi_offset 7, -20
  1240              		.cfi_offset 8, -16
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 49
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 49
 
 
  1241              		.cfi_offset 9, -12
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1268 002e FFF7FEFF 		bl	memset
  1269              	.LVL117:
  736:eInk Library/pervasive_eink_hardware_driver.c ****                sizeof(bulkDriverPacket[y].lineBuffer)) ;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 50
 
 
  737:eInk Library/pervasive_eink_hardware_driver.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  759:eInk Library/pervasive_eink_hardware_driver.c ****             dataLineOdd[x]       = ((oldByte ^ newByte) & PV_EINK_ODD_MASK_A)
  1302              		.loc 1 759 0
  1303 0066 0EEB0105 		add	r5, lr, r1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 51
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 51
 
 
  1304 006a 82EA0902 		eor	r2, r2, r9
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1350 00ba 04E0     		b	.L134
  1351              	.L150:
  1352 00bc 4FF0040A 		mov	r10, #4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 52
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 52
 
 
  1353 00c0 01E0     		b	.L134
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  779:eInk Library/pervasive_eink_hardware_driver.c ****             dataLineEven[k]     |= ((oldByte ^ newByte) & PV_EINK_EVEN_MASK_B) 
  1396              		.loc 1 779 0 is_stmt 1 discriminator 8
  1397 010a 5BB2     		sxtb	r3, r3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 53
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 53
 
 
  1398 010c 12F0200F 		tst	r2, #32
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1444 0160 6FF07F02 		mvn	r2, #127
  1445 0164 03E0     		b	.L139
  1446              	.L160:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 54
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 54
 
 
  1447 0166 4022     		movs	r2, #64
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1486 0196 224A     		ldr	r2, .L163+8
  1487 0198 02FA83F3 		sxtah	r3, r2, r3
  1488 019c 1B7A     		ldrb	r3, [r3, #8]	@ zero_extendqisi2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 55
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 55
 
 
  797:eInk Library/pervasive_eink_hardware_driver.c ****                             [(scanlineNumber % PV_EINK_SCAN_TABLE_SIZE)];
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  815:eInk Library/pervasive_eink_hardware_driver.c ****             
  816:eInk Library/pervasive_eink_hardware_driver.c ****             /* Calculate the current line under scan */
  817:eInk Library/pervasive_eink_hardware_driver.c ****             scanlineNumber = PV_EINK_VERTICAL_SIZE - y;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 56
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 56
 
 
  818:eInk Library/pervasive_eink_hardware_driver.c ****             scanlineNumber--;
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1559 0202 8442     		cmp	r4, r0
  1560 0204 D2D8     		bhi	.L145
  834:eInk Library/pervasive_eink_hardware_driver.c ****     
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 57
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 57
 
 
  835:eInk Library/pervasive_eink_hardware_driver.c ****     /* Stop system timer */
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  861:eInk Library/pervasive_eink_hardware_driver.c **** {
  1589              		.loc 1 861 0
  1590              		.cfi_startproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 58
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 58
 
 
  1591              		@ args = 0, pretend = 0, frame = 0
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1628 001e A608     		lsrs	r6, r4, #2
  1629 0020 0C4D     		ldr	r5, .L171
  1630 0022 AA6F     		ldr	r2, [r5, #120]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 59
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 59
 
 
  876:eInk Library/pervasive_eink_hardware_driver.c ****                             [(byteCounter % PV_EINK_SCAN_TABLE_SIZE)];
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1668 0054 00000000 		.word	.LANCHOR0
  1669 0058 00000000 		.word	.LANCHOR1
  1670              		.cfi_endproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 60
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 60
 
 
  1671              	.LFE611:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1697 0008 094A     		ldr	r2, .L177
  1698 000a D154     		strb	r1, [r2, r3]
  915:eInk Library/pervasive_eink_hardware_driver.c ****     {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 61
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 61
 
 
  1699              		.loc 1 915 0
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  930:eInk Library/pervasive_eink_hardware_driver.c **** }
  931:eInk Library/pervasive_eink_hardware_driver.c **** 
  932:eInk Library/pervasive_eink_hardware_driver.c **** /*******************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 62
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 62
 
 
  933:eInk Library/pervasive_eink_hardware_driver.c **** * Function Name: pv_eink_status_t Pv_EINK_HardwarePowerOn()
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1770 0012 0822     		movs	r2, #8
  1771 0014 0A4B     		ldr	r3, .L181+4
  1772 0016 9A60     		str	r2, [r3, #8]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 63
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 63
 
 
  1773              	.LVL173:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1815              	.LVL180:
  968:eInk Library/pervasive_eink_hardware_driver.c ****     
  969:eInk Library/pervasive_eink_hardware_driver.c ****     /* Initialize E-INK Driver */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 64
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 64
 
 
  970:eInk Library/pervasive_eink_hardware_driver.c ****     return(Pv_EINK_InitDriver());
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1847              		.loc 1 992 0
  1848 0002 FFF7FEFF 		bl	Pv_EINK_NothingFrame
  1849              	.LVL182:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 65
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 65
 
 
  993:eInk Library/pervasive_eink_hardware_driver.c ****     Pv_EINK_DummyLine();
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
 1012:eInk Library/pervasive_eink_hardware_driver.c ****     Pv_EINK_SendByte(PV_EINK_PWR_SAVING_COMMAND_INDEX,
  1884              		.loc 1 1012 0
  1885 002c 0021     		movs	r1, #0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 66
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 66
 
 
  1886 002e 0B20     		movs	r0, #11
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1920 0064 0720     		movs	r0, #7
  1921 0066 FFF7FEFF 		bl	Pv_EINK_SendByte
  1922              	.LVL196:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 67
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 67
 
 
 1033:eInk Library/pervasive_eink_hardware_driver.c ****                      PV_EINK_OSC_OFF_COMMAND_DATA);
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  1965              	.LBB111:
  1966              		.loc 2 753 0
  1967 008a 2025     		movs	r5, #32
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 68
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 68
 
 
  1968 008c A560     		str	r5, [r4, #8]
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2011 0003 7F       		.byte	127
  2012 0004 FF       		.byte	-1
  2013 0005 FE       		.byte	-2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 69
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 69
 
 
  2014 0006 00       		.byte	0
@@ -4124,8 +4124,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2050 007e 0000     		.space	2
  2051              		.text
  2052              	.Letext0:
- 2053              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
- 2054              		.file 4 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2053              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 2054              		.file 4 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
  2055              		.file 5 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/ip/cyip_gpio.h"
  2056              		.file 6 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/syslib/cy_syslib.h"
  2057              		.file 7 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/tcpwm/cy_tcpwm_counter.h"
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2064              		.file 14 "Generated_Source\\PSoC6/PWM.h"
  2065              		.file 15 "Generated_Source\\PSoC6/Timer.h"
  2066              		.file 16 "eInk Library\\cy_eink_psoc_interface.h"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 70
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 70
 
 
  2067              		.section	.debug_info,"",%progbits
@@ -4148,10 +4148,10 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2071 0006 00000000 		.4byte	.Ldebug_abbrev0
  2072 000a 04       		.byte	0x4
  2073 000b 01       		.uleb128 0x1
- 2074 000c F4050000 		.4byte	.LASF179
+ 2074 000c 81050000 		.4byte	.LASF179
  2075 0010 0C       		.byte	0xc
- 2076 0011 88020000 		.4byte	.LASF180
- 2077 0015 22000000 		.4byte	.LASF181
+ 2076 0011 15020000 		.4byte	.LASF180
+ 2077 0015 07080000 		.4byte	.LASF181
  2078 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2079 001d 00000000 		.4byte	0
  2080 0021 00000000 		.4byte	.Ldebug_line0
@@ -4162,116 +4162,116 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2085 002c 03       		.uleb128 0x3
  2086 002d 04       		.byte	0x4
  2087 002e 07       		.byte	0x7
- 2088 002f 7B020000 		.4byte	.LASF0
+ 2088 002f 08020000 		.4byte	.LASF0
  2089 0033 03       		.uleb128 0x3
  2090 0034 08       		.byte	0x8
  2091 0035 05       		.byte	0x5
- 2092 0036 D1010000 		.4byte	.LASF1
+ 2092 0036 5E010000 		.4byte	.LASF1
  2093 003a 03       		.uleb128 0x3
  2094 003b 08       		.byte	0x8
  2095 003c 04       		.byte	0x4
- 2096 003d 69080000 		.4byte	.LASF2
+ 2096 003d FB070000 		.4byte	.LASF2
  2097 0041 04       		.uleb128 0x4
- 2098 0042 7D010000 		.4byte	.LASF4
+ 2098 0042 0A010000 		.4byte	.LASF4
  2099 0046 03       		.byte	0x3
  2100 0047 1B       		.byte	0x1b
  2101 0048 4C000000 		.4byte	0x4c
  2102 004c 03       		.uleb128 0x3
  2103 004d 01       		.byte	0x1
  2104 004e 06       		.byte	0x6
- 2105 004f E2000000 		.4byte	.LASF3
+ 2105 004f 6F000000 		.4byte	.LASF3
  2106 0053 04       		.uleb128 0x4
- 2107 0054 EE000000 		.4byte	.LASF5
+ 2107 0054 7B000000 		.4byte	.LASF5
  2108 0058 03       		.byte	0x3
  2109 0059 1D       		.byte	0x1d
  2110 005a 5E000000 		.4byte	0x5e
  2111 005e 03       		.uleb128 0x3
  2112 005f 01       		.byte	0x1
  2113 0060 08       		.byte	0x8
- 2114 0061 3D070000 		.4byte	.LASF6
+ 2114 0061 CA060000 		.4byte	.LASF6
  2115 0065 04       		.uleb128 0x4
- 2116 0066 61030000 		.4byte	.LASF7
+ 2116 0066 EE020000 		.4byte	.LASF7
  2117 006a 03       		.byte	0x3
  2118 006b 29       		.byte	0x29
  2119 006c 70000000 		.4byte	0x70
  2120 0070 03       		.uleb128 0x3
  2121 0071 02       		.byte	0x2
  2122 0072 05       		.byte	0x5
- 2123 0073 B6020000 		.4byte	.LASF8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 71
+ 2123 0073 43020000 		.4byte	.LASF8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 71
 
 
  2124 0077 04       		.uleb128 0x4
- 2125 0078 C7080000 		.4byte	.LASF9
+ 2125 0078 BF080000 		.4byte	.LASF9
  2126 007c 03       		.byte	0x3
  2127 007d 2B       		.byte	0x2b
  2128 007e 82000000 		.4byte	0x82
  2129 0082 03       		.uleb128 0x3
  2130 0083 02       		.byte	0x2
  2131 0084 07       		.byte	0x7
- 2132 0085 3D040000 		.4byte	.LASF10
+ 2132 0085 CA030000 		.4byte	.LASF10
  2133 0089 04       		.uleb128 0x4
- 2134 008a ED080000 		.4byte	.LASF11
+ 2134 008a E5080000 		.4byte	.LASF11
  2135 008e 03       		.byte	0x3
  2136 008f 3F       		.byte	0x3f
  2137 0090 94000000 		.4byte	0x94
  2138 0094 03       		.uleb128 0x3
  2139 0095 04       		.byte	0x4
  2140 0096 05       		.byte	0x5
- 2141 0097 61020000 		.4byte	.LASF12
+ 2141 0097 EE010000 		.4byte	.LASF12
  2142 009b 04       		.uleb128 0x4
- 2143 009c 34030000 		.4byte	.LASF13
+ 2143 009c C1020000 		.4byte	.LASF13
  2144 00a0 03       		.byte	0x3
  2145 00a1 41       		.byte	0x41
  2146 00a2 A6000000 		.4byte	0xa6
  2147 00a6 03       		.uleb128 0x3
  2148 00a7 04       		.byte	0x4
  2149 00a8 07       		.byte	0x7
- 2150 00a9 D6030000 		.4byte	.LASF14
+ 2150 00a9 63030000 		.4byte	.LASF14
  2151 00ad 03       		.uleb128 0x3
  2152 00ae 08       		.byte	0x8
  2153 00af 07       		.byte	0x7
- 2154 00b0 42010000 		.4byte	.LASF15
+ 2154 00b0 CF000000 		.4byte	.LASF15
  2155 00b4 03       		.uleb128 0x3
  2156 00b5 04       		.byte	0x4
  2157 00b6 07       		.byte	0x7
- 2158 00b7 9E050000 		.4byte	.LASF16
+ 2158 00b7 2B050000 		.4byte	.LASF16
  2159 00bb 05       		.uleb128 0x5
  2160 00bc 04       		.byte	0x4
  2161 00bd 03       		.uleb128 0x3
  2162 00be 01       		.byte	0x1
  2163 00bf 08       		.byte	0x8
- 2164 00c0 75080000 		.4byte	.LASF17
+ 2164 00c0 ED070000 		.4byte	.LASF17
  2165 00c4 04       		.uleb128 0x4
- 2166 00c5 8A050000 		.4byte	.LASF18
+ 2166 00c5 17050000 		.4byte	.LASF18
  2167 00c9 04       		.byte	0x4
  2168 00ca 14       		.byte	0x14
  2169 00cb 41000000 		.4byte	0x41
  2170 00cf 04       		.uleb128 0x4
- 2171 00d0 EF090000 		.4byte	.LASF19
+ 2171 00d0 E7090000 		.4byte	.LASF19
  2172 00d4 04       		.byte	0x4
  2173 00d5 18       		.byte	0x18
  2174 00d6 53000000 		.4byte	0x53
  2175 00da 04       		.uleb128 0x4
- 2176 00db BA010000 		.4byte	.LASF20
+ 2176 00db 47010000 		.4byte	.LASF20
  2177 00df 04       		.byte	0x4
  2178 00e0 20       		.byte	0x20
  2179 00e1 65000000 		.4byte	0x65
  2180 00e5 04       		.uleb128 0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 72
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 72
 
 
- 2181 00e6 C0020000 		.4byte	.LASF21
+ 2181 00e6 4D020000 		.4byte	.LASF21
  2182 00ea 04       		.byte	0x4
  2183 00eb 24       		.byte	0x24
  2184 00ec 77000000 		.4byte	0x77
  2185 00f0 04       		.uleb128 0x4
- 2186 00f1 35070000 		.4byte	.LASF22
+ 2186 00f1 C2060000 		.4byte	.LASF22
  2187 00f5 04       		.byte	0x4
  2188 00f6 2C       		.byte	0x2c
  2189 00f7 89000000 		.4byte	0x89
  2190 00fb 04       		.uleb128 0x4
- 2191 00fc 47080000 		.4byte	.LASF23
+ 2191 00fc D4070000 		.4byte	.LASF23
  2192 0100 04       		.byte	0x4
  2193 0101 30       		.byte	0x30
  2194 0102 9B000000 		.4byte	0x9b
@@ -4298,19 +4298,19 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2215 012f 06010000 		.4byte	0x106
  2216 0133 00       		.byte	0
  2217 0134 0C       		.uleb128 0xc
- 2218 0135 A7060000 		.4byte	.LASF24
+ 2218 0135 34060000 		.4byte	.LASF24
  2219 0139 05       		.byte	0x5
  2220 013a 24       		.byte	0x24
  2221 013b 06010000 		.4byte	0x106
  2222 013f 04       		.byte	0x4
  2223 0140 0C       		.uleb128 0xc
- 2224 0141 85040000 		.4byte	.LASF25
+ 2224 0141 12040000 		.4byte	.LASF25
  2225 0145 05       		.byte	0x5
  2226 0146 25       		.byte	0x25
  2227 0147 06010000 		.4byte	0x106
  2228 014b 08       		.byte	0x8
  2229 014c 0C       		.uleb128 0xc
- 2230 014d C7030000 		.4byte	.LASF26
+ 2230 014d 54030000 		.4byte	.LASF26
  2231 0151 05       		.byte	0x5
  2232 0152 26       		.byte	0x26
  2233 0153 06010000 		.4byte	0x106
@@ -4318,38 +4318,38 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2235 0158 0B       		.uleb128 0xb
  2236 0159 494E00   		.ascii	"IN\000"
  2237 015c 05       		.byte	0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 73
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 73
 
 
  2238 015d 27       		.byte	0x27
  2239 015e 0B010000 		.4byte	0x10b
  2240 0162 10       		.byte	0x10
  2241 0163 0C       		.uleb128 0xc
- 2242 0164 D1050000 		.4byte	.LASF27
+ 2242 0164 5E050000 		.4byte	.LASF27
  2243 0168 05       		.byte	0x5
  2244 0169 28       		.byte	0x28
  2245 016a 06010000 		.4byte	0x106
  2246 016e 14       		.byte	0x14
  2247 016f 0C       		.uleb128 0xc
- 2248 0170 01040000 		.4byte	.LASF28
+ 2248 0170 8E030000 		.4byte	.LASF28
  2249 0174 05       		.byte	0x5
  2250 0175 29       		.byte	0x29
  2251 0176 06010000 		.4byte	0x106
  2252 017a 18       		.byte	0x18
  2253 017b 0C       		.uleb128 0xc
- 2254 017c 50040000 		.4byte	.LASF29
+ 2254 017c DD030000 		.4byte	.LASF29
  2255 0180 05       		.byte	0x5
  2256 0181 2A       		.byte	0x2a
  2257 0182 0B010000 		.4byte	0x10b
  2258 0186 1C       		.byte	0x1c
  2259 0187 0C       		.uleb128 0xc
- 2260 0188 3D050000 		.4byte	.LASF30
+ 2260 0188 CA040000 		.4byte	.LASF30
  2261 018c 05       		.byte	0x5
  2262 018d 2B       		.byte	0x2b
  2263 018e 06010000 		.4byte	0x106
  2264 0192 20       		.byte	0x20
  2265 0193 0C       		.uleb128 0xc
- 2266 0194 34050000 		.4byte	.LASF31
+ 2266 0194 C1040000 		.4byte	.LASF31
  2267 0198 05       		.byte	0x5
  2268 0199 2C       		.byte	0x2c
  2269 019a 06010000 		.4byte	0x106
@@ -4361,40 +4361,40 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2275 01a6 06010000 		.4byte	0x106
  2276 01aa 28       		.byte	0x28
  2277 01ab 0C       		.uleb128 0xc
- 2278 01ac FA030000 		.4byte	.LASF32
+ 2278 01ac 87030000 		.4byte	.LASF32
  2279 01b0 05       		.byte	0x5
  2280 01b1 2E       		.byte	0x2e
  2281 01b2 06010000 		.4byte	0x106
  2282 01b6 2C       		.byte	0x2c
  2283 01b7 0C       		.uleb128 0xc
- 2284 01b8 350A0000 		.4byte	.LASF33
+ 2284 01b8 2D0A0000 		.4byte	.LASF33
  2285 01bc 05       		.byte	0x5
  2286 01bd 2F       		.byte	0x2f
  2287 01be 06010000 		.4byte	0x106
  2288 01c2 30       		.byte	0x30
  2289 01c3 0C       		.uleb128 0xc
- 2290 01c4 CB060000 		.4byte	.LASF34
+ 2290 01c4 58060000 		.4byte	.LASF34
  2291 01c8 05       		.byte	0x5
  2292 01c9 30       		.byte	0x30
  2293 01ca 06010000 		.4byte	0x106
  2294 01ce 34       		.byte	0x34
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 74
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 74
 
 
  2295 01cf 0C       		.uleb128 0xc
- 2296 01d0 D0070000 		.4byte	.LASF35
+ 2296 01d0 5D070000 		.4byte	.LASF35
  2297 01d4 05       		.byte	0x5
  2298 01d5 31       		.byte	0x31
  2299 01d6 0B010000 		.4byte	0x10b
  2300 01da 38       		.byte	0x38
  2301 01db 0C       		.uleb128 0xc
- 2302 01dc BD060000 		.4byte	.LASF36
+ 2302 01dc 4A060000 		.4byte	.LASF36
  2303 01e0 05       		.byte	0x5
  2304 01e1 32       		.byte	0x32
  2305 01e2 06010000 		.4byte	0x106
  2306 01e6 3C       		.byte	0x3c
  2307 01e7 0C       		.uleb128 0xc
- 2308 01e8 D3060000 		.4byte	.LASF37
+ 2308 01e8 60060000 		.4byte	.LASF37
  2309 01ec 05       		.byte	0x5
  2310 01ed 33       		.byte	0x33
  2311 01ee F9010000 		.4byte	0x1f9
@@ -4405,7 +4405,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2316 01f9 07       		.uleb128 0x7
  2317 01fa F4010000 		.4byte	0x1f4
  2318 01fe 04       		.uleb128 0x4
- 2319 01ff B9080000 		.4byte	.LASF38
+ 2319 01ff B1080000 		.4byte	.LASF38
  2320 0203 05       		.byte	0x5
  2321 0204 34       		.byte	0x34
  2322 0205 20010000 		.4byte	0x120
@@ -4421,58 +4421,58 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2332 0219 94020000 		.4byte	0x294
  2333 021d 00       		.byte	0
  2334 021e 0E       		.uleb128 0xe
- 2335 021f 7A080000 		.4byte	.LASF39
+ 2335 021f 72080000 		.4byte	.LASF39
  2336 0223 05       		.byte	0x5
  2337 0224 3B       		.byte	0x3b
  2338 0225 0B010000 		.4byte	0x10b
  2339 0229 0040     		.2byte	0x4000
  2340 022b 0E       		.uleb128 0xe
- 2341 022c 86080000 		.4byte	.LASF40
+ 2341 022c 7E080000 		.4byte	.LASF40
  2342 0230 05       		.byte	0x5
  2343 0231 3C       		.byte	0x3c
  2344 0232 0B010000 		.4byte	0x10b
  2345 0236 0440     		.2byte	0x4004
  2346 0238 0E       		.uleb128 0xe
- 2347 0239 92080000 		.4byte	.LASF41
+ 2347 0239 8A080000 		.4byte	.LASF41
  2348 023d 05       		.byte	0x5
  2349 023e 3D       		.byte	0x3d
  2350 023f 0B010000 		.4byte	0x10b
  2351 0243 0840     		.2byte	0x4008
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 75
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 75
 
 
  2352 0245 0E       		.uleb128 0xe
- 2353 0246 9E080000 		.4byte	.LASF42
+ 2353 0246 96080000 		.4byte	.LASF42
  2354 024a 05       		.byte	0x5
  2355 024b 3E       		.byte	0x3e
  2356 024c 0B010000 		.4byte	0x10b
  2357 0250 0C40     		.2byte	0x400c
  2358 0252 0E       		.uleb128 0xe
- 2359 0253 63050000 		.4byte	.LASF43
+ 2359 0253 F0040000 		.4byte	.LASF43
  2360 0257 05       		.byte	0x5
  2361 0258 3F       		.byte	0x3f
  2362 0259 0B010000 		.4byte	0x10b
  2363 025d 1040     		.2byte	0x4010
  2364 025f 0E       		.uleb128 0xe
- 2365 0260 E2070000 		.4byte	.LASF44
+ 2365 0260 6F070000 		.4byte	.LASF44
  2366 0264 05       		.byte	0x5
  2367 0265 40       		.byte	0x40
  2368 0266 06010000 		.4byte	0x106
  2369 026a 1440     		.2byte	0x4014
  2370 026c 0E       		.uleb128 0xe
- 2371 026d 1C010000 		.4byte	.LASF45
+ 2371 026d A9000000 		.4byte	.LASF45
  2372 0271 05       		.byte	0x5
  2373 0272 41       		.byte	0x41
  2374 0273 06010000 		.4byte	0x106
  2375 0277 1840     		.2byte	0x4018
  2376 0279 0E       		.uleb128 0xe
- 2377 027a 04090000 		.4byte	.LASF46
+ 2377 027a FC080000 		.4byte	.LASF46
  2378 027e 05       		.byte	0x5
  2379 027f 42       		.byte	0x42
  2380 0280 0B010000 		.4byte	0x10b
  2381 0284 1C40     		.2byte	0x401c
  2382 0286 0E       		.uleb128 0xe
- 2383 0287 0B040000 		.4byte	.LASF47
+ 2383 0287 98030000 		.4byte	.LASF47
  2384 028b 05       		.byte	0x5
  2385 028c 43       		.byte	0x43
  2386 028d 06010000 		.4byte	0x106
@@ -4486,49 +4486,49 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2394 02a2 7F       		.byte	0x7f
  2395 02a3 00       		.byte	0
  2396 02a4 04       		.uleb128 0x4
- 2397 02a5 3D0A0000 		.4byte	.LASF48
+ 2397 02a5 350A0000 		.4byte	.LASF48
  2398 02a9 05       		.byte	0x5
  2399 02aa 44       		.byte	0x44
  2400 02ab 09020000 		.4byte	0x209
  2401 02af 0F       		.uleb128 0xf
- 2402 02b0 CF030000 		.4byte	.LASF49
+ 2402 02b0 5C030000 		.4byte	.LASF49
  2403 02b4 06       		.byte	0x6
  2404 02b5 C401     		.2byte	0x1c4
  2405 02b7 BD000000 		.4byte	0xbd
  2406 02bb 03       		.uleb128 0x3
  2407 02bc 04       		.byte	0x4
  2408 02bd 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 76
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 76
 
 
- 2409 02be B7060000 		.4byte	.LASF50
+ 2409 02be 44060000 		.4byte	.LASF50
  2410 02c2 03       		.uleb128 0x3
  2411 02c3 08       		.byte	0x8
  2412 02c4 04       		.byte	0x4
- 2413 02c5 A90A0000 		.4byte	.LASF51
+ 2413 02c5 A10A0000 		.4byte	.LASF51
  2414 02c9 0F       		.uleb128 0xf
- 2415 02ca 2F0A0000 		.4byte	.LASF52
+ 2415 02ca 270A0000 		.4byte	.LASF52
  2416 02ce 06       		.byte	0x6
  2417 02cf 8903     		.2byte	0x389
  2418 02d1 DA000000 		.4byte	0xda
  2419 02d5 03       		.uleb128 0x3
  2420 02d6 01       		.byte	0x1
  2421 02d7 02       		.byte	0x2
- 2422 02d8 2F070000 		.4byte	.LASF53
+ 2422 02d8 BC060000 		.4byte	.LASF53
  2423 02dc 10       		.uleb128 0x10
- 2424 02dd 6E050000 		.4byte	.LASF74
+ 2424 02dd FB040000 		.4byte	.LASF74
  2425 02e1 4C       		.byte	0x4c
  2426 02e2 07       		.byte	0x7
  2427 02e3 2B       		.byte	0x2b
  2428 02e4 CD030000 		.4byte	0x3cd
  2429 02e8 0C       		.uleb128 0xc
- 2430 02e9 15010000 		.4byte	.LASF54
+ 2430 02e9 A2000000 		.4byte	.LASF54
  2431 02ed 07       		.byte	0x7
  2432 02ee 2D       		.byte	0x2d
  2433 02ef FB000000 		.4byte	0xfb
  2434 02f3 00       		.byte	0
  2435 02f4 0C       		.uleb128 0xc
- 2436 02f5 59010000 		.4byte	.LASF55
+ 2436 02f5 E6000000 		.4byte	.LASF55
  2437 02f9 07       		.byte	0x7
  2438 02fa 2F       		.byte	0x2f
  2439 02fb FB000000 		.4byte	0xfb
@@ -4540,145 +4540,145 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2445 0307 FB000000 		.4byte	0xfb
  2446 030b 08       		.byte	0x8
  2447 030c 0C       		.uleb128 0xc
- 2448 030d F8000000 		.4byte	.LASF57
+ 2448 030d 85000000 		.4byte	.LASF57
  2449 0311 07       		.byte	0x7
  2450 0312 31       		.byte	0x31
  2451 0313 FB000000 		.4byte	0xfb
  2452 0317 0C       		.byte	0xc
  2453 0318 0C       		.uleb128 0xc
- 2454 0319 17080000 		.4byte	.LASF58
+ 2454 0319 A4070000 		.4byte	.LASF58
  2455 031d 07       		.byte	0x7
  2456 031e 33       		.byte	0x33
  2457 031f FB000000 		.4byte	0xfb
  2458 0323 10       		.byte	0x10
  2459 0324 0C       		.uleb128 0xc
- 2460 0325 60080000 		.4byte	.LASF59
+ 2460 0325 F2070000 		.4byte	.LASF59
  2461 0329 07       		.byte	0x7
  2462 032a 34       		.byte	0x34
  2463 032b FB000000 		.4byte	0xfb
  2464 032f 14       		.byte	0x14
  2465 0330 0C       		.uleb128 0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 77
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 77
 
 
- 2466 0331 700A0000 		.4byte	.LASF60
+ 2466 0331 680A0000 		.4byte	.LASF60
  2467 0335 07       		.byte	0x7
  2468 0336 35       		.byte	0x35
  2469 0337 FB000000 		.4byte	0xfb
  2470 033b 18       		.byte	0x18
  2471 033c 0C       		.uleb128 0xc
- 2472 033d E8030000 		.4byte	.LASF61
+ 2472 033d 75030000 		.4byte	.LASF61
  2473 0341 07       		.byte	0x7
  2474 0342 36       		.byte	0x36
  2475 0343 D5020000 		.4byte	0x2d5
  2476 0347 1C       		.byte	0x1c
  2477 0348 0C       		.uleb128 0xc
- 2478 0349 14090000 		.4byte	.LASF62
+ 2478 0349 0C090000 		.4byte	.LASF62
  2479 034d 07       		.byte	0x7
  2480 034e 38       		.byte	0x38
  2481 034f FB000000 		.4byte	0xfb
  2482 0353 20       		.byte	0x20
  2483 0354 0C       		.uleb128 0xc
- 2484 0355 0D030000 		.4byte	.LASF63
+ 2484 0355 9A020000 		.4byte	.LASF63
  2485 0359 07       		.byte	0x7
  2486 035a 39       		.byte	0x39
  2487 035b FB000000 		.4byte	0xfb
  2488 035f 24       		.byte	0x24
  2489 0360 0C       		.uleb128 0xc
- 2490 0361 2A010000 		.4byte	.LASF64
+ 2490 0361 B7000000 		.4byte	.LASF64
  2491 0365 07       		.byte	0x7
  2492 0366 3B       		.byte	0x3b
  2493 0367 FB000000 		.4byte	0xfb
  2494 036b 28       		.byte	0x28
  2495 036c 0C       		.uleb128 0xc
- 2496 036d 470A0000 		.4byte	.LASF65
+ 2496 036d 3F0A0000 		.4byte	.LASF65
  2497 0371 07       		.byte	0x7
  2498 0372 3C       		.byte	0x3c
  2499 0373 FB000000 		.4byte	0xfb
  2500 0377 2C       		.byte	0x2c
  2501 0378 0C       		.uleb128 0xc
- 2502 0379 25090000 		.4byte	.LASF66
+ 2502 0379 1D090000 		.4byte	.LASF66
  2503 037d 07       		.byte	0x7
  2504 037e 3E       		.byte	0x3e
  2505 037f FB000000 		.4byte	0xfb
  2506 0383 30       		.byte	0x30
  2507 0384 0C       		.uleb128 0xc
- 2508 0385 4D090000 		.4byte	.LASF67
+ 2508 0385 45090000 		.4byte	.LASF67
  2509 0389 07       		.byte	0x7
  2510 038a 3F       		.byte	0x3f
  2511 038b FB000000 		.4byte	0xfb
  2512 038f 34       		.byte	0x34
  2513 0390 0C       		.uleb128 0xc
- 2514 0391 29050000 		.4byte	.LASF68
+ 2514 0391 B6040000 		.4byte	.LASF68
  2515 0395 07       		.byte	0x7
  2516 0396 41       		.byte	0x41
  2517 0397 FB000000 		.4byte	0xfb
  2518 039b 38       		.byte	0x38
  2519 039c 0C       		.uleb128 0xc
- 2520 039d 07010000 		.4byte	.LASF69
+ 2520 039d 94000000 		.4byte	.LASF69
  2521 03a1 07       		.byte	0x7
  2522 03a2 42       		.byte	0x42
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 78
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 78
 
 
  2523 03a3 FB000000 		.4byte	0xfb
  2524 03a7 3C       		.byte	0x3c
  2525 03a8 0C       		.uleb128 0xc
- 2526 03a9 43090000 		.4byte	.LASF70
+ 2526 03a9 3B090000 		.4byte	.LASF70
  2527 03ad 07       		.byte	0x7
  2528 03ae 44       		.byte	0x44
  2529 03af FB000000 		.4byte	0xfb
  2530 03b3 40       		.byte	0x40
  2531 03b4 0C       		.uleb128 0xc
- 2532 03b5 1A050000 		.4byte	.LASF71
+ 2532 03b5 A7040000 		.4byte	.LASF71
  2533 03b9 07       		.byte	0x7
  2534 03ba 45       		.byte	0x45
  2535 03bb FB000000 		.4byte	0xfb
  2536 03bf 44       		.byte	0x44
  2537 03c0 0C       		.uleb128 0xc
- 2538 03c1 9E0A0000 		.4byte	.LASF72
+ 2538 03c1 960A0000 		.4byte	.LASF72
  2539 03c5 07       		.byte	0x7
  2540 03c6 47       		.byte	0x47
  2541 03c7 FB000000 		.4byte	0xfb
  2542 03cb 48       		.byte	0x48
  2543 03cc 00       		.byte	0
  2544 03cd 04       		.uleb128 0x4
- 2545 03ce DF010000 		.4byte	.LASF73
+ 2545 03ce 6C010000 		.4byte	.LASF73
  2546 03d2 07       		.byte	0x7
  2547 03d3 48       		.byte	0x48
  2548 03d4 DC020000 		.4byte	0x2dc
  2549 03d8 10       		.uleb128 0x10
- 2550 03d9 2F080000 		.4byte	.LASF75
+ 2550 03d9 BC070000 		.4byte	.LASF75
  2551 03dd 64       		.byte	0x64
  2552 03de 08       		.byte	0x8
  2553 03df 2B       		.byte	0x2b
  2554 03e0 11050000 		.4byte	0x511
  2555 03e4 0C       		.uleb128 0xc
- 2556 03e5 AF060000 		.4byte	.LASF76
+ 2556 03e5 3C060000 		.4byte	.LASF76
  2557 03e9 08       		.byte	0x8
  2558 03ea 2D       		.byte	0x2d
  2559 03eb FB000000 		.4byte	0xfb
  2560 03ef 00       		.byte	0
  2561 03f0 0C       		.uleb128 0xc
- 2562 03f1 59010000 		.4byte	.LASF55
+ 2562 03f1 E6000000 		.4byte	.LASF55
  2563 03f5 08       		.byte	0x8
  2564 03f6 2F       		.byte	0x2f
  2565 03f7 FB000000 		.4byte	0xfb
  2566 03fb 04       		.byte	0x4
  2567 03fc 0C       		.uleb128 0xc
- 2568 03fd C9000000 		.4byte	.LASF77
+ 2568 03fd 56000000 		.4byte	.LASF77
  2569 0401 08       		.byte	0x8
  2570 0402 30       		.byte	0x30
  2571 0403 FB000000 		.4byte	0xfb
  2572 0407 08       		.byte	0x8
  2573 0408 0C       		.uleb128 0xc
- 2574 0409 0B050000 		.4byte	.LASF78
+ 2574 0409 98040000 		.4byte	.LASF78
  2575 040d 08       		.byte	0x8
  2576 040e 31       		.byte	0x31
  2577 040f FB000000 		.4byte	0xfb
  2578 0413 0C       		.byte	0xc
  2579 0414 0C       		.uleb128 0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 79
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 79
 
 
  2580 0415 00000000 		.4byte	.LASF56
@@ -4687,127 +4687,127 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2583 041b FB000000 		.4byte	0xfb
  2584 041f 10       		.byte	0x10
  2585 0420 0C       		.uleb128 0xc
- 2586 0421 6B090000 		.4byte	.LASF79
+ 2586 0421 63090000 		.4byte	.LASF79
  2587 0425 08       		.byte	0x8
  2588 0426 33       		.byte	0x33
  2589 0427 FB000000 		.4byte	0xfb
  2590 042b 14       		.byte	0x14
  2591 042c 0C       		.uleb128 0xc
- 2592 042d B2010000 		.4byte	.LASF80
+ 2592 042d 3F010000 		.4byte	.LASF80
  2593 0431 08       		.byte	0x8
  2594 0432 34       		.byte	0x34
  2595 0433 FB000000 		.4byte	0xfb
  2596 0437 18       		.byte	0x18
  2597 0438 0C       		.uleb128 0xc
- 2598 0439 00080000 		.4byte	.LASF81
+ 2598 0439 8D070000 		.4byte	.LASF81
  2599 043d 08       		.byte	0x8
  2600 043e 35       		.byte	0x35
  2601 043f D5020000 		.4byte	0x2d5
  2602 0443 1C       		.byte	0x1c
  2603 0444 0C       		.uleb128 0xc
- 2604 0445 60080000 		.4byte	.LASF59
+ 2604 0445 F2070000 		.4byte	.LASF59
  2605 0449 08       		.byte	0x8
  2606 044a 36       		.byte	0x36
  2607 044b FB000000 		.4byte	0xfb
  2608 044f 20       		.byte	0x20
  2609 0450 0C       		.uleb128 0xc
- 2610 0451 700A0000 		.4byte	.LASF60
+ 2610 0451 680A0000 		.4byte	.LASF60
  2611 0455 08       		.byte	0x8
  2612 0456 37       		.byte	0x37
  2613 0457 FB000000 		.4byte	0xfb
  2614 045b 24       		.byte	0x24
  2615 045c 0C       		.uleb128 0xc
- 2616 045d E8030000 		.4byte	.LASF61
+ 2616 045d 75030000 		.4byte	.LASF61
  2617 0461 08       		.byte	0x8
  2618 0462 38       		.byte	0x38
  2619 0463 D5020000 		.4byte	0x2d5
  2620 0467 28       		.byte	0x28
  2621 0468 0C       		.uleb128 0xc
- 2622 0469 14090000 		.4byte	.LASF62
+ 2622 0469 0C090000 		.4byte	.LASF62
  2623 046d 08       		.byte	0x8
  2624 046e 3A       		.byte	0x3a
  2625 046f FB000000 		.4byte	0xfb
  2626 0473 2C       		.byte	0x2c
  2627 0474 0C       		.uleb128 0xc
- 2628 0475 FE040000 		.4byte	.LASF82
+ 2628 0475 8B040000 		.4byte	.LASF82
  2629 0479 08       		.byte	0x8
  2630 047a 3B       		.byte	0x3b
  2631 047b FB000000 		.4byte	0xfb
  2632 047f 30       		.byte	0x30
  2633 0480 0C       		.uleb128 0xc
- 2634 0481 E1090000 		.4byte	.LASF83
+ 2634 0481 D9090000 		.4byte	.LASF83
  2635 0485 08       		.byte	0x8
  2636 0486 3C       		.byte	0x3c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 80
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 80
 
 
  2637 0487 FB000000 		.4byte	0xfb
  2638 048b 34       		.byte	0x34
  2639 048c 0C       		.uleb128 0xc
- 2640 048d DD060000 		.4byte	.LASF84
+ 2640 048d 6A060000 		.4byte	.LASF84
  2641 0491 08       		.byte	0x8
  2642 0492 3D       		.byte	0x3d
  2643 0493 FB000000 		.4byte	0xfb
  2644 0497 38       		.byte	0x38
  2645 0498 0C       		.uleb128 0xc
- 2646 0499 2F040000 		.4byte	.LASF85
+ 2646 0499 BC030000 		.4byte	.LASF85
  2647 049d 08       		.byte	0x8
  2648 049e 3E       		.byte	0x3e
  2649 049f FB000000 		.4byte	0xfb
  2650 04a3 3C       		.byte	0x3c
  2651 04a4 0C       		.uleb128 0xc
- 2652 04a5 100A0000 		.4byte	.LASF86
+ 2652 04a5 080A0000 		.4byte	.LASF86
  2653 04a9 08       		.byte	0x8
  2654 04aa 40       		.byte	0x40
  2655 04ab FB000000 		.4byte	0xfb
  2656 04af 40       		.byte	0x40
  2657 04b0 0C       		.uleb128 0xc
- 2658 04b1 470A0000 		.4byte	.LASF65
+ 2658 04b1 3F0A0000 		.4byte	.LASF65
  2659 04b5 08       		.byte	0x8
  2660 04b6 41       		.byte	0x41
  2661 04b7 FB000000 		.4byte	0xfb
  2662 04bb 44       		.byte	0x44
  2663 04bc 0C       		.uleb128 0xc
- 2664 04bd 25090000 		.4byte	.LASF66
+ 2664 04bd 1D090000 		.4byte	.LASF66
  2665 04c1 08       		.byte	0x8
  2666 04c2 43       		.byte	0x43
  2667 04c3 FB000000 		.4byte	0xfb
  2668 04c7 48       		.byte	0x48
  2669 04c8 0C       		.uleb128 0xc
- 2670 04c9 4D090000 		.4byte	.LASF67
+ 2670 04c9 45090000 		.4byte	.LASF67
  2671 04cd 08       		.byte	0x8
  2672 04ce 44       		.byte	0x44
  2673 04cf FB000000 		.4byte	0xfb
  2674 04d3 4C       		.byte	0x4c
  2675 04d4 0C       		.uleb128 0xc
- 2676 04d5 29050000 		.4byte	.LASF68
+ 2676 04d5 B6040000 		.4byte	.LASF68
  2677 04d9 08       		.byte	0x8
  2678 04da 46       		.byte	0x46
  2679 04db FB000000 		.4byte	0xfb
  2680 04df 50       		.byte	0x50
  2681 04e0 0C       		.uleb128 0xc
- 2682 04e1 8D040000 		.4byte	.LASF87
+ 2682 04e1 1A040000 		.4byte	.LASF87
  2683 04e5 08       		.byte	0x8
  2684 04e6 47       		.byte	0x47
  2685 04e7 FB000000 		.4byte	0xfb
  2686 04eb 54       		.byte	0x54
  2687 04ec 0C       		.uleb128 0xc
- 2688 04ed 95000000 		.4byte	.LASF88
+ 2688 04ed 22000000 		.4byte	.LASF88
  2689 04f1 08       		.byte	0x8
  2690 04f2 49       		.byte	0x49
  2691 04f3 FB000000 		.4byte	0xfb
  2692 04f7 58       		.byte	0x58
  2693 04f8 0C       		.uleb128 0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 81
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 81
 
 
- 2694 04f9 1A050000 		.4byte	.LASF71
+ 2694 04f9 A7040000 		.4byte	.LASF71
  2695 04fd 08       		.byte	0x8
  2696 04fe 4A       		.byte	0x4a
  2697 04ff FB000000 		.4byte	0xfb
  2698 0503 5C       		.byte	0x5c
  2699 0504 0C       		.uleb128 0xc
- 2700 0505 9E0A0000 		.4byte	.LASF72
+ 2700 0505 960A0000 		.4byte	.LASF72
  2701 0509 08       		.byte	0x8
  2702 050a 4C       		.byte	0x4c
  2703 050b FB000000 		.4byte	0xfb
@@ -4830,81 +4830,81 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2720 052e 04       		.byte	0x4
  2721 052f CF000000 		.4byte	0xcf
  2722 0533 0F       		.uleb128 0xf
- 2723 0534 43020000 		.4byte	.LASF90
+ 2723 0534 D0010000 		.4byte	.LASF90
  2724 0538 09       		.byte	0x9
  2725 0539 BF01     		.2byte	0x1bf
  2726 053b 1C050000 		.4byte	0x51c
  2727 053f 14       		.uleb128 0x14
- 2728 0540 FD010000 		.4byte	.LASF91
+ 2728 0540 8A010000 		.4byte	.LASF91
  2729 0544 24       		.byte	0x24
  2730 0545 09       		.byte	0x9
  2731 0546 4102     		.2byte	0x241
  2732 0548 C2050000 		.4byte	0x5c2
  2733 054c 15       		.uleb128 0x15
- 2734 054d DA090000 		.4byte	.LASF92
+ 2734 054d D2090000 		.4byte	.LASF92
  2735 0551 09       		.byte	0x9
  2736 0552 4402     		.2byte	0x244
  2737 0554 06010000 		.4byte	0x106
  2738 0558 00       		.byte	0
  2739 0559 15       		.uleb128 0x15
- 2740 055a 96090000 		.4byte	.LASF93
+ 2740 055a 8E090000 		.4byte	.LASF93
  2741 055e 09       		.byte	0x9
  2742 055f 4602     		.2byte	0x246
  2743 0561 BB000000 		.4byte	0xbb
  2744 0565 04       		.byte	0x4
  2745 0566 15       		.uleb128 0x15
- 2746 0567 2A030000 		.4byte	.LASF94
+ 2746 0567 B7020000 		.4byte	.LASF94
  2747 056b 09       		.byte	0x9
  2748 056c 4702     		.2byte	0x247
  2749 056e FB000000 		.4byte	0xfb
  2750 0572 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 82
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 82
 
 
  2751 0573 15       		.uleb128 0x15
- 2752 0574 6B030000 		.4byte	.LASF95
+ 2752 0574 F8020000 		.4byte	.LASF95
  2753 0578 09       		.byte	0x9
  2754 0579 4802     		.2byte	0x248
  2755 057b 06010000 		.4byte	0x106
  2756 057f 0C       		.byte	0xc
  2757 0580 15       		.uleb128 0x15
- 2758 0581 B2040000 		.4byte	.LASF96
+ 2758 0581 3F040000 		.4byte	.LASF96
  2759 0585 09       		.byte	0x9
  2760 0586 4A02     		.2byte	0x24a
  2761 0588 BB000000 		.4byte	0xbb
  2762 058c 10       		.byte	0x10
  2763 058d 15       		.uleb128 0x15
- 2764 058e B1030000 		.4byte	.LASF97
+ 2764 058e 3E030000 		.4byte	.LASF97
  2765 0592 09       		.byte	0x9
  2766 0593 4B02     		.2byte	0x24b
  2767 0595 FB000000 		.4byte	0xfb
  2768 0599 14       		.byte	0x14
  2769 059a 15       		.uleb128 0x15
- 2770 059b B00A0000 		.4byte	.LASF98
+ 2770 059b A80A0000 		.4byte	.LASF98
  2771 059f 09       		.byte	0x9
  2772 05a0 4C02     		.2byte	0x24c
  2773 05a2 06010000 		.4byte	0x106
  2774 05a6 18       		.byte	0x18
  2775 05a7 15       		.uleb128 0x15
- 2776 05a8 9B040000 		.4byte	.LASF99
+ 2776 05a8 28040000 		.4byte	.LASF99
  2777 05ac 09       		.byte	0x9
  2778 05ad 5202     		.2byte	0x252
  2779 05af 33050000 		.4byte	0x533
  2780 05b3 1C       		.byte	0x1c
  2781 05b4 15       		.uleb128 0x15
- 2782 05b5 8E090000 		.4byte	.LASF100
+ 2782 05b5 86090000 		.4byte	.LASF100
  2783 05b9 09       		.byte	0x9
  2784 05ba 5502     		.2byte	0x255
  2785 05bc FB000000 		.4byte	0xfb
  2786 05c0 20       		.byte	0x20
  2787 05c1 00       		.byte	0
  2788 05c2 0F       		.uleb128 0xf
- 2789 05c3 D6040000 		.4byte	.LASF101
+ 2789 05c3 63040000 		.4byte	.LASF101
  2790 05c7 09       		.byte	0x9
  2791 05c8 5802     		.2byte	0x258
  2792 05ca 3F050000 		.4byte	0x53f
  2793 05ce 04       		.uleb128 0x4
- 2794 05cf 68010000 		.4byte	.LASF102
+ 2794 05cf F5000000 		.4byte	.LASF102
  2795 05d3 0A       		.byte	0xa
  2796 05d4 35       		.byte	0x35
  2797 05d5 5E000000 		.4byte	0x5e
@@ -4915,29 +4915,29 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2802 05e0 39       		.byte	0x39
  2803 05e1 0A060000 		.4byte	0x60a
  2804 05e5 17       		.uleb128 0x17
- 2805 05e6 20070000 		.4byte	.LASF103
+ 2805 05e6 AD060000 		.4byte	.LASF103
  2806 05ea 00       		.byte	0
  2807 05eb 17       		.uleb128 0x17
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 83
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 83
 
 
- 2808 05ec 72040000 		.4byte	.LASF104
+ 2808 05ec FF030000 		.4byte	.LASF104
  2809 05f0 01       		.byte	0x1
  2810 05f1 17       		.uleb128 0x17
- 2811 05f2 F7060000 		.4byte	.LASF105
+ 2811 05f2 84060000 		.4byte	.LASF105
  2812 05f6 02       		.byte	0x2
  2813 05f7 17       		.uleb128 0x17
- 2814 05f8 B1090000 		.4byte	.LASF106
+ 2814 05f8 A9090000 		.4byte	.LASF106
  2815 05fc 03       		.byte	0x3
  2816 05fd 17       		.uleb128 0x17
- 2817 05fe 790A0000 		.4byte	.LASF107
+ 2817 05fe 710A0000 		.4byte	.LASF107
  2818 0602 04       		.byte	0x4
  2819 0603 17       		.uleb128 0x17
- 2820 0604 B0000000 		.4byte	.LASF108
+ 2820 0604 3D000000 		.4byte	.LASF108
  2821 0608 05       		.byte	0x5
  2822 0609 00       		.byte	0
  2823 060a 04       		.uleb128 0x4
- 2824 060b E6060000 		.4byte	.LASF109
+ 2824 060b 73060000 		.4byte	.LASF109
  2825 060f 0A       		.byte	0xa
  2826 0610 40       		.byte	0x40
  2827 0611 D9050000 		.4byte	0x5d9
@@ -4948,46 +4948,46 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2832 061c 44       		.byte	0x44
  2833 061d 3A060000 		.4byte	0x63a
  2834 0621 17       		.uleb128 0x17
- 2835 0622 B8040000 		.4byte	.LASF110
+ 2835 0622 45040000 		.4byte	.LASF110
  2836 0626 00       		.byte	0
  2837 0627 17       		.uleb128 0x17
- 2838 0628 C7040000 		.4byte	.LASF111
+ 2838 0628 54040000 		.4byte	.LASF111
  2839 062c 01       		.byte	0x1
  2840 062d 17       		.uleb128 0x17
- 2841 062e C2010000 		.4byte	.LASF112
+ 2841 062e 4F010000 		.4byte	.LASF112
  2842 0632 02       		.byte	0x2
  2843 0633 17       		.uleb128 0x17
- 2844 0634 EF040000 		.4byte	.LASF113
+ 2844 0634 7C040000 		.4byte	.LASF113
  2845 0638 03       		.byte	0x3
  2846 0639 00       		.byte	0
  2847 063a 04       		.uleb128 0x4
- 2848 063b 53050000 		.4byte	.LASF114
+ 2848 063b E0040000 		.4byte	.LASF114
  2849 063f 0A       		.byte	0xa
  2850 0640 49       		.byte	0x49
  2851 0641 15060000 		.4byte	0x615
  2852 0645 10       		.uleb128 0x10
- 2853 0646 A4040000 		.4byte	.LASF115
+ 2853 0646 31040000 		.4byte	.LASF115
  2854 064a 6F       		.byte	0x6f
  2855 064b 01       		.byte	0x1
  2856 064c 33       		.byte	0x33
  2857 064d 82060000 		.4byte	0x682
  2858 0651 0C       		.uleb128 0xc
- 2859 0652 DB020000 		.4byte	.LASF116
+ 2859 0652 68020000 		.4byte	.LASF116
  2860 0656 01       		.byte	0x1
  2861 0657 36       		.byte	0x36
  2862 0658 CF000000 		.4byte	0xcf
  2863 065c 00       		.byte	0
  2864 065d 0C       		.uleb128 0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 84
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 84
 
 
- 2865 065e BA050000 		.4byte	.LASF117
+ 2865 065e 47050000 		.4byte	.LASF117
  2866 0662 01       		.byte	0x1
  2867 0663 39       		.byte	0x39
  2868 0664 82060000 		.4byte	0x682
  2869 0668 01       		.byte	0x1
  2870 0669 0C       		.uleb128 0xc
- 2871 066a 6A020000 		.4byte	.LASF118
+ 2871 066a F7010000 		.4byte	.LASF118
  2872 066e 01       		.byte	0x1
  2873 066f 3C       		.byte	0x3c
  2874 0670 92060000 		.4byte	0x692
@@ -5019,12 +5019,12 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2900 06a5 43       		.byte	0x43
  2901 06a6 C1060000 		.4byte	0x6c1
  2902 06aa 19       		.uleb128 0x19
- 2903 06ab A7070000 		.4byte	.LASF119
+ 2903 06ab 34070000 		.4byte	.LASF119
  2904 06af 01       		.byte	0x1
  2905 06b0 46       		.byte	0x46
  2906 06b1 45060000 		.4byte	0x645
  2907 06b5 19       		.uleb128 0x19
- 2908 06b6 37010000 		.4byte	.LASF120
+ 2908 06b6 C4000000 		.4byte	.LASF120
  2909 06ba 01       		.byte	0x1
  2910 06bb 49       		.byte	0x49
  2911 06bc C1060000 		.4byte	0x6c1
@@ -5037,31 +5037,31 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2918 06cf 6E       		.byte	0x6e
  2919 06d0 00       		.byte	0
  2920 06d1 04       		.uleb128 0x4
- 2921 06d2 6A070000 		.4byte	.LASF121
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 85
+ 2921 06d2 F7060000 		.4byte	.LASF121
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 85
 
 
  2922 06d6 01       		.byte	0x1
  2923 06d7 4C       		.byte	0x4c
  2924 06d8 A2060000 		.4byte	0x6a2
  2925 06dc 1A       		.uleb128 0x1a
- 2926 06dd 35020000 		.4byte	.LASF182
+ 2926 06dd C2010000 		.4byte	.LASF182
  2927 06e1 02       		.byte	0x2
  2928 06e2 E502     		.2byte	0x2e5
  2929 06e4 03       		.byte	0x3
  2930 06e5 0E070000 		.4byte	0x70e
  2931 06e9 1B       		.uleb128 0x1b
- 2932 06ea 4E050000 		.4byte	.LASF122
+ 2932 06ea DB040000 		.4byte	.LASF122
  2933 06ee 02       		.byte	0x2
  2934 06ef E502     		.2byte	0x2e5
  2935 06f1 0E070000 		.4byte	0x70e
  2936 06f5 1B       		.uleb128 0x1b
- 2937 06f6 28080000 		.4byte	.LASF123
+ 2937 06f6 B5070000 		.4byte	.LASF123
  2938 06fa 02       		.byte	0x2
  2939 06fb E502     		.2byte	0x2e5
  2940 06fd FB000000 		.4byte	0xfb
  2941 0701 1B       		.uleb128 0x1b
- 2942 0702 11080000 		.4byte	.LASF124
+ 2942 0702 9E070000 		.4byte	.LASF124
  2943 0706 02       		.byte	0x2
  2944 0707 E502     		.2byte	0x2e5
  2945 0709 FB000000 		.4byte	0xfb
@@ -5070,7 +5070,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2948 070f 04       		.byte	0x4
  2949 0710 FE010000 		.4byte	0x1fe
  2950 0714 1C       		.uleb128 0x1c
- 2951 0715 14020000 		.4byte	.LASF128
+ 2951 0715 A1010000 		.4byte	.LASF128
  2952 0719 01       		.byte	0x1
  2953 071a 79       		.byte	0x79
  2954 071b 00000000 		.4byte	.LFB603
@@ -5079,26 +5079,26 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  2957 0724 9C       		.byte	0x9c
  2958 0725 65080000 		.4byte	0x865
  2959 0729 1D       		.uleb128 0x1d
- 2960 072a 46050000 		.4byte	.LASF125
+ 2960 072a D3040000 		.4byte	.LASF125
  2961 072e 01       		.byte	0x1
  2962 072f 79       		.byte	0x79
  2963 0730 CF000000 		.4byte	0xcf
  2964 0734 00000000 		.4byte	.LLST0
  2965 0738 1D       		.uleb128 0x1d
- 2966 0739 2A040000 		.4byte	.LASF126
+ 2966 0739 B7030000 		.4byte	.LASF126
  2967 073d 01       		.byte	0x1
  2968 073e 79       		.byte	0x79
  2969 073f 2D050000 		.4byte	0x52d
  2970 0743 21000000 		.4byte	.LLST1
  2971 0747 1D       		.uleb128 0x1d
- 2972 0748 02030000 		.4byte	.LASF127
+ 2972 0748 8F020000 		.4byte	.LASF127
  2973 074c 01       		.byte	0x1
  2974 074d 79       		.byte	0x79
  2975 074e E5000000 		.4byte	0xe5
  2976 0752 4D000000 		.4byte	.LLST2
  2977 0756 1E       		.uleb128 0x1e
  2978 0757 DC060000 		.4byte	0x6dc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 86
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 86
 
 
  2979 075b 0A000000 		.4byte	.LBB58
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3033 07f1 98       		.byte	0x98
  3034 07f2 12080000 		.4byte	0x812
  3035 07f6 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 87
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 87
 
 
  3036 07f7 01070000 		.4byte	0x701
@@ -5218,13 +5218,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3090 0860 02       		.uleb128 0x2
  3091 0861 77       		.byte	0x77
  3092 0862 00       		.sleb128 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 88
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 88
 
 
  3093 0863 00       		.byte	0
  3094 0864 00       		.byte	0
  3095 0865 1C       		.uleb128 0x1c
- 3096 0866 9F000000 		.4byte	.LASF129
+ 3096 0866 2C000000 		.4byte	.LASF129
  3097 086a 01       		.byte	0x1
  3098 086b AB       		.byte	0xab
  3099 086c 00000000 		.4byte	.LFB604
@@ -5233,13 +5233,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3102 0875 9C       		.byte	0x9c
  3103 0876 AE080000 		.4byte	0x8ae
  3104 087a 1D       		.uleb128 0x1d
- 3105 087b 46050000 		.4byte	.LASF125
+ 3105 087b D3040000 		.4byte	.LASF125
  3106 087f 01       		.byte	0x1
  3107 0880 AB       		.byte	0xab
  3108 0881 CF000000 		.4byte	0xcf
  3109 0885 6E010000 		.4byte	.LLST15
  3110 0889 1D       		.uleb128 0x1d
- 3111 088a 2A040000 		.4byte	.LASF126
+ 3111 088a B7030000 		.4byte	.LASF126
  3112 088e 01       		.byte	0x1
  3113 088f AB       		.byte	0xab
  3114 0890 CF000000 		.4byte	0xcf
@@ -5261,7 +5261,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3130 08ac 00       		.byte	0
  3131 08ad 00       		.byte	0
  3132 08ae 23       		.uleb128 0x23
- 3133 08af F1020000 		.4byte	.LASF131
+ 3133 08af 7E020000 		.4byte	.LASF131
  3134 08b3 01       		.byte	0x1
  3135 08b4 C2       		.byte	0xc2
  3136 08b5 CF000000 		.4byte	0xcf
@@ -5271,14 +5271,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3140 08c2 9C       		.byte	0x9c
  3141 08c3 FB090000 		.4byte	0x9fb
  3142 08c7 1D       		.uleb128 0x1d
- 3143 08c8 46050000 		.4byte	.LASF125
+ 3143 08c8 D3040000 		.4byte	.LASF125
  3144 08cc 01       		.byte	0x1
  3145 08cd C2       		.byte	0xc2
  3146 08ce CF000000 		.4byte	0xcf
  3147 08d2 BA010000 		.4byte	.LLST17
  3148 08d6 1D       		.uleb128 0x1d
- 3149 08d7 2A040000 		.4byte	.LASF126
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 89
+ 3149 08d7 B7030000 		.4byte	.LASF126
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 89
 
 
  3150 08db 01       		.byte	0x1
@@ -5286,7 +5286,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3152 08dd CF000000 		.4byte	0xcf
  3153 08e1 DB010000 		.4byte	.LLST18
  3154 08e5 24       		.uleb128 0x24
- 3155 08e6 73090000 		.4byte	.LASF133
+ 3155 08e6 6B090000 		.4byte	.LASF133
  3156 08ea 01       		.byte	0x1
  3157 08eb C5       		.byte	0xc5
  3158 08ec CF000000 		.4byte	0xcf
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3204 0968 7C020000 		.4byte	.LLST25
  3205 096c 1F       		.uleb128 0x1f
  3206 096d F5060000 		.4byte	0x6f5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 90
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 90
 
 
  3207 0971 90020000 		.4byte	.LLST26
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3261 09e9 00       		.byte	0
  3262 09ea 22       		.uleb128 0x22
  3263 09eb 28000000 		.4byte	.LVL24
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 91
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 91
 
 
  3264 09ef B5160000 		.4byte	0x16b5
@@ -5411,7 +5411,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3271 09f9 00       		.byte	0
  3272 09fa 00       		.byte	0
  3273 09fb 1C       		.uleb128 0x1c
- 3274 09fc D6050000 		.4byte	.LASF130
+ 3274 09fc 63050000 		.4byte	.LASF130
  3275 0a00 01       		.byte	0x1
  3276 0a01 EF       		.byte	0xef
  3277 0a02 00000000 		.4byte	.LFB606
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3318 0a73 0E000000 		.4byte	.LBB78
  3319 0a77 04000000 		.4byte	.LBE78-.LBB78
  3320 0a7b 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 92
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 92
 
 
  3321 0a7c F6       		.byte	0xf6
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3375 0b0f 01070000 		.4byte	0x701
  3376 0b13 3C040000 		.4byte	.LLST46
  3377 0b17 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 93
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 93
 
 
  3378 0b18 F5060000 		.4byte	0x6f5
@@ -5535,7 +5535,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3389 0b38 CB160000 		.4byte	0x16cb
  3390 0b3c 00       		.byte	0
  3391 0b3d 26       		.uleb128 0x26
- 3392 0b3e A7050000 		.4byte	.LASF132
+ 3392 0b3e 34050000 		.4byte	.LASF132
  3393 0b42 01       		.byte	0x1
  3394 0b43 1301     		.2byte	0x113
  3395 0b45 0A060000 		.4byte	0x60a
@@ -5545,7 +5545,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3399 0b52 9C       		.byte	0x9c
  3400 0b53 7F0D0000 		.4byte	0xd7f
  3401 0b57 27       		.uleb128 0x27
- 3402 0b58 D6000000 		.4byte	.LASF134
+ 3402 0b58 63000000 		.4byte	.LASF134
  3403 0b5c 01       		.byte	0x1
  3404 0b5d 1601     		.2byte	0x116
  3405 0b5f E5000000 		.4byte	0xe5
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3432 0b8f 25       		.uleb128 0x25
  3433 0b90 28000000 		.4byte	.LVL38
  3434 0b94 DF160000 		.4byte	0x16df
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 94
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 94
 
 
  3435 0b98 25       		.uleb128 0x25
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3489 0bfe 50       		.byte	0x50
  3490 0bff 01       		.uleb128 0x1
  3491 0c00 3B       		.byte	0x3b
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 95
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 95
 
 
  3492 0c01 21       		.uleb128 0x21
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3546 0c55 51       		.byte	0x51
  3547 0c56 01       		.uleb128 0x1
  3548 0c57 32       		.byte	0x32
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 96
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 96
 
 
  3549 0c58 00       		.byte	0
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3603 0cb2 01       		.uleb128 0x1
  3604 0cb3 33       		.byte	0x33
  3605 0cb4 21       		.uleb128 0x21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 97
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 97
 
 
  3606 0cb5 01       		.uleb128 0x1
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3660 0d0f 33       		.byte	0x33
  3661 0d10 00       		.byte	0
  3662 0d11 20       		.uleb128 0x20
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 98
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 98
 
 
  3663 0d12 C6000000 		.4byte	.LVL58
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3717 0d72 21       		.uleb128 0x21
  3718 0d73 01       		.uleb128 0x1
  3719 0d74 50       		.byte	0x50
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 99
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 99
 
 
  3720 0d75 01       		.uleb128 0x1
@@ -5892,7 +5892,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3728 0d7d 00       		.byte	0
  3729 0d7e 00       		.byte	0
  3730 0d7f 28       		.uleb128 0x28
- 3731 0d80 5C040000 		.4byte	.LASF135
+ 3731 0d80 E9030000 		.4byte	.LASF135
  3732 0d84 01       		.byte	0x1
  3733 0d85 A201     		.2byte	0x1a2
  3734 0d87 00000000 		.4byte	.LFB608
@@ -5901,14 +5901,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3737 0d90 9C       		.byte	0x9c
  3738 0d91 B20D0000 		.4byte	0xdb2
  3739 0d95 29       		.uleb128 0x29
- 3740 0d96 E5020000 		.4byte	.LASF136
+ 3740 0d96 72020000 		.4byte	.LASF136
  3741 0d9a 01       		.byte	0x1
  3742 0d9b A201     		.2byte	0x1a2
  3743 0d9d C4000000 		.4byte	0xc4
  3744 0da1 01       		.uleb128 0x1
  3745 0da2 50       		.byte	0x50
  3746 0da3 2A       		.uleb128 0x2a
- 3747 0da4 C8090000 		.4byte	.LASF137
+ 3747 0da4 C0090000 		.4byte	.LASF137
  3748 0da8 01       		.byte	0x1
  3749 0da9 A501     		.2byte	0x1a5
  3750 0dab E5000000 		.4byte	0xe5
@@ -5916,7 +5916,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3752 0db0 52       		.byte	0x52
  3753 0db1 00       		.byte	0
  3754 0db2 28       		.uleb128 0x28
- 3755 0db3 F7090000 		.4byte	.LASF138
+ 3755 0db3 EF090000 		.4byte	.LASF138
  3756 0db7 01       		.byte	0x1
  3757 0db8 E701     		.2byte	0x1e7
  3758 0dba 00000000 		.4byte	.LFB609
@@ -5925,20 +5925,20 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3761 0dc3 9C       		.byte	0x9c
  3762 0dc4 C40E0000 		.4byte	0xec4
  3763 0dc8 2B       		.uleb128 0x2b
- 3764 0dc9 D9070000 		.4byte	.LASF139
+ 3764 0dc9 66070000 		.4byte	.LASF139
  3765 0dcd 01       		.byte	0x1
  3766 0dce E701     		.2byte	0x1e7
  3767 0dd0 C40E0000 		.4byte	0xec4
  3768 0dd4 C8040000 		.4byte	.LLST50
  3769 0dd8 2B       		.uleb128 0x2b
- 3770 0dd9 1E030000 		.4byte	.LASF140
+ 3770 0dd9 AB020000 		.4byte	.LASF140
  3771 0ddd 01       		.byte	0x1
  3772 0dde E801     		.2byte	0x1e8
  3773 0de0 3A060000 		.4byte	0x63a
  3774 0de4 FE040000 		.4byte	.LLST51
  3775 0de8 2C       		.uleb128 0x2c
  3776 0de9 7800     		.ascii	"x\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 100
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 100
 
 
  3777 0deb 01       		.byte	0x1
@@ -5958,19 +5958,19 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3791 0e0a E5000000 		.4byte	0xe5
  3792 0e0e 95050000 		.4byte	.LLST54
  3793 0e12 27       		.uleb128 0x27
- 3794 0e13 5C090000 		.4byte	.LASF141
+ 3794 0e13 54090000 		.4byte	.LASF141
  3795 0e17 01       		.byte	0x1
  3796 0e18 F201     		.2byte	0x1f2
  3797 0e1a C9020000 		.4byte	0x2c9
  3798 0e1e E1050000 		.4byte	.LLST55
  3799 0e22 27       		.uleb128 0x27
- 3800 0e23 58030000 		.4byte	.LASF142
+ 3800 0e23 E5020000 		.4byte	.LASF142
  3801 0e27 01       		.byte	0x1
  3802 0e28 F501     		.2byte	0x1f5
  3803 0e2a CF000000 		.4byte	0xcf
  3804 0e2e 30060000 		.4byte	.LLST56
  3805 0e32 27       		.uleb128 0x27
- 3806 0e33 B6070000 		.4byte	.LASF143
+ 3806 0e33 43070000 		.4byte	.LASF143
  3807 0e37 01       		.byte	0x1
  3808 0e38 F801     		.2byte	0x1f8
  3809 0e3a D5020000 		.4byte	0x2d5
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3831 0e65 52       		.byte	0x52
  3832 0e66 02       		.uleb128 0x2
  3833 0e67 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 101
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 101
 
 
  3834 0e68 6F       		.byte	0x6f
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3888 0eb6 DF160000 		.4byte	0x16df
  3889 0eba 25       		.uleb128 0x25
  3890 0ebb 0E040000 		.4byte	.LVL110
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 102
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 102
 
 
  3891 0ebf F5160000 		.4byte	0x16f5
@@ -6067,7 +6067,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3894 0ec5 04       		.byte	0x4
  3895 0ec6 CE050000 		.4byte	0x5ce
  3896 0eca 28       		.uleb128 0x28
- 3897 0ecb 8B070000 		.4byte	.LASF144
+ 3897 0ecb 18070000 		.4byte	.LASF144
  3898 0ecf 01       		.byte	0x1
  3899 0ed0 C202     		.2byte	0x2c2
  3900 0ed2 00000000 		.4byte	.LFB610
@@ -6076,13 +6076,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3903 0edb 9C       		.byte	0x9c
  3904 0edc 31100000 		.4byte	0x1031
  3905 0ee0 2B       		.uleb128 0x2b
- 3906 0ee1 E3050000 		.4byte	.LASF145
+ 3906 0ee1 70050000 		.4byte	.LASF145
  3907 0ee5 01       		.byte	0x1
  3908 0ee6 C202     		.2byte	0x2c2
  3909 0ee8 C40E0000 		.4byte	0xec4
  3910 0eec 84060000 		.4byte	.LLST58
  3911 0ef0 2B       		.uleb128 0x2b
- 3912 0ef1 7F070000 		.4byte	.LASF146
+ 3912 0ef1 0C070000 		.4byte	.LASF146
  3913 0ef5 01       		.byte	0x1
  3914 0ef6 C302     		.2byte	0x2c3
  3915 0ef8 C40E0000 		.4byte	0xec4
@@ -6106,22 +6106,22 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  3933 0f22 E5000000 		.4byte	0xe5
  3934 0f26 62070000 		.4byte	.LLST62
  3935 0f2a 27       		.uleb128 0x27
- 3936 0f2b C8070000 		.4byte	.LASF147
+ 3936 0f2b 55070000 		.4byte	.LASF147
  3937 0f2f 01       		.byte	0x1
  3938 0f30 CD02     		.2byte	0x2cd
  3939 0f32 CF000000 		.4byte	0xcf
  3940 0f36 8D070000 		.4byte	.LLST63
  3941 0f3a 27       		.uleb128 0x27
- 3942 0f3b 4B070000 		.4byte	.LASF148
+ 3942 0f3b D8060000 		.4byte	.LASF148
  3943 0f3f 01       		.byte	0x1
  3944 0f40 CF02     		.2byte	0x2cf
  3945 0f42 CF000000 		.4byte	0xcf
  3946 0f46 AC070000 		.4byte	.LLST64
  3947 0f4a 27       		.uleb128 0x27
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 103
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 103
 
 
- 3948 0f4b 5C090000 		.4byte	.LASF141
+ 3948 0f4b 54090000 		.4byte	.LASF141
  3949 0f4f 01       		.byte	0x1
  3950 0f50 D202     		.2byte	0x2d2
  3951 0f52 C9020000 		.4byte	0x2c9
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4002 0fac 3A       		.byte	0x3a
  4003 0fad 21       		.uleb128 0x21
  4004 0fae 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 104
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 104
 
 
  4005 0faf 51       		.byte	0x51
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4059 1000 50       		.byte	0x50
  4060 1001 01       		.uleb128 0x1
  4061 1002 32       		.byte	0x32
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 105
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 105
 
 
  4062 1003 21       		.uleb128 0x21
@@ -6270,7 +6270,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4088 102f 00       		.byte	0
  4089 1030 00       		.byte	0
  4090 1031 28       		.uleb128 0x28
- 4091 1032 EB070000 		.4byte	.LASF149
+ 4091 1032 78070000 		.4byte	.LASF149
  4092 1036 01       		.byte	0x1
  4093 1037 5C03     		.2byte	0x35c
  4094 1039 00000000 		.4byte	.LFB611
@@ -6279,7 +6279,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4097 1042 9C       		.byte	0x9c
  4098 1043 8B100000 		.4byte	0x108b
  4099 1047 27       		.uleb128 0x27
- 4100 1048 BB030000 		.4byte	.LASF150
+ 4100 1048 48030000 		.4byte	.LASF150
  4101 104c 01       		.byte	0x1
  4102 104d 5F03     		.2byte	0x35f
  4103 104f E5000000 		.4byte	0xe5
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4116 106b 51       		.byte	0x51
  4117 106c 02       		.uleb128 0x2
  4118 106d 75       		.byte	0x75
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 106
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 106
 
 
  4119 106e 00       		.sleb128 0
@@ -6325,7 +6325,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4140 1089 00       		.byte	0
  4141 108a 00       		.byte	0
  4142 108b 28       		.uleb128 0x28
- 4143 108c 93010000 		.4byte	.LASF151
+ 4143 108c 20010000 		.4byte	.LASF151
  4144 1090 01       		.byte	0x1
  4145 1091 8B03     		.2byte	0x38b
  4146 1093 00000000 		.4byte	.LFB612
@@ -6334,7 +6334,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4149 109c 9C       		.byte	0x9c
  4150 109d 00110000 		.4byte	0x1100
  4151 10a1 27       		.uleb128 0x27
- 4152 10a2 BB030000 		.4byte	.LASF150
+ 4152 10a2 48030000 		.4byte	.LASF150
  4153 10a6 01       		.byte	0x1
  4154 10a7 8E03     		.2byte	0x38e
  4155 10a9 CF000000 		.4byte	0xcf
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4173 10ca 26000000 		.4byte	.LVL167
  4174 10ce 14070000 		.4byte	0x714
  4175 10d2 EB100000 		.4byte	0x10eb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 107
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 107
 
 
  4176 10d6 21       		.uleb128 0x21
@@ -6395,7 +6395,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4207 10fe 00       		.byte	0
  4208 10ff 00       		.byte	0
  4209 1100 26       		.uleb128 0x26
- 4210 1101 08070000 		.4byte	.LASF152
+ 4210 1101 95060000 		.4byte	.LASF152
  4211 1105 01       		.byte	0x1
  4212 1106 B403     		.2byte	0x3b4
  4213 1108 0A060000 		.4byte	0x60a
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4230 1138 F5060000 		.4byte	0x6f5
  4231 113c C7080000 		.4byte	.LLST69
  4232 1140 1F       		.uleb128 0x1f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 108
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 108
 
 
  4233 1141 E9060000 		.4byte	0x6e9
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4287 11da 2D       		.uleb128 0x2d
  4288 11db DC060000 		.4byte	0x6dc
  4289 11df 26000000 		.4byte	.LBB94
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 109
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 109
 
 
  4290 11e3 02000000 		.4byte	.LBE94-.LBB94
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4344 1269 20       		.uleb128 0x20
  4345 126a 2E000000 		.4byte	.LVL178
  4346 126e 00170000 		.4byte	0x1700
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 110
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 110
 
 
  4347 1272 7C120000 		.4byte	0x127c
@@ -6563,7 +6563,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4366 1294 3D0B0000 		.4byte	0xb3d
  4367 1298 00       		.byte	0
  4368 1299 26       		.uleb128 0x26
- 4369 129a 570A0000 		.4byte	.LASF153
+ 4369 129a 4F0A0000 		.4byte	.LASF153
  4370 129e 01       		.byte	0x1
  4371 129f DD03     		.2byte	0x3dd
  4372 12a1 0A060000 		.4byte	0x60a
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4401 12f3 13130000 		.4byte	0x1313
  4402 12f7 1F       		.uleb128 0x1f
  4403 12f8 01070000 		.4byte	0x701
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 111
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 111
 
 
  4404 12fc 730A0000 		.4byte	.LLST89
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4458 1395 470B0000 		.4byte	.LLST99
  4459 1399 1F       		.uleb128 0x1f
  4460 139a E9060000 		.4byte	0x6e9
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 112
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 112
 
 
  4461 139e 5B0B0000 		.4byte	.LLST100
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4515 1434 06000000 		.4byte	.LVL182
  4516 1438 31100000 		.4byte	0x1031
  4517 143c 25       		.uleb128 0x25
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 113
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 113
 
 
  4518 143d 0A000000 		.4byte	.LVL183
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4572 149d 3C000000 		.4byte	.LVL190
  4573 14a1 65080000 		.4byte	0x865
  4574 14a5 B4140000 		.4byte	0x14b4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 114
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 114
 
 
  4575 14a9 21       		.uleb128 0x21
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4629 14fd 65080000 		.4byte	0x865
  4630 1501 11150000 		.4byte	0x1511
  4631 1505 21       		.uleb128 0x21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 115
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 115
 
 
  4632 1506 01       		.uleb128 0x1
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4686 155d 20       		.uleb128 0x20
  4687 155e 80000000 		.4byte	.LVL201
  4688 1562 00170000 		.4byte	0x1700
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 116
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 116
 
 
  4689 1566 70150000 		.4byte	0x1570
@@ -6919,7 +6919,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4704 157e 00       		.byte	0
  4705 157f 00       		.byte	0
  4706 1580 24       		.uleb128 0x24
- 4707 1581 F7080000 		.4byte	.LASF154
+ 4707 1581 EF080000 		.4byte	.LASF154
  4708 1585 01       		.byte	0x1
  4709 1586 54       		.byte	0x54
  4710 1587 D1060000 		.4byte	0x6d1
@@ -6927,7 +6927,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4712 158c 03       		.byte	0x3
  4713 158d 00000000 		.4byte	driverPacket
  4714 1591 24       		.uleb128 0x24
- 4715 1592 49030000 		.4byte	.LASF155
+ 4715 1592 D6020000 		.4byte	.LASF155
  4716 1596 01       		.byte	0x1
  4717 1597 5F       		.byte	0x5f
  4718 1598 E5000000 		.4byte	0xe5
@@ -6935,7 +6935,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4720 159d 03       		.byte	0x3
  4721 159e 7C000000 		.4byte	fullUpdateTime
  4722 15a2 24       		.uleb128 0x24
- 4723 15a3 18040000 		.4byte	.LASF156
+ 4723 15a3 A5030000 		.4byte	.LASF156
  4724 15a7 01       		.byte	0x1
  4725 15a8 60       		.byte	0x60
  4726 15a9 E5000000 		.4byte	0xe5
@@ -6943,7 +6943,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4728 15ae 03       		.byte	0x3
  4729 15af 7E000000 		.4byte	partialUpdateTime
  4730 15b3 24       		.uleb128 0x24
- 4731 15b4 91050000 		.4byte	.LASF157
+ 4731 15b4 1E050000 		.4byte	.LASF157
  4732 15b8 01       		.byte	0x1
  4733 15b9 63       		.byte	0x63
  4734 15ba 2D050000 		.4byte	0x52d
@@ -6951,18 +6951,18 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4736 15bf 03       		.byte	0x3
  4737 15c0 70000000 		.4byte	dataLineEven
  4738 15c4 24       		.uleb128 0x24
- 4739 15c5 6F020000 		.4byte	.LASF158
+ 4739 15c5 FC010000 		.4byte	.LASF158
  4740 15c9 01       		.byte	0x1
  4741 15ca 64       		.byte	0x64
  4742 15cb 2D050000 		.4byte	0x52d
  4743 15cf 05       		.uleb128 0x5
  4744 15d0 03       		.byte	0x3
  4745 15d1 74000000 		.4byte	dataLineOdd
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 117
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 117
 
 
  4746 15d5 24       		.uleb128 0x24
- 4747 15d6 74030000 		.4byte	.LASF159
+ 4747 15d6 01030000 		.4byte	.LASF159
  4748 15da 01       		.byte	0x1
  4749 15db 65       		.byte	0x65
  4750 15dc 2D050000 		.4byte	0x52d
@@ -6970,33 +6970,33 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4752 15e1 03       		.byte	0x3
  4753 15e2 78000000 		.4byte	dataLineScan
  4754 15e6 2E       		.uleb128 0x2e
- 4755 15e7 86010000 		.4byte	.LASF160
+ 4755 15e7 13010000 		.4byte	.LASF160
  4756 15eb 0B       		.byte	0xb
  4757 15ec EA07     		.2byte	0x7ea
  4758 15ee F2150000 		.4byte	0x15f2
  4759 15f2 06       		.uleb128 0x6
  4760 15f3 F0000000 		.4byte	0xf0
  4761 15f7 2F       		.uleb128 0x2f
- 4762 15f8 9C090000 		.4byte	.LASF161
+ 4762 15f8 94090000 		.4byte	.LASF161
  4763 15fc 0C       		.byte	0xc
  4764 15fd 5E       		.byte	0x5e
  4765 15fe C2050000 		.4byte	0x5c2
  4766 1602 2F       		.uleb128 0x2f
- 4767 1603 1A0A0000 		.4byte	.LASF162
+ 4767 1603 120A0000 		.4byte	.LASF162
  4768 1607 0D       		.byte	0xd
  4769 1608 1F       		.byte	0x1f
  4770 1609 0D160000 		.4byte	0x160d
  4771 160d 07       		.uleb128 0x7
  4772 160e CD030000 		.4byte	0x3cd
  4773 1612 2F       		.uleb128 0x2f
- 4774 1613 D2080000 		.4byte	.LASF163
+ 4774 1613 CA080000 		.4byte	.LASF163
  4775 1617 0E       		.byte	0xe
  4776 1618 1F       		.byte	0x1f
  4777 1619 1D160000 		.4byte	0x161d
  4778 161d 07       		.uleb128 0x7
  4779 161e 11050000 		.4byte	0x511
  4780 1622 2F       		.uleb128 0x2f
- 4781 1623 A5010000 		.4byte	.LASF164
+ 4781 1623 32010000 		.4byte	.LASF164
  4782 1627 0F       		.byte	0xf
  4783 1628 1F       		.byte	0x1f
  4784 1629 0D160000 		.4byte	0x160d
@@ -7008,7 +7008,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4790 163b AF       		.byte	0xaf
  4791 163c 00       		.byte	0
  4792 163d 30       		.uleb128 0x30
- 4793 163e A0030000 		.4byte	.LASF165
+ 4793 163e 2D030000 		.4byte	.LASF165
  4794 1642 01       		.byte	0x1
  4795 1643 50       		.byte	0x50
  4796 1644 2D160000 		.4byte	0x162d
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4800 164e 08       		.uleb128 0x8
  4801 164f 5E160000 		.4byte	0x165e
  4802 1653 5E160000 		.4byte	0x165e
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 118
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 118
 
 
  4803 1657 09       		.uleb128 0x9
@@ -7028,7 +7028,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4807 165e 07       		.uleb128 0x7
  4808 165f CF000000 		.4byte	0xcf
  4809 1663 30       		.uleb128 0x30
- 4810 1664 3F030000 		.4byte	.LASF166
+ 4810 1664 CC020000 		.4byte	.LASF166
  4811 1668 01       		.byte	0x1
  4812 1669 57       		.byte	0x57
  4813 166a 74160000 		.4byte	0x1674
@@ -7045,7 +7045,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4824 1687 07       		.byte	0x7
  4825 1688 00       		.byte	0
  4826 1689 30       		.uleb128 0x30
- 4827 168a 92030000 		.4byte	.LASF167
+ 4827 168a 1F030000 		.4byte	.LASF167
  4828 168e 01       		.byte	0x1
  4829 168f 5B       		.byte	0x5b
  4830 1690 9A160000 		.4byte	0x169a
@@ -7055,64 +7055,64 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4834 169a 07       		.uleb128 0x7
  4835 169b 79160000 		.4byte	0x1679
  4836 169f 31       		.uleb128 0x31
- 4837 16a0 81030000 		.4byte	.LASF168
- 4838 16a4 81030000 		.4byte	.LASF168
+ 4837 16a0 0E030000 		.4byte	.LASF168
+ 4838 16a4 0E030000 		.4byte	.LASF168
  4839 16a8 10       		.byte	0x10
  4840 16a9 85       		.byte	0x85
  4841 16aa 31       		.uleb128 0x31
- 4842 16ab 53070000 		.4byte	.LASF169
- 4843 16af 53070000 		.4byte	.LASF169
+ 4842 16ab E0060000 		.4byte	.LASF169
+ 4843 16af E0060000 		.4byte	.LASF169
  4844 16b3 0A       		.byte	0xa
  4845 16b4 58       		.byte	0x58
  4846 16b5 31       		.uleb128 0x31
- 4847 16b6 25020000 		.4byte	.LASF170
- 4848 16ba 25020000 		.4byte	.LASF170
+ 4847 16b6 B2010000 		.4byte	.LASF170
+ 4848 16ba B2010000 		.4byte	.LASF170
  4849 16be 10       		.byte	0x10
  4850 16bf 86       		.byte	0x86
  4851 16c0 31       		.uleb128 0x31
- 4852 16c1 DD080000 		.4byte	.LASF171
- 4853 16c5 DD080000 		.4byte	.LASF171
+ 4852 16c1 D5080000 		.4byte	.LASF171
+ 4853 16c5 D5080000 		.4byte	.LASF171
  4854 16c9 10       		.byte	0x10
  4855 16ca 82       		.byte	0x82
  4856 16cb 31       		.uleb128 0x31
- 4857 16cc C9020000 		.4byte	.LASF172
- 4858 16d0 C9020000 		.4byte	.LASF172
+ 4857 16cc 56020000 		.4byte	.LASF172
+ 4858 16d0 56020000 		.4byte	.LASF172
  4859 16d4 10       		.byte	0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 119
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 119
 
 
  4860 16d5 7D       		.byte	0x7d
  4861 16d6 32       		.uleb128 0x32
- 4862 16d7 D3090000 		.4byte	.LASF183
- 4863 16db D3090000 		.4byte	.LASF183
+ 4862 16d7 CB090000 		.4byte	.LASF183
+ 4863 16db CB090000 		.4byte	.LASF183
  4864 16df 31       		.uleb128 0x31
- 4865 16e0 8A0A0000 		.4byte	.LASF173
- 4866 16e4 8A0A0000 		.4byte	.LASF173
+ 4865 16e0 820A0000 		.4byte	.LASF173
+ 4866 16e4 820A0000 		.4byte	.LASF173
  4867 16e8 10       		.byte	0x10
  4868 16e9 7F       		.byte	0x7f
  4869 16ea 31       		.uleb128 0x31
- 4870 16eb AA080000 		.4byte	.LASF174
- 4871 16ef AA080000 		.4byte	.LASF174
+ 4870 16eb A2080000 		.4byte	.LASF174
+ 4871 16ef A2080000 		.4byte	.LASF174
  4872 16f3 10       		.byte	0x10
  4873 16f4 88       		.byte	0x88
  4874 16f5 31       		.uleb128 0x31
- 4875 16f6 31090000 		.4byte	.LASF175
- 4876 16fa 31090000 		.4byte	.LASF175
+ 4875 16f6 29090000 		.4byte	.LASF175
+ 4876 16fa 29090000 		.4byte	.LASF175
  4877 16fe 10       		.byte	0x10
  4878 16ff 7E       		.byte	0x7e
  4879 1700 33       		.uleb128 0x33
- 4880 1701 50080000 		.4byte	.LASF176
- 4881 1705 50080000 		.4byte	.LASF176
+ 4880 1701 DD070000 		.4byte	.LASF176
+ 4881 1705 DD070000 		.4byte	.LASF176
  4882 1709 06       		.byte	0x6
  4883 170a 2103     		.2byte	0x321
  4884 170c 31       		.uleb128 0x31
- 4885 170d 7C090000 		.4byte	.LASF177
- 4886 1711 7C090000 		.4byte	.LASF177
+ 4885 170d 74090000 		.4byte	.LASF177
+ 4886 1711 74090000 		.4byte	.LASF177
  4887 1715 10       		.byte	0x10
  4888 1716 83       		.byte	0x83
  4889 1717 31       		.uleb128 0x31
- 4890 1718 BF050000 		.4byte	.LASF178
- 4891 171c BF050000 		.4byte	.LASF178
+ 4890 1718 4C050000 		.4byte	.LASF178
+ 4891 171c 4C050000 		.4byte	.LASF178
  4892 1720 10       		.byte	0x10
  4893 1721 84       		.byte	0x84
  4894 1722 00       		.byte	0
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4914 0011 00       		.byte	0
  4915 0012 00       		.byte	0
  4916 0013 02       		.uleb128 0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 120
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 120
 
 
  4917 0014 24       		.uleb128 0x24
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  4971 004a 00       		.byte	0
  4972 004b 08       		.uleb128 0x8
  4973 004c 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 121
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 121
 
 
  4974 004d 01       		.byte	0x1
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5028 0083 13       		.uleb128 0x13
  5029 0084 38       		.uleb128 0x38
  5030 0085 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 122
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 122
 
 
  5031 0086 00       		.byte	0
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5085 00bc 01       		.uleb128 0x1
  5086 00bd 13       		.uleb128 0x13
  5087 00be 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 123
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 123
 
 
  5088 00bf 00       		.byte	0
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5142 00f5 00       		.byte	0
  5143 00f6 00       		.byte	0
  5144 00f7 16       		.uleb128 0x16
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 124
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 124
 
 
  5145 00f8 04       		.uleb128 0x4
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5199 012e 3A       		.uleb128 0x3a
  5200 012f 0B       		.uleb128 0xb
  5201 0130 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 125
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 125
 
 
  5202 0131 05       		.uleb128 0x5
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5256 0168 3B       		.uleb128 0x3b
  5257 0169 0B       		.uleb128 0xb
  5258 016a 49       		.uleb128 0x49
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 126
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 126
 
 
  5259 016b 13       		.uleb128 0x13
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5313 01a8 11       		.uleb128 0x11
  5314 01a9 01       		.uleb128 0x1
  5315 01aa 31       		.uleb128 0x31
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 127
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 127
 
 
  5316 01ab 13       		.uleb128 0x13
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5370 01e4 26       		.uleb128 0x26
  5371 01e5 2E       		.uleb128 0x2e
  5372 01e6 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 128
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 128
 
 
  5373 01e7 3F       		.uleb128 0x3f
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5427 021e 12       		.uleb128 0x12
  5428 021f 06       		.uleb128 0x6
  5429 0220 40       		.uleb128 0x40
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 129
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 129
 
 
  5430 0221 18       		.uleb128 0x18
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5484 0258 00       		.byte	0
  5485 0259 03       		.uleb128 0x3
  5486 025a 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 130
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 130
 
 
  5487 025b 3A       		.uleb128 0x3a
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5541 0291 13       		.uleb128 0x13
  5542 0292 3F       		.uleb128 0x3f
  5543 0293 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 131
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 131
 
 
  5544 0294 3C       		.uleb128 0x3c
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5598 02ca 3F       		.uleb128 0x3f
  5599 02cb 19       		.uleb128 0x19
  5600 02cc 3C       		.uleb128 0x3c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 132
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 132
 
 
  5601 02cd 19       		.uleb128 0x19
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5655 0062 F3       		.byte	0xf3
  5656 0063 01       		.uleb128 0x1
  5657 0064 52       		.byte	0x52
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 133
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 133
 
 
  5658 0065 9F       		.byte	0x9f
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5712 00ee 1E000000 		.4byte	.LVL6
  5713 00f2 20000000 		.4byte	.LVL7
  5714 00f6 0200     		.2byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 134
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 134
 
 
  5715 00f8 30       		.byte	0x30
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5769 0183 F3       		.byte	0xf3
  5770 0184 01       		.uleb128 0x1
  5771 0185 50       		.byte	0x50
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 135
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 135
 
 
  5772 0186 9F       		.byte	0x9f
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5826 0208 00000000 		.4byte	0
  5827 020c 00000000 		.4byte	0
  5828              	.LLST20:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 136
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 136
 
 
  5829 0210 06000000 		.4byte	.LVL16
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5883 029b 9F       		.byte	0x9f
  5884 029c 00000000 		.4byte	0
  5885 02a0 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 137
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 137
 
 
  5886              	.LLST27:
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5940 032e 0C       		.byte	0xc
  5941 032f 00003240 		.4byte	0x40320000
  5942 0333 9F       		.byte	0x9f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 138
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 138
 
 
  5943 0334 00000000 		.4byte	0
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  5997 03c0 1C000000 		.4byte	.LVL31
  5998 03c4 0200     		.2byte	0x2
  5999 03c6 30       		.byte	0x30
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 139
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 139
 
 
  6000 03c7 9F       		.byte	0x9f
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6054 0450 1E000000 		.4byte	.LVL32
  6055 0454 22000000 		.4byte	.LVL33
  6056 0458 0200     		.2byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 140
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 140
 
 
  6057 045a 35       		.byte	0x35
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6111 04e8 76       		.byte	0x76
  6112 04e9 01       		.sleb128 1
  6113 04ea 9F       		.byte	0x9f
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 141
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 141
 
 
  6114 04eb 72000000 		.4byte	.LVL84
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6168 0576 9F       		.byte	0x9f
  6169 0577 D8030000 		.4byte	.LVL103
  6170 057b F6030000 		.4byte	.LVL106
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 142
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 142
 
 
  6171 057f 0100     		.2byte	0x1
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6225 0605 0100     		.2byte	0x1
  6226 0607 53       		.byte	0x53
  6227 0608 AE030000 		.4byte	.LVL99
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 143
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 143
 
 
  6228 060c C8030000 		.4byte	.LVL100
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6282 068c 0100     		.2byte	0x1
  6283 068e 50       		.byte	0x50
  6284 068f 0B000000 		.4byte	.LVL114-1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 144
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 144
 
 
  6285 0693 5E000000 		.4byte	.LVL120
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6339 0722 18000000 		.4byte	.LVL116
  6340 0726 A4010000 		.4byte	.LVL135
  6341 072a 0100     		.2byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 145
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 145
 
 
  6342 072c 54       		.byte	0x54
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6396 07b7 00000000 		.4byte	0
  6397 07bb 00000000 		.4byte	0
  6398              	.LLST65:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 146
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 146
 
 
  6399 07bf 08000000 		.4byte	.LVL113
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6453 082d 74       		.byte	0x74
  6454 082e 00       		.sleb128 0
  6455 082f 1C       		.byte	0x1c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 147
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 147
 
 
  6456 0830 9F       		.byte	0x9f
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6510 08b7 08000000 		.4byte	.LVL170
  6511 08bb 0200     		.2byte	0x2
  6512 08bd 31       		.byte	0x31
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 148
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 148
 
 
  6513 08be 9F       		.byte	0x9f
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6567 0947 18000000 		.4byte	.LVL173
  6568 094b 1C000000 		.4byte	.LVL174
  6569 094f 0200     		.2byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 149
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 149
 
 
  6570 0951 36       		.byte	0x36
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6624              	.LLST82:
  6625 09db 26000000 		.4byte	.LVL176
  6626 09df 28000000 		.4byte	.LVL177
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 150
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 150
 
 
  6627 09e3 0600     		.2byte	0x6
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6681 0a6b 00000000 		.4byte	0
  6682 0a6f 00000000 		.4byte	0
  6683              	.LLST89:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 151
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 151
 
 
  6684 0a73 1C000000 		.4byte	.LVL186
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6738 0afe 9F       		.byte	0x9f
  6739 0aff 00000000 		.4byte	0
  6740 0b03 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 152
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 152
 
 
  6741              	.LLST96:
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6795 0b91 32       		.byte	0x32
  6796 0b92 9F       		.byte	0x9f
  6797 0b93 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 153
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 153
 
 
  6798 0b97 00000000 		.4byte	0
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6852 0c23 0600     		.2byte	0x6
  6853 0c25 0C       		.byte	0xc
  6854 0c26 80023240 		.4byte	0x40320280
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 154
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 154
 
 
  6855 0c2a 9F       		.byte	0x9f
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6909 003c 28020000 		.4byte	.LFE610
  6910 0040 00000000 		.4byte	.LFB611
  6911 0044 5C000000 		.4byte	.LFE611
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 155
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 155
 
 
  6912 0048 00000000 		.4byte	.LFB612
@@ -9265,908 +9265,906 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 1
  6926      6370776D 
  6926      5F70776D 
  6926      5F636F6E 
- 6927              	.LASF181:
- 6928 0022 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW_projekt\\projekt_sm"
- 6928      73657273 
- 6928      5C726F62 
- 6928      65725C44 
- 6928      65736B74 
- 6929 0050 69775C43 		.ascii	"iw\\CE223727_EmWin_EInk_Display01\\CE223727_EmWin_E"
- 6929      45323233 
- 6929      3732375F 
- 6929      456D5769 
- 6929      6E5F4549 
- 6930 0081 496E6B5F 		.ascii	"Ink_Display01.cydsn\000"
- 6930      44697370 
- 6930      6C617930 
- 6930      312E6379 
- 6930      64736E00 
- 6931              	.LASF88:
- 6932 0095 6B696C6C 		.ascii	"killInput\000"
- 6932      496E7075 
- 6932      7400
- 6933              	.LASF129:
- 6934 009f 50765F45 		.ascii	"Pv_EINK_SendByte\000"
- 6934      494E4B5F 
- 6934      53656E64 
- 6934      42797465 
+ 6927              	.LASF88:
+ 6928 0022 6B696C6C 		.ascii	"killInput\000"
+ 6928      496E7075 
+ 6928      7400
+ 6929              	.LASF129:
+ 6930 002c 50765F45 		.ascii	"Pv_EINK_SendByte\000"
+ 6930      494E4B5F 
+ 6930      53656E64 
+ 6930      42797465 
+ 6930      00
+ 6931              	.LASF108:
+ 6932 003d 50565F45 		.ascii	"PV_EINK_ERROR_CHARGEPUMP\000"
+ 6932      494E4B5F 
+ 6932      4552524F 
+ 6932      525F4348 
+ 6932      41524745 
+ 6933              	.LASF77:
+ 6934 0056 70776D41 		.ascii	"pwmAlignment\000"
+ 6934      6C69676E 
+ 6934      6D656E74 
  6934      00
- 6935              	.LASF108:
- 6936 00b0 50565F45 		.ascii	"PV_EINK_ERROR_CHARGEPUMP\000"
- 6936      494E4B5F 
- 6936      4552524F 
- 6936      525F4348 
- 6936      41524745 
- 6937              	.LASF77:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 156
+ 6935              	.LASF134:
+ 6936 0063 6C6F6F70 		.ascii	"loopCounter\000"
+ 6936      436F756E 
+ 6936      74657200 
+ 6937              	.LASF3:
+ 6938 006f 7369676E 		.ascii	"signed char\000"
+ 6938      65642063 
+ 6938      68617200 
+ 6939              	.LASF5:
+ 6940 007b 5F5F7569 		.ascii	"__uint8_t\000"
+ 6940      6E74385F 
+ 6940      7400
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 156
 
 
- 6938 00c9 70776D41 		.ascii	"pwmAlignment\000"
- 6938      6C69676E 
- 6938      6D656E74 
- 6938      00
- 6939              	.LASF134:
- 6940 00d6 6C6F6F70 		.ascii	"loopCounter\000"
- 6940      436F756E 
- 6940      74657200 
- 6941              	.LASF3:
- 6942 00e2 7369676E 		.ascii	"signed char\000"
- 6942      65642063 
- 6942      68617200 
- 6943              	.LASF5:
- 6944 00ee 5F5F7569 		.ascii	"__uint8_t\000"
- 6944      6E74385F 
- 6944      7400
- 6945              	.LASF57:
- 6946 00f8 636F756E 		.ascii	"countDirection\000"
- 6946      74446972 
- 6946      65637469 
- 6946      6F6E00
- 6947              	.LASF69:
- 6948 0107 73746F70 		.ascii	"stopInputMode\000"
- 6948      496E7075 
- 6948      744D6F64 
- 6948      6500
- 6949              	.LASF54:
- 6950 0115 70657269 		.ascii	"period\000"
- 6950      6F6400
- 6951              	.LASF45:
- 6952 011c 5644445F 		.ascii	"VDD_INTR_MASK\000"
- 6952      494E5452 
- 6952      5F4D4153 
- 6952      4B00
- 6953              	.LASF64:
- 6954 012a 63617074 		.ascii	"captureInput\000"
- 6954      75726549 
- 6954      6E707574 
- 6954      00
- 6955              	.LASF120:
- 6956 0137 6C696E65 		.ascii	"lineBuffer\000"
- 6956      42756666 
+ 6941              	.LASF57:
+ 6942 0085 636F756E 		.ascii	"countDirection\000"
+ 6942      74446972 
+ 6942      65637469 
+ 6942      6F6E00
+ 6943              	.LASF69:
+ 6944 0094 73746F70 		.ascii	"stopInputMode\000"
+ 6944      496E7075 
+ 6944      744D6F64 
+ 6944      6500
+ 6945              	.LASF54:
+ 6946 00a2 70657269 		.ascii	"period\000"
+ 6946      6F6400
+ 6947              	.LASF45:
+ 6948 00a9 5644445F 		.ascii	"VDD_INTR_MASK\000"
+ 6948      494E5452 
+ 6948      5F4D4153 
+ 6948      4B00
+ 6949              	.LASF64:
+ 6950 00b7 63617074 		.ascii	"captureInput\000"
+ 6950      75726549 
+ 6950      6E707574 
+ 6950      00
+ 6951              	.LASF120:
+ 6952 00c4 6C696E65 		.ascii	"lineBuffer\000"
+ 6952      42756666 
+ 6952      657200
+ 6953              	.LASF15:
+ 6954 00cf 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 6954      206C6F6E 
+ 6954      6720756E 
+ 6954      7369676E 
+ 6954      65642069 
+ 6955              	.LASF55:
+ 6956 00e6 636C6F63 		.ascii	"clockPrescaler\000"
+ 6956      6B507265 
+ 6956      7363616C 
  6956      657200
- 6957              	.LASF15:
- 6958 0142 6C6F6E67 		.ascii	"long long unsigned int\000"
- 6958      206C6F6E 
- 6958      6720756E 
- 6958      7369676E 
- 6958      65642069 
- 6959              	.LASF55:
- 6960 0159 636C6F63 		.ascii	"clockPrescaler\000"
- 6960      6B507265 
- 6960      7363616C 
- 6960      657200
- 6961              	.LASF102:
- 6962 0168 70765F65 		.ascii	"pv_eink_frame_data_t\000"
- 6962      696E6B5F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 157
+ 6957              	.LASF102:
+ 6958 00f5 70765F65 		.ascii	"pv_eink_frame_data_t\000"
+ 6958      696E6B5F 
+ 6958      6672616D 
+ 6958      655F6461 
+ 6958      74615F74 
+ 6959              	.LASF4:
+ 6960 010a 5F5F696E 		.ascii	"__int8_t\000"
+ 6960      74385F74 
+ 6960      00
+ 6961              	.LASF160:
+ 6962 0113 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 6962      52784275 
+ 6962      66666572 
+ 6962      00
+ 6963              	.LASF151:
+ 6964 0120 50765F45 		.ascii	"Pv_EINK_DummyLine\000"
+ 6964      494E4B5F 
+ 6964      44756D6D 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 157
 
 
- 6962      6672616D 
- 6962      655F6461 
- 6962      74615F74 
- 6963              	.LASF4:
- 6964 017d 5F5F696E 		.ascii	"__int8_t\000"
- 6964      74385F74 
- 6964      00
- 6965              	.LASF160:
- 6966 0186 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 6966      52784275 
- 6966      66666572 
+ 6964      794C696E 
+ 6964      6500
+ 6965              	.LASF164:
+ 6966 0132 54696D65 		.ascii	"Timer_config\000"
+ 6966      725F636F 
+ 6966      6E666967 
  6966      00
- 6967              	.LASF151:
- 6968 0193 50765F45 		.ascii	"Pv_EINK_DummyLine\000"
- 6968      494E4B5F 
- 6968      44756D6D 
- 6968      794C696E 
- 6968      6500
- 6969              	.LASF164:
- 6970 01a5 54696D65 		.ascii	"Timer_config\000"
- 6970      725F636F 
- 6970      6E666967 
- 6970      00
- 6971              	.LASF80:
- 6972 01b2 70657269 		.ascii	"period1\000"
- 6972      6F643100 
- 6973              	.LASF20:
- 6974 01ba 696E7431 		.ascii	"int16_t\000"
- 6974      365F7400 
- 6975              	.LASF112:
- 6976 01c2 50565F45 		.ascii	"PV_EINK_STAGE3\000"
- 6976      494E4B5F 
- 6976      53544147 
- 6976      453300
- 6977              	.LASF1:
- 6978 01d1 6C6F6E67 		.ascii	"long long int\000"
- 6978      206C6F6E 
- 6978      6720696E 
- 6978      7400
- 6979              	.LASF73:
- 6980 01df 63795F73 		.ascii	"cy_stc_tcpwm_counter_config_t\000"
- 6980      74635F74 
- 6980      6370776D 
- 6980      5F636F75 
- 6980      6E746572 
- 6981              	.LASF91:
- 6982 01fd 63795F73 		.ascii	"cy_stc_scb_spi_context\000"
- 6982      74635F73 
- 6982      63625F73 
- 6982      70695F63 
- 6982      6F6E7465 
- 6983              	.LASF128:
- 6984 0214 50765F45 		.ascii	"Pv_EINK_SendData\000"
- 6984      494E4B5F 
- 6984      53656E64 
- 6984      44617461 
- 6984      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 158
+ 6967              	.LASF80:
+ 6968 013f 70657269 		.ascii	"period1\000"
+ 6968      6F643100 
+ 6969              	.LASF20:
+ 6970 0147 696E7431 		.ascii	"int16_t\000"
+ 6970      365F7400 
+ 6971              	.LASF112:
+ 6972 014f 50565F45 		.ascii	"PV_EINK_STAGE3\000"
+ 6972      494E4B5F 
+ 6972      53544147 
+ 6972      453300
+ 6973              	.LASF1:
+ 6974 015e 6C6F6E67 		.ascii	"long long int\000"
+ 6974      206C6F6E 
+ 6974      6720696E 
+ 6974      7400
+ 6975              	.LASF73:
+ 6976 016c 63795F73 		.ascii	"cy_stc_tcpwm_counter_config_t\000"
+ 6976      74635F74 
+ 6976      6370776D 
+ 6976      5F636F75 
+ 6976      6E746572 
+ 6977              	.LASF91:
+ 6978 018a 63795F73 		.ascii	"cy_stc_scb_spi_context\000"
+ 6978      74635F73 
+ 6978      63625F73 
+ 6978      70695F63 
+ 6978      6F6E7465 
+ 6979              	.LASF128:
+ 6980 01a1 50765F45 		.ascii	"Pv_EINK_SendData\000"
+ 6980      494E4B5F 
+ 6980      53656E64 
+ 6980      44617461 
+ 6980      00
+ 6981              	.LASF170:
+ 6982 01b2 43795F45 		.ascii	"Cy_EINK_ReadSPI\000"
+ 6982      494E4B5F 
+ 6982      52656164 
+ 6982      53504900 
+ 6983              	.LASF182:
+ 6984 01c2 43795F47 		.ascii	"Cy_GPIO_Write\000"
+ 6984      50494F5F 
+ 6984      57726974 
+ 6984      6500
+ 6985              	.LASF90:
+ 6986 01d0 63795F63 		.ascii	"cy_cb_scb_spi_handle_events_t\000"
+ 6986      625F7363 
+ 6986      625F7370 
+ 6986      695F6861 
+ 6986      6E646C65 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 158
 
 
- 6985              	.LASF170:
- 6986 0225 43795F45 		.ascii	"Cy_EINK_ReadSPI\000"
- 6986      494E4B5F 
- 6986      52656164 
- 6986      53504900 
- 6987              	.LASF182:
- 6988 0235 43795F47 		.ascii	"Cy_GPIO_Write\000"
- 6988      50494F5F 
- 6988      57726974 
- 6988      6500
- 6989              	.LASF90:
- 6990 0243 63795F63 		.ascii	"cy_cb_scb_spi_handle_events_t\000"
- 6990      625F7363 
- 6990      625F7370 
- 6990      695F6861 
- 6990      6E646C65 
- 6991              	.LASF12:
- 6992 0261 6C6F6E67 		.ascii	"long int\000"
- 6992      20696E74 
- 6992      00
- 6993              	.LASF118:
- 6994 026a 7363616E 		.ascii	"scan\000"
+ 6987              	.LASF12:
+ 6988 01ee 6C6F6E67 		.ascii	"long int\000"
+ 6988      20696E74 
+ 6988      00
+ 6989              	.LASF118:
+ 6990 01f7 7363616E 		.ascii	"scan\000"
+ 6990      00
+ 6991              	.LASF158:
+ 6992 01fc 64617461 		.ascii	"dataLineOdd\000"
+ 6992      4C696E65 
+ 6992      4F646400 
+ 6993              	.LASF0:
+ 6994 0208 756E7369 		.ascii	"unsigned int\000"
+ 6994      676E6564 
+ 6994      20696E74 
  6994      00
- 6995              	.LASF158:
- 6996 026f 64617461 		.ascii	"dataLineOdd\000"
- 6996      4C696E65 
- 6996      4F646400 
- 6997              	.LASF0:
- 6998 027b 756E7369 		.ascii	"unsigned int\000"
- 6998      676E6564 
- 6998      20696E74 
- 6998      00
- 6999              	.LASF180:
- 7000 0288 65496E6B 		.ascii	"eInk Library\\pervasive_eink_hardware_driver.c\000"
- 7000      204C6962 
- 7000      72617279 
- 7000      5C706572 
- 7000      76617369 
- 7001              	.LASF8:
- 7002 02b6 73686F72 		.ascii	"short int\000"
- 7002      7420696E 
+ 6995              	.LASF180:
+ 6996 0215 65496E6B 		.ascii	"eInk Library\\pervasive_eink_hardware_driver.c\000"
+ 6996      204C6962 
+ 6996      72617279 
+ 6996      5C706572 
+ 6996      76617369 
+ 6997              	.LASF8:
+ 6998 0243 73686F72 		.ascii	"short int\000"
+ 6998      7420696E 
+ 6998      7400
+ 6999              	.LASF21:
+ 7000 024d 75696E74 		.ascii	"uint16_t\000"
+ 7000      31365F74 
+ 7000      00
+ 7001              	.LASF172:
+ 7002 0256 43795F45 		.ascii	"Cy_EINK_TimerInit\000"
+ 7002      494E4B5F 
+ 7002      54696D65 
+ 7002      72496E69 
  7002      7400
- 7003              	.LASF21:
- 7004 02c0 75696E74 		.ascii	"uint16_t\000"
- 7004      31365F74 
- 7004      00
- 7005              	.LASF172:
- 7006 02c9 43795F45 		.ascii	"Cy_EINK_TimerInit\000"
- 7006      494E4B5F 
- 7006      54696D65 
- 7006      72496E69 
- 7006      7400
- 7007              	.LASF116:
- 7008 02db 64756D6D 		.ascii	"dummyData\000"
- 7008      79446174 
- 7008      6100
- 7009              	.LASF136:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 159
+ 7003              	.LASF116:
+ 7004 0268 64756D6D 		.ascii	"dummyData\000"
+ 7004      79446174 
+ 7004      6100
+ 7005              	.LASF136:
+ 7006 0272 74656D70 		.ascii	"temperature\000"
+ 7006      65726174 
+ 7006      75726500 
+ 7007              	.LASF131:
+ 7008 027e 50765F45 		.ascii	"Pv_EINK_ReadByte\000"
+ 7008      494E4B5F 
+ 7008      52656164 
+ 7008      42797465 
+ 7008      00
+ 7009              	.LASF127:
+ 7010 028f 64617461 		.ascii	"dataLength\000"
+ 7010      4C656E67 
+ 7010      746800
+ 7011              	.LASF63:
+ 7012 029a 63617074 		.ascii	"captureInputMode\000"
+ 7012      75726549 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 159
 
 
- 7010 02e5 74656D70 		.ascii	"temperature\000"
- 7010      65726174 
- 7010      75726500 
- 7011              	.LASF131:
- 7012 02f1 50765F45 		.ascii	"Pv_EINK_ReadByte\000"
- 7012      494E4B5F 
- 7012      52656164 
- 7012      42797465 
+ 7012      6E707574 
+ 7012      4D6F6465 
  7012      00
- 7013              	.LASF127:
- 7014 0302 64617461 		.ascii	"dataLength\000"
- 7014      4C656E67 
- 7014      746800
- 7015              	.LASF63:
- 7016 030d 63617074 		.ascii	"captureInputMode\000"
- 7016      75726549 
- 7016      6E707574 
- 7016      4D6F6465 
- 7016      00
- 7017              	.LASF140:
- 7018 031e 73746167 		.ascii	"stageNumber\000"
- 7018      654E756D 
- 7018      62657200 
- 7019              	.LASF94:
- 7020 032a 72784275 		.ascii	"rxBufSize\000"
- 7020      6653697A 
+ 7013              	.LASF140:
+ 7014 02ab 73746167 		.ascii	"stageNumber\000"
+ 7014      654E756D 
+ 7014      62657200 
+ 7015              	.LASF94:
+ 7016 02b7 72784275 		.ascii	"rxBufSize\000"
+ 7016      6653697A 
+ 7016      6500
+ 7017              	.LASF13:
+ 7018 02c1 5F5F7569 		.ascii	"__uint32_t\000"
+ 7018      6E743332 
+ 7018      5F7400
+ 7019              	.LASF166:
+ 7020 02cc 7363616E 		.ascii	"scanTable\000"
+ 7020      5461626C 
  7020      6500
- 7021              	.LASF13:
- 7022 0334 5F5F7569 		.ascii	"__uint32_t\000"
- 7022      6E743332 
- 7022      5F7400
- 7023              	.LASF166:
- 7024 033f 7363616E 		.ascii	"scanTable\000"
- 7024      5461626C 
- 7024      6500
- 7025              	.LASF155:
- 7026 0349 66756C6C 		.ascii	"fullUpdateTime\000"
- 7026      55706461 
- 7026      74655469 
- 7026      6D6500
- 7027              	.LASF142:
- 7028 0358 74656D70 		.ascii	"tempByte\000"
- 7028      42797465 
+ 7021              	.LASF155:
+ 7022 02d6 66756C6C 		.ascii	"fullUpdateTime\000"
+ 7022      55706461 
+ 7022      74655469 
+ 7022      6D6500
+ 7023              	.LASF142:
+ 7024 02e5 74656D70 		.ascii	"tempByte\000"
+ 7024      42797465 
+ 7024      00
+ 7025              	.LASF7:
+ 7026 02ee 5F5F696E 		.ascii	"__int16_t\000"
+ 7026      7431365F 
+ 7026      7400
+ 7027              	.LASF95:
+ 7028 02f8 72784275 		.ascii	"rxBufIdx\000"
+ 7028      66496478 
  7028      00
- 7029              	.LASF7:
- 7030 0361 5F5F696E 		.ascii	"__int16_t\000"
- 7030      7431365F 
- 7030      7400
- 7031              	.LASF95:
- 7032 036b 72784275 		.ascii	"rxBufIdx\000"
- 7032      66496478 
+ 7029              	.LASF159:
+ 7030 0301 64617461 		.ascii	"dataLineScan\000"
+ 7030      4C696E65 
+ 7030      5363616E 
+ 7030      00
+ 7031              	.LASF168:
+ 7032 030e 43795F45 		.ascii	"Cy_EINK_WriteSPI\000"
+ 7032      494E4B5F 
+ 7032      57726974 
+ 7032      65535049 
  7032      00
- 7033              	.LASF159:
- 7034 0374 64617461 		.ascii	"dataLineScan\000"
- 7034      4C696E65 
- 7034      5363616E 
- 7034      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 160
+ 7033              	.LASF167:
+ 7034 031f 6368616E 		.ascii	"channelSelect\000"
+ 7034      6E656C53 
+ 7034      656C6563 
+ 7034      7400
+ 7035              	.LASF165:
+ 7036 032d 62756C6B 		.ascii	"bulkDriverPacket\000"
+ 7036      44726976 
+ 7036      65725061 
+ 7036      636B6574 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 160
 
 
- 7035              	.LASF168:
- 7036 0381 43795F45 		.ascii	"Cy_EINK_WriteSPI\000"
- 7036      494E4B5F 
- 7036      57726974 
- 7036      65535049 
  7036      00
- 7037              	.LASF167:
- 7038 0392 6368616E 		.ascii	"channelSelect\000"
- 7038      6E656C53 
- 7038      656C6563 
- 7038      7400
- 7039              	.LASF165:
- 7040 03a0 62756C6B 		.ascii	"bulkDriverPacket\000"
- 7040      44726976 
- 7040      65725061 
- 7040      636B6574 
- 7040      00
- 7041              	.LASF97:
- 7042 03b1 74784275 		.ascii	"txBufSize\000"
- 7042      6653697A 
- 7042      6500
- 7043              	.LASF150:
- 7044 03bb 62797465 		.ascii	"byteCounter\000"
- 7044      436F756E 
- 7044      74657200 
- 7045              	.LASF26:
- 7046 03c7 4F55545F 		.ascii	"OUT_INV\000"
- 7046      494E5600 
- 7047              	.LASF49:
- 7048 03cf 63686172 		.ascii	"char_t\000"
- 7048      5F7400
- 7049              	.LASF14:
- 7050 03d6 6C6F6E67 		.ascii	"long unsigned int\000"
- 7050      20756E73 
- 7050      69676E65 
- 7050      6420696E 
- 7050      7400
- 7051              	.LASF61:
- 7052 03e8 656E6162 		.ascii	"enableCompareSwap\000"
- 7052      6C65436F 
- 7052      6D706172 
- 7052      65537761 
- 7052      7000
- 7053              	.LASF32:
- 7054 03fa 4346475F 		.ascii	"CFG_IN\000"
- 7054      494E00
- 7055              	.LASF28:
- 7056 0401 494E5452 		.ascii	"INTR_MASK\000"
- 7056      5F4D4153 
- 7056      4B00
- 7057              	.LASF47:
- 7058 040b 5644445F 		.ascii	"VDD_INTR_SET\000"
- 7058      494E5452 
- 7058      5F534554 
+ 7037              	.LASF97:
+ 7038 033e 74784275 		.ascii	"txBufSize\000"
+ 7038      6653697A 
+ 7038      6500
+ 7039              	.LASF150:
+ 7040 0348 62797465 		.ascii	"byteCounter\000"
+ 7040      436F756E 
+ 7040      74657200 
+ 7041              	.LASF26:
+ 7042 0354 4F55545F 		.ascii	"OUT_INV\000"
+ 7042      494E5600 
+ 7043              	.LASF49:
+ 7044 035c 63686172 		.ascii	"char_t\000"
+ 7044      5F7400
+ 7045              	.LASF14:
+ 7046 0363 6C6F6E67 		.ascii	"long unsigned int\000"
+ 7046      20756E73 
+ 7046      69676E65 
+ 7046      6420696E 
+ 7046      7400
+ 7047              	.LASF61:
+ 7048 0375 656E6162 		.ascii	"enableCompareSwap\000"
+ 7048      6C65436F 
+ 7048      6D706172 
+ 7048      65537761 
+ 7048      7000
+ 7049              	.LASF32:
+ 7050 0387 4346475F 		.ascii	"CFG_IN\000"
+ 7050      494E00
+ 7051              	.LASF28:
+ 7052 038e 494E5452 		.ascii	"INTR_MASK\000"
+ 7052      5F4D4153 
+ 7052      4B00
+ 7053              	.LASF47:
+ 7054 0398 5644445F 		.ascii	"VDD_INTR_SET\000"
+ 7054      494E5452 
+ 7054      5F534554 
+ 7054      00
+ 7055              	.LASF156:
+ 7056 03a5 70617274 		.ascii	"partialUpdateTime\000"
+ 7056      69616C55 
+ 7056      70646174 
+ 7056      6554696D 
+ 7056      6500
+ 7057              	.LASF126:
+ 7058 03b7 64617461 		.ascii	"data\000"
  7058      00
- 7059              	.LASF156:
- 7060 0418 70617274 		.ascii	"partialUpdateTime\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 161
-
-
- 7060      69616C55 
- 7060      70646174 
- 7060      6554696D 
+ 7059              	.LASF85:
+ 7060 03bc 73776170 		.ascii	"swapInputMode\000"
+ 7060      496E7075 
+ 7060      744D6F64 
  7060      6500
- 7061              	.LASF126:
- 7062 042a 64617461 		.ascii	"data\000"
- 7062      00
- 7063              	.LASF85:
- 7064 042f 73776170 		.ascii	"swapInputMode\000"
- 7064      496E7075 
- 7064      744D6F64 
- 7064      6500
- 7065              	.LASF10:
- 7066 043d 73686F72 		.ascii	"short unsigned int\000"
- 7066      7420756E 
- 7066      7369676E 
- 7066      65642069 
- 7066      6E7400
- 7067              	.LASF29:
- 7068 0450 494E5452 		.ascii	"INTR_MASKED\000"
- 7068      5F4D4153 
- 7068      4B454400 
- 7069              	.LASF135:
- 7070 045c 50765F45 		.ascii	"Pv_EINK_SetTempFactor\000"
- 7070      494E4B5F 
- 7070      53657454 
- 7070      656D7046 
- 7070      6163746F 
- 7071              	.LASF104:
- 7072 0472 50565F45 		.ascii	"PV_EINK_ERROR_BUSY\000"
- 7072      494E4B5F 
- 7072      4552524F 
- 7072      525F4255 
- 7072      535900
- 7073              	.LASF25:
- 7074 0485 4F55545F 		.ascii	"OUT_SET\000"
- 7074      53455400 
- 7075              	.LASF87:
- 7076 048d 6B696C6C 		.ascii	"killInputMode\000"
- 7076      496E7075 
- 7076      744D6F64 
- 7076      6500
- 7077              	.LASF99:
- 7078 049b 63624576 		.ascii	"cbEvents\000"
- 7078      656E7473 
- 7078      00
- 7079              	.LASF115:
- 7080 04a4 65696E6B 		.ascii	"eink_lineData\000"
- 7080      5F6C696E 
- 7080      65446174 
- 7080      6100
- 7081              	.LASF96:
- 7082 04b2 74784275 		.ascii	"txBuf\000"
- 7082      6600
- 7083              	.LASF110:
- 7084 04b8 50565F45 		.ascii	"PV_EINK_STAGE1\000"
- 7084      494E4B5F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 162
+ 7061              	.LASF10:
+ 7062 03ca 73686F72 		.ascii	"short unsigned int\000"
+ 7062      7420756E 
+ 7062      7369676E 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 161
 
 
- 7084      53544147 
- 7084      453100
- 7085              	.LASF111:
- 7086 04c7 50565F45 		.ascii	"PV_EINK_STAGE2\000"
+ 7062      65642069 
+ 7062      6E7400
+ 7063              	.LASF29:
+ 7064 03dd 494E5452 		.ascii	"INTR_MASKED\000"
+ 7064      5F4D4153 
+ 7064      4B454400 
+ 7065              	.LASF135:
+ 7066 03e9 50765F45 		.ascii	"Pv_EINK_SetTempFactor\000"
+ 7066      494E4B5F 
+ 7066      53657454 
+ 7066      656D7046 
+ 7066      6163746F 
+ 7067              	.LASF104:
+ 7068 03ff 50565F45 		.ascii	"PV_EINK_ERROR_BUSY\000"
+ 7068      494E4B5F 
+ 7068      4552524F 
+ 7068      525F4255 
+ 7068      535900
+ 7069              	.LASF25:
+ 7070 0412 4F55545F 		.ascii	"OUT_SET\000"
+ 7070      53455400 
+ 7071              	.LASF87:
+ 7072 041a 6B696C6C 		.ascii	"killInputMode\000"
+ 7072      496E7075 
+ 7072      744D6F64 
+ 7072      6500
+ 7073              	.LASF99:
+ 7074 0428 63624576 		.ascii	"cbEvents\000"
+ 7074      656E7473 
+ 7074      00
+ 7075              	.LASF115:
+ 7076 0431 65696E6B 		.ascii	"eink_lineData\000"
+ 7076      5F6C696E 
+ 7076      65446174 
+ 7076      6100
+ 7077              	.LASF96:
+ 7078 043f 74784275 		.ascii	"txBuf\000"
+ 7078      6600
+ 7079              	.LASF110:
+ 7080 0445 50565F45 		.ascii	"PV_EINK_STAGE1\000"
+ 7080      494E4B5F 
+ 7080      53544147 
+ 7080      453100
+ 7081              	.LASF111:
+ 7082 0454 50565F45 		.ascii	"PV_EINK_STAGE2\000"
+ 7082      494E4B5F 
+ 7082      53544147 
+ 7082      453200
+ 7083              	.LASF101:
+ 7084 0463 63795F73 		.ascii	"cy_stc_scb_spi_context_t\000"
+ 7084      74635F73 
+ 7084      63625F73 
+ 7084      70695F63 
+ 7084      6F6E7465 
+ 7085              	.LASF113:
+ 7086 047c 50565F45 		.ascii	"PV_EINK_STAGE4\000"
  7086      494E4B5F 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 162
+
+
  7086      53544147 
- 7086      453200
- 7087              	.LASF101:
- 7088 04d6 63795F73 		.ascii	"cy_stc_scb_spi_context_t\000"
- 7088      74635F73 
- 7088      63625F73 
- 7088      70695F63 
- 7088      6F6E7465 
- 7089              	.LASF113:
- 7090 04ef 50565F45 		.ascii	"PV_EINK_STAGE4\000"
- 7090      494E4B5F 
- 7090      53544147 
- 7090      453400
- 7091              	.LASF82:
- 7092 04fe 696E7665 		.ascii	"invertPWMOut\000"
- 7092      72745057 
- 7092      4D4F7574 
- 7092      00
- 7093              	.LASF78:
- 7094 050b 64656164 		.ascii	"deadTimeClocks\000"
- 7094      54696D65 
- 7094      436C6F63 
- 7094      6B7300
- 7095              	.LASF71:
- 7096 051a 636F756E 		.ascii	"countInputMode\000"
- 7096      74496E70 
- 7096      75744D6F 
- 7096      646500
- 7097              	.LASF68:
- 7098 0529 73746172 		.ascii	"startInput\000"
- 7098      74496E70 
- 7098      757400
- 7099              	.LASF31:
- 7100 0534 494E5452 		.ascii	"INTR_CFG\000"
- 7100      5F434647 
- 7100      00
- 7101              	.LASF30:
- 7102 053d 494E5452 		.ascii	"INTR_SET\000"
- 7102      5F534554 
+ 7086      453400
+ 7087              	.LASF82:
+ 7088 048b 696E7665 		.ascii	"invertPWMOut\000"
+ 7088      72745057 
+ 7088      4D4F7574 
+ 7088      00
+ 7089              	.LASF78:
+ 7090 0498 64656164 		.ascii	"deadTimeClocks\000"
+ 7090      54696D65 
+ 7090      436C6F63 
+ 7090      6B7300
+ 7091              	.LASF71:
+ 7092 04a7 636F756E 		.ascii	"countInputMode\000"
+ 7092      74496E70 
+ 7092      75744D6F 
+ 7092      646500
+ 7093              	.LASF68:
+ 7094 04b6 73746172 		.ascii	"startInput\000"
+ 7094      74496E70 
+ 7094      757400
+ 7095              	.LASF31:
+ 7096 04c1 494E5452 		.ascii	"INTR_CFG\000"
+ 7096      5F434647 
+ 7096      00
+ 7097              	.LASF30:
+ 7098 04ca 494E5452 		.ascii	"INTR_SET\000"
+ 7098      5F534554 
+ 7098      00
+ 7099              	.LASF125:
+ 7100 04d3 72656741 		.ascii	"regAddr\000"
+ 7100      64647200 
+ 7101              	.LASF122:
+ 7102 04db 62617365 		.ascii	"base\000"
  7102      00
- 7103              	.LASF125:
- 7104 0546 72656741 		.ascii	"regAddr\000"
- 7104      64647200 
- 7105              	.LASF122:
- 7106 054e 62617365 		.ascii	"base\000"
- 7106      00
- 7107              	.LASF114:
- 7108 0553 70765F65 		.ascii	"pv_eink_stage_t\000"
- 7108      696E6B5F 
- 7108      73746167 
- 7108      655F7400 
- 7109              	.LASF43:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 163
+ 7103              	.LASF114:
+ 7104 04e0 70765F65 		.ascii	"pv_eink_stage_t\000"
+ 7104      696E6B5F 
+ 7104      73746167 
+ 7104      655F7400 
+ 7105              	.LASF43:
+ 7106 04f0 5644445F 		.ascii	"VDD_ACTIVE\000"
+ 7106      41435449 
+ 7106      564500
+ 7107              	.LASF74:
+ 7108 04fb 63795F73 		.ascii	"cy_stc_tcpwm_counter_config\000"
+ 7108      74635F74 
+ 7108      6370776D 
+ 7108      5F636F75 
+ 7108      6E746572 
+ 7109              	.LASF18:
+ 7110 0517 696E7438 		.ascii	"int8_t\000"
+ 7110      5F7400
+ 7111              	.LASF157:
+ 7112 051e 64617461 		.ascii	"dataLineEven\000"
+ 7112      4C696E65 
+ 7112      4576656E 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 163
 
 
- 7110 0563 5644445F 		.ascii	"VDD_ACTIVE\000"
- 7110      41435449 
- 7110      564500
- 7111              	.LASF74:
- 7112 056e 63795F73 		.ascii	"cy_stc_tcpwm_counter_config\000"
- 7112      74635F74 
- 7112      6370776D 
- 7112      5F636F75 
- 7112      6E746572 
- 7113              	.LASF18:
- 7114 058a 696E7438 		.ascii	"int8_t\000"
- 7114      5F7400
- 7115              	.LASF157:
- 7116 0591 64617461 		.ascii	"dataLineEven\000"
- 7116      4C696E65 
- 7116      4576656E 
- 7116      00
- 7117              	.LASF16:
- 7118 059e 73697A65 		.ascii	"sizetype\000"
- 7118      74797065 
+ 7112      00
+ 7113              	.LASF16:
+ 7114 052b 73697A65 		.ascii	"sizetype\000"
+ 7114      74797065 
+ 7114      00
+ 7115              	.LASF132:
+ 7116 0534 50765F45 		.ascii	"Pv_EINK_InitDriver\000"
+ 7116      494E4B5F 
+ 7116      496E6974 
+ 7116      44726976 
+ 7116      657200
+ 7117              	.LASF117:
+ 7118 0547 6576656E 		.ascii	"even\000"
  7118      00
- 7119              	.LASF132:
- 7120 05a7 50765F45 		.ascii	"Pv_EINK_InitDriver\000"
+ 7119              	.LASF178:
+ 7120 054c 43795F45 		.ascii	"Cy_EINK_DetachSPI\000"
  7120      494E4B5F 
- 7120      496E6974 
- 7120      44726976 
- 7120      657200
- 7121              	.LASF117:
- 7122 05ba 6576656E 		.ascii	"even\000"
+ 7120      44657461 
+ 7120      63685350 
+ 7120      4900
+ 7121              	.LASF27:
+ 7122 055e 494E5452 		.ascii	"INTR\000"
  7122      00
- 7123              	.LASF178:
- 7124 05bf 43795F45 		.ascii	"Cy_EINK_DetachSPI\000"
+ 7123              	.LASF130:
+ 7124 0563 50765F45 		.ascii	"Pv_EINK_Init\000"
  7124      494E4B5F 
- 7124      44657461 
- 7124      63685350 
- 7124      4900
- 7125              	.LASF27:
- 7126 05d1 494E5452 		.ascii	"INTR\000"
+ 7124      496E6974 
+ 7124      00
+ 7125              	.LASF145:
+ 7126 0570 70726576 		.ascii	"previousImagePtr\000"
+ 7126      696F7573 
+ 7126      496D6167 
+ 7126      65507472 
  7126      00
- 7127              	.LASF130:
- 7128 05d6 50765F45 		.ascii	"Pv_EINK_Init\000"
- 7128      494E4B5F 
- 7128      496E6974 
- 7128      00
- 7129              	.LASF145:
- 7130 05e3 70726576 		.ascii	"previousImagePtr\000"
- 7130      696F7573 
- 7130      496D6167 
- 7130      65507472 
- 7130      00
- 7131              	.LASF179:
- 7132 05f4 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 7132      43313120 
- 7132      352E342E 
- 7132      31203230 
- 7132      31363036 
- 7133 0627 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 164
+ 7127              	.LASF179:
+ 7128 0581 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 7128      43313120 
+ 7128      352E342E 
+ 7128      31203230 
+ 7128      31363036 
+ 7129 05b4 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 7129      20726576 
+ 7129      6973696F 
+ 7129      6E203233 
+ 7129      37373135 
+ 7130 05e7 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 7130      70202D6D 
+ 7130      6670753D 
+ 7130      66707634 
+ 7130      2D73702D 
+ 7131 061a 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 7131      6F6E7320 
+ 7131      2D666661 
+ 7131      742D6C74 
+ 7131      6F2D6F62 
+ 7132              	.LASF24:
+ 7133 0634 4F55545F 		.ascii	"OUT_CLR\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 164
 
 
- 7133      20726576 
- 7133      6973696F 
- 7133      6E203233 
- 7133      37373135 
- 7134 065a 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
- 7134      70202D6D 
- 7134      6670753D 
- 7134      66707634 
- 7134      2D73702D 
- 7135 068d 65637469 		.ascii	"ections -ffat-lto-objects\000"
- 7135      6F6E7320 
- 7135      2D666661 
- 7135      742D6C74 
- 7135      6F2D6F62 
- 7136              	.LASF24:
- 7137 06a7 4F55545F 		.ascii	"OUT_CLR\000"
- 7137      434C5200 
- 7138              	.LASF76:
- 7139 06af 70776D4D 		.ascii	"pwmMode\000"
- 7139      6F646500 
- 7140              	.LASF50:
- 7141 06b7 666C6F61 		.ascii	"float\000"
- 7141      7400
- 7142              	.LASF36:
- 7143 06bd 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
- 7143      494E5F47 
- 7143      50494F35 
- 7143      5600
- 7144              	.LASF34:
- 7145 06cb 4346475F 		.ascii	"CFG_SIO\000"
- 7145      53494F00 
- 7146              	.LASF37:
- 7147 06d3 52455345 		.ascii	"RESERVED1\000"
- 7147      52564544 
- 7147      3100
- 7148              	.LASF84:
- 7149 06dd 6B696C6C 		.ascii	"killMode\000"
- 7149      4D6F6465 
+ 7133      434C5200 
+ 7134              	.LASF76:
+ 7135 063c 70776D4D 		.ascii	"pwmMode\000"
+ 7135      6F646500 
+ 7136              	.LASF50:
+ 7137 0644 666C6F61 		.ascii	"float\000"
+ 7137      7400
+ 7138              	.LASF36:
+ 7139 064a 4346475F 		.ascii	"CFG_IN_GPIO5V\000"
+ 7139      494E5F47 
+ 7139      50494F35 
+ 7139      5600
+ 7140              	.LASF34:
+ 7141 0658 4346475F 		.ascii	"CFG_SIO\000"
+ 7141      53494F00 
+ 7142              	.LASF37:
+ 7143 0660 52455345 		.ascii	"RESERVED1\000"
+ 7143      52564544 
+ 7143      3100
+ 7144              	.LASF84:
+ 7145 066a 6B696C6C 		.ascii	"killMode\000"
+ 7145      4D6F6465 
+ 7145      00
+ 7146              	.LASF109:
+ 7147 0673 70765F65 		.ascii	"pv_eink_status_t\000"
+ 7147      696E6B5F 
+ 7147      73746174 
+ 7147      75735F74 
+ 7147      00
+ 7148              	.LASF105:
+ 7149 0684 50565F45 		.ascii	"PV_EINK_ERROR_ID\000"
+ 7149      494E4B5F 
+ 7149      4552524F 
+ 7149      525F4944 
  7149      00
- 7150              	.LASF109:
- 7151 06e6 70765F65 		.ascii	"pv_eink_status_t\000"
- 7151      696E6B5F 
- 7151      73746174 
- 7151      75735F74 
- 7151      00
- 7152              	.LASF105:
- 7153 06f7 50565F45 		.ascii	"PV_EINK_ERROR_ID\000"
+ 7150              	.LASF152:
+ 7151 0695 50765F45 		.ascii	"Pv_EINK_HardwarePowerOn\000"
+ 7151      494E4B5F 
+ 7151      48617264 
+ 7151      77617265 
+ 7151      506F7765 
+ 7152              	.LASF103:
+ 7153 06ad 50565F45 		.ascii	"PV_EINK_RES_OK\000"
  7153      494E4B5F 
- 7153      4552524F 
- 7153      525F4944 
- 7153      00
- 7154              	.LASF152:
- 7155 0708 50765F45 		.ascii	"Pv_EINK_HardwarePowerOn\000"
- 7155      494E4B5F 
- 7155      48617264 
- 7155      77617265 
- 7155      506F7765 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 165
+ 7153      5245535F 
+ 7153      4F4B00
+ 7154              	.LASF53:
+ 7155 06bc 5F426F6F 		.ascii	"_Bool\000"
+ 7155      6C00
+ 7156              	.LASF22:
+ 7157 06c2 696E7433 		.ascii	"int32_t\000"
+ 7157      325F7400 
+ 7158              	.LASF6:
+ 7159 06ca 756E7369 		.ascii	"unsigned char\000"
+ 7159      676E6564 
+ 7159      20636861 
+ 7159      7200
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 165
 
 
- 7156              	.LASF103:
- 7157 0720 50565F45 		.ascii	"PV_EINK_RES_OK\000"
- 7157      494E4B5F 
- 7157      5245535F 
- 7157      4F4B00
- 7158              	.LASF53:
- 7159 072f 5F426F6F 		.ascii	"_Bool\000"
- 7159      6C00
- 7160              	.LASF22:
- 7161 0735 696E7433 		.ascii	"int32_t\000"
- 7161      325F7400 
- 7162              	.LASF6:
- 7163 073d 756E7369 		.ascii	"unsigned char\000"
- 7163      676E6564 
- 7163      20636861 
- 7163      7200
- 7164              	.LASF148:
- 7165 074b 6E657742 		.ascii	"newByte\000"
- 7165      79746500 
- 7166              	.LASF169:
- 7167 0753 43795F45 		.ascii	"Cy_EINK_WriteSPIBuffer\000"
- 7167      494E4B5F 
- 7167      57726974 
- 7167      65535049 
- 7167      42756666 
- 7168              	.LASF121:
- 7169 076a 64726976 		.ascii	"driver_data_packet_t\000"
- 7169      65725F64 
- 7169      6174615F 
- 7169      7061636B 
- 7169      65745F74 
- 7170              	.LASF146:
- 7171 077f 6E657749 		.ascii	"newImagePtr\000"
- 7171      6D616765 
- 7171      50747200 
- 7172              	.LASF144:
- 7173 078b 50765F45 		.ascii	"Pv_EINK_PartialStageHandler\000"
- 7173      494E4B5F 
- 7173      50617274 
- 7173      69616C53 
- 7173      74616765 
- 7174              	.LASF119:
- 7175 07a7 6C696E65 		.ascii	"lineDataBySize\000"
- 7175      44617461 
- 7175      42795369 
- 7175      7A6500
- 7176              	.LASF143:
- 7177 07b6 626C6163 		.ascii	"blackOrWhiteFrame\000"
- 7177      6B4F7257 
- 7177      68697465 
- 7177      4672616D 
- 7177      6500
- 7178              	.LASF147:
- 7179 07c8 6F6C6442 		.ascii	"oldByte\000"
- 7179      79746500 
- 7180              	.LASF35:
- 7181 07d0 52455345 		.ascii	"RESERVED\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 166
-
-
- 7181      52564544 
+ 7160              	.LASF148:
+ 7161 06d8 6E657742 		.ascii	"newByte\000"
+ 7161      79746500 
+ 7162              	.LASF169:
+ 7163 06e0 43795F45 		.ascii	"Cy_EINK_WriteSPIBuffer\000"
+ 7163      494E4B5F 
+ 7163      57726974 
+ 7163      65535049 
+ 7163      42756666 
+ 7164              	.LASF121:
+ 7165 06f7 64726976 		.ascii	"driver_data_packet_t\000"
+ 7165      65725F64 
+ 7165      6174615F 
+ 7165      7061636B 
+ 7165      65745F74 
+ 7166              	.LASF146:
+ 7167 070c 6E657749 		.ascii	"newImagePtr\000"
+ 7167      6D616765 
+ 7167      50747200 
+ 7168              	.LASF144:
+ 7169 0718 50765F45 		.ascii	"Pv_EINK_PartialStageHandler\000"
+ 7169      494E4B5F 
+ 7169      50617274 
+ 7169      69616C53 
+ 7169      74616765 
+ 7170              	.LASF119:
+ 7171 0734 6C696E65 		.ascii	"lineDataBySize\000"
+ 7171      44617461 
+ 7171      42795369 
+ 7171      7A6500
+ 7172              	.LASF143:
+ 7173 0743 626C6163 		.ascii	"blackOrWhiteFrame\000"
+ 7173      6B4F7257 
+ 7173      68697465 
+ 7173      4672616D 
+ 7173      6500
+ 7174              	.LASF147:
+ 7175 0755 6F6C6442 		.ascii	"oldByte\000"
+ 7175      79746500 
+ 7176              	.LASF35:
+ 7177 075d 52455345 		.ascii	"RESERVED\000"
+ 7177      52564544 
+ 7177      00
+ 7178              	.LASF139:
+ 7179 0766 696D6167 		.ascii	"imagePtr\000"
+ 7179      65507472 
+ 7179      00
+ 7180              	.LASF44:
+ 7181 076f 5644445F 		.ascii	"VDD_INTR\000"
+ 7181      494E5452 
  7181      00
- 7182              	.LASF139:
- 7183 07d9 696D6167 		.ascii	"imagePtr\000"
- 7183      65507472 
- 7183      00
- 7184              	.LASF44:
- 7185 07e2 5644445F 		.ascii	"VDD_INTR\000"
- 7185      494E5452 
+ 7182              	.LASF149:
+ 7183 0778 50765F45 		.ascii	"Pv_EINK_NothingFrame\000"
+ 7183      494E4B5F 
+ 7183      4E6F7468 
+ 7183      696E6746 
+ 7183      72616D65 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 166
+
+
+ 7184              	.LASF81:
+ 7185 078d 656E6162 		.ascii	"enablePeriodSwap\000"
+ 7185      6C655065 
+ 7185      72696F64 
+ 7185      53776170 
  7185      00
- 7186              	.LASF149:
- 7187 07eb 50765F45 		.ascii	"Pv_EINK_NothingFrame\000"
- 7187      494E4B5F 
- 7187      4E6F7468 
- 7187      696E6746 
- 7187      72616D65 
- 7188              	.LASF81:
- 7189 0800 656E6162 		.ascii	"enablePeriodSwap\000"
- 7189      6C655065 
- 7189      72696F64 
- 7189      53776170 
+ 7186              	.LASF124:
+ 7187 079e 76616C75 		.ascii	"value\000"
+ 7187      6500
+ 7188              	.LASF58:
+ 7189 07a4 636F6D70 		.ascii	"compareOrCapture\000"
+ 7189      6172654F 
+ 7189      72436170 
+ 7189      74757265 
  7189      00
- 7190              	.LASF124:
- 7191 0811 76616C75 		.ascii	"value\000"
- 7191      6500
- 7192              	.LASF58:
- 7193 0817 636F6D70 		.ascii	"compareOrCapture\000"
- 7193      6172654F 
- 7193      72436170 
- 7193      74757265 
- 7193      00
- 7194              	.LASF123:
- 7195 0828 70696E4E 		.ascii	"pinNum\000"
- 7195      756D00
- 7196              	.LASF75:
- 7197 082f 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
- 7197      74635F74 
- 7197      6370776D 
- 7197      5F70776D 
- 7197      5F636F6E 
- 7198              	.LASF23:
- 7199 0847 75696E74 		.ascii	"uint32_t\000"
- 7199      33325F74 
+ 7190              	.LASF123:
+ 7191 07b5 70696E4E 		.ascii	"pinNum\000"
+ 7191      756D00
+ 7192              	.LASF75:
+ 7193 07bc 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
+ 7193      74635F74 
+ 7193      6370776D 
+ 7193      5F70776D 
+ 7193      5F636F6E 
+ 7194              	.LASF23:
+ 7195 07d4 75696E74 		.ascii	"uint32_t\000"
+ 7195      33325F74 
+ 7195      00
+ 7196              	.LASF176:
+ 7197 07dd 43795F53 		.ascii	"Cy_SysLib_Delay\000"
+ 7197      79734C69 
+ 7197      625F4465 
+ 7197      6C617900 
+ 7198              	.LASF17:
+ 7199 07ed 63686172 		.ascii	"char\000"
  7199      00
- 7200              	.LASF176:
- 7201 0850 43795F53 		.ascii	"Cy_SysLib_Delay\000"
- 7201      79734C69 
- 7201      625F4465 
- 7201      6C617900 
- 7202              	.LASF59:
- 7203 0860 636F6D70 		.ascii	"compare0\000"
- 7203      61726530 
- 7203      00
- 7204              	.LASF2:
- 7205 0869 6C6F6E67 		.ascii	"long double\000"
- 7205      20646F75 
- 7205      626C6500 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 167
+ 7200              	.LASF59:
+ 7201 07f2 636F6D70 		.ascii	"compare0\000"
+ 7201      61726530 
+ 7201      00
+ 7202              	.LASF2:
+ 7203 07fb 6C6F6E67 		.ascii	"long double\000"
+ 7203      20646F75 
+ 7203      626C6500 
+ 7204              	.LASF181:
+ 7205 0807 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 7205      73657273 
+ 7205      5C726F62 
+ 7205      65725C44 
+ 7205      65736B74 
+ 7206 0834 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 7206      5F456D57 
+ 7206      696E5F45 
+ 7206      496E6B5F 
+ 7206      44697370 
+ 7207 0866 6C617930 		.ascii	"lay01.cydsn\000"
+ 7207      312E6379 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 167
 
 
- 7206              	.LASF17:
- 7207 0875 63686172 		.ascii	"char\000"
- 7207      00
+ 7207      64736E00 
  7208              	.LASF39:
- 7209 087a 494E5452 		.ascii	"INTR_CAUSE0\000"
+ 7209 0872 494E5452 		.ascii	"INTR_CAUSE0\000"
  7209      5F434155 
  7209      53453000 
  7210              	.LASF40:
- 7211 0886 494E5452 		.ascii	"INTR_CAUSE1\000"
+ 7211 087e 494E5452 		.ascii	"INTR_CAUSE1\000"
  7211      5F434155 
  7211      53453100 
  7212              	.LASF41:
- 7213 0892 494E5452 		.ascii	"INTR_CAUSE2\000"
+ 7213 088a 494E5452 		.ascii	"INTR_CAUSE2\000"
  7213      5F434155 
  7213      53453200 
  7214              	.LASF42:
- 7215 089e 494E5452 		.ascii	"INTR_CAUSE3\000"
+ 7215 0896 494E5452 		.ascii	"INTR_CAUSE3\000"
  7215      5F434155 
  7215      53453300 
  7216              	.LASF174:
- 7217 08aa 43795F45 		.ascii	"Cy_EINK_IsBusy\000"
+ 7217 08a2 43795F45 		.ascii	"Cy_EINK_IsBusy\000"
  7217      494E4B5F 
  7217      49734275 
  7217      737900
  7218              	.LASF38:
- 7219 08b9 4750494F 		.ascii	"GPIO_PRT_Type\000"
+ 7219 08b1 4750494F 		.ascii	"GPIO_PRT_Type\000"
  7219      5F505254 
  7219      5F547970 
  7219      6500
  7220              	.LASF9:
- 7221 08c7 5F5F7569 		.ascii	"__uint16_t\000"
+ 7221 08bf 5F5F7569 		.ascii	"__uint16_t\000"
  7221      6E743136 
  7221      5F7400
  7222              	.LASF163:
- 7223 08d2 50574D5F 		.ascii	"PWM_config\000"
+ 7223 08ca 50574D5F 		.ascii	"PWM_config\000"
  7223      636F6E66 
  7223      696700
  7224              	.LASF171:
- 7225 08dd 43795F45 		.ascii	"Cy_EINK_InitSPI\000"
+ 7225 08d5 43795F45 		.ascii	"Cy_EINK_InitSPI\000"
  7225      494E4B5F 
  7225      496E6974 
  7225      53504900 
  7226              	.LASF11:
- 7227 08ed 5F5F696E 		.ascii	"__int32_t\000"
+ 7227 08e5 5F5F696E 		.ascii	"__int32_t\000"
  7227      7433325F 
  7227      7400
  7228              	.LASF154:
- 7229 08f7 64726976 		.ascii	"driverPacket\000"
+ 7229 08ef 64726976 		.ascii	"driverPacket\000"
  7229      65725061 
  7229      636B6574 
  7229      00
  7230              	.LASF46:
- 7231 0904 5644445F 		.ascii	"VDD_INTR_MASKED\000"
+ 7231 08fc 5644445F 		.ascii	"VDD_INTR_MASKED\000"
  7231      494E5452 
  7231      5F4D4153 
  7231      4B454400 
  7232              	.LASF62:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 168
-
-
- 7233 0914 696E7465 		.ascii	"interruptSources\000"
+ 7233 090c 696E7465 		.ascii	"interruptSources\000"
  7233      72727570 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 168
+
+
  7233      74536F75 
  7233      72636573 
  7233      00
  7234              	.LASF66:
- 7235 0925 72656C6F 		.ascii	"reloadInput\000"
+ 7235 091d 72656C6F 		.ascii	"reloadInput\000"
  7235      6164496E 
  7235      70757400 
  7236              	.LASF175:
- 7237 0931 43795F45 		.ascii	"Cy_EINK_TimerStop\000"
+ 7237 0929 43795F45 		.ascii	"Cy_EINK_TimerStop\000"
  7237      494E4B5F 
  7237      54696D65 
  7237      7253746F 
  7237      7000
  7238              	.LASF70:
- 7239 0943 73746F70 		.ascii	"stopInput\000"
+ 7239 093b 73746F70 		.ascii	"stopInput\000"
  7239      496E7075 
  7239      7400
  7240              	.LASF67:
- 7241 094d 73746172 		.ascii	"startInputMode\000"
+ 7241 0945 73746172 		.ascii	"startInputMode\000"
  7241      74496E70 
  7241      75744D6F 
  7241      646500
  7242              	.LASF141:
- 7243 095c 7363616E 		.ascii	"scanlineNumber\000"
+ 7243 0954 7363616E 		.ascii	"scanlineNumber\000"
  7243      6C696E65 
  7243      4E756D62 
  7243      657200
  7244              	.LASF79:
- 7245 096b 70657269 		.ascii	"period0\000"
+ 7245 0963 70657269 		.ascii	"period0\000"
  7245      6F643000 
  7246              	.LASF133:
- 7247 0973 64617461 		.ascii	"dataRead\000"
+ 7247 096b 64617461 		.ascii	"dataRead\000"
  7247      52656164 
  7247      00
  7248              	.LASF177:
- 7249 097c 43795F45 		.ascii	"Cy_EINK_AttachSPI\000"
+ 7249 0974 43795F45 		.ascii	"Cy_EINK_AttachSPI\000"
  7249      494E4B5F 
  7249      41747461 
  7249      63685350 
  7249      4900
  7250              	.LASF100:
- 7251 098e 696E6974 		.ascii	"initKey\000"
+ 7251 0986 696E6974 		.ascii	"initKey\000"
  7251      4B657900 
  7252              	.LASF93:
- 7253 0996 72784275 		.ascii	"rxBuf\000"
+ 7253 098e 72784275 		.ascii	"rxBuf\000"
  7253      6600
  7254              	.LASF161:
- 7255 099c 43595F45 		.ascii	"CY_EINK_SPIM_context\000"
+ 7255 0994 43595F45 		.ascii	"CY_EINK_SPIM_context\000"
  7255      494E4B5F 
  7255      5350494D 
  7255      5F636F6E 
  7255      74657874 
  7256              	.LASF106:
- 7257 09b1 50565F45 		.ascii	"PV_EINK_ERROR_BREAKAGE\000"
+ 7257 09a9 50565F45 		.ascii	"PV_EINK_ERROR_BREAKAGE\000"
  7257      494E4B5F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 169
-
-
  7257      4552524F 
  7257      525F4252 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 169
+
+
  7257      45414B41 
  7258              	.LASF137:
- 7259 09c8 75706461 		.ascii	"updateTime\000"
+ 7259 09c0 75706461 		.ascii	"updateTime\000"
  7259      74655469 
  7259      6D6500
  7260              	.LASF183:
- 7261 09d3 6D656D73 		.ascii	"memset\000"
+ 7261 09cb 6D656D73 		.ascii	"memset\000"
  7261      657400
  7262              	.LASF92:
- 7263 09da 73746174 		.ascii	"status\000"
+ 7263 09d2 73746174 		.ascii	"status\000"
  7263      757300
  7264              	.LASF83:
- 7265 09e1 696E7665 		.ascii	"invertPWMOutN\000"
+ 7265 09d9 696E7665 		.ascii	"invertPWMOutN\000"
  7265      72745057 
  7265      4D4F7574 
  7265      4E00
  7266              	.LASF19:
- 7267 09ef 75696E74 		.ascii	"uint8_t\000"
+ 7267 09e7 75696E74 		.ascii	"uint8_t\000"
  7267      385F7400 
  7268              	.LASF138:
- 7269 09f7 50765F45 		.ascii	"Pv_EINK_FullStageHandler\000"
+ 7269 09ef 50765F45 		.ascii	"Pv_EINK_FullStageHandler\000"
  7269      494E4B5F 
  7269      46756C6C 
  7269      53746167 
  7269      6548616E 
  7270              	.LASF86:
- 7271 0a10 73776170 		.ascii	"swapInput\000"
+ 7271 0a08 73776170 		.ascii	"swapInput\000"
  7271      496E7075 
  7271      7400
  7272              	.LASF162:
- 7273 0a1a 43595F45 		.ascii	"CY_EINK_Timer_config\000"
+ 7273 0a12 43595F45 		.ascii	"CY_EINK_Timer_config\000"
  7273      494E4B5F 
  7273      54696D65 
  7273      725F636F 
  7273      6E666967 
  7274              	.LASF52:
- 7275 0a2f 696E7431 		.ascii	"int16\000"
+ 7275 0a27 696E7431 		.ascii	"int16\000"
  7275      3600
  7276              	.LASF33:
- 7277 0a35 4346475F 		.ascii	"CFG_OUT\000"
+ 7277 0a2d 4346475F 		.ascii	"CFG_OUT\000"
  7277      4F555400 
  7278              	.LASF48:
- 7279 0a3d 4750494F 		.ascii	"GPIO_Type\000"
+ 7279 0a35 4750494F 		.ascii	"GPIO_Type\000"
  7279      5F547970 
  7279      6500
  7280              	.LASF65:
- 7281 0a47 72656C6F 		.ascii	"reloadInputMode\000"
+ 7281 0a3f 72656C6F 		.ascii	"reloadInputMode\000"
  7281      6164496E 
  7281      7075744D 
  7281      6F646500 
  7282              	.LASF153:
- 7283 0a57 50765F45 		.ascii	"Pv_EINK_HardwarePowerOff\000"
+ 7283 0a4f 50765F45 		.ascii	"Pv_EINK_HardwarePowerOff\000"
  7283      494E4B5F 
  7283      48617264 
  7283      77617265 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccaYxdwi.s 			page 170
-
-
  7283      506F7765 
  7284              	.LASF60:
- 7285 0a70 636F6D70 		.ascii	"compare1\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccFptBcc.s 			page 170
+
+
+ 7285 0a68 636F6D70 		.ascii	"compare1\000"
  7285      61726531 
  7285      00
  7286              	.LASF107:
- 7287 0a79 50565F45 		.ascii	"PV_EINK_ERROR_DC\000"
+ 7287 0a71 50565F45 		.ascii	"PV_EINK_ERROR_DC\000"
  7287      494E4B5F 
  7287      4552524F 
  7287      525F4443 
  7287      00
  7288              	.LASF173:
- 7289 0a8a 43795F45 		.ascii	"Cy_EINK_GetTimeTick\000"
+ 7289 0a82 43795F45 		.ascii	"Cy_EINK_GetTimeTick\000"
  7289      494E4B5F 
  7289      47657454 
  7289      696D6554 
  7289      69636B00 
  7290              	.LASF72:
- 7291 0a9e 636F756E 		.ascii	"countInput\000"
+ 7291 0a96 636F756E 		.ascii	"countInput\000"
  7291      74496E70 
  7291      757400
  7292              	.LASF51:
- 7293 0aa9 646F7562 		.ascii	"double\000"
+ 7293 0aa1 646F7562 		.ascii	"double\000"
  7293      6C6500
  7294              	.LASF98:
- 7295 0ab0 74784275 		.ascii	"txBufIdx\000"
+ 7295 0aa8 74784275 		.ascii	"txBufIdx\000"
  7295      66496478 
  7295      00
  7296              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

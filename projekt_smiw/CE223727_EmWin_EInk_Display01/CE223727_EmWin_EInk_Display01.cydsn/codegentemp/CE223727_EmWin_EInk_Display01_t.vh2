@@ -1,6 +1,6 @@
--- Project:   C:\Users\rober\Desktop\SMIW_projekt\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj
--- Generated: 09/12/2024 00:30:23
--- PSoC Creator  4.4
+-- Project:   C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj
+-- Generated: 09/14/2024 13:22:20
+-- PSoC Creator  4.2
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
     PORT(

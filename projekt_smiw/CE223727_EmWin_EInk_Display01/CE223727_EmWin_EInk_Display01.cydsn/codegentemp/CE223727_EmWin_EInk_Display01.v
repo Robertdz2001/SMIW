@@ -1,6 +1,6 @@
 // ======================================================================
 // CE223727_EmWin_EInk_Display01.v generated from TopDesign.cysch
-// 09/12/2024 at 00:30
+// 09/14/2024 at 13:22
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -34,77 +34,59 @@
 `define CYDEV_CHIP_MEMBER_4E 6
 `define CYDEV_CHIP_REVISION_4E_PRODUCTION 0
 `define CYDEV_CHIP_REVISION_4E_CCG2_NO_USBPD 0
-`define CYDEV_CHIP_MEMBER_4X 7
-`define CYDEV_CHIP_REVISION_4X_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4O 8
+`define CYDEV_CHIP_MEMBER_4O 7
 `define CYDEV_CHIP_REVISION_4O_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4R 9
+`define CYDEV_CHIP_MEMBER_4R 8
 `define CYDEV_CHIP_REVISION_4R_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4T 10
+`define CYDEV_CHIP_MEMBER_4T 9
 `define CYDEV_CHIP_REVISION_4T_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4N 11
+`define CYDEV_CHIP_MEMBER_4N 10
 `define CYDEV_CHIP_REVISION_4N_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4S 12
+`define CYDEV_CHIP_MEMBER_4S 11
 `define CYDEV_CHIP_REVISION_4S_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4W 13
-`define CYDEV_CHIP_REVISION_4W_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4AC 14
-`define CYDEV_CHIP_REVISION_4AC_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4AD 15
-`define CYDEV_CHIP_REVISION_4AD_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4AE 16
-`define CYDEV_CHIP_REVISION_4AE_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4Q 17
+`define CYDEV_CHIP_MEMBER_4Q 12
 `define CYDEV_CHIP_REVISION_4Q_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4Y 18
-`define CYDEV_CHIP_REVISION_4Y_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4Z 19
-`define CYDEV_CHIP_REVISION_4Z_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4D 20
+`define CYDEV_CHIP_MEMBER_4D 13
 `define CYDEV_CHIP_REVISION_4D_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4J 21
+`define CYDEV_CHIP_MEMBER_4J 14
 `define CYDEV_CHIP_REVISION_4J_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4K 22
+`define CYDEV_CHIP_MEMBER_4K 15
 `define CYDEV_CHIP_REVISION_4K_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4V 23
+`define CYDEV_CHIP_MEMBER_4V 16
 `define CYDEV_CHIP_REVISION_4V_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4H 24
+`define CYDEV_CHIP_MEMBER_4H 17
 `define CYDEV_CHIP_REVISION_4H_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4AA 25
-`define CYDEV_CHIP_REVISION_4AA_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4A 26
+`define CYDEV_CHIP_MEMBER_4A 18
 `define CYDEV_CHIP_REVISION_4A_PRODUCTION 17
 `define CYDEV_CHIP_REVISION_4A_ES0 17
-`define CYDEV_CHIP_MEMBER_4F 27
+`define CYDEV_CHIP_MEMBER_4F 19
 `define CYDEV_CHIP_REVISION_4F_PRODUCTION 0
 `define CYDEV_CHIP_REVISION_4F_PRODUCTION_256K 0
 `define CYDEV_CHIP_REVISION_4F_PRODUCTION_256DMA 0
-`define CYDEV_CHIP_MEMBER_4P 28
+`define CYDEV_CHIP_MEMBER_4P 20
 `define CYDEV_CHIP_REVISION_4P_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4M 29
+`define CYDEV_CHIP_MEMBER_4M 21
 `define CYDEV_CHIP_REVISION_4M_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4AB 30
-`define CYDEV_CHIP_REVISION_4AB_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4L 31
+`define CYDEV_CHIP_MEMBER_4L 22
 `define CYDEV_CHIP_REVISION_4L_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_4I 32
+`define CYDEV_CHIP_MEMBER_4I 23
 `define CYDEV_CHIP_REVISION_4I_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_6A 33
+`define CYDEV_CHIP_MEMBER_6A 24
 `define CYDEV_CHIP_REVISION_6A_ES 17
 `define CYDEV_CHIP_REVISION_6A_PRODUCTION 33
 `define CYDEV_CHIP_REVISION_6A_NO_UDB 33
-`define CYDEV_CHIP_MEMBER_PDL_FM0P_TYPE1 34
+`define CYDEV_CHIP_MEMBER_PDL_FM0P_TYPE1 25
 `define CYDEV_CHIP_REVISION_PDL_FM0P_TYPE1_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_PDL_FM0P_TYPE2 35
+`define CYDEV_CHIP_MEMBER_PDL_FM0P_TYPE2 26
 `define CYDEV_CHIP_REVISION_PDL_FM0P_TYPE2_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_PDL_FM0P_TYPE3 36
+`define CYDEV_CHIP_MEMBER_PDL_FM0P_TYPE3 27
 `define CYDEV_CHIP_REVISION_PDL_FM0P_TYPE3_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_FM3 37
+`define CYDEV_CHIP_MEMBER_FM3 28
 `define CYDEV_CHIP_REVISION_FM3_PRODUCTION 0
-`define CYDEV_CHIP_MEMBER_FM4 38
+`define CYDEV_CHIP_MEMBER_FM4 29
 `define CYDEV_CHIP_REVISION_FM4_PRODUCTION 0
 `define CYDEV_CHIP_FAMILY_USED 4
-`define CYDEV_CHIP_MEMBER_USED 33
+`define CYDEV_CHIP_MEMBER_USED 24
 `define CYDEV_CHIP_REVISION_USED 33
 // Component: cy_virtualmux_v1_0
 `ifdef CY_BLK_DIR
@@ -112,11 +94,11 @@
 `endif
 
 `ifdef WARP
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v"
 `else
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v"
 `endif
 
 // Component: ZeroTerminal
@@ -125,11 +107,11 @@
 `endif
 
 `ifdef WARP
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v"
 `else
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v"
 `endif
 
 // Component: or_v1_0
@@ -138,17 +120,22 @@
 `endif
 
 `ifdef WARP
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v"
 `else
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\or_v1_0\or_v1_0.v"
 `endif
 
-// SCB_SPI_PDL_v2_0(BitsOrder=1, BufferMinSize=64, ByteMode=true, ClkDesFrequency=100000, ClkMinusTolerance=100, ClkPlusTolerance=5, ClockFromTerm=false, DataRate=20000, DeassertSelectLine=false, DeepSleepCapable=false, EnableFreeRunSclk=false, EnableInputFilter=false, EnableInterruptTerm=false, EnableLateMisoSample=false, EnableRxOutput=false, EnableSpimMisoTerm=false, EnableSpimMosiTerm=false, EnableSpimSclkTerm=false, EnableSpimSs0Term=false, EnableSpimSs1Term=false, EnableSpimSs2Term=false, EnableSpimSs3Term=false, EnableSpisMisoTerm=false, EnableSpisMosiTerm=false, EnableSpisSclkTerm=false, EnableSpisSsTerm=false, EnableTriggerOutput=false, EnableTxOutput=false, EnableWakeup=false, InterruptMode=1, IntrMasterSlaveMask=0, IntrMasterSpiDone=false, IntrRxFull=false, IntrRxMask=0, IntrRxNotEmpty=false, IntrRxOverflow=false, IntrRxTrigger=false, IntrRxUnderflow=false, IntrSlaveBusError=false, IntrTxEmpty=false, IntrTxMask=0, IntrTxNotFull=false, IntrTxOverflow=false, IntrTxTrigger=false, IntrTxUnderflow=false, IsDmaCapable=true, IsEnableWakeupVisible=false, IsMasterEnabled=true, IsRxTriggerLevelVisible=false, IsTxTriggerLevelVisible=false, MasterMode=true, MaxFifoLevel=127, MinOvsFactor=4, Mode=1, OvsFactor=5, RemoveIntr=false, RemoveMasterMiso=false, RemoveMasterMosi=false, RemoveMasterSclk=false, RemoveMasterSs0Pin=true, RemoveMasterSs1Pin=true, RemoveMasterSs2Pin=true, RemoveMasterSs3Pin=true, RemoveMiso=false, RemoveMosi=false, RemoveSclk=false, RemoveSlaveMiso=true, RemoveSlaveMosi=true, RemoveSlaveSclk=true, RemoveSlaveSS=true, RxDataWidth=8, RxTriggerLevel=7, SclkMode=0, SelectLinesNumber=0, ShowTerminals=false, SpiMode=1, Ss0Polarity=0, Ss1Polarity=0, Ss2Polarity=0, Ss3Polarity=0, SubMode=0, SymbolShape=0, TxDataWidth=8, TxTriggerLevel=0, UseIntr=true, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=SCB_SPI_PDL_v2_0, CY_CONFIG_TITLE=CY_EINK_SPIM, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=CY_EINK_SPIM, CY_INSTANCE_SHORT_NAME=CY_EINK_SPIM, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=scb, CY_PDL_DRIVER_REQ_VERSION=2.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=CY_EINK_SPIM, )
+// SCB_SPI_PDL_v2_0(BitsOrder=1, BufferMinSize=64, ByteMode=true, ClkDesFrequency=100000, ClkMinusTolerance=100, ClkPlusTolerance=5, ClockFromTerm=false, DataRate=20000, DeassertSelectLine=false, DeepSleepCapable=false, EnableFreeRunSclk=false, EnableInputFilter=false, EnableInterruptTerm=false, EnableLateMisoSample=false, EnableRxOutput=false, EnableSpimMisoTerm=false, EnableSpimMosiTerm=false, EnableSpimSclkTerm=false, EnableSpimSs0Term=false, EnableSpimSs1Term=false, EnableSpimSs2Term=false, EnableSpimSs3Term=false, EnableSpisMisoTerm=false, EnableSpisMosiTerm=false, EnableSpisSclkTerm=false, EnableSpisSsTerm=false, EnableTriggerOutput=false, EnableTxOutput=false, EnableWakeup=false, InterruptMode=1, IntrMasterSlaveMask=0, IntrMasterSpiDone=false, IntrRxFull=false, IntrRxMask=0, IntrRxNotEmpty=false, IntrRxOverflow=false, IntrRxTrigger=false, IntrRxUnderflow=false, IntrSlaveBusError=false, IntrTxEmpty=false, IntrTxMask=0, IntrTxNotFull=false, IntrTxOverflow=false, IntrTxTrigger=false, IntrTxUnderflow=false, IsDmaCapable=true, IsEnableWakeupVisible=false, IsMasterEnabled=true, IsRxTriggerLevelVisible=false, IsTxTriggerLevelVisible=false, MasterMode=true, MaxFifoLevel=127, MinOvsFactor=4, Mode=1, OvsFactor=5, RemoveIntr=false, RemoveMasterMiso=false, RemoveMasterMosi=false, RemoveMasterSclk=false, RemoveMasterSs0Pin=true, RemoveMasterSs1Pin=true, RemoveMasterSs2Pin=true, RemoveMasterSs3Pin=true, RemoveMiso=false, RemoveMosi=false, RemoveSclk=false, RemoveSlaveMiso=true, RemoveSlaveMosi=true, RemoveSlaveSclk=true, RemoveSlaveSS=true, RxDataWidth=8, RxTriggerLevel=7, SclkMode=0, SelectLinesNumber=0, ShowTerminals=false, SpiMode=1, Ss0Polarity=0, Ss1Polarity=0, Ss2Polarity=0, Ss3Polarity=0, SubMode=0, SymbolShape=0, TxDataWidth=8, TxTriggerLevel=0, UseIntr=true, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=SCB_SPI_PDL_v2_0, CY_CONFIG_TITLE=CY_EINK_SPIM, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=CY_EINK_SPIM, CY_INSTANCE_SHORT_NAME=CY_EINK_SPIM, CY_MAJOR_VERSION=2, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=scb, CY_PDL_DRIVER_REQ_VERSION=2.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=CY_EINK_SPIM, )
 module SCB_SPI_PDL_v2_0_0 (
-    clock,
     interrupt,
+    clock,
+    rx_dma,
+    tx_dma,
+    s_mosi,
+    s_sclk,
+    s_ss,
     m_miso,
     m_mosi,
     m_sclk,
@@ -156,14 +143,14 @@ module SCB_SPI_PDL_v2_0_0 (
     m_ss1,
     m_ss2,
     m_ss3,
-    rx_dma,
-    s_miso,
-    s_mosi,
-    s_sclk,
-    s_ss,
-    tx_dma);
-    input       clock;
+    s_miso);
     output      interrupt;
+    input       clock;
+    output      rx_dma;
+    output      tx_dma;
+    input       s_mosi;
+    input       s_sclk;
+    input       s_ss;
     input       m_miso;
     output      m_mosi;
     output      m_sclk;
@@ -171,12 +158,7 @@ module SCB_SPI_PDL_v2_0_0 (
     output      m_ss1;
     output      m_ss2;
     output      m_ss3;
-    output      rx_dma;
     output      s_miso;
-    input       s_mosi;
-    input       s_sclk;
-    input       s_ss;
-    output      tx_dma;
 
 
           wire  mosi_s_wire;
@@ -189,14 +171,14 @@ module SCB_SPI_PDL_v2_0_0 (
           wire [3:0] select_m_wire;
           wire  sclk_s_wire;
           wire  select_s_wire;
-          wire  Net_490;
-          wire  Net_488;
-          wire  Net_480;
-          wire  Net_489;
-          wire  Net_481;
           wire  Net_498;
+          wire  Net_490;
+          wire  Net_489;
+          wire  Net_488;
           wire  Net_483;
           wire  Net_482;
+          wire  Net_481;
+          wire  Net_480;
           wire  Net_29;
           wire  Net_28;
           wire  Net_228;
@@ -336,25 +318,25 @@ module SCB_SPI_PDL_v2_0_0 (
 
     cy_mxs40_scb_v1_10 SCB (
         .clock(clock_wire),
+        .uart_rx(1'b0),
+        .uart_cts(1'b0),
         .i2c_scl(Net_482),
         .i2c_sda(Net_483),
-        .interrupt(intr_wire),
-        .spi_clk_m(sclk_m_wire),
         .spi_clk_s(sclk_s_wire),
-        .spi_miso_m(miso_m_wire),
-        .spi_miso_s(miso_s_wire),
-        .spi_mosi_m(mosi_m_wire),
-        .spi_mosi_s(mosi_s_wire),
-        .spi_select_m(select_m_wire[3:0]),
         .spi_select_s(select_s_wire),
-        .tr_i2c_scl_filtered(Net_498),
-        .tr_rx_req(rx_dma),
-        .tr_tx_req(tx_dma),
-        .uart_cts(1'b0),
-        .uart_rts(Net_489),
-        .uart_rx(1'b0),
+        .spi_miso_m(miso_m_wire),
+        .spi_mosi_s(mosi_s_wire),
         .uart_tx(Net_488),
-        .uart_tx_en(Net_490));
+        .uart_rts(Net_489),
+        .uart_tx_en(Net_490),
+        .spi_clk_m(sclk_m_wire),
+        .spi_select_m(select_m_wire[3:0]),
+        .spi_mosi_m(mosi_m_wire),
+        .spi_miso_s(miso_s_wire),
+        .interrupt(intr_wire),
+        .tr_tx_req(tx_dma),
+        .tr_rx_req(rx_dma),
+        .tr_i2c_scl_filtered(Net_498));
     defparam SCB.master = 1;
     defparam SCB.mode = 1;
     defparam SCB.requires_io_preconfigure = 0;
@@ -399,46 +381,46 @@ module SCB_SPI_PDL_v2_0_0 (
 
 endmodule
 
-// TCPWM_Counter_PDL_v1_0(CaptureInput=7, CaptureInputMasked=3, ClockPrescaler=1, Compare0=5000, Compare1=16384, CompareOrCapture=0, CountDirection=0, CountInput=7, CountInputMasked=3, EnableCompareSwap=false, InterruptSource=0, Period=10000, ReloadInput=7, ReloadInputMasked=3, Resolution=16, RunMode=1, StartInput=7, StartInputMasked=3, StopInput=7, StopInputMasked=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=TCPWM_Counter_PDL_v1_0, CY_CONFIG_TITLE=CY_EINK_Timer, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=CY_EINK_Timer, CY_INSTANCE_SHORT_NAME=CY_EINK_Timer, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=tcpwm, CY_PDL_DRIVER_REQ_VERSION=1.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=CY_EINK_Timer, )
+// TCPWM_Counter_PDL_v1_0(CaptureInput=7, CaptureInputMasked=3, ClockPrescaler=1, Compare0=5000, Compare1=16384, CompareOrCapture=0, CountDirection=0, CountInput=7, CountInputMasked=3, EnableCompareSwap=false, InterruptSource=0, Period=10000, ReloadInput=7, ReloadInputMasked=3, Resolution=16, RunMode=1, StartInput=7, StartInputMasked=3, StopInput=7, StopInputMasked=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=TCPWM_Counter_PDL_v1_0, CY_CONFIG_TITLE=CY_EINK_Timer, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=CY_EINK_Timer, CY_INSTANCE_SHORT_NAME=CY_EINK_Timer, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=tcpwm, CY_PDL_DRIVER_REQ_VERSION=1.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=CY_EINK_Timer, )
 module TCPWM_Counter_PDL_v1_0_1 (
-    capture,
-    clock,
-    compare,
-    count,
-    interrupt,
-    ovrflw,
+    stop,
     reload,
     start,
-    stop,
-    undrflw);
-    input       capture;
-    input       clock;
-    output      compare;
-    input       count;
-    output      interrupt;
-    output      ovrflw;
+    count,
+    capture,
+    interrupt,
+    ovrflw,
+    undrflw,
+    compare,
+    clock);
+    input       stop;
     input       reload;
     input       start;
-    input       stop;
+    input       count;
+    input       capture;
+    output      interrupt;
+    output      ovrflw;
     output      undrflw;
+    output      compare;
+    input       clock;
 
 
-          wire  Net_1;
           wire  Net_2;
+          wire  Net_1;
 
     cy_mxs40_tcpwm_v1_0 TCPWM (
-        .capture(capture),
         .clock(clock),
+        .capture(capture),
         .count(count),
-        .interrupt(interrupt),
-        .line(Net_2),
-        .line_compl(Net_1),
         .reload(reload),
-        .start(start),
         .stop(stop),
+        .start(start),
+        .tr_underflow(undrflw),
         .tr_compare_match(compare),
         .tr_overflow(ovrflw),
-        .tr_underflow(undrflw));
+        .line_compl(Net_1),
+        .line(Net_2),
+        .interrupt(interrupt));
     defparam TCPWM.exact_width = 0;
     defparam TCPWM.width = 16;
 
@@ -452,55 +434,55 @@ endmodule
 `endif
 
 `ifdef WARP
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v"
 `else
-`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90"
-`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v"
+`define CY_BLK_DIR "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90"
+`include "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyStatusReg_v1_90\CyStatusReg_v1_90.v"
 `endif
 
-// TCPWM_PWM_PDL_v1_0(ClockPrescaler=0, Compare0=0, Compare1=16384, CountInput=7, CountInputMasked=3, DeadClocks=0, EnableCompareSwap=false, EnablePeriodSwap=false, InterruptSource=0, InvertPwm=false, InvertPwm_n=false, KillInput=7, KillInputMasked=3, KillMode=2, Period0=100, Period1=32768, PwmAlignment=0, PwmMode=4, ReloadInput=7, ReloadInputMasked=3, Resolution=16, RunMode=0, StartInput=7, StartInputMasked=3, SwapInput=7, SwapInputMasked=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=TCPWM_PWM_PDL_v1_0, CY_CONFIG_TITLE=PWM, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=PWM, CY_INSTANCE_SHORT_NAME=PWM, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=tcpwm, CY_PDL_DRIVER_REQ_VERSION=1.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=PWM, )
+// TCPWM_PWM_PDL_v1_0(ClockPrescaler=0, Compare0=0, Compare1=16384, CountInput=7, CountInputMasked=3, DeadClocks=0, EnableCompareSwap=false, EnablePeriodSwap=false, InterruptSource=0, InvertPwm=false, InvertPwm_n=false, KillInput=7, KillInputMasked=3, KillMode=2, Period0=100, Period1=32768, PwmAlignment=0, PwmMode=4, ReloadInput=7, ReloadInputMasked=3, Resolution=16, RunMode=0, StartInput=7, StartInputMasked=3, SwapInput=7, SwapInputMasked=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=TCPWM_PWM_PDL_v1_0, CY_CONFIG_TITLE=PWM, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=PWM, CY_INSTANCE_SHORT_NAME=PWM, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=tcpwm, CY_PDL_DRIVER_REQ_VERSION=1.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=PWM, )
 module TCPWM_PWM_PDL_v1_0_2 (
-    clock,
-    compare,
-    count,
-    interrupt,
     kill,
-    ovrflw,
-    pwm,
-    pwm_n,
     reload,
     start,
+    count,
     swap,
-    undrflw);
-    input       clock;
-    output      compare;
-    input       count;
-    output      interrupt;
+    interrupt,
+    ovrflw,
+    undrflw,
+    compare,
+    clock,
+    pwm,
+    pwm_n);
     input       kill;
-    output      ovrflw;
-    output      pwm;
-    output      pwm_n;
     input       reload;
     input       start;
+    input       count;
     input       swap;
+    output      interrupt;
+    output      ovrflw;
     output      undrflw;
+    output      compare;
+    input       clock;
+    output      pwm;
+    output      pwm_n;
 
 
 
     cy_mxs40_tcpwm_v1_0 TCPWM (
-        .capture(swap),
         .clock(clock),
+        .capture(swap),
         .count(count),
-        .interrupt(interrupt),
-        .line(pwm),
-        .line_compl(pwm_n),
         .reload(reload),
-        .start(start),
         .stop(kill),
+        .start(start),
+        .tr_underflow(undrflw),
         .tr_compare_match(compare),
         .tr_overflow(ovrflw),
-        .tr_underflow(undrflw));
+        .line_compl(pwm_n),
+        .line(pwm),
+        .interrupt(interrupt));
     defparam TCPWM.exact_width = 0;
     defparam TCPWM.width = 16;
 
@@ -508,46 +490,46 @@ module TCPWM_PWM_PDL_v1_0_2 (
 
 endmodule
 
-// TCPWM_Counter_PDL_v1_0(CaptureInput=7, CaptureInputMasked=3, ClockPrescaler=0, Compare0=16384, Compare1=16384, CompareOrCapture=2, CountDirection=0, CountInput=7, CountInputMasked=3, EnableCompareSwap=false, InterruptSource=1, Period=32768, ReloadInput=7, ReloadInputMasked=3, Resolution=16, RunMode=0, StartInput=7, StartInputMasked=3, StopInput=7, StopInputMasked=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=TCPWM_Counter_PDL_v1_0, CY_CONFIG_TITLE=Timer, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=Timer, CY_INSTANCE_SHORT_NAME=Timer, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=tcpwm, CY_PDL_DRIVER_REQ_VERSION=1.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.4, INSTANCE_NAME=Timer, )
+// TCPWM_Counter_PDL_v1_0(CaptureInput=7, CaptureInputMasked=3, ClockPrescaler=0, Compare0=16384, Compare1=16384, CompareOrCapture=2, CountDirection=0, CountInput=7, CountInputMasked=3, EnableCompareSwap=false, InterruptSource=1, Period=32768, ReloadInput=7, ReloadInputMasked=3, Resolution=16, RunMode=0, StartInput=7, StartInputMasked=3, StopInput=7, StopInputMasked=3, CY_API_CALLBACK_HEADER_INCLUDE=#include "cyapicallbacks.h", CY_COMMENT=, CY_COMPONENT_NAME=TCPWM_Counter_PDL_v1_0, CY_CONFIG_TITLE=Timer, CY_CONST_CONFIG=true, CY_CONTROL_FILE=<:default:>, CY_DATASHEET_FILE=<:default:>, CY_FITTER_NAME=Timer, CY_INSTANCE_SHORT_NAME=Timer, CY_MAJOR_VERSION=1, CY_MINOR_VERSION=0, CY_PDL_DRIVER_NAME=tcpwm, CY_PDL_DRIVER_REQ_VERSION=1.0.0, CY_PDL_DRIVER_SUBGROUP=, CY_PDL_DRIVER_VARIANT=, CY_REMOVE=false, CY_SUPPRESS_API_GEN=false, CY_VERSION=PSoC Creator  4.2, INSTANCE_NAME=Timer, )
 module TCPWM_Counter_PDL_v1_0_3 (
-    capture,
-    clock,
-    compare,
-    count,
-    interrupt,
-    ovrflw,
+    stop,
     reload,
     start,
-    stop,
-    undrflw);
-    input       capture;
-    input       clock;
-    output      compare;
-    input       count;
-    output      interrupt;
-    output      ovrflw;
+    count,
+    capture,
+    interrupt,
+    ovrflw,
+    undrflw,
+    compare,
+    clock);
+    input       stop;
     input       reload;
     input       start;
-    input       stop;
+    input       count;
+    input       capture;
+    output      interrupt;
+    output      ovrflw;
     output      undrflw;
+    output      compare;
+    input       clock;
 
 
-          wire  Net_1;
           wire  Net_2;
+          wire  Net_1;
 
     cy_mxs40_tcpwm_v1_0 TCPWM (
-        .capture(capture),
         .clock(clock),
+        .capture(capture),
         .count(count),
-        .interrupt(interrupt),
-        .line(Net_2),
-        .line_compl(Net_1),
         .reload(reload),
-        .start(start),
         .stop(stop),
+        .start(start),
+        .tr_underflow(undrflw),
         .tr_compare_match(compare),
         .tr_overflow(ovrflw),
-        .tr_underflow(undrflw));
+        .line_compl(Net_1),
+        .line(Net_2),
+        .interrupt(interrupt));
     defparam TCPWM.exact_width = 0;
     defparam TCPWM.width = 16;
 
@@ -559,6 +541,7 @@ endmodule
 module top ;
 
           wire [7:0] Net_388;
+          wire  Net_380;
           wire  Net_387;
           wire  Net_386;
           wire  Net_385;
@@ -566,8 +549,8 @@ module top ;
           wire  Net_383;
           wire  Net_382;
           wire  Net_381;
-          wire  Net_380;
           wire [7:0] Net_295;
+          wire  Net_287;
           wire  Net_294;
           wire  Net_293;
           wire  Net_292;
@@ -575,31 +558,31 @@ module top ;
           wire  Net_290;
           wire  Net_289;
           wire  Net_288;
-          wire  Net_287;
           wire  Net_259;
+          wire  Net_240;
           wire  Net_246;
-          wire  Net_245;
+          wire  Net_242;
+          wire  Net_239;
+          wire  Net_241;
           wire  Net_244;
           wire  Net_243;
-          wire  Net_242;
-          wire  Net_241;
-          wire  Net_240;
-          wire  Net_239;
+          wire  Net_245;
           wire  Net_261;
-          wire  Net_154;
-          wire  Net_151;
-          wire  Net_149;
-          wire  Net_148;
           wire  Net_158;
           wire  Net_157;
-          wire  Net_153;
-          wire  Net_147;
-          wire  Net_152;
-          wire  Net_150;
-          wire  Net_155;
           wire  Net_156;
+          wire  Net_155;
+          wire  Net_154;
+          wire  Net_153;
+          wire  Net_152;
+          wire  Net_151;
+          wire  Net_150;
+          wire  Net_149;
+          wire  Net_148;
+          wire  Net_147;
           wire  Net_146;
           wire [7:0] Net_145;
+          wire  Net_137;
           wire  Net_144;
           wire  Net_143;
           wire  Net_142;
@@ -607,23 +590,17 @@ module top ;
           wire  Net_140;
           wire  Net_139;
           wire  Net_138;
-          wire  Net_137;
+          wire  Net_128;
           wire  Net_135;
-          wire  Net_134;
-          wire  Net_133;
-          wire  Net_132;
           wire  Net_131;
           wire  Net_130;
-          wire  Net_129;
-          wire  Net_128;
           wire  Net_127;
+          wire  Net_129;
+          wire  Net_133;
+          wire  Net_132;
+          wire  Net_134;
           wire  Net_126;
-          wire  Net_125;
-          wire  Net_124;
-          wire  Net_123;
-          wire  Net_122;
           wire  Net_121;
-          wire  Net_120;
           wire  Net_119;
           wire  Net_118;
           wire  Net_117;
@@ -631,8 +608,13 @@ module top ;
           wire  Net_115;
           wire  Net_114;
           wire  Net_113;
-          wire  Net_112;
+          wire  Net_124;
+          wire  Net_123;
+          wire  Net_122;
+          wire  Net_125;
+          wire  Net_120;
           wire  Net_111;
+          wire  Net_112;
           wire  Net_362;
           wire  Net_302;
           wire  Net_136;
@@ -642,8 +624,13 @@ module top ;
           wire  Net_700;
 
     SCB_SPI_PDL_v2_0_0 CY_EINK_SPIM (
-        .clock(1'b0),
         .interrupt(Net_112),
+        .clock(1'b0),
+        .rx_dma(Net_120),
+        .tx_dma(Net_125),
+        .s_mosi(1'b0),
+        .s_sclk(1'b0),
+        .s_ss(1'b0),
         .m_miso(1'b0),
         .m_mosi(Net_114),
         .m_sclk(Net_115),
@@ -651,12 +638,7 @@ module top ;
         .m_ss1(Net_117),
         .m_ss2(Net_118),
         .m_ss3(Net_119),
-        .rx_dma(Net_120),
-        .s_miso(Net_121),
-        .s_mosi(1'b0),
-        .s_sclk(1'b0),
-        .s_ss(1'b0),
-        .tx_dma(Net_125));
+        .s_miso(Net_121));
 
 	wire [0:0] tmpFB_0__CY_EINK_DispRst_net;
 	wire [0:0] tmpIO_0__CY_EINK_DispRst_net;
@@ -923,16 +905,16 @@ module top ;
 
 
     TCPWM_Counter_PDL_v1_0_1 CY_EINK_Timer (
-        .capture(1'b0),
-        .clock(Net_700),
-        .compare(Net_128),
-        .count(1'b1),
-        .interrupt(Net_130),
-        .ovrflw(Net_131),
+        .stop(1'b0),
         .reload(1'b0),
         .start(1'b0),
-        .stop(1'b0),
-        .undrflw(Net_135));
+        .count(1'b1),
+        .capture(1'b0),
+        .interrupt(Net_130),
+        .ovrflw(Net_131),
+        .undrflw(Net_135),
+        .compare(Net_128),
+        .clock(Net_700));
 
 	wire [0:0] tmpIO_0__Button1_net;
 	electrical [0:0] tmpSIOVREF__Button1_net;
@@ -970,16 +952,16 @@ module top ;
 
 
     CyStatusReg_v1_90 Status_SW2 (
-        .clock(Net_335),
-        .intr(Net_137),
         .status_0(Net_136),
         .status_1(1'b0),
         .status_2(1'b0),
         .status_3(1'b0),
+        .clock(Net_335),
         .status_4(1'b0),
         .status_5(1'b0),
         .status_6(1'b0),
         .status_7(1'b0),
+        .intr(Net_137),
         .status_bus(8'b0));
     defparam Status_SW2.Bit0Mode = 0;
     defparam Status_SW2.Bit1Mode = 0;
@@ -1043,18 +1025,18 @@ module top ;
 
 
     TCPWM_PWM_PDL_v1_0_2 PWM (
-        .clock(Net_156),
-        .compare(Net_155),
-        .count(1'b1),
-        .interrupt(Net_152),
         .kill(1'b0),
-        .ovrflw(Net_153),
-        .pwm(Net_157),
-        .pwm_n(Net_158),
         .reload(1'b0),
         .start(1'b0),
+        .count(1'b1),
         .swap(1'b0),
-        .undrflw(Net_154));
+        .interrupt(Net_152),
+        .ovrflw(Net_153),
+        .undrflw(Net_154),
+        .compare(Net_155),
+        .clock(Net_156),
+        .pwm(Net_157),
+        .pwm_n(Net_158));
 
 
 	cy_clock_v1_0
@@ -1105,16 +1087,16 @@ module top ;
 
 
     TCPWM_Counter_PDL_v1_0_3 Timer (
-        .capture(1'b0),
-        .clock(Net_10),
-        .compare(Net_240),
-        .count(1'b1),
-        .interrupt(Net_28),
-        .ovrflw(Net_242),
+        .stop(1'b0),
         .reload(1'b0),
         .start(1'b0),
-        .stop(1'b0),
-        .undrflw(Net_246));
+        .count(1'b1),
+        .capture(1'b0),
+        .interrupt(Net_28),
+        .ovrflw(Net_242),
+        .undrflw(Net_246),
+        .compare(Net_240),
+        .clock(Net_10));
 
 
 	cy_clock_v1_0
@@ -1207,16 +1189,16 @@ module top ;
 
 
     CyStatusReg_v1_90 Status_Button2 (
-        .clock(Net_335),
-        .intr(Net_287),
         .status_0(Net_302),
         .status_1(1'b0),
         .status_2(1'b0),
         .status_3(1'b0),
+        .clock(Net_335),
         .status_4(1'b0),
         .status_5(1'b0),
         .status_6(1'b0),
         .status_7(1'b0),
+        .intr(Net_287),
         .status_bus(8'b0));
     defparam Status_Button2.Bit0Mode = 0;
     defparam Status_Button2.Bit1Mode = 0;
@@ -1232,16 +1214,16 @@ module top ;
     defparam Status_Button2.NumInputs = 1;
 
     CyStatusReg_v1_90 Status_Button3 (
-        .clock(Net_335),
-        .intr(Net_380),
         .status_0(Net_362),
         .status_1(1'b0),
         .status_2(1'b0),
         .status_3(1'b0),
+        .clock(Net_335),
         .status_4(1'b0),
         .status_5(1'b0),
         .status_6(1'b0),
         .status_7(1'b0),
+        .intr(Net_380),
         .status_bus(8'b0));
     defparam Status_Button3.Bit0Mode = 0;
     defparam Status_Button3.Bit1Mode = 0;

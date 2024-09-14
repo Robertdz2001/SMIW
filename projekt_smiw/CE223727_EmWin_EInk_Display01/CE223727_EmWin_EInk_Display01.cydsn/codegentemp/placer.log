@@ -4,9 +4,9 @@
 
 #Version:            1.1
 
-#Build Date:         Sep  9 2019 11:47:43
+#Build Date:         Dec  5 2017 15:35:27
 
-#File Generated:     Sep 12 2024 00:30:14
+#File Generated:     Sep 14 2024 13:22:11
 
 #Purpose:            
 
@@ -14,16 +14,16 @@
 
 #***************************************************************************
 
-Executing : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjplacer.exe --proj-name CE223727_EmWin_EInk_Display01 --netlist-vh2 CE223727_EmWin_EInk_Display01_p.vh2 --arch p6_udb2x6 --arch-file C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\arch/udbdsi2_2x6_12.cydata --ip-file C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc6/0/ip_blocks.cydata --rrg-file C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc6/0/route_arch-rrg.cydata --irq-file C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc6/0/irqconn.cydata --drq-file C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc6/0/triggerconn.cydata --dsi-conn-file C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc6/0/dsiconn.cydata --pins-file pins_116-BGA-BLE.xml --lib-file CE223727_EmWin_EInk_Display01_p.lib --sdc-file CE223727_EmWin_EInk_Display01.sdc --io-pcf CE223727_EmWin_EInk_Display01.pci --outdir .
+Executing : C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\bin/sjplacer.exe --proj-name CE223727_EmWin_EInk_Display01 --netlist-vh2 CE223727_EmWin_EInk_Display01_p.vh2 --arch p6_udb2x6 --arch-file C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\arch/udbdsi2_2x6_12.cydata --ip-file C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc6/0/ip_blocks.cydata --rrg-file C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc6/0/route_arch-rrg.cydata --irq-file C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc6/0/irqconn.cydata --drq-file C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc6/0/triggerconn.cydata --dsi-conn-file C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\psoc6/0/dsiconn.cydata --pins-file pins_116-BGA-BLE.xml --lib-file CE223727_EmWin_EInk_Display01_p.lib --sdc-file CE223727_EmWin_EInk_Display01.sdc --io-pcf CE223727_EmWin_EInk_Display01.pci --outdir .
 
 		Softjin Techologies Placer, Version 1.1
 
-Build Date : Sep  9 2019	11:45:12
+Build Date : Dec  5 2017	15:33:41
 
 D2004: Option and Settings Summary
 =============================================================
 Netlist vh2 file          - CE223727_EmWin_EInk_Display01_p.vh2
-Architecture file         - C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\arch/udbdsi2_2x6_12.cydata
+Architecture file         - C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\arch/udbdsi2_2x6_12.cydata
 Package                   - 
 Defparam file             - 
 SDC file                  - CE223727_EmWin_EInk_Display01.sdc
@@ -34,7 +34,7 @@ IO Placement file         - CE223727_EmWin_EInk_Display01.pci
 D2050: Starting reading inputs for placer
 =============================================================
 D2065: Reading netlist file : "CE223727_EmWin_EInk_Display01_p.vh2"
-D2065: Reading arch file : "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\arch/udbdsi2_2x6_12.cydata"
+D2065: Reading arch file : "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\dev\arch/udbdsi2_2x6_12.cydata"
 D2051: Reading of inputs for placer completed successfully
 
 D2053: Starting placement of the design
