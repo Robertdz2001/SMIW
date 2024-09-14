@@ -5175,7 +5175,7 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .debug_aranges
                 0x000008f8       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
 
-.debug_loc      0x00000000     0x6171
+.debug_loc      0x00000000     0x6173
  .debug_loc     0x00000000      0x40f .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
  .debug_loc     0x0000040f      0x1fe .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
  .debug_loc     0x0000060d      0xc33 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
@@ -5199,10 +5199,10 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .debug_loc     0x0000519f      0xb0a .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
  .debug_loc     0x00005ca9      0x1fc .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
  .debug_loc     0x00005ea5      0x194 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_loc     0x00006039       0x58 .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_loc     0x00006091       0x58 .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_loc     0x000060e9       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_loc     0x0000612d       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_loc     0x00006039       0x5a .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_loc     0x00006093       0x58 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_loc     0x000060eb       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_loc     0x0000612f       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
 
 .debug_ranges   0x00000000      0x7b8
  .debug_ranges  0x00000000       0x60 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o

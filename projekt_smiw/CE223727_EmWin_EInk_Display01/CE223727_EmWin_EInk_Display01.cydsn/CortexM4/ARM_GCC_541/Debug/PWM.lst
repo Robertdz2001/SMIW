@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
   27:Generated_Source\PSoC6/PWM.c **** *  associated PWM_Init() function.
   28:Generated_Source\PSoC6/PWM.c **** */ 
   29:Generated_Source\PSoC6/PWM.c **** cy_stc_tcpwm_pwm_config_t const PWM_config =
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 2
 
 
   30:Generated_Source\PSoC6/PWM.c **** {
@@ -118,13 +118,13 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
   39 0004 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
   40 0006 3BB9     		cbnz	r3, .L2
   74:Generated_Source\PSoC6/PWM.c ****     {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 3
 
 
   75:Generated_Source\PSoC6/PWM.c ****         (void) Cy_TCPWM_PWM_Init(PWM_HW, PWM_CNT_NUM, &PWM_config);
   41              		.loc 1 75 0
   42 0008 074A     		ldr	r2, .L4+4
-  43 000a 0221     		movs	r1, #2
+  43 000a 0721     		movs	r1, #7
   44 000c 0748     		ldr	r0, .L4+8
   45 000e FFF7FEFF 		bl	Cy_TCPWM_PWM_Init
   46              	.LVL0:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
   37:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * index). 
   38:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
   39:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * The TCPWM supports three operating modes:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 4
 
 
   40:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * * Timer/Counter
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
   94:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * A quadrature decoder is used to decode the output of a quadrature encoder. 
   95:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * A quadrature encoder senses the position, velocity, and direction of 
   96:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * an object (for example a rotating axle, or a spinning mouse ball). 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 5
 
 
   97:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * A quadrature decoder can also be used for precision measurement of speed, 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  151:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
  152:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \section group_tcpwm_MISRA MISRA-C Compliance 
  153:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * <table class="doxtable">
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 6
 
 
  154:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *   <tr>
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  208:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
  209:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #ifndef CY_IP_MXTCPWM
  210:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****     #error "The TCPWM driver is not supported on this device"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 7
 
 
  211:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #endif
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  265:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** */
  266:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /** A rising edge triggers the event (Capture, Start, Reload, etc..) */
  267:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #define CY_TCPWM_INPUT_RISINGEDGE       (0U)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 8
 
 
  268:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /** A falling edge triggers the event (Capture, Start, Reload, etc..) */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  322:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****  ******************************************************************************/
  323:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
  324:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****  /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 9
 
 
  325:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \addtogroup group_tcpwm_enums
@@ -538,10 +538,10 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  379:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h ****     base->CTRL_SET = counters;
   56              		.loc 2 379 0
   57 0018 044B     		ldr	r3, .L4+8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 10
 
 
-  58 001a 0422     		movs	r2, #4
+  58 001a 8022     		movs	r2, #128
   59 001c 9A60     		str	r2, [r3, #8]
   60              	.LVL2:
   61              	.LBE7:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
   67              	.LVL3:
   68 0020 08BD     		pop	{r3, pc}
   69              	.L5:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 11
 
 
   70 0022 00BF     		.align	2
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  124              		.file 4 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
  125              		.file 5 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/ip/cyip_tcpwm.h"
  126              		.file 6 "Generated_Source\\PSoC6\\pdl\\drivers/peripheral/tcpwm/cy_tcpwm_pwm.h"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 12
 
 
  127              		.file 7 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  181 0070 02       		.uleb128 0x2
  182 0071 08       		.byte	0x8
  183 0072 05       		.byte	0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 13
 
 
  184 0073 41020000 		.4byte	.LASF9
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  238 00df 87040000 		.4byte	.LASF18
  239 00e3 05       		.byte	0x5
  240 00e4 25       		.byte	0x25
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 14
 
 
  241 00e5 B4000000 		.4byte	0xb4
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  295 0150 B9000000 		.4byte	0xb9
  296 0154 2C       		.byte	0x2c
  297 0155 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 15
 
 
  298 0156 F2030000 		.4byte	.LASF27
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  352 01c3 05       		.byte	0x5
  353 01c4 3C       		.byte	0x3c
  354 01c5 B4000000 		.4byte	0xb4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 16
 
 
  355 01c9 0C       		.byte	0xc
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  409 023c 1F       		.byte	0x1f
  410 023d 00       		.byte	0
  411 023e 03       		.uleb128 0x3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 17
 
 
  412 023f D1040000 		.4byte	.LASF39
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  466 02a8 A2000000 		.4byte	0xa2
  467 02ac 10       		.byte	0x10
  468 02ad 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 18
 
 
  469 02ae 21020000 		.4byte	.LASF49
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  523 031a 3B000000 		.4byte	.LASF58
  524 031e 06       		.byte	0x6
  525 031f 3D       		.byte	0x3d
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 19
 
 
  526 0320 A2000000 		.4byte	0xa2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  580 038c A2000000 		.4byte	0xa2
  581 0390 5C       		.byte	0x5c
  582 0391 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 20
 
 
  583 0392 5E020000 		.4byte	.LASF68
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  637 0407 01       		.byte	0x1
  638 0408 47       		.byte	0x47
  639 0409 00000000 		.4byte	.LFB179
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 21
 
 
  640 040d 30000000 		.4byte	.LFE179-.LFB179
@@ -1217,7 +1217,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  653 042f 00000000 		.4byte	.LLST0
  654 0433 14       		.uleb128 0x14
  655 0434 E9030000 		.4byte	0x3e9
- 656 0438 14000000 		.4byte	.LLST1
+ 656 0438 15000000 		.4byte	.LLST1
  657 043c 00       		.byte	0
  658 043d 13       		.uleb128 0x13
  659 043e B0030000 		.4byte	0x3b0
@@ -1228,10 +1228,10 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  664 044c 63040000 		.4byte	0x463
  665 0450 14       		.uleb128 0x14
  666 0451 C9030000 		.4byte	0x3c9
- 667 0455 2C000000 		.4byte	.LLST2
+ 667 0455 2D000000 		.4byte	.LLST2
  668 0459 14       		.uleb128 0x14
  669 045a BD030000 		.4byte	0x3bd
- 670 045e 40000000 		.4byte	.LLST3
+ 670 045e 42000000 		.4byte	.LLST3
  671 0462 00       		.byte	0
  672 0463 15       		.uleb128 0x15
  673 0464 12000000 		.4byte	.LVL0
@@ -1246,7 +1246,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  682 0476 01       		.uleb128 0x1
  683 0477 51       		.byte	0x51
  684 0478 01       		.uleb128 0x1
- 685 0479 32       		.byte	0x32
+ 685 0479 37       		.byte	0x37
  686 047a 16       		.uleb128 0x16
  687 047b 01       		.uleb128 0x1
  688 047c 52       		.byte	0x52
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  694 0485 17       		.uleb128 0x17
  695 0486 C4040000 		.4byte	.LASF75
  696 048a 07       		.byte	0x7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 22
 
 
  697 048b EA07     		.2byte	0x7ea
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  751 0018 3E       		.uleb128 0x3e
  752 0019 0B       		.uleb128 0xb
  753 001a 03       		.uleb128 0x3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 23
 
 
  754 001b 0E       		.uleb128 0xe
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  808 0051 08       		.uleb128 0x8
  809 0052 0D       		.uleb128 0xd
  810 0053 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 24
 
 
  811 0054 03       		.uleb128 0x3
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  865 008a 00       		.byte	0
  866 008b 0C       		.uleb128 0xc
  867 008c 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 25
 
 
  868 008d 01       		.byte	0x1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  922 00c3 0B       		.uleb128 0xb
  923 00c4 3B       		.uleb128 0x3b
  924 00c5 05       		.uleb128 0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 26
 
 
  925 00c6 49       		.uleb128 0x49
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  979 00fd 00       		.byte	0
  980 00fe 14       		.uleb128 0x14
  981 00ff 05       		.uleb128 0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 27
 
 
  982 0100 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  1036 013b 19       		.uleb128 0x19
  1037 013c 02       		.uleb128 0x2
  1038 013d 18       		.uleb128 0x18
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 28
 
 
  1039 013e 00       		.byte	0
@@ -1646,469 +1646,471 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 1
  1061              	.LLST0:
  1062 0000 18000000 		.4byte	.LVL1
  1063 0004 1E000000 		.4byte	.LVL2
- 1064 0008 0200     		.2byte	0x2
- 1065 000a 34       		.byte	0x34
- 1066 000b 9F       		.byte	0x9f
- 1067 000c 00000000 		.4byte	0
- 1068 0010 00000000 		.4byte	0
- 1069              	.LLST1:
- 1070 0014 18000000 		.4byte	.LVL1
- 1071 0018 1E000000 		.4byte	.LVL2
- 1072 001c 0600     		.2byte	0x6
- 1073 001e 0C       		.byte	0xc
- 1074 001f 00003840 		.4byte	0x40380000
- 1075 0023 9F       		.byte	0x9f
- 1076 0024 00000000 		.4byte	0
- 1077 0028 00000000 		.4byte	0
- 1078              	.LLST2:
- 1079 002c 1E000000 		.4byte	.LVL2
- 1080 0030 20000000 		.4byte	.LVL3
- 1081 0034 0200     		.2byte	0x2
- 1082 0036 34       		.byte	0x34
- 1083 0037 9F       		.byte	0x9f
- 1084 0038 00000000 		.4byte	0
- 1085 003c 00000000 		.4byte	0
- 1086              	.LLST3:
- 1087 0040 1E000000 		.4byte	.LVL2
- 1088 0044 20000000 		.4byte	.LVL3
- 1089 0048 0600     		.2byte	0x6
- 1090 004a 0C       		.byte	0xc
- 1091 004b 00003840 		.4byte	0x40380000
- 1092 004f 9F       		.byte	0x9f
- 1093 0050 00000000 		.4byte	0
- 1094 0054 00000000 		.4byte	0
- 1095              		.section	.debug_aranges,"",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 29
+ 1064 0008 0300     		.2byte	0x3
+ 1065 000a 08       		.byte	0x8
+ 1066 000b 80       		.byte	0x80
+ 1067 000c 9F       		.byte	0x9f
+ 1068 000d 00000000 		.4byte	0
+ 1069 0011 00000000 		.4byte	0
+ 1070              	.LLST1:
+ 1071 0015 18000000 		.4byte	.LVL1
+ 1072 0019 1E000000 		.4byte	.LVL2
+ 1073 001d 0600     		.2byte	0x6
+ 1074 001f 0C       		.byte	0xc
+ 1075 0020 00003840 		.4byte	0x40380000
+ 1076 0024 9F       		.byte	0x9f
+ 1077 0025 00000000 		.4byte	0
+ 1078 0029 00000000 		.4byte	0
+ 1079              	.LLST2:
+ 1080 002d 1E000000 		.4byte	.LVL2
+ 1081 0031 20000000 		.4byte	.LVL3
+ 1082 0035 0300     		.2byte	0x3
+ 1083 0037 08       		.byte	0x8
+ 1084 0038 80       		.byte	0x80
+ 1085 0039 9F       		.byte	0x9f
+ 1086 003a 00000000 		.4byte	0
+ 1087 003e 00000000 		.4byte	0
+ 1088              	.LLST3:
+ 1089 0042 1E000000 		.4byte	.LVL2
+ 1090 0046 20000000 		.4byte	.LVL3
+ 1091 004a 0600     		.2byte	0x6
+ 1092 004c 0C       		.byte	0xc
+ 1093 004d 00003840 		.4byte	0x40380000
+ 1094 0051 9F       		.byte	0x9f
+ 1095 0052 00000000 		.4byte	0
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 29
 
 
- 1096 0000 1C000000 		.4byte	0x1c
- 1097 0004 0200     		.2byte	0x2
- 1098 0006 00000000 		.4byte	.Ldebug_info0
- 1099 000a 04       		.byte	0x4
- 1100 000b 00       		.byte	0
- 1101 000c 0000     		.2byte	0
- 1102 000e 0000     		.2byte	0
- 1103 0010 00000000 		.4byte	.LFB179
- 1104 0014 30000000 		.4byte	.LFE179-.LFB179
- 1105 0018 00000000 		.4byte	0
- 1106 001c 00000000 		.4byte	0
- 1107              		.section	.debug_ranges,"",%progbits
- 1108              	.Ldebug_ranges0:
- 1109 0000 00000000 		.4byte	.LFB179
- 1110 0004 30000000 		.4byte	.LFE179
- 1111 0008 00000000 		.4byte	0
- 1112 000c 00000000 		.4byte	0
- 1113              		.section	.debug_line,"",%progbits
- 1114              	.Ldebug_line0:
- 1115 0000 19020000 		.section	.debug_str,"MS",%progbits,1
- 1115      0200F701 
- 1115      00000201 
- 1115      FB0E0D00 
- 1115      01010101 
- 1116              	.LASF51:
- 1117 0000 656E6162 		.ascii	"enablePeriodSwap\000"
- 1117      6C655065 
- 1117      72696F64 
- 1117      53776170 
- 1117      00
- 1118              	.LASF62:
- 1119 0011 72656C6F 		.ascii	"reloadInput\000"
- 1119      6164496E 
- 1119      70757400 
- 1120              	.LASF45:
- 1121 001d 636C6F63 		.ascii	"clockPrescaler\000"
- 1121      6B507265 
- 1121      7363616C 
- 1121      657200
- 1122              	.LASF67:
- 1123 002c 636F756E 		.ascii	"countInputMode\000"
- 1123      74496E70 
- 1123      75744D6F 
- 1123      646500
- 1124              	.LASF58:
- 1125 003b 6B696C6C 		.ascii	"killMode\000"
- 1125      4D6F6465 
- 1125      00
- 1126              	.LASF53:
- 1127 0044 636F6D70 		.ascii	"compare1\000"
- 1127      61726531 
+ 1096 0056 00000000 		.4byte	0
+ 1097              		.section	.debug_aranges,"",%progbits
+ 1098 0000 1C000000 		.4byte	0x1c
+ 1099 0004 0200     		.2byte	0x2
+ 1100 0006 00000000 		.4byte	.Ldebug_info0
+ 1101 000a 04       		.byte	0x4
+ 1102 000b 00       		.byte	0
+ 1103 000c 0000     		.2byte	0
+ 1104 000e 0000     		.2byte	0
+ 1105 0010 00000000 		.4byte	.LFB179
+ 1106 0014 30000000 		.4byte	.LFE179-.LFB179
+ 1107 0018 00000000 		.4byte	0
+ 1108 001c 00000000 		.4byte	0
+ 1109              		.section	.debug_ranges,"",%progbits
+ 1110              	.Ldebug_ranges0:
+ 1111 0000 00000000 		.4byte	.LFB179
+ 1112 0004 30000000 		.4byte	.LFE179
+ 1113 0008 00000000 		.4byte	0
+ 1114 000c 00000000 		.4byte	0
+ 1115              		.section	.debug_line,"",%progbits
+ 1116              	.Ldebug_line0:
+ 1117 0000 19020000 		.section	.debug_str,"MS",%progbits,1
+ 1117      0200F701 
+ 1117      00000201 
+ 1117      FB0E0D00 
+ 1117      01010101 
+ 1118              	.LASF51:
+ 1119 0000 656E6162 		.ascii	"enablePeriodSwap\000"
+ 1119      6C655065 
+ 1119      72696F64 
+ 1119      53776170 
+ 1119      00
+ 1120              	.LASF62:
+ 1121 0011 72656C6F 		.ascii	"reloadInput\000"
+ 1121      6164496E 
+ 1121      70757400 
+ 1122              	.LASF45:
+ 1123 001d 636C6F63 		.ascii	"clockPrescaler\000"
+ 1123      6B507265 
+ 1123      7363616C 
+ 1123      657200
+ 1124              	.LASF67:
+ 1125 002c 636F756E 		.ascii	"countInputMode\000"
+ 1125      74496E70 
+ 1125      75744D6F 
+ 1125      646500
+ 1126              	.LASF58:
+ 1127 003b 6B696C6C 		.ascii	"killMode\000"
+ 1127      4D6F6465 
  1127      00
- 1128              	.LASF70:
- 1129 004d 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config_t\000"
- 1129      74635F74 
- 1129      6370776D 
- 1129      5F70776D 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 30
+ 1128              	.LASF53:
+ 1129 0044 636F6D70 		.ascii	"compare1\000"
+ 1129      61726531 
+ 1129      00
+ 1130              	.LASF70:
+ 1131 004d 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config_t\000"
+ 1131      74635F74 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 30
 
 
- 1129      5F636F6E 
- 1130              	.LASF31:
- 1131 0067 54435057 		.ascii	"TCPWM_CNT_Type\000"
- 1131      4D5F434E 
- 1131      545F5479 
- 1131      706500
- 1132              	.LASF0:
- 1133 0076 73686F72 		.ascii	"short int\000"
- 1133      7420696E 
- 1133      7400
- 1134              	.LASF15:
- 1135 0080 73697A65 		.ascii	"sizetype\000"
- 1135      74797065 
- 1135      00
- 1136              	.LASF21:
- 1137 0089 50455249 		.ascii	"PERIOD_BUFF\000"
- 1137      4F445F42 
- 1137      55464600 
- 1138              	.LASF33:
- 1139 0095 4354524C 		.ascii	"CTRL_SET\000"
- 1139      5F534554 
- 1139      00
- 1140              	.LASF79:
- 1141 009e 47656E65 		.ascii	"Generated_Source\\PSoC6\\PWM.c\000"
- 1141      72617465 
- 1141      645F536F 
- 1141      75726365 
- 1141      5C50536F 
- 1142              	.LASF35:
- 1143 00bb 434D445F 		.ascii	"CMD_RELOAD\000"
- 1143      52454C4F 
- 1143      414400
- 1144              	.LASF24:
- 1145 00c6 54525F43 		.ascii	"TR_CTRL1\000"
- 1145      54524C31 
- 1145      00
- 1146              	.LASF25:
- 1147 00cf 54525F43 		.ascii	"TR_CTRL2\000"
- 1147      54524C32 
+ 1131      6370776D 
+ 1131      5F70776D 
+ 1131      5F636F6E 
+ 1132              	.LASF31:
+ 1133 0067 54435057 		.ascii	"TCPWM_CNT_Type\000"
+ 1133      4D5F434E 
+ 1133      545F5479 
+ 1133      706500
+ 1134              	.LASF0:
+ 1135 0076 73686F72 		.ascii	"short int\000"
+ 1135      7420696E 
+ 1135      7400
+ 1136              	.LASF15:
+ 1137 0080 73697A65 		.ascii	"sizetype\000"
+ 1137      74797065 
+ 1137      00
+ 1138              	.LASF21:
+ 1139 0089 50455249 		.ascii	"PERIOD_BUFF\000"
+ 1139      4F445F42 
+ 1139      55464600 
+ 1140              	.LASF33:
+ 1141 0095 4354524C 		.ascii	"CTRL_SET\000"
+ 1141      5F534554 
+ 1141      00
+ 1142              	.LASF79:
+ 1143 009e 47656E65 		.ascii	"Generated_Source\\PSoC6\\PWM.c\000"
+ 1143      72617465 
+ 1143      645F536F 
+ 1143      75726365 
+ 1143      5C50536F 
+ 1144              	.LASF35:
+ 1145 00bb 434D445F 		.ascii	"CMD_RELOAD\000"
+ 1145      52454C4F 
+ 1145      414400
+ 1146              	.LASF24:
+ 1147 00c6 54525F43 		.ascii	"TR_CTRL1\000"
+ 1147      54524C31 
  1147      00
- 1148              	.LASF78:
- 1149 00d8 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1149      43313120 
- 1149      352E342E 
- 1149      31203230 
- 1149      31363036 
- 1150 010b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
- 1150      20726576 
- 1150      6973696F 
- 1150      6E203233 
- 1150      37373135 
- 1151 013e 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
- 1151      70202D6D 
- 1151      6670753D 
- 1151      66707634 
- 1151      2D73702D 
- 1152 0171 65637469 		.ascii	"ections -ffat-lto-objects\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 31
+ 1148              	.LASF25:
+ 1149 00cf 54525F43 		.ascii	"TR_CTRL2\000"
+ 1149      54524C32 
+ 1149      00
+ 1150              	.LASF78:
+ 1151 00d8 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1151      43313120 
+ 1151      352E342E 
+ 1151      31203230 
+ 1151      31363036 
+ 1152 010b 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 1152      20726576 
+ 1152      6973696F 
+ 1152      6E203233 
+ 1152      37373135 
+ 1153 013e 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
+ 1153      70202D6D 
+ 1153      6670753D 
+ 1153      66707634 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 31
 
 
- 1152      6F6E7320 
- 1152      2D666661 
- 1152      742D6C74 
- 1152      6F2D6F62 
- 1153              	.LASF81:
- 1154 018b 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
- 1154      74635F74 
- 1154      6370776D 
- 1154      5F70776D 
- 1154      5F636F6E 
- 1155              	.LASF7:
- 1156 01a3 5F5F7569 		.ascii	"__uint32_t\000"
- 1156      6E743332 
- 1156      5F7400
- 1157              	.LASF23:
- 1158 01ae 54525F43 		.ascii	"TR_CTRL0\000"
- 1158      54524C30 
- 1158      00
- 1159              	.LASF46:
- 1160 01b7 70776D41 		.ascii	"pwmAlignment\000"
- 1160      6C69676E 
- 1160      6D656E74 
+ 1153      2D73702D 
+ 1154 0171 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 1154      6F6E7320 
+ 1154      2D666661 
+ 1154      742D6C74 
+ 1154      6F2D6F62 
+ 1155              	.LASF81:
+ 1156 018b 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
+ 1156      74635F74 
+ 1156      6370776D 
+ 1156      5F70776D 
+ 1156      5F636F6E 
+ 1157              	.LASF7:
+ 1158 01a3 5F5F7569 		.ascii	"__uint32_t\000"
+ 1158      6E743332 
+ 1158      5F7400
+ 1159              	.LASF23:
+ 1160 01ae 54525F43 		.ascii	"TR_CTRL0\000"
+ 1160      54524C30 
  1160      00
- 1161              	.LASF54:
- 1162 01c4 656E6162 		.ascii	"enableCompareSwap\000"
- 1162      6C65436F 
- 1162      6D706172 
- 1162      65537761 
- 1162      7000
- 1163              	.LASF12:
- 1164 01d6 75696E74 		.ascii	"uint8_t\000"
- 1164      385F7400 
- 1165              	.LASF66:
- 1166 01de 6B696C6C 		.ascii	"killInput\000"
- 1166      496E7075 
- 1166      7400
- 1167              	.LASF34:
- 1168 01e8 434D445F 		.ascii	"CMD_CAPTURE\000"
- 1168      43415054 
- 1168      55524500 
- 1169              	.LASF55:
- 1170 01f4 696E7465 		.ascii	"interruptSources\000"
- 1170      72727570 
- 1170      74536F75 
- 1170      72636573 
- 1170      00
- 1171              	.LASF37:
- 1172 0205 434D445F 		.ascii	"CMD_START\000"
- 1172      53544152 
- 1172      5400
- 1173              	.LASF76:
- 1174 020f 50574D5F 		.ascii	"PWM_initVar\000"
- 1174      696E6974 
- 1174      56617200 
- 1175              	.LASF42:
- 1176 021b 666C6F61 		.ascii	"float\000"
- 1176      7400
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 32
+ 1161              	.LASF46:
+ 1162 01b7 70776D41 		.ascii	"pwmAlignment\000"
+ 1162      6C69676E 
+ 1162      6D656E74 
+ 1162      00
+ 1163              	.LASF54:
+ 1164 01c4 656E6162 		.ascii	"enableCompareSwap\000"
+ 1164      6C65436F 
+ 1164      6D706172 
+ 1164      65537761 
+ 1164      7000
+ 1165              	.LASF12:
+ 1166 01d6 75696E74 		.ascii	"uint8_t\000"
+ 1166      385F7400 
+ 1167              	.LASF66:
+ 1168 01de 6B696C6C 		.ascii	"killInput\000"
+ 1168      496E7075 
+ 1168      7400
+ 1169              	.LASF34:
+ 1170 01e8 434D445F 		.ascii	"CMD_CAPTURE\000"
+ 1170      43415054 
+ 1170      55524500 
+ 1171              	.LASF55:
+ 1172 01f4 696E7465 		.ascii	"interruptSources\000"
+ 1172      72727570 
+ 1172      74536F75 
+ 1172      72636573 
+ 1172      00
+ 1173              	.LASF37:
+ 1174 0205 434D445F 		.ascii	"CMD_START\000"
+ 1174      53544152 
+ 1174      5400
+ 1175              	.LASF76:
+ 1176 020f 50574D5F 		.ascii	"PWM_initVar\000"
+ 1176      696E6974 
+ 1176      56617200 
+ 1177              	.LASF42:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 32
 
 
- 1177              	.LASF49:
- 1178 0221 70657269 		.ascii	"period0\000"
- 1178      6F643000 
- 1179              	.LASF50:
- 1180 0229 70657269 		.ascii	"period1\000"
- 1180      6F643100 
- 1181              	.LASF61:
- 1182 0231 72656C6F 		.ascii	"reloadInputMode\000"
- 1182      6164496E 
- 1182      7075744D 
- 1182      6F646500 
- 1183              	.LASF9:
- 1184 0241 6C6F6E67 		.ascii	"long long int\000"
- 1184      206C6F6E 
- 1184      6720696E 
- 1184      7400
- 1185              	.LASF48:
- 1186 024f 72756E4D 		.ascii	"runMode\000"
- 1186      6F646500 
- 1187              	.LASF17:
- 1188 0257 53544154 		.ascii	"STATUS\000"
- 1188      555300
- 1189              	.LASF68:
- 1190 025e 636F756E 		.ascii	"countInput\000"
- 1190      74496E70 
- 1190      757400
- 1191              	.LASF80:
- 1192 0269 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
- 1192      73657273 
- 1192      5C726F62 
- 1192      65725C44 
- 1192      65736B74 
- 1193 0296 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
- 1193      5F456D57 
- 1193      696E5F45 
- 1193      496E6B5F 
- 1193      44697370 
- 1194 02c8 6C617930 		.ascii	"lay01.cydsn\000"
- 1194      312E6379 
- 1194      64736E00 
- 1195              	.LASF4:
- 1196 02d4 5F5F7569 		.ascii	"__uint8_t\000"
- 1196      6E74385F 
- 1196      7400
- 1197              	.LASF73:
- 1198 02de 43795F54 		.ascii	"Cy_TCPWM_TriggerStart\000"
- 1198      4350574D 
- 1198      5F547269 
- 1198      67676572 
- 1198      53746172 
- 1199              	.LASF30:
- 1200 02f4 494E5452 		.ascii	"INTR_MASKED\000"
- 1200      5F4D4153 
- 1200      4B454400 
- 1201              	.LASF19:
- 1202 0300 43435F42 		.ascii	"CC_BUFF\000"
- 1202      55464600 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 33
+ 1178 021b 666C6F61 		.ascii	"float\000"
+ 1178      7400
+ 1179              	.LASF49:
+ 1180 0221 70657269 		.ascii	"period0\000"
+ 1180      6F643000 
+ 1181              	.LASF50:
+ 1182 0229 70657269 		.ascii	"period1\000"
+ 1182      6F643100 
+ 1183              	.LASF61:
+ 1184 0231 72656C6F 		.ascii	"reloadInputMode\000"
+ 1184      6164496E 
+ 1184      7075744D 
+ 1184      6F646500 
+ 1185              	.LASF9:
+ 1186 0241 6C6F6E67 		.ascii	"long long int\000"
+ 1186      206C6F6E 
+ 1186      6720696E 
+ 1186      7400
+ 1187              	.LASF48:
+ 1188 024f 72756E4D 		.ascii	"runMode\000"
+ 1188      6F646500 
+ 1189              	.LASF17:
+ 1190 0257 53544154 		.ascii	"STATUS\000"
+ 1190      555300
+ 1191              	.LASF68:
+ 1192 025e 636F756E 		.ascii	"countInput\000"
+ 1192      74496E70 
+ 1192      757400
+ 1193              	.LASF80:
+ 1194 0269 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 1194      73657273 
+ 1194      5C726F62 
+ 1194      65725C44 
+ 1194      65736B74 
+ 1195 0296 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 1195      5F456D57 
+ 1195      696E5F45 
+ 1195      496E6B5F 
+ 1195      44697370 
+ 1196 02c8 6C617930 		.ascii	"lay01.cydsn\000"
+ 1196      312E6379 
+ 1196      64736E00 
+ 1197              	.LASF4:
+ 1198 02d4 5F5F7569 		.ascii	"__uint8_t\000"
+ 1198      6E74385F 
+ 1198      7400
+ 1199              	.LASF73:
+ 1200 02de 43795F54 		.ascii	"Cy_TCPWM_TriggerStart\000"
+ 1200      4350574D 
+ 1200      5F547269 
+ 1200      67676572 
+ 1200      53746172 
+ 1201              	.LASF30:
+ 1202 02f4 494E5452 		.ascii	"INTR_MASKED\000"
+ 1202      5F4D4153 
+ 1202      4B454400 
+ 1203              	.LASF19:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 33
 
 
- 1203              	.LASF40:
- 1204 0308 6C6F6E67 		.ascii	"long double\000"
- 1204      20646F75 
- 1204      626C6500 
- 1205              	.LASF63:
- 1206 0314 73746172 		.ascii	"startInputMode\000"
- 1206      74496E70 
- 1206      75744D6F 
- 1206      646500
- 1207              	.LASF2:
- 1208 0323 756E7369 		.ascii	"unsigned char\000"
- 1208      676E6564 
- 1208      20636861 
- 1208      7200
- 1209              	.LASF16:
- 1210 0331 4354524C 		.ascii	"CTRL\000"
- 1210      00
- 1211              	.LASF38:
- 1212 0336 494E5452 		.ascii	"INTR_CAUSE\000"
- 1212      5F434155 
- 1212      534500
- 1213              	.LASF1:
- 1214 0341 7369676E 		.ascii	"signed char\000"
- 1214      65642063 
- 1214      68617200 
- 1215              	.LASF28:
- 1216 034d 494E5452 		.ascii	"INTR_SET\000"
- 1216      5F534554 
- 1216      00
- 1217              	.LASF10:
- 1218 0356 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1218      206C6F6E 
- 1218      6720756E 
- 1218      7369676E 
- 1218      65642069 
- 1219              	.LASF14:
- 1220 036d 75696E74 		.ascii	"uint32_t\000"
- 1220      33325F74 
- 1220      00
- 1221              	.LASF52:
- 1222 0376 636F6D70 		.ascii	"compare0\000"
- 1222      61726530 
+ 1204 0300 43435F42 		.ascii	"CC_BUFF\000"
+ 1204      55464600 
+ 1205              	.LASF40:
+ 1206 0308 6C6F6E67 		.ascii	"long double\000"
+ 1206      20646F75 
+ 1206      626C6500 
+ 1207              	.LASF63:
+ 1208 0314 73746172 		.ascii	"startInputMode\000"
+ 1208      74496E70 
+ 1208      75744D6F 
+ 1208      646500
+ 1209              	.LASF2:
+ 1210 0323 756E7369 		.ascii	"unsigned char\000"
+ 1210      676E6564 
+ 1210      20636861 
+ 1210      7200
+ 1211              	.LASF16:
+ 1212 0331 4354524C 		.ascii	"CTRL\000"
+ 1212      00
+ 1213              	.LASF38:
+ 1214 0336 494E5452 		.ascii	"INTR_CAUSE\000"
+ 1214      5F434155 
+ 1214      534500
+ 1215              	.LASF1:
+ 1216 0341 7369676E 		.ascii	"signed char\000"
+ 1216      65642063 
+ 1216      68617200 
+ 1217              	.LASF28:
+ 1218 034d 494E5452 		.ascii	"INTR_SET\000"
+ 1218      5F534554 
+ 1218      00
+ 1219              	.LASF10:
+ 1220 0356 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1220      206C6F6E 
+ 1220      6720756E 
+ 1220      7369676E 
+ 1220      65642069 
+ 1221              	.LASF14:
+ 1222 036d 75696E74 		.ascii	"uint32_t\000"
+ 1222      33325F74 
  1222      00
- 1223              	.LASF11:
- 1224 037f 756E7369 		.ascii	"unsigned int\000"
- 1224      676E6564 
- 1224      20696E74 
+ 1223              	.LASF52:
+ 1224 0376 636F6D70 		.ascii	"compare0\000"
+ 1224      61726530 
  1224      00
- 1225              	.LASF57:
- 1226 038c 696E7665 		.ascii	"invertPWMOutN\000"
- 1226      72745057 
- 1226      4D4F7574 
- 1226      4E00
- 1227              	.LASF36:
- 1228 039a 434D445F 		.ascii	"CMD_STOP\000"
- 1228      53544F50 
- 1228      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 34
+ 1225              	.LASF11:
+ 1226 037f 756E7369 		.ascii	"unsigned int\000"
+ 1226      676E6564 
+ 1226      20696E74 
+ 1226      00
+ 1227              	.LASF57:
+ 1228 038c 696E7665 		.ascii	"invertPWMOutN\000"
+ 1228      72745057 
+ 1228      4D4F7574 
+ 1228      4E00
+ 1229              	.LASF36:
+ 1230 039a 434D445F 		.ascii	"CMD_STOP\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 34
 
 
- 1229              	.LASF29:
- 1230 03a3 494E5452 		.ascii	"INTR_MASK\000"
- 1230      5F4D4153 
- 1230      4B00
- 1231              	.LASF20:
- 1232 03ad 50455249 		.ascii	"PERIOD\000"
- 1232      4F4400
- 1233              	.LASF3:
- 1234 03b4 73686F72 		.ascii	"short unsigned int\000"
- 1234      7420756E 
- 1234      7369676E 
- 1234      65642069 
- 1234      6E7400
- 1235              	.LASF41:
- 1236 03c7 63686172 		.ascii	"char\000"
- 1236      00
- 1237              	.LASF6:
- 1238 03cc 6C6F6E67 		.ascii	"long int\000"
- 1238      20696E74 
+ 1230      53544F50 
+ 1230      00
+ 1231              	.LASF29:
+ 1232 03a3 494E5452 		.ascii	"INTR_MASK\000"
+ 1232      5F4D4153 
+ 1232      4B00
+ 1233              	.LASF20:
+ 1234 03ad 50455249 		.ascii	"PERIOD\000"
+ 1234      4F4400
+ 1235              	.LASF3:
+ 1236 03b4 73686F72 		.ascii	"short unsigned int\000"
+ 1236      7420756E 
+ 1236      7369676E 
+ 1236      65642069 
+ 1236      6E7400
+ 1237              	.LASF41:
+ 1238 03c7 63686172 		.ascii	"char\000"
  1238      00
- 1239              	.LASF47:
- 1240 03d5 64656164 		.ascii	"deadTimeClocks\000"
- 1240      54696D65 
- 1240      436C6F63 
- 1240      6B7300
- 1241              	.LASF13:
- 1242 03e4 696E7433 		.ascii	"int32_t\000"
- 1242      325F7400 
- 1243              	.LASF69:
- 1244 03ec 5F426F6F 		.ascii	"_Bool\000"
- 1244      6C00
- 1245              	.LASF27:
- 1246 03f2 494E5452 		.ascii	"INTR\000"
- 1246      00
- 1247              	.LASF83:
- 1248 03f7 43795F54 		.ascii	"Cy_TCPWM_PWM_Init\000"
- 1248      4350574D 
- 1248      5F50574D 
- 1248      5F496E69 
- 1248      7400
- 1249              	.LASF26:
- 1250 0409 52455345 		.ascii	"RESERVED1\000"
- 1250      52564544 
- 1250      3100
- 1251              	.LASF8:
- 1252 0413 6C6F6E67 		.ascii	"long unsigned int\000"
- 1252      20756E73 
- 1252      69676E65 
- 1252      6420696E 
- 1252      7400
- 1253              	.LASF43:
- 1254 0425 646F7562 		.ascii	"double\000"
- 1254      6C6500
- 1255              	.LASF59:
- 1256 042c 73776170 		.ascii	"swapInputMode\000"
- 1256      496E7075 
- 1256      744D6F64 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 35
+ 1239              	.LASF6:
+ 1240 03cc 6C6F6E67 		.ascii	"long int\000"
+ 1240      20696E74 
+ 1240      00
+ 1241              	.LASF47:
+ 1242 03d5 64656164 		.ascii	"deadTimeClocks\000"
+ 1242      54696D65 
+ 1242      436C6F63 
+ 1242      6B7300
+ 1243              	.LASF13:
+ 1244 03e4 696E7433 		.ascii	"int32_t\000"
+ 1244      325F7400 
+ 1245              	.LASF69:
+ 1246 03ec 5F426F6F 		.ascii	"_Bool\000"
+ 1246      6C00
+ 1247              	.LASF27:
+ 1248 03f2 494E5452 		.ascii	"INTR\000"
+ 1248      00
+ 1249              	.LASF83:
+ 1250 03f7 43795F54 		.ascii	"Cy_TCPWM_PWM_Init\000"
+ 1250      4350574D 
+ 1250      5F50574D 
+ 1250      5F496E69 
+ 1250      7400
+ 1251              	.LASF26:
+ 1252 0409 52455345 		.ascii	"RESERVED1\000"
+ 1252      52564544 
+ 1252      3100
+ 1253              	.LASF8:
+ 1254 0413 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1254      20756E73 
+ 1254      69676E65 
+ 1254      6420696E 
+ 1254      7400
+ 1255              	.LASF43:
+ 1256 0425 646F7562 		.ascii	"double\000"
+ 1256      6C6500
+ 1257              	.LASF59:
+ 1258 042c 73776170 		.ascii	"swapInputMode\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 35
 
 
- 1256      6500
- 1257              	.LASF64:
- 1258 043a 73746172 		.ascii	"startInput\000"
- 1258      74496E70 
- 1258      757400
- 1259              	.LASF5:
- 1260 0445 5F5F696E 		.ascii	"__int32_t\000"
- 1260      7433325F 
- 1260      7400
- 1261              	.LASF32:
- 1262 044f 4354524C 		.ascii	"CTRL_CLR\000"
- 1262      5F434C52 
- 1262      00
- 1263              	.LASF82:
- 1264 0458 50574D5F 		.ascii	"PWM_Start\000"
- 1264      53746172 
- 1264      7400
- 1265              	.LASF60:
- 1266 0462 73776170 		.ascii	"swapInput\000"
- 1266      496E7075 
+ 1258      496E7075 
+ 1258      744D6F64 
+ 1258      6500
+ 1259              	.LASF64:
+ 1260 043a 73746172 		.ascii	"startInput\000"
+ 1260      74496E70 
+ 1260      757400
+ 1261              	.LASF5:
+ 1262 0445 5F5F696E 		.ascii	"__int32_t\000"
+ 1262      7433325F 
+ 1262      7400
+ 1263              	.LASF32:
+ 1264 044f 4354524C 		.ascii	"CTRL_CLR\000"
+ 1264      5F434C52 
+ 1264      00
+ 1265              	.LASF82:
+ 1266 0458 50574D5F 		.ascii	"PWM_Start\000"
+ 1266      53746172 
  1266      7400
- 1267              	.LASF56:
- 1268 046c 696E7665 		.ascii	"invertPWMOut\000"
- 1268      72745057 
- 1268      4D4F7574 
- 1268      00
- 1269              	.LASF65:
- 1270 0479 6B696C6C 		.ascii	"killInputMode\000"
- 1270      496E7075 
- 1270      744D6F64 
- 1270      6500
- 1271              	.LASF18:
- 1272 0487 434F554E 		.ascii	"COUNTER\000"
- 1272      54455200 
- 1273              	.LASF77:
- 1274 048f 50574D5F 		.ascii	"PWM_config\000"
- 1274      636F6E66 
- 1274      696700
- 1275              	.LASF44:
- 1276 049a 70776D4D 		.ascii	"pwmMode\000"
- 1276      6F646500 
- 1277              	.LASF22:
- 1278 04a2 52455345 		.ascii	"RESERVED\000"
- 1278      52564544 
- 1278      00
- 1279              	.LASF74:
- 1280 04ab 43795F54 		.ascii	"Cy_TCPWM_Enable_Multiple\000"
- 1280      4350574D 
- 1280      5F456E61 
- 1280      626C655F 
- 1280      4D756C74 
- 1281              	.LASF75:
- 1282 04c4 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1282      52784275 
- 1282      66666572 
- 1282      00
- 1283              	.LASF39:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccmmSdcm.s 			page 36
+ 1267              	.LASF60:
+ 1268 0462 73776170 		.ascii	"swapInput\000"
+ 1268      496E7075 
+ 1268      7400
+ 1269              	.LASF56:
+ 1270 046c 696E7665 		.ascii	"invertPWMOut\000"
+ 1270      72745057 
+ 1270      4D4F7574 
+ 1270      00
+ 1271              	.LASF65:
+ 1272 0479 6B696C6C 		.ascii	"killInputMode\000"
+ 1272      496E7075 
+ 1272      744D6F64 
+ 1272      6500
+ 1273              	.LASF18:
+ 1274 0487 434F554E 		.ascii	"COUNTER\000"
+ 1274      54455200 
+ 1275              	.LASF77:
+ 1276 048f 50574D5F 		.ascii	"PWM_config\000"
+ 1276      636F6E66 
+ 1276      696700
+ 1277              	.LASF44:
+ 1278 049a 70776D4D 		.ascii	"pwmMode\000"
+ 1278      6F646500 
+ 1279              	.LASF22:
+ 1280 04a2 52455345 		.ascii	"RESERVED\000"
+ 1280      52564544 
+ 1280      00
+ 1281              	.LASF74:
+ 1282 04ab 43795F54 		.ascii	"Cy_TCPWM_Enable_Multiple\000"
+ 1282      4350574D 
+ 1282      5F456E61 
+ 1282      626C655F 
+ 1282      4D756C74 
+ 1283              	.LASF75:
+ 1284 04c4 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1284      52784275 
+ 1284      66666572 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccwr3Pts.s 			page 36
 
 
- 1284 04d1 54435057 		.ascii	"TCPWM_Type\000"
- 1284      4D5F5479 
- 1284      706500
- 1285              	.LASF71:
- 1286 04dc 62617365 		.ascii	"base\000"
- 1286      00
- 1287              	.LASF72:
- 1288 04e1 636F756E 		.ascii	"counters\000"
- 1288      74657273 
+ 1284      00
+ 1285              	.LASF39:
+ 1286 04d1 54435057 		.ascii	"TCPWM_Type\000"
+ 1286      4D5F5479 
+ 1286      706500
+ 1287              	.LASF71:
+ 1288 04dc 62617365 		.ascii	"base\000"
  1288      00
- 1289              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1289              	.LASF72:
+ 1290 04e1 636F756E 		.ascii	"counters\000"
+ 1290      74657273 
+ 1290      00
+ 1291              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,5 +1,5 @@
 -- Project:   CE223727_EmWin_EInk_Display01
--- Generated: 09/14/2024 13:22:12
+-- Generated: 09/14/2024 17:18:57
 -- PSoC Creator  4.2
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -151,7 +151,7 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     ATTRIBUTE lib_model OF GreenLED(0) : LABEL IS "iocell14";
     ATTRIBUTE Location OF GreenLED(0) : LABEL IS "P1[1]";
     ATTRIBUTE lib_model OF Pin(0) : LABEL IS "iocell15";
-    ATTRIBUTE Location OF Pin(0) : LABEL IS "P0[3]";
+    ATTRIBUTE Location OF Pin(0) : LABEL IS "P9[4]";
     ATTRIBUTE lib_model OF Button2(0) : LABEL IS "iocell16";
     ATTRIBUTE Location OF Button2(0) : LABEL IS "P9[6]";
     ATTRIBUTE lib_model OF Button3(0) : LABEL IS "iocell17";
@@ -161,7 +161,7 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     ATTRIBUTE Location OF \CY_EINK_Timer:TCPWM\ : LABEL IS "F(TCPWM,0)";
     ATTRIBUTE lib_model OF \Status_SW2:sts:sts_reg\ : LABEL IS "statuscell1";
     ATTRIBUTE Location OF \Status_SW2:sts:sts_reg\ : LABEL IS "U(0,0)";
-    ATTRIBUTE Location OF \PWM:TCPWM\ : LABEL IS "F(TCPWM,2)";
+    ATTRIBUTE Location OF \PWM:TCPWM\ : LABEL IS "F(TCPWM,7)";
     ATTRIBUTE Location OF \Timer:TCPWM\ : LABEL IS "F(TCPWM,1)";
     ATTRIBUTE Location OF isrTimer : LABEL IS "[IntrContainer=(0)][IntrId=(91)]";
     ATTRIBUTE lib_model OF \Status_Button2:sts:sts_reg\ : LABEL IS "statuscell2";
@@ -573,8 +573,9 @@ BEGIN
             ff_div_0 => open,
             ff_div_11 => Net_700_ff13,
             ff_div_12 => Net_10_ff11,
-            ff_div_13 => Net_156_ff12,
+            ff_div_13 => open,
             ff_div_6 => \CY_EINK_SPIM:Net_847_ff0\,
+            ff_div_18 => Net_156_ff12,
             periclk_App => periclk_App);
 
     CPUSS:CPUSS

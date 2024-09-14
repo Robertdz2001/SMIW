@@ -1,5 +1,5 @@
 -- Project:   CE223727_EmWin_EInk_Display01
--- Generated: 09/14/2024 13:22:11
+-- Generated: 09/14/2024 17:18:56
 -- PSoC Creator  4.2
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -149,7 +149,7 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     ATTRIBUTE lib_model OF GreenLED(0) : LABEL IS "iocell14";
     ATTRIBUTE Location OF GreenLED(0) : LABEL IS "P1[1]";
     ATTRIBUTE lib_model OF Pin(0) : LABEL IS "iocell15";
-    ATTRIBUTE Location OF Pin(0) : LABEL IS "P0[3]";
+    ATTRIBUTE Location OF Pin(0) : LABEL IS "P9[4]";
     ATTRIBUTE lib_model OF Button2(0) : LABEL IS "iocell16";
     ATTRIBUTE Location OF Button2(0) : LABEL IS "P9[6]";
     ATTRIBUTE lib_model OF Button3(0) : LABEL IS "iocell17";

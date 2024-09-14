@@ -1,6 +1,6 @@
-C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj|a650294d-4a02-4383-ab7e-ccef86039767
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|f122084a-ace8-4f82-bd77-d885233ba707
-C:\Users\rober\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|642bc33a-6791-466a-af17-4b22c531ddb1
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|df3d6af0-89a9-4903-8de9-3454c74c11eb
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|62d4a6c3-1bd5-4499-8763-34e0508b2d24
-C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|880a9543-3b4a-4aa5-a181-f1900731ebd2
+C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj|d4758ae0-57ff-4d0d-83c6-82f020f94a58
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|cd50e441-26a7-4939-83d9-839eb37cd5cb
+C:\Users\rober\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|3dfb2a4c-446f-4bb3-8d3d-3a83f27511e5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2be4a0e0-8fa7-4062-a2b0-8a2ebdd542e7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|527b0b3c-5817-4bbe-818c-223dbaab9a41
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|bfc1c740-2dd7-4906-915b-72a187c30741

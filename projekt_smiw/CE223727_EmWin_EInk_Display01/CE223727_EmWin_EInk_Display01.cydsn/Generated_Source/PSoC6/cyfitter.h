@@ -21,8 +21,8 @@
 #include "cyfitter_sysint.h"
 
 /* PWM */
-#define PWM_TCPWM__CNT_HW TCPWM0_CNT2
-#define PWM_TCPWM__CNT_IDX 2u
+#define PWM_TCPWM__CNT_HW TCPWM0_CNT7
+#define PWM_TCPWM__CNT_IDX 7u
 #define PWM_TCPWM__HW TCPWM0
 #define PWM_TCPWM__IDX 0u
 
