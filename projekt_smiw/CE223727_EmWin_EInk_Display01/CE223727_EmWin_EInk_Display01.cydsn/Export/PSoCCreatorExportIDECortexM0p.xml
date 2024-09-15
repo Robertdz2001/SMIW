@@ -82,8 +82,6 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\EINK_Clock.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\CY_EINK_Timer.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\CY_EINK_Timer.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_SW2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_SW2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Clock_2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\CY_EINK_SPIM_SCBCLK.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\project.h</File>
@@ -100,6 +98,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button2.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button3.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Status_Button1.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\Generated_Source\PSoC6\pdl\cmsis\include">

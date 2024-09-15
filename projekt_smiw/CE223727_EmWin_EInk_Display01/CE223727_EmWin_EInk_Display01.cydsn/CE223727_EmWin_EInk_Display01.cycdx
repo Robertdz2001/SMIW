@@ -98,10 +98,10 @@
     <block name="TCPWM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
   <block name="Button1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Status_SW2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
-    <register name="Status_SW2_STATUS_REG" address="0x4034162C" bitWidth="8" desc="" hidden="false" />
-    <register name="Status_SW2_MASK_REG" address="0x4034182C" bitWidth="8" desc="" hidden="false" />
-    <register name="Status_SW2_STATUS_AUX_CTL_REG" address="0x4034192C" bitWidth="8" desc="" hidden="false">
+  <block name="Status_Button1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <register name="Status_Button1_STATUS_REG" address="0x4034162C" bitWidth="8" desc="" hidden="false" />
+    <register name="Status_Button1_MASK_REG" address="0x4034182C" bitWidth="8" desc="" hidden="false" />
+    <register name="Status_Button1_STATUS_AUX_CTL_REG" address="0x4034192C" bitWidth="8" desc="" hidden="false">
       <field name="FIFO0" from="5" to="5" access="RW" resetVal="" desc="FIFO0 clear" hidden="false">
         <value name="ENABLED" value="1" desc="Enable counter" />
         <value name="DISABLED" value="0" desc="Disable counter" />

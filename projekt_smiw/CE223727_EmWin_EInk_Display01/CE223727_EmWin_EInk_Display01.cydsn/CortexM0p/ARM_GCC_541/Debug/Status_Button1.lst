@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 1
 
 
    1              		.syntax unified
@@ -15,110 +15,110 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
   12              		.eabi_attribute 18, 4
   13              		.thumb
   14              		.syntax unified
-  15              		.file	"Status_Button3.c"
+  15              		.file	"Status_Button1.c"
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.Status_Button3_Read,"ax",%progbits
+  19              		.section	.text.Status_Button1_Read,"ax",%progbits
   20              		.align	2
-  21              		.global	Status_Button3_Read
+  21              		.global	Status_Button1_Read
   22              		.code	16
   23              		.thumb_func
-  24              		.type	Status_Button3_Read, %function
-  25              	Status_Button3_Read:
+  24              		.type	Status_Button1_Read, %function
+  25              	Status_Button1_Read:
   26              	.LFB36:
-  27              		.file 1 "Generated_Source\\PSoC6\\Status_Button3.c"
-   1:Generated_Source\PSoC6/Status_Button3.c **** /*******************************************************************************
-   2:Generated_Source\PSoC6/Status_Button3.c **** * File Name: Status_Button3.c  
-   3:Generated_Source\PSoC6/Status_Button3.c **** * Version 1.90
-   4:Generated_Source\PSoC6/Status_Button3.c **** *
-   5:Generated_Source\PSoC6/Status_Button3.c **** * Description:
-   6:Generated_Source\PSoC6/Status_Button3.c **** *  This file contains API to enable firmware to read the value of a Status 
-   7:Generated_Source\PSoC6/Status_Button3.c **** *  Register.
-   8:Generated_Source\PSoC6/Status_Button3.c **** *
-   9:Generated_Source\PSoC6/Status_Button3.c **** * Note:
-  10:Generated_Source\PSoC6/Status_Button3.c **** *
-  11:Generated_Source\PSoC6/Status_Button3.c **** ********************************************************************************
-  12:Generated_Source\PSoC6/Status_Button3.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
-  13:Generated_Source\PSoC6/Status_Button3.c **** * You may use this file only in accordance with the license, terms, conditions, 
-  14:Generated_Source\PSoC6/Status_Button3.c **** * disclaimers, and limitations in the end user license agreement accompanying 
-  15:Generated_Source\PSoC6/Status_Button3.c **** * the software package with which this file was provided.
-  16:Generated_Source\PSoC6/Status_Button3.c **** *******************************************************************************/
-  17:Generated_Source\PSoC6/Status_Button3.c **** 
-  18:Generated_Source\PSoC6/Status_Button3.c **** #include "Status_Button3.h"
-  19:Generated_Source\PSoC6/Status_Button3.c **** 
-  20:Generated_Source\PSoC6/Status_Button3.c **** #if !defined(Status_Button3_sts_sts_reg__REMOVED) /* Check for removal by optimization */
-  21:Generated_Source\PSoC6/Status_Button3.c **** 
-  22:Generated_Source\PSoC6/Status_Button3.c **** 
-  23:Generated_Source\PSoC6/Status_Button3.c **** /*******************************************************************************
-  24:Generated_Source\PSoC6/Status_Button3.c **** * Function Name: Status_Button3_Read
-  25:Generated_Source\PSoC6/Status_Button3.c **** ********************************************************************************
-  26:Generated_Source\PSoC6/Status_Button3.c **** *
-  27:Generated_Source\PSoC6/Status_Button3.c **** * Summary:
-  28:Generated_Source\PSoC6/Status_Button3.c **** *  Reads the current value assigned to the Status Register.
-  29:Generated_Source\PSoC6/Status_Button3.c **** *
-  30:Generated_Source\PSoC6/Status_Button3.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 2
+  27              		.file 1 "Generated_Source\\PSoC6\\Status_Button1.c"
+   1:Generated_Source\PSoC6/Status_Button1.c **** /*******************************************************************************
+   2:Generated_Source\PSoC6/Status_Button1.c **** * File Name: Status_Button1.c  
+   3:Generated_Source\PSoC6/Status_Button1.c **** * Version 1.90
+   4:Generated_Source\PSoC6/Status_Button1.c **** *
+   5:Generated_Source\PSoC6/Status_Button1.c **** * Description:
+   6:Generated_Source\PSoC6/Status_Button1.c **** *  This file contains API to enable firmware to read the value of a Status 
+   7:Generated_Source\PSoC6/Status_Button1.c **** *  Register.
+   8:Generated_Source\PSoC6/Status_Button1.c **** *
+   9:Generated_Source\PSoC6/Status_Button1.c **** * Note:
+  10:Generated_Source\PSoC6/Status_Button1.c **** *
+  11:Generated_Source\PSoC6/Status_Button1.c **** ********************************************************************************
+  12:Generated_Source\PSoC6/Status_Button1.c **** * Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
+  13:Generated_Source\PSoC6/Status_Button1.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  14:Generated_Source\PSoC6/Status_Button1.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  15:Generated_Source\PSoC6/Status_Button1.c **** * the software package with which this file was provided.
+  16:Generated_Source\PSoC6/Status_Button1.c **** *******************************************************************************/
+  17:Generated_Source\PSoC6/Status_Button1.c **** 
+  18:Generated_Source\PSoC6/Status_Button1.c **** #include "Status_Button1.h"
+  19:Generated_Source\PSoC6/Status_Button1.c **** 
+  20:Generated_Source\PSoC6/Status_Button1.c **** #if !defined(Status_Button1_sts_sts_reg__REMOVED) /* Check for removal by optimization */
+  21:Generated_Source\PSoC6/Status_Button1.c **** 
+  22:Generated_Source\PSoC6/Status_Button1.c **** 
+  23:Generated_Source\PSoC6/Status_Button1.c **** /*******************************************************************************
+  24:Generated_Source\PSoC6/Status_Button1.c **** * Function Name: Status_Button1_Read
+  25:Generated_Source\PSoC6/Status_Button1.c **** ********************************************************************************
+  26:Generated_Source\PSoC6/Status_Button1.c **** *
+  27:Generated_Source\PSoC6/Status_Button1.c **** * Summary:
+  28:Generated_Source\PSoC6/Status_Button1.c **** *  Reads the current value assigned to the Status Register.
+  29:Generated_Source\PSoC6/Status_Button1.c **** *
+  30:Generated_Source\PSoC6/Status_Button1.c **** * Parameters:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 2
 
 
-  31:Generated_Source\PSoC6/Status_Button3.c **** *  None.
-  32:Generated_Source\PSoC6/Status_Button3.c **** *
-  33:Generated_Source\PSoC6/Status_Button3.c **** * Return:
-  34:Generated_Source\PSoC6/Status_Button3.c **** *  The current value in the Status Register.
-  35:Generated_Source\PSoC6/Status_Button3.c **** *
-  36:Generated_Source\PSoC6/Status_Button3.c **** *******************************************************************************/
-  37:Generated_Source\PSoC6/Status_Button3.c **** uint8 Status_Button3_Read(void) 
-  38:Generated_Source\PSoC6/Status_Button3.c **** { 
+  31:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+  32:Generated_Source\PSoC6/Status_Button1.c **** *
+  33:Generated_Source\PSoC6/Status_Button1.c **** * Return:
+  34:Generated_Source\PSoC6/Status_Button1.c **** *  The current value in the Status Register.
+  35:Generated_Source\PSoC6/Status_Button1.c **** *
+  36:Generated_Source\PSoC6/Status_Button1.c **** *******************************************************************************/
+  37:Generated_Source\PSoC6/Status_Button1.c **** uint8 Status_Button1_Read(void) 
+  38:Generated_Source\PSoC6/Status_Button1.c **** { 
   28              		.loc 1 38 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
   31              		@ frame_needed = 0, uses_anonymous_args = 0
   32              		@ link register save eliminated.
-  39:Generated_Source\PSoC6/Status_Button3.c ****     return Status_Button3_Status;
+  39:Generated_Source\PSoC6/Status_Button1.c ****     return Status_Button1_Status;
   33              		.loc 1 39 0
   34 0000 014B     		ldr	r3, .L2
   35 0002 1878     		ldrb	r0, [r3]
   36 0004 C0B2     		uxtb	r0, r0
-  40:Generated_Source\PSoC6/Status_Button3.c **** }
+  40:Generated_Source\PSoC6/Status_Button1.c **** }
   37              		.loc 1 40 0
   38              		@ sp needed
   39 0006 7047     		bx	lr
   40              	.L3:
   41              		.align	2
   42              	.L2:
-  43 0008 20163440 		.word	1077155360
+  43 0008 2C163440 		.word	1077155372
   44              		.cfi_endproc
   45              	.LFE36:
-  46              		.size	Status_Button3_Read, .-Status_Button3_Read
-  47              		.section	.text.Status_Button3_InterruptEnable,"ax",%progbits
+  46              		.size	Status_Button1_Read, .-Status_Button1_Read
+  47              		.section	.text.Status_Button1_InterruptEnable,"ax",%progbits
   48              		.align	2
-  49              		.global	Status_Button3_InterruptEnable
+  49              		.global	Status_Button1_InterruptEnable
   50              		.code	16
   51              		.thumb_func
-  52              		.type	Status_Button3_InterruptEnable, %function
-  53              	Status_Button3_InterruptEnable:
+  52              		.type	Status_Button1_InterruptEnable, %function
+  53              	Status_Button1_InterruptEnable:
   54              	.LFB37:
-  41:Generated_Source\PSoC6/Status_Button3.c **** 
-  42:Generated_Source\PSoC6/Status_Button3.c **** 
-  43:Generated_Source\PSoC6/Status_Button3.c **** /*******************************************************************************
-  44:Generated_Source\PSoC6/Status_Button3.c **** * Function Name: Status_Button3_InterruptEnable
-  45:Generated_Source\PSoC6/Status_Button3.c **** ********************************************************************************
-  46:Generated_Source\PSoC6/Status_Button3.c **** *
-  47:Generated_Source\PSoC6/Status_Button3.c **** * Summary:
-  48:Generated_Source\PSoC6/Status_Button3.c **** *  Enables the Status Register interrupt.
-  49:Generated_Source\PSoC6/Status_Button3.c **** *
-  50:Generated_Source\PSoC6/Status_Button3.c **** * Parameters:
-  51:Generated_Source\PSoC6/Status_Button3.c **** *  None.
-  52:Generated_Source\PSoC6/Status_Button3.c **** *
-  53:Generated_Source\PSoC6/Status_Button3.c **** * Return:
-  54:Generated_Source\PSoC6/Status_Button3.c **** *  None.
-  55:Generated_Source\PSoC6/Status_Button3.c **** *
-  56:Generated_Source\PSoC6/Status_Button3.c **** *******************************************************************************/
-  57:Generated_Source\PSoC6/Status_Button3.c **** void Status_Button3_InterruptEnable(void) 
-  58:Generated_Source\PSoC6/Status_Button3.c **** {
+  41:Generated_Source\PSoC6/Status_Button1.c **** 
+  42:Generated_Source\PSoC6/Status_Button1.c **** 
+  43:Generated_Source\PSoC6/Status_Button1.c **** /*******************************************************************************
+  44:Generated_Source\PSoC6/Status_Button1.c **** * Function Name: Status_Button1_InterruptEnable
+  45:Generated_Source\PSoC6/Status_Button1.c **** ********************************************************************************
+  46:Generated_Source\PSoC6/Status_Button1.c **** *
+  47:Generated_Source\PSoC6/Status_Button1.c **** * Summary:
+  48:Generated_Source\PSoC6/Status_Button1.c **** *  Enables the Status Register interrupt.
+  49:Generated_Source\PSoC6/Status_Button1.c **** *
+  50:Generated_Source\PSoC6/Status_Button1.c **** * Parameters:
+  51:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+  52:Generated_Source\PSoC6/Status_Button1.c **** *
+  53:Generated_Source\PSoC6/Status_Button1.c **** * Return:
+  54:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+  55:Generated_Source\PSoC6/Status_Button1.c **** *
+  56:Generated_Source\PSoC6/Status_Button1.c **** *******************************************************************************/
+  57:Generated_Source\PSoC6/Status_Button1.c **** void Status_Button1_InterruptEnable(void) 
+  58:Generated_Source\PSoC6/Status_Button1.c **** {
   55              		.loc 1 58 0
   56              		.cfi_startproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 3
 
 
   57              		@ args = 0, pretend = 0, frame = 0
@@ -127,12 +127,12 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
   60              		.cfi_def_cfa_offset 8
   61              		.cfi_offset 4, -8
   62              		.cfi_offset 14, -4
-  59:Generated_Source\PSoC6/Status_Button3.c ****     uint8 interruptState;
-  60:Generated_Source\PSoC6/Status_Button3.c ****     interruptState = CyEnterCriticalSection();
+  59:Generated_Source\PSoC6/Status_Button1.c ****     uint8 interruptState;
+  60:Generated_Source\PSoC6/Status_Button1.c ****     interruptState = CyEnterCriticalSection();
   63              		.loc 1 60 0
   64 0002 FFF7FEFF 		bl	Cy_SysLib_EnterCriticalSection
   65              	.LVL0:
-  61:Generated_Source\PSoC6/Status_Button3.c ****     Status_Button3_Status_Aux_Ctrl |= Status_Button3_STATUS_INTR_ENBL;
+  61:Generated_Source\PSoC6/Status_Button1.c ****     Status_Button1_Status_Aux_Ctrl |= Status_Button1_STATUS_INTR_ENBL;
   66              		.loc 1 61 0
   67 0006 054A     		ldr	r2, .L5
   68 0008 1178     		ldrb	r1, [r2]
@@ -140,53 +140,53 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
   70 000c 0B43     		orrs	r3, r1
   71 000e DBB2     		uxtb	r3, r3
   72 0010 1370     		strb	r3, [r2]
-  62:Generated_Source\PSoC6/Status_Button3.c ****     CyExitCriticalSection(interruptState);
+  62:Generated_Source\PSoC6/Status_Button1.c ****     CyExitCriticalSection(interruptState);
   73              		.loc 1 62 0
   74 0012 FF23     		movs	r3, #255
   75 0014 1840     		ands	r0, r3
   76              	.LVL1:
   77 0016 FFF7FEFF 		bl	Cy_SysLib_ExitCriticalSection
   78              	.LVL2:
-  63:Generated_Source\PSoC6/Status_Button3.c **** }
+  63:Generated_Source\PSoC6/Status_Button1.c **** }
   79              		.loc 1 63 0
   80              		@ sp needed
   81 001a 10BD     		pop	{r4, pc}
   82              	.L6:
   83              		.align	2
   84              	.L5:
-  85 001c 20193440 		.word	1077156128
+  85 001c 2C193440 		.word	1077156140
   86              		.cfi_endproc
   87              	.LFE37:
-  88              		.size	Status_Button3_InterruptEnable, .-Status_Button3_InterruptEnable
-  89              		.section	.text.Status_Button3_InterruptDisable,"ax",%progbits
+  88              		.size	Status_Button1_InterruptEnable, .-Status_Button1_InterruptEnable
+  89              		.section	.text.Status_Button1_InterruptDisable,"ax",%progbits
   90              		.align	2
-  91              		.global	Status_Button3_InterruptDisable
+  91              		.global	Status_Button1_InterruptDisable
   92              		.code	16
   93              		.thumb_func
-  94              		.type	Status_Button3_InterruptDisable, %function
-  95              	Status_Button3_InterruptDisable:
+  94              		.type	Status_Button1_InterruptDisable, %function
+  95              	Status_Button1_InterruptDisable:
   96              	.LFB38:
-  64:Generated_Source\PSoC6/Status_Button3.c **** 
-  65:Generated_Source\PSoC6/Status_Button3.c **** 
-  66:Generated_Source\PSoC6/Status_Button3.c **** /*******************************************************************************
-  67:Generated_Source\PSoC6/Status_Button3.c **** * Function Name: Status_Button3_InterruptDisable
-  68:Generated_Source\PSoC6/Status_Button3.c **** ********************************************************************************
-  69:Generated_Source\PSoC6/Status_Button3.c **** *
-  70:Generated_Source\PSoC6/Status_Button3.c **** * Summary:
-  71:Generated_Source\PSoC6/Status_Button3.c **** *  Disables the Status Register interrupt.
-  72:Generated_Source\PSoC6/Status_Button3.c **** *
-  73:Generated_Source\PSoC6/Status_Button3.c **** * Parameters:
-  74:Generated_Source\PSoC6/Status_Button3.c **** *  None.
-  75:Generated_Source\PSoC6/Status_Button3.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 4
+  64:Generated_Source\PSoC6/Status_Button1.c **** 
+  65:Generated_Source\PSoC6/Status_Button1.c **** 
+  66:Generated_Source\PSoC6/Status_Button1.c **** /*******************************************************************************
+  67:Generated_Source\PSoC6/Status_Button1.c **** * Function Name: Status_Button1_InterruptDisable
+  68:Generated_Source\PSoC6/Status_Button1.c **** ********************************************************************************
+  69:Generated_Source\PSoC6/Status_Button1.c **** *
+  70:Generated_Source\PSoC6/Status_Button1.c **** * Summary:
+  71:Generated_Source\PSoC6/Status_Button1.c **** *  Disables the Status Register interrupt.
+  72:Generated_Source\PSoC6/Status_Button1.c **** *
+  73:Generated_Source\PSoC6/Status_Button1.c **** * Parameters:
+  74:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+  75:Generated_Source\PSoC6/Status_Button1.c **** *
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 4
 
 
-  76:Generated_Source\PSoC6/Status_Button3.c **** * Return:
-  77:Generated_Source\PSoC6/Status_Button3.c **** *  None.
-  78:Generated_Source\PSoC6/Status_Button3.c **** *
-  79:Generated_Source\PSoC6/Status_Button3.c **** *******************************************************************************/
-  80:Generated_Source\PSoC6/Status_Button3.c **** void Status_Button3_InterruptDisable(void) 
-  81:Generated_Source\PSoC6/Status_Button3.c **** {
+  76:Generated_Source\PSoC6/Status_Button1.c **** * Return:
+  77:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+  78:Generated_Source\PSoC6/Status_Button1.c **** *
+  79:Generated_Source\PSoC6/Status_Button1.c **** *******************************************************************************/
+  80:Generated_Source\PSoC6/Status_Button1.c **** void Status_Button1_InterruptDisable(void) 
+  81:Generated_Source\PSoC6/Status_Button1.c **** {
   97              		.loc 1 81 0
   98              		.cfi_startproc
   99              		@ args = 0, pretend = 0, frame = 0
@@ -195,143 +195,143 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  102              		.cfi_def_cfa_offset 8
  103              		.cfi_offset 4, -8
  104              		.cfi_offset 14, -4
-  82:Generated_Source\PSoC6/Status_Button3.c ****     uint8 interruptState;
-  83:Generated_Source\PSoC6/Status_Button3.c ****     interruptState = CyEnterCriticalSection();
+  82:Generated_Source\PSoC6/Status_Button1.c ****     uint8 interruptState;
+  83:Generated_Source\PSoC6/Status_Button1.c ****     interruptState = CyEnterCriticalSection();
  105              		.loc 1 83 0
  106 0002 FFF7FEFF 		bl	Cy_SysLib_EnterCriticalSection
  107              	.LVL3:
-  84:Generated_Source\PSoC6/Status_Button3.c ****     Status_Button3_Status_Aux_Ctrl &= (uint8)(~Status_Button3_STATUS_INTR_ENBL);
+  84:Generated_Source\PSoC6/Status_Button1.c ****     Status_Button1_Status_Aux_Ctrl &= (uint8)(~Status_Button1_STATUS_INTR_ENBL);
  108              		.loc 1 84 0
  109 0006 054A     		ldr	r2, .L8
  110 0008 1378     		ldrb	r3, [r2]
  111 000a 1021     		movs	r1, #16
  112 000c 8B43     		bics	r3, r1
  113 000e 1370     		strb	r3, [r2]
-  85:Generated_Source\PSoC6/Status_Button3.c ****     CyExitCriticalSection(interruptState);
+  85:Generated_Source\PSoC6/Status_Button1.c ****     CyExitCriticalSection(interruptState);
  114              		.loc 1 85 0
  115 0010 FF23     		movs	r3, #255
  116 0012 1840     		ands	r0, r3
  117              	.LVL4:
  118 0014 FFF7FEFF 		bl	Cy_SysLib_ExitCriticalSection
  119              	.LVL5:
-  86:Generated_Source\PSoC6/Status_Button3.c **** }
+  86:Generated_Source\PSoC6/Status_Button1.c **** }
  120              		.loc 1 86 0
  121              		@ sp needed
  122 0018 10BD     		pop	{r4, pc}
  123              	.L9:
  124 001a C046     		.align	2
  125              	.L8:
- 126 001c 20193440 		.word	1077156128
+ 126 001c 2C193440 		.word	1077156140
  127              		.cfi_endproc
  128              	.LFE38:
- 129              		.size	Status_Button3_InterruptDisable, .-Status_Button3_InterruptDisable
- 130              		.section	.text.Status_Button3_WriteMask,"ax",%progbits
+ 129              		.size	Status_Button1_InterruptDisable, .-Status_Button1_InterruptDisable
+ 130              		.section	.text.Status_Button1_WriteMask,"ax",%progbits
  131              		.align	2
- 132              		.global	Status_Button3_WriteMask
+ 132              		.global	Status_Button1_WriteMask
  133              		.code	16
  134              		.thumb_func
- 135              		.type	Status_Button3_WriteMask, %function
- 136              	Status_Button3_WriteMask:
+ 135              		.type	Status_Button1_WriteMask, %function
+ 136              	Status_Button1_WriteMask:
  137              	.LFB39:
-  87:Generated_Source\PSoC6/Status_Button3.c **** 
-  88:Generated_Source\PSoC6/Status_Button3.c **** 
-  89:Generated_Source\PSoC6/Status_Button3.c **** /*******************************************************************************
-  90:Generated_Source\PSoC6/Status_Button3.c **** * Function Name: Status_Button3_WriteMask
-  91:Generated_Source\PSoC6/Status_Button3.c **** ********************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 5
+  87:Generated_Source\PSoC6/Status_Button1.c **** 
+  88:Generated_Source\PSoC6/Status_Button1.c **** 
+  89:Generated_Source\PSoC6/Status_Button1.c **** /*******************************************************************************
+  90:Generated_Source\PSoC6/Status_Button1.c **** * Function Name: Status_Button1_WriteMask
+  91:Generated_Source\PSoC6/Status_Button1.c **** ********************************************************************************
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 5
 
 
-  92:Generated_Source\PSoC6/Status_Button3.c **** *
-  93:Generated_Source\PSoC6/Status_Button3.c **** * Summary:
-  94:Generated_Source\PSoC6/Status_Button3.c **** *  Writes the current mask value assigned to the Status Register.
-  95:Generated_Source\PSoC6/Status_Button3.c **** *
-  96:Generated_Source\PSoC6/Status_Button3.c **** * Parameters:
-  97:Generated_Source\PSoC6/Status_Button3.c **** *  mask:  Value to write into the mask register.
-  98:Generated_Source\PSoC6/Status_Button3.c **** *
-  99:Generated_Source\PSoC6/Status_Button3.c **** * Return:
- 100:Generated_Source\PSoC6/Status_Button3.c **** *  None.
- 101:Generated_Source\PSoC6/Status_Button3.c **** *
- 102:Generated_Source\PSoC6/Status_Button3.c **** *******************************************************************************/
- 103:Generated_Source\PSoC6/Status_Button3.c **** void Status_Button3_WriteMask(uint8 mask) 
- 104:Generated_Source\PSoC6/Status_Button3.c **** {
+  92:Generated_Source\PSoC6/Status_Button1.c **** *
+  93:Generated_Source\PSoC6/Status_Button1.c **** * Summary:
+  94:Generated_Source\PSoC6/Status_Button1.c **** *  Writes the current mask value assigned to the Status Register.
+  95:Generated_Source\PSoC6/Status_Button1.c **** *
+  96:Generated_Source\PSoC6/Status_Button1.c **** * Parameters:
+  97:Generated_Source\PSoC6/Status_Button1.c **** *  mask:  Value to write into the mask register.
+  98:Generated_Source\PSoC6/Status_Button1.c **** *
+  99:Generated_Source\PSoC6/Status_Button1.c **** * Return:
+ 100:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+ 101:Generated_Source\PSoC6/Status_Button1.c **** *
+ 102:Generated_Source\PSoC6/Status_Button1.c **** *******************************************************************************/
+ 103:Generated_Source\PSoC6/Status_Button1.c **** void Status_Button1_WriteMask(uint8 mask) 
+ 104:Generated_Source\PSoC6/Status_Button1.c **** {
  138              		.loc 1 104 0
  139              		.cfi_startproc
  140              		@ args = 0, pretend = 0, frame = 0
  141              		@ frame_needed = 0, uses_anonymous_args = 0
  142              		@ link register save eliminated.
  143              	.LVL6:
- 105:Generated_Source\PSoC6/Status_Button3.c ****     #if(Status_Button3_INPUTS < 8u)
- 106:Generated_Source\PSoC6/Status_Button3.c ****     	mask &= ((uint8)(1u << Status_Button3_INPUTS) - 1u);
+ 105:Generated_Source\PSoC6/Status_Button1.c ****     #if(Status_Button1_INPUTS < 8u)
+ 106:Generated_Source\PSoC6/Status_Button1.c ****     	mask &= ((uint8)(1u << Status_Button1_INPUTS) - 1u);
  144              		.loc 1 106 0
  145 0000 0123     		movs	r3, #1
  146 0002 1840     		ands	r0, r3
  147              	.LVL7:
- 107:Generated_Source\PSoC6/Status_Button3.c **** 	#endif /* End Status_Button3_INPUTS < 8u */
- 108:Generated_Source\PSoC6/Status_Button3.c ****     Status_Button3_Status_Mask = mask;
+ 107:Generated_Source\PSoC6/Status_Button1.c **** 	#endif /* End Status_Button1_INPUTS < 8u */
+ 108:Generated_Source\PSoC6/Status_Button1.c ****     Status_Button1_Status_Mask = mask;
  148              		.loc 1 108 0
  149 0004 014B     		ldr	r3, .L11
  150 0006 1870     		strb	r0, [r3]
- 109:Generated_Source\PSoC6/Status_Button3.c **** }
+ 109:Generated_Source\PSoC6/Status_Button1.c **** }
  151              		.loc 1 109 0
  152              		@ sp needed
  153 0008 7047     		bx	lr
  154              	.L12:
  155 000a C046     		.align	2
  156              	.L11:
- 157 000c 20183440 		.word	1077155872
+ 157 000c 2C183440 		.word	1077155884
  158              		.cfi_endproc
  159              	.LFE39:
- 160              		.size	Status_Button3_WriteMask, .-Status_Button3_WriteMask
- 161              		.section	.text.Status_Button3_ReadMask,"ax",%progbits
+ 160              		.size	Status_Button1_WriteMask, .-Status_Button1_WriteMask
+ 161              		.section	.text.Status_Button1_ReadMask,"ax",%progbits
  162              		.align	2
- 163              		.global	Status_Button3_ReadMask
+ 163              		.global	Status_Button1_ReadMask
  164              		.code	16
  165              		.thumb_func
- 166              		.type	Status_Button3_ReadMask, %function
- 167              	Status_Button3_ReadMask:
+ 166              		.type	Status_Button1_ReadMask, %function
+ 167              	Status_Button1_ReadMask:
  168              	.LFB40:
- 110:Generated_Source\PSoC6/Status_Button3.c **** 
- 111:Generated_Source\PSoC6/Status_Button3.c **** 
- 112:Generated_Source\PSoC6/Status_Button3.c **** /*******************************************************************************
- 113:Generated_Source\PSoC6/Status_Button3.c **** * Function Name: Status_Button3_ReadMask
- 114:Generated_Source\PSoC6/Status_Button3.c **** ********************************************************************************
- 115:Generated_Source\PSoC6/Status_Button3.c **** *
- 116:Generated_Source\PSoC6/Status_Button3.c **** * Summary:
- 117:Generated_Source\PSoC6/Status_Button3.c **** *  Reads the current interrupt mask assigned to the Status Register.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 6
+ 110:Generated_Source\PSoC6/Status_Button1.c **** 
+ 111:Generated_Source\PSoC6/Status_Button1.c **** 
+ 112:Generated_Source\PSoC6/Status_Button1.c **** /*******************************************************************************
+ 113:Generated_Source\PSoC6/Status_Button1.c **** * Function Name: Status_Button1_ReadMask
+ 114:Generated_Source\PSoC6/Status_Button1.c **** ********************************************************************************
+ 115:Generated_Source\PSoC6/Status_Button1.c **** *
+ 116:Generated_Source\PSoC6/Status_Button1.c **** * Summary:
+ 117:Generated_Source\PSoC6/Status_Button1.c **** *  Reads the current interrupt mask assigned to the Status Register.
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 6
 
 
- 118:Generated_Source\PSoC6/Status_Button3.c **** *
- 119:Generated_Source\PSoC6/Status_Button3.c **** * Parameters:
- 120:Generated_Source\PSoC6/Status_Button3.c **** *  None.
- 121:Generated_Source\PSoC6/Status_Button3.c **** *
- 122:Generated_Source\PSoC6/Status_Button3.c **** * Return:
- 123:Generated_Source\PSoC6/Status_Button3.c **** *  The value of the interrupt mask of the Status Register.
- 124:Generated_Source\PSoC6/Status_Button3.c **** *
- 125:Generated_Source\PSoC6/Status_Button3.c **** *******************************************************************************/
- 126:Generated_Source\PSoC6/Status_Button3.c **** uint8 Status_Button3_ReadMask(void) 
- 127:Generated_Source\PSoC6/Status_Button3.c **** {
+ 118:Generated_Source\PSoC6/Status_Button1.c **** *
+ 119:Generated_Source\PSoC6/Status_Button1.c **** * Parameters:
+ 120:Generated_Source\PSoC6/Status_Button1.c **** *  None.
+ 121:Generated_Source\PSoC6/Status_Button1.c **** *
+ 122:Generated_Source\PSoC6/Status_Button1.c **** * Return:
+ 123:Generated_Source\PSoC6/Status_Button1.c **** *  The value of the interrupt mask of the Status Register.
+ 124:Generated_Source\PSoC6/Status_Button1.c **** *
+ 125:Generated_Source\PSoC6/Status_Button1.c **** *******************************************************************************/
+ 126:Generated_Source\PSoC6/Status_Button1.c **** uint8 Status_Button1_ReadMask(void) 
+ 127:Generated_Source\PSoC6/Status_Button1.c **** {
  169              		.loc 1 127 0
  170              		.cfi_startproc
  171              		@ args = 0, pretend = 0, frame = 0
  172              		@ frame_needed = 0, uses_anonymous_args = 0
  173              		@ link register save eliminated.
- 128:Generated_Source\PSoC6/Status_Button3.c ****     return Status_Button3_Status_Mask;
+ 128:Generated_Source\PSoC6/Status_Button1.c ****     return Status_Button1_Status_Mask;
  174              		.loc 1 128 0
  175 0000 014B     		ldr	r3, .L14
  176 0002 1878     		ldrb	r0, [r3]
  177 0004 C0B2     		uxtb	r0, r0
- 129:Generated_Source\PSoC6/Status_Button3.c **** }
+ 129:Generated_Source\PSoC6/Status_Button1.c **** }
  178              		.loc 1 129 0
  179              		@ sp needed
  180 0006 7047     		bx	lr
  181              	.L15:
  182              		.align	2
  183              	.L14:
- 184 0008 20183440 		.word	1077155872
+ 184 0008 2C183440 		.word	1077155884
  185              		.cfi_endproc
  186              	.LFE40:
- 187              		.size	Status_Button3_ReadMask, .-Status_Button3_ReadMask
+ 187              		.size	Status_Button1_ReadMask, .-Status_Button1_ReadMask
  188              		.text
  189              	.Letext0:
  190              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
@@ -344,28 +344,28 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  197 0006 00000000 		.4byte	.Ldebug_abbrev0
  198 000a 04       		.byte	0x4
  199 000b 01       		.uleb128 0x1
- 200 000c 2C020000 		.4byte	.LASF27
+ 200 000c 04020000 		.4byte	.LASF27
  201 0010 0C       		.byte	0xc
- 202 0011 BB000000 		.4byte	.LASF28
- 203 0015 F5000000 		.4byte	.LASF29
+ 202 0011 A2020000 		.4byte	.LASF28
+ 203 0015 B9000000 		.4byte	.LASF29
  204 0019 00000000 		.4byte	.Ldebug_ranges0+0
  205 001d 00000000 		.4byte	0
  206 0021 00000000 		.4byte	.Ldebug_line0
  207 0025 02       		.uleb128 0x2
  208 0026 02       		.byte	0x2
  209 0027 05       		.byte	0x5
- 210 0028 59000000 		.4byte	.LASF0
+ 210 0028 C3010000 		.4byte	.LASF0
  211 002c 02       		.uleb128 0x2
  212 002d 01       		.byte	0x1
  213 002e 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 7
 
 
- 214 002f 81000000 		.4byte	.LASF1
+ 214 002f 41000000 		.4byte	.LASF1
  215 0033 02       		.uleb128 0x2
  216 0034 01       		.byte	0x1
  217 0035 06       		.byte	0x6
- 218 0036 BE020000 		.4byte	.LASF2
+ 218 0036 96020000 		.4byte	.LASF2
  219 003a 03       		.uleb128 0x3
  220 003b 00000000 		.4byte	.LASF5
  221 003f 02       		.byte	0x2
@@ -374,28 +374,28 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  224 0045 02       		.uleb128 0x2
  225 0046 02       		.byte	0x2
  226 0047 07       		.byte	0x7
- 227 0048 46000000 		.4byte	.LASF3
+ 227 0048 28000000 		.4byte	.LASF3
  228 004c 02       		.uleb128 0x2
  229 004d 04       		.byte	0x4
  230 004e 05       		.byte	0x5
- 231 004f 3D000000 		.4byte	.LASF4
+ 231 004f F6010000 		.4byte	.LASF4
  232 0053 03       		.uleb128 0x3
- 233 0054 EA000000 		.4byte	.LASF6
+ 233 0054 96000000 		.4byte	.LASF6
  234 0058 02       		.byte	0x2
  235 0059 41       		.byte	0x41
  236 005a 5E000000 		.4byte	0x5e
  237 005e 02       		.uleb128 0x2
  238 005f 04       		.byte	0x4
  239 0060 07       		.byte	0x7
- 240 0061 A3000000 		.4byte	.LASF7
+ 240 0061 63000000 		.4byte	.LASF7
  241 0065 02       		.uleb128 0x2
  242 0066 08       		.byte	0x8
  243 0067 05       		.byte	0x5
- 244 0068 D4010000 		.4byte	.LASF8
+ 244 0068 91010000 		.4byte	.LASF8
  245 006c 02       		.uleb128 0x2
  246 006d 08       		.byte	0x8
  247 006e 07       		.byte	0x7
- 248 006f AC010000 		.4byte	.LASF9
+ 248 006f 69010000 		.4byte	.LASF9
  249 0073 04       		.uleb128 0x4
  250 0074 04       		.byte	0x4
  251 0075 05       		.byte	0x5
@@ -403,22 +403,22 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  253 007a 02       		.uleb128 0x2
  254 007b 04       		.byte	0x4
  255 007c 07       		.byte	0x7
- 256 007d 9F010000 		.4byte	.LASF10
+ 256 007d 5C010000 		.4byte	.LASF10
  257 0081 03       		.uleb128 0x3
- 258 0082 C3010000 		.4byte	.LASF11
+ 258 0082 80010000 		.4byte	.LASF11
  259 0086 03       		.byte	0x3
  260 0087 18       		.byte	0x18
  261 0088 3A000000 		.4byte	0x3a
  262 008c 03       		.uleb128 0x3
- 263 008d 05020000 		.4byte	.LASF12
+ 263 008d ED010000 		.4byte	.LASF12
  264 0091 03       		.byte	0x3
  265 0092 30       		.byte	0x30
  266 0093 53000000 		.4byte	0x53
  267 0097 02       		.uleb128 0x2
  268 0098 04       		.byte	0x4
  269 0099 07       		.byte	0x7
- 270 009a CB010000 		.4byte	.LASF13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 8
+ 270 009a 88010000 		.4byte	.LASF13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 8
 
 
  271 009e 05       		.uleb128 0x5
@@ -426,27 +426,27 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  273 00a3 02       		.uleb128 0x2
  274 00a4 01       		.byte	0x1
  275 00a5 08       		.byte	0x8
- 276 00a6 27020000 		.4byte	.LASF14
+ 276 00a6 FF010000 		.4byte	.LASF14
  277 00aa 02       		.uleb128 0x2
  278 00ab 04       		.byte	0x4
  279 00ac 04       		.byte	0x4
- 280 00ad 7B000000 		.4byte	.LASF15
+ 280 00ad 3B000000 		.4byte	.LASF15
  281 00b1 02       		.uleb128 0x2
  282 00b2 08       		.byte	0x8
  283 00b3 04       		.byte	0x4
- 284 00b4 E3000000 		.4byte	.LASF16
+ 284 00b4 8F000000 		.4byte	.LASF16
  285 00b8 06       		.uleb128 0x6
- 286 00b9 B5000000 		.4byte	.LASF17
+ 286 00b9 75000000 		.4byte	.LASF17
  287 00bd 04       		.byte	0x4
  288 00be 8503     		.2byte	0x385
  289 00c0 81000000 		.4byte	0x81
  290 00c4 06       		.uleb128 0x6
- 291 00c5 8F000000 		.4byte	.LASF18
+ 291 00c5 4F000000 		.4byte	.LASF18
  292 00c9 04       		.byte	0x4
  293 00ca 9103     		.2byte	0x391
  294 00cc 9E000000 		.4byte	0x9e
  295 00d0 07       		.uleb128 0x7
- 296 00d1 0A000000 		.4byte	.LASF23
+ 296 00d1 7B000000 		.4byte	.LASF23
  297 00d5 01       		.byte	0x1
  298 00d6 25       		.byte	0x25
  299 00d7 B8000000 		.4byte	0xb8
@@ -455,7 +455,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  302 00e3 01       		.uleb128 0x1
  303 00e4 9C       		.byte	0x9c
  304 00e5 08       		.uleb128 0x8
- 305 00e6 1E000000 		.4byte	.LASF19
+ 305 00e6 A4010000 		.4byte	.LASF19
  306 00ea 01       		.byte	0x1
  307 00eb 39       		.byte	0x39
  308 00ec 00000000 		.4byte	.LFB37
@@ -464,7 +464,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  311 00f5 9C       		.byte	0x9c
  312 00f6 1C010000 		.4byte	0x11c
  313 00fa 09       		.uleb128 0x9
- 314 00fb 94000000 		.4byte	.LASF21
+ 314 00fb 54000000 		.4byte	.LASF21
  315 00ff 01       		.byte	0x1
  316 0100 3B       		.byte	0x3b
  317 0101 B8000000 		.4byte	0xb8
@@ -477,8 +477,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  324 0117 99010000 		.4byte	0x199
  325 011b 00       		.byte	0
  326 011c 08       		.uleb128 0x8
- 327 011d 7F010000 		.4byte	.LASF20
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 9
+ 327 011d CD010000 		.4byte	.LASF20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 9
 
 
  328 0121 01       		.byte	0x1
@@ -489,7 +489,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  333 012c 9C       		.byte	0x9c
  334 012d 53010000 		.4byte	0x153
  335 0131 09       		.uleb128 0x9
- 336 0132 94000000 		.4byte	.LASF21
+ 336 0132 54000000 		.4byte	.LASF21
  337 0136 01       		.byte	0x1
  338 0137 52       		.byte	0x52
  339 0138 B8000000 		.4byte	0xb8
@@ -502,7 +502,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  346 014e 99010000 		.4byte	0x199
  347 0152 00       		.byte	0
  348 0153 08       		.uleb128 0x8
- 349 0154 0E020000 		.4byte	.LASF22
+ 349 0154 24010000 		.4byte	.LASF22
  350 0158 01       		.byte	0x1
  351 0159 67       		.byte	0x67
  352 015a 00000000 		.4byte	.LFB39
@@ -511,14 +511,14 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  355 0163 9C       		.byte	0x9c
  356 0164 78010000 		.4byte	0x178
  357 0168 0B       		.uleb128 0xb
- 358 0169 E2010000 		.4byte	.LASF30
+ 358 0169 9F010000 		.4byte	.LASF30
  359 016d 01       		.byte	0x1
  360 016e 67       		.byte	0x67
  361 016f B8000000 		.4byte	0xb8
  362 0173 26000000 		.4byte	.LLST2
  363 0177 00       		.byte	0
  364 0178 07       		.uleb128 0x7
- 365 0179 63000000 		.4byte	.LASF24
+ 365 0179 A1000000 		.4byte	.LASF24
  366 017d 01       		.byte	0x1
  367 017e 7E       		.byte	0x7e
  368 017f B8000000 		.4byte	0xb8
@@ -527,18 +527,18 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  371 018b 01       		.uleb128 0x1
  372 018c 9C       		.byte	0x9c
  373 018d 0C       		.uleb128 0xc
- 374 018e 60010000 		.4byte	.LASF25
- 375 0192 60010000 		.4byte	.LASF25
+ 374 018e 3D010000 		.4byte	.LASF25
+ 375 0192 3D010000 		.4byte	.LASF25
  376 0196 04       		.byte	0x4
  377 0197 4D03     		.2byte	0x34d
  378 0199 0C       		.uleb128 0xc
- 379 019a E7010000 		.4byte	.LASF26
- 380 019e E7010000 		.4byte	.LASF26
+ 379 019a 0A000000 		.4byte	.LASF26
+ 380 019e 0A000000 		.4byte	.LASF26
  381 01a2 04       		.byte	0x4
  382 01a3 5C03     		.2byte	0x35c
  383 01a5 00       		.byte	0
  384              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 10
 
 
  385              	.Ldebug_abbrev0:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  439 0035 00       		.byte	0
  440 0036 05       		.uleb128 0x5
  441 0037 35       		.uleb128 0x35
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 11
 
 
  442 0038 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  496 006f 27       		.uleb128 0x27
  497 0070 19       		.uleb128 0x19
  498 0071 11       		.uleb128 0x11
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 12
 
 
  499 0072 01       		.uleb128 0x1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  553 00ab 19       		.uleb128 0x19
  554 00ac 3C       		.uleb128 0x3c
  555 00ad 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 13
 
 
  556 00ae 6E       		.uleb128 0x6e
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  610 0030 00000000 		.4byte	.LFB40
  611 0034 0C000000 		.4byte	.LFE40-.LFB40
  612 0038 00000000 		.4byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 14
 
 
  613 003c 00000000 		.4byte	0
@@ -807,174 +807,174 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 1
  632 0000 5F5F7569 		.ascii	"__uint8_t\000"
  632      6E74385F 
  632      7400
- 633              	.LASF23:
- 634 000a 53746174 		.ascii	"Status_Button3_Read\000"
- 634      75735F42 
- 634      7574746F 
- 634      6E335F52 
- 634      65616400 
- 635              	.LASF19:
- 636 001e 53746174 		.ascii	"Status_Button3_InterruptEnable\000"
- 636      75735F42 
- 636      7574746F 
- 636      6E335F49 
- 636      6E746572 
- 637              	.LASF4:
- 638 003d 6C6F6E67 		.ascii	"long int\000"
- 638      20696E74 
- 638      00
- 639              	.LASF3:
- 640 0046 73686F72 		.ascii	"short unsigned int\000"
- 640      7420756E 
- 640      7369676E 
- 640      65642069 
- 640      6E7400
- 641              	.LASF0:
- 642 0059 73686F72 		.ascii	"short int\000"
- 642      7420696E 
- 642      7400
- 643              	.LASF24:
- 644 0063 53746174 		.ascii	"Status_Button3_ReadMask\000"
- 644      75735F42 
- 644      7574746F 
- 644      6E335F52 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 15
+ 633              	.LASF26:
+ 634 000a 43795F53 		.ascii	"Cy_SysLib_ExitCriticalSection\000"
+ 634      79734C69 
+ 634      625F4578 
+ 634      69744372 
+ 634      69746963 
+ 635              	.LASF3:
+ 636 0028 73686F72 		.ascii	"short unsigned int\000"
+ 636      7420756E 
+ 636      7369676E 
+ 636      65642069 
+ 636      6E7400
+ 637              	.LASF15:
+ 638 003b 666C6F61 		.ascii	"float\000"
+ 638      7400
+ 639              	.LASF1:
+ 640 0041 756E7369 		.ascii	"unsigned char\000"
+ 640      676E6564 
+ 640      20636861 
+ 640      7200
+ 641              	.LASF18:
+ 642 004f 72656738 		.ascii	"reg8\000"
+ 642      00
+ 643              	.LASF21:
+ 644 0054 696E7465 		.ascii	"interruptState\000"
+ 644      72727570 
+ 644      74537461 
+ 644      746500
+ 645              	.LASF7:
+ 646 0063 6C6F6E67 		.ascii	"long unsigned int\000"
+ 646      20756E73 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 15
 
 
- 644      6561644D 
- 645              	.LASF15:
- 646 007b 666C6F61 		.ascii	"float\000"
+ 646      69676E65 
+ 646      6420696E 
  646      7400
- 647              	.LASF1:
- 648 0081 756E7369 		.ascii	"unsigned char\000"
- 648      676E6564 
- 648      20636861 
- 648      7200
- 649              	.LASF18:
- 650 008f 72656738 		.ascii	"reg8\000"
- 650      00
- 651              	.LASF21:
- 652 0094 696E7465 		.ascii	"interruptState\000"
- 652      72727570 
- 652      74537461 
- 652      746500
- 653              	.LASF7:
- 654 00a3 6C6F6E67 		.ascii	"long unsigned int\000"
- 654      20756E73 
- 654      69676E65 
- 654      6420696E 
- 654      7400
- 655              	.LASF17:
- 656 00b5 75696E74 		.ascii	"uint8\000"
- 656      3800
- 657              	.LASF28:
- 658 00bb 47656E65 		.ascii	"Generated_Source\\PSoC6\\Status_Button3.c\000"
- 658      72617465 
- 658      645F536F 
- 658      75726365 
- 658      5C50536F 
- 659              	.LASF16:
- 660 00e3 646F7562 		.ascii	"double\000"
- 660      6C6500
- 661              	.LASF6:
- 662 00ea 5F5F7569 		.ascii	"__uint32_t\000"
- 662      6E743332 
- 662      5F7400
- 663              	.LASF29:
- 664 00f5 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
- 664      73657273 
- 664      5C726F62 
- 664      65725C44 
- 664      65736B74 
- 665 0122 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
- 665      5F456D57 
- 665      696E5F45 
- 665      496E6B5F 
- 665      44697370 
- 666 0154 6C617930 		.ascii	"lay01.cydsn\000"
- 666      312E6379 
- 666      64736E00 
- 667              	.LASF25:
- 668 0160 43795F53 		.ascii	"Cy_SysLib_EnterCriticalSection\000"
- 668      79734C69 
- 668      625F456E 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 16
+ 647              	.LASF17:
+ 648 0075 75696E74 		.ascii	"uint8\000"
+ 648      3800
+ 649              	.LASF23:
+ 650 007b 53746174 		.ascii	"Status_Button1_Read\000"
+ 650      75735F42 
+ 650      7574746F 
+ 650      6E315F52 
+ 650      65616400 
+ 651              	.LASF16:
+ 652 008f 646F7562 		.ascii	"double\000"
+ 652      6C6500
+ 653              	.LASF6:
+ 654 0096 5F5F7569 		.ascii	"__uint32_t\000"
+ 654      6E743332 
+ 654      5F7400
+ 655              	.LASF24:
+ 656 00a1 53746174 		.ascii	"Status_Button1_ReadMask\000"
+ 656      75735F42 
+ 656      7574746F 
+ 656      6E315F52 
+ 656      6561644D 
+ 657              	.LASF29:
+ 658 00b9 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 658      73657273 
+ 658      5C726F62 
+ 658      65725C44 
+ 658      65736B74 
+ 659 00e6 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 659      5F456D57 
+ 659      696E5F45 
+ 659      496E6B5F 
+ 659      44697370 
+ 660 0118 6C617930 		.ascii	"lay01.cydsn\000"
+ 660      312E6379 
+ 660      64736E00 
+ 661              	.LASF22:
+ 662 0124 53746174 		.ascii	"Status_Button1_WriteMask\000"
+ 662      75735F42 
+ 662      7574746F 
+ 662      6E315F57 
+ 662      72697465 
+ 663              	.LASF25:
+ 664 013d 43795F53 		.ascii	"Cy_SysLib_EnterCriticalSection\000"
+ 664      79734C69 
+ 664      625F456E 
+ 664      74657243 
+ 664      72697469 
+ 665              	.LASF10:
+ 666 015c 756E7369 		.ascii	"unsigned int\000"
+ 666      676E6564 
+ 666      20696E74 
+ 666      00
+ 667              	.LASF9:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 16
 
 
- 668      74657243 
- 668      72697469 
- 669              	.LASF20:
- 670 017f 53746174 		.ascii	"Status_Button3_InterruptDisable\000"
- 670      75735F42 
- 670      7574746F 
- 670      6E335F49 
- 670      6E746572 
- 671              	.LASF10:
- 672 019f 756E7369 		.ascii	"unsigned int\000"
- 672      676E6564 
- 672      20696E74 
+ 668 0169 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 668      206C6F6E 
+ 668      6720756E 
+ 668      7369676E 
+ 668      65642069 
+ 669              	.LASF11:
+ 670 0180 75696E74 		.ascii	"uint8_t\000"
+ 670      385F7400 
+ 671              	.LASF13:
+ 672 0188 73697A65 		.ascii	"sizetype\000"
+ 672      74797065 
  672      00
- 673              	.LASF9:
- 674 01ac 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 673              	.LASF8:
+ 674 0191 6C6F6E67 		.ascii	"long long int\000"
  674      206C6F6E 
- 674      6720756E 
- 674      7369676E 
- 674      65642069 
- 675              	.LASF11:
- 676 01c3 75696E74 		.ascii	"uint8_t\000"
- 676      385F7400 
- 677              	.LASF13:
- 678 01cb 73697A65 		.ascii	"sizetype\000"
- 678      74797065 
- 678      00
- 679              	.LASF8:
- 680 01d4 6C6F6E67 		.ascii	"long long int\000"
- 680      206C6F6E 
- 680      6720696E 
+ 674      6720696E 
+ 674      7400
+ 675              	.LASF30:
+ 676 019f 6D61736B 		.ascii	"mask\000"
+ 676      00
+ 677              	.LASF19:
+ 678 01a4 53746174 		.ascii	"Status_Button1_InterruptEnable\000"
+ 678      75735F42 
+ 678      7574746F 
+ 678      6E315F49 
+ 678      6E746572 
+ 679              	.LASF0:
+ 680 01c3 73686F72 		.ascii	"short int\000"
+ 680      7420696E 
  680      7400
- 681              	.LASF30:
- 682 01e2 6D61736B 		.ascii	"mask\000"
- 682      00
- 683              	.LASF26:
- 684 01e7 43795F53 		.ascii	"Cy_SysLib_ExitCriticalSection\000"
- 684      79734C69 
- 684      625F4578 
- 684      69744372 
- 684      69746963 
- 685              	.LASF12:
- 686 0205 75696E74 		.ascii	"uint32_t\000"
- 686      33325F74 
+ 681              	.LASF20:
+ 682 01cd 53746174 		.ascii	"Status_Button1_InterruptDisable\000"
+ 682      75735F42 
+ 682      7574746F 
+ 682      6E315F49 
+ 682      6E746572 
+ 683              	.LASF12:
+ 684 01ed 75696E74 		.ascii	"uint32_t\000"
+ 684      33325F74 
+ 684      00
+ 685              	.LASF4:
+ 686 01f6 6C6F6E67 		.ascii	"long int\000"
+ 686      20696E74 
  686      00
- 687              	.LASF22:
- 688 020e 53746174 		.ascii	"Status_Button3_WriteMask\000"
- 688      75735F42 
- 688      7574746F 
- 688      6E335F57 
- 688      72697465 
- 689              	.LASF14:
- 690 0227 63686172 		.ascii	"char\000"
- 690      00
- 691              	.LASF27:
- 692 022c 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 692      43313120 
- 692      352E342E 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccbSi59j.s 			page 17
+ 687              	.LASF14:
+ 688 01ff 63686172 		.ascii	"char\000"
+ 688      00
+ 689              	.LASF27:
+ 690 0204 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 690      43313120 
+ 690      352E342E 
+ 690      31203230 
+ 690      31363036 
+ 691 0237 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
+ 691      20726576 
+ 691      6973696F 
+ 691      6E203233 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccelfTGi.s 			page 17
 
 
- 692      31203230 
- 692      31363036 
- 693 025f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0plus -mthumb -"
- 693      20726576 
- 693      6973696F 
- 693      6E203233 
- 693      37373135 
- 694 0292 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
- 694      67202D66 
- 694      66756E63 
- 694      74696F6E 
- 694      2D736563 
- 695              	.LASF2:
- 696 02be 7369676E 		.ascii	"signed char\000"
- 696      65642063 
- 696      68617200 
+ 691      37373135 
+ 692 026a 67202D4F 		.ascii	"g -Og -ffunction-sections -ffat-lto-objects\000"
+ 692      67202D66 
+ 692      66756E63 
+ 692      74696F6E 
+ 692      2D736563 
+ 693              	.LASF2:
+ 694 0296 7369676E 		.ascii	"signed char\000"
+ 694      65642063 
+ 694      68617200 
+ 695              	.LASF28:
+ 696 02a2 47656E65 		.ascii	"Generated_Source\\PSoC6\\Status_Button1.c\000"
+ 696      72617465 
+ 696      645F536F 
+ 696      75726365 
+ 696      5C50536F 
  697              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

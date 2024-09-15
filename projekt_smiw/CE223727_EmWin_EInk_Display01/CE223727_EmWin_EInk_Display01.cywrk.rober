@@ -87,6 +87,28 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM0p (Core 0)\Source Files\system_psoc63_cm0plus.c</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM GCC Generic</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM GCC Generic\cy8c6xx7_cm4_dual.ld</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM IAR Generic</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM IAR Generic\cy8c6xx7_cm4_dual.icf</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM MDK Generic</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\ARM MDK Generic\cy8c6xx7_cm4_dual.scat</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_library.c</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_library.h</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_psoc_interface.c</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\cy_eink_psoc_interface.h</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\pervasive_eink_configuration.h</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\pervasive_eink_hardware_driver.c</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\eInk Library\pervasive_eink_hardware_driver.h</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Header Files</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Header Files\debug.h</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Images</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Images\Cypress Logo Full Color_PNG_1bpp.c</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM GCC Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM GCC Generic\startup_psoc63_cm4.S</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM IAR Generic</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CM4 (Core 1)\Source Files\ARM IAR Generic\startup_psoc63_cm4.s</v>
@@ -113,28 +135,6 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Clock_3</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\CY_EINK_SPIM</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\CY_EINK_SPIM_SCBCLK</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\CY_EINK_Timer</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\EINK_Clock</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Pins and Interrupts</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\PWM</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_Button2</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_Button3</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Status_SW2</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\Timer</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cycodeshareexport.ld</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cycodeshareimport.ld</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cycodeshareimport.scat</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cydevice_trm.h</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cydevicegnu_trm.inc</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cydeviceiar_trm.inc</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cydevicerv_trm.inc</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cydisabledsheets.h</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cyfitter.h</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cyfitter_cfg.c</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cyfitter_cfg.h</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\cymetadata.c</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Generated_Source\PSoC6\project.h</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -200,9 +200,9 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm0plus.lst</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button1.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button2.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button3.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_SW2.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc63_cm0plus.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01.elf</v>
@@ -254,9 +254,9 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\pervasive_eink_hardware_driver.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm4.lst</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\Status_Button1.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\Status_Button2.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\Status_Button3.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\Status_SW2.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\system_psoc63_cm4.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM4\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01.elf</v>
@@ -312,9 +312,9 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm0plus.lst</v>
+<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button1.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button2.lst</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button3.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_SW2.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -369,103 +369,103 @@
 <CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
 <indicators>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="538" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="482" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="715" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="659" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="580" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="524" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="80" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="22" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="100" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="42" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="132" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="74" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="412" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="362" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="306" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="391" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="335" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="419" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="363" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="508" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="452" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="567" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="578" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="522" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="628" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="572" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="667" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="611" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="587" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="531" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="674" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="618" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="167" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="109" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="388" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="330" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="403" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="347" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="358" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="300" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="425" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="369" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="380" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="441" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="385" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="486" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="357" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="301" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="491" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="435" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="383" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="327" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="417" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="359" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="382" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="421" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="365" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="387" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="331" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="427" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="371" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="406" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
@@ -474,7 +474,7 @@
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="440" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="405" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="349" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="445" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
@@ -492,10 +492,10 @@
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="409" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="416" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="360" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="455" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="399" DocumentName=".\CE223727_EmWin_EInk_Display01.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 </indicators>
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>

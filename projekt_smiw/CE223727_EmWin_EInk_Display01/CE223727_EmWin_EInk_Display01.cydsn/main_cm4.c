@@ -1,61 +1,3 @@
-/******************************************************************************
-* File Name: main_cm4.c
-*
-* Version: 1.20
-*
-* Description: This file main application code for the CE223727 EmWin Graphics
-*				library EInk Display.
-*
-* Hardware Dependency: CY8CKIT-028-EPD E-Ink Display Shield
-*					   CY8CKIT-062-BLE PSoC6 BLE Pioneer Kit
-*
-******************************************************************************* 
-* Copyright (2019), Cypress Semiconductor Corporation. All rights reserved. 
-******************************************************************************* 
-* This software, including source code, documentation and related materials 
-* (“Software”), is owned by Cypress Semiconductor Corporation or one of its 
-* subsidiaries (“Cypress”) and is protected by and subject to worldwide patent 
-* protection (United States and foreign), United States copyright laws and 
-* international treaty provisions. Therefore, you may use this Software only 
-* as provided in the license agreement accompanying the software package from 
-* which you obtained this Software (“EULA”). 
-* 
-* If no EULA applies, Cypress hereby grants you a personal, non-exclusive, 
-* non-transferable license to copy, modify, and compile the Software source 
-* code solely for use in connection with Cypress’s integrated circuit products. 
-* Any reproduction, modification, translation, compilation, or representation 
-* of this Software except as specified above is prohibited without the express 
-* written permission of Cypress. 
-* 
-* Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, 
-* EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED 
-* WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Cypress 
-* reserves the right to make changes to the Software without notice. Cypress 
-* does not assume any liability arising out of the application or use of the 
-* Software or any product or circuit described in the Software. Cypress does 
-* not authorize its products for use in any products where a malfunction or 
-* failure of the Cypress product may reasonably be expected to result in 
-* significant property damage, injury or death (“High Risk Product”). By 
-* including Cypress’s product in a High Risk Product, the manufacturer of such 
-* system or application assumes all risk of such use and in doing so agrees to 
-* indemnify Cypress against all liability.
-********************************************************************************/
-/******************************************************************************
-* This file contains the main application code for CE223727 that demonstrates
-* controlling a EInk display using the EmWin Graphics Library.
-* The project displays a start up screen with Cypress logo and text "CYPRESS EMWIN
-* GRAPHICS DEMO EINK DISPLAY".  The project then displays the following screens
-* in a loop
-*
-*	1. A screen showing various text alignments, styles and modes
-*   2. A screen showing normal fonts
-*	3. A screen showing bold fonts
-*	4. A screen showing 2D graphics with horizontal lines, vertical lines
-*		arcs and filled rounded rectangle
-*	5. A screen showing 2D graphics with concentric circles and ellipses
-*	6. A screen showing a text box with wrapped text
-*
- *******************************************************************************/
 #include "project.h"
 #include "GUI.h"
 #include "pervasive_eink_hardware_driver.h"
@@ -196,16 +138,18 @@ DataSet table_data[3] = {
     }
 };
 
+//Funkcja do zmiany trybów uzywając przycisków.
 void WaitforSwitchPressAndRelease(void)
 {   
     int table_count = sizeof(table_data) / sizeof(table_data[0]);
     
     Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
-    /* Wait for SW2 to be pressed */
-    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0);
     
-    /* Wait for SW2 to be released */
-    while(Status_SW2_Read() == 0)
+    /* Oczekiwanie na wciśnięcie */
+    while(Status_Button1_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0);
+    
+    /* Oczekiwanie na puszczenie */
+    while(Status_Button1_Read() == 0)
     {
         Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
         compareValue = (compareValue + 1) % 100;
@@ -405,12 +349,12 @@ void AddNew()
         bool btn3_Pressed = false;
 
         // Sprawdzanie stanu przycisków w pętli
-        while (Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
+        while (Status_Button1_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
         
-        // Sprawdzenie czy SW2 został wciśnięty
-        while (Status_SW2_Read() == 0 || Status_Button2_Read() == 0)
+        // Sprawdzenie czy Button1 lub Button2 został wciśnięty
+        while (Status_Button1_Read() == 0 || Status_Button2_Read() == 0)
         {
-            if(Status_SW2_Read() == 0){
+            if(Status_Button1_Read() == 0){
                 currentTemp++;
             }
             else {
@@ -428,17 +372,16 @@ void AddNew()
             UpdateDisplay(CY_EINK_PARTIAL, true);
         }
         
-        // Sprawdzenie czy Button2 został wciśnięty
+        // Sprawdzenie czy Button3 został wciśnięty
         while (Status_Button3_Read() == 0)
         {
             btn3_Pressed = true;  // Przycisk został wciśnięty
         }
 
-        // Jeśli Button2 został wciśnięty i puszczony, dodaj temperaturę do tablicy
+        // Jeśli Button3 został wciśnięty i puszczony, dodaj temperaturę do tablicy
         if (btn3_Pressed)
         {
             data[currentIndex].temperature = currentTemp; // Zapis temperatury do tablicy
-            data[currentIndex].time = currentIndex * 5;   // Przykładowo ustawiamy czas jako indeks * 5
 
             // Wyświetlenie informacji o dodanej temperaturze
             sprintf(tempBuffer, "Added Temp %d: %dC", currentIndex, currentTemp);
@@ -490,12 +433,12 @@ void AddNew()
         }
 
         // Sprawdzanie stanu przycisków w pętli
-        while (Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
+        while (Status_Button1_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
         
-        // Sprawdzenie czy SW2 został wciśnięty
-        while (Status_SW2_Read() == 0 || Status_Button2_Read() == 0)
+        // Sprawdzenie czy Button1 lub Button2 został wciśnięty
+        while (Status_Button1_Read() == 0 || Status_Button2_Read() == 0)
         {
-            if(Status_SW2_Read() == 0){
+            if(Status_Button1_Read() == 0){
                 currentTime++;
             }
             else {
@@ -519,7 +462,7 @@ void AddNew()
             btn3_Pressed = true;  // Przycisk został wciśnięty
         }
 
-        // Jeśli Button2 został wciśnięty i puszczony, dodaj czas do tablicy
+        // Jeśli Button3 został wciśnięty i puszczony, dodaj czas do tablicy
         if (btn3_Pressed)
         {
             data[currentIndex].time = currentTime;
@@ -557,13 +500,13 @@ void AddNew()
     GUI_DispStringAt("Click three to show graph.", 10, 25);
     UpdateDisplay(CY_EINK_PARTIAL, true);
     
-    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0);
+    while(Status_Button1_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0);
     
     bool btn1_Pressed = false;
     bool btn2_Pressed = false;
     bool btn3_Pressed = false;
     
-    while(Status_SW2_Read() == 0)
+    while(Status_Button1_Read() == 0)
     {
         btn1_Pressed = true;
     }
@@ -615,12 +558,12 @@ void ShowAddNewPage(void)
     /* Update the display */
     UpdateDisplay(CY_EINK_PARTIAL, true);
     
-    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0);
+    while(Status_Button1_Read() != 0 && Status_Button2_Read() != 0);
     
     bool btn1_Pressed = false;
     bool btn2_Pressed = false;
     
-    while(Status_SW2_Read() == 0)
+    while(Status_Button1_Read() == 0)
     {
         btn1_Pressed = true;
     }
@@ -667,7 +610,7 @@ void TimerInterruptHandler(void)
         randomTemperature1 = randomTemperature2;
         pointCounter+=seconds;
         
-        if(Status_SW2_Read() == 0 || pointCounter >= maxTimeInGraph){
+        if(Status_Button1_Read() == 0 || pointCounter >= maxTimeInGraph){
             programStarted = false;
             pointCounter = seconds;
             randomTemperature1 = 0;

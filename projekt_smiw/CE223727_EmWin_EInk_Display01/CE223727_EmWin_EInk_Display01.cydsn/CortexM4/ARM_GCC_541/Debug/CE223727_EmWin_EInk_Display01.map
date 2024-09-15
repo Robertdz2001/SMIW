@@ -437,17 +437,6 @@ Discarded input sections
                 0x00000000       0x70 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
  .text          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
  .data          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .text          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .data          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .bss           0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_InterruptEnable
-                0x00000000       0x1c .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_InterruptDisable
-                0x00000000       0x1c .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_WriteMask
-                0x00000000       0x10 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_ReadMask
-                0x00000000        0xc .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
  .text          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
  .data          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
  .bss           0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
@@ -1248,6 +1237,17 @@ Discarded input sections
                 0x00000000       0x10 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
  .text.Status_Button3_ReadMask
                 0x00000000        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .text          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+ .data          0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+ .bss           0x00000000        0x0 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_InterruptEnable
+                0x00000000       0x1c .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_InterruptDisable
+                0x00000000       0x1c .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_WriteMask
+                0x00000000       0x10 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_ReadMask
+                0x00000000        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
  .text          0x00000000        0x0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F13B_1.o)
  .data          0x00000000        0x0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F13B_1.o)
  .bss           0x00000000        0x0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F13B_1.o)
@@ -3084,7 +3084,6 @@ LOAD .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
-LOAD .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
@@ -3116,6 +3115,7 @@ LOAD .\CortexM4\ARM_GCC_541\Debug\PWM.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\Timer.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
 LOAD .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+LOAD .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 END GROUP
 START GROUP
 LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a
@@ -3464,838 +3464,837 @@ END GROUP
  .text.CY_EINK_Timer_Start
                 0x10081cfc       0x30 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
                 0x10081cfc                CY_EINK_Timer_Start
- .text.Status_SW2_Read
-                0x10081d2c        0xc .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
-                0x10081d2c                Status_SW2_Read
  .text.Cy_SysInt_SetVector
-                0x10081d38       0x44 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
-                0x10081d38                Cy_SysInt_SetVector
+                0x10081d2c       0x44 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+                0x10081d2c                Cy_SysInt_SetVector
  .text.Cy_SysInt_Init
-                0x10081d7c       0x7c .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
-                0x10081d7c                Cy_SysInt_Init
+                0x10081d70       0x7c .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+                0x10081d70                Cy_SysInt_Init
  .text.Cy_IPC_Drv_LockRelease
-                0x10081df8       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
-                0x10081df8                Cy_IPC_Drv_LockRelease
+                0x10081dec       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+                0x10081dec                Cy_IPC_Drv_LockRelease
  .text.Cy_IPC_Drv_SendMsgWord
-                0x10081e28       0x3c .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
-                0x10081e28                Cy_IPC_Drv_SendMsgWord
+                0x10081e1c       0x3c .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+                0x10081e1c                Cy_IPC_Drv_SendMsgWord
  .text.Cy_IPC_Drv_ReadMsgWord
-                0x10081e64       0x2c .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
-                0x10081e64                Cy_IPC_Drv_ReadMsgWord
+                0x10081e58       0x2c .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+                0x10081e58                Cy_IPC_Drv_ReadMsgWord
  .text.Cy_IPC_Sema_Init
-                0x10081e90       0xb0 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
-                0x10081e90                Cy_IPC_Sema_Init
+                0x10081e84       0xb0 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+                0x10081e84                Cy_IPC_Sema_Init
  .text.Cy_IPC_Sema_Clear
-                0x10081f40       0x88 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
-                0x10081f40                Cy_IPC_Sema_Clear
+                0x10081f34       0x88 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+                0x10081f34                Cy_IPC_Sema_Clear
  .text.Cy_IPC_Sema_Status
-                0x10081fc8       0x40 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
-                0x10081fc8                Cy_IPC_Sema_Status
+                0x10081fbc       0x40 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+                0x10081fbc                Cy_IPC_Sema_Status
  .text.Cy_IPC_Pipe_Config
-                0x10082008       0x10 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x10082008                Cy_IPC_Pipe_Config
+                0x10081ffc       0x10 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x10081ffc                Cy_IPC_Pipe_Config
  .text.Cy_IPC_Pipe_EndpointInit
-                0x10082018       0xc8 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x10082018                Cy_IPC_Pipe_EndpointInit
+                0x1008200c       0xc8 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x1008200c                Cy_IPC_Pipe_EndpointInit
  .text.Cy_IPC_Pipe_Init
-                0x100820e0       0xc4 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x100820e0                Cy_IPC_Pipe_Init
+                0x100820d4       0xc4 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x100820d4                Cy_IPC_Pipe_Init
  .text.Cy_IPC_Pipe_SendMessage
-                0x100821a4       0xc0 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x100821a4                Cy_IPC_Pipe_SendMessage
+                0x10082198       0xc0 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x10082198                Cy_IPC_Pipe_SendMessage
  .text.Cy_IPC_Pipe_RegisterCallback
-                0x10082264       0x60 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x10082264                Cy_IPC_Pipe_RegisterCallback
+                0x10082258       0x60 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x10082258                Cy_IPC_Pipe_RegisterCallback
  .text.Cy_IPC_Pipe_ExecCallback
-                0x100822c4       0xb0 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x100822c4                Cy_IPC_Pipe_ExecCallback
+                0x100822b8       0xb0 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x100822b8                Cy_IPC_Pipe_ExecCallback
  .text.Cy_IPC_Pipe_ExecuteCallback
-                0x10082374       0x3c .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
-                0x10082374                Cy_IPC_Pipe_ExecuteCallback
+                0x10082368       0x3c .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x10082368                Cy_IPC_Pipe_ExecuteCallback
  .text.Cy_TCPWM_Counter_Init
-                0x100823b0      0x110 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
-                0x100823b0                Cy_TCPWM_Counter_Init
+                0x100823a4      0x110 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+                0x100823a4                Cy_TCPWM_Counter_Init
  .text.Cy_TCPWM_PWM_Init
-                0x100824c0      0x16c .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
-                0x100824c0                Cy_TCPWM_PWM_Init
+                0x100824b4      0x16c .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+                0x100824b4                Cy_TCPWM_PWM_Init
  .text.Cy_SCB_Write
-                0x1008262c       0x28 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
-                0x1008262c                Cy_SCB_Write
+                0x10082620       0x28 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+                0x10082620                Cy_SCB_Write
  .text.Cy_SCB_WriteArrayNoCheck
-                0x10082654       0x38 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
-                0x10082654                Cy_SCB_WriteArrayNoCheck
+                0x10082648       0x38 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+                0x10082648                Cy_SCB_WriteArrayNoCheck
  .text.Cy_SCB_WriteArray
-                0x1008268c       0x2c .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
-                0x1008268c                Cy_SCB_WriteArray
+                0x10082680       0x2c .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+                0x10082680                Cy_SCB_WriteArray
  .text.Cy_SCB_WriteArrayBlocking
-                0x100826b8       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
-                0x100826b8                Cy_SCB_WriteArrayBlocking
+                0x100826ac       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+                0x100826ac                Cy_SCB_WriteArrayBlocking
  .text.Cy_SCB_SPI_Init
-                0x100826e8      0x28c .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
-                0x100826e8                Cy_SCB_SPI_Init
+                0x100826dc      0x28c .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+                0x100826dc                Cy_SCB_SPI_Init
  .text.Cy_SCB_SPI_Disable
-                0x10082974       0x24 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
-                0x10082974                Cy_SCB_SPI_Disable
+                0x10082968       0x24 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+                0x10082968                Cy_SCB_SPI_Disable
  .text.Cy_Flash_ProcessOpcode
-                0x10082998       0xac .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+                0x1008298c       0xac .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
  .text.Cy_Flash_OperationStatus
-                0x10082a44       0x44 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+                0x10082a38       0x44 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
  .text.Cy_Flash_Init
-                0x10082a88       0x4c .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
-                0x10082a88                Cy_Flash_Init
+                0x10082a7c       0x4c .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+                0x10082a7c                Cy_Flash_Init
  .text.Cy_SysLib_Delay
-                0x10082ad4       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
-                0x10082ad4                Cy_SysLib_Delay
+                0x10082ac8       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x10082ac8                Cy_SysLib_Delay
  .text.Cy_SysLib_Halt
-                0x10082b04        0x4 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
-                0x10082b04                Cy_SysLib_Halt
+                0x10082af8        0x4 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x10082af8                Cy_SysLib_Halt
  .text.Cy_SysLib_AssertFailed
-                0x10082b08       0x1c .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
-                0x10082b08                Cy_SysLib_AssertFailed
+                0x10082afc       0x1c .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x10082afc                Cy_SysLib_AssertFailed
  .text.Cy_SysLib_ProcessingFault
-                0x10082b24        0x4 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
-                0x10082b24                Cy_SysLib_ProcessingFault
+                0x10082b18        0x4 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x10082b18                Cy_SysLib_ProcessingFault
  .text.Cy_SysLib_FaultHandler
-                0x10082b28       0xa4 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
-                0x10082b28                Cy_SysLib_FaultHandler
- *fill*         0x10082bcc        0x4 
- .text          0x10082bd0       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
-                0x10082bd0                Cy_SysLib_DelayCycles
-                0x10082be2                Cy_SysLib_EnterCriticalSection
-                0x10082bea                Cy_SysLib_ExitCriticalSection
+                0x10082b1c       0xa4 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x10082b1c                Cy_SysLib_FaultHandler
+ .text          0x10082bc0       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+                0x10082bc0                Cy_SysLib_DelayCycles
+                0x10082bd2                Cy_SysLib_EnterCriticalSection
+                0x10082bda                Cy_SysLib_ExitCriticalSection
  .text.Cy_SysTick_ServiceCallbacks
-                0x10082bf0       0x2c .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x10082be0       0x2c .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
  .text.Cy_SysTick_Enable
-                0x10082c1c       0x18 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
-                0x10082c1c                Cy_SysTick_Enable
+                0x10082c0c       0x18 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x10082c0c                Cy_SysTick_Enable
  .text.Cy_SysTick_SetClockSource
-                0x10082c34       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
-                0x10082c34                Cy_SysTick_SetClockSource
+                0x10082c24       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x10082c24                Cy_SysTick_SetClockSource
  .text.Cy_SysTick_Init
-                0x10082c64       0x44 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
-                0x10082c64                Cy_SysTick_Init
+                0x10082c54       0x44 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x10082c54                Cy_SysTick_Init
  .text.Cy_SysTick_SetCallback
-                0x10082ca8       0x1c .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
-                0x10082ca8                Cy_SysTick_SetCallback
+                0x10082c98       0x1c .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x10082c98                Cy_SysTick_SetCallback
  .text.Cy_SysTick_GetCallback
-                0x10082cc4       0x14 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
-                0x10082cc4                Cy_SysTick_GetCallback
+                0x10082cb4       0x14 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x10082cb4                Cy_SysTick_GetCallback
  .text.PWM_Start
-                0x10082cd8       0x30 .\CortexM4\ARM_GCC_541\Debug\PWM.o
-                0x10082cd8                PWM_Start
+                0x10082cc8       0x30 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+                0x10082cc8                PWM_Start
  .text.Status_Button2_Read
-                0x10082d08        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
-                0x10082d08                Status_Button2_Read
+                0x10082cf8        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+                0x10082cf8                Status_Button2_Read
  .text.Status_Button3_Read
-                0x10082d14        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
-                0x10082d14                Status_Button3_Read
+                0x10082d04        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+                0x10082d04                Status_Button3_Read
+ .text.Status_Button1_Read
+                0x10082d10        0xc .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
+                0x10082d10                Status_Button1_Read
  .text._PushFreeBlock
-                0x10082d20       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082d1c       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text._RemoveFreeBlock
-                0x10082d40       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082d3c       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text._AddFreeMemory
-                0x10082d84       0xa8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082d80       0xa8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text._RemoveHoles
-                0x10082e2c       0x94 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082e28       0x94 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text.GUI_ALLOC_FreeFixedBlock
-                0x10082ec0       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10082ec0                GUI_ALLOC_FreeFixedBlock
+                0x10082ebc       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082ebc                GUI_ALLOC_FreeFixedBlock
  .text.GUI_ALLOC_h2p
-                0x10082ed8       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10082ed8                GUI_ALLOC_h2p
+                0x10082ed4       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082ed4                GUI_ALLOC_h2p
  .text.GUI_ALLOC_LockH
-                0x10082eec       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10082eec                GUI_ALLOC_LockH
+                0x10082ee8       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082ee8                GUI_ALLOC_LockH
  .text.GUI_ALLOC_UnlockH
-                0x10082f0c       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10082f0c                GUI_ALLOC_UnlockH
+                0x10082f08       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082f08                GUI_ALLOC_UnlockH
  .text.GUI_ALLOC_AssignMemory
-                0x10082f3c       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10082f3c                GUI_ALLOC_AssignMemory
+                0x10082f38       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082f38                GUI_ALLOC_AssignMemory
  .text.GUI_ALLOC_Free
-                0x10082f4c       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10082f4c                GUI_ALLOC_Free
+                0x10082f48       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082f48                GUI_ALLOC_Free
  .text._EnlargeBlocks
-                0x10082f70       0x98 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10082f6c       0x98 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text._InitOnce
-                0x10083008       0x6c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10083004       0x6c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text.GUI_ALLOC_GetFixedBlock
-                0x10083074       0xb8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10083074                GUI_ALLOC_GetFixedBlock
- .text._Alloc   0x1008312c      0x100 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10083070       0xb8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10083070                GUI_ALLOC_GetFixedBlock
+ .text._Alloc   0x10083128      0x100 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
  .text.GUI_ALLOC_AllocNoInit
-                0x1008322c       0x12 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x1008322c                GUI_ALLOC_AllocNoInit
- *fill*         0x1008323e        0x2 
+                0x10083228       0x12 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x10083228                GUI_ALLOC_AllocNoInit
+ *fill*         0x1008323a        0x2 
  .text.GUI_ALLOC_AllocZero
-                0x10083240       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
-                0x10083240                GUI_ALLOC_AllocZero
+                0x1008323c       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Alloc.o)
+                0x1008323c                GUI_ALLOC_AllocZero
  .text.GUIMONO_DispChar
-                0x1008326c      0x14c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
-                0x1008326c                GUIMONO_DispChar
+                0x10083268      0x14c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
+                0x10083268                GUIMONO_DispChar
  .text.GUIMONO_GetCharDistX
-                0x100833b8       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
-                0x100833b8                GUIMONO_GetCharDistX
+                0x100833b4       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
+                0x100833b4                GUIMONO_GetCharDistX
  .text.GUIMONO_GetFontInfo
-                0x100833d0        0x6 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
-                0x100833d0                GUIMONO_GetFontInfo
+                0x100833cc        0x6 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
+                0x100833cc                GUIMONO_GetFontInfo
  .text.GUIMONO_IsInFont
-                0x100833d6       0x36 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
-                0x100833d6                GUIMONO_IsInFont
+                0x100833d2       0x36 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharM.o)
+                0x100833d2                GUIMONO_IsInFont
  .text.GUIPROP__FindChar
-                0x1008340c       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
-                0x1008340c                GUIPROP__FindChar
- *fill*         0x10083422        0x2 
+                0x10083408       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
+                0x10083408                GUIPROP__FindChar
+ *fill*         0x1008341e        0x2 
  .text.GUIPROP_DispChar
-                0x10083424       0xd4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
-                0x10083424                GUIPROP_DispChar
+                0x10083420       0xd4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
+                0x10083420                GUIPROP_DispChar
  .text.GUIPROP_GetCharDistX
-                0x100834f8       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
-                0x100834f8                GUIPROP_GetCharDistX
+                0x100834f4       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
+                0x100834f4                GUIPROP_GetCharDistX
  .text.GUIPROP_GetFontInfo
-                0x10083530        0x6 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
-                0x10083530                GUIPROP_GetFontInfo
+                0x1008352c        0x6 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
+                0x1008352c                GUIPROP_GetFontInfo
  .text.GUIPROP_IsInFont
-                0x10083536       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
-                0x10083536                GUIPROP_IsInFont
- *fill*         0x10083546        0x2 
+                0x10083532       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharP.o)
+                0x10083532                GUIPROP_IsInFont
+ *fill*         0x10083542        0x2 
  .text._DrawTextLine
-                0x10083548       0x98 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083544       0x98 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
  .text._cbDrawTextLine
-                0x100835e0       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x100835dc       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
  .text._cbDrawTextStyle
-                0x100835f8       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x100835f4       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
  .text.GUI_CalcColorDist
-                0x1008361c       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x1008361c                GUI_CalcColorDist
+                0x10083618       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083618                GUI_CalcColorDist
  .text.GUI_GetBkColor
-                0x10083670        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x10083670                GUI_GetBkColor
+                0x1008366c        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x1008366c                GUI_GetBkColor
  .text.GUI_GetColor
-                0x1008367c        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x1008367c                GUI_GetColor
+                0x10083678        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083678                GUI_GetColor
  .text.GUI_MergeRect
-                0x10083688       0x62 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x10083688                GUI_MergeRect
+                0x10083684       0x62 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083684                GUI_MergeRect
  .text.GUI_MoveRect
-                0x100836ea       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x100836ea                GUI_MoveRect
+                0x100836e6       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x100836e6                GUI_MoveRect
  .text.GUI_GotoXY
-                0x1008370c       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x1008370c                GUI_GotoXY
+                0x10083708       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083708                GUI_GotoXY
  .text.GUI_RectsIntersect
-                0x1008371c       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x1008371c                GUI_RectsIntersect
+                0x10083718       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083718                GUI_RectsIntersect
  .text.GUI_SelectLCD
-                0x10083758       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x10083758                GUI_SelectLCD
+                0x10083754       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083754                GUI_SelectLCD
  .text.GUI_SetBkColor
-                0x10083768        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x10083768                GUI_SetBkColor
+                0x10083764        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083764                GUI_SetBkColor
  .text.GUI_SetColor
-                0x10083770        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x10083770                GUI_SetColor
+                0x1008376c        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x1008376c                GUI_SetColor
  .text.GUI_SetFont
-                0x10083778       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x10083778                GUI_SetFont
+                0x10083774       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083774                GUI_SetFont
  .text.GUI_SetOrg
-                0x1008378c       0x34 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x1008378c                GUI_SetOrg
+                0x10083788       0x34 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x10083788                GUI_SetOrg
  .text.GUI_SetTextAlign
-                0x100837c0       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x100837c0                GUI_SetTextAlign
+                0x100837bc       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x100837bc                GUI_SetTextAlign
  .text.GUI_SetTextMode
-                0x100837d4       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x100837d4                GUI_SetTextMode
+                0x100837d0       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x100837d0                GUI_SetTextMode
  .text.GUI_SetTextStyle
-                0x100837e8       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
-                0x100837e8                GUI_SetTextStyle
- .text._OnExit  0x10083820       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x100837e4       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Common.o)
+                0x100837e4                GUI_SetTextStyle
+ .text._OnExit  0x1008381c       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
  .text.GUI_SetDefaultFont
-                0x10083864        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
-                0x10083864                GUI_SetDefaultFont
+                0x10083860        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x10083860                GUI_SetDefaultFont
  .text.GUI_ClearRect
-                0x10083870       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
-                0x10083870                GUI_ClearRect
+                0x1008386c       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x1008386c                GUI_ClearRect
  .text.GUI_Clear
-                0x100838cc       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
-                0x100838cc                GUI_Clear
+                0x100838c8       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x100838c8                GUI_Clear
  .text.GUI__RegisterExit
-                0x100838ec       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
-                0x100838ec                GUI__RegisterExit
+                0x100838e8       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x100838e8                GUI__RegisterExit
  .text.GUI__Config
-                0x100838fc       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
-                0x100838fc                GUI__Config
+                0x100838f8       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x100838f8                GUI__Config
  .text.GUI_Init
-                0x1008392c       0xf8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
-                0x1008392c                GUI_Init
+                0x10083928       0xf8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Core.o)
+                0x10083928                GUI_Init
  .text.GUI_DEVICE__GetpDriver
-                0x10083a24       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
-                0x10083a24                GUI_DEVICE__GetpDriver
+                0x10083a20       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
+                0x10083a20                GUI_DEVICE__GetpDriver
  .text.GUI_DEVICE_Delete
-                0x10083a48        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
-                0x10083a48                GUI_DEVICE_Delete
+                0x10083a44        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
+                0x10083a44                GUI_DEVICE_Delete
  .text.GUI_DEVICE_Create
-                0x10083a50       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
-                0x10083a50                GUI_DEVICE_Create
+                0x10083a4c       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
+                0x10083a4c                GUI_DEVICE_Create
  .text.GUI_DEVICE_Unlink
-                0x10083aa0       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
-                0x10083aa0                GUI_DEVICE_Unlink
+                0x10083a9c       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
+                0x10083a9c                GUI_DEVICE_Unlink
  .text.GUI_DEVICE_Link
-                0x10083ad8       0x8c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
-                0x10083ad8                GUI_DEVICE_Link
+                0x10083ad4       0x8c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
+                0x10083ad4                GUI_DEVICE_Link
  .text.GUI_DEVICE_CreateAndLink
-                0x10083b64       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
-                0x10083b64                GUI_DEVICE_CreateAndLink
+                0x10083b60       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Device.o)
+                0x10083b60                GUI_DEVICE_CreateAndLink
  .text.GUI_DispString
-                0x10083b90      0x110 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DispString.o)
-                0x10083b90                GUI_DispString
+                0x10083b8c      0x110 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DispString.o)
+                0x10083b8c                GUI_DispString
  .text.GUI_DispStringAt
-                0x10083ca0       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DispString.o)
-                0x10083ca0                GUI_DispStringAt
+                0x10083c9c       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DispString.o)
+                0x10083c9c                GUI_DispStringAt
  .text._SetLineColor
-                0x10083cb4       0x8c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
- .text.GUI_sin  0x10083d40       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
-                0x10083d40                GUI_sin
- .text.GUI_cos  0x10083d9c        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
-                0x10083d9c                GUI_cos
- *fill*         0x10083daa        0x2 
+                0x10083cb0       0x8c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+ .text.GUI_sin  0x10083d3c       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+                0x10083d3c                GUI_sin
+ .text.GUI_cos  0x10083d98        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+                0x10083d98                GUI_cos
+ *fill*         0x10083da6        0x2 
  .text.GL_DrawLine1Ex
-                0x10083dac      0x1a8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
-                0x10083dac                GL_DrawLine1Ex
+                0x10083da8      0x1a8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+                0x10083da8                GL_DrawLine1Ex
  .text.GL_DrawLineEx
-                0x10083f54      0x19c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
-                0x10083f54                GL_DrawLineEx
+                0x10083f50      0x19c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+                0x10083f50                GL_DrawLineEx
  .text.GL_DrawLine
-                0x100840f0       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
-                0x100840f0                GL_DrawLine
+                0x100840ec       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+                0x100840ec                GL_DrawLine
  .text.GUI_DrawLine
-                0x10084100       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
-                0x10084100                GUI_DrawLine
- .text._Add     0x10084138       0x4c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_FillPolygon.o)
+                0x100840fc       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLine.o)
+                0x100840fc                GUI_DrawLine
+ .text._Add     0x10084134       0x4c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_FillPolygon.o)
  .text.GL_FillPolygon
-                0x10084184      0x1d4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_FillPolygon.o)
-                0x10084184                GL_FillPolygon
+                0x10084180      0x1d4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_FillPolygon.o)
+                0x10084180                GL_FillPolygon
  .text.GUI_StoreKey
-                0x10084358       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_OnKey.o)
-                0x10084358                GUI_StoreKey
+                0x10084354       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_OnKey.o)
+                0x10084354                GUI_StoreKey
  .text.GUI_UC__GetCharCodeInc
-                0x10084370       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC.o)
-                0x10084370                GUI_UC__GetCharCodeInc
+                0x1008436c       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC.o)
+                0x1008436c                GUI_UC__GetCharCodeInc
  .text.GUI_UC__NumChars2NumBytes
-                0x10084398       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC.o)
-                0x10084398                GUI_UC__NumChars2NumBytes
+                0x10084394       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC.o)
+                0x10084394                GUI_UC__NumChars2NumBytes
  .text._GetCharCode
-                0x100843c0        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
+                0x100843bc        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
  .text._GetCharSize
-                0x100843c4        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
+                0x100843c0        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
  .text._CalcSizeOfChar
-                0x100843c8        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
- .text._Encode  0x100843cc        0x6 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
- *fill*         0x100843d2        0x2 
+                0x100843c4        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
+ .text._Encode  0x100843c8        0x6 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_UC_EncodeNone.o)
+ *fill*         0x100843ce        0x2 
  .text.GUI_SignalEvent
-                0x100843d4       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_WaitEvent.o)
-                0x100843d4                GUI_SignalEvent
+                0x100843d0       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_WaitEvent.o)
+                0x100843d0                GUI_SignalEvent
  .text.LCD_Color2Index_1
-                0x100843e8       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_1.o)
+                0x100843e4       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_1.o)
  .text._Index2Color_1
-                0x10084410        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_1.o)
+                0x1008440c        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_1.o)
  .text._GetIndexMask_1
-                0x1008441c        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_1.o)
+                0x10084418        0x4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_1.o)
  .text._SetPixelIndex
-                0x10084420       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x1008441c       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._GetPixelIndex
-                0x100844a0       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x1008449c       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._XorPixel
-                0x100844fc       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x100844f8       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._DrawHLine
-                0x10084520      0x2b0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x1008451c      0x2b0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._FillRect
-                0x100847d0       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x100847cc       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._GetRect
-                0x100847f2       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x100847ee       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._GetDevProp
-                0x10084808       0x46 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
- *fill*         0x1008484e        0x2 
+                0x10084804       0x46 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+ *fill*         0x1008484a        0x2 
  .text._GetDevFunc
-                0x10084850       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x1008484c       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._GetDevData
-                0x10084864       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
- .text._Off     0x1008489c        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
- .text._On      0x100848aa        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
- .text._SetOrg  0x100848b8       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
- *fill*         0x100848da        0x2 
+                0x10084860       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+ .text._Off     0x10084898        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+ .text._On      0x100848a6        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+ .text._SetOrg  0x100848b4       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+ *fill*         0x100848d6        0x2 
  .text._DrawVLine
-                0x100848dc       0x48 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x100848d8       0x48 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._DrawBitmap
-                0x10084924      0x8d8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x10084920      0x8d8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._InitOnce.isra.2
-                0x100851fc       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
- .text._Init    0x10085228       0x1a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x100851f8       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+ .text._Init    0x10085224       0x1a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._SetSize
-                0x10085242       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x1008523e       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._SetVSize
-                0x1008527e       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x1008527a       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text._SetVRAMAddr
-                0x1008529a       0x40 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x10085296       0x40 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
  .text.GUIDRV_BitPlains_Config
-                0x100852da       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
-                0x100852da                GUIDRV_BitPlains_Config
- *fill*         0x100852f2        0x2 
+                0x100852d6       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDRV_BitPlains.o)
+                0x100852d6                GUIDRV_BitPlains_Config
+ *fill*         0x100852ee        0x2 
  .text._SetDrawMode
-                0x100852f4       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x100852f0       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
  .text.LCD_SetDrawMode
-                0x1008531c       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x1008531c                LCD_SetDrawMode
+                0x10085318       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085318                LCD_SetDrawMode
  .text.LCD_DrawPixel
-                0x1008532c       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x1008532c                LCD_DrawPixel
+                0x10085328       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085328                LCD_DrawPixel
  .text.LCD_DrawHLine
-                0x10085388       0x4c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085388                LCD_DrawHLine
+                0x10085384       0x4c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085384                LCD_DrawHLine
  .text.LCD_DrawVLine
-                0x100853d4       0x4c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x100853d4                LCD_DrawVLine
+                0x100853d0       0x4c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x100853d0                LCD_DrawVLine
  .text.LCD_FillRect
-                0x10085420       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085420                LCD_FillRect
+                0x1008541c       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x1008541c                LCD_FillRect
  .text.LCD__DrawBitmap_1bpp
-                0x10085474      0x1cc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085474                LCD__DrawBitmap_1bpp
+                0x10085470      0x1cc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085470                LCD__DrawBitmap_1bpp
  .text.LCD_DrawBitmap
-                0x10085640      0x20c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085640                LCD_DrawBitmap
+                0x1008563c      0x20c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x1008563c                LCD_DrawBitmap
  .text.LCD_SetClipRectMax
-                0x1008584c       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x1008584c                LCD_SetClipRectMax
+                0x10085848       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085848                LCD_SetClipRectMax
  .text.LCD_Init
-                0x1008586c       0x94 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x1008586c                LCD_Init
+                0x10085868       0x94 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085868                LCD_Init
  .text.LCD_Color2Index
-                0x10085900       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085900                LCD_Color2Index
+                0x100858fc       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x100858fc                LCD_Color2Index
  .text.LCD_Index2Color
-                0x10085920       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085920                LCD_Index2Color
+                0x1008591c       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x1008591c                LCD_Index2Color
  .text.LCD_SetColorIndex
-                0x10085940       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085940                LCD_SetColorIndex
+                0x1008593c       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x1008593c                LCD_SetColorIndex
  .text._SetColor
-                0x10085958       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085954       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
  .text.LCD_SetBkColorIndex
-                0x10085974       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x10085974                LCD_SetBkColorIndex
+                0x10085970       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085970                LCD_SetBkColorIndex
  .text._SetBkColor
-                0x1008598c       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x10085988       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
  .text.LCD_SetBkColor
-                0x100859a8       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x100859a8                LCD_SetBkColor
+                0x100859a4       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x100859a4                LCD_SetBkColor
  .text.LCD_SetColor
-                0x100859b8       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
-                0x100859b8                LCD_SetColor
- .text._OnExit  0x100859c8       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
+                0x100859b4       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD.o)
+                0x100859b4                LCD_SetColor
+ .text._OnExit  0x100859c4       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
  .text.LCD_InitColors
-                0x100859e4       0x40 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
-                0x100859e4                LCD_InitColors
+                0x100859e0       0x40 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
+                0x100859e0                LCD_InitColors
  .text.LCD_GetpPalConvTableUncached
-                0x10085a24       0x68 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
-                0x10085a24                LCD_GetpPalConvTableUncached
+                0x10085a20       0x68 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
+                0x10085a20                LCD_GetpPalConvTableUncached
  .text.LCD_GetpPalConvTableBM
-                0x10085a8c        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
-                0x10085a8c                LCD_GetpPalConvTableBM
+                0x10085a88        0x8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
+                0x10085a88                LCD_GetpPalConvTableBM
  .text.LCD_InitLUT
-                0x10085a94       0x7c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
-                0x10085a94                LCD_InitLUT
+                0x10085a90       0x7c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Color.o)
+                0x10085a90                LCD_InitLUT
  .text.LCD_GetBkColorIndex
-                0x10085b10       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetColorIndex.o)
-                0x10085b10                LCD_GetBkColorIndex
+                0x10085b0c       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetColorIndex.o)
+                0x10085b0c                LCD_GetBkColorIndex
  .text.LCD_GetColorIndex
-                0x10085b20       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetColorIndex.o)
-                0x10085b20                LCD_GetColorIndex
+                0x10085b1c       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetColorIndex.o)
+                0x10085b1c                LCD_GetColorIndex
  .text._GetDevProp.part.0
-                0x10085b30       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b2c       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
  .text._GetDevProp
-                0x10085b46       0x12 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b42       0x12 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
  .text._GetMaxValue
-                0x10085b58       0x12 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b54       0x12 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
  .text.LCD_GetBitsPerPixelEx
-                0x10085b6a        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085b6a                LCD_GetBitsPerPixelEx
+                0x10085b66        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b66                LCD_GetBitsPerPixelEx
  .text.LCD_GetNumColorsEx
-                0x10085b74        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085b74                LCD_GetNumColorsEx
+                0x10085b70        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b70                LCD_GetNumColorsEx
  .text.LCD_GetSwapXYEx
-                0x10085b7e        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085b7e                LCD_GetSwapXYEx
+                0x10085b7a        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b7a                LCD_GetSwapXYEx
  .text.LCD_GetNumColors
-                0x10085b88       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085b88                LCD_GetNumColors
+                0x10085b84       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b84                LCD_GetNumColors
  .text.LCD_GetSwapXY
-                0x10085b9c       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085b9c                LCD_GetSwapXY
+                0x10085b98       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085b98                LCD_GetSwapXY
  .text.GUI_GetBitsPerPixelEx
-                0x10085bb0       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085bb0                GUI_GetBitsPerPixelEx
+                0x10085bac       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085bac                GUI_GetBitsPerPixelEx
  .text.LCD_GetPaletteEx
-                0x10085bc8       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085bc8                LCD_GetPaletteEx
+                0x10085bc4       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085bc4                LCD_GetPaletteEx
  .text.LCD_GetPalette
-                0x10085bdc       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085bdc                LCD_GetPalette
+                0x10085bd8       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085bd8                LCD_GetPalette
  .text.GUI_GetpfIndex2ColorEx
-                0x10085bf0       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085bf0                GUI_GetpfIndex2ColorEx
+                0x10085bec       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085bec                GUI_GetpfIndex2ColorEx
  .text.GUI_GetpfColor2IndexEx
-                0x10085c00       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c00                GUI_GetpfColor2IndexEx
+                0x10085bfc       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085bfc                GUI_GetpfColor2IndexEx
  .text.LCD_GetXSizeMax
-                0x10085c10        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c10                LCD_GetXSizeMax
+                0x10085c0c        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085c0c                LCD_GetXSizeMax
  .text.LCD_GetYSizeMax
-                0x10085c1a        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c1a                LCD_GetYSizeMax
+                0x10085c16        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085c16                LCD_GetYSizeMax
  .text.LCD_SetDisplaySize
-                0x10085c24        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c24                LCD_SetDisplaySize
+                0x10085c20        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085c20                LCD_SetDisplaySize
  .text.LCD_GetXSizeDisplay
-                0x10085c30        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c30                LCD_GetXSizeDisplay
+                0x10085c2c        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085c2c                LCD_GetXSizeDisplay
  .text.LCD_GetYSizeDisplay
-                0x10085c3c        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c3c                LCD_GetYSizeDisplay
+                0x10085c38        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085c38                LCD_GetYSizeDisplay
  .text.LCD__GetBPP
-                0x10085c48       0x72 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085c48                LCD__GetBPP
+                0x10085c44       0x72 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085c44                LCD__GetBPP
  .text.LCD__GetBPPDevice
-                0x10085cba       0x2a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
-                0x10085cba                LCD__GetBPPDevice
+                0x10085cb6       0x2a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetEx.o)
+                0x10085cb6                LCD__GetBPPDevice
  .text.LCD_GetNumLayers
-                0x10085ce4        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetNumDisplays.o)
-                0x10085ce4                LCD_GetNumLayers
- *fill*         0x10085cf2        0x2 
+                0x10085ce0        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_GetNumDisplays.o)
+                0x10085ce0                LCD_GetNumLayers
+ *fill*         0x10085cee        0x2 
  .text.LCD_SelectLCD
-                0x10085cf4       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_SelectLCD.o)
-                0x10085cf4                LCD_SelectLCD
+                0x10085cf0       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_SelectLCD.o)
+                0x10085cf0                LCD_SelectLCD
  .text.LCD_SetLUTEntryEx
-                0x10085d38       0x2e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
-                0x10085d38                LCD_SetLUTEntryEx
+                0x10085d34       0x2e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
+                0x10085d34                LCD_SetLUTEntryEx
  .text.LCD_SetSizeEx
-                0x10085d66       0x2e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
-                0x10085d66                LCD_SetSizeEx
+                0x10085d62       0x2e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
+                0x10085d62                LCD_SetSizeEx
  .text.LCD_SetVRAMAddrEx
-                0x10085d94       0x2a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
-                0x10085d94                LCD_SetVRAMAddrEx
+                0x10085d90       0x2a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
+                0x10085d90                LCD_SetVRAMAddrEx
  .text.LCD_SetVSizeEx
-                0x10085dbe       0x2e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
-                0x10085dbe                LCD_SetVSizeEx
+                0x10085dba       0x2e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_Set.o)
+                0x10085dba                LCD_SetVSizeEx
  .text.LCD_UpdateColorIndices
-                0x10085dec       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_UpdateColorIndices.o)
-                0x10085dec                LCD_UpdateColorIndices
- .text._OnExit  0x10085e10       0x88 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
- .text._Findy1  0x10085e98       0xb4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
- .text._Findx0  0x10085f4c       0x8a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
- .text._Findx1  0x10085fd6       0x7c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
- *fill*         0x10086052        0x2 
+                0x10085de8       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_UpdateColorIndices.o)
+                0x10085de8                LCD_UpdateColorIndices
+ .text._OnExit  0x10085e0c       0x88 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+ .text._Findy1  0x10085e94       0xb4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+ .text._Findx0  0x10085f48       0x8a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+ .text._Findx1  0x10085fd2       0x7c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+ *fill*         0x1008604e        0x2 
  .text.WM__ClipAtParentBorders
-                0x10086054       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086054                WM__ClipAtParentBorders
+                0x10086050       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086050                WM__ClipAtParentBorders
  .text.WM__InsertWindowIntoList
-                0x100860a8       0xaa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100860a8                WM__InsertWindowIntoList
+                0x100860a4       0xaa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100860a4                WM__InsertWindowIntoList
  .text.WM__Client2Screen
-                0x10086152       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086152                WM__Client2Screen
- *fill*         0x10086166        0x2 
+                0x1008614e       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x1008614e                WM__Client2Screen
+ *fill*         0x10086162        0x2 
  .text._SetClipRectUserIntersect
-                0x10086168       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086164       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
  .text.WM__ActivateClipRect
-                0x100861b8       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100861b8                WM__ActivateClipRect
+                0x100861b4       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100861b4                WM__ActivateClipRect
  .text.WM__InvalidateDrawAndDescs
-                0x10086208       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086208                WM__InvalidateDrawAndDescs
+                0x10086204       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086204                WM__InvalidateDrawAndDescs
  .text.WM__RectIsNZ
-                0x1008625c       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x1008625c                WM__RectIsNZ
- *fill*         0x1008627e        0x2 
+                0x10086258       0x22 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086258                WM__RectIsNZ
+ *fill*         0x1008627a        0x2 
  .text._Invalidate1Abs
-                0x10086280       0x88 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x1008627c       0x88 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
  .text.WM__Invalidate1Abs
-                0x10086308        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086308                WM__Invalidate1Abs
+                0x10086304        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086304                WM__Invalidate1Abs
  .text.WM_InvalidateWindowAndDescsEx
-                0x10086312       0x60 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086312                WM_InvalidateWindowAndDescsEx
- *fill*         0x10086372        0x2 
+                0x1008630e       0x60 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x1008630e                WM_InvalidateWindowAndDescsEx
+ *fill*         0x1008636e        0x2 
  .text.WM__InvalidateRect
-                0x10086374       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086374                WM__InvalidateRect
+                0x10086370       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086370                WM__InvalidateRect
  .text.WM__InvalidateRectEx
-                0x100863f4        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100863f4                WM__InvalidateRectEx
+                0x100863f0        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100863f0                WM__InvalidateRectEx
  .text.WM__SendMsgNoData
-                0x100863fe       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100863fe                WM__SendMsgNoData
+                0x100863fa       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100863fa                WM__SendMsgNoData
  .text.WM__GetClientRectWin
-                0x1008640e       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x1008640e                WM__GetClientRectWin
- *fill*         0x10086426        0x2 
+                0x1008640a       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x1008640a                WM__GetClientRectWin
+ *fill*         0x10086422        0x2 
  .text.WM_InvalidateRect
-                0x10086428       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086428                WM_InvalidateRect
+                0x10086424       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086424                WM_InvalidateRect
  .text.WM_InvalidateWindow
-                0x100864a8        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100864a8                WM_InvalidateWindow
- *fill*         0x100864b2        0x2 
+                0x100864a4        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100864a4                WM_InvalidateWindow
+ *fill*         0x100864ae        0x2 
  .text.WM_SelectWindow
-                0x100864b4       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100864b4                WM_SelectWindow
+                0x100864b0       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100864b0                WM_SelectWindow
  .text.WM_CreateWindowAsChild
-                0x100864ec      0x144 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100864ec                WM_CreateWindowAsChild
+                0x100864e8      0x144 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100864e8                WM_CreateWindowAsChild
  .text.WM_CreateWindow
-                0x10086630       0x1a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086630                WM_CreateWindow
- *fill*         0x1008664a        0x2 
+                0x1008662c       0x1a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x1008662c                WM_CreateWindow
+ *fill*         0x10086646        0x2 
  .text.WM__GetNextIVR
-                0x1008664c      0x160 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x1008664c                WM__GetNextIVR
+                0x10086648      0x160 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086648                WM__GetNextIVR
  .text.WM__InitIVRSearch
-                0x100867ac      0x100 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100867ac                WM__InitIVRSearch
+                0x100867a8      0x100 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100867a8                WM__InitIVRSearch
  .text.WM_Activate
-                0x100868ac       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100868ac                WM_Activate
+                0x100868a8       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100868a8                WM_Activate
  .text.WM_DefaultProc
-                0x100868bc       0x48 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x100868bc                WM_DefaultProc
+                0x100868b8       0x48 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x100868b8                WM_DefaultProc
  .text._cbBackWin
-                0x10086904       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
- .text.WM_Init  0x10086948       0xa4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
-                0x10086948                WM_Init
+                0x10086900       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+ .text.WM_Init  0x10086944       0xa4 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM.o)
+                0x10086944                WM_Init
  .text.WM__GetFirstSibling
-                0x100869ec       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
-                0x100869ec                WM__GetFirstSibling
+                0x100869e8       0x16 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
+                0x100869e8                WM__GetFirstSibling
  .text.WM__GetPrevSibling
-                0x10086a02       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
-                0x10086a02                WM__GetPrevSibling
- *fill*         0x10086a2a        0x2 
+                0x100869fe       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
+                0x100869fe                WM__GetPrevSibling
+ *fill*         0x10086a26        0x2 
  .text.WM__SendMessage
-                0x10086a2c       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
-                0x10086a2c                WM__SendMessage
+                0x10086a28       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
+                0x10086a28                WM__SendMessage
  .text.WM__AddCriticalHandle
-                0x10086a64       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
-                0x10086a64                WM__AddCriticalHandle
+                0x10086a60       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
+                0x10086a60                WM__AddCriticalHandle
  .text.WM__GetClientRectEx
-                0x10086a74       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
-                0x10086a74                WM__GetClientRectEx
+                0x10086a70       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM__Private.o)
+                0x10086a70                WM__GetClientRectEx
  .text.WM_GetDesktopWindow
-                0x10086a94        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
-                0x10086a94                WM_GetDesktopWindow
+                0x10086a90        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
+                0x10086a90                WM_GetDesktopWindow
  .text.WM_GetFirstChild
-                0x10086aa0        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
-                0x10086aa0                WM_GetFirstChild
+                0x10086a9c        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
+                0x10086a9c                WM_GetFirstChild
  .text.WM_GetParent
-                0x10086aae        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
-                0x10086aae                WM_GetParent
+                0x10086aaa        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
+                0x10086aaa                WM_GetParent
  .text.WM_BringToBottom
-                0x10086abc       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
-                0x10086abc                WM_BringToBottom
+                0x10086ab8       0x80 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
+                0x10086ab8                WM_BringToBottom
  .text.WM_SendToParent
-                0x10086b3c       0x1a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
-                0x10086b3c                WM_SendToParent
- *fill*         0x10086b56        0x2 
+                0x10086b38       0x1a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(WM_Lib.o)
+                0x10086b38                WM_SendToParent
+ *fill*         0x10086b52        0x2 
  .text.GUI__ManageCacheEx
-                0x10086b58       0xe0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__ManageCache.o)
-                0x10086b58                GUI__ManageCacheEx
+                0x10086b54       0xe0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__ManageCache.o)
+                0x10086b54                GUI__ManageCacheEx
  .text.GUI__ManageCache
-                0x10086c38       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__ManageCache.o)
-                0x10086c38                GUI__ManageCache
+                0x10086c34       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__ManageCache.o)
+                0x10086c34                GUI__ManageCache
  .text.GUI__IntersectRect
-                0x10086c4c       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__Private.o)
-                0x10086c4c                GUI__IntersectRect
+                0x10086c48       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__Private.o)
+                0x10086c48                GUI__IntersectRect
  .text.GUI__IntersectRects
-                0x10086c88       0x68 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__Private.o)
-                0x10086c88                GUI__IntersectRects
+                0x10086c84       0x68 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__Private.o)
+                0x10086c84                GUI__IntersectRects
  .text.GUI_GetYAdjust
-                0x10086cf0       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
-                0x10086cf0                GUI_GetYAdjust
+                0x10086cec       0x2c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
+                0x10086cec                GUI_GetYAdjust
  .text.GUI_GetFontDistY
-                0x10086d1c       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
-                0x10086d1c                GUI_GetFontDistY
+                0x10086d18       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
+                0x10086d18                GUI_GetFontDistY
  .text.GUI_GetCharDistX
-                0x10086d2c       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
-                0x10086d2c                GUI_GetCharDistX
+                0x10086d28       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
+                0x10086d28                GUI_GetCharDistX
  .text.GUI_GetCharDistXEx
-                0x10086d40       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
-                0x10086d40                GUI_GetCharDistXEx
+                0x10086d3c       0x14 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Char.o)
+                0x10086d3c                GUI_GetCharDistXEx
  .text._Log2VisBuffered
-                0x10086d54        0x2 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
- *fill*         0x10086d56        0x2 
+                0x10086d50        0x2 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
+ *fill*         0x10086d52        0x2 
  .text._DispLine
-                0x10086d58       0x9c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
+                0x10086d54       0x9c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
  .text.GUI__GetLineNumChars
-                0x10086df4       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
-                0x10086df4                GUI__GetLineNumChars
+                0x10086df0       0x3c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
+                0x10086df0                GUI__GetLineNumChars
  .text.GUI__GetOverlap
-                0x10086e30       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
-                0x10086e30                GUI__GetOverlap
+                0x10086e2c       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
+                0x10086e2c                GUI__GetOverlap
  .text.GUI__GetLineDistX
-                0x10086e48       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
-                0x10086e48                GUI__GetLineDistX
+                0x10086e44       0x5c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
+                0x10086e44                GUI__GetLineDistX
  .text.GUI__DispLine
-                0x10086ea4       0x9c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
-                0x10086ea4                GUI__DispLine
+                0x10086ea0       0x9c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_CharLine.o)
+                0x10086ea0                GUI__DispLine
  .text.GL_DrawPoint
-                0x10086f40       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLib.o)
-                0x10086f40                GL_DrawPoint
+                0x10086f3c       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_DrawLib.o)
+                0x10086f3c                GL_DrawPoint
  .text.GUI_SelectLayer
-                0x10086f68       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_SelectLayer.o)
-                0x10086f68                GUI_SelectLayer
+                0x10086f64       0x28 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_SelectLayer.o)
+                0x10086f64                GUI_SelectLayer
  .text._GetIndexMask_0
-                0x10086f90       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_0.o)
+                0x10086f8c       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_0.o)
  .text._Index2Color_0
-                0x10086fd4       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_0.o)
+                0x10086fd0       0x20 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_0.o)
  .text._Color2Index_0
-                0x10086ff4       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_0.o)
+                0x10086ff0       0x50 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUICC_0.o)
  .text.GUI_MEMDEV_GetBitsPerPixel
-                0x10087044       0x26 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV.o)
-                0x10087044                GUI_MEMDEV_GetBitsPerPixel
- *fill*         0x1008706a        0x2 
+                0x10087040       0x26 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV.o)
+                0x10087040                GUI_MEMDEV_GetBitsPerPixel
+ *fill*         0x10087066        0x2 
  .text.GUI_MEMDEV_Delete
-                0x1008706c       0x40 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV.o)
-                0x1008706c                GUI_MEMDEV_Delete
+                0x10087068       0x40 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV.o)
+                0x10087068                GUI_MEMDEV_Delete
  .text._GetDevData
-                0x100870ac       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x100870a8       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._GetDevFunc
-                0x100870bc       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
- .text._SetOrg  0x100870cc        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x100870b8       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+ .text._SetOrg  0x100870c8        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._GetDevProp
-                0x100870d8        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x100870d4        0xc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._GetRect
-                0x100870e4       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x100870e0       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._XY2PTR_BITOFFSET
-                0x10087114       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x10087110       0x44 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._GetPixelIndex
-                0x10087158       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x10087154       0x18 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._XorPixel
-                0x10087170       0x58 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x1008716c       0x58 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._SetPixelIndex
-                0x100871c8       0x60 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x100871c4       0x60 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._DrawVLine
-                0x10087228       0xb8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x10087224       0xb8 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._FillRect
-                0x100872e0      0x158 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x100872dc      0x158 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._DrawHLine
-                0x10087438        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
- *fill*         0x10087442        0x2 
+                0x10087434        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+ *fill*         0x1008743e        0x2 
  .text._DrawBitmap
-                0x10087444      0x614 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
+                0x10087440      0x614 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_1.o)
  .text._GetDevData
-                0x10087a58       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087a54       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._GetDevFunc
-                0x10087a68       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
- .text._SetOrg  0x10087a78       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087a64       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+ .text._SetOrg  0x10087a74       0x10 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._GetRect
-                0x10087a88       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
- .text._XY2PTR  0x10087ab8       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087a84       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+ .text._XY2PTR  0x10087ab4       0x38 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._GetPixelIndex
-                0x10087af0        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
- *fill*         0x10087afe        0x2 
+                0x10087aec        0xe Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+ *fill*         0x10087afa        0x2 
  .text._XorPixel
-                0x10087b00       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087afc       0x54 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._SetPixelIndex
-                0x10087b54       0x48 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087b50       0x48 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._DrawVLine
-                0x10087b9c       0xbc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087b98       0xbc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._FillRect
-                0x10087c58       0xb0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087c54       0xb0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._DrawHLine
-                0x10087d08        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
- *fill*         0x10087d12        0x2 
+                0x10087d04        0xa Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+ *fill*         0x10087d0e        0x2 
  .text._DrawBitmap
-                0x10087d14      0x688 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10087d10      0x688 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text._GetDevProp
-                0x1008839c       0x1e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
+                0x10088398       0x1e Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_8.o)
  .text.GUI_USAGE_DecUseCnt
-                0x100883ba       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_Usage.o)
-                0x100883ba                GUI_USAGE_DecUseCnt
+                0x100883b6       0x24 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_Usage.o)
+                0x100883b6                GUI_USAGE_DecUseCnt
  .text.GUI_USAGE_AddRect
-                0x100883de       0x26 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_Usage.o)
-                0x100883de                GUI_USAGE_AddRect
+                0x100883da       0x26 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_Usage.o)
+                0x100883da                GUI_USAGE_AddRect
  .text._Convert16
-                0x10088404       0x34 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_WriteToActiveOpaque.o)
+                0x10088400       0x34 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_WriteToActiveOpaque.o)
  .text._Convert8
-                0x10088438       0x34 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_WriteToActiveOpaque.o)
+                0x10088434       0x34 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_WriteToActiveOpaque.o)
  .text.GUI_MEMDEV__WriteToActiveOpaque
-                0x1008846c      0x714 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_WriteToActiveOpaque.o)
-                0x1008846c                GUI_MEMDEV__WriteToActiveOpaque
+                0x10088468      0x714 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_WriteToActiveOpaque.o)
+                0x10088468                GUI_MEMDEV__WriteToActiveOpaque
  .text.LCD_SetClipRectEx
-                0x10088b80       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_SetClipRectEx.o)
-                0x10088b80                LCD_SetClipRectEx
+                0x10088b7c       0x30 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(LCD_SetClipRectEx.o)
+                0x10088b7c                LCD_SetClipRectEx
  .text.GUI__CompactPixelIndices
-                0x10088bb0      0x14a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__CompactPixelIndices.o)
-                0x10088bb0                GUI__CompactPixelIndices
- *fill*         0x10088cfa        0x2 
+                0x10088bac      0x14a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI__CompactPixelIndices.o)
+                0x10088bac                GUI__CompactPixelIndices
+ *fill*         0x10088cf6        0x2 
  .text.GL_FillCircle
-                0x10088cfc       0xcc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Circ.o)
-                0x10088cfc                GL_FillCircle
+                0x10088cf8       0xcc Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Circ.o)
+                0x10088cf8                GL_FillCircle
  .text.GUI_MEMDEV_GetDataPtr
-                0x10088dc8       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_GetDataPtr.o)
-                0x10088dc8                GUI_MEMDEV_GetDataPtr
- .text          0x10088de4       0x14 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_thumb1_case_uqi.o)
-                0x10088de4                __gnu_thumb1_case_uqi
- .text          0x10088df8       0x14 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_thumb1_case_uhi.o)
-                0x10088df8                __gnu_thumb1_case_uhi
- .text          0x10088e0c       0x24 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_udivsi3.o)
-                0x10088e0c                __aeabi_uidiv
-                0x10088e0c                __udivsi3
-                0x10088e20                __aeabi_uidivmod
- .text          0x10088e30       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_divsi3.o)
-                0x10088e30                __divsi3
-                0x10088e30                __aeabi_idiv
-                0x10088e4c                __aeabi_idivmod
- .text          0x10088e5c        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_dvmd_tls.o)
-                0x10088e5c                __aeabi_idiv0
-                0x10088e5c                __aeabi_ldiv0
- .text.memcpy   0x10088e60       0x16 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memcpy-stub.o)
-                0x10088e60                memcpy
- .text.memmove  0x10088e76       0x36 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memmove.o)
-                0x10088e76                memmove
- .text.memset   0x10088eac       0x10 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memset.o)
-                0x10088eac                memset
- .text.rand     0x10088ebc       0x74 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-rand.o)
-                0x10088ebc                rand
- .text.sprintf  0x10088f30       0x48 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-sprintf.o)
-                0x10088f30                siprintf
-                0x10088f30                sprintf
- .text.strncpy  0x10088f78       0x26 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-strncpy.o)
-                0x10088f78                strncpy
- *fill*         0x10088f9e        0x2 
- .text.malloc   0x10088fa0       0x10 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-malloc.o)
-                0x10088fa0                malloc
- .text._free_r  0x10088fb0       0x9c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-freer.o)
-                0x10088fb0                _free_r
+                0x10088dc4       0x1c Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_GetDataPtr.o)
+                0x10088dc4                GUI_MEMDEV_GetDataPtr
+ .text          0x10088de0       0x14 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_thumb1_case_uqi.o)
+                0x10088de0                __gnu_thumb1_case_uqi
+ .text          0x10088df4       0x14 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_thumb1_case_uhi.o)
+                0x10088df4                __gnu_thumb1_case_uhi
+ .text          0x10088e08       0x24 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_udivsi3.o)
+                0x10088e08                __aeabi_uidiv
+                0x10088e08                __udivsi3
+                0x10088e1c                __aeabi_uidivmod
+ .text          0x10088e2c       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_divsi3.o)
+                0x10088e2c                __divsi3
+                0x10088e2c                __aeabi_idiv
+                0x10088e48                __aeabi_idivmod
+ .text          0x10088e58        0x4 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_dvmd_tls.o)
+                0x10088e58                __aeabi_idiv0
+                0x10088e58                __aeabi_ldiv0
+ .text.memcpy   0x10088e5c       0x16 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memcpy-stub.o)
+                0x10088e5c                memcpy
+ .text.memmove  0x10088e72       0x36 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memmove.o)
+                0x10088e72                memmove
+ .text.memset   0x10088ea8       0x10 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memset.o)
+                0x10088ea8                memset
+ .text.rand     0x10088eb8       0x74 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-rand.o)
+                0x10088eb8                rand
+ .text.sprintf  0x10088f2c       0x48 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-sprintf.o)
+                0x10088f2c                siprintf
+                0x10088f2c                sprintf
+ .text.strncpy  0x10088f74       0x26 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-strncpy.o)
+                0x10088f74                strncpy
+ *fill*         0x10088f9a        0x2 
+ .text.malloc   0x10088f9c       0x10 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-malloc.o)
+                0x10088f9c                malloc
+ .text._free_r  0x10088fac       0x9c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-freer.o)
+                0x10088fac                _free_r
  .text._malloc_r
-                0x1008904c       0xbc c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-mallocr.o)
-                0x1008904c                _malloc_r
+                0x10089048       0xbc c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-mallocr.o)
+                0x10089048                _malloc_r
  .text.__ssputs_r
-                0x10089108       0xb2 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-svfprintf.o)
-                0x10089108                __ssputs_r
- *fill*         0x100891ba        0x2 
+                0x10089104       0xb2 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x10089104                __ssputs_r
+ *fill*         0x100891b6        0x2 
  .text._svfprintf_r
-                0x100891bc      0x1e8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-svfprintf.o)
-                0x100891bc                _svfiprintf_r
-                0x100891bc                _svfprintf_r
+                0x100891b8      0x1e8 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-svfprintf.o)
+                0x100891b8                _svfiprintf_r
+                0x100891b8                _svfprintf_r
  .text._printf_common
-                0x100893a4       0xec c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x100893a4                _printf_common
+                0x100893a0       0xec c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x100893a0                _printf_common
  .text._printf_i
-                0x10089490      0x24c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-vfprintf_i.o)
-                0x10089490                _printf_i
- .text._sbrk_r  0x100896dc       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-sbrkr.o)
-                0x100896dc                _sbrk_r
- *fill*         0x100896fc        0x4 
+                0x1008948c      0x24c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-nano-vfprintf_i.o)
+                0x1008948c                _printf_i
+ .text._sbrk_r  0x100896d8       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-sbrkr.o)
+                0x100896d8                _sbrk_r
+ *fill*         0x100896f8        0x8 
  .text          0x10089700       0xa0 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memchr.o)
                 0x10089700                memchr
  .text.__malloc_lock
@@ -4746,41 +4745,41 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .ARM.attributes
                 0x00000307       0x37 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
  .ARM.attributes
-                0x0000033e       0x37 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
+                0x0000033e       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
  .ARM.attributes
-                0x00000375       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+                0x00000375       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
  .ARM.attributes
-                0x000003ac       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+                0x000003ac       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
  .ARM.attributes
-                0x000003e3       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+                0x000003e3       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
  .ARM.attributes
-                0x0000041a       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x0000041a       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
  .ARM.attributes
-                0x00000451       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+                0x00000451       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
  .ARM.attributes
-                0x00000488       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+                0x00000488       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
  .ARM.attributes
-                0x000004bf       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+                0x000004bf       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
  .ARM.attributes
-                0x000004f6       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+                0x000004f6       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
  .ARM.attributes
-                0x0000052d       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+                0x0000052d       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
  .ARM.attributes
-                0x00000564       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+                0x00000564       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
  .ARM.attributes
-                0x0000059b       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x0000059b       0x25 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
  .ARM.attributes
-                0x000005d2       0x25 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+                0x000005c0       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
  .ARM.attributes
-                0x000005f7       0x37 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x000005f7       0x37 .\CortexM4\ARM_GCC_541\Debug\PWM.o
  .ARM.attributes
-                0x0000062e       0x37 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+                0x0000062e       0x37 .\CortexM4\ARM_GCC_541\Debug\Timer.o
  .ARM.attributes
-                0x00000665       0x37 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+                0x00000665       0x37 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
  .ARM.attributes
-                0x0000069c       0x37 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+                0x0000069c       0x37 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
  .ARM.attributes
-                0x000006d3       0x37 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+                0x000006d3       0x37 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
  .ARM.attributes
                 0x0000070a       0x32 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F13B_1.o)
  .ARM.attributes
@@ -4943,7 +4942,6 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
@@ -4960,6 +4958,7 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\Timer.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
  .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .comment       0x0000006e       0x6f .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
  .comment       0x0000006e       0x6f Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F13B_1.o)
  .comment       0x0000006e       0x6f Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F13B_ASCII.o)
  .comment       0x0000006e       0x6f Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F6x8.o)
@@ -5008,107 +5007,107 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .comment       0x0000006e       0x6f Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUI_Circ.o)
  .comment       0x0000006e       0x6f Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(GUIDEV_GetDataPtr.o)
 
-.debug_line     0x00000000     0x6f3c
+.debug_line     0x00000000     0x6f41
  .debug_line    0x00000000       0xa0 .\CortexM4\ARM_GCC_541\Debug\startup_psoc63_cm4.o
- .debug_line    0x000000a0      0x7fc .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
- .debug_line    0x0000089c      0x2fa .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
- .debug_line    0x00000b96      0x8e0 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
- .debug_line    0x00001476      0x3a6 .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
- .debug_line    0x0000181c      0x545 .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
- .debug_line    0x00001d61       0x8c .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
- .debug_line    0x00001ded      0x2a0 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
- .debug_line    0x0000208d      0x241 .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
- .debug_line    0x000022ce      0x2bc .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
- .debug_line    0x0000258a      0x214 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
- .debug_line    0x0000279e      0x141 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
- .debug_line    0x000028df      0x338 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
- .debug_line    0x00002c17      0x22b .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .debug_line    0x00002e42      0x216 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .debug_line    0x00003058      0x2a8 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_line    0x00003300      0x2ac .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_line    0x000035ac      0x35f .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_line    0x0000390b      0x572 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_line    0x00003e7d      0x261 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_line    0x000040de      0x280 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
- .debug_line    0x0000435e      0x447 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_line    0x000047a5      0x799 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
- .debug_line    0x00004f3e      0x72e .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_line    0x0000566c      0x8c7 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_line    0x00005f33      0x401 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_line    0x00006334       0x89 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
- .debug_line    0x000063bd      0x30b .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_line    0x000066c8      0x21d .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_line    0x000068e5      0x223 .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_line    0x00006b08      0x21a .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_line    0x00006d22      0x21a .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_line    0x000000a0      0x7fd .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
+ .debug_line    0x0000089d      0x2fa .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
+ .debug_line    0x00000b97      0x8e0 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
+ .debug_line    0x00001477      0x3a6 .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
+ .debug_line    0x0000181d      0x545 .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
+ .debug_line    0x00001d62       0x8c .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
+ .debug_line    0x00001dee      0x2a0 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
+ .debug_line    0x0000208e      0x241 .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
+ .debug_line    0x000022cf      0x2bc .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
+ .debug_line    0x0000258b      0x214 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
+ .debug_line    0x0000279f      0x141 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x000028e0      0x338 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
+ .debug_line    0x00002c18      0x22b .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
+ .debug_line    0x00002e43      0x2a8 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_line    0x000030eb      0x2ac .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_line    0x00003397      0x35f .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_line    0x000036f6      0x572 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_line    0x00003c68      0x261 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_line    0x00003ec9      0x280 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_line    0x00004149      0x447 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_line    0x00004590      0x799 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_line    0x00004d29      0x72e .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_line    0x00005457      0x8c7 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_line    0x00005d1e      0x401 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_line    0x0000611f       0x89 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+ .debug_line    0x000061a8      0x30b .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_line    0x000064b3      0x21d .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_line    0x000066d0      0x223 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_line    0x000068f3      0x21a .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_line    0x00006b0d      0x21a .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_line    0x00006d27      0x21a .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 
-.debug_info     0x00000000    0x1a842
+.debug_info     0x00000000    0x1a837
  .debug_info    0x00000000       0xb7 .\CortexM4\ARM_GCC_541\Debug\startup_psoc63_cm4.o
- .debug_info    0x000000b7     0x26bd .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
- .debug_info    0x00002774      0xff9 .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
- .debug_info    0x0000376d     0x1723 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
- .debug_info    0x00004e90      0x91e .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
- .debug_info    0x000057ae     0x1a78 .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
- .debug_info    0x00007226      0x63e .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
- .debug_info    0x00007864      0x2d9 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
- .debug_info    0x00007b3d      0x726 .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
- .debug_info    0x00008263      0x876 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
- .debug_info    0x00008ad9      0x4e3 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
- .debug_info    0x00008fbc       0xac .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
- .debug_info    0x00009068      0xf6e .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
- .debug_info    0x00009fd6      0x481 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .debug_info    0x0000a457      0x1cd .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .debug_info    0x0000a624      0x9c5 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_info    0x0000afe9      0x486 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_info    0x0000b46f      0x808 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_info    0x0000bc77     0x15f4 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_info    0x0000d26b      0x431 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_info    0x0000d69c      0x477 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
- .debug_info    0x0000db13      0xd8c .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_info    0x0000e89f     0x1f33 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
- .debug_info    0x000107d2     0x27a5 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_info    0x00012f77     0x3d45 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_info    0x00016cbc     0x2511 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_info    0x000191cd       0xdc .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
- .debug_info    0x000192a9      0x8b5 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_info    0x00019b5e      0x4c9 .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_info    0x0001a027      0x481 .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_info    0x0001a4a8      0x1cd .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_info    0x0001a675      0x1cd .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_info    0x000000b7     0x26b2 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
+ .debug_info    0x00002769      0xff9 .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
+ .debug_info    0x00003762     0x1723 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
+ .debug_info    0x00004e85      0x91e .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
+ .debug_info    0x000057a3     0x1a78 .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
+ .debug_info    0x0000721b      0x63e .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
+ .debug_info    0x00007859      0x2d9 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
+ .debug_info    0x00007b32      0x726 .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
+ .debug_info    0x00008258      0x876 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
+ .debug_info    0x00008ace      0x4e3 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
+ .debug_info    0x00008fb1       0xac .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x0000905d      0xf6e .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
+ .debug_info    0x00009fcb      0x481 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
+ .debug_info    0x0000a44c      0x9c5 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_info    0x0000ae11      0x486 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_info    0x0000b297      0x808 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_info    0x0000ba9f     0x15f4 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_info    0x0000d093      0x431 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_info    0x0000d4c4      0x477 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_info    0x0000d93b      0xd8c .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_info    0x0000e6c7     0x1f33 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_info    0x000105fa     0x27a5 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_info    0x00012d9f     0x3d45 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_info    0x00016ae4     0x2511 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_info    0x00018ff5       0xdc .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+ .debug_info    0x000190d1      0x8b5 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_info    0x00019986      0x4c9 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_info    0x00019e4f      0x481 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_info    0x0001a2d0      0x1cd .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_info    0x0001a49d      0x1cd .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_info    0x0001a66a      0x1cd .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 
-.debug_abbrev   0x00000000     0x3998
+.debug_abbrev   0x00000000     0x39a7
  .debug_abbrev  0x00000000       0x14 .\CortexM4\ARM_GCC_541\Debug\startup_psoc63_cm4.o
- .debug_abbrev  0x00000014      0x3b0 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
- .debug_abbrev  0x000003c4      0x1c4 .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
- .debug_abbrev  0x00000588      0x2d9 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
- .debug_abbrev  0x00000861      0x1dd .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
- .debug_abbrev  0x00000a3e      0x2db .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
- .debug_abbrev  0x00000d19      0x183 .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
- .debug_abbrev  0x00000e9c      0x163 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
- .debug_abbrev  0x00000fff      0x208 .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
- .debug_abbrev  0x00001207      0x173 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
- .debug_abbrev  0x0000137a       0xa0 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
- .debug_abbrev  0x0000141a       0x5d .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
- .debug_abbrev  0x00001477      0x210 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
- .debug_abbrev  0x00001687      0x152 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .debug_abbrev  0x000017d9       0xca .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .debug_abbrev  0x000018a3      0x221 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_abbrev  0x00001ac4      0x177 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_abbrev  0x00001c3b      0x22d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_abbrev  0x00001e68      0x30d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_abbrev  0x00002175      0x158 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_abbrev  0x000022cd      0x158 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
- .debug_abbrev  0x00002425      0x276 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_abbrev  0x0000269b      0x2fb .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
- .debug_abbrev  0x00002996      0x340 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_abbrev  0x00002cd6      0x349 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_abbrev  0x0000301f      0x310 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_abbrev  0x0000332f       0x14 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
- .debug_abbrev  0x00003343      0x21d .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_abbrev  0x00003560      0x152 .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_abbrev  0x000036b2      0x152 .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_abbrev  0x00003804       0xca .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_abbrev  0x000038ce       0xca .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_abbrev  0x00000014      0x3bf .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
+ .debug_abbrev  0x000003d3      0x1c4 .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
+ .debug_abbrev  0x00000597      0x2d9 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
+ .debug_abbrev  0x00000870      0x1dd .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
+ .debug_abbrev  0x00000a4d      0x2db .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
+ .debug_abbrev  0x00000d28      0x183 .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
+ .debug_abbrev  0x00000eab      0x163 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
+ .debug_abbrev  0x0000100e      0x208 .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
+ .debug_abbrev  0x00001216      0x173 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
+ .debug_abbrev  0x00001389       0xa0 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
+ .debug_abbrev  0x00001429       0x5d .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x00001486      0x210 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
+ .debug_abbrev  0x00001696      0x152 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
+ .debug_abbrev  0x000017e8      0x221 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_abbrev  0x00001a09      0x177 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_abbrev  0x00001b80      0x22d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_abbrev  0x00001dad      0x30d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_abbrev  0x000020ba      0x158 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_abbrev  0x00002212      0x158 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_abbrev  0x0000236a      0x276 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_abbrev  0x000025e0      0x2fb .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_abbrev  0x000028db      0x340 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_abbrev  0x00002c1b      0x349 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_abbrev  0x00002f64      0x310 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_abbrev  0x00003274       0x14 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+ .debug_abbrev  0x00003288      0x21d .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_abbrev  0x000034a5      0x152 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_abbrev  0x000035f7      0x152 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_abbrev  0x00003749       0xca .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_abbrev  0x00003813       0xca .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_abbrev  0x000038dd       0xca .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 
 .debug_aranges  0x00000000      0x938
  .debug_aranges
@@ -5140,41 +5139,41 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .debug_aranges
                 0x00000330       0x20 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
  .debug_aranges
-                0x00000350       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
+                0x00000350       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
  .debug_aranges
-                0x00000390       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+                0x00000380       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
  .debug_aranges
-                0x000003c0       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+                0x000003b0       0x40 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
  .debug_aranges
-                0x000003f0       0x40 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+                0x000003f0       0x68 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
  .debug_aranges
-                0x00000430       0x68 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+                0x00000458       0x28 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
  .debug_aranges
-                0x00000498       0x28 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+                0x00000480       0x28 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
  .debug_aranges
-                0x000004c0       0x28 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+                0x000004a8       0x68 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
  .debug_aranges
-                0x000004e8       0x68 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+                0x00000510       0x80 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
  .debug_aranges
-                0x00000550       0x80 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+                0x00000590       0xb0 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
  .debug_aranges
-                0x000005d0       0xb0 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+                0x00000640      0x108 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
  .debug_aranges
-                0x00000680      0x108 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+                0x00000748       0x78 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
  .debug_aranges
-                0x00000788       0x78 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+                0x000007c0       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
  .debug_aranges
-                0x00000800       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o
+                0x000007e0       0x58 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
  .debug_aranges
-                0x00000820       0x58 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+                0x00000838       0x20 .\CortexM4\ARM_GCC_541\Debug\PWM.o
  .debug_aranges
-                0x00000878       0x20 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+                0x00000858       0x20 .\CortexM4\ARM_GCC_541\Debug\Timer.o
  .debug_aranges
-                0x00000898       0x20 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+                0x00000878       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
  .debug_aranges
-                0x000008b8       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+                0x000008b8       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
  .debug_aranges
-                0x000008f8       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+                0x000008f8       0x40 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 
 .debug_loc      0x00000000     0x619a
  .debug_loc     0x00000000      0x436 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
@@ -5187,23 +5186,23 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .debug_loc     0x00001b8f       0x1e .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
  .debug_loc     0x00001bad       0x57 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
  .debug_loc     0x00001c04       0x58 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .debug_loc     0x00001c5c       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .debug_loc     0x00001ca0      0x223 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_loc     0x00001ec3      0x2a1 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_loc     0x00002164      0x6c2 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_loc     0x00002826      0x7d4 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_loc     0x00002ffa      0x103 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_loc     0x000030fd       0xd9 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
- .debug_loc     0x000031d6      0x588 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_loc     0x0000375e      0xe88 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
- .debug_loc     0x000045e6      0xbe0 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_loc     0x000051c6      0xb0a .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_loc     0x00005cd0      0x1fc .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_loc     0x00005ecc      0x194 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_loc     0x00006060       0x5a .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_loc     0x000060ba       0x58 .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_loc     0x00006112       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_loc     0x00006156       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_loc     0x00001c5c      0x223 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_loc     0x00001e7f      0x2a1 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_loc     0x00002120      0x6c2 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_loc     0x000027e2      0x7d4 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_loc     0x00002fb6      0x103 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_loc     0x000030b9       0xd9 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_loc     0x00003192      0x588 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_loc     0x0000371a      0xe88 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_loc     0x000045a2      0xbe0 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_loc     0x00005182      0xb0a .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_loc     0x00005c8c      0x1fc .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_loc     0x00005e88      0x194 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_loc     0x0000601c       0x5a .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_loc     0x00006076       0x58 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_loc     0x000060ce       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_loc     0x00006112       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_loc     0x00006156       0x44 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 
 .debug_ranges   0x00000000      0x7b8
  .debug_ranges  0x00000000       0x60 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
@@ -5217,84 +5216,84 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .debug_ranges  0x00000220       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
  .debug_ranges  0x00000240       0x18 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
  .debug_ranges  0x00000258       0x10 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .debug_ranges  0x00000268       0x30 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .debug_ranges  0x00000298       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_ranges  0x000002b8       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_ranges  0x000002d8       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_ranges  0x00000308       0x58 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_ranges  0x00000360       0x18 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_ranges  0x00000378       0x18 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
- .debug_ranges  0x00000390       0x88 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_ranges  0x00000418       0x70 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
- .debug_ranges  0x00000488       0xa0 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_ranges  0x00000528      0x160 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_ranges  0x00000688       0x68 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_ranges  0x000006f0       0x48 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_ranges  0x00000738       0x10 .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_ranges  0x00000748       0x10 .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_ranges  0x00000758       0x30 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_ranges  0x00000788       0x30 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_ranges  0x00000268       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_ranges  0x00000288       0x20 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_ranges  0x000002a8       0x30 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_ranges  0x000002d8       0x58 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_ranges  0x00000330       0x18 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_ranges  0x00000348       0x18 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_ranges  0x00000360       0x88 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_ranges  0x000003e8       0x70 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_ranges  0x00000458       0xa0 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_ranges  0x000004f8      0x160 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_ranges  0x00000658       0x68 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_ranges  0x000006c0       0x48 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_ranges  0x00000708       0x10 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_ranges  0x00000718       0x10 .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_ranges  0x00000728       0x30 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_ranges  0x00000758       0x30 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_ranges  0x00000788       0x30 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
 
-.debug_str      0x00000000     0x77d2
- .debug_str     0x00000000     0x1d02 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
-                               0x1dc5 (size before relaxing)
- .debug_str     0x00001d02      0x889 .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
+.debug_str      0x00000000     0x77ea
+ .debug_str     0x00000000     0x1d06 .\CortexM4\ARM_GCC_541\Debug\main_cm4.o
+                               0x1dc9 (size before relaxing)
+ .debug_str     0x00001d06      0x889 .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o
                                 0xb27 (size before relaxing)
- .debug_str     0x0000258b      0x521 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
+ .debug_str     0x0000258f      0x521 .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o
                                 0xab1 (size before relaxing)
- .debug_str     0x00002aac      0x19e .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
+ .debug_str     0x00002ab0      0x19e .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o
                                 0x8a7 (size before relaxing)
- .debug_str     0x00002c4a      0x7ea .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
+ .debug_str     0x00002c4e      0x7ea .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o
                                0x105c (size before relaxing)
- .debug_str     0x00003434       0x55 .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
+ .debug_str     0x00003438       0x55 .\CortexM4\ARM_GCC_541\Debug\GUIConf.o
                                 0x443 (size before relaxing)
- .debug_str     0x00003489      0x186 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
+ .debug_str     0x0000348d      0x186 .\CortexM4\ARM_GCC_541\Debug\GUI_X.o
                                 0x3a0 (size before relaxing)
- .debug_str     0x0000360f      0x2db .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
+ .debug_str     0x00003613      0x2db .\CortexM4\ARM_GCC_541\Debug\LCDConf.o
                                 0x508 (size before relaxing)
- .debug_str     0x000038ea      0x322 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
+ .debug_str     0x000038ee      0x322 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
                                0x1550 (size before relaxing)
- .debug_str     0x00003c0c       0x46 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
+ .debug_str     0x00003c10       0x46 .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o
                                0x1248 (size before relaxing)
- .debug_str     0x00003c52       0x30 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
+ .debug_str     0x00003c56       0x30 .\CortexM4\ARM_GCC_541\Debug\cymetadata.o
                                 0x1ed (size before relaxing)
- .debug_str     0x00003c82      0x154 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
+ .debug_str     0x00003c86      0x154 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
                                0x1a67 (size before relaxing)
- .debug_str     0x00003dd6       0x53 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
+ .debug_str     0x00003dda       0x53 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
                                 0x4e2 (size before relaxing)
- .debug_str     0x00003e29       0x8e .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
-                                0x2f2 (size before relaxing)
- .debug_str     0x00003eb7       0xf0 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_str     0x00003e2d       0xf0 .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
                                0x13fc (size before relaxing)
- .debug_str     0x00003fa7      0x191 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_str     0x00003f1d      0x191 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
                                 0x3f7 (size before relaxing)
- .debug_str     0x00004138      0x25b .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_str     0x000040ae      0x25b .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
                                 0x61d (size before relaxing)
- .debug_str     0x00004393      0x45d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_str     0x00004309      0x45d .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
                                0x1af4 (size before relaxing)
- .debug_str     0x000047f0       0x98 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_str     0x00004766       0x98 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
                                 0x4df (size before relaxing)
- .debug_str     0x00004888       0x69 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_str     0x000047fe       0x69 .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
                                 0x507 (size before relaxing)
- .debug_str     0x000048f1      0x196 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_str     0x00004867      0x196 .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
                                 0x760 (size before relaxing)
- .debug_str     0x00004a87      0x4dd .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_str     0x000049fd      0x4dd .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
                                 0xf81 (size before relaxing)
- .debug_str     0x00004f64      0xc46 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_str     0x00004eda      0xc46 .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
                                0x2a12 (size before relaxing)
- .debug_str     0x00005baa     0x1408 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_str     0x00005b20     0x1408 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
                                0x254a (size before relaxing)
- .debug_str     0x00006fb2      0x503 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_str     0x00006f28      0x503 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
                                0x1923 (size before relaxing)
- .debug_str     0x000074b5      0x1a5 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_str     0x0000742b      0x1a5 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
                                 0x7da (size before relaxing)
- .debug_str     0x0000765a       0x29 .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_str     0x000075d0       0x29 .\CortexM4\ARM_GCC_541\Debug\PWM.o
                                 0x4ea (size before relaxing)
- .debug_str     0x00007683       0x1f .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_str     0x000075f9       0x1f .\CortexM4\ARM_GCC_541\Debug\Timer.o
                                 0x4c2 (size before relaxing)
- .debug_str     0x000076a2       0x98 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_str     0x00007618       0xa2 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
                                 0x30a (size before relaxing)
- .debug_str     0x0000773a       0x98 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_str     0x000076ba       0x98 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+                                0x30a (size before relaxing)
+ .debug_str     0x00007752       0x98 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
                                 0x30a (size before relaxing)
 
 .debug_frame    0x00000000     0x1bc0
@@ -5309,23 +5308,23 @@ OUTPUT(C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE
  .debug_frame   0x000006d0       0x64 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o
  .debug_frame   0x00000734       0x48 .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o
  .debug_frame   0x0000077c       0x2c .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .debug_frame   0x000007a8       0x78 .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o
- .debug_frame   0x00000820       0x7c .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
- .debug_frame   0x0000089c       0x70 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
- .debug_frame   0x0000090c       0xcc .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
- .debug_frame   0x000009d8      0x164 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
- .debug_frame   0x00000b3c       0x6c .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
- .debug_frame   0x00000ba8       0x6c .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
- .debug_frame   0x00000c14      0x12c .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
- .debug_frame   0x00000d40      0x198 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
- .debug_frame   0x00000ed8      0x22c .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
- .debug_frame   0x00001104      0x354 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
- .debug_frame   0x00001458      0x124 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
- .debug_frame   0x0000157c       0xb8 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
- .debug_frame   0x00001634       0x2c .\CortexM4\ARM_GCC_541\Debug\PWM.o
- .debug_frame   0x00001660       0x2c .\CortexM4\ARM_GCC_541\Debug\Timer.o
- .debug_frame   0x0000168c       0x78 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
- .debug_frame   0x00001704       0x78 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_frame   0x000007a8       0x7c .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o
+ .debug_frame   0x00000824       0x70 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o
+ .debug_frame   0x00000894       0xcc .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o
+ .debug_frame   0x00000960      0x164 .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o
+ .debug_frame   0x00000ac4       0x6c .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o
+ .debug_frame   0x00000b30       0x6c .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o
+ .debug_frame   0x00000b9c      0x12c .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o
+ .debug_frame   0x00000cc8      0x198 .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o
+ .debug_frame   0x00000e60      0x22c .\CortexM4\ARM_GCC_541\Debug\cy_flash.o
+ .debug_frame   0x0000108c      0x354 .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o
+ .debug_frame   0x000013e0      0x124 .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o
+ .debug_frame   0x00001504       0xb8 .\CortexM4\ARM_GCC_541\Debug\cy_systick.o
+ .debug_frame   0x000015bc       0x2c .\CortexM4\ARM_GCC_541\Debug\PWM.o
+ .debug_frame   0x000015e8       0x2c .\CortexM4\ARM_GCC_541\Debug\Timer.o
+ .debug_frame   0x00001614       0x78 .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o
+ .debug_frame   0x0000168c       0x78 .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o
+ .debug_frame   0x00001704       0x78 .\CortexM4\ARM_GCC_541\Debug\Status_Button1.o
  .debug_frame   0x0000177c       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_udivsi3.o)
  .debug_frame   0x0000179c       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7e-m/softfp\libgcc.a(_divsi3.o)
  .debug_frame   0x000017bc       0x28 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7e-m/softfp\libg_nano.a(lib_a-memcpy-stub.o)

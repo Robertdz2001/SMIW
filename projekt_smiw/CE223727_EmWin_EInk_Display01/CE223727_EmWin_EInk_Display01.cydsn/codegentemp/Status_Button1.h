@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Status_SW2.h  
+* File Name: Status_Button1.h  
 * Version 1.90
 *
 * Description:
@@ -14,8 +14,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_STATUS_REG_Status_SW2_H) /* CY_STATUS_REG_Status_SW2_H */
-#define CY_STATUS_REG_Status_SW2_H
+#if !defined(CY_STATUS_REG_Status_Button1_H) /* CY_STATUS_REG_Status_Button1_H */
+#define CY_STATUS_REG_Status_Button1_H
 
 #include "cyfitter.h"
 
@@ -38,25 +38,25 @@ typedef struct
 {
     uint8 statusState;
 
-} Status_SW2_BACKUP_STRUCT;
+} Status_Button1_BACKUP_STRUCT;
 
 
 /***************************************
 *        Function Prototypes
 ***************************************/
 
-uint8 Status_SW2_Read(void) ;
-void Status_SW2_InterruptEnable(void) ;
-void Status_SW2_InterruptDisable(void) ;
-void Status_SW2_WriteMask(uint8 mask) ;
-uint8 Status_SW2_ReadMask(void) ;
+uint8 Status_Button1_Read(void) ;
+void Status_Button1_InterruptEnable(void) ;
+void Status_Button1_InterruptDisable(void) ;
+void Status_Button1_WriteMask(uint8 mask) ;
+uint8 Status_Button1_ReadMask(void) ;
 
 
 /***************************************
 *           API Constants
 ***************************************/
 
-#define Status_SW2_STATUS_INTR_ENBL    0x10u
+#define Status_Button1_STATUS_INTR_ENBL    0x10u
 
 
 /***************************************
@@ -64,7 +64,7 @@ uint8 Status_SW2_ReadMask(void) ;
 ***************************************/
 
 /* Status Register Inputs */
-#define Status_SW2_INPUTS              1
+#define Status_Button1_INPUTS              1
 
 
 /***************************************
@@ -72,12 +72,12 @@ uint8 Status_SW2_ReadMask(void) ;
 ***************************************/
 
 /* Status Register */
-#define Status_SW2_Status             (* (reg8 *) Status_SW2_sts_sts_reg__STATUS_REG )
-#define Status_SW2_Status_PTR         (  (reg8 *) Status_SW2_sts_sts_reg__STATUS_REG )
-#define Status_SW2_Status_Mask        (* (reg8 *) Status_SW2_sts_sts_reg__MASK_REG )
-#define Status_SW2_Status_Aux_Ctrl    (* (reg8 *) Status_SW2_sts_sts_reg__STATUS_AUX_CTL_REG )
+#define Status_Button1_Status             (* (reg8 *) Status_Button1_sts_sts_reg__STATUS_REG )
+#define Status_Button1_Status_PTR         (  (reg8 *) Status_Button1_sts_sts_reg__STATUS_REG )
+#define Status_Button1_Status_Mask        (* (reg8 *) Status_Button1_sts_sts_reg__MASK_REG )
+#define Status_Button1_Status_Aux_Ctrl    (* (reg8 *) Status_Button1_sts_sts_reg__STATUS_AUX_CTL_REG )
 
-#endif /* End CY_STATUS_REG_Status_SW2_H */
+#endif /* End CY_STATUS_REG_Status_Button1_H */
 
 
 /* [] END OF FILE */

@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2024-09-14T15:19:05Z")
+ (DATE "2024-09-15T12:36:27Z")
  (DESIGN "CE223727_EmWin_EInk_Display01")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -17,7 +17,7 @@
     (INTERCONNECT ClockBlock.periclk \\CY_EINK_SPIM\:SCB_IRQ\\.clock (0.000:0.000:0.000))
     (INTERCONNECT ClockBlock.periclk isrTimer.clock (0.000:0.000:0.000))
     (INTERCONNECT ClockBlock.ff_div_12 \\Timer\:TCPWM\\.clock (0.000:0.000:0.000))
-    (INTERCONNECT Button1\(0\).fb \\Status_SW2\:sts\:sts_reg\\.status_0 (13.049:14.442:14.442))
+    (INTERCONNECT Button1\(0\).fb \\Status_Button1\:sts\:sts_reg\\.status_0 (13.049:14.442:14.442))
     (INTERCONNECT ClockBlock.ff_div_18 \\PWM\:TCPWM\\.clock (0.000:0.000:0.000))
     (INTERCONNECT \\PWM\:TCPWM\\.line Pin\(0\).pin_input (0.000:0.000:0.000))
     (INTERCONNECT \\Timer\:TCPWM\\.interrupt isrTimer.interrupt (0.000:0.000:0.000))

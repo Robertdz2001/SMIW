@@ -492,31 +492,6 @@ Discarded input sections
  .debug_frame   0x00000000       0x2c .\CortexM0p\ARM_GCC_541\Debug\CY_EINK_Timer.o
  .ARM.attributes
                 0x00000000       0x32 .\CortexM0p\ARM_GCC_541\Debug\CY_EINK_Timer.o
- .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_Read
-                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_InterruptEnable
-                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_InterruptDisable
-                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_WriteMask
-                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .text.Status_SW2_ReadMask
-                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_info    0x00000000      0x1a6 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_abbrev  0x00000000       0xb9 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_loc     0x00000000       0x44 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_aranges
-                0x00000000       0x40 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_ranges  0x00000000       0x30 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_line    0x00000000      0x1e2 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_str     0x00000000      0x2b2 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .comment       0x00000000       0x6f .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .debug_frame   0x00000000       0x78 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
- .ARM.attributes
-                0x00000000       0x32 .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
  .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cy_sysint.o
  .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cy_sysint.o
  .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\cy_sysint.o
@@ -1374,6 +1349,31 @@ Discarded input sections
  .debug_frame   0x00000000       0x78 .\CortexM0p\ARM_GCC_541\Debug\Status_Button3.o
  .ARM.attributes
                 0x00000000       0x32 .\CortexM0p\ARM_GCC_541\Debug\Status_Button3.o
+ .text          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .data          0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .bss           0x00000000        0x0 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_Read
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_InterruptEnable
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_InterruptDisable
+                0x00000000       0x20 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_WriteMask
+                0x00000000       0x10 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .text.Status_Button1_ReadMask
+                0x00000000        0xc .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_info    0x00000000      0x1a6 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_abbrev  0x00000000       0xb9 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_loc     0x00000000       0x44 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_aranges
+                0x00000000       0x40 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_ranges  0x00000000       0x30 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_line    0x00000000      0x1e6 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_str     0x00000000      0x2ca .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .comment       0x00000000       0x6f .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .debug_frame   0x00000000       0x78 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
+ .ARM.attributes
+                0x00000000       0x32 .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
  .text          0x00000000        0x0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F6x8.o)
  .data          0x00000000        0x0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F6x8.o)
  .bss           0x00000000        0x0 Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a(F6x8.o)
@@ -3764,7 +3764,6 @@ LOAD .\CortexM0p\ARM_GCC_541\Debug\cyfitter_cfg.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\cymetadata.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\CY_EINK_SPIM.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\CY_EINK_Timer.o
-LOAD .\CortexM0p\ARM_GCC_541\Debug\Status_SW2.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\cy_sysint.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\cy_ipc_drv.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\cy_ipc_sema.o
@@ -3796,6 +3795,7 @@ LOAD .\CortexM0p\ARM_GCC_541\Debug\PWM.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\Timer.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\Status_Button2.o
 LOAD .\CortexM0p\ARM_GCC_541\Debug\Status_Button3.o
+LOAD .\CortexM0p\ARM_GCC_541\Debug\Status_Button1.o
 END GROUP
 START GROUP
 LOAD c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/armv6-m\libgcc.a

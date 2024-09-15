@@ -90,7 +90,7 @@
 #include "CY_EINK_SPIM.h"
 #include "EINK_Clock.h"
 #include "CY_EINK_Timer.h"
-#include "Status_SW2.h"
+#include "Status_Button1.h"
 #include "Clock_2.h"
 #include "PWM.h"
 #include "Clock_1.h"

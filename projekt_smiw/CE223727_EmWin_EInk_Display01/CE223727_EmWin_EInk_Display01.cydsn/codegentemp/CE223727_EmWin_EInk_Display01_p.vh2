@@ -1,5 +1,5 @@
 -- Project:   CE223727_EmWin_EInk_Display01
--- Generated: 09/14/2024 17:18:56
+-- Generated: 09/15/2024 14:36:17
 -- PSoC Creator  4.2
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -154,7 +154,7 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     ATTRIBUTE Location OF Button2(0) : LABEL IS "P9[6]";
     ATTRIBUTE lib_model OF Button3(0) : LABEL IS "iocell17";
     ATTRIBUTE Location OF Button3(0) : LABEL IS "P9[5]";
-    ATTRIBUTE lib_model OF \Status_SW2:sts:sts_reg\ : LABEL IS "statuscell1";
+    ATTRIBUTE lib_model OF \Status_Button1:sts:sts_reg\ : LABEL IS "statuscell1";
     ATTRIBUTE lib_model OF \Status_Button2:sts:sts_reg\ : LABEL IS "statuscell2";
     ATTRIBUTE lib_model OF \Status_Button3:sts:sts_reg\ : LABEL IS "statuscell3";
     COMPONENT CLK_GEN
@@ -1553,7 +1553,7 @@ BEGIN
             line => \CY_EINK_Timer:Net_2\,
             interrupt => Net_130);
 
-    \Status_SW2:sts:sts_reg\:statuscell
+    \Status_Button1:sts:sts_reg\:statuscell
         GENERIC MAP(
             cy_force_order => 1,
             cy_md_select => "00000000",

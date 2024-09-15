@@ -1,6 +1,6 @@
 // ======================================================================
 // CE223727_EmWin_EInk_Display01.v generated from TopDesign.cysch
-// 09/14/2024 at 17:18
+// 09/15/2024 at 14:36
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -951,7 +951,7 @@ module top ;
 		  .siovref(tmpSIOVREF__Button1_net));
 
 
-    CyStatusReg_v1_90 Status_SW2 (
+    CyStatusReg_v1_90 Status_Button1 (
         .status_0(Net_136),
         .status_1(1'b0),
         .status_2(1'b0),
@@ -963,18 +963,18 @@ module top ;
         .status_7(1'b0),
         .intr(Net_137),
         .status_bus(8'b0));
-    defparam Status_SW2.Bit0Mode = 0;
-    defparam Status_SW2.Bit1Mode = 0;
-    defparam Status_SW2.Bit2Mode = 0;
-    defparam Status_SW2.Bit3Mode = 0;
-    defparam Status_SW2.Bit4Mode = 0;
-    defparam Status_SW2.Bit5Mode = 0;
-    defparam Status_SW2.Bit6Mode = 0;
-    defparam Status_SW2.Bit7Mode = 0;
-    defparam Status_SW2.BusDisplay = 0;
-    defparam Status_SW2.Interrupt = 0;
-    defparam Status_SW2.MaskValue = 0;
-    defparam Status_SW2.NumInputs = 1;
+    defparam Status_Button1.Bit0Mode = 0;
+    defparam Status_Button1.Bit1Mode = 0;
+    defparam Status_Button1.Bit2Mode = 0;
+    defparam Status_Button1.Bit3Mode = 0;
+    defparam Status_Button1.Bit4Mode = 0;
+    defparam Status_Button1.Bit5Mode = 0;
+    defparam Status_Button1.Bit6Mode = 0;
+    defparam Status_Button1.Bit7Mode = 0;
+    defparam Status_Button1.BusDisplay = 0;
+    defparam Status_Button1.Interrupt = 0;
+    defparam Status_Button1.MaskValue = 0;
+    defparam Status_Button1.NumInputs = 1;
 
 
 	cy_clock_v1_0

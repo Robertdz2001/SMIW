@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Status_SW2.c  
+* File Name: Status_Button1.c  
 * Version 1.90
 *
 * Description:
@@ -15,13 +15,13 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#include "Status_SW2.h"
+#include "Status_Button1.h"
 
-#if !defined(Status_SW2_sts_sts_reg__REMOVED) /* Check for removal by optimization */
+#if !defined(Status_Button1_sts_sts_reg__REMOVED) /* Check for removal by optimization */
 
 
 /*******************************************************************************
-* Function Name: Status_SW2_Read
+* Function Name: Status_Button1_Read
 ********************************************************************************
 *
 * Summary:
@@ -34,14 +34,14 @@
 *  The current value in the Status Register.
 *
 *******************************************************************************/
-uint8 Status_SW2_Read(void) 
+uint8 Status_Button1_Read(void) 
 { 
-    return Status_SW2_Status;
+    return Status_Button1_Status;
 }
 
 
 /*******************************************************************************
-* Function Name: Status_SW2_InterruptEnable
+* Function Name: Status_Button1_InterruptEnable
 ********************************************************************************
 *
 * Summary:
@@ -54,17 +54,17 @@ uint8 Status_SW2_Read(void)
 *  None.
 *
 *******************************************************************************/
-void Status_SW2_InterruptEnable(void) 
+void Status_Button1_InterruptEnable(void) 
 {
     uint8 interruptState;
     interruptState = CyEnterCriticalSection();
-    Status_SW2_Status_Aux_Ctrl |= Status_SW2_STATUS_INTR_ENBL;
+    Status_Button1_Status_Aux_Ctrl |= Status_Button1_STATUS_INTR_ENBL;
     CyExitCriticalSection(interruptState);
 }
 
 
 /*******************************************************************************
-* Function Name: Status_SW2_InterruptDisable
+* Function Name: Status_Button1_InterruptDisable
 ********************************************************************************
 *
 * Summary:
@@ -77,17 +77,17 @@ void Status_SW2_InterruptEnable(void)
 *  None.
 *
 *******************************************************************************/
-void Status_SW2_InterruptDisable(void) 
+void Status_Button1_InterruptDisable(void) 
 {
     uint8 interruptState;
     interruptState = CyEnterCriticalSection();
-    Status_SW2_Status_Aux_Ctrl &= (uint8)(~Status_SW2_STATUS_INTR_ENBL);
+    Status_Button1_Status_Aux_Ctrl &= (uint8)(~Status_Button1_STATUS_INTR_ENBL);
     CyExitCriticalSection(interruptState);
 }
 
 
 /*******************************************************************************
-* Function Name: Status_SW2_WriteMask
+* Function Name: Status_Button1_WriteMask
 ********************************************************************************
 *
 * Summary:
@@ -100,17 +100,17 @@ void Status_SW2_InterruptDisable(void)
 *  None.
 *
 *******************************************************************************/
-void Status_SW2_WriteMask(uint8 mask) 
+void Status_Button1_WriteMask(uint8 mask) 
 {
-    #if(Status_SW2_INPUTS < 8u)
-    	mask &= ((uint8)(1u << Status_SW2_INPUTS) - 1u);
-	#endif /* End Status_SW2_INPUTS < 8u */
-    Status_SW2_Status_Mask = mask;
+    #if(Status_Button1_INPUTS < 8u)
+    	mask &= ((uint8)(1u << Status_Button1_INPUTS) - 1u);
+	#endif /* End Status_Button1_INPUTS < 8u */
+    Status_Button1_Status_Mask = mask;
 }
 
 
 /*******************************************************************************
-* Function Name: Status_SW2_ReadMask
+* Function Name: Status_Button1_ReadMask
 ********************************************************************************
 *
 * Summary:
@@ -123,9 +123,9 @@ void Status_SW2_WriteMask(uint8 mask)
 *  The value of the interrupt mask of the Status Register.
 *
 *******************************************************************************/
-uint8 Status_SW2_ReadMask(void) 
+uint8 Status_Button1_ReadMask(void) 
 {
-    return Status_SW2_Status_Mask;
+    return Status_Button1_Status_Mask;
 }
 
 #endif /* End check for removal by optimization */

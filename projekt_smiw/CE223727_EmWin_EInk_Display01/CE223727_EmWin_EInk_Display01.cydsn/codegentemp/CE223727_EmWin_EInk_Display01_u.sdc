@@ -1,3 +1,3 @@
 # Component constraints for C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\TopDesign\TopDesign.cysch
 # Project: C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj
-# Date: Sat, 14 Sep 2024 15:18:48 GMT
+# Date: Sun, 15 Sep 2024 12:36:09 GMT

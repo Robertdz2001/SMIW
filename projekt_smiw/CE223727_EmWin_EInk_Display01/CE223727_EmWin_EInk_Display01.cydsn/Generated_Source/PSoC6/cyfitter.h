@@ -52,18 +52,6 @@
 #define EINK_Clock__DIV_NUM 0
 #define EINK_Clock__DIV_TYPE CY_SYSCLK_DIV_16_BIT
 
-/* Status_SW2 */
-#define Status_SW2_sts_sts_reg__0__MASK 0x01u
-#define Status_SW2_sts_sts_reg__0__POS 0
-#define Status_SW2_sts_sts_reg__MASK 0x01u
-#define Status_SW2_sts_sts_reg__MASK_REG 0x4034182Cu
-#define Status_SW2_sts_sts_reg__RC_CFG0 0x40342ADCu
-#define Status_SW2_sts_sts_reg__RC_CFG1 0x40342AE0u
-#define Status_SW2_sts_sts_reg__SC_CFG0 0x40342AD4u
-#define Status_SW2_sts_sts_reg__SC_CFG1 0x40342AD8u
-#define Status_SW2_sts_sts_reg__STATUS_AUX_CTL_REG 0x4034192Cu
-#define Status_SW2_sts_sts_reg__STATUS_REG 0x4034162Cu
-
 /* CY_EINK_SPIM */
 #define CY_EINK_SPIM_SCB__HW SCB6
 #define CY_EINK_SPIM_SCB__IDX 6
@@ -80,6 +68,18 @@
 #define CY_EINK_Timer_TCPWM__CNT_IDX 0u
 #define CY_EINK_Timer_TCPWM__HW TCPWM0
 #define CY_EINK_Timer_TCPWM__IDX 0u
+
+/* Status_Button1 */
+#define Status_Button1_sts_sts_reg__0__MASK 0x01u
+#define Status_Button1_sts_sts_reg__0__POS 0
+#define Status_Button1_sts_sts_reg__MASK 0x01u
+#define Status_Button1_sts_sts_reg__MASK_REG 0x4034182Cu
+#define Status_Button1_sts_sts_reg__RC_CFG0 0x40342ADCu
+#define Status_Button1_sts_sts_reg__RC_CFG1 0x40342AE0u
+#define Status_Button1_sts_sts_reg__SC_CFG0 0x40342AD4u
+#define Status_Button1_sts_sts_reg__SC_CFG1 0x40342AD8u
+#define Status_Button1_sts_sts_reg__STATUS_AUX_CTL_REG 0x4034192Cu
+#define Status_Button1_sts_sts_reg__STATUS_REG 0x4034162Cu
 
 /* Status_Button2 */
 #define Status_Button2_sts_sts_reg__0__MASK 0x01u

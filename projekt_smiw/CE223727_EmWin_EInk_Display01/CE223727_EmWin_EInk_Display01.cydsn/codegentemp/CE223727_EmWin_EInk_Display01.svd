@@ -317,7 +317,7 @@
       </registers>
     </peripheral>
     <peripheral>
-      <name>Status_SW2</name>
+      <name>Status_Button1</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
       <addressBlock>
@@ -327,7 +327,7 @@
       </addressBlock>
       <registers>
         <register>
-          <name>Status_SW2_STATUS_REG</name>
+          <name>Status_Button1_STATUS_REG</name>
           <description>No description available</description>
           <addressOffset>0x4034162C</addressOffset>
           <size>8</size>
@@ -336,7 +336,7 @@
           <resetMask>0</resetMask>
         </register>
         <register>
-          <name>Status_SW2_MASK_REG</name>
+          <name>Status_Button1_MASK_REG</name>
           <description>No description available</description>
           <addressOffset>0x4034182C</addressOffset>
           <size>8</size>
@@ -345,7 +345,7 @@
           <resetMask>0</resetMask>
         </register>
         <register>
-          <name>Status_SW2_STATUS_AUX_CTL_REG</name>
+          <name>Status_Button1_STATUS_AUX_CTL_REG</name>
           <description>No description available</description>
           <addressOffset>0x4034192C</addressOffset>
           <size>8</size>

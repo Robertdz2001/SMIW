@@ -19,8 +19,8 @@
   <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\EINK_Clock.h" value="HEADER;;;;;EINK_Clock" />
   <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\CY_EINK_Timer.c" value="SOURCE_C;CortexM0p,CortexM4;;;;CY_EINK_Timer" />
   <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\CY_EINK_Timer.h" value="HEADER;;;;;CY_EINK_Timer" />
-  <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\Status_SW2.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Status_SW2" />
-  <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\Status_SW2.h" value="HEADER;;;;;Status_SW2" />
+  <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\Status_Button1.c" value="SOURCE_C;CortexM0p,CortexM4;;;;Status_Button1" />
+  <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\Status_Button1.h" value="HEADER;;;;;Status_Button1" />
   <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\Clock_2.h" value="HEADER;;;;;Clock_2" />
   <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\PWM.c" value="SOURCE_C;CortexM0p,CortexM4;;;;PWM" />
   <file name="C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\codegentemp\PWM.h" value="HEADER;;;;;PWM" />
