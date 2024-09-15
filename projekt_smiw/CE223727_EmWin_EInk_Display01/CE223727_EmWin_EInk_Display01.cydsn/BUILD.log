@@ -1,4 +1,4 @@
---------------- Build Started: 09/14/2024 19:11:04 Project: CE223727_EmWin_EInk_Display01, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 09/15/2024 14:22:24 Project: CE223727_EmWin_EInk_Display01, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 The code generation step is up to date.
 The compile step is up to date, no work needs to be done.
 The link step is up to date, no work needs to be done.
@@ -8,12 +8,16 @@ main_cm4.c:201:9: warning: unused variable 'table_count' [-Wunused-variable]
      int table_count = sizeof(table_data) / sizeof(table_data[0]);
          ^
 main_cm4.c: In function 'AddNew':
-main_cm4.c:396:14: warning: unused variable 'btn1_Pressed' [-Wunused-variable]
+main_cm4.c:404:14: warning: unused variable 'btn1_Pressed' [-Wunused-variable]
          bool btn1_Pressed = false;
               ^
-main_cm4.c:477:14: warning: unused variable 'btn1_Pressed' [-Wunused-variable]
+main_cm4.c:485:14: warning: unused variable 'btn1_Pressed' [-Wunused-variable]
          bool btn1_Pressed = false;
               ^
+main_cm4.c: In function 'TimerInterruptHandler':
+main_cm4.c:647:16: warning: unused variable 'counter' [-Wunused-variable]
+     static int counter = 0;
+                ^
 arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CortexM4\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01_link.elf Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_gcc.a Generated_Source\PSoC6\pdl\middleware\emWin\libs\libemWin_nosnts_cm4f_gcc.a .\CortexM4\ARM_GCC_541\Debug\startup_psoc63_cm4.o .\CortexM4\ARM_GCC_541\Debug\main_cm4.o .\CortexM4\ARM_GCC_541\Debug\system_psoc63_cm4.o .\CortexM4\ARM_GCC_541\Debug\pervasive_eink_hardware_driver.o .\CortexM4\ARM_GCC_541\Debug\cy_eink_library.o .\CortexM4\ARM_GCC_541\Debug\cy_eink_psoc_interface.o ".\CortexM4\ARM_GCC_541\Debug\Cypress Logo Full Color_PNG_1bpp.o" .\CortexM4\ARM_GCC_541\Debug\GUIConf.o .\CortexM4\ARM_GCC_541\Debug\GUI_X.o .\CortexM4\ARM_GCC_541\Debug\LCDConf.o .\CortexM4\ARM_GCC_541\Debug\cy_ipc_config.o .\CortexM4\ARM_GCC_541\Debug\cyfitter_sysint_cfg.o .\CortexM4\ARM_GCC_541\Debug\cymetadata.o .\CortexM4\ARM_GCC_541\Debug\CY_EINK_SPIM.o .\CortexM4\ARM_GCC_541\Debug\CY_EINK_Timer.o .\CortexM4\ARM_GCC_541\Debug\Status_SW2.o .\CortexM4\ARM_GCC_541\Debug\cy_sysint.o .\CortexM4\ARM_GCC_541\Debug\cy_ipc_drv.o .\CortexM4\ARM_GCC_541\Debug\cy_ipc_sema.o .\CortexM4\ARM_GCC_541\Debug\cy_ipc_pipe.o .\CortexM4\ARM_GCC_541\Debug\cy_sysclk.o .\CortexM4\ARM_GCC_541\Debug\cy_wdt.o .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_counter.o .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_pwm.o .\CortexM4\ARM_GCC_541\Debug\cy_tcpwm_quaddec.o .\CortexM4\ARM_GCC_541\Debug\cy_scb_common.o .\CortexM4\ARM_GCC_541\Debug\cy_scb_i2c.o .\CortexM4\ARM_GCC_541\Debug\cy_scb_ezi2c.o .\CortexM4\ARM_GCC_541\Debug\cy_scb_spi.o .\CortexM4\ARM_GCC_541\Debug\cy_scb_uart.o .\CortexM4\ARM_GCC_541\Debug\cy_efuse.o .\CortexM4\ARM_GCC_541\Debug\cy_flash.o .\CortexM4\ARM_GCC_541\Debug\cy_gpio.o .\CortexM4\ARM_GCC_541\Debug\cy_sysanalog.o .\CortexM4\ARM_GCC_541\Debug\cy_syspm.o .\CortexM4\ARM_GCC_541\Debug\cy_syslib.o .\CortexM4\ARM_GCC_541\Debug\cy_syslib_gcc.o .\CortexM4\ARM_GCC_541\Debug\cy_trigmux.o .\CortexM4\ARM_GCC_541\Debug\cy_systick.o .\CortexM4\ARM_GCC_541\Debug\cy_profile.o .\CortexM4\ARM_GCC_541\Debug\cy_prot.o .\CortexM4\ARM_GCC_541\Debug\cy_lvd.o .\CortexM4\ARM_GCC_541\Debug\cy_ble_clk.o .\CortexM4\ARM_GCC_541\Debug\PWM.o .\CortexM4\ARM_GCC_541\Debug\Timer.o .\CortexM4\ARM_GCC_541\Debug\Status_Button2.o .\CortexM4\ARM_GCC_541\Debug\Status_Button3.o -mcpu=cortex-m4 -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mthumb -L Generated_Source\PSoC6 -Wl,-Map,.\CortexM4\ARM_GCC_541\Debug/CE223727_EmWin_EInk_Display01.map -T cy8c6xx7_cm4_dual.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
 "C:\Program Files (x86)\Cypress\PDL\3.0.4\tools\win\elf\cymcuelftool.exe" --sign C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CortexM4\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01_link.elf --output C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CortexM4\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01_signed.elf --hex C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CortexM4\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01_signed.hex
 No ELF section .cychecksum found, creating one
@@ -23,5 +27,5 @@ Checksum calculated and stored in ELF section .cymeta
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
 "C:\Program Files (x86)\Cypress\PDL\3.0.4\tools\win\elf\cymcuelftool.exe" -A C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CortexM4\ARM_GCC_541\Debug\CE223727_EmWin_EInk_Display01.elf
-code:62960	sram:36920
---------------- Build Succeeded: 09/14/2024 19:11:06 ---------------
+code:63356	sram:36920
+--------------- Build Succeeded: 09/15/2024 14:22:26 ---------------

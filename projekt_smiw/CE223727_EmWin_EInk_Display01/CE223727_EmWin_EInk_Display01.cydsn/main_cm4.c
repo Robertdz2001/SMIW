@@ -202,7 +202,7 @@ void WaitforSwitchPressAndRelease(void)
     
     Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
     /* Wait for SW2 to be pressed */
-    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0);
+    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0);
     
     /* Wait for SW2 to be released */
     while(Status_SW2_Read() == 0)
@@ -219,7 +219,14 @@ void WaitforSwitchPressAndRelease(void)
         return;
     }
     
-    if(modeSwitch == 1)
+    //Wcisniety trzeci przycisk
+    if(Status_Button3_Read() == 0)
+    {
+        modeSwitch = 3;
+        return;
+    }
+    
+    if(modeSwitch == 1 || modeSwitch == 3)
     {
         modeSwitch = 0;
     }
@@ -268,6 +275,7 @@ void ShowGraph_WithUpdate(void)
     }
     
     maxTimeInGraph = data[dataSize-1].time;
+    UpdateDisplay(CY_EINK_PARTIAL, true);
     programStarted = true;
 }
 
@@ -545,13 +553,15 @@ void AddNew()
     /* Display page title */
     GUI_SetFont(GUI_FONT_13B_1);
     GUI_SetTextAlign(GUI_TA_HCENTER);
-    GUI_DispStringAt("Click one to start, click two to break.", 132, 5);
+    GUI_DispStringAt("Click one to break, click two to start.", 110, 5);
+    GUI_DispStringAt("Click three to show graph.", 10, 25);
     UpdateDisplay(CY_EINK_PARTIAL, true);
     
-    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0);
+    while(Status_SW2_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0);
     
     bool btn1_Pressed = false;
     bool btn2_Pressed = false;
+    bool btn3_Pressed = false;
     
     while(Status_SW2_Read() == 0)
     {
@@ -561,15 +571,24 @@ void AddNew()
     {
         btn2_Pressed = true;
     }
+    while (Status_Button3_Read() == 0)
+    {
+        btn3_Pressed = true;
+    }
     
     if(btn1_Pressed)
     {
-        modeSwitch = 1;
+        modeSwitch = 0;
         which_data_table = 0;
     }
     else if(btn2_Pressed)
     {
-        modeSwitch = 0;
+        modeSwitch = 1;
+        which_data_table = 0;
+    }
+    else if(btn3_Pressed)
+    {
+        modeSwitch = 3;
         which_data_table = 0;
     }
 }
@@ -625,27 +644,32 @@ void TimerInterruptHandler(void)
 {
     /* Clear the terminal count interrupt */
     Cy_TCPWM_ClearInterrupt(Timer_HW, Timer_CNT_NUM, CY_TCPWM_INT_ON_TC);
+    static int counter = 0;
     
     if(programStarted)
     {
         int min = 0;
         int max = 300;
-        static int pointCounter = 10;
+        const int seconds = 10;
+        static int pointCounter = seconds;
     
         static int randomTemperature1 = 0;
         static int randomTemperature2 = 0;
             
         randomTemperature2 = (rand() % (max - min + 1)) + min;
             
-        GUI_DrawLine((pointCounter-10) / 2 + 30, 150 - randomTemperature1/2, pointCounter / 2 + 30, 150 - randomTemperature2/2);
+        GUI_DrawLine((pointCounter-seconds) / 2 + 30, 150 - randomTemperature1/2, pointCounter / 2 + 30, 150 - randomTemperature2/2);
 
-        UpdateDisplay(CY_EINK_PARTIAL, true);
+        //if(counter++ == 10){
+            UpdateDisplay(CY_EINK_PARTIAL, true);
+        //    counter = 0;
+        //}
         randomTemperature1 = randomTemperature2;
-        pointCounter+=10;
+        pointCounter+=seconds;
         
         if(Status_SW2_Read() == 0 || pointCounter >= maxTimeInGraph){
             programStarted = false;
-            pointCounter = 10;
+            pointCounter = seconds;
             randomTemperature1 = 0;
             randomTemperature2 = 0;
             which_data_table = 0;
@@ -698,12 +722,15 @@ int main(void)
                 WaitforSwitchPressAndRelease();
             }
             else if (modeSwitch == 1){
-                //ShowGraph_WithUpdate();
-                ShowGraph();
+                ShowGraph_WithUpdate();
                 WaitforSwitchPressAndRelease();
             }
             else if (modeSwitch == 2){
                 ShowAddNewPage();
+            }
+            else if (modeSwitch == 3) {
+                ShowGraph();
+                WaitforSwitchPressAndRelease();   
             }
         }
     }
