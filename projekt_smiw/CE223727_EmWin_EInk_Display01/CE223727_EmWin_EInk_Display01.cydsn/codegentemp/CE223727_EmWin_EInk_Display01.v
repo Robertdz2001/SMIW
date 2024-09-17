@@ -1,6 +1,6 @@
 // ======================================================================
 // CE223727_EmWin_EInk_Display01.v generated from TopDesign.cysch
-// 09/15/2024 at 14:36
+// 09/17/2024 at 18:40
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -1237,6 +1237,42 @@ module top ;
     defparam Status_Button3.Interrupt = 0;
     defparam Status_Button3.MaskValue = 0;
     defparam Status_Button3.NumInputs = 1;
+
+	wire [0:0] tmpFB_0__CY_MAX6675_Ssel_net;
+	wire [0:0] tmpIO_0__CY_MAX6675_Ssel_net;
+	electrical [0:0] tmpSIOVREF__CY_MAX6675_Ssel_net;
+
+	cy_mxs40_gpio_v1_0
+		#(.id("db299057-5a3e-4989-b7f7-a33019d061d1"),
+		  .width(1),
+		  .sio_grp_cnt(0),
+		  .drive_mode("6"),
+		  .ibuf_enabled("0"),
+		  .init_dr_st("0"),
+		  .input_sync("0"),
+		  .intr_mode("0"),
+		  .io_voltage(""),
+		  .output_conn("0"),
+		  .oe_conn("0"),
+		  .output_sync("0"),
+		  .oe_sync("0"),
+		  .drive_strength("0"),
+		  .max_frequency("100"),
+		  .i2c_mode("0"),
+		  .output_current_cap("8"),
+		  .pin_aliases(""),
+		  .pin_mode("O"),
+		  .slew_rate("0"),
+		  .vtrip("0"),
+		  .use_annotation("0"),
+		  .hotswap_needed("0"))
+		CY_MAX6675_Ssel
+		 (.oe({1'b1}),
+		  .y({1'b0}),
+		  .fb({tmpFB_0__CY_MAX6675_Ssel_net[0:0]}),
+		  .io({tmpIO_0__CY_MAX6675_Ssel_net[0:0]}),
+		  .siovref(tmpSIOVREF__CY_MAX6675_Ssel_net));
+
 
 
 

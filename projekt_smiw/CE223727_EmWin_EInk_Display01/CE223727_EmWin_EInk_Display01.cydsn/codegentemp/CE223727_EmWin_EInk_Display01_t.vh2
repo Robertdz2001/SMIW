@@ -1,5 +1,5 @@
 -- Project:   C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj
--- Generated: 09/15/2024 14:36:27
+-- Generated: 09/17/2024 18:40:41
 -- PSoC Creator  4.2
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -18,7 +18,8 @@ ENTITY CE223727_EmWin_EInk_Display01 IS
         GreenLED(0)_PAD : OUT std_ulogic;
         Pin(0)_PAD : OUT std_ulogic;
         Button2(0)_PAD : IN std_ulogic;
-        Button3(0)_PAD : IN std_ulogic);
+        Button3(0)_PAD : IN std_ulogic;
+        CY_MAX6675_Ssel(0)_PAD : OUT std_ulogic);
     ATTRIBUTE voltage_VBACKUP OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDD_NS OF __DEFAULT__ : ENTITY IS 3.3e0;
     ATTRIBUTE voltage_VDDA_CSD OF __DEFAULT__ : ENTITY IS 3.3e0;
@@ -49,6 +50,7 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL CY_EINK_DispIoEn(0)__PA : bit;
     SIGNAL CY_EINK_DispRst(0)__PA : bit;
     SIGNAL CY_EINK_Ssel(0)__PA : bit;
+    SIGNAL CY_MAX6675_Ssel(0)__PA : bit;
     SIGNAL ClockBlock_AltHF : bit;
     SIGNAL ClockBlock_ECO : bit;
     SIGNAL ClockBlock_ExtClk : bit;
@@ -156,6 +158,8 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     ATTRIBUTE Location OF Button2(0) : LABEL IS "P9[6]";
     ATTRIBUTE lib_model OF Button3(0) : LABEL IS "iocell17";
     ATTRIBUTE Location OF Button3(0) : LABEL IS "P9[5]";
+    ATTRIBUTE lib_model OF CY_MAX6675_Ssel(0) : LABEL IS "iocell18";
+    ATTRIBUTE Location OF CY_MAX6675_Ssel(0) : LABEL IS "P1[2]";
     ATTRIBUTE Location OF \CY_EINK_SPIM:SCB\ : LABEL IS "F(SCB,6)";
     ATTRIBUTE Location OF \CY_EINK_SPIM:SCB_IRQ\ : LABEL IS "[IntrContainer=(0)][IntrId=(47)]";
     ATTRIBUTE Location OF \CY_EINK_Timer:TCPWM\ : LABEL IS "F(TCPWM,0)";
@@ -1504,6 +1508,60 @@ BEGIN
             oe => open,
             fb => Net_362,
             pad_in => Button3(0)_PAD,
+            in_clock => open,
+            in_clock_en => open,
+            in_reset => open,
+            out_clock => open,
+            out_clock_en => open,
+            out_reset => open);
+
+    CY_MAX6675_Ssel:logicalport
+        GENERIC MAP(
+            cy_registers => "",
+            drive_mode => "110",
+            drive_strength => "0",
+            hotswap_needed => "0",
+            i2c_mode => "0",
+            ibuf_enabled => "0",
+            id => "db299057-5a3e-4989-b7f7-a33019d061d1",
+            init_dr_st => "0",
+            input_sync => "0",
+            intr_mode => "00",
+            io_voltage => "",
+            max_frequency => "100",
+            oe_conn => "0",
+            oe_sync => "0",
+            output_conn => "0",
+            output_current_cap => "8",
+            output_sync => "0",
+            pin_aliases => "",
+            pin_mode => "B",
+            sio_grp_cnt => 0,
+            slew_rate => "0",
+            use_annotation => "0",
+            vtrip => "00",
+            width => 1,
+            in_clk_inv => 0,
+            in_clken_inv => 0,
+            in_clken_mode => 1,
+            in_rst_inv => 0,
+            out_clk_inv => 0,
+            out_clken_inv => 0,
+            out_clken_mode => 1,
+            out_rst_inv => 0);
+
+    CY_MAX6675_Ssel(0):iocell
+        GENERIC MAP(
+            in_sync_mode => 0,
+            out_sync_mode => 0,
+            oe_sync_mode => 0,
+            logicalport => "CY_MAX6675_Ssel",
+            logicalport_pin_id => 0,
+            io_capabilities => "0000000000000000000000000000000000000000000000000000000000000001")
+        PORT MAP(
+            pa_out => CY_MAX6675_Ssel(0)__PA,
+            oe => open,
+            pad_in => CY_MAX6675_Ssel(0)_PAD,
             in_clock => open,
             in_clock_en => open,
             in_reset => open,

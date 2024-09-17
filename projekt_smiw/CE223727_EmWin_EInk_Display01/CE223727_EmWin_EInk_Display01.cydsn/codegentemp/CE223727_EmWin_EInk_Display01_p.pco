@@ -29,4 +29,5 @@ set_io "CY_EINK_Border(0)" iocell 5 6
 set_io "CY_EINK_DispIoEn(0)" iocell 0 2
 set_io "CY_EINK_Ssel(0)" iocell 12 3
 set_io "GreenLED(0)" iocell 1 1
+set_io "CY_MAX6675_Ssel(0)" iocell 1 2
 set_location "CPUSS" CPUSS -1 -1 0

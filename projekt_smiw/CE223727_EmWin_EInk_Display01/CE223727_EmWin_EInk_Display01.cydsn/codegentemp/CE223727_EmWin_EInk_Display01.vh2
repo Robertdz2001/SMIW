@@ -2,7 +2,7 @@
 --	Conversion of CE223727_EmWin_EInk_Display01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Sep 15 14:36:11 2024
+--	Tue Sep 17 18:40:25 2024
 --
 
 USE cypress.cypress.all;
@@ -152,6 +152,9 @@ SIGNAL \Status_Button3:status_4\ : bit;
 SIGNAL \Status_Button3:status_5\ : bit;
 SIGNAL \Status_Button3:status_6\ : bit;
 SIGNAL \Status_Button3:status_7\ : bit;
+SIGNAL tmpFB_0__CY_MAX6675_Ssel_net_0 : bit;
+SIGNAL tmpIO_0__CY_MAX6675_Ssel_net_0 : bit;
+TERMINAL tmpSIOVREF__CY_MAX6675_Ssel_net_0 : bit;
 BEGIN
 
 one <=  ('1') ;
@@ -792,5 +795,37 @@ Button3:cy_mxs40_gpio_v1_0
 		clock=>Net_335,
 		status=>(zero, zero, zero, zero,
 			zero, zero, zero, Net_362));
+CY_MAX6675_Ssel:cy_mxs40_gpio_v1_0
+	GENERIC MAP(cy_registers=>"",
+		width=>1,
+		sio_grp_cnt=>0,
+		id=>"db299057-5a3e-4989-b7f7-a33019d061d1",
+		drive_mode=>"6",
+		ibuf_enabled=>"0",
+		init_dr_st=>"0",
+		input_sync=>"0",
+		intr_mode=>"0",
+		io_voltage=>"",
+		output_conn=>"0",
+		oe_conn=>"0",
+		output_sync=>"0",
+		oe_sync=>"0",
+		drive_strength=>"0",
+		max_frequency=>"100",
+		output_current_cap=>"8",
+		i2c_mode=>"0",
+		pin_aliases=>"",
+		pin_mode=>"O",
+		slew_rate=>"0",
+		vtrip=>"0",
+		use_annotation=>"0",
+		hotswap_needed=>"0")
+	PORT MAP(oe=>(one),
+		y=>(zero),
+		fb=>(tmpFB_0__CY_MAX6675_Ssel_net_0),
+		analog=>(open),
+		io=>(tmpIO_0__CY_MAX6675_Ssel_net_0),
+		annotation=>(open),
+		siovref=>(tmpSIOVREF__CY_MAX6675_Ssel_net_0));
 
 END R_T_L;

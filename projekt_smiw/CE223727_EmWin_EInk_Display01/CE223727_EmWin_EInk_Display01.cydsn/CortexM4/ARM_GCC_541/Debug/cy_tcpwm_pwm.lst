@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 1
 
 
    1              		.syntax unified
@@ -11,7 +11,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 1
    8              		.eabi_attribute 24, 1
    9              		.eabi_attribute 25, 1
   10              		.eabi_attribute 26, 1
-  11              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 30, 6
   12              		.eabi_attribute 34, 1
   13              		.eabi_attribute 18, 4
   14              		.thumb
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 1
   27:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** * Initializes the counter in the TCPWM block for the PWM operation.
   28:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** *
   29:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** * \param base
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 2
 
 
   30:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** * The pointer to a TCPWM instance.
@@ -80,370 +80,477 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 1
   46:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** {
   29              		.loc 1 46 0
   30              		.cfi_startproc
-  31              		@ args = 0, pretend = 0, frame = 0
-  32              		@ frame_needed = 0, uses_anonymous_args = 0
+  31              		@ args = 0, pretend = 0, frame = 24
+  32              		@ frame_needed = 1, uses_anonymous_args = 0
   33              		@ link register save eliminated.
-  34              	.LVL0:
+  34 0000 80B4     		push	{r7}
+  35              		.cfi_def_cfa_offset 4
+  36              		.cfi_offset 7, -4
+  37 0002 87B0     		sub	sp, sp, #28
+  38              		.cfi_def_cfa_offset 32
+  39 0004 00AF     		add	r7, sp, #0
+  40              		.cfi_def_cfa_register 7
+  41 0006 F860     		str	r0, [r7, #12]
+  42 0008 B960     		str	r1, [r7, #8]
+  43 000a 7A60     		str	r2, [r7, #4]
   47:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     cy_en_tcpwm_status_t status = CY_TCPWM_BAD_PARAM;
+  44              		.loc 1 47 0
+  45 000c 8D4B     		ldr	r3, .L15
+  46 000e 7B61     		str	r3, [r7, #20]
   48:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
   49:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     if ((NULL != base) && (NULL != config))
-  35              		.loc 1 49 0
-  36 0000 0028     		cmp	r0, #0
-  37 0002 00F0AC80 		beq	.L12
-  46:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     cy_en_tcpwm_status_t status = CY_TCPWM_BAD_PARAM;
-  38              		.loc 1 46 0 discriminator 1
-  39 0006 70B4     		push	{r4, r5, r6}
-  40              		.cfi_def_cfa_offset 12
-  41              		.cfi_offset 4, -12
-  42              		.cfi_offset 5, -8
-  43              		.cfi_offset 6, -4
-  44 0008 0446     		mov	r4, r0
-  45              		.loc 1 49 0 discriminator 1
-  46 000a 002A     		cmp	r2, #0
-  47 000c 00F0A980 		beq	.L13
+  47              		.loc 1 49 0
+  48 0010 FB68     		ldr	r3, [r7, #12]
+  49 0012 002B     		cmp	r3, #0
+  50 0014 00F00F81 		beq	.L2
+  51              		.loc 1 49 0 is_stmt 0 discriminator 1
+  52 0018 7B68     		ldr	r3, [r7, #4]
+  53 001a 002B     		cmp	r3, #0
+  54 001c 00F00B81 		beq	.L2
   50:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     {
   51:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].CTRL = ((config->enableCompareSwap ? TCPWM_CNT_CTRL_AUTO_RELOAD_CC_Msk : 
-  48              		.loc 1 51 0
-  49 0010 92F82830 		ldrb	r3, [r2, #40]	@ zero_extendqisi2
-  50 0014 0BB1     		cbz	r3, .L14
-  51 0016 0125     		movs	r5, #1
-  52 0018 00E0     		b	.L3
-  53              	.L14:
-  54 001a 0025     		movs	r5, #0
-  55              	.L3:
+  55              		.loc 1 51 0 is_stmt 1
+  56 0020 7B68     		ldr	r3, [r7, #4]
+  57 0022 93F82830 		ldrb	r3, [r3, #40]	@ zero_extendqisi2
+  58 0026 002B     		cmp	r3, #0
+  59 0028 01D0     		beq	.L3
+  60              		.loc 1 51 0 is_stmt 0 discriminator 1
+  61 002a 0122     		movs	r2, #1
+  62 002c 00E0     		b	.L4
+  63              	.L3:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 3
+
+
+  64              		.loc 1 51 0 discriminator 2
+  65 002e 0022     		movs	r2, #0
+  66              	.L4:
   52:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   (config->enablePeriodSwap ? TCPWM_CNT_CTRL_AUTO_RELOAD_PERIOD_Msk
-  56              		.loc 1 52 0
-  57 001c 137F     		ldrb	r3, [r2, #28]	@ zero_extendqisi2
-  58 001e 0BB1     		cbz	r3, .L15
-  59 0020 0223     		movs	r3, #2
-  60 0022 00E0     		b	.L4
-  61              	.L15:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 3
-
-
-  62 0024 0023     		movs	r3, #0
-  63              	.L4:
+  67              		.loc 1 52 0 is_stmt 1
+  68 0030 7B68     		ldr	r3, [r7, #4]
+  69 0032 1B7F     		ldrb	r3, [r3, #28]	@ zero_extendqisi2
+  70 0034 002B     		cmp	r3, #0
+  71 0036 01D0     		beq	.L5
+  72              		.loc 1 52 0 is_stmt 0 discriminator 1
+  73 0038 0223     		movs	r3, #2
+  74 003a 00E0     		b	.L6
+  75              	.L5:
+  76              		.loc 1 52 0 discriminator 2
+  77 003c 0023     		movs	r3, #0
+  78              	.L6:
   51:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   (config->enablePeriodSwap ? TCPWM_CNT_CTRL_AUTO_RELOAD_PERIOD_Msk
-  64              		.loc 1 51 0
-  65 0026 1D43     		orrs	r5, r5, r3
+  79              		.loc 1 51 0 is_stmt 1
+  80 003e 1A43     		orrs	r2, r2, r3
   53:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_ONE_SHOT, config->runMode) |
-  66              		.loc 1 53 0
-  67 0028 1669     		ldr	r6, [r2, #16]
-  68 002a B604     		lsls	r6, r6, #18
-  69 002c 06F48026 		and	r6, r6, #262144
+  81              		.loc 1 53 0
+  82 0040 7B68     		ldr	r3, [r7, #4]
+  83 0042 1B69     		ldr	r3, [r3, #16]
+  84 0044 9B04     		lsls	r3, r3, #18
+  85 0046 03F48023 		and	r3, r3, #262144
   52:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   (config->enablePeriodSwap ? TCPWM_CNT_CTRL_AUTO_RELOAD_PERIOD_Msk
-  70              		.loc 1 52 0
-  71 0030 45EA0603 		orr	r3, r5, r6
+  86              		.loc 1 52 0
+  87 004a 1A43     		orrs	r2, r2, r3
   54:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_UP_DOWN_MODE, config->pwmAlignment) |
-  72              		.loc 1 54 0
-  73 0034 9568     		ldr	r5, [r2, #8]
-  74 0036 2D04     		lsls	r5, r5, #16
-  75 0038 05F44035 		and	r5, r5, #196608
+  88              		.loc 1 54 0
+  89 004c 7B68     		ldr	r3, [r7, #4]
+  90 004e 9B68     		ldr	r3, [r3, #8]
+  91 0050 1B04     		lsls	r3, r3, #16
+  92 0052 03F44033 		and	r3, r3, #196608
   53:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_ONE_SHOT, config->runMode) |
-  76              		.loc 1 53 0
-  77 003c 1D43     		orrs	r5, r5, r3
+  93              		.loc 1 53 0
+  94 0056 1A43     		orrs	r2, r2, r3
   55:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_MODE, config->pwmMode) |
-  78              		.loc 1 55 0
-  79 003e 1668     		ldr	r6, [r2]
-  80 0040 3006     		lsls	r0, r6, #24
-  81              	.LVL1:
-  82 0042 00F0E060 		and	r0, r0, #117440512
+  95              		.loc 1 55 0
+  96 0058 7B68     		ldr	r3, [r7, #4]
+  97 005a 1B68     		ldr	r3, [r3]
+  98 005c 1B06     		lsls	r3, r3, #24
+  99 005e 03F0E063 		and	r3, r3, #117440512
   54:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_UP_DOWN_MODE, config->pwmAlignment) |
-  83              		.loc 1 54 0
-  84 0046 2843     		orrs	r0, r0, r5
+ 100              		.loc 1 54 0
+ 101 0062 1A43     		orrs	r2, r2, r3
   56:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_QUADRATURE_MODE,
-  85              		.loc 1 56 0
-  86 0048 136B     		ldr	r3, [r2, #48]
-  87 004a 556B     		ldr	r5, [r2, #52]
-  88 004c 43EA4503 		orr	r3, r3, r5, lsl #1
-  89 0050 1B05     		lsls	r3, r3, #20
-  90 0052 03F44013 		and	r3, r3, #3145728
+ 102              		.loc 1 56 0
+ 103 0064 7B68     		ldr	r3, [r7, #4]
+ 104 0066 196B     		ldr	r1, [r3, #48]
+ 105 0068 7B68     		ldr	r3, [r7, #4]
+ 106 006a 5B6B     		ldr	r3, [r3, #52]
+ 107 006c 5B00     		lsls	r3, r3, #1
+ 108 006e 0B43     		orrs	r3, r3, r1
+ 109 0070 1B05     		lsls	r3, r3, #20
+ 110 0072 03F44013 		and	r3, r3, #3145728
   55:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_MODE, config->pwmMode) |
-  91              		.loc 1 55 0
-  92 0056 0343     		orrs	r3, r3, r0
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 4
+
+
+ 111              		.loc 1 55 0
+ 112 0076 1A43     		orrs	r2, r2, r3
   57:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                            (config->invertPWMOut | (config->invertPWMOutN << 1U))) 
   58:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   (config->killMode << CY_TCPWM_PWM_CTRL_SYNC_KILL_OR_STOP_ON_KILL_
-  93              		.loc 1 58 0
-  94 0058 906B     		ldr	r0, [r2, #56]
+ 113              		.loc 1 58 0
+ 114 0078 7B68     		ldr	r3, [r7, #4]
+ 115 007a 9B6B     		ldr	r3, [r3, #56]
+ 116 007c 9B00     		lsls	r3, r3, #2
   57:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                            (config->invertPWMOut | (config->invertPWMOutN << 1U))) 
-  95              		.loc 1 57 0
-  96 005a 43EA8000 		orr	r0, r3, r0, lsl #2
+ 117              		.loc 1 57 0
+ 118 007e 1A43     		orrs	r2, r2, r3
   59:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_GENERIC, ((CY_TCPWM_PWM_MODE_DEADTIME == 
-  97              		.loc 1 59 0
-  98 005e 052E     		cmp	r6, #5
-  99 0060 03D1     		bne	.L5
- 100              		.loc 1 59 0 is_stmt 0 discriminator 1
- 101 0062 D368     		ldr	r3, [r2, #12]
- 102 0064 1B02     		lsls	r3, r3, #8
- 103 0066 9BB2     		uxth	r3, r3
- 104 0068 02E0     		b	.L6
- 105              	.L5:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 4
-
-
- 106              		.loc 1 59 0 discriminator 2
- 107 006a 5368     		ldr	r3, [r2, #4]
- 108 006c 1B02     		lsls	r3, r3, #8
- 109 006e 9BB2     		uxth	r3, r3
- 110              	.L6:
+ 119              		.loc 1 59 0
+ 120 0080 7B68     		ldr	r3, [r7, #4]
+ 121 0082 1B68     		ldr	r3, [r3]
+ 122 0084 052B     		cmp	r3, #5
+ 123 0086 04D1     		bne	.L7
+ 124              		.loc 1 59 0 is_stmt 0 discriminator 1
+ 125 0088 7B68     		ldr	r3, [r7, #4]
+ 126 008a DB68     		ldr	r3, [r3, #12]
+ 127 008c 1B02     		lsls	r3, r3, #8
+ 128 008e 9BB2     		uxth	r3, r3
+ 129 0090 03E0     		b	.L8
+ 130              	.L7:
+ 131              		.loc 1 59 0 discriminator 2
+ 132 0092 7B68     		ldr	r3, [r7, #4]
+ 133 0094 5B68     		ldr	r3, [r3, #4]
+ 134 0096 1B02     		lsls	r3, r3, #8
+ 135 0098 9BB2     		uxth	r3, r3
+ 136              	.L8:
   58:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   _VAL2FLD(TCPWM_CNT_CTRL_GENERIC, ((CY_TCPWM_PWM_MODE_DEADTIME == 
- 111              		.loc 1 58 0 is_stmt 1
- 112 0070 0343     		orrs	r3, r3, r0
+ 137              		.loc 1 58 0 is_stmt 1
+ 138 009a 1A43     		orrs	r2, r2, r3
   51:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                   (config->enablePeriodSwap ? TCPWM_CNT_CTRL_AUTO_RELOAD_PERIOD_Msk
- 113              		.loc 1 51 0
- 114 0072 081D     		adds	r0, r1, #4
- 115 0074 8001     		lsls	r0, r0, #6
- 116 0076 2350     		str	r3, [r4, r0]
+ 139              		.loc 1 51 0
+ 140 009c F968     		ldr	r1, [r7, #12]
+ 141 009e BB68     		ldr	r3, [r7, #8]
+ 142 00a0 0433     		adds	r3, r3, #4
+ 143 00a2 9B01     		lsls	r3, r3, #6
+ 144 00a4 0B44     		add	r3, r3, r1
+ 145 00a6 1A60     		str	r2, [r3]
   60:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                                                      config->deadTimeClocks : confi
   61:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
   62:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         if (CY_TCPWM_PWM_MODE_PSEUDORANDOM == config->pwmMode)
- 117              		.loc 1 62 0
- 118 0078 1368     		ldr	r3, [r2]
- 119 007a 062B     		cmp	r3, #6
- 120 007c 08D1     		bne	.L7
+ 146              		.loc 1 62 0
+ 147 00a8 7B68     		ldr	r3, [r7, #4]
+ 148 00aa 1B68     		ldr	r3, [r3]
+ 149 00ac 062B     		cmp	r3, #6
+ 150 00ae 10D1     		bne	.L9
   63:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         {
   64:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             base->CNT[cntNum].COUNTER = CY_TCPWM_CNT_UP_DOWN_INIT_VAL;
- 121              		.loc 1 64 0
- 122 007e 04EB8113 		add	r3, r4, r1, lsl #6
- 123 0082 0120     		movs	r0, #1
- 124 0084 C3F80801 		str	r0, [r3, #264]
+ 151              		.loc 1 64 0
+ 152 00b0 FA68     		ldr	r2, [r7, #12]
+ 153 00b2 BB68     		ldr	r3, [r7, #8]
+ 154 00b4 9B01     		lsls	r3, r3, #6
+ 155 00b6 1344     		add	r3, r3, r2
+ 156 00b8 03F58473 		add	r3, r3, #264
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 5
+
+
+ 157 00bc 0122     		movs	r2, #1
+ 158 00be 1A60     		str	r2, [r3]
   65:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             base->CNT[cntNum].TR_CTRL2 = CY_TCPWM_PWM_MODE_PR;
- 125              		.loc 1 65 0
- 126 0088 3F20     		movs	r0, #63
- 127 008a C3F82801 		str	r0, [r3, #296]
- 128 008e 1DE0     		b	.L8
- 129              	.L7:
+ 159              		.loc 1 65 0
+ 160 00c0 FA68     		ldr	r2, [r7, #12]
+ 161 00c2 BB68     		ldr	r3, [r7, #8]
+ 162 00c4 9B01     		lsls	r3, r3, #6
+ 163 00c6 1344     		add	r3, r3, r2
+ 164 00c8 03F59473 		add	r3, r3, #296
+ 165 00cc 3F22     		movs	r2, #63
+ 166 00ce 1A60     		str	r2, [r3]
+ 167 00d0 3AE0     		b	.L10
+ 168              	.L9:
   66:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         }
   67:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         else
   68:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         {
   69:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             if (CY_TCPWM_PWM_LEFT_ALIGN == config->pwmAlignment)
- 130              		.loc 1 69 0
- 131 0090 9368     		ldr	r3, [r2, #8]
- 132 0092 43B9     		cbnz	r3, .L9
+ 169              		.loc 1 69 0
+ 170 00d2 7B68     		ldr	r3, [r7, #4]
+ 171 00d4 9B68     		ldr	r3, [r3, #8]
+ 172 00d6 002B     		cmp	r3, #0
+ 173 00d8 10D1     		bne	.L11
   70:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             {
   71:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                 base->CNT[cntNum].COUNTER = CY_TCPWM_CNT_UP_INIT_VAL;
- 133              		.loc 1 71 0
- 134 0094 04EB8113 		add	r3, r4, r1, lsl #6
- 135 0098 0020     		movs	r0, #0
- 136 009a C3F80801 		str	r0, [r3, #264]
+ 174              		.loc 1 71 0
+ 175 00da FA68     		ldr	r2, [r7, #12]
+ 176 00dc BB68     		ldr	r3, [r7, #8]
+ 177 00de 9B01     		lsls	r3, r3, #6
+ 178 00e0 1344     		add	r3, r3, r2
+ 179 00e2 03F58473 		add	r3, r3, #264
+ 180 00e6 0022     		movs	r2, #0
+ 181 00e8 1A60     		str	r2, [r3]
   72:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                 base->CNT[cntNum].TR_CTRL2 = CY_TCPWM_PWM_MODE_LEFT;
- 137              		.loc 1 72 0
- 138 009e 3120     		movs	r0, #49
- 139 00a0 C3F82801 		str	r0, [r3, #296]
- 140 00a4 12E0     		b	.L8
- 141              	.L9:
+ 182              		.loc 1 72 0
+ 183 00ea FA68     		ldr	r2, [r7, #12]
+ 184 00ec BB68     		ldr	r3, [r7, #8]
+ 185 00ee 9B01     		lsls	r3, r3, #6
+ 186 00f0 1344     		add	r3, r3, r2
+ 187 00f2 03F59473 		add	r3, r3, #296
+ 188 00f6 3122     		movs	r2, #49
+ 189 00f8 1A60     		str	r2, [r3]
+ 190 00fa 25E0     		b	.L10
+ 191              	.L11:
   73:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             }
   74:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             else if (CY_TCPWM_PWM_RIGHT_ALIGN == config->pwmAlignment)
- 142              		.loc 1 74 0
- 143 00a6 012B     		cmp	r3, #1
- 144 00a8 08D1     		bne	.L10
+ 192              		.loc 1 74 0
+ 193 00fc 7B68     		ldr	r3, [r7, #4]
+ 194 00fe 9B68     		ldr	r3, [r3, #8]
+ 195 0100 012B     		cmp	r3, #1
+ 196 0102 11D1     		bne	.L12
   75:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 5
-
-
   76:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                 base->CNT[cntNum].COUNTER = config->period0;
- 145              		.loc 1 76 0
- 146 00aa 5069     		ldr	r0, [r2, #20]
- 147 00ac 04EB8113 		add	r3, r4, r1, lsl #6
- 148 00b0 C3F80801 		str	r0, [r3, #264]
+ 197              		.loc 1 76 0
+ 198 0104 7B68     		ldr	r3, [r7, #4]
+ 199 0106 5A69     		ldr	r2, [r3, #20]
+ 200 0108 F968     		ldr	r1, [r7, #12]
+ 201 010a BB68     		ldr	r3, [r7, #8]
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 6
+
+
+ 202 010c 9B01     		lsls	r3, r3, #6
+ 203 010e 0B44     		add	r3, r3, r1
+ 204 0110 03F58473 		add	r3, r3, #264
+ 205 0114 1A60     		str	r2, [r3]
   77:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                 base->CNT[cntNum].TR_CTRL2 = CY_TCPWM_PWM_MODE_RIGHT;
- 149              		.loc 1 77 0
- 150 00b4 1C20     		movs	r0, #28
- 151 00b6 C3F82801 		str	r0, [r3, #296]
- 152 00ba 07E0     		b	.L8
- 153              	.L10:
+ 206              		.loc 1 77 0
+ 207 0116 FA68     		ldr	r2, [r7, #12]
+ 208 0118 BB68     		ldr	r3, [r7, #8]
+ 209 011a 9B01     		lsls	r3, r3, #6
+ 210 011c 1344     		add	r3, r3, r2
+ 211 011e 03F59473 		add	r3, r3, #296
+ 212 0122 1C22     		movs	r2, #28
+ 213 0124 1A60     		str	r2, [r3]
+ 214 0126 0FE0     		b	.L10
+ 215              	.L12:
   78:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             }
   79:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             else
   80:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             {
   81:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                 base->CNT[cntNum].COUNTER = CY_TCPWM_CNT_UP_DOWN_INIT_VAL;
- 154              		.loc 1 81 0
- 155 00bc 04EB8113 		add	r3, r4, r1, lsl #6
- 156 00c0 0120     		movs	r0, #1
- 157 00c2 C3F80801 		str	r0, [r3, #264]
+ 216              		.loc 1 81 0
+ 217 0128 FA68     		ldr	r2, [r7, #12]
+ 218 012a BB68     		ldr	r3, [r7, #8]
+ 219 012c 9B01     		lsls	r3, r3, #6
+ 220 012e 1344     		add	r3, r3, r2
+ 221 0130 03F58473 		add	r3, r3, #264
+ 222 0134 0122     		movs	r2, #1
+ 223 0136 1A60     		str	r2, [r3]
   82:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                 base->CNT[cntNum].TR_CTRL2 = CY_TCPWM_PWM_MODE_CNTR_OR_ASYMM;
- 158              		.loc 1 82 0
- 159 00c6 1220     		movs	r0, #18
- 160 00c8 C3F82801 		str	r0, [r3, #296]
- 161              	.L8:
+ 224              		.loc 1 82 0
+ 225 0138 FA68     		ldr	r2, [r7, #12]
+ 226 013a BB68     		ldr	r3, [r7, #8]
+ 227 013c 9B01     		lsls	r3, r3, #6
+ 228 013e 1344     		add	r3, r3, r2
+ 229 0140 03F59473 		add	r3, r3, #296
+ 230 0144 1222     		movs	r2, #18
+ 231 0146 1A60     		str	r2, [r3]
+ 232              	.L10:
   83:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             }
   84:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         }
   85:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
   86:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].CC = config->compare0;
- 162              		.loc 1 86 0
- 163 00cc 106A     		ldr	r0, [r2, #32]
- 164 00ce 04EB8113 		add	r3, r4, r1, lsl #6
- 165 00d2 C3F80C01 		str	r0, [r3, #268]
+ 233              		.loc 1 86 0
+ 234 0148 7B68     		ldr	r3, [r7, #4]
+ 235 014a 1A6A     		ldr	r2, [r3, #32]
+ 236 014c F968     		ldr	r1, [r7, #12]
+ 237 014e BB68     		ldr	r3, [r7, #8]
+ 238 0150 9B01     		lsls	r3, r3, #6
+ 239 0152 0B44     		add	r3, r3, r1
+ 240 0154 03F58673 		add	r3, r3, #268
+ 241 0158 1A60     		str	r2, [r3]
   87:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].CC_BUFF = config->compare1;
- 166              		.loc 1 87 0
- 167 00d6 506A     		ldr	r0, [r2, #36]
- 168 00d8 C3F81001 		str	r0, [r3, #272]
+ 242              		.loc 1 87 0
+ 243 015a 7B68     		ldr	r3, [r7, #4]
+ 244 015c 5A6A     		ldr	r2, [r3, #36]
+ 245 015e F968     		ldr	r1, [r7, #12]
+ 246 0160 BB68     		ldr	r3, [r7, #8]
+ 247 0162 9B01     		lsls	r3, r3, #6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 7
+
+
+ 248 0164 0B44     		add	r3, r3, r1
+ 249 0166 03F58873 		add	r3, r3, #272
+ 250 016a 1A60     		str	r2, [r3]
   88:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].PERIOD = config->period0;
- 169              		.loc 1 88 0
- 170 00dc 5069     		ldr	r0, [r2, #20]
- 171 00de C3F81401 		str	r0, [r3, #276]
+ 251              		.loc 1 88 0
+ 252 016c 7B68     		ldr	r3, [r7, #4]
+ 253 016e 5A69     		ldr	r2, [r3, #20]
+ 254 0170 F968     		ldr	r1, [r7, #12]
+ 255 0172 BB68     		ldr	r3, [r7, #8]
+ 256 0174 9B01     		lsls	r3, r3, #6
+ 257 0176 0B44     		add	r3, r3, r1
+ 258 0178 03F58A73 		add	r3, r3, #276
+ 259 017c 1A60     		str	r2, [r3]
   89:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].PERIOD_BUFF = config->period1;
- 172              		.loc 1 89 0
- 173 00e2 9069     		ldr	r0, [r2, #24]
- 174 00e4 C3F81801 		str	r0, [r3, #280]
+ 260              		.loc 1 89 0
+ 261 017e 7B68     		ldr	r3, [r7, #4]
+ 262 0180 9A69     		ldr	r2, [r3, #24]
+ 263 0182 F968     		ldr	r1, [r7, #12]
+ 264 0184 BB68     		ldr	r3, [r7, #8]
+ 265 0186 9B01     		lsls	r3, r3, #6
+ 266 0188 0B44     		add	r3, r3, r1
+ 267 018a 03F58C73 		add	r3, r3, #280
+ 268 018e 1A60     		str	r2, [r3]
   90:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
   91:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         if (CY_TCPWM_INPUT_CREATOR != config->countInput)
- 175              		.loc 1 91 0
- 176 00e8 136E     		ldr	r3, [r2, #96]
- 177 00ea B3F1FF3F 		cmp	r3, #-1
- 178 00ee 17D0     		beq	.L11
+ 269              		.loc 1 91 0
+ 270 0190 7B68     		ldr	r3, [r7, #4]
+ 271 0192 1B6E     		ldr	r3, [r3, #96]
+ 272 0194 B3F1FF3F 		cmp	r3, #-1
+ 273 0198 20D0     		beq	.L13
   92:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         {
   93:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****             base->CNT[cntNum].TR_CTRL0 = (_VAL2FLD(TCPWM_CNT_TR_CTRL0_CAPTURE_SEL, config->swapInpu
- 179              		.loc 1 93 0
- 180 00f0 106C     		ldr	r0, [r2, #64]
- 181 00f2 00F00F00 		and	r0, r0, #15
+ 274              		.loc 1 93 0
+ 275 019a 7B68     		ldr	r3, [r7, #4]
+ 276 019c 1B6C     		ldr	r3, [r3, #64]
+ 277 019e 03F00F02 		and	r2, r3, #15
   94:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_RELOAD_SEL, config->reloadInp
- 182              		.loc 1 94 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 6
-
-
- 183 00f6 966C     		ldr	r6, [r2, #72]
- 184 00f8 3602     		lsls	r6, r6, #8
- 185 00fa 06F47066 		and	r6, r6, #3840
+ 278              		.loc 1 94 0
+ 279 01a2 7B68     		ldr	r3, [r7, #4]
+ 280 01a4 9B6C     		ldr	r3, [r3, #72]
+ 281 01a6 1B02     		lsls	r3, r3, #8
+ 282 01a8 03F47063 		and	r3, r3, #3840
   93:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_RELOAD_SEL, config->reloadInp
- 186              		.loc 1 93 0
- 187 00fe 3043     		orrs	r0, r0, r6
+ 283              		.loc 1 93 0
+ 284 01ac 1A43     		orrs	r2, r2, r3
   95:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_START_SEL, config->startInput
- 188              		.loc 1 95 0
- 189 0100 156D     		ldr	r5, [r2, #80]
- 190 0102 2D04     		lsls	r5, r5, #16
- 191 0104 05F47025 		and	r5, r5, #983040
+ 285              		.loc 1 95 0
+ 286 01ae 7B68     		ldr	r3, [r7, #4]
+ 287 01b0 1B6D     		ldr	r3, [r3, #80]
+ 288 01b2 1B04     		lsls	r3, r3, #16
+ 289 01b4 03F47023 		and	r3, r3, #983040
   94:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_RELOAD_SEL, config->reloadInp
- 192              		.loc 1 94 0
- 193 0108 0543     		orrs	r5, r5, r0
+ 290              		.loc 1 94 0
+ 291 01b8 1A43     		orrs	r2, r2, r3
   96:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_STOP_SEL, config->killInput) 
- 194              		.loc 1 96 0
- 195 010a 906D     		ldr	r0, [r2, #88]
- 196 010c 0003     		lsls	r0, r0, #12
- 197 010e 80B2     		uxth	r0, r0
+ 292              		.loc 1 96 0
+ 293 01ba 7B68     		ldr	r3, [r7, #4]
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 8
+
+
+ 294 01bc 9B6D     		ldr	r3, [r3, #88]
+ 295 01be 1B03     		lsls	r3, r3, #12
+ 296 01c0 9BB2     		uxth	r3, r3
   95:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_START_SEL, config->startInput
- 198              		.loc 1 95 0
- 199 0110 2843     		orrs	r0, r0, r5
+ 297              		.loc 1 95 0
+ 298 01c2 1A43     		orrs	r2, r2, r3
   97:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_COUNT_SEL, config->countInput
- 200              		.loc 1 97 0
- 201 0112 1B01     		lsls	r3, r3, #4
- 202 0114 DBB2     		uxtb	r3, r3
+ 299              		.loc 1 97 0
+ 300 01c4 7B68     		ldr	r3, [r7, #4]
+ 301 01c6 1B6E     		ldr	r3, [r3, #96]
+ 302 01c8 1B01     		lsls	r3, r3, #4
+ 303 01ca DBB2     		uxtb	r3, r3
   96:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_STOP_SEL, config->killInput) 
- 203              		.loc 1 96 0
- 204 0116 0343     		orrs	r3, r3, r0
+ 304              		.loc 1 96 0
+ 305 01cc 1A43     		orrs	r2, r2, r3
   93:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                           _VAL2FLD(TCPWM_CNT_TR_CTRL0_RELOAD_SEL, config->reloadInp
- 205              		.loc 1 93 0
- 206 0118 04EB8110 		add	r0, r4, r1, lsl #6
- 207 011c C0F82031 		str	r3, [r0, #288]
- 208              	.L11:
+ 306              		.loc 1 93 0
+ 307 01ce F968     		ldr	r1, [r7, #12]
+ 308 01d0 BB68     		ldr	r3, [r7, #8]
+ 309 01d2 9B01     		lsls	r3, r3, #6
+ 310 01d4 0B44     		add	r3, r3, r1
+ 311 01d6 03F59073 		add	r3, r3, #288
+ 312 01da 1A60     		str	r2, [r3]
+ 313              	.L13:
   98:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         }
   99:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         
  100:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].TR_CTRL1 = (_VAL2FLD(TCPWM_CNT_TR_CTRL1_CAPTURE_EDGE, config->swapInputMo
- 209              		.loc 1 100 0
- 210 0120 D36B     		ldr	r3, [r2, #60]
- 211 0122 03F00303 		and	r3, r3, #3
+ 314              		.loc 1 100 0
+ 315 01dc 7B68     		ldr	r3, [r7, #4]
+ 316 01de DB6B     		ldr	r3, [r3, #60]
+ 317 01e0 03F00302 		and	r2, r3, #3
  101:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_RELOAD_EDGE, config->reloadInputM
- 212              		.loc 1 101 0
- 213 0126 566C     		ldr	r6, [r2, #68]
- 214 0128 3601     		lsls	r6, r6, #4
- 215 012a 06F03006 		and	r6, r6, #48
+ 318              		.loc 1 101 0
+ 319 01e4 7B68     		ldr	r3, [r7, #4]
+ 320 01e6 5B6C     		ldr	r3, [r3, #68]
+ 321 01e8 1B01     		lsls	r3, r3, #4
+ 322 01ea 03F03003 		and	r3, r3, #48
  100:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_RELOAD_EDGE, config->reloadInputM
- 216              		.loc 1 100 0
- 217 012e 3343     		orrs	r3, r3, r6
+ 323              		.loc 1 100 0
+ 324 01ee 1A43     		orrs	r2, r2, r3
  102:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_START_EDGE, config->startInputMod
- 218              		.loc 1 102 0
- 219 0130 D56C     		ldr	r5, [r2, #76]
- 220 0132 2D02     		lsls	r5, r5, #8
- 221 0134 05F44075 		and	r5, r5, #768
+ 325              		.loc 1 102 0
+ 326 01f0 7B68     		ldr	r3, [r7, #4]
+ 327 01f2 DB6C     		ldr	r3, [r3, #76]
+ 328 01f4 1B02     		lsls	r3, r3, #8
+ 329 01f6 03F44073 		and	r3, r3, #768
  101:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_RELOAD_EDGE, config->reloadInputM
- 222              		.loc 1 101 0
- 223 0138 2B43     		orrs	r3, r3, r5
+ 330              		.loc 1 101 0
+ 331 01fa 1A43     		orrs	r2, r2, r3
  103:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_STOP_EDGE, config->killInputMode)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 7
-
-
- 224              		.loc 1 103 0
- 225 013a 506D     		ldr	r0, [r2, #84]
- 226 013c 8001     		lsls	r0, r0, #6
- 227 013e C0B2     		uxtb	r0, r0
+ 332              		.loc 1 103 0
+ 333 01fc 7B68     		ldr	r3, [r7, #4]
+ 334 01fe 5B6D     		ldr	r3, [r3, #84]
+ 335 0200 9B01     		lsls	r3, r3, #6
+ 336 0202 DBB2     		uxtb	r3, r3
  102:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_START_EDGE, config->startInputMod
- 228              		.loc 1 102 0
- 229 0140 1843     		orrs	r0, r0, r3
+ 337              		.loc 1 102 0
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 9
+
+
+ 338 0204 1A43     		orrs	r2, r2, r3
  104:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_COUNT_EDGE, config->countInputMod
- 230              		.loc 1 104 0
- 231 0142 D36D     		ldr	r3, [r2, #92]
- 232 0144 9B00     		lsls	r3, r3, #2
- 233 0146 03F00C03 		and	r3, r3, #12
+ 339              		.loc 1 104 0
+ 340 0206 7B68     		ldr	r3, [r7, #4]
+ 341 0208 DB6D     		ldr	r3, [r3, #92]
+ 342 020a 9B00     		lsls	r3, r3, #2
+ 343 020c 03F00C03 		and	r3, r3, #12
  103:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_STOP_EDGE, config->killInputMode)
- 234              		.loc 1 103 0
- 235 014a 0343     		orrs	r3, r3, r0
+ 344              		.loc 1 103 0
+ 345 0210 1A43     		orrs	r2, r2, r3
  100:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****                                       _VAL2FLD(TCPWM_CNT_TR_CTRL1_RELOAD_EDGE, config->reloadInputM
- 236              		.loc 1 100 0
- 237 014c 04EB8114 		add	r4, r4, r1, lsl #6
- 238              	.LVL2:
- 239 0150 C4F82431 		str	r3, [r4, #292]
+ 346              		.loc 1 100 0
+ 347 0212 F968     		ldr	r1, [r7, #12]
+ 348 0214 BB68     		ldr	r3, [r7, #8]
+ 349 0216 9B01     		lsls	r3, r3, #6
+ 350 0218 0B44     		add	r3, r3, r1
+ 351 021a 03F59273 		add	r3, r3, #292
+ 352 021e 1A60     		str	r2, [r3]
  105:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
  106:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].INTR_MASK = config->interruptSources;
- 240              		.loc 1 106 0
- 241 0154 D36A     		ldr	r3, [r2, #44]
- 242 0156 C4F83831 		str	r3, [r4, #312]
- 243              	.LVL3:
+ 353              		.loc 1 106 0
+ 354 0220 7B68     		ldr	r3, [r7, #4]
+ 355 0222 DA6A     		ldr	r2, [r3, #44]
+ 356 0224 F968     		ldr	r1, [r7, #12]
+ 357 0226 BB68     		ldr	r3, [r7, #8]
+ 358 0228 9B01     		lsls	r3, r3, #6
+ 359 022a 0B44     		add	r3, r3, r1
+ 360 022c 03F59C73 		add	r3, r3, #312
+ 361 0230 1A60     		str	r2, [r3]
  107:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
  108:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         status = CY_TCPWM_SUCCESS;
- 244              		.loc 1 108 0
- 245 015a 0020     		movs	r0, #0
- 246 015c 02E0     		b	.L2
- 247              	.LVL4:
- 248              	.L12:
- 249              		.cfi_def_cfa_offset 0
- 250              		.cfi_restore 4
- 251              		.cfi_restore 5
- 252              		.cfi_restore 6
-  47:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
- 253              		.loc 1 47 0
- 254 015e 0248     		ldr	r0, .L17
- 255              	.LVL5:
+ 362              		.loc 1 108 0
+ 363 0232 0023     		movs	r3, #0
+ 364 0234 7B61     		str	r3, [r7, #20]
+ 365              	.L2:
  109:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     }
  110:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
  111:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     return(status);
+ 366              		.loc 1 111 0
+ 367 0236 7B69     		ldr	r3, [r7, #20]
  112:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** }
- 256              		.loc 1 112 0
- 257 0160 7047     		bx	lr
- 258              	.LVL6:
- 259              	.L13:
- 260              		.cfi_def_cfa_offset 12
- 261              		.cfi_offset 4, -12
- 262              		.cfi_offset 5, -8
- 263              		.cfi_offset 6, -4
-  47:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
- 264              		.loc 1 47 0
- 265 0162 0148     		ldr	r0, .L17
- 266              	.LVL7:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 8
+ 368              		.loc 1 112 0
+ 369 0238 1846     		mov	r0, r3
+ 370 023a 1C37     		adds	r7, r7, #28
+ 371              		.cfi_def_cfa_offset 4
+ 372 023c BD46     		mov	sp, r7
+ 373              		.cfi_def_cfa_register 13
+ 374              		@ sp needed
+ 375 023e 5DF8047B 		ldr	r7, [sp], #4
+ 376              		.cfi_restore 7
+ 377              		.cfi_def_cfa_offset 0
+ 378 0242 7047     		bx	lr
+ 379              	.L16:
+ 380              		.align	2
+ 381              	.L15:
+ 382 0244 0100B600 		.word	11927553
+ 383              		.cfi_endproc
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 10
 
 
- 267              	.L2:
- 268              		.loc 1 112 0
- 269 0164 70BC     		pop	{r4, r5, r6}
- 270              		.cfi_restore 6
- 271              		.cfi_restore 5
- 272              		.cfi_restore 4
- 273              		.cfi_def_cfa_offset 0
- 274 0166 7047     		bx	lr
- 275              	.L18:
- 276              		.align	2
- 277              	.L17:
- 278 0168 0100B600 		.word	11927553
- 279              		.cfi_endproc
- 280              	.LFE152:
- 281              		.size	Cy_TCPWM_PWM_Init, .-Cy_TCPWM_PWM_Init
- 282              		.section	.text.Cy_TCPWM_PWM_DeInit,"ax",%progbits
- 283              		.align	2
- 284              		.global	Cy_TCPWM_PWM_DeInit
- 285              		.thumb
- 286              		.thumb_func
- 287              		.type	Cy_TCPWM_PWM_DeInit, %function
- 288              	Cy_TCPWM_PWM_DeInit:
- 289              	.LFB153:
+ 384              	.LFE152:
+ 385              		.size	Cy_TCPWM_PWM_Init, .-Cy_TCPWM_PWM_Init
+ 386              		.section	.text.Cy_TCPWM_PWM_DeInit,"ax",%progbits
+ 387              		.align	2
+ 388              		.global	Cy_TCPWM_PWM_DeInit
+ 389              		.thumb
+ 390              		.thumb_func
+ 391              		.type	Cy_TCPWM_PWM_DeInit, %function
+ 392              	Cy_TCPWM_PWM_DeInit:
+ 393              	.LFB153:
  113:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
  114:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** /*******************************************************************************
  115:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** * Function Name: Cy_TCPWM_PWM_DeInit
@@ -467,1581 +574,1555 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 1
  133:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** *******************************************************************************/
  134:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** void Cy_TCPWM_PWM_DeInit(TCPWM_Type *base, uint32_t cntNum, cy_stc_tcpwm_pwm_config_t const *config
  135:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** {
- 290              		.loc 1 135 0
- 291              		.cfi_startproc
- 292              		@ args = 0, pretend = 0, frame = 0
- 293              		@ frame_needed = 0, uses_anonymous_args = 0
- 294              		@ link register save eliminated.
- 295              	.LVL8:
- 296 0000 30B4     		push	{r4, r5}
- 297              		.cfi_def_cfa_offset 8
- 298              		.cfi_offset 4, -8
- 299              		.cfi_offset 5, -4
+ 394              		.loc 1 135 0
+ 395              		.cfi_startproc
+ 396              		@ args = 0, pretend = 0, frame = 16
+ 397              		@ frame_needed = 1, uses_anonymous_args = 0
+ 398              		@ link register save eliminated.
+ 399 0000 80B4     		push	{r7}
+ 400              		.cfi_def_cfa_offset 4
+ 401              		.cfi_offset 7, -4
+ 402 0002 85B0     		sub	sp, sp, #20
+ 403              		.cfi_def_cfa_offset 24
+ 404 0004 00AF     		add	r7, sp, #0
+ 405              		.cfi_def_cfa_register 7
+ 406 0006 F860     		str	r0, [r7, #12]
+ 407 0008 B960     		str	r1, [r7, #8]
+ 408 000a 7A60     		str	r2, [r7, #4]
  136:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].CTRL = CY_TCPWM_CNT_CTRL_DEFAULT;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 9
+ 409              		.loc 1 136 0
+ 410 000c FA68     		ldr	r2, [r7, #12]
+ 411 000e BB68     		ldr	r3, [r7, #8]
+ 412 0010 0433     		adds	r3, r3, #4
+ 413 0012 9B01     		lsls	r3, r3, #6
+ 414 0014 1344     		add	r3, r3, r2
+ 415 0016 0022     		movs	r2, #0
+ 416 0018 1A60     		str	r2, [r3]
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 11
 
 
- 300              		.loc 1 136 0
- 301 0002 0B1D     		adds	r3, r1, #4
- 302 0004 9B01     		lsls	r3, r3, #6
- 303 0006 0024     		movs	r4, #0
- 304 0008 C450     		str	r4, [r0, r3]
  137:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].COUNTER = CY_TCPWM_CNT_COUNTER_DEFAULT;
- 305              		.loc 1 137 0
- 306 000a 00EB8113 		add	r3, r0, r1, lsl #6
- 307 000e C3F80841 		str	r4, [r3, #264]
+ 417              		.loc 1 137 0
+ 418 001a FA68     		ldr	r2, [r7, #12]
+ 419 001c BB68     		ldr	r3, [r7, #8]
+ 420 001e 9B01     		lsls	r3, r3, #6
+ 421 0020 1344     		add	r3, r3, r2
+ 422 0022 03F58473 		add	r3, r3, #264
+ 423 0026 0022     		movs	r2, #0
+ 424 0028 1A60     		str	r2, [r3]
  138:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].CC = CY_TCPWM_CNT_CC_DEFAULT;
- 308              		.loc 1 138 0
- 309 0012 4FF0FF35 		mov	r5, #-1
- 310 0016 C3F80C51 		str	r5, [r3, #268]
+ 425              		.loc 1 138 0
+ 426 002a FA68     		ldr	r2, [r7, #12]
+ 427 002c BB68     		ldr	r3, [r7, #8]
+ 428 002e 9B01     		lsls	r3, r3, #6
+ 429 0030 1344     		add	r3, r3, r2
+ 430 0032 03F58673 		add	r3, r3, #268
+ 431 0036 4FF0FF32 		mov	r2, #-1
+ 432 003a 1A60     		str	r2, [r3]
  139:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].CC_BUFF = CY_TCPWM_CNT_CC_BUFF_DEFAULT;
- 311              		.loc 1 139 0
- 312 001a C3F81051 		str	r5, [r3, #272]
+ 433              		.loc 1 139 0
+ 434 003c FA68     		ldr	r2, [r7, #12]
+ 435 003e BB68     		ldr	r3, [r7, #8]
+ 436 0040 9B01     		lsls	r3, r3, #6
+ 437 0042 1344     		add	r3, r3, r2
+ 438 0044 03F58873 		add	r3, r3, #272
+ 439 0048 4FF0FF32 		mov	r2, #-1
+ 440 004c 1A60     		str	r2, [r3]
  140:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].PERIOD = CY_TCPWM_CNT_PERIOD_DEFAULT;
- 313              		.loc 1 140 0
- 314 001e C3F81451 		str	r5, [r3, #276]
+ 441              		.loc 1 140 0
+ 442 004e FA68     		ldr	r2, [r7, #12]
+ 443 0050 BB68     		ldr	r3, [r7, #8]
+ 444 0052 9B01     		lsls	r3, r3, #6
+ 445 0054 1344     		add	r3, r3, r2
+ 446 0056 03F58A73 		add	r3, r3, #276
+ 447 005a 4FF0FF32 		mov	r2, #-1
+ 448 005e 1A60     		str	r2, [r3]
  141:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].PERIOD_BUFF = CY_TCPWM_CNT_PERIOD_BUFF_DEFAULT;
- 315              		.loc 1 141 0
- 316 0022 C3F81851 		str	r5, [r3, #280]
+ 449              		.loc 1 141 0
+ 450 0060 FA68     		ldr	r2, [r7, #12]
+ 451 0062 BB68     		ldr	r3, [r7, #8]
+ 452 0064 9B01     		lsls	r3, r3, #6
+ 453 0066 1344     		add	r3, r3, r2
+ 454 0068 03F58C73 		add	r3, r3, #280
+ 455 006c 4FF0FF32 		mov	r2, #-1
+ 456 0070 1A60     		str	r2, [r3]
  142:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].TR_CTRL1 = CY_TCPWM_CNT_TR_CTRL1_DEFAULT;
- 317              		.loc 1 142 0
- 318 0026 40F2FF35 		movw	r5, #1023
- 319 002a C3F82451 		str	r5, [r3, #292]
+ 457              		.loc 1 142 0
+ 458 0072 FA68     		ldr	r2, [r7, #12]
+ 459 0074 BB68     		ldr	r3, [r7, #8]
+ 460 0076 9B01     		lsls	r3, r3, #6
+ 461 0078 1344     		add	r3, r3, r2
+ 462 007a 03F59273 		add	r3, r3, #292
+ 463 007e 40F2FF32 		movw	r2, #1023
+ 464 0082 1A60     		str	r2, [r3]
  143:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].TR_CTRL2 = CY_TCPWM_CNT_TR_CTRL2_DEFAULT;
- 320              		.loc 1 143 0
- 321 002e 3F25     		movs	r5, #63
- 322 0030 C3F82851 		str	r5, [r3, #296]
+ 465              		.loc 1 143 0
+ 466 0084 FA68     		ldr	r2, [r7, #12]
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 12
+
+
+ 467 0086 BB68     		ldr	r3, [r7, #8]
+ 468 0088 9B01     		lsls	r3, r3, #6
+ 469 008a 1344     		add	r3, r3, r2
+ 470 008c 03F59473 		add	r3, r3, #296
+ 471 0090 3F22     		movs	r2, #63
+ 472 0092 1A60     		str	r2, [r3]
  144:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].INTR = CY_TCPWM_CNT_INTR_DEFAULT;
- 323              		.loc 1 144 0
- 324 0034 0325     		movs	r5, #3
- 325 0036 C3F83051 		str	r5, [r3, #304]
+ 473              		.loc 1 144 0
+ 474 0094 FA68     		ldr	r2, [r7, #12]
+ 475 0096 BB68     		ldr	r3, [r7, #8]
+ 476 0098 9B01     		lsls	r3, r3, #6
+ 477 009a 1344     		add	r3, r3, r2
+ 478 009c 03F59873 		add	r3, r3, #304
+ 479 00a0 0322     		movs	r2, #3
+ 480 00a2 1A60     		str	r2, [r3]
  145:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].INTR_SET = CY_TCPWM_CNT_INTR_SET_DEFAULT;
- 326              		.loc 1 145 0
- 327 003a C3F83441 		str	r4, [r3, #308]
+ 481              		.loc 1 145 0
+ 482 00a4 FA68     		ldr	r2, [r7, #12]
+ 483 00a6 BB68     		ldr	r3, [r7, #8]
+ 484 00a8 9B01     		lsls	r3, r3, #6
+ 485 00aa 1344     		add	r3, r3, r2
+ 486 00ac 03F59A73 		add	r3, r3, #308
+ 487 00b0 0022     		movs	r2, #0
+ 488 00b2 1A60     		str	r2, [r3]
  146:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     base->CNT[cntNum].INTR_MASK = CY_TCPWM_CNT_INTR_MASK_DEFAULT;
- 328              		.loc 1 146 0
- 329 003e C3F83841 		str	r4, [r3, #312]
+ 489              		.loc 1 146 0
+ 490 00b4 FA68     		ldr	r2, [r7, #12]
+ 491 00b6 BB68     		ldr	r3, [r7, #8]
+ 492 00b8 9B01     		lsls	r3, r3, #6
+ 493 00ba 1344     		add	r3, r3, r2
+ 494 00bc 03F59C73 		add	r3, r3, #312
+ 495 00c0 0022     		movs	r2, #0
+ 496 00c2 1A60     		str	r2, [r3]
  147:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** 
  148:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     if (CY_TCPWM_INPUT_CREATOR != config->countInput)
- 330              		.loc 1 148 0
- 331 0042 136E     		ldr	r3, [r2, #96]
- 332 0044 B3F1FF3F 		cmp	r3, #-1
- 333 0048 04D0     		beq	.L19
+ 497              		.loc 1 148 0
+ 498 00c4 7B68     		ldr	r3, [r7, #4]
+ 499 00c6 1B6E     		ldr	r3, [r3, #96]
+ 500 00c8 B3F1FF3F 		cmp	r3, #-1
+ 501 00cc 07D0     		beq	.L19
  149:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     {    
  150:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****         base->CNT[cntNum].TR_CTRL0 = CY_TCPWM_CNT_TR_CTRL0_DEFAULT;
- 334              		.loc 1 150 0
- 335 004a 00EB8110 		add	r0, r0, r1, lsl #6
- 336              	.LVL9:
- 337 004e 1023     		movs	r3, #16
- 338 0050 C0F82031 		str	r3, [r0, #288]
- 339              	.L19:
+ 502              		.loc 1 150 0
+ 503 00ce FA68     		ldr	r2, [r7, #12]
+ 504 00d0 BB68     		ldr	r3, [r7, #8]
+ 505 00d2 9B01     		lsls	r3, r3, #6
+ 506 00d4 1344     		add	r3, r3, r2
+ 507 00d6 03F59073 		add	r3, r3, #288
+ 508 00da 1022     		movs	r2, #16
+ 509 00dc 1A60     		str	r2, [r3]
+ 510              	.L19:
  151:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c ****     }
  152:Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm/cy_tcpwm_pwm.c **** }
- 340              		.loc 1 152 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 10
+ 511              		.loc 1 152 0
+ 512 00de 00BF     		nop
+ 513 00e0 1437     		adds	r7, r7, #20
+ 514              		.cfi_def_cfa_offset 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 13
 
 
- 341 0054 30BC     		pop	{r4, r5}
- 342              		.cfi_restore 5
- 343              		.cfi_restore 4
- 344              		.cfi_def_cfa_offset 0
- 345 0056 7047     		bx	lr
- 346              		.cfi_endproc
- 347              	.LFE153:
- 348              		.size	Cy_TCPWM_PWM_DeInit, .-Cy_TCPWM_PWM_DeInit
- 349              		.text
- 350              	.Letext0:
- 351              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 352              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
- 353              		.file 4 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/ip/cyip_tcpwm.h"
- 354              		.file 5 "Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\tcpwm\\cy_tcpwm.h"
- 355              		.file 6 "Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\tcpwm\\cy_tcpwm_pwm.h"
- 356              		.file 7 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
- 357              		.section	.debug_info,"",%progbits
- 358              	.Ldebug_info0:
- 359 0000 73040000 		.4byte	0x473
- 360 0004 0400     		.2byte	0x4
- 361 0006 00000000 		.4byte	.Ldebug_abbrev0
- 362 000a 04       		.byte	0x4
- 363 000b 01       		.uleb128 0x1
- 364 000c C2000000 		.4byte	.LASF75
- 365 0010 0C       		.byte	0xc
- 366 0011 1D040000 		.4byte	.LASF76
- 367 0015 72020000 		.4byte	.LASF77
- 368 0019 00000000 		.4byte	.Ldebug_ranges0+0
- 369 001d 00000000 		.4byte	0
- 370 0021 00000000 		.4byte	.Ldebug_line0
- 371 0025 02       		.uleb128 0x2
- 372 0026 01       		.byte	0x1
- 373 0027 06       		.byte	0x6
- 374 0028 31030000 		.4byte	.LASF0
- 375 002c 02       		.uleb128 0x2
- 376 002d 01       		.byte	0x1
- 377 002e 08       		.byte	0x8
- 378 002f 13030000 		.4byte	.LASF1
- 379 0033 02       		.uleb128 0x2
- 380 0034 02       		.byte	0x2
- 381 0035 05       		.byte	0x5
- 382 0036 76000000 		.4byte	.LASF2
- 383 003a 02       		.uleb128 0x2
- 384 003b 02       		.byte	0x2
- 385 003c 07       		.byte	0x7
- 386 003d 94030000 		.4byte	.LASF3
- 387 0041 03       		.uleb128 0x3
- 388 0042 79040000 		.4byte	.LASF5
- 389 0046 02       		.byte	0x2
- 390 0047 3F       		.byte	0x3f
- 391 0048 4C000000 		.4byte	0x4c
- 392 004c 02       		.uleb128 0x2
- 393 004d 04       		.byte	0x4
- 394 004e 05       		.byte	0x5
- 395 004f 55020000 		.4byte	.LASF4
- 396 0053 03       		.uleb128 0x3
- 397 0054 86010000 		.4byte	.LASF6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 11
+ 515 00e2 BD46     		mov	sp, r7
+ 516              		.cfi_def_cfa_register 13
+ 517              		@ sp needed
+ 518 00e4 5DF8047B 		ldr	r7, [sp], #4
+ 519              		.cfi_restore 7
+ 520              		.cfi_def_cfa_offset 0
+ 521 00e8 7047     		bx	lr
+ 522              		.cfi_endproc
+ 523              	.LFE153:
+ 524              		.size	Cy_TCPWM_PWM_DeInit, .-Cy_TCPWM_PWM_DeInit
+ 525 00ea 00BF     		.text
+ 526              	.Letext0:
+ 527              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 528              		.file 3 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 529              		.file 4 "Generated_Source\\PSoC6\\pdl\\devices/psoc6/ip/cyip_tcpwm.h"
+ 530              		.file 5 "Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\tcpwm\\cy_tcpwm.h"
+ 531              		.file 6 "Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\tcpwm\\cy_tcpwm_pwm.h"
+ 532              		.file 7 "Generated_Source\\PSoC6\\pdl\\cmsis/include/core_cm4.h"
+ 533              		.section	.debug_info,"",%progbits
+ 534              	.Ldebug_info0:
+ 535 0000 74040000 		.4byte	0x474
+ 536 0004 0400     		.2byte	0x4
+ 537 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 538 000a 04       		.byte	0x4
+ 539 000b 01       		.uleb128 0x1
+ 540 000c 25010000 		.4byte	.LASF75
+ 541 0010 0C       		.byte	0xc
+ 542 0011 1D040000 		.4byte	.LASF76
+ 543 0015 72020000 		.4byte	.LASF77
+ 544 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 545 001d 00000000 		.4byte	0
+ 546 0021 00000000 		.4byte	.Ldebug_line0
+ 547 0025 02       		.uleb128 0x2
+ 548 0026 01       		.byte	0x1
+ 549 0027 06       		.byte	0x6
+ 550 0028 31030000 		.4byte	.LASF0
+ 551 002c 02       		.uleb128 0x2
+ 552 002d 01       		.byte	0x1
+ 553 002e 08       		.byte	0x8
+ 554 002f 13030000 		.4byte	.LASF1
+ 555 0033 02       		.uleb128 0x2
+ 556 0034 02       		.byte	0x2
+ 557 0035 05       		.byte	0x5
+ 558 0036 76000000 		.4byte	.LASF2
+ 559 003a 02       		.uleb128 0x2
+ 560 003b 02       		.byte	0x2
+ 561 003c 07       		.byte	0x7
+ 562 003d 94030000 		.4byte	.LASF3
+ 563 0041 03       		.uleb128 0x3
+ 564 0042 79040000 		.4byte	.LASF5
+ 565 0046 02       		.byte	0x2
+ 566 0047 3F       		.byte	0x3f
+ 567 0048 4C000000 		.4byte	0x4c
+ 568 004c 02       		.uleb128 0x2
+ 569 004d 04       		.byte	0x4
+ 570 004e 05       		.byte	0x5
+ 571 004f 55020000 		.4byte	.LASF4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 14
 
 
- 398 0058 02       		.byte	0x2
- 399 0059 41       		.byte	0x41
- 400 005a 5E000000 		.4byte	0x5e
- 401 005e 02       		.uleb128 0x2
- 402 005f 04       		.byte	0x4
- 403 0060 07       		.byte	0x7
- 404 0061 04040000 		.4byte	.LASF7
- 405 0065 02       		.uleb128 0x2
- 406 0066 08       		.byte	0x8
- 407 0067 05       		.byte	0x5
- 408 0068 38020000 		.4byte	.LASF8
- 409 006c 02       		.uleb128 0x2
- 410 006d 08       		.byte	0x8
- 411 006e 07       		.byte	0x7
- 412 006f 46030000 		.4byte	.LASF9
- 413 0073 04       		.uleb128 0x4
- 414 0074 04       		.byte	0x4
- 415 0075 05       		.byte	0x5
- 416 0076 696E7400 		.ascii	"int\000"
- 417 007a 02       		.uleb128 0x2
- 418 007b 04       		.byte	0x4
- 419 007c 07       		.byte	0x7
- 420 007d 66030000 		.4byte	.LASF10
- 421 0081 03       		.uleb128 0x3
- 422 0082 C2030000 		.4byte	.LASF11
- 423 0086 03       		.byte	0x3
- 424 0087 2C       		.byte	0x2c
- 425 0088 41000000 		.4byte	0x41
- 426 008c 03       		.uleb128 0x3
- 427 008d 5D030000 		.4byte	.LASF12
- 428 0091 03       		.byte	0x3
- 429 0092 30       		.byte	0x30
- 430 0093 53000000 		.4byte	0x53
- 431 0097 02       		.uleb128 0x2
- 432 0098 08       		.byte	0x8
- 433 0099 04       		.byte	0x4
- 434 009a F8020000 		.4byte	.LASF13
- 435 009e 02       		.uleb128 0x2
- 436 009f 04       		.byte	0x4
- 437 00a0 07       		.byte	0x7
- 438 00a1 80000000 		.4byte	.LASF14
- 439 00a5 05       		.uleb128 0x5
- 440 00a6 8C000000 		.4byte	0x8c
- 441 00aa 06       		.uleb128 0x6
- 442 00ab A5000000 		.4byte	0xa5
- 443 00af 07       		.uleb128 0x7
- 444 00b0 40       		.byte	0x40
- 445 00b1 04       		.byte	0x4
- 446 00b2 22       		.byte	0x22
- 447 00b3 77010000 		.4byte	0x177
- 448 00b7 08       		.uleb128 0x8
- 449 00b8 21030000 		.4byte	.LASF15
- 450 00bc 04       		.byte	0x4
- 451 00bd 23       		.byte	0x23
- 452 00be A5000000 		.4byte	0xa5
- 453 00c2 00       		.byte	0
- 454 00c3 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 12
+ 572 0053 03       		.uleb128 0x3
+ 573 0054 D3000000 		.4byte	.LASF6
+ 574 0058 02       		.byte	0x2
+ 575 0059 41       		.byte	0x41
+ 576 005a 5E000000 		.4byte	0x5e
+ 577 005e 02       		.uleb128 0x2
+ 578 005f 04       		.byte	0x4
+ 579 0060 07       		.byte	0x7
+ 580 0061 04040000 		.4byte	.LASF7
+ 581 0065 02       		.uleb128 0x2
+ 582 0066 08       		.byte	0x8
+ 583 0067 05       		.byte	0x5
+ 584 0068 38020000 		.4byte	.LASF8
+ 585 006c 02       		.uleb128 0x2
+ 586 006d 08       		.byte	0x8
+ 587 006e 07       		.byte	0x7
+ 588 006f 46030000 		.4byte	.LASF9
+ 589 0073 04       		.uleb128 0x4
+ 590 0074 04       		.byte	0x4
+ 591 0075 05       		.byte	0x5
+ 592 0076 696E7400 		.ascii	"int\000"
+ 593 007a 02       		.uleb128 0x2
+ 594 007b 04       		.byte	0x4
+ 595 007c 07       		.byte	0x7
+ 596 007d 66030000 		.4byte	.LASF10
+ 597 0081 03       		.uleb128 0x3
+ 598 0082 C2030000 		.4byte	.LASF11
+ 599 0086 03       		.byte	0x3
+ 600 0087 2C       		.byte	0x2c
+ 601 0088 41000000 		.4byte	0x41
+ 602 008c 03       		.uleb128 0x3
+ 603 008d 5D030000 		.4byte	.LASF12
+ 604 0091 03       		.byte	0x3
+ 605 0092 30       		.byte	0x30
+ 606 0093 53000000 		.4byte	0x53
+ 607 0097 02       		.uleb128 0x2
+ 608 0098 08       		.byte	0x8
+ 609 0099 04       		.byte	0x4
+ 610 009a F8020000 		.4byte	.LASF13
+ 611 009e 02       		.uleb128 0x2
+ 612 009f 04       		.byte	0x4
+ 613 00a0 07       		.byte	0x7
+ 614 00a1 80000000 		.4byte	.LASF14
+ 615 00a5 05       		.uleb128 0x5
+ 616 00a6 8C000000 		.4byte	0x8c
+ 617 00aa 06       		.uleb128 0x6
+ 618 00ab A5000000 		.4byte	0xa5
+ 619 00af 07       		.uleb128 0x7
+ 620 00b0 40       		.byte	0x40
+ 621 00b1 04       		.byte	0x4
+ 622 00b2 22       		.byte	0x22
+ 623 00b3 77010000 		.4byte	0x177
+ 624 00b7 08       		.uleb128 0x8
+ 625 00b8 21030000 		.4byte	.LASF15
+ 626 00bc 04       		.byte	0x4
+ 627 00bd 23       		.byte	0x23
+ 628 00be A5000000 		.4byte	0xa5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 15
 
 
- 455 00c4 4E020000 		.4byte	.LASF16
- 456 00c8 04       		.byte	0x4
- 457 00c9 24       		.byte	0x24
- 458 00ca AA000000 		.4byte	0xaa
- 459 00ce 04       		.byte	0x4
- 460 00cf 08       		.uleb128 0x8
- 461 00d0 B1040000 		.4byte	.LASF17
- 462 00d4 04       		.byte	0x4
- 463 00d5 25       		.byte	0x25
- 464 00d6 A5000000 		.4byte	0xa5
- 465 00da 08       		.byte	0x8
- 466 00db 09       		.uleb128 0x9
- 467 00dc 434300   		.ascii	"CC\000"
- 468 00df 04       		.byte	0x4
- 469 00e0 26       		.byte	0x26
- 470 00e1 A5000000 		.4byte	0xa5
- 471 00e5 0C       		.byte	0xc
- 472 00e6 08       		.uleb128 0x8
- 473 00e7 F0020000 		.4byte	.LASF18
- 474 00eb 04       		.byte	0x4
- 475 00ec 27       		.byte	0x27
- 476 00ed A5000000 		.4byte	0xa5
- 477 00f1 10       		.byte	0x10
- 478 00f2 08       		.uleb128 0x8
- 479 00f3 9E000000 		.4byte	.LASF19
- 480 00f7 04       		.byte	0x4
- 481 00f8 28       		.byte	0x28
- 482 00f9 A5000000 		.4byte	0xa5
- 483 00fd 14       		.byte	0x14
- 484 00fe 08       		.uleb128 0x8
- 485 00ff 89000000 		.4byte	.LASF20
- 486 0103 04       		.byte	0x4
- 487 0104 29       		.byte	0x29
- 488 0105 A5000000 		.4byte	0xa5
- 489 0109 18       		.byte	0x18
- 490 010a 08       		.uleb128 0x8
- 491 010b C1040000 		.4byte	.LASF21
- 492 010f 04       		.byte	0x4
- 493 0110 2A       		.byte	0x2a
- 494 0111 AA000000 		.4byte	0xaa
- 495 0115 1C       		.byte	0x1c
- 496 0116 08       		.uleb128 0x8
- 497 0117 91010000 		.4byte	.LASF22
- 498 011b 04       		.byte	0x4
- 499 011c 2B       		.byte	0x2b
- 500 011d A5000000 		.4byte	0xa5
- 501 0121 20       		.byte	0x20
- 502 0122 08       		.uleb128 0x8
- 503 0123 B0000000 		.4byte	.LASF23
- 504 0127 04       		.byte	0x4
- 505 0128 2C       		.byte	0x2c
- 506 0129 A5000000 		.4byte	0xa5
- 507 012d 24       		.byte	0x24
- 508 012e 08       		.uleb128 0x8
- 509 012f B9000000 		.4byte	.LASF24
- 510 0133 04       		.byte	0x4
- 511 0134 2D       		.byte	0x2d
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 13
+ 629 00c2 00       		.byte	0
+ 630 00c3 08       		.uleb128 0x8
+ 631 00c4 4E020000 		.4byte	.LASF16
+ 632 00c8 04       		.byte	0x4
+ 633 00c9 24       		.byte	0x24
+ 634 00ca AA000000 		.4byte	0xaa
+ 635 00ce 04       		.byte	0x4
+ 636 00cf 08       		.uleb128 0x8
+ 637 00d0 B1040000 		.4byte	.LASF17
+ 638 00d4 04       		.byte	0x4
+ 639 00d5 25       		.byte	0x25
+ 640 00d6 A5000000 		.4byte	0xa5
+ 641 00da 08       		.byte	0x8
+ 642 00db 09       		.uleb128 0x9
+ 643 00dc 434300   		.ascii	"CC\000"
+ 644 00df 04       		.byte	0x4
+ 645 00e0 26       		.byte	0x26
+ 646 00e1 A5000000 		.4byte	0xa5
+ 647 00e5 0C       		.byte	0xc
+ 648 00e6 08       		.uleb128 0x8
+ 649 00e7 F0020000 		.4byte	.LASF18
+ 650 00eb 04       		.byte	0x4
+ 651 00ec 27       		.byte	0x27
+ 652 00ed A5000000 		.4byte	0xa5
+ 653 00f1 10       		.byte	0x10
+ 654 00f2 08       		.uleb128 0x8
+ 655 00f3 9E000000 		.4byte	.LASF19
+ 656 00f7 04       		.byte	0x4
+ 657 00f8 28       		.byte	0x28
+ 658 00f9 A5000000 		.4byte	0xa5
+ 659 00fd 14       		.byte	0x14
+ 660 00fe 08       		.uleb128 0x8
+ 661 00ff 89000000 		.4byte	.LASF20
+ 662 0103 04       		.byte	0x4
+ 663 0104 29       		.byte	0x29
+ 664 0105 A5000000 		.4byte	0xa5
+ 665 0109 18       		.byte	0x18
+ 666 010a 08       		.uleb128 0x8
+ 667 010b C1040000 		.4byte	.LASF21
+ 668 010f 04       		.byte	0x4
+ 669 0110 2A       		.byte	0x2a
+ 670 0111 AA000000 		.4byte	0xaa
+ 671 0115 1C       		.byte	0x1c
+ 672 0116 08       		.uleb128 0x8
+ 673 0117 DE000000 		.4byte	.LASF22
+ 674 011b 04       		.byte	0x4
+ 675 011c 2B       		.byte	0x2b
+ 676 011d A5000000 		.4byte	0xa5
+ 677 0121 20       		.byte	0x20
+ 678 0122 08       		.uleb128 0x8
+ 679 0123 B0000000 		.4byte	.LASF23
+ 680 0127 04       		.byte	0x4
+ 681 0128 2C       		.byte	0x2c
+ 682 0129 A5000000 		.4byte	0xa5
+ 683 012d 24       		.byte	0x24
+ 684 012e 08       		.uleb128 0x8
+ 685 012f B9000000 		.4byte	.LASF24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 16
 
 
- 512 0135 A5000000 		.4byte	0xa5
- 513 0139 28       		.byte	0x28
- 514 013a 08       		.uleb128 0x8
- 515 013b FA030000 		.4byte	.LASF25
- 516 013f 04       		.byte	0x4
- 517 0140 2E       		.byte	0x2e
- 518 0141 AA000000 		.4byte	0xaa
- 519 0145 2C       		.byte	0x2c
- 520 0146 08       		.uleb128 0x8
- 521 0147 E3030000 		.4byte	.LASF26
- 522 014b 04       		.byte	0x4
- 523 014c 2F       		.byte	0x2f
- 524 014d A5000000 		.4byte	0xa5
- 525 0151 30       		.byte	0x30
- 526 0152 08       		.uleb128 0x8
- 527 0153 3D030000 		.4byte	.LASF27
- 528 0157 04       		.byte	0x4
- 529 0158 30       		.byte	0x30
- 530 0159 A5000000 		.4byte	0xa5
- 531 015d 34       		.byte	0x34
- 532 015e 08       		.uleb128 0x8
- 533 015f 8A030000 		.4byte	.LASF28
- 534 0163 04       		.byte	0x4
- 535 0164 31       		.byte	0x31
- 536 0165 A5000000 		.4byte	0xa5
- 537 0169 38       		.byte	0x38
- 538 016a 08       		.uleb128 0x8
- 539 016b E4020000 		.4byte	.LASF29
- 540 016f 04       		.byte	0x4
- 541 0170 32       		.byte	0x32
- 542 0171 AA000000 		.4byte	0xaa
- 543 0175 3C       		.byte	0x3c
- 544 0176 00       		.byte	0
- 545 0177 03       		.uleb128 0x3
- 546 0178 67000000 		.4byte	.LASF30
- 547 017c 04       		.byte	0x4
- 548 017d 33       		.byte	0x33
- 549 017e AF000000 		.4byte	0xaf
- 550 0182 0A       		.uleb128 0xa
- 551 0183 0009     		.2byte	0x900
- 552 0185 04       		.byte	0x4
- 553 0186 38       		.byte	0x38
- 554 0187 05020000 		.4byte	0x205
- 555 018b 08       		.uleb128 0x8
- 556 018c 21030000 		.4byte	.LASF15
- 557 0190 04       		.byte	0x4
- 558 0191 39       		.byte	0x39
- 559 0192 A5000000 		.4byte	0xa5
- 560 0196 00       		.byte	0
- 561 0197 08       		.uleb128 0x8
- 562 0198 83040000 		.4byte	.LASF31
- 563 019c 04       		.byte	0x4
- 564 019d 3A       		.byte	0x3a
- 565 019e A5000000 		.4byte	0xa5
- 566 01a2 04       		.byte	0x4
- 567 01a3 08       		.uleb128 0x8
- 568 01a4 95000000 		.4byte	.LASF32
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 14
+ 686 0133 04       		.byte	0x4
+ 687 0134 2D       		.byte	0x2d
+ 688 0135 A5000000 		.4byte	0xa5
+ 689 0139 28       		.byte	0x28
+ 690 013a 08       		.uleb128 0x8
+ 691 013b FA030000 		.4byte	.LASF25
+ 692 013f 04       		.byte	0x4
+ 693 0140 2E       		.byte	0x2e
+ 694 0141 AA000000 		.4byte	0xaa
+ 695 0145 2C       		.byte	0x2c
+ 696 0146 08       		.uleb128 0x8
+ 697 0147 E3030000 		.4byte	.LASF26
+ 698 014b 04       		.byte	0x4
+ 699 014c 2F       		.byte	0x2f
+ 700 014d A5000000 		.4byte	0xa5
+ 701 0151 30       		.byte	0x30
+ 702 0152 08       		.uleb128 0x8
+ 703 0153 3D030000 		.4byte	.LASF27
+ 704 0157 04       		.byte	0x4
+ 705 0158 30       		.byte	0x30
+ 706 0159 A5000000 		.4byte	0xa5
+ 707 015d 34       		.byte	0x34
+ 708 015e 08       		.uleb128 0x8
+ 709 015f 8A030000 		.4byte	.LASF28
+ 710 0163 04       		.byte	0x4
+ 711 0164 31       		.byte	0x31
+ 712 0165 A5000000 		.4byte	0xa5
+ 713 0169 38       		.byte	0x38
+ 714 016a 08       		.uleb128 0x8
+ 715 016b E4020000 		.4byte	.LASF29
+ 716 016f 04       		.byte	0x4
+ 717 0170 32       		.byte	0x32
+ 718 0171 AA000000 		.4byte	0xaa
+ 719 0175 3C       		.byte	0x3c
+ 720 0176 00       		.byte	0
+ 721 0177 03       		.uleb128 0x3
+ 722 0178 67000000 		.4byte	.LASF30
+ 723 017c 04       		.byte	0x4
+ 724 017d 33       		.byte	0x33
+ 725 017e AF000000 		.4byte	0xaf
+ 726 0182 0A       		.uleb128 0xa
+ 727 0183 0009     		.2byte	0x900
+ 728 0185 04       		.byte	0x4
+ 729 0186 38       		.byte	0x38
+ 730 0187 05020000 		.4byte	0x205
+ 731 018b 08       		.uleb128 0x8
+ 732 018c 21030000 		.4byte	.LASF15
+ 733 0190 04       		.byte	0x4
+ 734 0191 39       		.byte	0x39
+ 735 0192 A5000000 		.4byte	0xa5
+ 736 0196 00       		.byte	0
+ 737 0197 08       		.uleb128 0x8
+ 738 0198 83040000 		.4byte	.LASF31
+ 739 019c 04       		.byte	0x4
+ 740 019d 3A       		.byte	0x3a
+ 741 019e A5000000 		.4byte	0xa5
+ 742 01a2 04       		.byte	0x4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 17
 
 
- 569 01a8 04       		.byte	0x4
- 570 01a9 3B       		.byte	0x3b
- 571 01aa A5000000 		.4byte	0xa5
- 572 01ae 08       		.byte	0x8
- 573 01af 08       		.uleb128 0x8
- 574 01b0 E2010000 		.4byte	.LASF33
- 575 01b4 04       		.byte	0x4
- 576 01b5 3C       		.byte	0x3c
- 577 01b6 A5000000 		.4byte	0xa5
- 578 01ba 0C       		.byte	0xc
- 579 01bb 08       		.uleb128 0x8
- 580 01bc A5000000 		.4byte	.LASF34
- 581 01c0 04       		.byte	0x4
- 582 01c1 3D       		.byte	0x3d
- 583 01c2 A5000000 		.4byte	0xa5
- 584 01c6 10       		.byte	0x10
- 585 01c7 08       		.uleb128 0x8
- 586 01c8 81030000 		.4byte	.LASF35
- 587 01cc 04       		.byte	0x4
- 588 01cd 3E       		.byte	0x3e
- 589 01ce A5000000 		.4byte	0xa5
- 590 01d2 14       		.byte	0x14
- 591 01d3 08       		.uleb128 0x8
- 592 01d4 FF010000 		.4byte	.LASF36
- 593 01d8 04       		.byte	0x4
- 594 01d9 3F       		.byte	0x3f
- 595 01da A5000000 		.4byte	0xa5
- 596 01de 18       		.byte	0x18
- 597 01df 08       		.uleb128 0x8
- 598 01e0 26030000 		.4byte	.LASF37
- 599 01e4 04       		.byte	0x4
- 600 01e5 40       		.byte	0x40
- 601 01e6 AA000000 		.4byte	0xaa
- 602 01ea 1C       		.byte	0x1c
- 603 01eb 08       		.uleb128 0x8
- 604 01ec C1040000 		.4byte	.LASF21
- 605 01f0 04       		.byte	0x4
- 606 01f1 41       		.byte	0x41
- 607 01f2 1A020000 		.4byte	0x21a
- 608 01f6 20       		.byte	0x20
- 609 01f7 0B       		.uleb128 0xb
- 610 01f8 434E5400 		.ascii	"CNT\000"
- 611 01fc 04       		.byte	0x4
- 612 01fd 42       		.byte	0x42
- 613 01fe 1F020000 		.4byte	0x21f
- 614 0202 0001     		.2byte	0x100
- 615 0204 00       		.byte	0
- 616 0205 0C       		.uleb128 0xc
- 617 0206 AA000000 		.4byte	0xaa
- 618 020a 15020000 		.4byte	0x215
- 619 020e 0D       		.uleb128 0xd
- 620 020f 9E000000 		.4byte	0x9e
- 621 0213 37       		.byte	0x37
- 622 0214 00       		.byte	0
- 623 0215 05       		.uleb128 0x5
- 624 0216 05020000 		.4byte	0x205
- 625 021a 06       		.uleb128 0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 15
+ 743 01a3 08       		.uleb128 0x8
+ 744 01a4 95000000 		.4byte	.LASF32
+ 745 01a8 04       		.byte	0x4
+ 746 01a9 3B       		.byte	0x3b
+ 747 01aa A5000000 		.4byte	0xa5
+ 748 01ae 08       		.byte	0x8
+ 749 01af 08       		.uleb128 0x8
+ 750 01b0 E2010000 		.4byte	.LASF33
+ 751 01b4 04       		.byte	0x4
+ 752 01b5 3C       		.byte	0x3c
+ 753 01b6 A5000000 		.4byte	0xa5
+ 754 01ba 0C       		.byte	0xc
+ 755 01bb 08       		.uleb128 0x8
+ 756 01bc A5000000 		.4byte	.LASF34
+ 757 01c0 04       		.byte	0x4
+ 758 01c1 3D       		.byte	0x3d
+ 759 01c2 A5000000 		.4byte	0xa5
+ 760 01c6 10       		.byte	0x10
+ 761 01c7 08       		.uleb128 0x8
+ 762 01c8 81030000 		.4byte	.LASF35
+ 763 01cc 04       		.byte	0x4
+ 764 01cd 3E       		.byte	0x3e
+ 765 01ce A5000000 		.4byte	0xa5
+ 766 01d2 14       		.byte	0x14
+ 767 01d3 08       		.uleb128 0x8
+ 768 01d4 FF010000 		.4byte	.LASF36
+ 769 01d8 04       		.byte	0x4
+ 770 01d9 3F       		.byte	0x3f
+ 771 01da A5000000 		.4byte	0xa5
+ 772 01de 18       		.byte	0x18
+ 773 01df 08       		.uleb128 0x8
+ 774 01e0 26030000 		.4byte	.LASF37
+ 775 01e4 04       		.byte	0x4
+ 776 01e5 40       		.byte	0x40
+ 777 01e6 AA000000 		.4byte	0xaa
+ 778 01ea 1C       		.byte	0x1c
+ 779 01eb 08       		.uleb128 0x8
+ 780 01ec C1040000 		.4byte	.LASF21
+ 781 01f0 04       		.byte	0x4
+ 782 01f1 41       		.byte	0x41
+ 783 01f2 1A020000 		.4byte	0x21a
+ 784 01f6 20       		.byte	0x20
+ 785 01f7 0B       		.uleb128 0xb
+ 786 01f8 434E5400 		.ascii	"CNT\000"
+ 787 01fc 04       		.byte	0x4
+ 788 01fd 42       		.byte	0x42
+ 789 01fe 1F020000 		.4byte	0x21f
+ 790 0202 0001     		.2byte	0x100
+ 791 0204 00       		.byte	0
+ 792 0205 0C       		.uleb128 0xc
+ 793 0206 AA000000 		.4byte	0xaa
+ 794 020a 15020000 		.4byte	0x215
+ 795 020e 0D       		.uleb128 0xd
+ 796 020f 9E000000 		.4byte	0x9e
+ 797 0213 37       		.byte	0x37
+ 798 0214 00       		.byte	0
+ 799 0215 05       		.uleb128 0x5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 18
 
 
- 626 021b 15020000 		.4byte	0x215
- 627 021f 0C       		.uleb128 0xc
- 628 0220 77010000 		.4byte	0x177
- 629 0224 2F020000 		.4byte	0x22f
- 630 0228 0D       		.uleb128 0xd
- 631 0229 9E000000 		.4byte	0x9e
- 632 022d 1F       		.byte	0x1f
- 633 022e 00       		.byte	0
- 634 022f 03       		.uleb128 0x3
- 635 0230 F7040000 		.4byte	.LASF38
- 636 0234 04       		.byte	0x4
- 637 0235 43       		.byte	0x43
- 638 0236 82010000 		.4byte	0x182
- 639 023a 02       		.uleb128 0x2
- 640 023b 01       		.byte	0x1
- 641 023c 08       		.byte	0x8
- 642 023d AE030000 		.4byte	.LASF39
- 643 0241 02       		.uleb128 0x2
- 644 0242 04       		.byte	0x4
- 645 0243 04       		.byte	0x4
- 646 0244 12020000 		.4byte	.LASF40
- 647 0248 02       		.uleb128 0x2
- 648 0249 08       		.byte	0x8
- 649 024a 04       		.byte	0x4
- 650 024b 16040000 		.4byte	.LASF41
- 651 024f 0E       		.uleb128 0xe
- 652 0250 04       		.byte	0x4
- 653 0251 7A000000 		.4byte	0x7a
- 654 0255 05       		.byte	0x5
- 655 0256 4B01     		.2byte	0x14b
- 656 0258 6C020000 		.4byte	0x26c
- 657 025c 0F       		.uleb128 0xf
- 658 025d 75010000 		.4byte	.LASF42
- 659 0261 00       		.byte	0
- 660 0262 10       		.uleb128 0x10
- 661 0263 CA030000 		.4byte	.LASF43
- 662 0267 0100B600 		.4byte	0xb60001
- 663 026b 00       		.byte	0
- 664 026c 11       		.uleb128 0x11
- 665 026d CA040000 		.4byte	.LASF44
- 666 0271 05       		.byte	0x5
- 667 0272 4E01     		.2byte	0x14e
- 668 0274 4F020000 		.4byte	0x24f
- 669 0278 12       		.uleb128 0x12
- 670 0279 C0010000 		.4byte	.LASF78
- 671 027d 64       		.byte	0x64
- 672 027e 06       		.byte	0x6
- 673 027f 2B       		.byte	0x2b
- 674 0280 B1030000 		.4byte	0x3b1
- 675 0284 08       		.uleb128 0x8
- 676 0285 B9040000 		.4byte	.LASF45
- 677 0289 06       		.byte	0x6
- 678 028a 2D       		.byte	0x2d
- 679 028b 8C000000 		.4byte	0x8c
- 680 028f 00       		.byte	0
- 681 0290 08       		.uleb128 0x8
- 682 0291 1D000000 		.4byte	.LASF46
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 16
+ 800 0216 05020000 		.4byte	0x205
+ 801 021a 06       		.uleb128 0x6
+ 802 021b 15020000 		.4byte	0x215
+ 803 021f 0C       		.uleb128 0xc
+ 804 0220 77010000 		.4byte	0x177
+ 805 0224 2F020000 		.4byte	0x22f
+ 806 0228 0D       		.uleb128 0xd
+ 807 0229 9E000000 		.4byte	0x9e
+ 808 022d 1F       		.byte	0x1f
+ 809 022e 00       		.byte	0
+ 810 022f 03       		.uleb128 0x3
+ 811 0230 F7040000 		.4byte	.LASF38
+ 812 0234 04       		.byte	0x4
+ 813 0235 43       		.byte	0x43
+ 814 0236 82010000 		.4byte	0x182
+ 815 023a 02       		.uleb128 0x2
+ 816 023b 01       		.byte	0x1
+ 817 023c 08       		.byte	0x8
+ 818 023d AE030000 		.4byte	.LASF39
+ 819 0241 02       		.uleb128 0x2
+ 820 0242 04       		.byte	0x4
+ 821 0243 04       		.byte	0x4
+ 822 0244 12020000 		.4byte	.LASF40
+ 823 0248 02       		.uleb128 0x2
+ 824 0249 08       		.byte	0x8
+ 825 024a 04       		.byte	0x4
+ 826 024b 16040000 		.4byte	.LASF41
+ 827 024f 0E       		.uleb128 0xe
+ 828 0250 04       		.byte	0x4
+ 829 0251 7A000000 		.4byte	0x7a
+ 830 0255 05       		.byte	0x5
+ 831 0256 4B01     		.2byte	0x14b
+ 832 0258 6C020000 		.4byte	0x26c
+ 833 025c 0F       		.uleb128 0xf
+ 834 025d C2000000 		.4byte	.LASF42
+ 835 0261 00       		.byte	0
+ 836 0262 10       		.uleb128 0x10
+ 837 0263 CA030000 		.4byte	.LASF43
+ 838 0267 0100B600 		.4byte	0xb60001
+ 839 026b 00       		.byte	0
+ 840 026c 11       		.uleb128 0x11
+ 841 026d CA040000 		.4byte	.LASF44
+ 842 0271 05       		.byte	0x5
+ 843 0272 4E01     		.2byte	0x14e
+ 844 0274 4F020000 		.4byte	0x24f
+ 845 0278 12       		.uleb128 0x12
+ 846 0279 0D010000 		.4byte	.LASF78
+ 847 027d 64       		.byte	0x64
+ 848 027e 06       		.byte	0x6
+ 849 027f 2B       		.byte	0x2b
+ 850 0280 B1030000 		.4byte	0x3b1
+ 851 0284 08       		.uleb128 0x8
+ 852 0285 B9040000 		.4byte	.LASF45
+ 853 0289 06       		.byte	0x6
+ 854 028a 2D       		.byte	0x2d
+ 855 028b 8C000000 		.4byte	0x8c
+ 856 028f 00       		.byte	0
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 19
 
 
- 683 0295 06       		.byte	0x6
- 684 0296 2F       		.byte	0x2f
- 685 0297 8C000000 		.4byte	0x8c
- 686 029b 04       		.byte	0x4
- 687 029c 08       		.uleb128 0x8
- 688 029d A1010000 		.4byte	.LASF47
- 689 02a1 06       		.byte	0x6
- 690 02a2 30       		.byte	0x30
- 691 02a3 8C000000 		.4byte	0x8c
- 692 02a7 08       		.byte	0x8
- 693 02a8 08       		.uleb128 0x8
- 694 02a9 B3030000 		.4byte	.LASF48
- 695 02ad 06       		.byte	0x6
- 696 02ae 31       		.byte	0x31
- 697 02af 8C000000 		.4byte	0x8c
- 698 02b3 0C       		.byte	0xc
- 699 02b4 08       		.uleb128 0x8
- 700 02b5 46020000 		.4byte	.LASF49
- 701 02b9 06       		.byte	0x6
- 702 02ba 32       		.byte	0x32
- 703 02bb 8C000000 		.4byte	0x8c
- 704 02bf 10       		.byte	0x10
- 705 02c0 08       		.uleb128 0x8
- 706 02c1 18020000 		.4byte	.LASF50
- 707 02c5 06       		.byte	0x6
- 708 02c6 33       		.byte	0x33
- 709 02c7 8C000000 		.4byte	0x8c
- 710 02cb 14       		.byte	0x14
- 711 02cc 08       		.uleb128 0x8
- 712 02cd 20020000 		.4byte	.LASF51
- 713 02d1 06       		.byte	0x6
- 714 02d2 34       		.byte	0x34
- 715 02d3 8C000000 		.4byte	0x8c
- 716 02d7 18       		.byte	0x18
- 717 02d8 08       		.uleb128 0x8
- 718 02d9 00000000 		.4byte	.LASF52
- 719 02dd 06       		.byte	0x6
- 720 02de 35       		.byte	0x35
- 721 02df B1030000 		.4byte	0x3b1
- 722 02e3 1C       		.byte	0x1c
- 723 02e4 08       		.uleb128 0x8
- 724 02e5 3B000000 		.4byte	.LASF53
- 725 02e9 06       		.byte	0x6
- 726 02ea 36       		.byte	0x36
- 727 02eb 8C000000 		.4byte	0x8c
- 728 02ef 20       		.byte	0x20
- 729 02f0 08       		.uleb128 0x8
- 730 02f1 44000000 		.4byte	.LASF54
- 731 02f5 06       		.byte	0x6
- 732 02f6 37       		.byte	0x37
- 733 02f7 8C000000 		.4byte	0x8c
- 734 02fb 24       		.byte	0x24
- 735 02fc 08       		.uleb128 0x8
- 736 02fd AE010000 		.4byte	.LASF55
- 737 0301 06       		.byte	0x6
- 738 0302 38       		.byte	0x38
- 739 0303 B1030000 		.4byte	0x3b1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 17
+ 857 0290 08       		.uleb128 0x8
+ 858 0291 1D000000 		.4byte	.LASF46
+ 859 0295 06       		.byte	0x6
+ 860 0296 2F       		.byte	0x2f
+ 861 0297 8C000000 		.4byte	0x8c
+ 862 029b 04       		.byte	0x4
+ 863 029c 08       		.uleb128 0x8
+ 864 029d EE000000 		.4byte	.LASF47
+ 865 02a1 06       		.byte	0x6
+ 866 02a2 30       		.byte	0x30
+ 867 02a3 8C000000 		.4byte	0x8c
+ 868 02a7 08       		.byte	0x8
+ 869 02a8 08       		.uleb128 0x8
+ 870 02a9 B3030000 		.4byte	.LASF48
+ 871 02ad 06       		.byte	0x6
+ 872 02ae 31       		.byte	0x31
+ 873 02af 8C000000 		.4byte	0x8c
+ 874 02b3 0C       		.byte	0xc
+ 875 02b4 08       		.uleb128 0x8
+ 876 02b5 46020000 		.4byte	.LASF49
+ 877 02b9 06       		.byte	0x6
+ 878 02ba 32       		.byte	0x32
+ 879 02bb 8C000000 		.4byte	0x8c
+ 880 02bf 10       		.byte	0x10
+ 881 02c0 08       		.uleb128 0x8
+ 882 02c1 18020000 		.4byte	.LASF50
+ 883 02c5 06       		.byte	0x6
+ 884 02c6 33       		.byte	0x33
+ 885 02c7 8C000000 		.4byte	0x8c
+ 886 02cb 14       		.byte	0x14
+ 887 02cc 08       		.uleb128 0x8
+ 888 02cd 20020000 		.4byte	.LASF51
+ 889 02d1 06       		.byte	0x6
+ 890 02d2 34       		.byte	0x34
+ 891 02d3 8C000000 		.4byte	0x8c
+ 892 02d7 18       		.byte	0x18
+ 893 02d8 08       		.uleb128 0x8
+ 894 02d9 00000000 		.4byte	.LASF52
+ 895 02dd 06       		.byte	0x6
+ 896 02de 35       		.byte	0x35
+ 897 02df B1030000 		.4byte	0x3b1
+ 898 02e3 1C       		.byte	0x1c
+ 899 02e4 08       		.uleb128 0x8
+ 900 02e5 3B000000 		.4byte	.LASF53
+ 901 02e9 06       		.byte	0x6
+ 902 02ea 36       		.byte	0x36
+ 903 02eb 8C000000 		.4byte	0x8c
+ 904 02ef 20       		.byte	0x20
+ 905 02f0 08       		.uleb128 0x8
+ 906 02f1 44000000 		.4byte	.LASF54
+ 907 02f5 06       		.byte	0x6
+ 908 02f6 37       		.byte	0x37
+ 909 02f7 8C000000 		.4byte	0x8c
+ 910 02fb 24       		.byte	0x24
+ 911 02fc 08       		.uleb128 0x8
+ 912 02fd FB000000 		.4byte	.LASF55
+ 913 0301 06       		.byte	0x6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 20
 
 
- 740 0307 28       		.byte	0x28
- 741 0308 08       		.uleb128 0x8
- 742 0309 EE010000 		.4byte	.LASF56
- 743 030d 06       		.byte	0x6
- 744 030e 3A       		.byte	0x3a
- 745 030f 8C000000 		.4byte	0x8c
- 746 0313 2C       		.byte	0x2c
- 747 0314 08       		.uleb128 0x8
- 748 0315 96040000 		.4byte	.LASF57
- 749 0319 06       		.byte	0x6
- 750 031a 3B       		.byte	0x3b
- 751 031b 8C000000 		.4byte	0x8c
- 752 031f 30       		.byte	0x30
- 753 0320 08       		.uleb128 0x8
- 754 0321 73030000 		.4byte	.LASF58
- 755 0325 06       		.byte	0x6
- 756 0326 3C       		.byte	0x3c
- 757 0327 8C000000 		.4byte	0x8c
- 758 032b 34       		.byte	0x34
- 759 032c 08       		.uleb128 0x8
- 760 032d 09020000 		.4byte	.LASF59
- 761 0331 06       		.byte	0x6
- 762 0332 3D       		.byte	0x3d
- 763 0333 8C000000 		.4byte	0x8c
- 764 0337 38       		.byte	0x38
- 765 0338 08       		.uleb128 0x8
- 766 0339 60040000 		.4byte	.LASF60
- 767 033d 06       		.byte	0x6
- 768 033e 3E       		.byte	0x3e
- 769 033f 8C000000 		.4byte	0x8c
- 770 0343 3C       		.byte	0x3c
- 771 0344 08       		.uleb128 0x8
- 772 0345 8C040000 		.4byte	.LASF61
- 773 0349 06       		.byte	0x6
- 774 034a 40       		.byte	0x40
- 775 034b 8C000000 		.4byte	0x8c
- 776 034f 40       		.byte	0x40
- 777 0350 08       		.uleb128 0x8
- 778 0351 28020000 		.4byte	.LASF62
- 779 0355 06       		.byte	0x6
- 780 0356 41       		.byte	0x41
- 781 0357 8C000000 		.4byte	0x8c
- 782 035b 44       		.byte	0x44
- 783 035c 08       		.uleb128 0x8
- 784 035d 11000000 		.4byte	.LASF63
- 785 0361 06       		.byte	0x6
- 786 0362 43       		.byte	0x43
- 787 0363 8C000000 		.4byte	0x8c
- 788 0367 48       		.byte	0x48
- 789 0368 08       		.uleb128 0x8
- 790 0369 04030000 		.4byte	.LASF64
- 791 036d 06       		.byte	0x6
- 792 036e 44       		.byte	0x44
- 793 036f 8C000000 		.4byte	0x8c
- 794 0373 4C       		.byte	0x4c
- 795 0374 08       		.uleb128 0x8
- 796 0375 6E040000 		.4byte	.LASF65
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 18
+ 914 0302 38       		.byte	0x38
+ 915 0303 B1030000 		.4byte	0x3b1
+ 916 0307 28       		.byte	0x28
+ 917 0308 08       		.uleb128 0x8
+ 918 0309 EE010000 		.4byte	.LASF56
+ 919 030d 06       		.byte	0x6
+ 920 030e 3A       		.byte	0x3a
+ 921 030f 8C000000 		.4byte	0x8c
+ 922 0313 2C       		.byte	0x2c
+ 923 0314 08       		.uleb128 0x8
+ 924 0315 96040000 		.4byte	.LASF57
+ 925 0319 06       		.byte	0x6
+ 926 031a 3B       		.byte	0x3b
+ 927 031b 8C000000 		.4byte	0x8c
+ 928 031f 30       		.byte	0x30
+ 929 0320 08       		.uleb128 0x8
+ 930 0321 73030000 		.4byte	.LASF58
+ 931 0325 06       		.byte	0x6
+ 932 0326 3C       		.byte	0x3c
+ 933 0327 8C000000 		.4byte	0x8c
+ 934 032b 34       		.byte	0x34
+ 935 032c 08       		.uleb128 0x8
+ 936 032d 09020000 		.4byte	.LASF59
+ 937 0331 06       		.byte	0x6
+ 938 0332 3D       		.byte	0x3d
+ 939 0333 8C000000 		.4byte	0x8c
+ 940 0337 38       		.byte	0x38
+ 941 0338 08       		.uleb128 0x8
+ 942 0339 60040000 		.4byte	.LASF60
+ 943 033d 06       		.byte	0x6
+ 944 033e 3E       		.byte	0x3e
+ 945 033f 8C000000 		.4byte	0x8c
+ 946 0343 3C       		.byte	0x3c
+ 947 0344 08       		.uleb128 0x8
+ 948 0345 8C040000 		.4byte	.LASF61
+ 949 0349 06       		.byte	0x6
+ 950 034a 40       		.byte	0x40
+ 951 034b 8C000000 		.4byte	0x8c
+ 952 034f 40       		.byte	0x40
+ 953 0350 08       		.uleb128 0x8
+ 954 0351 28020000 		.4byte	.LASF62
+ 955 0355 06       		.byte	0x6
+ 956 0356 41       		.byte	0x41
+ 957 0357 8C000000 		.4byte	0x8c
+ 958 035b 44       		.byte	0x44
+ 959 035c 08       		.uleb128 0x8
+ 960 035d 11000000 		.4byte	.LASF63
+ 961 0361 06       		.byte	0x6
+ 962 0362 43       		.byte	0x43
+ 963 0363 8C000000 		.4byte	0x8c
+ 964 0367 48       		.byte	0x48
+ 965 0368 08       		.uleb128 0x8
+ 966 0369 04030000 		.4byte	.LASF64
+ 967 036d 06       		.byte	0x6
+ 968 036e 44       		.byte	0x44
+ 969 036f 8C000000 		.4byte	0x8c
+ 970 0373 4C       		.byte	0x4c
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 21
 
 
- 797 0379 06       		.byte	0x6
- 798 037a 46       		.byte	0x46
- 799 037b 8C000000 		.4byte	0x8c
- 800 037f 50       		.byte	0x50
- 801 0380 08       		.uleb128 0x8
- 802 0381 A3040000 		.4byte	.LASF66
- 803 0385 06       		.byte	0x6
- 804 0386 47       		.byte	0x47
- 805 0387 8C000000 		.4byte	0x8c
- 806 038b 54       		.byte	0x54
- 807 038c 08       		.uleb128 0x8
- 808 038d D8010000 		.4byte	.LASF67
- 809 0391 06       		.byte	0x6
- 810 0392 49       		.byte	0x49
- 811 0393 8C000000 		.4byte	0x8c
- 812 0397 58       		.byte	0x58
- 813 0398 08       		.uleb128 0x8
- 814 0399 2C000000 		.4byte	.LASF68
- 815 039d 06       		.byte	0x6
- 816 039e 4A       		.byte	0x4a
- 817 039f 8C000000 		.4byte	0x8c
- 818 03a3 5C       		.byte	0x5c
- 819 03a4 08       		.uleb128 0x8
- 820 03a5 DF040000 		.4byte	.LASF69
- 821 03a9 06       		.byte	0x6
- 822 03aa 4C       		.byte	0x4c
- 823 03ab 8C000000 		.4byte	0x8c
- 824 03af 60       		.byte	0x60
- 825 03b0 00       		.byte	0
- 826 03b1 02       		.uleb128 0x2
- 827 03b2 01       		.byte	0x1
- 828 03b3 02       		.byte	0x2
- 829 03b4 DD030000 		.4byte	.LASF70
- 830 03b8 03       		.uleb128 0x3
- 831 03b9 4D000000 		.4byte	.LASF71
- 832 03bd 06       		.byte	0x6
- 833 03be 4D       		.byte	0x4d
- 834 03bf 78020000 		.4byte	0x278
- 835 03c3 13       		.uleb128 0x13
- 836 03c4 E8030000 		.4byte	.LASF79
- 837 03c8 01       		.byte	0x1
- 838 03c9 2D       		.byte	0x2d
- 839 03ca 6C020000 		.4byte	0x26c
- 840 03ce 00000000 		.4byte	.LFB152
- 841 03d2 6C010000 		.4byte	.LFE152-.LFB152
- 842 03d6 01       		.uleb128 0x1
- 843 03d7 9C       		.byte	0x9c
- 844 03d8 15040000 		.4byte	0x415
- 845 03dc 14       		.uleb128 0x14
- 846 03dd 02050000 		.4byte	.LASF72
- 847 03e1 01       		.byte	0x1
- 848 03e2 2D       		.byte	0x2d
- 849 03e3 15040000 		.4byte	0x415
- 850 03e7 00000000 		.4byte	.LLST0
- 851 03eb 15       		.uleb128 0x15
- 852 03ec DD020000 		.4byte	.LASF73
- 853 03f0 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 19
+ 971 0374 08       		.uleb128 0x8
+ 972 0375 6E040000 		.4byte	.LASF65
+ 973 0379 06       		.byte	0x6
+ 974 037a 46       		.byte	0x46
+ 975 037b 8C000000 		.4byte	0x8c
+ 976 037f 50       		.byte	0x50
+ 977 0380 08       		.uleb128 0x8
+ 978 0381 A3040000 		.4byte	.LASF66
+ 979 0385 06       		.byte	0x6
+ 980 0386 47       		.byte	0x47
+ 981 0387 8C000000 		.4byte	0x8c
+ 982 038b 54       		.byte	0x54
+ 983 038c 08       		.uleb128 0x8
+ 984 038d D8010000 		.4byte	.LASF67
+ 985 0391 06       		.byte	0x6
+ 986 0392 49       		.byte	0x49
+ 987 0393 8C000000 		.4byte	0x8c
+ 988 0397 58       		.byte	0x58
+ 989 0398 08       		.uleb128 0x8
+ 990 0399 2C000000 		.4byte	.LASF68
+ 991 039d 06       		.byte	0x6
+ 992 039e 4A       		.byte	0x4a
+ 993 039f 8C000000 		.4byte	0x8c
+ 994 03a3 5C       		.byte	0x5c
+ 995 03a4 08       		.uleb128 0x8
+ 996 03a5 DF040000 		.4byte	.LASF69
+ 997 03a9 06       		.byte	0x6
+ 998 03aa 4C       		.byte	0x4c
+ 999 03ab 8C000000 		.4byte	0x8c
+ 1000 03af 60       		.byte	0x60
+ 1001 03b0 00       		.byte	0
+ 1002 03b1 02       		.uleb128 0x2
+ 1003 03b2 01       		.byte	0x1
+ 1004 03b3 02       		.byte	0x2
+ 1005 03b4 DD030000 		.4byte	.LASF70
+ 1006 03b8 03       		.uleb128 0x3
+ 1007 03b9 4D000000 		.4byte	.LASF71
+ 1008 03bd 06       		.byte	0x6
+ 1009 03be 4D       		.byte	0x4d
+ 1010 03bf 78020000 		.4byte	0x278
+ 1011 03c3 13       		.uleb128 0x13
+ 1012 03c4 E8030000 		.4byte	.LASF79
+ 1013 03c8 01       		.byte	0x1
+ 1014 03c9 2D       		.byte	0x2d
+ 1015 03ca 6C020000 		.4byte	0x26c
+ 1016 03ce 00000000 		.4byte	.LFB152
+ 1017 03d2 48020000 		.4byte	.LFE152-.LFB152
+ 1018 03d6 01       		.uleb128 0x1
+ 1019 03d7 9C       		.byte	0x9c
+ 1020 03d8 15040000 		.4byte	0x415
+ 1021 03dc 14       		.uleb128 0x14
+ 1022 03dd 02050000 		.4byte	.LASF72
+ 1023 03e1 01       		.byte	0x1
+ 1024 03e2 2D       		.byte	0x2d
+ 1025 03e3 15040000 		.4byte	0x415
+ 1026 03e7 02       		.uleb128 0x2
+ 1027 03e8 91       		.byte	0x91
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 22
 
 
- 854 03f1 2D       		.byte	0x2d
- 855 03f2 8C000000 		.4byte	0x8c
- 856 03f6 01       		.uleb128 0x1
- 857 03f7 51       		.byte	0x51
- 858 03f8 15       		.uleb128 0x15
- 859 03f9 9A010000 		.4byte	.LASF74
- 860 03fd 01       		.byte	0x1
- 861 03fe 2D       		.byte	0x2d
- 862 03ff 1B040000 		.4byte	0x41b
- 863 0403 01       		.uleb128 0x1
- 864 0404 52       		.byte	0x52
- 865 0405 16       		.uleb128 0x16
- 866 0406 A7030000 		.4byte	.LASF80
- 867 040a 01       		.byte	0x1
- 868 040b 2F       		.byte	0x2f
- 869 040c 6C020000 		.4byte	0x26c
- 870 0410 5E000000 		.4byte	.LLST1
- 871 0414 00       		.byte	0
- 872 0415 17       		.uleb128 0x17
- 873 0416 04       		.byte	0x4
- 874 0417 2F020000 		.4byte	0x22f
- 875 041b 17       		.uleb128 0x17
- 876 041c 04       		.byte	0x4
- 877 041d 21040000 		.4byte	0x421
- 878 0421 06       		.uleb128 0x6
- 879 0422 B8030000 		.4byte	0x3b8
- 880 0426 18       		.uleb128 0x18
- 881 0427 5E020000 		.4byte	.LASF81
- 882 042b 01       		.byte	0x1
- 883 042c 86       		.byte	0x86
- 884 042d 00000000 		.4byte	.LFB153
- 885 0431 58000000 		.4byte	.LFE153-.LFB153
- 886 0435 01       		.uleb128 0x1
- 887 0436 9C       		.byte	0x9c
- 888 0437 65040000 		.4byte	0x465
- 889 043b 14       		.uleb128 0x14
- 890 043c 02050000 		.4byte	.LASF72
- 891 0440 01       		.byte	0x1
- 892 0441 86       		.byte	0x86
- 893 0442 15040000 		.4byte	0x415
- 894 0446 B8000000 		.4byte	.LLST2
- 895 044a 15       		.uleb128 0x15
- 896 044b DD020000 		.4byte	.LASF73
- 897 044f 01       		.byte	0x1
- 898 0450 86       		.byte	0x86
- 899 0451 8C000000 		.4byte	0x8c
- 900 0455 01       		.uleb128 0x1
- 901 0456 51       		.byte	0x51
- 902 0457 15       		.uleb128 0x15
- 903 0458 9A010000 		.4byte	.LASF74
- 904 045c 01       		.byte	0x1
- 905 045d 86       		.byte	0x86
- 906 045e 1B040000 		.4byte	0x41b
- 907 0462 01       		.uleb128 0x1
- 908 0463 52       		.byte	0x52
- 909 0464 00       		.byte	0
- 910 0465 19       		.uleb128 0x19
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 20
+ 1028 03e9 6C       		.sleb128 -20
+ 1029 03ea 14       		.uleb128 0x14
+ 1030 03eb DD020000 		.4byte	.LASF73
+ 1031 03ef 01       		.byte	0x1
+ 1032 03f0 2D       		.byte	0x2d
+ 1033 03f1 8C000000 		.4byte	0x8c
+ 1034 03f5 02       		.uleb128 0x2
+ 1035 03f6 91       		.byte	0x91
+ 1036 03f7 68       		.sleb128 -24
+ 1037 03f8 14       		.uleb128 0x14
+ 1038 03f9 E7000000 		.4byte	.LASF74
+ 1039 03fd 01       		.byte	0x1
+ 1040 03fe 2D       		.byte	0x2d
+ 1041 03ff 1B040000 		.4byte	0x41b
+ 1042 0403 02       		.uleb128 0x2
+ 1043 0404 91       		.byte	0x91
+ 1044 0405 64       		.sleb128 -28
+ 1045 0406 15       		.uleb128 0x15
+ 1046 0407 A7030000 		.4byte	.LASF80
+ 1047 040b 01       		.byte	0x1
+ 1048 040c 2F       		.byte	0x2f
+ 1049 040d 6C020000 		.4byte	0x26c
+ 1050 0411 02       		.uleb128 0x2
+ 1051 0412 91       		.byte	0x91
+ 1052 0413 74       		.sleb128 -12
+ 1053 0414 00       		.byte	0
+ 1054 0415 16       		.uleb128 0x16
+ 1055 0416 04       		.byte	0x4
+ 1056 0417 2F020000 		.4byte	0x22f
+ 1057 041b 16       		.uleb128 0x16
+ 1058 041c 04       		.byte	0x4
+ 1059 041d 21040000 		.4byte	0x421
+ 1060 0421 06       		.uleb128 0x6
+ 1061 0422 B8030000 		.4byte	0x3b8
+ 1062 0426 17       		.uleb128 0x17
+ 1063 0427 5E020000 		.4byte	.LASF81
+ 1064 042b 01       		.byte	0x1
+ 1065 042c 86       		.byte	0x86
+ 1066 042d 00000000 		.4byte	.LFB153
+ 1067 0431 EA000000 		.4byte	.LFE153-.LFB153
+ 1068 0435 01       		.uleb128 0x1
+ 1069 0436 9C       		.byte	0x9c
+ 1070 0437 66040000 		.4byte	0x466
+ 1071 043b 14       		.uleb128 0x14
+ 1072 043c 02050000 		.4byte	.LASF72
+ 1073 0440 01       		.byte	0x1
+ 1074 0441 86       		.byte	0x86
+ 1075 0442 15040000 		.4byte	0x415
+ 1076 0446 02       		.uleb128 0x2
+ 1077 0447 91       		.byte	0x91
+ 1078 0448 74       		.sleb128 -12
+ 1079 0449 14       		.uleb128 0x14
+ 1080 044a DD020000 		.4byte	.LASF73
+ 1081 044e 01       		.byte	0x1
+ 1082 044f 86       		.byte	0x86
+ 1083 0450 8C000000 		.4byte	0x8c
+ 1084 0454 02       		.uleb128 0x2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 23
 
 
- 911 0466 EA040000 		.4byte	.LASF82
- 912 046a 07       		.byte	0x7
- 913 046b EA07     		.2byte	0x7ea
- 914 046d 71040000 		.4byte	0x471
- 915 0471 05       		.uleb128 0x5
- 916 0472 81000000 		.4byte	0x81
- 917 0476 00       		.byte	0
- 918              		.section	.debug_abbrev,"",%progbits
- 919              	.Ldebug_abbrev0:
- 920 0000 01       		.uleb128 0x1
- 921 0001 11       		.uleb128 0x11
- 922 0002 01       		.byte	0x1
- 923 0003 25       		.uleb128 0x25
- 924 0004 0E       		.uleb128 0xe
- 925 0005 13       		.uleb128 0x13
- 926 0006 0B       		.uleb128 0xb
- 927 0007 03       		.uleb128 0x3
- 928 0008 0E       		.uleb128 0xe
- 929 0009 1B       		.uleb128 0x1b
- 930 000a 0E       		.uleb128 0xe
- 931 000b 55       		.uleb128 0x55
- 932 000c 17       		.uleb128 0x17
- 933 000d 11       		.uleb128 0x11
- 934 000e 01       		.uleb128 0x1
- 935 000f 10       		.uleb128 0x10
- 936 0010 17       		.uleb128 0x17
- 937 0011 00       		.byte	0
- 938 0012 00       		.byte	0
- 939 0013 02       		.uleb128 0x2
- 940 0014 24       		.uleb128 0x24
- 941 0015 00       		.byte	0
- 942 0016 0B       		.uleb128 0xb
- 943 0017 0B       		.uleb128 0xb
- 944 0018 3E       		.uleb128 0x3e
- 945 0019 0B       		.uleb128 0xb
- 946 001a 03       		.uleb128 0x3
- 947 001b 0E       		.uleb128 0xe
- 948 001c 00       		.byte	0
- 949 001d 00       		.byte	0
- 950 001e 03       		.uleb128 0x3
- 951 001f 16       		.uleb128 0x16
- 952 0020 00       		.byte	0
- 953 0021 03       		.uleb128 0x3
- 954 0022 0E       		.uleb128 0xe
- 955 0023 3A       		.uleb128 0x3a
- 956 0024 0B       		.uleb128 0xb
- 957 0025 3B       		.uleb128 0x3b
- 958 0026 0B       		.uleb128 0xb
- 959 0027 49       		.uleb128 0x49
- 960 0028 13       		.uleb128 0x13
- 961 0029 00       		.byte	0
- 962 002a 00       		.byte	0
- 963 002b 04       		.uleb128 0x4
- 964 002c 24       		.uleb128 0x24
- 965 002d 00       		.byte	0
- 966 002e 0B       		.uleb128 0xb
- 967 002f 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 21
+ 1085 0455 91       		.byte	0x91
+ 1086 0456 70       		.sleb128 -16
+ 1087 0457 14       		.uleb128 0x14
+ 1088 0458 E7000000 		.4byte	.LASF74
+ 1089 045c 01       		.byte	0x1
+ 1090 045d 86       		.byte	0x86
+ 1091 045e 1B040000 		.4byte	0x41b
+ 1092 0462 02       		.uleb128 0x2
+ 1093 0463 91       		.byte	0x91
+ 1094 0464 6C       		.sleb128 -20
+ 1095 0465 00       		.byte	0
+ 1096 0466 18       		.uleb128 0x18
+ 1097 0467 EA040000 		.4byte	.LASF82
+ 1098 046b 07       		.byte	0x7
+ 1099 046c EA07     		.2byte	0x7ea
+ 1100 046e 72040000 		.4byte	0x472
+ 1101 0472 05       		.uleb128 0x5
+ 1102 0473 81000000 		.4byte	0x81
+ 1103 0477 00       		.byte	0
+ 1104              		.section	.debug_abbrev,"",%progbits
+ 1105              	.Ldebug_abbrev0:
+ 1106 0000 01       		.uleb128 0x1
+ 1107 0001 11       		.uleb128 0x11
+ 1108 0002 01       		.byte	0x1
+ 1109 0003 25       		.uleb128 0x25
+ 1110 0004 0E       		.uleb128 0xe
+ 1111 0005 13       		.uleb128 0x13
+ 1112 0006 0B       		.uleb128 0xb
+ 1113 0007 03       		.uleb128 0x3
+ 1114 0008 0E       		.uleb128 0xe
+ 1115 0009 1B       		.uleb128 0x1b
+ 1116 000a 0E       		.uleb128 0xe
+ 1117 000b 55       		.uleb128 0x55
+ 1118 000c 17       		.uleb128 0x17
+ 1119 000d 11       		.uleb128 0x11
+ 1120 000e 01       		.uleb128 0x1
+ 1121 000f 10       		.uleb128 0x10
+ 1122 0010 17       		.uleb128 0x17
+ 1123 0011 00       		.byte	0
+ 1124 0012 00       		.byte	0
+ 1125 0013 02       		.uleb128 0x2
+ 1126 0014 24       		.uleb128 0x24
+ 1127 0015 00       		.byte	0
+ 1128 0016 0B       		.uleb128 0xb
+ 1129 0017 0B       		.uleb128 0xb
+ 1130 0018 3E       		.uleb128 0x3e
+ 1131 0019 0B       		.uleb128 0xb
+ 1132 001a 03       		.uleb128 0x3
+ 1133 001b 0E       		.uleb128 0xe
+ 1134 001c 00       		.byte	0
+ 1135 001d 00       		.byte	0
+ 1136 001e 03       		.uleb128 0x3
+ 1137 001f 16       		.uleb128 0x16
+ 1138 0020 00       		.byte	0
+ 1139 0021 03       		.uleb128 0x3
+ 1140 0022 0E       		.uleb128 0xe
+ 1141 0023 3A       		.uleb128 0x3a
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 24
 
 
- 968 0030 3E       		.uleb128 0x3e
- 969 0031 0B       		.uleb128 0xb
- 970 0032 03       		.uleb128 0x3
- 971 0033 08       		.uleb128 0x8
- 972 0034 00       		.byte	0
- 973 0035 00       		.byte	0
- 974 0036 05       		.uleb128 0x5
- 975 0037 35       		.uleb128 0x35
- 976 0038 00       		.byte	0
- 977 0039 49       		.uleb128 0x49
- 978 003a 13       		.uleb128 0x13
- 979 003b 00       		.byte	0
- 980 003c 00       		.byte	0
- 981 003d 06       		.uleb128 0x6
- 982 003e 26       		.uleb128 0x26
- 983 003f 00       		.byte	0
- 984 0040 49       		.uleb128 0x49
- 985 0041 13       		.uleb128 0x13
- 986 0042 00       		.byte	0
- 987 0043 00       		.byte	0
- 988 0044 07       		.uleb128 0x7
- 989 0045 13       		.uleb128 0x13
- 990 0046 01       		.byte	0x1
- 991 0047 0B       		.uleb128 0xb
- 992 0048 0B       		.uleb128 0xb
- 993 0049 3A       		.uleb128 0x3a
- 994 004a 0B       		.uleb128 0xb
- 995 004b 3B       		.uleb128 0x3b
- 996 004c 0B       		.uleb128 0xb
- 997 004d 01       		.uleb128 0x1
- 998 004e 13       		.uleb128 0x13
- 999 004f 00       		.byte	0
- 1000 0050 00       		.byte	0
- 1001 0051 08       		.uleb128 0x8
- 1002 0052 0D       		.uleb128 0xd
- 1003 0053 00       		.byte	0
- 1004 0054 03       		.uleb128 0x3
- 1005 0055 0E       		.uleb128 0xe
- 1006 0056 3A       		.uleb128 0x3a
- 1007 0057 0B       		.uleb128 0xb
- 1008 0058 3B       		.uleb128 0x3b
- 1009 0059 0B       		.uleb128 0xb
- 1010 005a 49       		.uleb128 0x49
- 1011 005b 13       		.uleb128 0x13
- 1012 005c 38       		.uleb128 0x38
- 1013 005d 0B       		.uleb128 0xb
- 1014 005e 00       		.byte	0
- 1015 005f 00       		.byte	0
- 1016 0060 09       		.uleb128 0x9
- 1017 0061 0D       		.uleb128 0xd
- 1018 0062 00       		.byte	0
- 1019 0063 03       		.uleb128 0x3
- 1020 0064 08       		.uleb128 0x8
- 1021 0065 3A       		.uleb128 0x3a
- 1022 0066 0B       		.uleb128 0xb
- 1023 0067 3B       		.uleb128 0x3b
- 1024 0068 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 22
+ 1142 0024 0B       		.uleb128 0xb
+ 1143 0025 3B       		.uleb128 0x3b
+ 1144 0026 0B       		.uleb128 0xb
+ 1145 0027 49       		.uleb128 0x49
+ 1146 0028 13       		.uleb128 0x13
+ 1147 0029 00       		.byte	0
+ 1148 002a 00       		.byte	0
+ 1149 002b 04       		.uleb128 0x4
+ 1150 002c 24       		.uleb128 0x24
+ 1151 002d 00       		.byte	0
+ 1152 002e 0B       		.uleb128 0xb
+ 1153 002f 0B       		.uleb128 0xb
+ 1154 0030 3E       		.uleb128 0x3e
+ 1155 0031 0B       		.uleb128 0xb
+ 1156 0032 03       		.uleb128 0x3
+ 1157 0033 08       		.uleb128 0x8
+ 1158 0034 00       		.byte	0
+ 1159 0035 00       		.byte	0
+ 1160 0036 05       		.uleb128 0x5
+ 1161 0037 35       		.uleb128 0x35
+ 1162 0038 00       		.byte	0
+ 1163 0039 49       		.uleb128 0x49
+ 1164 003a 13       		.uleb128 0x13
+ 1165 003b 00       		.byte	0
+ 1166 003c 00       		.byte	0
+ 1167 003d 06       		.uleb128 0x6
+ 1168 003e 26       		.uleb128 0x26
+ 1169 003f 00       		.byte	0
+ 1170 0040 49       		.uleb128 0x49
+ 1171 0041 13       		.uleb128 0x13
+ 1172 0042 00       		.byte	0
+ 1173 0043 00       		.byte	0
+ 1174 0044 07       		.uleb128 0x7
+ 1175 0045 13       		.uleb128 0x13
+ 1176 0046 01       		.byte	0x1
+ 1177 0047 0B       		.uleb128 0xb
+ 1178 0048 0B       		.uleb128 0xb
+ 1179 0049 3A       		.uleb128 0x3a
+ 1180 004a 0B       		.uleb128 0xb
+ 1181 004b 3B       		.uleb128 0x3b
+ 1182 004c 0B       		.uleb128 0xb
+ 1183 004d 01       		.uleb128 0x1
+ 1184 004e 13       		.uleb128 0x13
+ 1185 004f 00       		.byte	0
+ 1186 0050 00       		.byte	0
+ 1187 0051 08       		.uleb128 0x8
+ 1188 0052 0D       		.uleb128 0xd
+ 1189 0053 00       		.byte	0
+ 1190 0054 03       		.uleb128 0x3
+ 1191 0055 0E       		.uleb128 0xe
+ 1192 0056 3A       		.uleb128 0x3a
+ 1193 0057 0B       		.uleb128 0xb
+ 1194 0058 3B       		.uleb128 0x3b
+ 1195 0059 0B       		.uleb128 0xb
+ 1196 005a 49       		.uleb128 0x49
+ 1197 005b 13       		.uleb128 0x13
+ 1198 005c 38       		.uleb128 0x38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 25
 
 
- 1025 0069 49       		.uleb128 0x49
- 1026 006a 13       		.uleb128 0x13
- 1027 006b 38       		.uleb128 0x38
- 1028 006c 0B       		.uleb128 0xb
- 1029 006d 00       		.byte	0
- 1030 006e 00       		.byte	0
- 1031 006f 0A       		.uleb128 0xa
- 1032 0070 13       		.uleb128 0x13
- 1033 0071 01       		.byte	0x1
- 1034 0072 0B       		.uleb128 0xb
- 1035 0073 05       		.uleb128 0x5
- 1036 0074 3A       		.uleb128 0x3a
- 1037 0075 0B       		.uleb128 0xb
- 1038 0076 3B       		.uleb128 0x3b
- 1039 0077 0B       		.uleb128 0xb
- 1040 0078 01       		.uleb128 0x1
- 1041 0079 13       		.uleb128 0x13
- 1042 007a 00       		.byte	0
- 1043 007b 00       		.byte	0
- 1044 007c 0B       		.uleb128 0xb
- 1045 007d 0D       		.uleb128 0xd
- 1046 007e 00       		.byte	0
- 1047 007f 03       		.uleb128 0x3
- 1048 0080 08       		.uleb128 0x8
- 1049 0081 3A       		.uleb128 0x3a
- 1050 0082 0B       		.uleb128 0xb
- 1051 0083 3B       		.uleb128 0x3b
- 1052 0084 0B       		.uleb128 0xb
- 1053 0085 49       		.uleb128 0x49
- 1054 0086 13       		.uleb128 0x13
- 1055 0087 38       		.uleb128 0x38
- 1056 0088 05       		.uleb128 0x5
- 1057 0089 00       		.byte	0
- 1058 008a 00       		.byte	0
- 1059 008b 0C       		.uleb128 0xc
- 1060 008c 01       		.uleb128 0x1
- 1061 008d 01       		.byte	0x1
- 1062 008e 49       		.uleb128 0x49
- 1063 008f 13       		.uleb128 0x13
- 1064 0090 01       		.uleb128 0x1
- 1065 0091 13       		.uleb128 0x13
- 1066 0092 00       		.byte	0
- 1067 0093 00       		.byte	0
- 1068 0094 0D       		.uleb128 0xd
- 1069 0095 21       		.uleb128 0x21
- 1070 0096 00       		.byte	0
- 1071 0097 49       		.uleb128 0x49
- 1072 0098 13       		.uleb128 0x13
- 1073 0099 2F       		.uleb128 0x2f
- 1074 009a 0B       		.uleb128 0xb
- 1075 009b 00       		.byte	0
- 1076 009c 00       		.byte	0
- 1077 009d 0E       		.uleb128 0xe
- 1078 009e 04       		.uleb128 0x4
- 1079 009f 01       		.byte	0x1
- 1080 00a0 0B       		.uleb128 0xb
- 1081 00a1 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 23
+ 1199 005d 0B       		.uleb128 0xb
+ 1200 005e 00       		.byte	0
+ 1201 005f 00       		.byte	0
+ 1202 0060 09       		.uleb128 0x9
+ 1203 0061 0D       		.uleb128 0xd
+ 1204 0062 00       		.byte	0
+ 1205 0063 03       		.uleb128 0x3
+ 1206 0064 08       		.uleb128 0x8
+ 1207 0065 3A       		.uleb128 0x3a
+ 1208 0066 0B       		.uleb128 0xb
+ 1209 0067 3B       		.uleb128 0x3b
+ 1210 0068 0B       		.uleb128 0xb
+ 1211 0069 49       		.uleb128 0x49
+ 1212 006a 13       		.uleb128 0x13
+ 1213 006b 38       		.uleb128 0x38
+ 1214 006c 0B       		.uleb128 0xb
+ 1215 006d 00       		.byte	0
+ 1216 006e 00       		.byte	0
+ 1217 006f 0A       		.uleb128 0xa
+ 1218 0070 13       		.uleb128 0x13
+ 1219 0071 01       		.byte	0x1
+ 1220 0072 0B       		.uleb128 0xb
+ 1221 0073 05       		.uleb128 0x5
+ 1222 0074 3A       		.uleb128 0x3a
+ 1223 0075 0B       		.uleb128 0xb
+ 1224 0076 3B       		.uleb128 0x3b
+ 1225 0077 0B       		.uleb128 0xb
+ 1226 0078 01       		.uleb128 0x1
+ 1227 0079 13       		.uleb128 0x13
+ 1228 007a 00       		.byte	0
+ 1229 007b 00       		.byte	0
+ 1230 007c 0B       		.uleb128 0xb
+ 1231 007d 0D       		.uleb128 0xd
+ 1232 007e 00       		.byte	0
+ 1233 007f 03       		.uleb128 0x3
+ 1234 0080 08       		.uleb128 0x8
+ 1235 0081 3A       		.uleb128 0x3a
+ 1236 0082 0B       		.uleb128 0xb
+ 1237 0083 3B       		.uleb128 0x3b
+ 1238 0084 0B       		.uleb128 0xb
+ 1239 0085 49       		.uleb128 0x49
+ 1240 0086 13       		.uleb128 0x13
+ 1241 0087 38       		.uleb128 0x38
+ 1242 0088 05       		.uleb128 0x5
+ 1243 0089 00       		.byte	0
+ 1244 008a 00       		.byte	0
+ 1245 008b 0C       		.uleb128 0xc
+ 1246 008c 01       		.uleb128 0x1
+ 1247 008d 01       		.byte	0x1
+ 1248 008e 49       		.uleb128 0x49
+ 1249 008f 13       		.uleb128 0x13
+ 1250 0090 01       		.uleb128 0x1
+ 1251 0091 13       		.uleb128 0x13
+ 1252 0092 00       		.byte	0
+ 1253 0093 00       		.byte	0
+ 1254 0094 0D       		.uleb128 0xd
+ 1255 0095 21       		.uleb128 0x21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 26
 
 
- 1082 00a2 49       		.uleb128 0x49
- 1083 00a3 13       		.uleb128 0x13
- 1084 00a4 3A       		.uleb128 0x3a
- 1085 00a5 0B       		.uleb128 0xb
- 1086 00a6 3B       		.uleb128 0x3b
- 1087 00a7 05       		.uleb128 0x5
- 1088 00a8 01       		.uleb128 0x1
- 1089 00a9 13       		.uleb128 0x13
- 1090 00aa 00       		.byte	0
- 1091 00ab 00       		.byte	0
- 1092 00ac 0F       		.uleb128 0xf
- 1093 00ad 28       		.uleb128 0x28
- 1094 00ae 00       		.byte	0
- 1095 00af 03       		.uleb128 0x3
- 1096 00b0 0E       		.uleb128 0xe
- 1097 00b1 1C       		.uleb128 0x1c
- 1098 00b2 0B       		.uleb128 0xb
- 1099 00b3 00       		.byte	0
- 1100 00b4 00       		.byte	0
- 1101 00b5 10       		.uleb128 0x10
- 1102 00b6 28       		.uleb128 0x28
- 1103 00b7 00       		.byte	0
- 1104 00b8 03       		.uleb128 0x3
- 1105 00b9 0E       		.uleb128 0xe
- 1106 00ba 1C       		.uleb128 0x1c
- 1107 00bb 06       		.uleb128 0x6
- 1108 00bc 00       		.byte	0
- 1109 00bd 00       		.byte	0
- 1110 00be 11       		.uleb128 0x11
- 1111 00bf 16       		.uleb128 0x16
- 1112 00c0 00       		.byte	0
- 1113 00c1 03       		.uleb128 0x3
- 1114 00c2 0E       		.uleb128 0xe
- 1115 00c3 3A       		.uleb128 0x3a
- 1116 00c4 0B       		.uleb128 0xb
- 1117 00c5 3B       		.uleb128 0x3b
- 1118 00c6 05       		.uleb128 0x5
- 1119 00c7 49       		.uleb128 0x49
- 1120 00c8 13       		.uleb128 0x13
- 1121 00c9 00       		.byte	0
- 1122 00ca 00       		.byte	0
- 1123 00cb 12       		.uleb128 0x12
- 1124 00cc 13       		.uleb128 0x13
- 1125 00cd 01       		.byte	0x1
- 1126 00ce 03       		.uleb128 0x3
- 1127 00cf 0E       		.uleb128 0xe
- 1128 00d0 0B       		.uleb128 0xb
- 1129 00d1 0B       		.uleb128 0xb
- 1130 00d2 3A       		.uleb128 0x3a
- 1131 00d3 0B       		.uleb128 0xb
- 1132 00d4 3B       		.uleb128 0x3b
- 1133 00d5 0B       		.uleb128 0xb
- 1134 00d6 01       		.uleb128 0x1
- 1135 00d7 13       		.uleb128 0x13
- 1136 00d8 00       		.byte	0
- 1137 00d9 00       		.byte	0
- 1138 00da 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 24
+ 1256 0096 00       		.byte	0
+ 1257 0097 49       		.uleb128 0x49
+ 1258 0098 13       		.uleb128 0x13
+ 1259 0099 2F       		.uleb128 0x2f
+ 1260 009a 0B       		.uleb128 0xb
+ 1261 009b 00       		.byte	0
+ 1262 009c 00       		.byte	0
+ 1263 009d 0E       		.uleb128 0xe
+ 1264 009e 04       		.uleb128 0x4
+ 1265 009f 01       		.byte	0x1
+ 1266 00a0 0B       		.uleb128 0xb
+ 1267 00a1 0B       		.uleb128 0xb
+ 1268 00a2 49       		.uleb128 0x49
+ 1269 00a3 13       		.uleb128 0x13
+ 1270 00a4 3A       		.uleb128 0x3a
+ 1271 00a5 0B       		.uleb128 0xb
+ 1272 00a6 3B       		.uleb128 0x3b
+ 1273 00a7 05       		.uleb128 0x5
+ 1274 00a8 01       		.uleb128 0x1
+ 1275 00a9 13       		.uleb128 0x13
+ 1276 00aa 00       		.byte	0
+ 1277 00ab 00       		.byte	0
+ 1278 00ac 0F       		.uleb128 0xf
+ 1279 00ad 28       		.uleb128 0x28
+ 1280 00ae 00       		.byte	0
+ 1281 00af 03       		.uleb128 0x3
+ 1282 00b0 0E       		.uleb128 0xe
+ 1283 00b1 1C       		.uleb128 0x1c
+ 1284 00b2 0B       		.uleb128 0xb
+ 1285 00b3 00       		.byte	0
+ 1286 00b4 00       		.byte	0
+ 1287 00b5 10       		.uleb128 0x10
+ 1288 00b6 28       		.uleb128 0x28
+ 1289 00b7 00       		.byte	0
+ 1290 00b8 03       		.uleb128 0x3
+ 1291 00b9 0E       		.uleb128 0xe
+ 1292 00ba 1C       		.uleb128 0x1c
+ 1293 00bb 06       		.uleb128 0x6
+ 1294 00bc 00       		.byte	0
+ 1295 00bd 00       		.byte	0
+ 1296 00be 11       		.uleb128 0x11
+ 1297 00bf 16       		.uleb128 0x16
+ 1298 00c0 00       		.byte	0
+ 1299 00c1 03       		.uleb128 0x3
+ 1300 00c2 0E       		.uleb128 0xe
+ 1301 00c3 3A       		.uleb128 0x3a
+ 1302 00c4 0B       		.uleb128 0xb
+ 1303 00c5 3B       		.uleb128 0x3b
+ 1304 00c6 05       		.uleb128 0x5
+ 1305 00c7 49       		.uleb128 0x49
+ 1306 00c8 13       		.uleb128 0x13
+ 1307 00c9 00       		.byte	0
+ 1308 00ca 00       		.byte	0
+ 1309 00cb 12       		.uleb128 0x12
+ 1310 00cc 13       		.uleb128 0x13
+ 1311 00cd 01       		.byte	0x1
+ 1312 00ce 03       		.uleb128 0x3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 27
 
 
- 1139 00db 2E       		.uleb128 0x2e
- 1140 00dc 01       		.byte	0x1
- 1141 00dd 3F       		.uleb128 0x3f
- 1142 00de 19       		.uleb128 0x19
- 1143 00df 03       		.uleb128 0x3
- 1144 00e0 0E       		.uleb128 0xe
- 1145 00e1 3A       		.uleb128 0x3a
- 1146 00e2 0B       		.uleb128 0xb
- 1147 00e3 3B       		.uleb128 0x3b
- 1148 00e4 0B       		.uleb128 0xb
- 1149 00e5 27       		.uleb128 0x27
- 1150 00e6 19       		.uleb128 0x19
- 1151 00e7 49       		.uleb128 0x49
- 1152 00e8 13       		.uleb128 0x13
- 1153 00e9 11       		.uleb128 0x11
- 1154 00ea 01       		.uleb128 0x1
- 1155 00eb 12       		.uleb128 0x12
- 1156 00ec 06       		.uleb128 0x6
- 1157 00ed 40       		.uleb128 0x40
- 1158 00ee 18       		.uleb128 0x18
- 1159 00ef 9742     		.uleb128 0x2117
- 1160 00f1 19       		.uleb128 0x19
- 1161 00f2 01       		.uleb128 0x1
- 1162 00f3 13       		.uleb128 0x13
- 1163 00f4 00       		.byte	0
- 1164 00f5 00       		.byte	0
- 1165 00f6 14       		.uleb128 0x14
- 1166 00f7 05       		.uleb128 0x5
- 1167 00f8 00       		.byte	0
- 1168 00f9 03       		.uleb128 0x3
- 1169 00fa 0E       		.uleb128 0xe
- 1170 00fb 3A       		.uleb128 0x3a
- 1171 00fc 0B       		.uleb128 0xb
- 1172 00fd 3B       		.uleb128 0x3b
- 1173 00fe 0B       		.uleb128 0xb
- 1174 00ff 49       		.uleb128 0x49
- 1175 0100 13       		.uleb128 0x13
- 1176 0101 02       		.uleb128 0x2
- 1177 0102 17       		.uleb128 0x17
- 1178 0103 00       		.byte	0
- 1179 0104 00       		.byte	0
- 1180 0105 15       		.uleb128 0x15
- 1181 0106 05       		.uleb128 0x5
- 1182 0107 00       		.byte	0
- 1183 0108 03       		.uleb128 0x3
- 1184 0109 0E       		.uleb128 0xe
- 1185 010a 3A       		.uleb128 0x3a
- 1186 010b 0B       		.uleb128 0xb
- 1187 010c 3B       		.uleb128 0x3b
- 1188 010d 0B       		.uleb128 0xb
- 1189 010e 49       		.uleb128 0x49
- 1190 010f 13       		.uleb128 0x13
- 1191 0110 02       		.uleb128 0x2
- 1192 0111 18       		.uleb128 0x18
- 1193 0112 00       		.byte	0
- 1194 0113 00       		.byte	0
- 1195 0114 16       		.uleb128 0x16
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 25
+ 1313 00cf 0E       		.uleb128 0xe
+ 1314 00d0 0B       		.uleb128 0xb
+ 1315 00d1 0B       		.uleb128 0xb
+ 1316 00d2 3A       		.uleb128 0x3a
+ 1317 00d3 0B       		.uleb128 0xb
+ 1318 00d4 3B       		.uleb128 0x3b
+ 1319 00d5 0B       		.uleb128 0xb
+ 1320 00d6 01       		.uleb128 0x1
+ 1321 00d7 13       		.uleb128 0x13
+ 1322 00d8 00       		.byte	0
+ 1323 00d9 00       		.byte	0
+ 1324 00da 13       		.uleb128 0x13
+ 1325 00db 2E       		.uleb128 0x2e
+ 1326 00dc 01       		.byte	0x1
+ 1327 00dd 3F       		.uleb128 0x3f
+ 1328 00de 19       		.uleb128 0x19
+ 1329 00df 03       		.uleb128 0x3
+ 1330 00e0 0E       		.uleb128 0xe
+ 1331 00e1 3A       		.uleb128 0x3a
+ 1332 00e2 0B       		.uleb128 0xb
+ 1333 00e3 3B       		.uleb128 0x3b
+ 1334 00e4 0B       		.uleb128 0xb
+ 1335 00e5 27       		.uleb128 0x27
+ 1336 00e6 19       		.uleb128 0x19
+ 1337 00e7 49       		.uleb128 0x49
+ 1338 00e8 13       		.uleb128 0x13
+ 1339 00e9 11       		.uleb128 0x11
+ 1340 00ea 01       		.uleb128 0x1
+ 1341 00eb 12       		.uleb128 0x12
+ 1342 00ec 06       		.uleb128 0x6
+ 1343 00ed 40       		.uleb128 0x40
+ 1344 00ee 18       		.uleb128 0x18
+ 1345 00ef 9742     		.uleb128 0x2117
+ 1346 00f1 19       		.uleb128 0x19
+ 1347 00f2 01       		.uleb128 0x1
+ 1348 00f3 13       		.uleb128 0x13
+ 1349 00f4 00       		.byte	0
+ 1350 00f5 00       		.byte	0
+ 1351 00f6 14       		.uleb128 0x14
+ 1352 00f7 05       		.uleb128 0x5
+ 1353 00f8 00       		.byte	0
+ 1354 00f9 03       		.uleb128 0x3
+ 1355 00fa 0E       		.uleb128 0xe
+ 1356 00fb 3A       		.uleb128 0x3a
+ 1357 00fc 0B       		.uleb128 0xb
+ 1358 00fd 3B       		.uleb128 0x3b
+ 1359 00fe 0B       		.uleb128 0xb
+ 1360 00ff 49       		.uleb128 0x49
+ 1361 0100 13       		.uleb128 0x13
+ 1362 0101 02       		.uleb128 0x2
+ 1363 0102 18       		.uleb128 0x18
+ 1364 0103 00       		.byte	0
+ 1365 0104 00       		.byte	0
+ 1366 0105 15       		.uleb128 0x15
+ 1367 0106 34       		.uleb128 0x34
+ 1368 0107 00       		.byte	0
+ 1369 0108 03       		.uleb128 0x3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 28
 
 
- 1196 0115 34       		.uleb128 0x34
- 1197 0116 00       		.byte	0
- 1198 0117 03       		.uleb128 0x3
- 1199 0118 0E       		.uleb128 0xe
- 1200 0119 3A       		.uleb128 0x3a
- 1201 011a 0B       		.uleb128 0xb
- 1202 011b 3B       		.uleb128 0x3b
- 1203 011c 0B       		.uleb128 0xb
- 1204 011d 49       		.uleb128 0x49
- 1205 011e 13       		.uleb128 0x13
- 1206 011f 02       		.uleb128 0x2
- 1207 0120 17       		.uleb128 0x17
- 1208 0121 00       		.byte	0
- 1209 0122 00       		.byte	0
- 1210 0123 17       		.uleb128 0x17
- 1211 0124 0F       		.uleb128 0xf
- 1212 0125 00       		.byte	0
- 1213 0126 0B       		.uleb128 0xb
- 1214 0127 0B       		.uleb128 0xb
- 1215 0128 49       		.uleb128 0x49
- 1216 0129 13       		.uleb128 0x13
- 1217 012a 00       		.byte	0
- 1218 012b 00       		.byte	0
- 1219 012c 18       		.uleb128 0x18
- 1220 012d 2E       		.uleb128 0x2e
- 1221 012e 01       		.byte	0x1
- 1222 012f 3F       		.uleb128 0x3f
- 1223 0130 19       		.uleb128 0x19
- 1224 0131 03       		.uleb128 0x3
- 1225 0132 0E       		.uleb128 0xe
- 1226 0133 3A       		.uleb128 0x3a
- 1227 0134 0B       		.uleb128 0xb
- 1228 0135 3B       		.uleb128 0x3b
- 1229 0136 0B       		.uleb128 0xb
- 1230 0137 27       		.uleb128 0x27
- 1231 0138 19       		.uleb128 0x19
- 1232 0139 11       		.uleb128 0x11
- 1233 013a 01       		.uleb128 0x1
- 1234 013b 12       		.uleb128 0x12
- 1235 013c 06       		.uleb128 0x6
- 1236 013d 40       		.uleb128 0x40
- 1237 013e 18       		.uleb128 0x18
- 1238 013f 9742     		.uleb128 0x2117
- 1239 0141 19       		.uleb128 0x19
- 1240 0142 01       		.uleb128 0x1
- 1241 0143 13       		.uleb128 0x13
- 1242 0144 00       		.byte	0
- 1243 0145 00       		.byte	0
- 1244 0146 19       		.uleb128 0x19
- 1245 0147 34       		.uleb128 0x34
- 1246 0148 00       		.byte	0
- 1247 0149 03       		.uleb128 0x3
- 1248 014a 0E       		.uleb128 0xe
- 1249 014b 3A       		.uleb128 0x3a
- 1250 014c 0B       		.uleb128 0xb
- 1251 014d 3B       		.uleb128 0x3b
- 1252 014e 05       		.uleb128 0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 26
+ 1370 0109 0E       		.uleb128 0xe
+ 1371 010a 3A       		.uleb128 0x3a
+ 1372 010b 0B       		.uleb128 0xb
+ 1373 010c 3B       		.uleb128 0x3b
+ 1374 010d 0B       		.uleb128 0xb
+ 1375 010e 49       		.uleb128 0x49
+ 1376 010f 13       		.uleb128 0x13
+ 1377 0110 02       		.uleb128 0x2
+ 1378 0111 18       		.uleb128 0x18
+ 1379 0112 00       		.byte	0
+ 1380 0113 00       		.byte	0
+ 1381 0114 16       		.uleb128 0x16
+ 1382 0115 0F       		.uleb128 0xf
+ 1383 0116 00       		.byte	0
+ 1384 0117 0B       		.uleb128 0xb
+ 1385 0118 0B       		.uleb128 0xb
+ 1386 0119 49       		.uleb128 0x49
+ 1387 011a 13       		.uleb128 0x13
+ 1388 011b 00       		.byte	0
+ 1389 011c 00       		.byte	0
+ 1390 011d 17       		.uleb128 0x17
+ 1391 011e 2E       		.uleb128 0x2e
+ 1392 011f 01       		.byte	0x1
+ 1393 0120 3F       		.uleb128 0x3f
+ 1394 0121 19       		.uleb128 0x19
+ 1395 0122 03       		.uleb128 0x3
+ 1396 0123 0E       		.uleb128 0xe
+ 1397 0124 3A       		.uleb128 0x3a
+ 1398 0125 0B       		.uleb128 0xb
+ 1399 0126 3B       		.uleb128 0x3b
+ 1400 0127 0B       		.uleb128 0xb
+ 1401 0128 27       		.uleb128 0x27
+ 1402 0129 19       		.uleb128 0x19
+ 1403 012a 11       		.uleb128 0x11
+ 1404 012b 01       		.uleb128 0x1
+ 1405 012c 12       		.uleb128 0x12
+ 1406 012d 06       		.uleb128 0x6
+ 1407 012e 40       		.uleb128 0x40
+ 1408 012f 18       		.uleb128 0x18
+ 1409 0130 9742     		.uleb128 0x2117
+ 1410 0132 19       		.uleb128 0x19
+ 1411 0133 01       		.uleb128 0x1
+ 1412 0134 13       		.uleb128 0x13
+ 1413 0135 00       		.byte	0
+ 1414 0136 00       		.byte	0
+ 1415 0137 18       		.uleb128 0x18
+ 1416 0138 34       		.uleb128 0x34
+ 1417 0139 00       		.byte	0
+ 1418 013a 03       		.uleb128 0x3
+ 1419 013b 0E       		.uleb128 0xe
+ 1420 013c 3A       		.uleb128 0x3a
+ 1421 013d 0B       		.uleb128 0xb
+ 1422 013e 3B       		.uleb128 0x3b
+ 1423 013f 05       		.uleb128 0x5
+ 1424 0140 49       		.uleb128 0x49
+ 1425 0141 13       		.uleb128 0x13
+ 1426 0142 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 29
 
 
- 1253 014f 49       		.uleb128 0x49
- 1254 0150 13       		.uleb128 0x13
- 1255 0151 3F       		.uleb128 0x3f
- 1256 0152 19       		.uleb128 0x19
- 1257 0153 3C       		.uleb128 0x3c
- 1258 0154 19       		.uleb128 0x19
- 1259 0155 00       		.byte	0
- 1260 0156 00       		.byte	0
- 1261 0157 00       		.byte	0
- 1262              		.section	.debug_loc,"",%progbits
- 1263              	.Ldebug_loc0:
- 1264              	.LLST0:
- 1265 0000 00000000 		.4byte	.LVL0
- 1266 0004 42000000 		.4byte	.LVL1
- 1267 0008 0100     		.2byte	0x1
- 1268 000a 50       		.byte	0x50
- 1269 000b 42000000 		.4byte	.LVL1
- 1270 000f 50010000 		.4byte	.LVL2
- 1271 0013 0100     		.2byte	0x1
- 1272 0015 54       		.byte	0x54
- 1273 0016 50010000 		.4byte	.LVL2
- 1274 001a 5E010000 		.4byte	.LVL4
- 1275 001e 0400     		.2byte	0x4
- 1276 0020 F3       		.byte	0xf3
- 1277 0021 01       		.uleb128 0x1
- 1278 0022 50       		.byte	0x50
- 1279 0023 9F       		.byte	0x9f
- 1280 0024 5E010000 		.4byte	.LVL4
- 1281 0028 60010000 		.4byte	.LVL5
- 1282 002c 0100     		.2byte	0x1
- 1283 002e 50       		.byte	0x50
- 1284 002f 60010000 		.4byte	.LVL5
- 1285 0033 62010000 		.4byte	.LVL6
- 1286 0037 0400     		.2byte	0x4
- 1287 0039 F3       		.byte	0xf3
- 1288 003a 01       		.uleb128 0x1
- 1289 003b 50       		.byte	0x50
- 1290 003c 9F       		.byte	0x9f
- 1291 003d 62010000 		.4byte	.LVL6
- 1292 0041 64010000 		.4byte	.LVL7
- 1293 0045 0100     		.2byte	0x1
- 1294 0047 50       		.byte	0x50
- 1295 0048 64010000 		.4byte	.LVL7
- 1296 004c 6C010000 		.4byte	.LFE152
- 1297 0050 0400     		.2byte	0x4
- 1298 0052 F3       		.byte	0xf3
- 1299 0053 01       		.uleb128 0x1
- 1300 0054 50       		.byte	0x50
- 1301 0055 9F       		.byte	0x9f
- 1302 0056 00000000 		.4byte	0
- 1303 005a 00000000 		.4byte	0
- 1304              	.LLST1:
- 1305 005e 00000000 		.4byte	.LVL0
- 1306 0062 5A010000 		.4byte	.LVL3
- 1307 0066 0600     		.2byte	0x6
- 1308 0068 0C       		.byte	0xc
- 1309 0069 0100B600 		.4byte	0xb60001
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 27
+ 1427 0143 19       		.uleb128 0x19
+ 1428 0144 3C       		.uleb128 0x3c
+ 1429 0145 19       		.uleb128 0x19
+ 1430 0146 00       		.byte	0
+ 1431 0147 00       		.byte	0
+ 1432 0148 00       		.byte	0
+ 1433              		.section	.debug_aranges,"",%progbits
+ 1434 0000 24000000 		.4byte	0x24
+ 1435 0004 0200     		.2byte	0x2
+ 1436 0006 00000000 		.4byte	.Ldebug_info0
+ 1437 000a 04       		.byte	0x4
+ 1438 000b 00       		.byte	0
+ 1439 000c 0000     		.2byte	0
+ 1440 000e 0000     		.2byte	0
+ 1441 0010 00000000 		.4byte	.LFB152
+ 1442 0014 48020000 		.4byte	.LFE152-.LFB152
+ 1443 0018 00000000 		.4byte	.LFB153
+ 1444 001c EA000000 		.4byte	.LFE153-.LFB153
+ 1445 0020 00000000 		.4byte	0
+ 1446 0024 00000000 		.4byte	0
+ 1447              		.section	.debug_ranges,"",%progbits
+ 1448              	.Ldebug_ranges0:
+ 1449 0000 00000000 		.4byte	.LFB152
+ 1450 0004 48020000 		.4byte	.LFE152
+ 1451 0008 00000000 		.4byte	.LFB153
+ 1452 000c EA000000 		.4byte	.LFE153
+ 1453 0010 00000000 		.4byte	0
+ 1454 0014 00000000 		.4byte	0
+ 1455              		.section	.debug_line,"",%progbits
+ 1456              	.Ldebug_line0:
+ 1457 0000 85020000 		.section	.debug_str,"MS",%progbits,1
+ 1457      0200E901 
+ 1457      00000201 
+ 1457      FB0E0D00 
+ 1457      01010101 
+ 1458              	.LASF52:
+ 1459 0000 656E6162 		.ascii	"enablePeriodSwap\000"
+ 1459      6C655065 
+ 1459      72696F64 
+ 1459      53776170 
+ 1459      00
+ 1460              	.LASF63:
+ 1461 0011 72656C6F 		.ascii	"reloadInput\000"
+ 1461      6164496E 
+ 1461      70757400 
+ 1462              	.LASF46:
+ 1463 001d 636C6F63 		.ascii	"clockPrescaler\000"
+ 1463      6B507265 
+ 1463      7363616C 
+ 1463      657200
+ 1464              	.LASF68:
+ 1465 002c 636F756E 		.ascii	"countInputMode\000"
+ 1465      74496E70 
+ 1465      75744D6F 
+ 1465      646500
+ 1466              	.LASF53:
+ 1467 003b 636F6D70 		.ascii	"compare0\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 30
 
 
- 1310 006d 9F       		.byte	0x9f
- 1311 006e 5A010000 		.4byte	.LVL3
- 1312 0072 5E010000 		.4byte	.LVL4
- 1313 0076 0200     		.2byte	0x2
- 1314 0078 30       		.byte	0x30
- 1315 0079 9F       		.byte	0x9f
- 1316 007a 5E010000 		.4byte	.LVL4
- 1317 007e 60010000 		.4byte	.LVL5
- 1318 0082 0600     		.2byte	0x6
- 1319 0084 0C       		.byte	0xc
- 1320 0085 0100B600 		.4byte	0xb60001
- 1321 0089 9F       		.byte	0x9f
- 1322 008a 60010000 		.4byte	.LVL5
- 1323 008e 62010000 		.4byte	.LVL6
- 1324 0092 0100     		.2byte	0x1
- 1325 0094 50       		.byte	0x50
- 1326 0095 62010000 		.4byte	.LVL6
- 1327 0099 64010000 		.4byte	.LVL7
- 1328 009d 0600     		.2byte	0x6
- 1329 009f 0C       		.byte	0xc
- 1330 00a0 0100B600 		.4byte	0xb60001
- 1331 00a4 9F       		.byte	0x9f
- 1332 00a5 64010000 		.4byte	.LVL7
- 1333 00a9 6C010000 		.4byte	.LFE152
- 1334 00ad 0100     		.2byte	0x1
- 1335 00af 50       		.byte	0x50
- 1336 00b0 00000000 		.4byte	0
- 1337 00b4 00000000 		.4byte	0
- 1338              	.LLST2:
- 1339 00b8 00000000 		.4byte	.LVL8
- 1340 00bc 4E000000 		.4byte	.LVL9
- 1341 00c0 0100     		.2byte	0x1
- 1342 00c2 50       		.byte	0x50
- 1343 00c3 4E000000 		.4byte	.LVL9
- 1344 00c7 58000000 		.4byte	.LFE153
- 1345 00cb 0400     		.2byte	0x4
- 1346 00cd F3       		.byte	0xf3
- 1347 00ce 01       		.uleb128 0x1
- 1348 00cf 50       		.byte	0x50
- 1349 00d0 9F       		.byte	0x9f
- 1350 00d1 00000000 		.4byte	0
- 1351 00d5 00000000 		.4byte	0
- 1352              		.section	.debug_aranges,"",%progbits
- 1353 0000 24000000 		.4byte	0x24
- 1354 0004 0200     		.2byte	0x2
- 1355 0006 00000000 		.4byte	.Ldebug_info0
- 1356 000a 04       		.byte	0x4
- 1357 000b 00       		.byte	0
- 1358 000c 0000     		.2byte	0
- 1359 000e 0000     		.2byte	0
- 1360 0010 00000000 		.4byte	.LFB152
- 1361 0014 6C010000 		.4byte	.LFE152-.LFB152
- 1362 0018 00000000 		.4byte	.LFB153
- 1363 001c 58000000 		.4byte	.LFE153-.LFB153
- 1364 0020 00000000 		.4byte	0
- 1365 0024 00000000 		.4byte	0
- 1366              		.section	.debug_ranges,"",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 28
-
-
- 1367              	.Ldebug_ranges0:
- 1368 0000 00000000 		.4byte	.LFB152
- 1369 0004 6C010000 		.4byte	.LFE152
- 1370 0008 00000000 		.4byte	.LFB153
- 1371 000c 58000000 		.4byte	.LFE153
- 1372 0010 00000000 		.4byte	0
- 1373 0014 00000000 		.4byte	0
- 1374              		.section	.debug_line,"",%progbits
- 1375              	.Ldebug_line0:
- 1376 0000 7C020000 		.section	.debug_str,"MS",%progbits,1
- 1376      0200E901 
- 1376      00000201 
- 1376      FB0E0D00 
- 1376      01010101 
- 1377              	.LASF52:
- 1378 0000 656E6162 		.ascii	"enablePeriodSwap\000"
- 1378      6C655065 
- 1378      72696F64 
- 1378      53776170 
- 1378      00
- 1379              	.LASF63:
- 1380 0011 72656C6F 		.ascii	"reloadInput\000"
- 1380      6164496E 
- 1380      70757400 
- 1381              	.LASF46:
- 1382 001d 636C6F63 		.ascii	"clockPrescaler\000"
- 1382      6B507265 
- 1382      7363616C 
- 1382      657200
- 1383              	.LASF68:
- 1384 002c 636F756E 		.ascii	"countInputMode\000"
- 1384      74496E70 
- 1384      75744D6F 
- 1384      646500
- 1385              	.LASF53:
- 1386 003b 636F6D70 		.ascii	"compare0\000"
- 1386      61726530 
- 1386      00
- 1387              	.LASF54:
- 1388 0044 636F6D70 		.ascii	"compare1\000"
- 1388      61726531 
- 1388      00
- 1389              	.LASF71:
- 1390 004d 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config_t\000"
- 1390      74635F74 
- 1390      6370776D 
- 1390      5F70776D 
- 1390      5F636F6E 
- 1391              	.LASF30:
- 1392 0067 54435057 		.ascii	"TCPWM_CNT_Type\000"
- 1392      4D5F434E 
- 1392      545F5479 
- 1392      706500
- 1393              	.LASF2:
- 1394 0076 73686F72 		.ascii	"short int\000"
- 1394      7420696E 
- 1394      7400
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 29
-
-
- 1395              	.LASF14:
- 1396 0080 73697A65 		.ascii	"sizetype\000"
- 1396      74797065 
- 1396      00
- 1397              	.LASF20:
- 1398 0089 50455249 		.ascii	"PERIOD_BUFF\000"
- 1398      4F445F42 
- 1398      55464600 
- 1399              	.LASF32:
- 1400 0095 4354524C 		.ascii	"CTRL_SET\000"
- 1400      5F534554 
- 1400      00
- 1401              	.LASF19:
- 1402 009e 50455249 		.ascii	"PERIOD\000"
- 1402      4F4400
- 1403              	.LASF34:
- 1404 00a5 434D445F 		.ascii	"CMD_RELOAD\000"
- 1404      52454C4F 
- 1404      414400
- 1405              	.LASF23:
- 1406 00b0 54525F43 		.ascii	"TR_CTRL1\000"
- 1406      54524C31 
- 1406      00
- 1407              	.LASF24:
- 1408 00b9 54525F43 		.ascii	"TR_CTRL2\000"
- 1408      54524C32 
- 1408      00
- 1409              	.LASF75:
- 1410 00c2 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 1410      43313120 
- 1410      352E342E 
- 1410      31203230 
- 1410      31363036 
- 1411 00f5 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
- 1411      20726576 
- 1411      6973696F 
- 1411      6E203233 
- 1411      37373135 
- 1412 0128 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
- 1412      70202D6D 
- 1412      6670753D 
- 1412      66707634 
- 1412      2D73702D 
- 1413 015b 65637469 		.ascii	"ections -ffat-lto-objects\000"
- 1413      6F6E7320 
- 1413      2D666661 
- 1413      742D6C74 
- 1413      6F2D6F62 
- 1414              	.LASF42:
- 1415 0175 43595F54 		.ascii	"CY_TCPWM_SUCCESS\000"
- 1415      4350574D 
- 1415      5F535543 
- 1415      43455353 
- 1415      00
- 1416              	.LASF6:
- 1417 0186 5F5F7569 		.ascii	"__uint32_t\000"
- 1417      6E743332 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 30
-
-
- 1417      5F7400
- 1418              	.LASF22:
- 1419 0191 54525F43 		.ascii	"TR_CTRL0\000"
- 1419      54524C30 
- 1419      00
- 1420              	.LASF74:
- 1421 019a 636F6E66 		.ascii	"config\000"
- 1421      696700
- 1422              	.LASF47:
- 1423 01a1 70776D41 		.ascii	"pwmAlignment\000"
- 1423      6C69676E 
- 1423      6D656E74 
- 1423      00
- 1424              	.LASF55:
- 1425 01ae 656E6162 		.ascii	"enableCompareSwap\000"
- 1425      6C65436F 
- 1425      6D706172 
- 1425      65537761 
- 1425      7000
- 1426              	.LASF78:
- 1427 01c0 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
- 1427      74635F74 
- 1427      6370776D 
- 1427      5F70776D 
- 1427      5F636F6E 
- 1428              	.LASF67:
- 1429 01d8 6B696C6C 		.ascii	"killInput\000"
- 1429      496E7075 
- 1429      7400
- 1430              	.LASF33:
- 1431 01e2 434D445F 		.ascii	"CMD_CAPTURE\000"
- 1431      43415054 
- 1431      55524500 
- 1432              	.LASF56:
- 1433 01ee 696E7465 		.ascii	"interruptSources\000"
- 1433      72727570 
- 1433      74536F75 
- 1433      72636573 
- 1433      00
- 1434              	.LASF36:
- 1435 01ff 434D445F 		.ascii	"CMD_START\000"
- 1435      53544152 
- 1435      5400
- 1436              	.LASF59:
- 1437 0209 6B696C6C 		.ascii	"killMode\000"
- 1437      4D6F6465 
- 1437      00
- 1438              	.LASF40:
- 1439 0212 666C6F61 		.ascii	"float\000"
- 1439      7400
- 1440              	.LASF50:
- 1441 0218 70657269 		.ascii	"period0\000"
- 1441      6F643000 
- 1442              	.LASF51:
- 1443 0220 70657269 		.ascii	"period1\000"
- 1443      6F643100 
- 1444              	.LASF62:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 31
-
-
- 1445 0228 72656C6F 		.ascii	"reloadInputMode\000"
- 1445      6164496E 
- 1445      7075744D 
- 1445      6F646500 
- 1446              	.LASF8:
- 1447 0238 6C6F6E67 		.ascii	"long long int\000"
- 1447      206C6F6E 
- 1447      6720696E 
- 1447      7400
- 1448              	.LASF49:
- 1449 0246 72756E4D 		.ascii	"runMode\000"
- 1449      6F646500 
- 1450              	.LASF16:
- 1451 024e 53544154 		.ascii	"STATUS\000"
- 1451      555300
- 1452              	.LASF4:
- 1453 0255 6C6F6E67 		.ascii	"long int\000"
- 1453      20696E74 
- 1453      00
- 1454              	.LASF81:
- 1455 025e 43795F54 		.ascii	"Cy_TCPWM_PWM_DeInit\000"
- 1455      4350574D 
- 1455      5F50574D 
- 1455      5F446549 
- 1455      6E697400 
- 1456              	.LASF77:
- 1457 0272 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
- 1457      73657273 
- 1457      5C726F62 
- 1457      65725C44 
- 1457      65736B74 
- 1458 029f 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
- 1458      5F456D57 
- 1458      696E5F45 
- 1458      496E6B5F 
- 1458      44697370 
- 1459 02d1 6C617930 		.ascii	"lay01.cydsn\000"
- 1459      312E6379 
- 1459      64736E00 
- 1460              	.LASF73:
- 1461 02dd 636E744E 		.ascii	"cntNum\000"
- 1461      756D00
- 1462              	.LASF29:
- 1463 02e4 494E5452 		.ascii	"INTR_MASKED\000"
- 1463      5F4D4153 
- 1463      4B454400 
- 1464              	.LASF18:
- 1465 02f0 43435F42 		.ascii	"CC_BUFF\000"
- 1465      55464600 
- 1466              	.LASF13:
- 1467 02f8 6C6F6E67 		.ascii	"long double\000"
- 1467      20646F75 
- 1467      626C6500 
- 1468              	.LASF64:
- 1469 0304 73746172 		.ascii	"startInputMode\000"
- 1469      74496E70 
- 1469      75744D6F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 32
-
-
- 1469      646500
- 1470              	.LASF1:
- 1471 0313 756E7369 		.ascii	"unsigned char\000"
- 1471      676E6564 
- 1471      20636861 
- 1471      7200
- 1472              	.LASF15:
- 1473 0321 4354524C 		.ascii	"CTRL\000"
- 1473      00
- 1474              	.LASF37:
- 1475 0326 494E5452 		.ascii	"INTR_CAUSE\000"
- 1475      5F434155 
- 1475      534500
- 1476              	.LASF0:
- 1477 0331 7369676E 		.ascii	"signed char\000"
- 1477      65642063 
- 1477      68617200 
- 1478              	.LASF27:
- 1479 033d 494E5452 		.ascii	"INTR_SET\000"
- 1479      5F534554 
- 1479      00
- 1480              	.LASF9:
- 1481 0346 6C6F6E67 		.ascii	"long long unsigned int\000"
- 1481      206C6F6E 
- 1481      6720756E 
- 1481      7369676E 
- 1481      65642069 
- 1482              	.LASF12:
- 1483 035d 75696E74 		.ascii	"uint32_t\000"
- 1483      33325F74 
- 1483      00
- 1484              	.LASF10:
- 1485 0366 756E7369 		.ascii	"unsigned int\000"
- 1485      676E6564 
- 1485      20696E74 
- 1485      00
- 1486              	.LASF58:
- 1487 0373 696E7665 		.ascii	"invertPWMOutN\000"
- 1487      72745057 
- 1487      4D4F7574 
- 1487      4E00
- 1488              	.LASF35:
- 1489 0381 434D445F 		.ascii	"CMD_STOP\000"
- 1489      53544F50 
+ 1467      61726530 
+ 1467      00
+ 1468              	.LASF54:
+ 1469 0044 636F6D70 		.ascii	"compare1\000"
+ 1469      61726531 
+ 1469      00
+ 1470              	.LASF71:
+ 1471 004d 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config_t\000"
+ 1471      74635F74 
+ 1471      6370776D 
+ 1471      5F70776D 
+ 1471      5F636F6E 
+ 1472              	.LASF30:
+ 1473 0067 54435057 		.ascii	"TCPWM_CNT_Type\000"
+ 1473      4D5F434E 
+ 1473      545F5479 
+ 1473      706500
+ 1474              	.LASF2:
+ 1475 0076 73686F72 		.ascii	"short int\000"
+ 1475      7420696E 
+ 1475      7400
+ 1476              	.LASF14:
+ 1477 0080 73697A65 		.ascii	"sizetype\000"
+ 1477      74797065 
+ 1477      00
+ 1478              	.LASF20:
+ 1479 0089 50455249 		.ascii	"PERIOD_BUFF\000"
+ 1479      4F445F42 
+ 1479      55464600 
+ 1480              	.LASF32:
+ 1481 0095 4354524C 		.ascii	"CTRL_SET\000"
+ 1481      5F534554 
+ 1481      00
+ 1482              	.LASF19:
+ 1483 009e 50455249 		.ascii	"PERIOD\000"
+ 1483      4F4400
+ 1484              	.LASF34:
+ 1485 00a5 434D445F 		.ascii	"CMD_RELOAD\000"
+ 1485      52454C4F 
+ 1485      414400
+ 1486              	.LASF23:
+ 1487 00b0 54525F43 		.ascii	"TR_CTRL1\000"
+ 1487      54524C31 
+ 1487      00
+ 1488              	.LASF24:
+ 1489 00b9 54525F43 		.ascii	"TR_CTRL2\000"
+ 1489      54524C32 
  1489      00
- 1490              	.LASF28:
- 1491 038a 494E5452 		.ascii	"INTR_MASK\000"
- 1491      5F4D4153 
- 1491      4B00
- 1492              	.LASF3:
- 1493 0394 73686F72 		.ascii	"short unsigned int\000"
- 1493      7420756E 
- 1493      7369676E 
- 1493      65642069 
- 1493      6E7400
- 1494              	.LASF80:
- 1495 03a7 73746174 		.ascii	"status\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 33
+ 1490              	.LASF42:
+ 1491 00c2 43595F54 		.ascii	"CY_TCPWM_SUCCESS\000"
+ 1491      4350574D 
+ 1491      5F535543 
+ 1491      43455353 
+ 1491      00
+ 1492              	.LASF6:
+ 1493 00d3 5F5F7569 		.ascii	"__uint32_t\000"
+ 1493      6E743332 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 31
 
 
- 1495      757300
- 1496              	.LASF39:
- 1497 03ae 63686172 		.ascii	"char\000"
- 1497      00
- 1498              	.LASF48:
- 1499 03b3 64656164 		.ascii	"deadTimeClocks\000"
- 1499      54696D65 
- 1499      436C6F63 
- 1499      6B7300
- 1500              	.LASF11:
- 1501 03c2 696E7433 		.ascii	"int32_t\000"
- 1501      325F7400 
- 1502              	.LASF43:
- 1503 03ca 43595F54 		.ascii	"CY_TCPWM_BAD_PARAM\000"
- 1503      4350574D 
- 1503      5F424144 
- 1503      5F504152 
- 1503      414D00
- 1504              	.LASF70:
- 1505 03dd 5F426F6F 		.ascii	"_Bool\000"
- 1505      6C00
- 1506              	.LASF26:
- 1507 03e3 494E5452 		.ascii	"INTR\000"
- 1507      00
- 1508              	.LASF79:
- 1509 03e8 43795F54 		.ascii	"Cy_TCPWM_PWM_Init\000"
- 1509      4350574D 
- 1509      5F50574D 
- 1509      5F496E69 
- 1509      7400
- 1510              	.LASF25:
- 1511 03fa 52455345 		.ascii	"RESERVED1\000"
- 1511      52564544 
- 1511      3100
- 1512              	.LASF7:
- 1513 0404 6C6F6E67 		.ascii	"long unsigned int\000"
- 1513      20756E73 
- 1513      69676E65 
- 1513      6420696E 
- 1513      7400
- 1514              	.LASF41:
- 1515 0416 646F7562 		.ascii	"double\000"
- 1515      6C6500
- 1516              	.LASF76:
- 1517 041d 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\"
- 1517      72617465 
- 1517      645F536F 
- 1517      75726365 
- 1517      5C50536F 
- 1518 044b 74637077 		.ascii	"tcpwm\\cy_tcpwm_pwm.c\000"
- 1518      6D5C6379 
- 1518      5F746370 
- 1518      776D5F70 
- 1518      776D2E63 
- 1519              	.LASF60:
- 1520 0460 73776170 		.ascii	"swapInputMode\000"
- 1520      496E7075 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 34
+ 1493      5F7400
+ 1494              	.LASF22:
+ 1495 00de 54525F43 		.ascii	"TR_CTRL0\000"
+ 1495      54524C30 
+ 1495      00
+ 1496              	.LASF74:
+ 1497 00e7 636F6E66 		.ascii	"config\000"
+ 1497      696700
+ 1498              	.LASF47:
+ 1499 00ee 70776D41 		.ascii	"pwmAlignment\000"
+ 1499      6C69676E 
+ 1499      6D656E74 
+ 1499      00
+ 1500              	.LASF55:
+ 1501 00fb 656E6162 		.ascii	"enableCompareSwap\000"
+ 1501      6C65436F 
+ 1501      6D706172 
+ 1501      65537761 
+ 1501      7000
+ 1502              	.LASF78:
+ 1503 010d 63795F73 		.ascii	"cy_stc_tcpwm_pwm_config\000"
+ 1503      74635F74 
+ 1503      6370776D 
+ 1503      5F70776D 
+ 1503      5F636F6E 
+ 1504              	.LASF75:
+ 1505 0125 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1505      43313120 
+ 1505      352E342E 
+ 1505      31203230 
+ 1505      31363036 
+ 1506 0158 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 1506      20726576 
+ 1506      6973696F 
+ 1506      6E203233 
+ 1506      37373135 
+ 1507 018b 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
+ 1507      70202D6D 
+ 1507      6670753D 
+ 1507      66707634 
+ 1507      2D73702D 
+ 1508 01be 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 1508      6F6E7320 
+ 1508      2D666661 
+ 1508      742D6C74 
+ 1508      6F2D6F62 
+ 1509              	.LASF67:
+ 1510 01d8 6B696C6C 		.ascii	"killInput\000"
+ 1510      496E7075 
+ 1510      7400
+ 1511              	.LASF33:
+ 1512 01e2 434D445F 		.ascii	"CMD_CAPTURE\000"
+ 1512      43415054 
+ 1512      55524500 
+ 1513              	.LASF56:
+ 1514 01ee 696E7465 		.ascii	"interruptSources\000"
+ 1514      72727570 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 32
 
 
- 1520      744D6F64 
- 1520      6500
- 1521              	.LASF65:
- 1522 046e 73746172 		.ascii	"startInput\000"
- 1522      74496E70 
- 1522      757400
- 1523              	.LASF5:
- 1524 0479 5F5F696E 		.ascii	"__int32_t\000"
- 1524      7433325F 
- 1524      7400
- 1525              	.LASF31:
- 1526 0483 4354524C 		.ascii	"CTRL_CLR\000"
- 1526      5F434C52 
- 1526      00
- 1527              	.LASF61:
- 1528 048c 73776170 		.ascii	"swapInput\000"
- 1528      496E7075 
+ 1514      74536F75 
+ 1514      72636573 
+ 1514      00
+ 1515              	.LASF36:
+ 1516 01ff 434D445F 		.ascii	"CMD_START\000"
+ 1516      53544152 
+ 1516      5400
+ 1517              	.LASF59:
+ 1518 0209 6B696C6C 		.ascii	"killMode\000"
+ 1518      4D6F6465 
+ 1518      00
+ 1519              	.LASF40:
+ 1520 0212 666C6F61 		.ascii	"float\000"
+ 1520      7400
+ 1521              	.LASF50:
+ 1522 0218 70657269 		.ascii	"period0\000"
+ 1522      6F643000 
+ 1523              	.LASF51:
+ 1524 0220 70657269 		.ascii	"period1\000"
+ 1524      6F643100 
+ 1525              	.LASF62:
+ 1526 0228 72656C6F 		.ascii	"reloadInputMode\000"
+ 1526      6164496E 
+ 1526      7075744D 
+ 1526      6F646500 
+ 1527              	.LASF8:
+ 1528 0238 6C6F6E67 		.ascii	"long long int\000"
+ 1528      206C6F6E 
+ 1528      6720696E 
  1528      7400
- 1529              	.LASF57:
- 1530 0496 696E7665 		.ascii	"invertPWMOut\000"
- 1530      72745057 
- 1530      4D4F7574 
- 1530      00
- 1531              	.LASF66:
- 1532 04a3 6B696C6C 		.ascii	"killInputMode\000"
- 1532      496E7075 
- 1532      744D6F64 
- 1532      6500
- 1533              	.LASF17:
- 1534 04b1 434F554E 		.ascii	"COUNTER\000"
- 1534      54455200 
- 1535              	.LASF45:
- 1536 04b9 70776D4D 		.ascii	"pwmMode\000"
- 1536      6F646500 
- 1537              	.LASF21:
- 1538 04c1 52455345 		.ascii	"RESERVED\000"
- 1538      52564544 
- 1538      00
- 1539              	.LASF44:
- 1540 04ca 63795F65 		.ascii	"cy_en_tcpwm_status_t\000"
- 1540      6E5F7463 
- 1540      70776D5F 
- 1540      73746174 
- 1540      75735F74 
- 1541              	.LASF69:
- 1542 04df 636F756E 		.ascii	"countInput\000"
- 1542      74496E70 
- 1542      757400
- 1543              	.LASF82:
- 1544 04ea 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1544      52784275 
- 1544      66666572 
- 1544      00
- 1545              	.LASF38:
- 1546 04f7 54435057 		.ascii	"TCPWM_Type\000"
- 1546      4D5F5479 
- 1546      706500
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccJYb3Kl.s 			page 35
+ 1529              	.LASF49:
+ 1530 0246 72756E4D 		.ascii	"runMode\000"
+ 1530      6F646500 
+ 1531              	.LASF16:
+ 1532 024e 53544154 		.ascii	"STATUS\000"
+ 1532      555300
+ 1533              	.LASF4:
+ 1534 0255 6C6F6E67 		.ascii	"long int\000"
+ 1534      20696E74 
+ 1534      00
+ 1535              	.LASF81:
+ 1536 025e 43795F54 		.ascii	"Cy_TCPWM_PWM_DeInit\000"
+ 1536      4350574D 
+ 1536      5F50574D 
+ 1536      5F446549 
+ 1536      6E697400 
+ 1537              	.LASF77:
+ 1538 0272 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 1538      73657273 
+ 1538      5C726F62 
+ 1538      65725C44 
+ 1538      65736B74 
+ 1539 029f 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 1539      5F456D57 
+ 1539      696E5F45 
+ 1539      496E6B5F 
+ 1539      44697370 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 33
 
 
- 1547              	.LASF72:
- 1548 0502 62617365 		.ascii	"base\000"
- 1548      00
- 1549              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 1540 02d1 6C617930 		.ascii	"lay01.cydsn\000"
+ 1540      312E6379 
+ 1540      64736E00 
+ 1541              	.LASF73:
+ 1542 02dd 636E744E 		.ascii	"cntNum\000"
+ 1542      756D00
+ 1543              	.LASF29:
+ 1544 02e4 494E5452 		.ascii	"INTR_MASKED\000"
+ 1544      5F4D4153 
+ 1544      4B454400 
+ 1545              	.LASF18:
+ 1546 02f0 43435F42 		.ascii	"CC_BUFF\000"
+ 1546      55464600 
+ 1547              	.LASF13:
+ 1548 02f8 6C6F6E67 		.ascii	"long double\000"
+ 1548      20646F75 
+ 1548      626C6500 
+ 1549              	.LASF64:
+ 1550 0304 73746172 		.ascii	"startInputMode\000"
+ 1550      74496E70 
+ 1550      75744D6F 
+ 1550      646500
+ 1551              	.LASF1:
+ 1552 0313 756E7369 		.ascii	"unsigned char\000"
+ 1552      676E6564 
+ 1552      20636861 
+ 1552      7200
+ 1553              	.LASF15:
+ 1554 0321 4354524C 		.ascii	"CTRL\000"
+ 1554      00
+ 1555              	.LASF37:
+ 1556 0326 494E5452 		.ascii	"INTR_CAUSE\000"
+ 1556      5F434155 
+ 1556      534500
+ 1557              	.LASF0:
+ 1558 0331 7369676E 		.ascii	"signed char\000"
+ 1558      65642063 
+ 1558      68617200 
+ 1559              	.LASF27:
+ 1560 033d 494E5452 		.ascii	"INTR_SET\000"
+ 1560      5F534554 
+ 1560      00
+ 1561              	.LASF9:
+ 1562 0346 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1562      206C6F6E 
+ 1562      6720756E 
+ 1562      7369676E 
+ 1562      65642069 
+ 1563              	.LASF12:
+ 1564 035d 75696E74 		.ascii	"uint32_t\000"
+ 1564      33325F74 
+ 1564      00
+ 1565              	.LASF10:
+ 1566 0366 756E7369 		.ascii	"unsigned int\000"
+ 1566      676E6564 
+ 1566      20696E74 
+ 1566      00
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 34
+
+
+ 1567              	.LASF58:
+ 1568 0373 696E7665 		.ascii	"invertPWMOutN\000"
+ 1568      72745057 
+ 1568      4D4F7574 
+ 1568      4E00
+ 1569              	.LASF35:
+ 1570 0381 434D445F 		.ascii	"CMD_STOP\000"
+ 1570      53544F50 
+ 1570      00
+ 1571              	.LASF28:
+ 1572 038a 494E5452 		.ascii	"INTR_MASK\000"
+ 1572      5F4D4153 
+ 1572      4B00
+ 1573              	.LASF3:
+ 1574 0394 73686F72 		.ascii	"short unsigned int\000"
+ 1574      7420756E 
+ 1574      7369676E 
+ 1574      65642069 
+ 1574      6E7400
+ 1575              	.LASF80:
+ 1576 03a7 73746174 		.ascii	"status\000"
+ 1576      757300
+ 1577              	.LASF39:
+ 1578 03ae 63686172 		.ascii	"char\000"
+ 1578      00
+ 1579              	.LASF48:
+ 1580 03b3 64656164 		.ascii	"deadTimeClocks\000"
+ 1580      54696D65 
+ 1580      436C6F63 
+ 1580      6B7300
+ 1581              	.LASF11:
+ 1582 03c2 696E7433 		.ascii	"int32_t\000"
+ 1582      325F7400 
+ 1583              	.LASF43:
+ 1584 03ca 43595F54 		.ascii	"CY_TCPWM_BAD_PARAM\000"
+ 1584      4350574D 
+ 1584      5F424144 
+ 1584      5F504152 
+ 1584      414D00
+ 1585              	.LASF70:
+ 1586 03dd 5F426F6F 		.ascii	"_Bool\000"
+ 1586      6C00
+ 1587              	.LASF26:
+ 1588 03e3 494E5452 		.ascii	"INTR\000"
+ 1588      00
+ 1589              	.LASF79:
+ 1590 03e8 43795F54 		.ascii	"Cy_TCPWM_PWM_Init\000"
+ 1590      4350574D 
+ 1590      5F50574D 
+ 1590      5F496E69 
+ 1590      7400
+ 1591              	.LASF25:
+ 1592 03fa 52455345 		.ascii	"RESERVED1\000"
+ 1592      52564544 
+ 1592      3100
+ 1593              	.LASF7:
+ 1594 0404 6C6F6E67 		.ascii	"long unsigned int\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 35
+
+
+ 1594      20756E73 
+ 1594      69676E65 
+ 1594      6420696E 
+ 1594      7400
+ 1595              	.LASF41:
+ 1596 0416 646F7562 		.ascii	"double\000"
+ 1596      6C6500
+ 1597              	.LASF76:
+ 1598 041d 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\drivers\\peripheral\\"
+ 1598      72617465 
+ 1598      645F536F 
+ 1598      75726365 
+ 1598      5C50536F 
+ 1599 044b 74637077 		.ascii	"tcpwm\\cy_tcpwm_pwm.c\000"
+ 1599      6D5C6379 
+ 1599      5F746370 
+ 1599      776D5F70 
+ 1599      776D2E63 
+ 1600              	.LASF60:
+ 1601 0460 73776170 		.ascii	"swapInputMode\000"
+ 1601      496E7075 
+ 1601      744D6F64 
+ 1601      6500
+ 1602              	.LASF65:
+ 1603 046e 73746172 		.ascii	"startInput\000"
+ 1603      74496E70 
+ 1603      757400
+ 1604              	.LASF5:
+ 1605 0479 5F5F696E 		.ascii	"__int32_t\000"
+ 1605      7433325F 
+ 1605      7400
+ 1606              	.LASF31:
+ 1607 0483 4354524C 		.ascii	"CTRL_CLR\000"
+ 1607      5F434C52 
+ 1607      00
+ 1608              	.LASF61:
+ 1609 048c 73776170 		.ascii	"swapInput\000"
+ 1609      496E7075 
+ 1609      7400
+ 1610              	.LASF57:
+ 1611 0496 696E7665 		.ascii	"invertPWMOut\000"
+ 1611      72745057 
+ 1611      4D4F7574 
+ 1611      00
+ 1612              	.LASF66:
+ 1613 04a3 6B696C6C 		.ascii	"killInputMode\000"
+ 1613      496E7075 
+ 1613      744D6F64 
+ 1613      6500
+ 1614              	.LASF17:
+ 1615 04b1 434F554E 		.ascii	"COUNTER\000"
+ 1615      54455200 
+ 1616              	.LASF45:
+ 1617 04b9 70776D4D 		.ascii	"pwmMode\000"
+ 1617      6F646500 
+ 1618              	.LASF21:
+ 1619 04c1 52455345 		.ascii	"RESERVED\000"
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccuw3bkQ.s 			page 36
+
+
+ 1619      52564544 
+ 1619      00
+ 1620              	.LASF44:
+ 1621 04ca 63795F65 		.ascii	"cy_en_tcpwm_status_t\000"
+ 1621      6E5F7463 
+ 1621      70776D5F 
+ 1621      73746174 
+ 1621      75735F74 
+ 1622              	.LASF69:
+ 1623 04df 636F756E 		.ascii	"countInput\000"
+ 1623      74496E70 
+ 1623      757400
+ 1624              	.LASF82:
+ 1625 04ea 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1625      52784275 
+ 1625      66666572 
+ 1625      00
+ 1626              	.LASF38:
+ 1627 04f7 54435057 		.ascii	"TCPWM_Type\000"
+ 1627      4D5F5479 
+ 1627      706500
+ 1628              	.LASF72:
+ 1629 0502 62617365 		.ascii	"base\000"
+ 1629      00
+ 1630              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

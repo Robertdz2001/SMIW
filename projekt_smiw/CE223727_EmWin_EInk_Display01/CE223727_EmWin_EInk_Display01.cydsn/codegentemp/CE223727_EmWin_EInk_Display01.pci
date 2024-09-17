@@ -1,5 +1,5 @@
 # CE223727_EmWin_EInk_Display01
-# 2024-09-15 12:36:17Z
+# 2024-09-17 16:40:31Z
 
 dont_use_location p4usbcell -1 -1 0
 dont_use_location USB -1 -1 0
@@ -22,3 +22,4 @@ set_io "GreenLED(0)" iocell 1 1
 set_io "Pin(0)" iocell 9 4
 set_io "Button2(0)" iocell 9 6
 set_io "Button3(0)" iocell 9 5
+set_io "CY_MAX6675_Ssel(0)" iocell 1 2

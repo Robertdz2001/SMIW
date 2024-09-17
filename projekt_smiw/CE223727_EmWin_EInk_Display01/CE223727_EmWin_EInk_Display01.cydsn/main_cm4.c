@@ -17,6 +17,89 @@ extern GUI_CONST_STORAGE GUI_BITMAP bmCypressLogoFullColor_PNG_1bpp;
 //maksymalna liczba punktow w tabeli.
 #define MAX_POINTS 100
 
+/* Definicja dla pinu Chip Select (CS) */
+#define CS_MAX6675_PIN_PORT    GPIO_PRT1    // Przykład portu GPIO
+#define CS_MAX6675_PIN_NUM     2            // Przykład numeru pinu
+
+/* Inicjalizacja SPI */
+void InitSPI()
+{
+    cy_stc_scb_spi_config_t spi_config = {
+        .spiMode = CY_SCB_SPI_MASTER,
+        .subMode = CY_SCB_SPI_MOTOROLA,
+        .sclkMode = CY_SCB_SPI_CPHA0_CPOL0,     // Tryb SPI Mode 0 (CPOL = 0, CPHA = 0)
+        .oversample = 8,                        // Próbkowanie
+        .rxDataWidth = 8,
+        .txDataWidth = 8,
+        .enableMsbFirst = true,
+        .enableFreeRunSclk = false,
+        .enableInputFilter = false,
+        .enableMisoLateSample = false,
+        .enableTransferSeperation = false,
+        .ssPolarity = CY_SCB_SPI_ACTIVE_LOW,
+        .enableWakeFromSleep = false,
+        .rxFifoTriggerLevel = 0,
+        .rxFifoIntEnableMask = 0,
+        .txFifoTriggerLevel = 0,
+        .txFifoIntEnableMask = 0,
+        .masterSlaveIntEnableMask = 0
+    };
+
+    /* Inicjalizacja bloku SPI */
+    Cy_SCB_SPI_Init(CY_EINK_SPIM_HW, &spi_config, NULL);
+    Cy_SCB_SPI_Enable(CY_EINK_SPIM_HW);
+}
+
+/* Funkcja do odczytu danych z MAX6675 */
+uint16_t MAX6675_Read()
+{
+    uint8_t rxData[2]; // Miejsce na odebranie dwóch bajtów
+    uint8_t txData[2] = {0xFF, 0xFF};  // Wysyłanie 2 pustych bajtów (MAX6675 nie potrzebuje danych do wysłania)
+
+    /* Ustawienie linii CS na niską, aby rozpocząć transmisję */
+    Cy_GPIO_Write(CS_MAX6675_PIN_PORT, CS_MAX6675_PIN_NUM, 0);
+
+    /* Oczyszczanie buforów RX/TX */
+    Cy_SCB_SPI_ClearRxFifo(CY_EINK_SPIM_HW);
+    Cy_SCB_SPI_ClearTxFifo(CY_EINK_SPIM_HW);
+
+    /* Wysłanie dwóch bajtów i jednoczesne odbieranie odpowiedzi */
+    Cy_SCB_SPI_Write(CY_EINK_SPIM_HW, txData[0]);
+    while (Cy_SCB_SPI_IsBusBusy(CY_EINK_SPIM_HW));
+    rxData[0] = Cy_SCB_SPI_Read(CY_EINK_SPIM_HW);
+
+    Cy_SCB_SPI_Write(CY_EINK_SPIM_HW, txData[1]);
+    while (Cy_SCB_SPI_IsBusBusy(CY_EINK_SPIM_HW));
+    rxData[1] = Cy_SCB_SPI_Read(CY_EINK_SPIM_HW);
+
+    /* Ustawienie linii CS na wysoki stan, aby zakończyć transmisję */
+    Cy_GPIO_Write(CS_MAX6675_PIN_PORT, CS_MAX6675_PIN_NUM, 1);
+
+    /* Złożenie dwóch bajtów do jednej wartości 16-bitowej */
+    uint16_t rawData = ((rxData[0] << 8) | rxData[1]);
+
+    return rawData;
+}
+
+/* Funkcja przetwarzająca surowe dane z MAX6675 na temperaturę */
+float MAX6675_GetTemperature()
+{
+    uint16_t rawData = MAX6675_Read();
+
+    /* Sprawdzenie, czy termopara jest podłączona */
+    if (rawData & 0x04)
+    {
+        // Bit D2 = 1 oznacza brak podłączonej termopary
+        return -1.0f;
+    }
+
+    /* Wyciągnięcie 12-bitowej wartości temperatury (pozbycie się 3 najmniej znaczących bitów) */
+    rawData >>= 3;
+    float temperature = rawData * 0.25;  // Każdy krok to 0.25 stopnia Celsjusza
+
+    return temperature;
+}
+
 
 /*******************************************************************************
 * Function Name: void UpdateDisplay(void)
@@ -416,7 +499,7 @@ void AddNew()
     GUI_SetTextAlign(GUI_TA_HCENTER);
     GUI_DispStringAt("Add time points", 132, 5);
     
-    sprintf(timeBuffer, "Current Time: %ds", currentTime + 1);
+    sprintf(timeBuffer, "Current Time: %ds", currentTime);
     GUI_DispStringAt(timeBuffer, 10, 30);
     UpdateDisplay(CY_EINK_PARTIAL, true);
     
@@ -426,11 +509,7 @@ void AddNew()
     while (currentIndex < 6)
     {
         bool btn1_Pressed = false;
-        bool btn3_Pressed = false;
-        
-        if(currentTime == lastCurrentTime) {
-            currentTime = lastCurrentTime + 1;
-        }
+        bool btn3_Pressed = false; 
 
         // Sprawdzanie stanu przycisków w pętli
         while (Status_Button1_Read() != 0 && Status_Button2_Read() != 0 && Status_Button3_Read() != 0); // Czekaj, aż przyciski zostaną wciśnięte
@@ -446,7 +525,7 @@ void AddNew()
             }
             
             if(currentTime >= 400) {
-                currentTime = lastCurrentTime + 1;
+                currentTime = lastCurrentTime;
             }
 
             // Aktualizacja wyświetlanej wartości czasu
@@ -594,17 +673,20 @@ void TimerInterruptHandler(void)
         int min = 0;
         int max = 300;
         const int seconds = 10;
-        static int pointCounter = seconds;
+        static int pointCounter = 10;
     
         static int randomTemperature1 = 0;
         static int randomTemperature2 = 0;
+        static float randomTemperature3 = 0;
             
         randomTemperature2 = (rand() % (max - min + 1)) + min;
-            
+        //randomTemperature3 = MAX6675_GetTemperature();
+
         GUI_DrawLine((pointCounter-seconds) / 2 + 30, 150 - randomTemperature1/2, pointCounter / 2 + 30, 150 - randomTemperature2/2);
 
         //if(counter++ == 10){
             UpdateDisplay(CY_EINK_PARTIAL, true);
+            //CyDelay(500);
         //    counter = 0;
         //}
         randomTemperature1 = randomTemperature2;
@@ -646,16 +728,23 @@ void Init_Interrupts()
 }
 
 int main(void)
-{
+{   
     Init_Interrupts();
     
     PWM_Start();
+    
     /* Initialize emWin Graphics */
     GUI_Init();
 
     /* Start the eInk display interface and turn on the display power */
     Cy_EINK_Start(20);
     Cy_EINK_Power(1);
+
+    /* Inicjalizacja SPI */
+ //   InitSPI();
+
+    /* Inicjalizacja pinu CS jako wyjście */
+  //  Cy_GPIO_Pin_FastInit(CS_MAX6675_PIN_PORT, CS_MAX6675_PIN_NUM, CY_GPIO_DM_STRONG, 1, HSIOM_SEL_GPIO);
     
     for(;;)
     {

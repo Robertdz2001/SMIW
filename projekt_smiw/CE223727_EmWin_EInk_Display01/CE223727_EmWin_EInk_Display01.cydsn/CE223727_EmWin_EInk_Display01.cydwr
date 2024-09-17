@@ -11,6 +11,7 @@
       <Data key="eb5fffbd-d43b-40a7-a28c-4ba09dd25f0f" value="EINK_Clock" />
     </Group>
     <Group key="Pin">
+      <Data key="1f2e818b-d9e5-42a1-b8fd-26cd88109222" value="test" />
       <Data key="3c4d3e18-34dd-4016-a84e-c17ca6d6ec67" value="LED_Orange" />
       <Data key="4cca878b-77b5-471d-8aeb-ad6925202455" value="CY_EINK_DispBusy" />
       <Data key="5b19853d-a396-454b-bceb-ccfcfb57ce95" value="CY_EINK_Ssel" />
@@ -36,6 +37,9 @@
       <Data key="c932a304-7fee-45e3-92f6-c51270dee3cf" value="CY_EINK_DispIoEn" />
       <Data key="da8a5ab4-7da8-4f1a-a74f-ea0c2dfdfc2c/65f3af6c-759b-4ccb-8c66-5c95ba1f5f4f" value="DebugUART_tx" />
       <Data key="da8a5ab4-7da8-4f1a-a74f-ea0c2dfdfc2c/b7e8018e-1ef7-49c0-b5a5-61641a03e31c" value="DebugUART_rx" />
+      <Data key="db299057-5a3e-4989-b7f7-a33019d061d1" value="CY_MAX6675_Ssel" />
+      <Data key="fde4bafc-0fde-41fd-965d-89e3d8e17498" value="VCC" />
+      <Data key="ffbbc76b-e8a7-4abd-8e3e-b9c68103cfa5" value="CY_MAX6675_Ssel_1" />
     </Group>
   </Group>
   <Group key="M0S8Clock">
@@ -693,6 +697,11 @@
     </Group>
   </Group>
   <Group key="Pin2">
+    <Group key="1f2e818b-d9e5-42a1-b8fd-26cd88109222">
+      <Group key="0">
+        <Data key="Port Format" value="1,3" />
+      </Group>
+    </Group>
     <Group key="3c4d3e18-34dd-4016-a84e-c17ca6d6ec67">
       <Group key="0">
         <Data key="Port Format" value="1,5" />
@@ -831,6 +840,21 @@
     <Group key="da8a5ab4-7da8-4f1a-a74f-ea0c2dfdfc2c/b7e8018e-1ef7-49c0-b5a5-61641a03e31c">
       <Group key="0">
         <Data key="Port Format" value="5,0" />
+      </Group>
+    </Group>
+    <Group key="db299057-5a3e-4989-b7f7-a33019d061d1">
+      <Group key="0">
+        <Data key="Port Format" value="1,2" />
+      </Group>
+    </Group>
+    <Group key="fde4bafc-0fde-41fd-965d-89e3d8e17498">
+      <Group key="0">
+        <Data key="Port Format" value="1,3" />
+      </Group>
+    </Group>
+    <Group key="ffbbc76b-e8a7-4abd-8e3e-b9c68103cfa5">
+      <Group key="0">
+        <Data key="Port Format" value="1,4" />
       </Group>
     </Group>
   </Group>

@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2024-09-15T12:36:27Z")
+ (DATE "2024-09-17T16:40:41Z")
  (DESIGN "CE223727_EmWin_EInk_Display01")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -52,6 +52,7 @@
     (INTERCONNECT Pin\(0\)_PAD Pin\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT Button2\(0\)_PAD Button2\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT Button3\(0\)_PAD Button3\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT CY_MAX6675_Ssel\(0\)_PAD CY_MAX6675_Ssel\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )
