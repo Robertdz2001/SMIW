@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 1
 
 
    1              		.syntax unified
@@ -27,7 +27,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
   24              		.thumb_func
   25              		.type	Cy_EINK_Start, %function
   26              	Cy_EINK_Start:
-  27              	.LFB604:
+  27              	.LFB598:
   28              		.file 1 "eInk Library\\cy_eink_library.c"
    1:eInk Library/cy_eink_library.c **** /******************************************************************************
    2:eInk Library/cy_eink_library.c **** * File Name: cy_eink_library.c
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
   27:eInk Library/cy_eink_library.c **** * written permission of Cypress.
   28:eInk Library/cy_eink_library.c **** *
   29:eInk Library/cy_eink_library.c **** * Disclaimer: THIS SOFTWARE IS PROVIDED AS-IS, WITH NO WARRANTY OF ANY KIND, 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 2
 
 
   30:eInk Library/cy_eink_library.c **** * EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, NONINFRINGEMENT, IMPLIED 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
   32              		@ frame_needed = 1, uses_anonymous_args = 0
   33 0000 80B5     		push	{r7, lr}
   34              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 3
 
 
   35              		.cfi_offset 7, -8
@@ -150,7 +150,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
   55              		@ sp needed
   56 001e 80BD     		pop	{r7, pc}
   57              		.cfi_endproc
-  58              	.LFE604:
+  58              	.LFE598:
   59              		.size	Cy_EINK_Start, .-Cy_EINK_Start
   60              		.section	.text.Cy_EINK_Power,"ax",%progbits
   61              		.align	2
@@ -159,7 +159,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
   64              		.thumb_func
   65              		.type	Cy_EINK_Power, %function
   66              	Cy_EINK_Power:
-  67              	.LFB605:
+  67              	.LFB599:
   87:eInk Library/cy_eink_library.c **** 
   88:eInk Library/cy_eink_library.c **** /*******************************************************************************
   89:eInk Library/cy_eink_library.c **** * Function Name: bool Cy_EINK_Power(bool powerCtrl)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  102:eInk Library/cy_eink_library.c **** *
  103:eInk Library/cy_eink_library.c **** * Side Effects:
  104:eInk Library/cy_eink_library.c **** *  None
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 4
 
 
  105:eInk Library/cy_eink_library.c **** *
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  103 002a 02D1     		bne	.L5
  124:eInk Library/cy_eink_library.c ****     {
  125:eInk Library/cy_eink_library.c ****         pwrStatus = CY_EINK_OPERATION_SUCCESS;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 5
 
 
  104              		.loc 1 125 0
@@ -276,7 +276,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  126              		@ sp needed
  127 0048 80BD     		pop	{r7, pc}
  128              		.cfi_endproc
- 129              	.LFE605:
+ 129              	.LFE599:
  130              		.size	Cy_EINK_Power, .-Cy_EINK_Power
  131 004a 00BF     		.section	.text.Cy_EINK_Clear,"ax",%progbits
  132              		.align	2
@@ -285,7 +285,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  135              		.thumb_func
  136              		.type	Cy_EINK_Clear, %function
  137              	Cy_EINK_Clear:
- 138              	.LFB606:
+ 138              	.LFB600:
  136:eInk Library/cy_eink_library.c **** 
  137:eInk Library/cy_eink_library.c **** /*******************************************************************************
  138:eInk Library/cy_eink_library.c **** * Function Name: void Cy_EINK_Clear(bool background, bool powerCycle)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  145:eInk Library/cy_eink_library.c **** *  before calling this function if "powerCycle" is false. Otherwise the display 
  146:eInk Library/cy_eink_library.c **** *  won't be cleared.
  147:eInk Library/cy_eink_library.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 6
 
 
  148:eInk Library/cy_eink_library.c **** *  Note2: This function is intended to be called only after a reset/power up.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  173:eInk Library/cy_eink_library.c ****         /* Two consecutive display updates to reduce ghosting */
  174:eInk Library/cy_eink_library.c ****         Pv_EINK_FullStageHandler(CY_EINK_WHITE_FRAME, PV_EINK_STAGE4);
  168              		.loc 1 174 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 7
 
 
  169 0022 0321     		movs	r1, #3
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  204              		.cfi_def_cfa_offset 8
  205 0060 BD46     		mov	sp, r7
  206              		.cfi_def_cfa_register 13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 8
 
 
  207              		@ sp needed
@@ -428,7 +428,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  211              	.L14:
  212 0064 FFFF0F10 		.word	269484031
  213              		.cfi_endproc
- 214              	.LFE606:
+ 214              	.LFE600:
  215              		.size	Cy_EINK_Clear, .-Cy_EINK_Clear
  216              		.section	.text.Cy_EINK_ShowFrame,"ax",%progbits
  217              		.align	2
@@ -437,7 +437,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  220              		.thumb_func
  221              		.type	Cy_EINK_ShowFrame, %function
  222              	Cy_EINK_ShowFrame:
- 223              	.LFB607:
+ 223              	.LFB601:
  194:eInk Library/cy_eink_library.c **** 
  195:eInk Library/cy_eink_library.c **** /*******************************************************************************
  196:eInk Library/cy_eink_library.c **** * Function Name: void Cy_EINK_ShowFrame(cy_eink_frame_t* prevFrame, 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  229              		.cfi_def_cfa_offset 8
  230              		.cfi_offset 7, -8
  231              		.cfi_offset 14, -4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 9
 
 
  232 0002 84B0     		sub	sp, sp, #16
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  241:eInk Library/cy_eink_library.c ****         /* Stage 1: update the display with the inverted version of the previous 
  242:eInk Library/cy_eink_library.c ****            frame */
  243:eInk Library/cy_eink_library.c ****         Pv_EINK_FullStageHandler(prevFrame, PV_EINK_STAGE1);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 10
 
 
  271              		.loc 1 243 0 is_stmt 1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  301              		.loc 1 267 0
  302 0070 00BF     		nop
  303 0072 1037     		adds	r7, r7, #16
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 11
 
 
  304              		.cfi_def_cfa_offset 8
@@ -607,7 +607,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  307              		@ sp needed
  308 0076 80BD     		pop	{r7, pc}
  309              		.cfi_endproc
- 310              	.LFE607:
+ 310              	.LFE601:
  311              		.size	Cy_EINK_ShowFrame, .-Cy_EINK_ShowFrame
  312              		.section	.text.Cy_EINK_ImageToFrameBuffer,"ax",%progbits
  313              		.align	2
@@ -616,7 +616,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  316              		.thumb_func
  317              		.type	Cy_EINK_ImageToFrameBuffer, %function
  318              	Cy_EINK_ImageToFrameBuffer:
- 319              	.LFB608:
+ 319              	.LFB602:
  268:eInk Library/cy_eink_library.c **** 
  269:eInk Library/cy_eink_library.c **** /*******************************************************************************
  270:eInk Library/cy_eink_library.c **** * Function Name: void Cy_EINK_ImageToFrameBuffer(cy_eink_frame_t* frameBuffer,
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  323              		@ frame_needed = 1, uses_anonymous_args = 0
  324 0000 80B5     		push	{r7, lr}
  325              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 12
 
 
  326              		.cfi_offset 7, -8
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  358 002e 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  359 0030 9AB2     		uxth	r2, r3
  360 0032 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 13
 
 
  361 0034 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
@@ -768,7 +768,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  395              		@ sp needed
  396 006a 80BD     		pop	{r7, pc}
  397              		.cfi_endproc
- 398              	.LFE608:
+ 398              	.LFE602:
  399              		.size	Cy_EINK_ImageToFrameBuffer, .-Cy_EINK_ImageToFrameBuffer
  400              		.section	.text.Cy_EINK_TextToFrameBuffer,"ax",%progbits
  401              		.align	2
@@ -777,8 +777,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  404              		.thumb_func
  405              		.type	Cy_EINK_TextToFrameBuffer, %function
  406              	Cy_EINK_TextToFrameBuffer:
- 407              	.LFB609:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 14
+ 407              	.LFB603:
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 14
 
 
  331:eInk Library/cy_eink_library.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  369:eInk Library/cy_eink_library.c ****     
  370:eInk Library/cy_eink_library.c ****     /* Variable for storing the location in the frame buffer to which 
  371:eInk Library/cy_eink_library.c ****        the font data is printed */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 15
 
 
  372:eInk Library/cy_eink_library.c ****     uint16_t printLocation;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  451 003a 0133     		adds	r3, r3, #1
  452 003c 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  453 003e 1946     		mov	r1, r3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 16
 
 
  398:eInk Library/cy_eink_library.c ****                             (fontInfo->ySize))  + (fontInfo->yOffset))    * 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  407:eInk Library/cy_eink_library.c ****                    current character from the font array */
  408:eInk Library/cy_eink_library.c ****                 charLocation = (*currentChar - CY_EINK_ASCII_MIN) *
  494              		.loc 1 408 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 17
 
 
  495 0082 FB69     		ldr	r3, [r7, #28]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  533 00c0 0B44     		add	r3, r3, r1
  534 00c2 9BB2     		uxth	r3, r3
  535 00c4 1344     		add	r3, r3, r2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 18
 
 
  536 00c6 BB82     		strh	r3, [r7, #20]	@ movhi
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  436:eInk Library/cy_eink_library.c ****                         }
  437:eInk Library/cy_eink_library.c ****                         /* Copy the inverted pixel data for white font on black
  438:eInk Library/cy_eink_library.c ****                            background */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 19
 
 
  439:eInk Library/cy_eink_library.c ****                         else if ((fontInfo->color) == CY_EINK_BLACK_BACKGROUND)
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  618              		.loc 1 403 0
  619 0146 31E0     		b	.L29
  620              	.L30:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 20
 
 
  443:eInk Library/cy_eink_library.c ****                         }
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  647 0170 9B7A     		ldrb	r3, [r3, #10]	@ zero_extendqisi2
  648 0172 002B     		cmp	r3, #0
  649 0174 05D0     		beq	.L39
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 21
 
 
  471:eInk Library/cy_eink_library.c ****                         {
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  479:eInk Library/cy_eink_library.c ****                         }
  480:eInk Library/cy_eink_library.c ****                     }
  481:eInk Library/cy_eink_library.c ****                 }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 22
 
 
  482:eInk Library/cy_eink_library.c ****             }
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  728              	.L28:
  388:eInk Library/cy_eink_library.c ****     {
  729              		.loc 1 388 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 23
 
 
  730 01ea FB69     		ldr	r3, [r7, #28]
@@ -1349,7 +1349,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  749              		.cfi_def_cfa_offset 0
  750 0202 7047     		bx	lr
  751              		.cfi_endproc
- 752              	.LFE609:
+ 752              	.LFE603:
  753              		.size	Cy_EINK_TextToFrameBuffer, .-Cy_EINK_TextToFrameBuffer
  754              		.text
  755              	.Letext0:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  778 0011 68010000 		.4byte	.LASF133
  779 0015 4C050000 		.4byte	.LASF134
  780 0019 00000000 		.4byte	.Ldebug_ranges0+0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 24
 
 
  781 001d 00000000 		.4byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  835 0089 25010000 		.4byte	.LASF11
  836 008d 03       		.uleb128 0x3
  837 008e 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 25
 
 
  838 008f 07       		.byte	0x7
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  892 00fb 03       		.uleb128 0x3
  893 00fc 04       		.byte	0x4
  894 00fd 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 26
 
 
  895 00fe 59040000 		.4byte	.LASF22
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  949 016a 35       		.byte	0x35
  950 016b EB000000 		.4byte	0xeb
  951 016f 18       		.byte	0x18
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 27
 
 
  952 0170 09       		.uleb128 0x9
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1006 01dc 09       		.uleb128 0x9
  1007 01dd 2A060000 		.4byte	.LASF41
  1008 01e1 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 28
 
 
  1009 01e2 44       		.byte	0x44
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1063 024e 32       		.byte	0x32
  1064 024f EB000000 		.4byte	0xeb
  1065 0253 10       		.byte	0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 29
 
 
  1066 0254 09       		.uleb128 0x9
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1120 02c0 09       		.uleb128 0x9
  1121 02c1 6E040000 		.4byte	.LASF55
  1122 02c5 05       		.byte	0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 30
 
 
  1123 02c6 3D       		.byte	0x3d
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1177 0332 4A       		.byte	0x4a
  1178 0333 EB000000 		.4byte	0xeb
  1179 0337 5C       		.byte	0x5c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 31
 
 
  1180 0338 09       		.uleb128 0x9
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1234 03ac 06       		.byte	0x6
  1235 03ad 4802     		.2byte	0x248
  1236 03af F6000000 		.4byte	0xf6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 32
 
 
  1237 03b3 0C       		.byte	0xc
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1291 0422 09       		.uleb128 0x9
  1292 0423 08000000 		.4byte	.LASF75
  1293 0427 07       		.byte	0x7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 33
 
 
  1294 0428 42       		.byte	0x42
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1348 0494 E4020000 		.4byte	.LASF84
  1349 0498 01       		.byte	0x1
  1350 0499 11       		.uleb128 0x11
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 34
 
 
  1351 049a 77040000 		.4byte	.LASF85
@@ -2038,15 +2038,15 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1405 0506 09       		.byte	0x9
  1406 0507 72       		.byte	0x72
  1407 0508 E2040000 		.4byte	0x4e2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 35
 
 
  1408 050c 12       		.uleb128 0x12
  1409 050d 1A000000 		.4byte	.LASF100
  1410 0511 01       		.byte	0x1
  1411 0512 4F       		.byte	0x4f
- 1412 0513 00000000 		.4byte	.LFB604
- 1413 0517 20000000 		.4byte	.LFE604-.LFB604
+ 1412 0513 00000000 		.4byte	.LFB598
+ 1413 0517 20000000 		.4byte	.LFE598-.LFB598
  1414 051b 01       		.uleb128 0x1
  1415 051c 9C       		.byte	0x9c
  1416 051d 30050000 		.4byte	0x530
@@ -2064,8 +2064,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1428 0535 01       		.byte	0x1
  1429 0536 6B       		.byte	0x6b
  1430 0537 09010000 		.4byte	0x109
- 1431 053b 00000000 		.4byte	.LFB605
- 1432 053f 4A000000 		.4byte	.LFE605-.LFB605
+ 1431 053b 00000000 		.4byte	.LFB599
+ 1432 053f 4A000000 		.4byte	.LFE599-.LFB599
  1433 0543 01       		.uleb128 0x1
  1434 0544 9C       		.byte	0x9c
  1435 0545 66050000 		.4byte	0x566
@@ -2090,15 +2090,15 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1454 0567 AC060000 		.4byte	.LASF101
  1455 056b 01       		.byte	0x1
  1456 056c A3       		.byte	0xa3
- 1457 056d 00000000 		.4byte	.LFB606
- 1458 0571 68000000 		.4byte	.LFE606-.LFB606
+ 1457 056d 00000000 		.4byte	.LFB600
+ 1458 0571 68000000 		.4byte	.LFE600-.LFB600
  1459 0575 01       		.uleb128 0x1
  1460 0576 9C       		.byte	0x9c
  1461 0577 98050000 		.4byte	0x598
  1462 057b 13       		.uleb128 0x13
  1463 057c 03080000 		.4byte	.LASF102
  1464 0580 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 36
 
 
  1465 0581 A3       		.byte	0xa3
@@ -2119,8 +2119,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1480 0599 C0010000 		.4byte	.LASF104
  1481 059d 01       		.byte	0x1
  1482 059e DF       		.byte	0xdf
- 1483 059f 00000000 		.4byte	.LFB607
- 1484 05a3 78000000 		.4byte	.LFE607-.LFB607
+ 1483 059f 00000000 		.4byte	.LFB601
+ 1484 05a3 78000000 		.4byte	.LFE601-.LFB601
  1485 05a7 01       		.uleb128 0x1
  1486 05a8 9C       		.byte	0x9c
  1487 05a9 E6050000 		.4byte	0x5e6
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1519 05e4 6E       		.sleb128 -18
  1520 05e5 00       		.byte	0
  1521 05e6 06       		.uleb128 0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 37
 
 
  1522 05e7 04       		.byte	0x4
@@ -2167,8 +2167,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1525 05ed 28040000 		.4byte	.LASF108
  1526 05f1 01       		.byte	0x1
  1527 05f2 2C01     		.2byte	0x12c
- 1528 05f4 00000000 		.4byte	.LFB608
- 1529 05f8 6C000000 		.4byte	.LFE608-.LFB608
+ 1528 05f4 00000000 		.4byte	.LFB602
+ 1529 05f8 6C000000 		.4byte	.LFE602-.LFB602
  1530 05fc 01       		.uleb128 0x1
  1531 05fd 9C       		.byte	0x9c
  1532 05fe 5D060000 		.4byte	0x65d
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1576 0653 3601     		.2byte	0x136
  1577 0655 D5000000 		.4byte	0xd5
  1578 0659 02       		.uleb128 0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 38
 
 
  1579 065a 91       		.byte	0x91
@@ -2228,8 +2228,8 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1583 065e 56000000 		.4byte	.LASF116
  1584 0662 01       		.byte	0x1
  1585 0663 6C01     		.2byte	0x16c
- 1586 0665 00000000 		.4byte	.LFB609
- 1587 0669 04020000 		.4byte	.LFE609-.LFB609
+ 1586 0665 00000000 		.4byte	.LFB603
+ 1587 0669 04020000 		.4byte	.LFE603-.LFB603
  1588 066d 01       		.uleb128 0x1
  1589 066e 9C       		.byte	0x9c
  1590 066f 19070000 		.4byte	0x719
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1633 06c3 01       		.byte	0x1
  1634 06c4 7401     		.2byte	0x174
  1635 06c6 D5000000 		.4byte	0xd5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 39
 
 
  1636 06ca 02       		.uleb128 0x2
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1690 0730 1B       		.uleb128 0x1b
  1691 0731 71060000 		.4byte	.LASF128
  1692 0735 0B       		.byte	0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 40
 
 
  1693 0736 5E       		.byte	0x5e
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1747 001e 00       		.byte	0
  1748 001f 00       		.byte	0
  1749 0020 03       		.uleb128 0x3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 41
 
 
  1750 0021 24       		.uleb128 0x24
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1804 0057 0B       		.uleb128 0xb
  1805 0058 01       		.uleb128 0x1
  1806 0059 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 42
 
 
  1807 005a 00       		.byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1861 0090 0B       		.uleb128 0xb
  1862 0091 3B       		.uleb128 0x3b
  1863 0092 05       		.uleb128 0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 43
 
 
  1864 0093 01       		.uleb128 0x1
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1918 00c9 00       		.byte	0
  1919 00ca 00       		.byte	0
  1920 00cb 12       		.uleb128 0x12
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 44
 
 
  1921 00cc 2E       		.uleb128 0x2e
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  1975 0103 11       		.uleb128 0x11
  1976 0104 01       		.uleb128 0x1
  1977 0105 12       		.uleb128 0x12
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 45
 
 
  1978 0106 06       		.uleb128 0x6
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2032 013e 3A       		.uleb128 0x3a
  2033 013f 0B       		.uleb128 0xb
  2034 0140 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 46
 
 
  2035 0141 05       		.uleb128 0x5
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2089 0178 3B       		.uleb128 0x3b
  2090 0179 05       		.uleb128 0x5
  2091 017a 49       		.uleb128 0x49
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 47
 
 
  2092 017b 13       		.uleb128 0x13
@@ -2801,37 +2801,37 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2129 000b 00       		.byte	0
  2130 000c 0000     		.2byte	0
  2131 000e 0000     		.2byte	0
- 2132 0010 00000000 		.4byte	.LFB604
- 2133 0014 20000000 		.4byte	.LFE604-.LFB604
- 2134 0018 00000000 		.4byte	.LFB605
- 2135 001c 4A000000 		.4byte	.LFE605-.LFB605
- 2136 0020 00000000 		.4byte	.LFB606
- 2137 0024 68000000 		.4byte	.LFE606-.LFB606
- 2138 0028 00000000 		.4byte	.LFB607
- 2139 002c 78000000 		.4byte	.LFE607-.LFB607
- 2140 0030 00000000 		.4byte	.LFB608
- 2141 0034 6C000000 		.4byte	.LFE608-.LFB608
- 2142 0038 00000000 		.4byte	.LFB609
- 2143 003c 04020000 		.4byte	.LFE609-.LFB609
+ 2132 0010 00000000 		.4byte	.LFB598
+ 2133 0014 20000000 		.4byte	.LFE598-.LFB598
+ 2134 0018 00000000 		.4byte	.LFB599
+ 2135 001c 4A000000 		.4byte	.LFE599-.LFB599
+ 2136 0020 00000000 		.4byte	.LFB600
+ 2137 0024 68000000 		.4byte	.LFE600-.LFB600
+ 2138 0028 00000000 		.4byte	.LFB601
+ 2139 002c 78000000 		.4byte	.LFE601-.LFB601
+ 2140 0030 00000000 		.4byte	.LFB602
+ 2141 0034 6C000000 		.4byte	.LFE602-.LFB602
+ 2142 0038 00000000 		.4byte	.LFB603
+ 2143 003c 04020000 		.4byte	.LFE603-.LFB603
  2144 0040 00000000 		.4byte	0
  2145 0044 00000000 		.4byte	0
  2146              		.section	.debug_ranges,"",%progbits
  2147              	.Ldebug_ranges0:
- 2148 0000 00000000 		.4byte	.LFB604
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 48
+ 2148 0000 00000000 		.4byte	.LFB598
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 48
 
 
- 2149 0004 20000000 		.4byte	.LFE604
- 2150 0008 00000000 		.4byte	.LFB605
- 2151 000c 4A000000 		.4byte	.LFE605
- 2152 0010 00000000 		.4byte	.LFB606
- 2153 0014 68000000 		.4byte	.LFE606
- 2154 0018 00000000 		.4byte	.LFB607
- 2155 001c 78000000 		.4byte	.LFE607
- 2156 0020 00000000 		.4byte	.LFB608
- 2157 0024 6C000000 		.4byte	.LFE608
- 2158 0028 00000000 		.4byte	.LFB609
- 2159 002c 04020000 		.4byte	.LFE609
+ 2149 0004 20000000 		.4byte	.LFE598
+ 2150 0008 00000000 		.4byte	.LFB599
+ 2151 000c 4A000000 		.4byte	.LFE599
+ 2152 0010 00000000 		.4byte	.LFB600
+ 2153 0014 68000000 		.4byte	.LFE600
+ 2154 0018 00000000 		.4byte	.LFB601
+ 2155 001c 78000000 		.4byte	.LFE601
+ 2156 0020 00000000 		.4byte	.LFB602
+ 2157 0024 6C000000 		.4byte	.LFE602
+ 2158 0028 00000000 		.4byte	.LFB603
+ 2159 002c 04020000 		.4byte	.LFE603
  2160 0030 00000000 		.4byte	0
  2161 0034 00000000 		.4byte	0
  2162              		.section	.debug_line,"",%progbits
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2180      616D6542 
  2181              	.LASF115:
  2182 0070 6C696E65 		.ascii	"lineLength\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 49
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 49
 
 
  2182      4C656E67 
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2206      00
  2207              	.LASF131:
  2208 010e 54696D65 		.ascii	"Timer_config\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 50
 
 
  2208      725F636F 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2228      20696E74 
  2228      00
  2229              	.LASF13:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 51
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 51
 
 
  2230 01db 756E7369 		.ascii	"unsigned int\000"
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2254      6653697A 
  2254      6500
  2255              	.LASF119:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 52
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 52
 
 
  2256 0277 666F6E74 		.ascii	"fontCor\000"
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2278      656E7473 
  2278      00
  2279              	.LASF96:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 53
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 53
 
 
  2280 0317 43595F45 		.ascii	"CY_EINK_FULL_2STAGE\000"
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2302 03bd 63795F73 		.ascii	"cy_stc_tcpwm_counter_config\000"
  2302      74635F74 
  2302      6370776D 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 54
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 54
 
 
  2302      5F636F75 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2326      4D6F6465 
  2326      00
  2327              	.LASF85:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 55
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 55
 
 
  2328 0477 50565F45 		.ascii	"PV_EINK_ERROR_ID\000"
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2350      5F636F6E 
  2351              	.LASF21:
  2352 0516 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 56
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 56
 
 
  2352      33325F74 
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2376      636F6E66 
  2376      696700
  2377              	.LASF7:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 57
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 57
 
 
  2378 05f0 5F5F696E 		.ascii	"__int32_t\000"
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2404      74657874 
  2405              	.LASF86:
  2406 0686 50565F45 		.ascii	"PV_EINK_ERROR_BREAKAGE\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 58
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 58
 
 
  2406      494E4B5F 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 1
  2429              	.LASF132:
  2430 0733 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  2430      43313120 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccMyIBkN.s 			page 59
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cceXiweg.s 			page 59
 
 
  2430      352E342E 

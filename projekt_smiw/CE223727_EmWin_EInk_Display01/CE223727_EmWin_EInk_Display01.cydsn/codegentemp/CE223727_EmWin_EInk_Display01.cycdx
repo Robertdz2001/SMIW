@@ -74,7 +74,6 @@
   <block name="isrTimer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Button2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Button3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Clock_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CY_EINK_Discharge" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CY_EINK_Border" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="CY_EINK_DispIoEn" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />

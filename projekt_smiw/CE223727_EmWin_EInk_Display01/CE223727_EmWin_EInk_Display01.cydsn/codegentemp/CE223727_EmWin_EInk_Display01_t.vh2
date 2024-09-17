@@ -1,5 +1,5 @@
 -- Project:   C:\Users\rober\Desktop\SMIW\projekt_smiw\CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01.cydsn\CE223727_EmWin_EInk_Display01.cyprj
--- Generated: 09/17/2024 19:35:56
+-- Generated: 09/17/2024 21:45:08
 -- PSoC Creator  4.2
 
 ENTITY CE223727_EmWin_EInk_Display01 IS
@@ -92,9 +92,9 @@ ARCHITECTURE __DEFAULT__ OF CE223727_EmWin_EInk_Display01 IS
     SIGNAL Net_246 : bit;
     SIGNAL Net_28 : bit;
     SIGNAL Net_302 : bit;
+    SIGNAL Net_335_ff13 : bit;
+    ATTRIBUTE global_signal OF Net_335_ff13 : SIGNAL IS true;
     SIGNAL Net_362 : bit;
-    SIGNAL Net_700_ff13 : bit;
-    ATTRIBUTE global_signal OF Net_700_ff13 : SIGNAL IS true;
     SIGNAL Pin(0)__PA : bit;
     SIGNAL \CY_EINK_SPIM:Net_216\ : bit;
     SIGNAL \CY_EINK_SPIM:Net_488\ : bit;
@@ -575,7 +575,7 @@ BEGIN
             wco => ClockBlock_WCO,
             lfclk => ClockBlock_LFClk,
             ff_div_0 => open,
-            ff_div_11 => Net_700_ff13,
+            ff_div_11 => Net_335_ff13,
             ff_div_12 => Net_10_ff11,
             ff_div_13 => open,
             ff_div_6 => \CY_EINK_SPIM:Net_847_ff0\,
@@ -1608,7 +1608,7 @@ BEGIN
             exact_width => 0,
             width => 16)
         PORT MAP(
-            clock => Net_700_ff13,
+            clock => Net_335_ff13,
             capture => '0',
             count => '1',
             reload => '0',

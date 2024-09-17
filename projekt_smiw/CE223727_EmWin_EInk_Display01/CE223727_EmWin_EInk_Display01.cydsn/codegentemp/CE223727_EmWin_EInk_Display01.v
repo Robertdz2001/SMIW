@@ -1,6 +1,6 @@
 // ======================================================================
 // CE223727_EmWin_EInk_Display01.v generated from TopDesign.cysch
-// 09/17/2024 at 19:35
+// 09/17/2024 at 21:44
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -580,7 +580,6 @@ module top ;
           wire  Net_149;
           wire  Net_148;
           wire  Net_147;
-          wire  Net_146;
           wire [7:0] Net_145;
           wire  Net_137;
           wire  Net_144;
@@ -621,7 +620,6 @@ module top ;
           wire  Net_335;
           wire  Net_28;
           wire  Net_10;
-          wire  Net_700;
 
     SCB_SPI_PDL_v2_0_0 CY_EINK_SPIM (
         .interrupt(Net_112),
@@ -901,7 +899,7 @@ module top ;
 		  .is_direct(0),
 		  .is_digital(0))
 		EINK_Clock
-		 (.clock_out(Net_700));
+		 (.clock_out(Net_335));
 
 
     TCPWM_Counter_PDL_v1_0_1 CY_EINK_Timer (
@@ -914,7 +912,7 @@ module top ;
         .ovrflw(Net_131),
         .undrflw(Net_135),
         .compare(Net_128),
-        .clock(Net_700));
+        .clock(Net_335));
 
 	wire [0:0] tmpIO_0__Button1_net;
 	electrical [0:0] tmpSIOVREF__Button1_net;
@@ -976,18 +974,6 @@ module top ;
     defparam Status_Button1.MaskValue = 0;
     defparam Status_Button1.NumInputs = 1;
 
-
-	cy_clock_v1_0
-		#(.id("0fb2d049-5c16-4a2b-aca7-55b89cf8132e"),
-		  .source_clock_id("2FB4EC85-8328-4C5A-9ED9-8B63060178EB"),
-		  .divisor(0),
-		  .period("10000000000000"),
-		  .is_direct(0),
-		  .is_digital(0))
-		Clock_2
-		 (.clock_out(Net_335));
-
-
 	wire [0:0] tmpFB_0__GreenLED_net;
 	wire [0:0] tmpIO_0__GreenLED_net;
 	electrical [0:0] tmpSIOVREF__GreenLED_net;
@@ -1043,7 +1029,7 @@ module top ;
 		#(.id("ce0c2976-eaa2-44f1-90b0-c490604d4c22"),
 		  .source_clock_id("2FB4EC85-8328-4C5A-9ED9-8B63060178EB"),
 		  .divisor(0),
-		  .period("1000000000"),
+		  .period("125000000000"),
 		  .is_direct(0),
 		  .is_digital(0))
 		Clock_1

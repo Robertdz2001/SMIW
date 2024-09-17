@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
   15:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
   16:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** #include "cy_prot.h"
   17:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 2
 
 
   18:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** #if defined(__cplusplus)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
   44 0004 00AF     		add	r7, sp, #0
   45              		.cfi_def_cfa_register 7
   46 0006 3B60     		str	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 3
 
 
   47 0008 0346     		mov	r3, r0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
   91 0078 D9000000 		.word	.L10+1
   92              		.p2align 1
   93              	.L4:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 4
 
 
   72:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  134 00ac 00E0     		b	.L17
  135              	.L16:
  136              		.loc 1 85 0 discriminator 2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 5
 
 
  137 00ae 0023     		movs	r3, #0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  100:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****             status = ((uint32_t)(pcMask & CY_PROT_MS15_PC_LIMIT_MASK) != 0UL) ? CY_PROT_BAD_PARAM :
  177              		.loc 1 100 0
  178 00d8 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 6
 
 
  179 00da 23F07F03 		bic	r3, r3, #127
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  113:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         *addrMsCtl = regVal;
  220              		.loc 1 113 0
  221 0114 3B69     		ldr	r3, [r7, #16]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 7
 
 
  222 0116 FA68     		ldr	r2, [r7, #12]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  123:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** ****************************************************************************//**
  124:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
  125:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \brief Sets the current/active protection context of the specified bus master.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 8
 
 
  126:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  156:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     
  157:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     addrMpu = (PROT_MPU_Type*)(&PROT->CYMPU[busMaster]); 
  291              		.loc 1 157 0 is_stmt 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 9
 
 
  292 001a FB79     		ldrb	r3, [r7, #7]	@ zero_extendqisi2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  338              	.L35:
  166:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         }
  167:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         case (CPUSS_MS_ID_CRYPTO):
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 10
 
 
  168:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  381              	.L48:
  382              		.loc 1 179 0 discriminator 4
  383 00b0 FB60     		str	r3, [r7, #12]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 11
 
 
  180:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****             break;
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  423 00d8 00BF     		nop
  424              	.L42:
  195:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 12
 
 
  196:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  470 011c 0100C200 		.word	12713985
  471 0120 0300C200 		.word	12713987
  472              		.cfi_endproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 13
 
 
  473              	.LFE126:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  503 0012 0948     		ldr	r0, .L62
  504 0014 FFF7FEFF 		bl	Cy_SysLib_AssertFailed
  505              	.L60:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 14
 
 
  229:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  250:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Initialization structure containing all the protection attributes.
  251:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * 
  252:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \return
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 15
 
 
  253:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Status of the function call.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  574 002c 9B79     		ldrb	r3, [r3, #6]	@ zero_extendqisi2
  575 002e 022B     		cmp	r3, #2
  576 0030 18D0     		beq	.L66
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 16
 
 
  577              		.loc 1 271 0 discriminator 3
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  630 0088 042B     		cmp	r3, #4
  631 008a 10D0     		beq	.L67
  632              		.loc 1 272 0 discriminator 5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 17
 
 
  633 008c 3B68     		ldr	r3, [r7]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  686 00e4 4CD0     		beq	.L68
  687              		.loc 1 273 0 discriminator 7
  688 00e6 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 18
 
 
  689 00e8 1B79     		ldrb	r3, [r3, #4]	@ zero_extendqisi2
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  743 013e 3B68     		ldr	r3, [r7]
  744 0140 1B79     		ldrb	r3, [r3, #4]	@ zero_extendqisi2
  745 0142 192B     		cmp	r3, #25
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 19
 
 
  746 0144 1CD0     		beq	.L68
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  795 0194 9B79     		ldrb	r3, [r3, #6]	@ zero_extendqisi2
  796 0196 03F00702 		and	r2, r3, #7
  278:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****               | (((uint32_t)config->privPermission & CY_PROT_ATT_PERMISSION_MASK) << CY_PROT_ATT_PR
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 20
 
 
  797              		.loc 1 278 0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  845 01ea 0023     		movs	r3, #0
  846              	.L71:
  847              		.loc 1 283 0 discriminator 6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 21
 
 
  848 01ec FB60     		str	r3, [r7, #12]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  311:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** cy_en_prot_status_t Cy_Prot_EnableMpuStruct(PROT_MPU_MPU_STRUCT_Type* base)
  312:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** {
  875              		.loc 1 312 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 22
 
 
  876              		.cfi_startproc
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  922 0036 7047     		bx	lr
  923              	.L80:
  924              		.align	2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 23
 
 
  925              	.L79:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  349:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     base->ATT &= ~_VAL2FLD(PROT_MPU_MPU_STRUCT_ATT_ENABLED, CY_PROT_STRUCT_ENABLE);
  951              		.loc 1 349 0
  952 0008 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 24
 
 
  953 000a 5B68     		ldr	r3, [r3, #4]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  356:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
  357:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** /*******************************************************************************
  358:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Function Name: Cy_Prot_ConfigSmpuMasterStruct
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 25
 
 
  359:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** ****************************************************************************//**
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1017 000c 002B     		cmp	r3, #0
  1018 000e 04D1     		bne	.L88
  1019              		.loc 1 396 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 26
 
 
  1020 0010 4FF4C671 		mov	r1, #396
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  406:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     {
  407:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         /* ADDR1 is read only. Only configure ATT1 */
  408:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         attReg = ((uint32_t)config->userPermission & CY_PROT_ATT_PERMISSION_MASK)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 27
 
 
  1065              		.loc 1 408 0
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1109              	.L93:
  418:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         }
  419:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         else
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 28
 
 
  420:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         {
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1156              		.thumb_func
  1157              		.type	Cy_Prot_ConfigSmpuSlaveStruct, %function
  1158              	Cy_Prot_ConfigSmpuSlaveStruct:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 29
 
 
  1159              	.LFB132:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1176 000c 002B     		cmp	r3, #0
  1177 000e 04D1     		bne	.L100
  1178              		.loc 1 464 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 30
 
 
  1179 0010 4FF4E871 		mov	r1, #464
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1231 0068 002B     		cmp	r3, #0
  1232 006a 20D0     		beq	.L102
  1233              		.loc 1 466 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 31
 
 
  1234 006c 3B68     		ldr	r3, [r7]
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1287 00c4 5CD0     		beq	.L103
  1288              		.loc 1 467 0 discriminator 3
  1289 00c6 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 32
 
 
  1290 00c8 1B79     		ldrb	r3, [r3, #4]	@ zero_extendqisi2
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1344 011e 3B68     		ldr	r3, [r7]
  1345 0120 1B79     		ldrb	r3, [r3, #4]	@ zero_extendqisi2
  1346 0122 152B     		cmp	r3, #21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 33
 
 
  1347 0124 2CD0     		beq	.L103
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1401 017c FFF7FEFF 		bl	Cy_SysLib_AssertFailed
  1402              	.L103:
  468:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 34
 
 
  469:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     if(((uint32_t)config->pcMask & CY_PROT_SMPU_PC_LIMIT_MASK) != 0UL) 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1443              		.loc 1 481 0
  1444 01ca 3B68     		ldr	r3, [r7]
  1445 01cc 5B89     		ldrh	r3, [r3, #10]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 35
 
 
  1446 01ce 5902     		lsls	r1, r3, #9
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1494 021a 7B61     		str	r3, [r7, #20]
  1495              	.L105:
  487:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     ? CY_PROT_FAILURE : CY_PROT_SUCCESS;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 36
 
 
  488:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     }
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  514:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \funcusage
  515:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \snippet prot/prot_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_Prot_EnableSmpuMasterStruct
  516:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 37
 
 
  517:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *******************************************************************************/
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1567              		@ sp needed
  1568 0032 5DF8047B 		ldr	r7, [sp], #4
  1569              		.cfi_restore 7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 38
 
 
  1570              		.cfi_def_cfa_offset 0
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1596              		.cfi_def_cfa_offset 24
  1597 0004 00AF     		add	r7, sp, #0
  1598              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 39
 
 
  1599 0006 7860     		str	r0, [r7, #4]
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1645              		.thumb
  1646              		.thumb_func
  1647              		.type	Cy_Prot_EnableSmpuSlaveStruct, %function
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 40
 
 
  1648              	Cy_Prot_EnableSmpuSlaveStruct:
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1670 0014 7B68     		ldr	r3, [r7, #4]
  1671 0016 5B68     		ldr	r3, [r3, #4]
  1672 0018 03F00043 		and	r3, r3, #-2147483648
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 41
 
 
  1673 001c DB0F     		lsrs	r3, r3, #31
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  610:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
  611:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \param base
  612:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * The base address for the protection unit structure being configured. 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 42
 
 
  613:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  632:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                 CY_PROT_FAILURE : CY_PROT_SUCCESS;
  633:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     
  634:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     return status;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 43
 
 
  1748              		.loc 1 634 0 is_stmt 1 discriminator 4
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  661:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
  662:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   Status               | Description
  663:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   ------------         | -----------
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 44
 
 
  664:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   CY_PROT_SUCCESS      | PPU PROG master struct was successfully configured
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1814              		.loc 1 679 0 is_stmt 1
  1815 0034 3B68     		ldr	r3, [r7]
  1816 0036 DB79     		ldrb	r3, [r3, #7]	@ zero_extendqisi2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 45
 
 
  1817 0038 012B     		cmp	r3, #1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1858              		.loc 1 692 0
  1859 0086 3B68     		ldr	r3, [r7]
  1860 0088 5B89     		ldrh	r3, [r3, #10]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 46
 
 
  1861 008a 5902     		lsls	r1, r3, #9
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1903              	.L144:
  1904              		.loc 1 703 0 discriminator 4
  1905 00d4 FB60     		str	r3, [r7, #12]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 47
 
 
  1906              	.L141:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  729:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * 
  730:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \return
  731:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Status of the function call.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 48
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 48
 
 
  732:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  1970 002c 9B79     		ldrb	r3, [r3, #6]	@ zero_extendqisi2
  1971 002e 022B     		cmp	r3, #2
  1972 0030 08D0     		beq	.L150
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 49
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 49
 
 
  1973              		.loc 1 750 0 discriminator 3
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2025 0088 1B79     		ldrb	r3, [r3, #4]	@ zero_extendqisi2
  2026 008a 0A2B     		cmp	r3, #10
  2027 008c 58D0     		beq	.L152
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 50
 
 
  2028              		.loc 1 752 0 discriminator 4
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2082 00e4 2CD0     		beq	.L152
  2083              		.loc 1 752 0 discriminator 15
  2084 00e6 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 51
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 51
 
 
  2085 00e8 1B79     		ldrb	r3, [r3, #4]	@ zero_extendqisi2
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  754:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     if(((uint32_t)config->pcMask & CY_PROT_PPU_PROG_PC_LIMIT_MASK) != 0UL) 
  2138              		.loc 1 754 0 is_stmt 1
  2139 0140 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 52
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 52
 
 
  2140 0142 5B89     		ldrh	r3, [r3, #10]
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2181 018e 5902     		lsls	r1, r3, #9
  2182 0190 1B4B     		ldr	r3, .L160+8
  2183 0192 0B40     		ands	r3, r3, r1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 53
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 53
 
 
  2184 0194 1A43     		orrs	r2, r2, r3
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2225 01d8 7B68     		ldr	r3, [r7, #4]
  2226 01da 5B68     		ldr	r3, [r3, #4]
  2227 01dc 23F49272 		bic	r2, r3, #292
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 54
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 54
 
 
  2228 01e0 FB68     		ldr	r3, [r7, #12]
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  791:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \brief Enables the Master PPU PROG structure.
  792:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
  793:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * This is a PPU PROG master struct enable function. The PPU PROG protection 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 55
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 55
 
 
  794:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * settings will take effect after successful completion of this function call.
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2301 0026 0023     		movs	r3, #0
  2302              	.L164:
  2303              		.loc 1 816 0 discriminator 4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 56
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 56
 
 
  2304 0028 FB60     		str	r3, [r7, #12]
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  842:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   CY_PROT_FAILURE      | The Master PU struct is enabled and possibly locked
  843:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
  844:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \funcusage
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 57
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 57
 
 
  845:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \snippet prot/prot_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_Prot_DisablePpuProgMasterStruct
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2374 0030 BD46     		mov	sp, r7
  2375              		.cfi_def_cfa_register 13
  2376              		@ sp needed
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 58
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 58
 
 
  2377 0032 5DF8047B 		ldr	r7, [sp], #4
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2403              		.cfi_offset 7, -4
  2404 0002 85B0     		sub	sp, sp, #20
  2405              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 59
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 59
 
 
  2406 0004 00AF     		add	r7, sp, #0
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2452              		.align	2
  2453              		.global	Cy_Prot_DisablePpuProgSlaveStruct
  2454              		.thumb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 60
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 60
 
 
  2455              		.thumb_func
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2477 0012 5A60     		str	r2, [r3, #4]
  926:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     status = (_FLD2VAL(PERI_PPU_PR_ATT0_ENABLED, base->ATT0) == CY_PROT_STRUCT_ENABLE) ?
  2478              		.loc 1 926 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 61
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 61
 
 
  2479 0014 7B68     		ldr	r3, [r7, #4]
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  938:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * protection struct with its protection attributes. 
  939:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
  940:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * This function configures the master struct governing the corresponding slave
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 62
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 62
 
 
  941:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * struct pair. It is a mechanism to protect the slave PPU GR struct. Since
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2544              	.L187:
  973:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     CY_ASSERT_L3(CY_PROT_IS_FIXED_MS_PERM_VALID(config->userPermission));
  2545              		.loc 1 973 0 is_stmt 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 63
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 63
 
 
  2546 001a 3B68     		ldr	r3, [r7]
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2589 0064 03F00702 		and	r2, r3, #7
  985:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     | (uint32_t)(((uint32_t)config->privPermission & CY_PROT_ATT_PERMISSION_MASK) <
  2590              		.loc 1 985 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 64
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 64
 
 
  2591 0068 3B68     		ldr	r3, [r7]
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2632 00b6 7B68     		ldr	r3, [r7, #4]
  2633 00b8 BA68     		ldr	r2, [r7, #8]
  2634 00ba 5A62     		str	r2, [r3, #36]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 65
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 65
 
 
  998:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****             status = ((base->ATT1 & CY_PROT_PPU_GR_ATT1_MASK) != attReg) ? CY_PROT_FAILURE : CY_PRO
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1006:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** /*******************************************************************************
 1007:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Function Name: Cy_Prot_ConfigPpuFixedGrSlaveStruct
 1008:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** ****************************************************************************//**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 66
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 66
 
 
 1009:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2695              		.loc 1 1048 0
  2696 000a 7B68     		ldr	r3, [r7, #4]
  2697 000c 002B     		cmp	r3, #0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 67
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 67
 
 
  2698 000e 04D1     		bne	.L199
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2750 0064 40F21A41 		movw	r1, #1050
  2751 0068 2548     		ldr	r0, .L208
  2752 006a FFF7FEFF 		bl	Cy_SysLib_AssertFailed
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 68
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 68
 
 
  2753              	.L201:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2792 00b4 DB78     		ldrb	r3, [r3, #3]	@ zero_extendqisi2
  2793 00b6 9B07     		lsls	r3, r3, #30
  2794 00b8 03F08043 		and	r3, r3, #1073741824
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 69
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 69
 
 
 1060:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     | (uint32_t)(((uint32_t)config->privPermission & CY_PROT_ATT_PERMISSION_MASK) <
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2835 00f8 1846     		mov	r0, r3
  2836 00fa 1037     		adds	r7, r7, #16
  2837              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 70
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 70
 
 
  2838 00fc BD46     		mov	sp, r7
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2864              		@ link register save eliminated.
  2865 0000 80B4     		push	{r7}
  2866              		.cfi_def_cfa_offset 4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 71
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 71
 
 
  2867              		.cfi_offset 7, -4
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2913              	.LFE145:
  2914              		.size	Cy_Prot_EnablePpuFixedGrMasterStruct, .-Cy_Prot_EnablePpuFixedGrMasterStruct
  2915              		.section	.text.Cy_Prot_DisablePpuFixedGrMasterStruct,"ax",%progbits
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 72
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 72
 
 
  2916              		.align	2
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  2938 000a 5B6A     		ldr	r3, [r3, #36]
  2939 000c 23F00042 		bic	r2, r3, #-2147483648
  2940 0010 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 73
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 73
 
 
  2941 0012 5A62     		str	r2, [r3, #36]
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1156:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** ****************************************************************************//**
 1157:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
 1158:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \brief Enables the Slave PPU GR structure.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 74
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 74
 
 
 1159:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3015              	.L223:
  3016              		.loc 1 1183 0 discriminator 2
  3017 0026 0023     		movs	r3, #0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 75
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 75
 
 
  3018              	.L224:
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1207:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   ------------         | -----------
 1208:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   CY_PROT_SUCCESS      | The Slave PU struct was disabled
 1209:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   CY_PROT_FAILURE      | The Slave PU struct is enabled and possibly locked
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 76
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 76
 
 
 1210:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3088 002e 1437     		adds	r7, r7, #20
  3089              		.cfi_def_cfa_offset 4
  3090 0030 BD46     		mov	sp, r7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 77
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 77
 
 
  3091              		.cfi_def_cfa_register 13
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1258:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \snippet prot/prot_v1_10_sut_01.cydsn/main_cm4.c snippet_Cy_Prot_ConfigPpuFixedSlMasterStruct
 1259:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
 1260:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *******************************************************************************/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 78
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 78
 
 
 1261:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** cy_en_prot_status_t Cy_Prot_ConfigPpuFixedSlMasterStruct(PERI_GR_PPU_SL_Type* base, const cy_stc_pp
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3158 0040 032B     		cmp	r3, #3
  3159 0042 04D0     		beq	.L237
  3160              		.loc 1 1268 0 discriminator 2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 79
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 79
 
 
  3161 0044 40F2F441 		movw	r1, #1268
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1283:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     | _VAL2FLD(PERI_GR_PPU_SL_ATT1_PC_MATCH, config->pcMatch);
  3201              		.loc 1 1283 0
  3202 0092 3B68     		ldr	r3, [r7]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 80
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 80
 
 
  3203 0094 DB78     		ldrb	r3, [r3, #3]	@ zero_extendqisi2
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3243              		.loc 1 1296 0 is_stmt 1
  3244 00d6 FB68     		ldr	r3, [r7, #12]
 1297:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 81
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 81
 
 
  3245              		.loc 1 1297 0
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1326:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   Status               | Description
 1327:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   ------------         | -----------
 1328:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   CY_PROT_SUCCESS      | PPU SL slave struct was successfully configured
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 82
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 82
 
 
 1329:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   CY_PROT_FAILURE      | The resource is locked
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3311 0034 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  3312 0036 032B     		cmp	r3, #3
  3313 0038 04D0     		beq	.L248
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 83
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 83
 
 
  3314              		.loc 1 1342 0 discriminator 4
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3357 0082 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
  3358 0084 03F00702 		and	r2, r3, #7
 1354:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     | (uint32_t)(((uint32_t)config->privPermission & CY_PROT_ATT_PERMISSION_MASK) <
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 84
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 84
 
 
  3359              		.loc 1 1354 0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3400              		.loc 1 1366 0
  3401 00d6 7B68     		ldr	r3, [r7, #4]
  3402 00d8 BA68     		ldr	r2, [r7, #8]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 85
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 85
 
 
  3403 00da 5A60     		str	r2, [r3, #4]
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1374:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
 1375:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** /*******************************************************************************
 1376:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Function Name: Cy_Prot_EnablePpuFixedSlMasterStruct
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 86
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 86
 
 
 1377:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** ****************************************************************************//**
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3476              		.loc 1 1404 0 is_stmt 0 discriminator 1
  3477 0022 054B     		ldr	r3, .L262
  3478 0024 00E0     		b	.L260
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 87
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 87
 
 
  3479              	.L259:
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1425:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Status of the function call.
 1426:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
 1427:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   Status               | Description
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 88
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 88
 
 
 1428:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *   ------------         | -----------
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1445:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** }
  3550              		.loc 1 1445 0 discriminator 4
  3551 002c 1846     		mov	r0, r3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 89
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 89
 
 
  3552 002e 1437     		adds	r7, r7, #20
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3578              		@ args = 0, pretend = 0, frame = 16
  3579              		@ frame_needed = 1, uses_anonymous_args = 0
  3580              		@ link register save eliminated.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 90
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 90
 
 
  3581 0000 80B4     		push	{r7}
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3627 0038 0300C200 		.word	12713987
  3628              		.cfi_endproc
  3629              	.LFE153:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 91
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 91
 
 
  3630              		.size	Cy_Prot_EnablePpuFixedSlSlaveStruct, .-Cy_Prot_EnablePpuFixedSlSlaveStruct
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3652              		.loc 1 1513 0
  3653 0008 7B68     		ldr	r3, [r7, #4]
  3654 000a 5B68     		ldr	r3, [r3, #4]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 92
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 92
 
 
  3655 000c 23F00042 		bic	r2, r3, #-2147483648
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1521:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** /*******************************************************************************
 1522:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Function Name: Cy_Prot_ConfigPpuFixedRgMasterStruct
 1523:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** ****************************************************************************//**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 93
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 93
 
 
 1524:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3719 000e 04D1     		bne	.L283
  3720              		.loc 1 1560 0 is_stmt 0 discriminator 1
  3721 0010 4FF4C361 		mov	r1, #1560
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 94
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 94
 
 
  3722 0014 3248     		ldr	r0, .L292
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1571:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         /* ADDR1 is read only. Only configure ATT1 */
 1572:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         attReg = ((uint32_t)config->userPermission & CY_PROT_ATT_PERMISSION_MASK)
  3766              		.loc 1 1572 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 95
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 95
 
 
  3767 0060 3B68     		ldr	r3, [r7]
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1582:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         }
 1583:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         else
 1584:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****         {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 96
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 96
 
 
 1585:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****             base->ATT1 = attReg;
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3858              		.type	Cy_Prot_ConfigPpuFixedRgSlaveStruct, %function
  3859              	Cy_Prot_ConfigPpuFixedRgSlaveStruct:
  3860              	.LFB156:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 97
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 97
 
 
 1592:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1632:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     cy_en_prot_status_t status;
 1633:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     uint32_t attReg;
 1634:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 98
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 98
 
 
 1635:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     CY_ASSERT_L1(NULL != base);
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  3926 005e 5B78     		ldrb	r3, [r3, #1]	@ zero_extendqisi2
  3927 0060 032B     		cmp	r3, #3
  3928 0062 04D0     		beq	.L297
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 99
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 99
 
 
  3929              		.loc 1 1637 0 discriminator 4
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1651:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     /* No region size - read only */
 1652:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****                     | _VAL2FLD(PERI_GR_PPU_RG_ATT0_PC_MATCH, config->pcMatch);
  3970              		.loc 1 1652 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 100
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 100
 
 
  3971 00b2 3B68     		ldr	r3, [r7]
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1665:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     return status;
  4012              		.loc 1 1665 0 is_stmt 1
  4013 00f6 FB68     		ldr	r3, [r7, #12]
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 101
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 101
 
 
 1666:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** }
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1694:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** {
  4040              		.loc 1 1694 0
  4041              		.cfi_startproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 102
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 102
 
 
  4042              		@ args = 0, pretend = 0, frame = 16
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4088              	.L311:
  4089              		.align	2
  4090              	.L310:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 103
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 103
 
 
  4091 0038 0300C200 		.word	12713987
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1732:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     cy_en_prot_status_t status;
 1733:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     
 1734:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c ****     base->ATT1 &= ~_VAL2FLD(PERI_GR_PPU_RG_ATT1_ENABLED, CY_PROT_STRUCT_ENABLE);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 104
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 104
 
 
  4116              		.loc 1 1734 0
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4165              	.LFB159:
 1740:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
 1741:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 105
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 105
 
 
 1742:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** /*******************************************************************************
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4190 001e 012B     		cmp	r3, #1
  4191 0020 01D0     		beq	.L319
  4192              		.loc 1 1771 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 106
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 106
 
 
  4193 0022 054B     		ldr	r3, .L322
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
 1790:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
 1791:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * \return
 1792:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** * Status of the function call.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 107
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 107
 
 
 1793:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** *
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4264              		.loc 1 1811 0 is_stmt 1 discriminator 4
  4265 002a FB68     		ldr	r3, [r7, #12]
 1812:Generated_Source\PSoC6\pdl\drivers\peripheral\prot/cy_prot.c **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 108
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 108
 
 
  4266              		.loc 1 1812 0 discriminator 4
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4320 003a 03       		.uleb128 0x3
  4321 003b 08       		.byte	0x8
  4322 003c 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 109
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 109
 
 
  4323 003d 07090000 		.4byte	.LASF2
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4377 00a9 04       		.uleb128 0x4
  4378 00aa 70020000 		.4byte	.LASF15
  4379 00ae 03       		.byte	0x3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 110
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 110
 
 
  4380 00af 24       		.byte	0x24
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4434 0123 CA000000 		.4byte	0xca
  4435 0127 FF05     		.2byte	0x5ff
  4436 0129 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 111
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 111
 
 
  4437 012a 0A       		.uleb128 0xa
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4491 0196 2A010000 		.4byte	0x12a
  4492 019a 06       		.uleb128 0x6
  4493 019b 95010000 		.4byte	0x195
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 112
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 112
 
 
  4494 019f 04       		.uleb128 0x4
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4548 020b 05020000 		.4byte	0x205
  4549 020f 04       		.uleb128 0x4
  4550 0210 F8000000 		.4byte	.LASF33
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 113
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 113
 
 
  4551 0214 05       		.byte	0x5
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4605 0280 FB040000 		.4byte	.LASF34
  4606 0284 05       		.byte	0x5
  4607 0285 58       		.byte	0x58
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 114
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 114
 
 
  4608 0286 1A020000 		.4byte	0x21a
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4662 02f5 64       		.byte	0x64
  4663 02f6 8A020000 		.4byte	0x28a
  4664 02fa 0D       		.uleb128 0xd
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 115
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 115
 
 
  4665 02fb 40       		.byte	0x40
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4719 036a 0F       		.uleb128 0xf
  4720 036b 0040     		.2byte	0x4000
  4721 036d 06       		.byte	0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 116
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 116
 
 
  4722 036e 31       		.byte	0x31
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4776 03da D1000000 		.4byte	0xd1
  4777 03de 20       		.byte	0x20
  4778 03df 0E       		.uleb128 0xe
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 117
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 117
 
 
  4779 03e0 4E040000 		.4byte	.LASF46
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4833 044d 43070000 		.4byte	.LASF31
  4834 0451 06       		.byte	0x6
  4835 0452 44       		.byte	0x44
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 118
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 118
 
 
  4836 0453 8A040000 		.4byte	0x48a
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4890 04c7 05       		.uleb128 0x5
  4891 04c8 2A010000 		.4byte	0x12a
  4892 04cc 06       		.uleb128 0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 119
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 119
 
 
  4893 04cd C7040000 		.4byte	0x4c7
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  4947 0541 0080     		.2byte	0x8000
  4948 0543 06       		.byte	0x6
  4949 0544 5C       		.byte	0x5c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 120
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 120
 
 
  4950 0545 63050000 		.4byte	0x563
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5004 05b7 0100C200 		.4byte	0xc20001
  5005 05bb 12       		.uleb128 0x12
  5006 05bc F9090000 		.4byte	.LASF69
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 121
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 121
 
 
  5007 05c0 0300C200 		.4byte	0xc20003
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5061 0633 08       		.byte	0x8
  5062 0634 08       		.uleb128 0x8
  5063 0635 4C050000 		.4byte	.LASF82
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 122
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 122
 
 
  5064 0639 09       		.byte	0x9
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5118 06a5 1B       		.byte	0x1b
  5119 06a6 08       		.uleb128 0x8
  5120 06a7 060B0000 		.4byte	.LASF101
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 123
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 123
 
 
  5121 06ab 1C       		.byte	0x1c
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5175 071b D502     		.2byte	0x2d5
  5176 071d 29070000 		.4byte	0x729
  5177 0721 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 124
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 124
 
 
  5178 0722 00       		.byte	0
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5232 0793 14       		.uleb128 0x14
  5233 0794 AB0C0000 		.4byte	.LASF114
  5234 0798 08       		.byte	0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 125
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 125
 
 
  5235 0799 E102     		.2byte	0x2e1
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5289 080c 29070000 		.4byte	0x729
  5290 0810 08       		.byte	0x8
  5291 0811 14       		.uleb128 0x14
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 126
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 126
 
 
  5292 0812 AB0C0000 		.4byte	.LASF114
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5346 0884 1B000000 		.4byte	.LASF118
  5347 0888 08       		.byte	0x8
  5348 0889 FA02     		.2byte	0x2fa
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 127
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 127
 
 
  5349 088b 38080000 		.4byte	0x838
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5403 08fd A5060000 		.4byte	.LASF110
  5404 0901 08       		.byte	0x8
  5405 0902 0A03     		.2byte	0x30a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 128
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 128
 
 
  5406 0904 0F060000 		.4byte	0x60f
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5460 0977 01       		.byte	0x1
  5461 0978 3C       		.byte	0x3c
  5462 0979 29070000 		.4byte	0x729
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 129
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 129
 
 
  5463 097d 02       		.uleb128 0x2
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5517 09e0 19       		.uleb128 0x19
  5518 09e1 706300   		.ascii	"pc\000"
  5519 09e4 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 130
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 130
 
 
  5520 09e5 96       		.byte	0x96
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5574 0a4b 01       		.byte	0x1
  5575 0a4c 0801     		.2byte	0x108
  5576 0a4e C5050000 		.4byte	0x5c5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 131
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 131
 
 
  5577 0a52 00000000 		.4byte	.LFB128
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5631 0abd 1D       		.uleb128 0x1d
  5632 0abe FA060000 		.4byte	.LASF135
  5633 0ac2 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 132
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 132
 
 
  5634 0ac3 3701     		.2byte	0x137
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5688 0b35 8701     		.2byte	0x187
  5689 0b37 C5050000 		.4byte	0x5c5
  5690 0b3b 00000000 		.4byte	.LFB131
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 133
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 133
 
 
  5691 0b3f F0000000 		.4byte	.LFE131-.LFB131
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5745 0bad FD0B0000 		.4byte	0xbfd
  5746 0bb1 1B       		.uleb128 0x1b
  5747 0bb2 91050000 		.4byte	.LASF131
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 134
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 134
 
 
  5748 0bb6 01       		.byte	0x1
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5802 0c23 02       		.uleb128 0x2
  5803 0c24 91       		.byte	0x91
  5804 0c25 6C       		.sleb128 -20
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 135
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 135
 
 
  5805 0c26 1C       		.uleb128 0x1c
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5859 0c98 1C       		.uleb128 0x1c
  5860 0c99 910A0000 		.4byte	.LASF123
  5861 0c9d 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 136
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 136
 
 
  5862 0c9e 5002     		.2byte	0x250
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5916 0d10 A002     		.2byte	0x2a0
  5917 0d12 3E0D0000 		.4byte	0xd3e
  5918 0d16 02       		.uleb128 0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 137
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 137
 
 
  5919 0d17 91       		.byte	0x91
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  5973 0d82 910A0000 		.4byte	.LASF123
  5974 0d86 01       		.byte	0x1
  5975 0d87 E902     		.2byte	0x2e9
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 138
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 138
 
 
  5976 0d89 C5050000 		.4byte	0x5c5
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6030 0df8 3C000000 		.4byte	.LFE140-.LFB140
  6031 0dfc 01       		.uleb128 0x1
  6032 0dfd 9C       		.byte	0x9c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 139
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 139
 
 
  6033 0dfe 210E0000 		.4byte	0xe21
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6087 0e70 930E0000 		.4byte	0xe93
  6088 0e74 1B       		.uleb128 0x1b
  6089 0e75 91050000 		.4byte	.LASF131
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 140
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 140
 
 
  6090 0e79 01       		.byte	0x1
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6144 0ee6 02       		.uleb128 0x2
  6145 0ee7 91       		.byte	0x91
  6146 0ee8 70       		.sleb128 -16
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 141
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 141
 
 
  6147 0ee9 00       		.byte	0
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6201 0f57 01       		.byte	0x1
  6202 0f58 5104     		.2byte	0x451
  6203 0f5a C5050000 		.4byte	0x5c5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 142
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 142
 
 
  6204 0f5e 00000000 		.4byte	.LFB145
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6258 0fd0 00000000 		.4byte	.LFB147
  6259 0fd4 3C000000 		.4byte	.LFE147-.LFB147
  6260 0fd8 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 143
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 143
 
 
  6261 0fd9 9C       		.byte	0x9c
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6315 104b 9C       		.byte	0x9c
  6316 104c 8D100000 		.4byte	0x108d
  6317 1050 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 144
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 144
 
 
  6318 1051 91050000 		.4byte	.LASF131
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6372 10c0 8D100000 		.4byte	0x108d
  6373 10c4 02       		.uleb128 0x2
  6374 10c5 91       		.byte	0x91
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 145
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 145
 
 
  6375 10c6 6C       		.sleb128 -20
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6429 112f FA020000 		.4byte	.LASF158
  6430 1133 01       		.byte	0x1
  6431 1134 9C05     		.2byte	0x59c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 146
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 146
 
 
  6432 1136 C5050000 		.4byte	0x5c5
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6486 11a8 C5050000 		.4byte	0x5c5
  6487 11ac 00000000 		.4byte	.LFB154
  6488 11b0 3C000000 		.4byte	.LFE154-.LFB154
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 147
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 147
 
 
  6489 11b4 01       		.uleb128 0x1
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6543 1220 1C       		.uleb128 0x1c
  6544 1221 AE090000 		.4byte	.LASF134
  6545 1225 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 148
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 148
 
 
  6546 1226 1606     		.2byte	0x616
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6600 1295 91       		.byte	0x91
  6601 1296 70       		.sleb128 -16
  6602 1297 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 149
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 149
 
 
  6603 1298 1D       		.uleb128 0x1d
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6657 130a 1D       		.uleb128 0x1d
  6658 130b C3040000 		.4byte	.LASF165
  6659 130f 01       		.byte	0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 150
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 150
 
 
  6660 1310 E606     		.2byte	0x6e6
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6714 1382 EA07     		.2byte	0x7ea
  6715 1384 88130000 		.4byte	0x1388
  6716 1388 05       		.uleb128 0x5
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 151
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 151
 
 
  6717 1389 B4000000 		.4byte	0xb4
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6771 0032 49       		.uleb128 0x49
  6772 0033 13       		.uleb128 0x13
  6773 0034 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 152
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 152
 
 
  6774 0035 00       		.byte	0
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6828 006b 01       		.byte	0x1
  6829 006c 49       		.uleb128 0x49
  6830 006d 13       		.uleb128 0x13
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 153
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 153
 
 
  6831 006e 01       		.uleb128 0x1
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6885 00a4 05       		.uleb128 0x5
  6886 00a5 3A       		.uleb128 0x3a
  6887 00a6 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 154
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 154
 
 
  6888 00a7 3B       		.uleb128 0x3b
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6942 00dd 01       		.uleb128 0x1
  6943 00de 13       		.uleb128 0x13
  6944 00df 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 155
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 155
 
 
  6945 00e0 00       		.byte	0
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  6999 0117 00       		.byte	0
  7000 0118 03       		.uleb128 0x3
  7001 0119 0E       		.uleb128 0xe
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 156
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 156
 
 
  7002 011a 3A       		.uleb128 0x3a
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7056 0150 13       		.uleb128 0x13
  7057 0151 11       		.uleb128 0x11
  7058 0152 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 157
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 157
 
 
  7059 0153 12       		.uleb128 0x12
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7113 018a 13       		.uleb128 0x13
  7114 018b 11       		.uleb128 0x11
  7115 018c 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 158
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 158
 
 
  7116 018d 12       		.uleb128 0x12
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7170 0058 00000000 		.4byte	.LFB134
  7171 005c 3C000000 		.4byte	.LFE134-.LFB134
  7172 0060 00000000 		.4byte	.LFB135
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 159
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 159
 
 
  7173 0064 3C000000 		.4byte	.LFE135-.LFB135
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7227              	.Ldebug_ranges0:
  7228 0000 00000000 		.4byte	.LFB125
  7229 0004 44010000 		.4byte	.LFE125
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 160
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 160
 
 
  7230 0008 00000000 		.4byte	.LFB126
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7284 00e0 00000000 		.4byte	.LFB153
  7285 00e4 3C000000 		.4byte	.LFE153
  7286 00e8 00000000 		.4byte	.LFB154
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 161
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 161
 
 
  7287 00ec 3C000000 		.4byte	.LFE154
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7316      69675070 
  7316      7550726F 
  7317              	.LASF163:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 162
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 162
 
 
  7318 0076 43795F50 		.ascii	"Cy_Prot_EnablePpuFixedRgMasterStruct\000"
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7338      00
  7339              	.LASF44:
  7340 014b 4D53375F 		.ascii	"MS7_CTL\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 163
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 163
 
 
  7340      43544C00 
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7362      53495A45 
  7362      5F384B42 
  7362      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 164
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 164
 
 
  7363              	.LASF159:
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7386 02d7 41545430 		.ascii	"ATT0\000"
  7386      00
  7387              	.LASF128:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 165
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 165
 
 
  7388 02dc 61646472 		.ascii	"addrMpu\000"
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7408      656400
  7409              	.LASF63:
  7410 03c1 63686172 		.ascii	"char_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 166
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 166
 
 
  7410      5F7400
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7431              	.LASF8:
  7432 0467 73686F72 		.ascii	"short unsigned int\000"
  7432      7420756E 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 167
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 167
 
 
  7432      7369676E 
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7453      524F545F 
  7453      53495A45 
  7453      5F314B42 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 168
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 168
 
 
  7453      00
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7479      53495A45 
  7479      5F324D42 
  7479      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 169
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 169
 
 
  7480              	.LASF140:
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7499      4D4200
  7500              	.LASF75:
  7501 06eb 43595F50 		.ascii	"CY_PROT_PERM_X\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 170
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 170
 
 
  7501      524F545F 
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7521      6C00
  7522              	.LASF16:
  7523 07be 696E7433 		.ascii	"int32_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 171
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 171
 
 
  7523      325F7400 
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7545      44697361 
  7545      626C6550 
  7545      70754669 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 172
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 172
 
 
  7546              	.LASF92:
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7567      696700
  7568              	.LASF7:
  7569 098a 5F5F7569 		.ascii	"__uint16_t\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 173
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 173
 
 
  7569      6E743136 
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7593      5045524D 
  7593      5F525700 
  7594              	.LASF76:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 174
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 174
 
 
  7595 0a45 43595F50 		.ascii	"CY_PROT_PERM_RX\000"
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7619      535F4D53 
  7619      5F49445F 
  7619      44573000 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 175
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 175
 
 
  7620              	.LASF102:
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 1
  7636      6F2D6F62 
  7637              	.LASF149:
  7638 0c1d 43795F50 		.ascii	"Cy_Prot_ConfigPpuFixedGrMasterStruct\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccKKUYly.s 			page 176
+ARM GAS  C:\Users\rober\AppData\Local\Temp\cclauHYg.s 			page 176
 
 
  7638      726F745F 

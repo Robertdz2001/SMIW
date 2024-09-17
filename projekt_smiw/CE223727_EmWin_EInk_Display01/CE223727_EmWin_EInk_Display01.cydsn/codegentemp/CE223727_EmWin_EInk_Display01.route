@@ -65,6 +65,12 @@ net Net_302
 	switch ":UDB_Array:UDBroute4:BUI_Sel30.bui30==>:UDB_Array:udb@[UDB=(1,1)]:StatusControl:statuscell.status_0"
 	term   ":UDB_Array:udb@[UDB=(1,1)]:StatusControl:statuscell.status_0"
 end Net_302
+net Net_335_ff13
+	term   ":Clockcontainer:Clock[0].ff_div_11"
+	switch ":Clockcontainer:Clock[0].ff_div_11==>:Clockcontainer:ff_permute.ff_div_11"
+	switch ":Clockcontainer:ff_permute.Clock[0]ff_div_19==>:TCPWMcontainer:TCPWM[0].clock"
+	term   ":TCPWMcontainer:TCPWM[0].clock"
+end Net_335_ff13
 net Net_362
 	term   ":ioport9:pin5.fb"
 	switch ":ioport9:pin5.fb==>:ioport9:smartio_mux_out5.direct_in"
@@ -78,12 +84,6 @@ net Net_362
 	switch ":UDB_Array:UDBroute4:TUI_Sel30.tui30==>:UDB_Array:udb@[UDB=(0,1)]:StatusControl:statuscell.status_0"
 	term   ":UDB_Array:udb@[UDB=(0,1)]:StatusControl:statuscell.status_0"
 end Net_362
-net Net_700_ff13
-	term   ":Clockcontainer:Clock[0].ff_div_11"
-	switch ":Clockcontainer:Clock[0].ff_div_11==>:Clockcontainer:ff_permute.ff_div_11"
-	switch ":Clockcontainer:ff_permute.Clock[0]ff_div_19==>:TCPWMcontainer:TCPWM[0].clock"
-	term   ":TCPWMcontainer:TCPWM[0].clock"
-end Net_700_ff13
 net \CY_EINK_SPIM:Net_216\
 	term   ":SCBcontainer:SCB[6].spi_miso"
 	switch ":SCBcontainer:SCB[6].spi_miso==>:ioport12:hsiomOut1.fixedIn1_ACT_8"
