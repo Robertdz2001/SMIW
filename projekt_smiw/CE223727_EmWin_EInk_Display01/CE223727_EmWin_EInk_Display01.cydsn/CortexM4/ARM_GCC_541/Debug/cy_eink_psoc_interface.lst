@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   28:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * The TCPWM driver is a multifunction driver that implements Timer Counter, 
   29:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * PWM, and Quadrature Decoder functionality using the TCPWM block.
   30:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 2
 
 
   31:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * Each TCPWM block is a collection of counters that can all be triggered 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   85:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * * Two PWM outputs with Dead Time insertion, and programmable polarity
   86:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * * Interrupt and Output on Overflow, Underflow, or Compare 
   87:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * * Start, Reload, Stop, Swap (Capture), and Count Inputs
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 3
 
 
   88:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * * Multiple Components can be synchronized together for applications 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  142:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * structure of the appropriate mode(Counter 
  143:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \ref group_tcpwm_data_structures_counter, PWM 
  144:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \ref group_tcpwm_data_structures_pwm, or QuadDec 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 4
 
 
  145:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \ref group_tcpwm_data_structures_quaddec).
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  199:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
  200:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #if !defined(CY_TCPWM_H)
  201:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #define CY_TCPWM_H
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 5
 
 
  202:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  256:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** 
  257:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /** Input is defined by Creator, and Init() function does not need to configure input */
  258:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #define CY_TCPWM_INPUT_CREATOR          (0xFFFFFFFFU)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 6
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 6
 
 
  259:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /** \} group_tcpwm_input_selection */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  313:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /** Initial value for the counter in the Up counting mode */
  314:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #define CY_TCPWM_CNT_UP_INIT_VAL            (0x0U)
  315:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** /** Initial value for the counter in the Up/Down counting modes */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 7
 
 
  316:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** #define CY_TCPWM_CNT_UP_DOWN_INIT_VAL       (0x1U)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  370:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \param counters
  371:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * A bit field representing each counter in the TCPWM block.
  372:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 8
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 8
 
 
  373:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm.h **** * \funcusage
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   51              		.cfi_def_cfa_register 13
   52              		@ sp needed
   53 0016 5DF8047B 		ldr	r7, [sp], #4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 9
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 9
 
 
   54              		.cfi_restore 7
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   41:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** 
   42:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** /** Counter Timer configuration structure */
   43:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** typedef struct cy_stc_tcpwm_counter_config
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 10
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 10
 
 
   44:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   98:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** /** \defgroup group_tcpwm_counter_clk_prescalers Counter CLK Prescalers
   99:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \{
  100:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The clock prescaler values.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 11
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 11
 
 
  101:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  155:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** __STATIC_INLINE uint32_t Cy_TCPWM_Counter_GetCounter(TCPWM_Type const *base, uint32_t cntNum);
  156:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** __STATIC_INLINE void Cy_TCPWM_Counter_SetPeriod(TCPWM_Type *base, uint32_t cntNum, uint32_t period)
  157:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** __STATIC_INLINE uint32_t Cy_TCPWM_Counter_GetPeriod(TCPWM_Type const *base, uint32_t cntNum);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 12
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 12
 
 
  158:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  212:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
  213:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \param cntNum 
  214:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The Counter instance number in the selected TCPWM.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 13
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 13
 
 
  215:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  269:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
  270:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \param cntNum 
  271:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The Counter instance number in the selected TCPWM.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 14
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 14
 
 
  272:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  326:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \funcusage
  327:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \snippet tcpwm/tcpwm_v1_0_counter_sut_01.cydsn/main_cm4.c snippet_Cy_TCPWM_Counter_SetCompare0
  328:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 15
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 15
 
 
  329:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *******************************************************************************/
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  383:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** }
  384:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** 
  385:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 16
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 16
 
 
  386:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** /*******************************************************************************
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   69              		.cfi_startproc
   70              		@ args = 0, pretend = 0, frame = 16
   71              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 17
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 17
 
 
   72              		@ link register save eliminated.
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  453:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The Counter instance number in the selected TCPWM.
  454:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** *
  455:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * \return
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 18
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 18
 
 
  456:Generated_Source\PSoC6\pdl\drivers/peripheral/tcpwm/cy_tcpwm_counter.h **** * The current counter value.
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
    2:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \file cy_scb_common.h
    3:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \version 2.10
    4:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 19
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 19
 
 
    5:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Provides common API declarations of the SCB driver.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   59:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *         different data types: uint8_t (4-8 bits) or uint16_t (9-16 bits).
   60:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *         The cast operation is safe because the configuration is verified
   61:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *         before operation is performed.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 20
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 20
 
 
   62:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *         </td>
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  116:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /***************************************
  117:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *        Function Prototypes
  118:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** ***************************************/
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 21
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 21
 
 
  119:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  173:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE void     Cy_SCB_ClearI2CInterrupt    (CySCB_Type *base, uint32_t interruptMask);
  174:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  175:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE uint32_t Cy_SCB_GetSpiInterruptStatus(CySCB_Type const *base);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 22
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 22
 
 
  176:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** __STATIC_INLINE void     Cy_SCB_SetSpiInterruptMask  (CySCB_Type *base, uint32_t interruptMask);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  230:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  231:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** EZI2C mode identifier */
  232:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_I2C_ID       (0x1UL << CY_SCB_SUB_MODE_Pos)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 23
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 23
 
 
  233:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  287:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_TX_INTR_UART_DONE       SCB_INTR_TX_UART_DONE_Msk
  288:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  289:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** SmartCard only: UART received a NACK */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 24
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 24
 
 
  290:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_TX_INTR_UART_NACK       SCB_INTR_TX_UART_NACK_Msk
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  344:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /** The I2C slave received  an ACK */
  345:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_SLAVE_INTR_I2C_ACK           SCB_INTR_S_I2C_ACK_Msk
  346:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 25
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 25
 
 
  347:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /**
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  401:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  402:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /**
  403:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \defgroup group_scb_common_macros_i2c_intr I2C Interrupt Statuses
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 26
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 26
 
 
  404:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \{
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  458:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_UART_TX_CTRL_DEF_VAL _VAL2FLD(SCB_UART_TX_CTRL_STOP_BITS, 2UL)
  459:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  460:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_RX_CTRL_DEF_VAL      (_VAL2FLD(SCB_RX_CTRL_DATA_WIDTH, 7UL) | \
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 27
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 27
 
 
  461:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****                                      _VAL2FLD(SCB_RX_CTRL_MSB_FIRST,  1UL))
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  515:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_BYTE_WIDTH   (8UL)
  516:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  517:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /* Single unit to wait */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 28
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 28
 
 
  518:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** #define CY_SCB_WAIT_1_UNIT  (1U)
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  572:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** ****************************************************************************//**
  573:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  574:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Reads a data element directly out of the RX FIFO.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 29
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 29
 
 
  575:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * This function does not check whether the RX FIFO has data before reading it.
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  592:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  593:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Sets the RX FIFO level. When there are more data elements in the RX FIFO than
  594:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * this level, the RX FIFO level interrupt is triggered.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 30
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 30
 
 
  595:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  649:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  650:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /*******************************************************************************
  651:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Function Name: Cy_SCB_ClearRxFifo
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 31
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 31
 
 
  652:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** ****************************************************************************//**
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  228              		.cfi_restore 7
  229              		.cfi_def_cfa_offset 0
  230 0038 7047     		bx	lr
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 32
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 32
 
 
  231              		.cfi_endproc
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  714:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  715:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  716:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /*******************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 33
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 33
 
 
  717:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Function Name: Cy_SCB_GetNumInTxFifo
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  733:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  734:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  735:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /*******************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 34
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 34
 
 
  736:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Function Name: Cy_SCB_GetTxSrValid
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  317              	.LFB301:
  752:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
  753:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 35
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 35
 
 
  754:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** /*******************************************************************************
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  355              		.size	Cy_SCB_IsTxComplete, .-Cy_SCB_IsTxComplete
  356              		.section	.text.Cy_SCB_ClearTxFifo,"ax",%progbits
  357              		.align	2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 36
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 36
 
 
  358              		.thumb
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  389 0028 7B68     		ldr	r3, [r7, #4]
  390 002a D3F80432 		ldr	r3, [r3, #516]
  794:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 37
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 37
 
 
  391              		.loc 3 794 0
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  828:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** ****************************************************************************//**
  829:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  830:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * Returns the mask of bits showing the source of the current triggered
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 38
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 38
 
 
  831:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * interrupt. This is useful for modes of operation where an interrupt can
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  429 0012 1340     		ands	r3, r3, r2
  868:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
  430              		.loc 3 868 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 39
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 39
 
 
  431 0014 1846     		mov	r0, r3
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  890:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h ****     base->INTR_RX_MASK = interruptMask;
  891:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** }
  892:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 40
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 40
 
 
  893:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  947:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** *
  948:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * \param interruptMask
  949:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * The RX interrupt sources to be cleared.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 41
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 41
 
 
  950:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_common.h **** * See \ref group_scb_common_macros_rx_intr for the set of constants.
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  492 0034 BD46     		mov	sp, r7
  493              		.cfi_def_cfa_register 13
  494              		@ sp needed
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 42
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 42
 
 
  495 0036 80BD     		pop	{r7, pc}
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   39:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \note
   40:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The SPI driver is built on top of the SCB hardware block. The SCB1 instance is
   41:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * used as an example for all code snippets. Modify the code to match your
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 43
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 43
 
 
   42:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * design.
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   96:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * desired data rate.
   97:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
   98:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \subsection group_scb_spi_intr Configure Interrupt
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 44
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 44
 
 
   99:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The interrupt is optional for the SPI operation. To configure the interrupt,
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  153:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \subsection group_scb_spi_hl High-Level API
  154:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The \ref group_scb_spi_high_level_functions API uses an interrupt to execute
  155:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * a transfer. Call \ref Cy_SCB_SPI_Transfer to start communication: for the
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 45
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 45
 
 
  156:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * master mode, a transfer to the slave starts but for the slave mode,
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  210:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * glitches on these lines. These pins must be set to the inactive state before 
  211:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * entering Deep Sleep or Hibernate mode. To do that, configure the SPI master  
  212:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * pins output to drive the inactive state and High-Speed Input Output 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 46
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 46
 
 
  213:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * Multiplexer (HSIOM) to control output by GPIO (use \ref group_gpio 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  267:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   <tr>
  268:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *     <td>14.1</td>
  269:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *     <td>R</td>
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 47
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 47
 
 
  270:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *     <td>There shall be no unreachable code.</td>
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  324:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * </table>
  325:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
  326:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \defgroup group_scb_spi_macros Macros
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 48
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 48
 
 
  327:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \defgroup group_scb_spi_functions Functions
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  381:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** typedef enum
  382:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** {
  383:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     /** Configures an SPI for a standard Motorola SPI operation */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 49
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 49
 
 
  384:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     CY_SCB_SPI_MOTOROLA     = 0x0U,
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  438:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \addtogroup group_scb_spi_data_structures
  439:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \{
  440:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 50
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 50
 
 
  441:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  495:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     * there is data to send
  496:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     */
  497:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     bool        enableFreeRunSclk;
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 51
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 51
 
 
  498:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  552:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     */
  553:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     uint32_t    txFifoTriggerLevel;
  554:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 52
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 52
 
 
  555:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     /**
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  609:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /**
  610:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \addtogroup group_scb_spi_general_functions
  611:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \{
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 53
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 53
 
 
  612:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** */
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  666:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** \} group_scb_spi_low_level_functions */
  667:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  668:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 54
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 54
 
 
  669:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \addtogroup group_scb_spi_interrupt_functions
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  723:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** \} group_scb_spi_macros_tx_fifo_status */
  724:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  725:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 55
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 55
 
 
  726:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \defgroup group_scb_spi_macros_rx_fifo_status SPI RX FIFO Statuses
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  780:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** */
  781:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** #define CY_SCB_SPI_TRANSFER_IN_FIFO    (0x02UL)
  782:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 56
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 56
 
 
  783:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** /** The slave was deselected at the wrong time. */
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  837:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****                                   CY_SCB_SPI_TX_OVERFLOW | CY_SCB_SPI_TX_UNDERFLOW)
  838:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
  839:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** #define CY_SCB_SPI_MASTER_SLAVE_INTR_MASK (CY_SCB_SPI_MASTER_DONE | CY_SCB_SPI_SLAVE_ERR)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 57
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 57
 
 
  840:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  894:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * Enables the SCB block for the SPI operation.
  895:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
  896:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \param base
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 58
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 58
 
 
  897:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The pointer to the SPI SCB instance.
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  911:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * the slave select signal.
  912:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * Motorola and National Semiconductor sub-modes: the bus is busy after the
  913:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   slave select line is activated and lasts until the slave select line is
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 59
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 59
 
 
  914:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   deactivated.
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  582              		.cfi_def_cfa_offset 0
  583 0024 7047     		bx	lr
  584              		.cfi_endproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 60
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 60
 
 
  585              	.LFE356:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  982:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \note
  983:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The SCB be idle or disabled before calling this function.
  984:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 61
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 61
 
 
  985:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *******************************************************************************/
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  606 0006 7860     		str	r0, [r7, #4]
 1027:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     return (Cy_SCB_GetRxInterruptStatus(base) & CY_SCB_SPI_RX_INTR_MASK);
  607              		.loc 4 1027 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 62
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 62
 
 
  608 0008 7868     		ldr	r0, [r7, #4]
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1048:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   \ref CY_SCB_SPI_RX_NOT_EMPTY and \ref CY_SCB_SPI_RX_FULL set high again after
 1049:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   being cleared if the condition remains true.
 1050:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 63
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 63
 
 
 1051:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *******************************************************************************/
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  682              		.type	Cy_SCB_SPI_ClearRxFifo, %function
  683              	Cy_SCB_SPI_ClearRxFifo:
  684              	.LFB362:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 64
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 64
 
 
 1058:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** 
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  698              		.loc 4 1098 0
  699 0008 7868     		ldr	r0, [r7, #4]
  700 000a FFF7FEFF 		bl	Cy_SCB_ClearRxFifo
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 65
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 65
 
 
 1099:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** }
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1135:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \note
 1136:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * The status is also used for interrupt generation, so clearing it also
 1137:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   clears the interrupt sources.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 66
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 66
 
 
 1138:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * Level sensitive statuses such as \ref CY_SCB_SPI_TX_TRIGGER,
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  722              		@ frame_needed = 1, uses_anonymous_args = 0
  723 0000 80B5     		push	{r7, lr}
  724              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 67
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 67
 
 
  725              		.cfi_offset 7, -8
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  757              		@ frame_needed = 1, uses_anonymous_args = 0
  758 0000 80B5     		push	{r7, lr}
  759              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 68
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 68
 
 
  760              		.cfi_offset 7, -8
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1237:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     }
 1238:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     else
 1239:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****     {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 69
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 69
 
 
 1240:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h ****         retStatus = (Cy_SCB_GetSlaveInterruptStatus(base) & CY_SCB_SLAVE_INTR_SPI_BUS_ERROR);
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1294:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * This function only reads data available in the RX FIFO. It does not
 1295:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   initiate an SPI transfer.
 1296:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * * When in the master mode, writes data into the TX FIFO and waits until
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 70
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 70
 
 
 1297:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *   the transfer is completed before getting data from the RX FIFO.
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1316:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
 1317:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \param buffer
 1318:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The pointer to the location to place data read from the RX FIFO.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 71
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 71
 
 
 1319:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The item size is defined by the data type, which depends on the configured
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1373:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** __STATIC_INLINE uint32_t Cy_SCB_SPI_Write(CySCB_Type *base, uint32_t data)
 1374:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** {
  823              		.loc 4 1374 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 72
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 72
 
 
  824              		.cfi_startproc
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1393:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
 1394:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * \param size
 1395:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** * The number of data elements to transmit.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 73
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 73
 
 
 1396:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** *
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
 1450:Generated_Source\PSoC6\pdl\drivers/peripheral/scb/cy_scb_spi.h **** {
  860              		.loc 4 1450 0
  861              		.cfi_startproc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 74
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 74
 
 
  862              		@ args = 0, pretend = 0, frame = 16
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  912 0084 47656E65 		.ascii	"Generated_Source\\PSoC6\\pdl\\drivers/peripheral/gp"
  912      72617465 
  912      645F536F 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 75
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 75
 
 
  912      75726365 
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   41:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
   42:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \section group_gpio_configuration Configuration Considerations
   43:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 76
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 76
 
 
   44:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * 1. Pin multiplexing is controlled through the High-Speed IO Matrix (HSIOM) selection.
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   98:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td>1.10</td>
   99:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td>Added input parameter validation to the API functions</td>
  100:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *     <td></td>
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 77
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 77
 
 
  101:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *   </tr>
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  155:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  156:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
  157:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * GPIO Driver error codes
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 78
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 78
 
 
  158:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  212:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  213:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \cond INTERNAL */
  214:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 79
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 79
 
 
  215:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /* General Constants */
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  269:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_PRT_INTR_CFG_RANGE_MASK        (CY_GPIO_PRT_INTR_CFG_EDGE_SEL_MASK | \
  270:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 GPIO_PRT_INTR_CFG_FLT_EDGE_SEL_Msk | \
  271:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****                                                 GPIO_PRT_INTR_CFG_FLT_SEL_Msk)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 80
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 80
 
 
  272:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_PRT_INT_MASK_MASK              (0x0000001FFUL)
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  326:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \{
  327:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Constants to be used for setting the drive mode of the pin.
  328:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** */
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 81
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 81
 
 
  329:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** #define CY_GPIO_DM_ANALOG                      (0x00UL) /**< \brief Analog High-Z. Input buffer off
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  383:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} */
  384:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  385:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /**
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 82
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 82
 
 
  386:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \defgroup group_gpio_sioVreg SIO output buffer mode
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  440:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /** \} group_gpio_macros */
  441:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** 
  442:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** /***************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 83
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 83
 
 
  443:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *        Function Prototypes
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  497:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetVtripSel(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value);
  498:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetVtripSel(GPIO_PRT_Type* base, uint32_t pinNum);
  499:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE void Cy_GPIO_SetVrefSel(GPIO_PRT_Type* base, uint32_t pinNum, uint32_t value);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 84
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 84
 
 
  500:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** __STATIC_INLINE uint32_t Cy_GPIO_GetVrefSel(GPIO_PRT_Type* base, uint32_t pinNum);
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  554:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  555:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \param base
  556:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Pointer to the pin's port register base address
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 85
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 85
 
 
  557:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  611:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Position of the pin bit-field within the port register
  612:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
  613:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \return
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 86
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 86
 
 
  614:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * HSIOM input selection
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  668:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     if(portNum < (uint32_t)IOSS_GPIO_GPIO_PORT_NR)
  669:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     {
  670:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****          base = (GPIO_PRT_Type *)(GPIO_BASE + (GPIO_PRT_SECTION_SIZE * portNum));
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 87
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 87
 
 
  671:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h ****     }
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  936              		.loc 5 710 0
  937 000a 3B68     		ldr	r3, [r7]
  938 000c 082B     		cmp	r3, #8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 88
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 88
 
 
  939 000e 04D9     		bls	.L44
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  731:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \param value
  732:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * Logic level to drive out on the pin
  733:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 89
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 89
 
 
  734:Generated_Source\PSoC6\pdl\drivers/peripheral/gpio/cy_gpio.h **** * \return
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1011 0032 0122     		movs	r2, #1
  1012 0034 BB68     		ldr	r3, [r7, #8]
  1013 0036 9A40     		lsls	r2, r2, r3
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 90
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 90
 
 
  1014 0038 FB68     		ldr	r3, [r7, #12]
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   13:Generated_Source\PSoC6/CY_EINK_Timer.h **** * the software package with which this file was provided.
   14:Generated_Source\PSoC6/CY_EINK_Timer.h **** *******************************************************************************/
   15:Generated_Source\PSoC6/CY_EINK_Timer.h **** 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 91
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 91
 
 
   16:Generated_Source\PSoC6/CY_EINK_Timer.h **** #if !defined(CY_EINK_Timer_CY_TCPWM_COUNTER_PDL_H)
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   70:Generated_Source\PSoC6/CY_EINK_Timer.h **** __STATIC_INLINE uint32_t CY_EINK_Timer_GetPeriod(void);
   71:Generated_Source\PSoC6/CY_EINK_Timer.h **** __STATIC_INLINE void CY_EINK_Timer_TriggerStart(void);
   72:Generated_Source\PSoC6/CY_EINK_Timer.h **** __STATIC_INLINE void CY_EINK_Timer_TriggerReload(void);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 92
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 92
 
 
   73:Generated_Source\PSoC6/CY_EINK_Timer.h **** __STATIC_INLINE void CY_EINK_Timer_TriggerStop(void);
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  127:Generated_Source\PSoC6/CY_EINK_Timer.h **** *
  128:Generated_Source\PSoC6/CY_EINK_Timer.h **** *******************************************************************************/
  129:Generated_Source\PSoC6/CY_EINK_Timer.h **** __STATIC_INLINE void CY_EINK_Timer_DeInit(void)                   
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 93
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 93
 
 
  130:Generated_Source\PSoC6/CY_EINK_Timer.h **** {
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1075              		.thumb
  1076              		.thumb_func
  1077              		.type	CY_EINK_Timer_SetCounter, %function
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 94
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 94
 
 
  1078              	CY_EINK_Timer_SetCounter:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  210:Generated_Source\PSoC6/CY_EINK_Timer.h **** 
  211:Generated_Source\PSoC6/CY_EINK_Timer.h **** 
  212:Generated_Source\PSoC6/CY_EINK_Timer.h ****     /*******************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 95
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 95
 
 
  213:Generated_Source\PSoC6/CY_EINK_Timer.h ****     * Function Name: CY_EINK_Timer_GetCompare0
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  267:Generated_Source\PSoC6/CY_EINK_Timer.h **** ****************************************************************************//**
  268:Generated_Source\PSoC6/CY_EINK_Timer.h **** *
  269:Generated_Source\PSoC6/CY_EINK_Timer.h **** * Invokes the Cy_TCPWM_Counter_SetCounter() PDL driver function.
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 96
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 96
 
 
  270:Generated_Source\PSoC6/CY_EINK_Timer.h **** *
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  284:Generated_Source\PSoC6/CY_EINK_Timer.h **** *******************************************************************************/
  285:Generated_Source\PSoC6/CY_EINK_Timer.h **** __STATIC_INLINE uint32_t CY_EINK_Timer_GetCounter(void)               
  286:Generated_Source\PSoC6/CY_EINK_Timer.h **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 97
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 97
 
 
  1120              		.loc 6 286 0
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   12:eInk Library/cy_eink_psoc_interface.c **** * Copyright (2017), Cypress Semiconductor Corporation. All rights reserved.
   13:eInk Library/cy_eink_psoc_interface.c **** *******************************************************************************
   14:eInk Library/cy_eink_psoc_interface.c **** * This software, including source code, documentation and related materials
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 98
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 98
 
 
   15:eInk Library/cy_eink_psoc_interface.c **** * (“Software”), is owned by Cypress Semiconductor Corporation or one of its
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   69:eInk Library/cy_eink_psoc_interface.c **** *
   70:eInk Library/cy_eink_psoc_interface.c **** * Return:
   71:eInk Library/cy_eink_psoc_interface.c **** *  None
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 99
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 99
 
 
   72:eInk Library/cy_eink_psoc_interface.c **** *
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
   97:eInk Library/cy_eink_psoc_interface.c **** *
   98:eInk Library/cy_eink_psoc_interface.c **** * Side Effects:
   99:eInk Library/cy_eink_psoc_interface.c **** *  None
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 100
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 100
 
 
  100:eInk Library/cy_eink_psoc_interface.c **** *******************************************************************************/
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  118:eInk Library/cy_eink_psoc_interface.c **** *  Stops the E-INK Timer.
  119:eInk Library/cy_eink_psoc_interface.c **** *
  120:eInk Library/cy_eink_psoc_interface.c **** * Parameters:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 101
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 101
 
 
  121:eInk Library/cy_eink_psoc_interface.c **** *  None
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  149:eInk Library/cy_eink_psoc_interface.c **** *  None
  150:eInk Library/cy_eink_psoc_interface.c **** *******************************************************************************/
  151:eInk Library/cy_eink_psoc_interface.c **** void Cy_EINK_InitSPI(void)
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 102
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 102
 
 
  152:eInk Library/cy_eink_psoc_interface.c **** {
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  162:eInk Library/cy_eink_psoc_interface.c **** * Function Name: void Cy_EINK_AttachSPI(void)
  163:eInk Library/cy_eink_psoc_interface.c **** ********************************************************************************
  164:eInk Library/cy_eink_psoc_interface.c **** *
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 103
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 103
 
 
  165:eInk Library/cy_eink_psoc_interface.c **** * Summary:
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1330              		.type	Cy_EINK_DetachSPI, %function
  1331              	Cy_EINK_DetachSPI:
  1332              	.LFB608:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 104
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 104
 
 
  185:eInk Library/cy_eink_psoc_interface.c **** 
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1365              	.LFB609:
  207:eInk Library/cy_eink_psoc_interface.c **** 
  208:eInk Library/cy_eink_psoc_interface.c **** /*******************************************************************************
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 105
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 105
 
 
  209:eInk Library/cy_eink_psoc_interface.c **** * Function Name: void Cy_EINK_WriteSPI(uint8_t data)
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1396 0024 F7D0     		beq	.L80
  232:eInk Library/cy_eink_psoc_interface.c ****     {
  233:eInk Library/cy_eink_psoc_interface.c ****     }
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 106
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 106
 
 
  234:eInk Library/cy_eink_psoc_interface.c ****     /* Clear the TX and RX buffers */
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  255:eInk Library/cy_eink_psoc_interface.c **** *******************************************************************************/
  256:eInk Library/cy_eink_psoc_interface.c **** uint8_t Cy_EINK_ReadSPI(uint8_t data)
  257:eInk Library/cy_eink_psoc_interface.c **** {
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 107
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 107
 
 
  1430              		.loc 7 257 0
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1467 0030 0748     		ldr	r0, .L86
  1468 0032 FFF7FEFF 		bl	Cy_SCB_SPI_ClearTxFifo
  274:eInk Library/cy_eink_psoc_interface.c ****     Cy_SCB_SPI_ClearRxFifo(CY_EINK_SPIM_HW);
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 108
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 108
 
 
  1469              		.loc 7 274 0
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  297:eInk Library/cy_eink_psoc_interface.c **** uint8_t Cy_EINK_WriteReadSPI(uint8_t data)
  298:eInk Library/cy_eink_psoc_interface.c **** {
  1501              		.loc 7 298 0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 109
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 109
 
 
  1502              		.cfi_startproc
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  313:eInk Library/cy_eink_psoc_interface.c ****         data = Cy_SCB_SPI_Read(CY_EINK_SPIM_HW);
  1541              		.loc 7 313 0
  1542 0038 0848     		ldr	r0, .L92
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 110
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 110
 
 
  1543 003a FFF7FEFF 		bl	Cy_SCB_SPI_Read
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  332:eInk Library/cy_eink_psoc_interface.c **** *  uint16 dataLength : number of bytes to be transmitted
  333:eInk Library/cy_eink_psoc_interface.c **** *
  334:eInk Library/cy_eink_psoc_interface.c **** * Return:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 111
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 111
 
 
  335:eInk Library/cy_eink_psoc_interface.c **** *  int : Number of bytes written to SPI
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1618 0038 0421     		movs	r1, #4
  1619 003a 0448     		ldr	r0, .L97
  1620 003c FFF7FEFF 		bl	Cy_SCB_SPI_ClearRxFifoStatus
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 112
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 112
 
 
  350:eInk Library/cy_eink_psoc_interface.c ****     
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1653              		.cfi_offset 14, -4
  1654 0002 00AF     		add	r7, sp, #0
  1655              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 113
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 113
 
 
  372:eInk Library/cy_eink_psoc_interface.c ****     /* Return the status of CY_EINK_DispBusy pin */
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1700 000c C50E0000 		.4byte	.LASF268
  1701 0010 0C       		.byte	0xc
  1702 0011 0A0D0000 		.4byte	.LASF269
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 114
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 114
 
 
  1703 0015 15030000 		.4byte	.LASF270
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1757 0084 07       		.byte	0x7
  1758 0085 FC030000 		.4byte	.LASF11
  1759 0089 04       		.uleb128 0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 115
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 115
 
 
  1760 008a 04       		.byte	0x4
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1814 0102 7F       		.byte	0x7f
  1815 0103 00       		.byte	0
  1816 0104 07       		.uleb128 0x7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 116
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 116
 
 
  1817 0105 CF000000 		.4byte	0xcf
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1871 017d 0A       		.byte	0xa
  1872 017e 24       		.byte	0x24
  1873 017f CA000000 		.4byte	0xca
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 117
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 117
 
 
  1874 0183 04       		.byte	0x4
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1928 01ee 28       		.byte	0x28
  1929 01ef 0B       		.uleb128 0xb
  1930 01f0 95020000 		.4byte	.LASF26
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 118
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 118
 
 
  1931 01f4 0A       		.byte	0xa
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  1985 0261 00       		.byte	0
  1986 0262 0D       		.uleb128 0xd
  1987 0263 21000000 		.4byte	.LASF33
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 119
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 119
 
 
  1988 0267 0A       		.byte	0xa
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2042 02d9 42020000 		.4byte	0x242
  2043 02dd E8020000 		.4byte	0x2e8
  2044 02e1 08       		.uleb128 0x8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 120
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 120
 
 
  2045 02e2 C3000000 		.4byte	0xc3
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2099 0350 27       		.byte	0x27
  2100 0351 CA000000 		.4byte	0xca
  2101 0355 10       		.byte	0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 121
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 121
 
 
  2102 0356 0B       		.uleb128 0xb
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2156 03c2 0B       		.uleb128 0xb
  2157 03c3 0E080000 		.4byte	.LASF22
  2158 03c7 0B       		.byte	0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 122
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 122
 
 
  2159 03c8 31       		.byte	0x31
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2213 0432 CA000000 		.4byte	0xca
  2214 0436 14       		.byte	0x14
  2215 0437 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 123
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 123
 
 
  2216 0438 68060000 		.4byte	.LASF58
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2270 04ae 0C       		.uleb128 0xc
  2271 04af D00F     		.2byte	0xfd0
  2272 04b1 0C       		.byte	0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 124
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 124
 
 
  2273 04b2 21       		.byte	0x21
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2327 051e CA000000 		.4byte	0xca
  2328 0522 40       		.byte	0x40
  2329 0523 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 125
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 125
 
 
  2330 0524 A3040000 		.4byte	.LASF66
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2384 0590 9C020000 		.4byte	.LASF75
  2385 0594 0C       		.byte	0xc
  2386 0595 34       		.byte	0x34
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 126
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 126
 
 
  2387 0596 CA000000 		.4byte	0xca
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2441 0609 83080000 		.4byte	0x883
  2442 060d 4402     		.2byte	0x244
  2443 060f 0D       		.uleb128 0xd
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 127
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 127
 
 
  2444 0610 2D0B0000 		.4byte	.LASF85
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2498 0685 A20F0000 		.4byte	.LASF94
  2499 0689 0C       		.byte	0xc
  2500 068a 47       		.byte	0x47
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 128
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 128
 
 
  2501 068b AD080000 		.4byte	0x8ad
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2555 0700 CA000000 		.4byte	0xca
  2556 0704 C00E     		.2byte	0xec0
  2557 0706 0D       		.uleb128 0xd
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 129
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 129
 
 
  2558 0707 D30C0000 		.4byte	.LASF103
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2612 077c C10B0000 		.4byte	.LASF112
  2613 0780 0C       		.byte	0xc
  2614 0781 5A       		.byte	0x5a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 130
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 130
 
 
  2615 0782 CA000000 		.4byte	0xca
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2669 07f7 F3080000 		.4byte	0x8f3
  2670 07fb 900F     		.2byte	0xf90
  2671 07fd 0D       		.uleb128 0xd
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 131
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 131
 
 
  2672 07fe 4B080000 		.4byte	.LASF122
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2726 087a 74080000 		.4byte	0x874
  2727 087e 05       		.uleb128 0x5
  2728 087f 03030000 		.4byte	0x303
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 132
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 132
 
 
  2729 0883 06       		.uleb128 0x6
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2783 0905 04       		.byte	0x4
  2784 0906 A6080000 		.4byte	.LASF127
  2785 090a 10       		.uleb128 0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 133
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 133
 
 
  2786 090b 520A0000 		.4byte	.LASF128
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2840 0976 31       		.byte	0x31
  2841 0977 B8000000 		.4byte	0xb8
  2842 097b 0C       		.byte	0xc
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 134
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 134
 
 
  2843 097c 0B       		.uleb128 0xb
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2897 09e8 0B       		.uleb128 0xb
  2898 09e9 6D040000 		.4byte	.LASF147
  2899 09ed 02       		.byte	0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 135
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 135
 
 
  2900 09ee 3F       		.byte	0x3f
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  2954 0a5a 2F       		.byte	0x2f
  2955 0a5b B8000000 		.4byte	0xb8
  2956 0a5f 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 136
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 136
 
 
  2957 0a60 0B       		.uleb128 0xb
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3011 0acc 0B       		.uleb128 0xb
  3012 0acd DD020000 		.4byte	.LASF142
  3013 0ad1 0E       		.byte	0xe
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 137
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 137
 
 
  3014 0ad2 3A       		.byte	0x3a
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3068 0b3e 46       		.byte	0x46
  3069 0b3f B8000000 		.4byte	0xb8
  3070 0b43 50       		.byte	0x50
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 138
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 138
 
 
  3071 0b44 0B       		.uleb128 0xb
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3125 0bb1 10       		.uleb128 0x10
  3126 0bb2 480C0000 		.4byte	.LASF172
  3127 0bb6 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 139
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 139
 
 
  3128 0bb7 7A01     		.2byte	0x17a
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3182 0c29 800B0000 		.4byte	0xb80
  3183 0c2d 18       		.uleb128 0x18
  3184 0c2e 74010000 		.4byte	.LASF184
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 140
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 140
 
 
  3185 0c32 34       		.byte	0x34
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3239 0ca7 04       		.byte	0x4
  3240 0ca8 F701     		.2byte	0x1f7
  3241 0caa 39090000 		.4byte	0x939
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 141
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 141
 
 
  3242 0cae 12       		.byte	0x12
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3296 0d23 30       		.byte	0x30
  3297 0d24 00       		.byte	0
  3298 0d25 10       		.uleb128 0x10
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 142
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 142
 
 
  3299 0d26 3B0D0000 		.4byte	.LASF203
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3353 0d9e 04       		.byte	0x4
  3354 0d9f 5202     		.2byte	0x252
  3355 0da1 210C0000 		.4byte	0xc21
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 143
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 143
 
 
  3356 0da5 1C       		.byte	0x1c
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3410 0e17 B501     		.2byte	0x1b5
  3411 0e19 F50D0000 		.4byte	0xdf5
  3412 0e1d 02       		.uleb128 0x2
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 144
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 144
 
 
  3413 0e1e 91       		.byte	0x91
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3467 0e89 4802     		.2byte	0x248
  3468 0e8b B8000000 		.4byte	0xb8
  3469 0e8f 00000000 		.4byte	.LFB292
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 145
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 145
 
 
  3470 0e93 1A000000 		.4byte	.LFE292-.LFB292
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3524 0f0a 02       		.uleb128 0x2
  3525 0f0b 91       		.byte	0x91
  3526 0f0c 74       		.sleb128 -12
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 146
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 146
 
 
  3527 0f0d 00       		.byte	0
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3581 0f85 91       		.byte	0x91
  3582 0f86 74       		.sleb128 -12
  3583 0f87 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 147
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 147
 
 
  3584 0f88 1C       		.uleb128 0x1c
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3638 0ffd 1B       		.uleb128 0x1b
  3639 0ffe AE030000 		.4byte	.LASF215
  3640 1002 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 148
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 148
 
 
  3641 1003 8403     		.2byte	0x384
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3695 1078 AE030000 		.4byte	.LASF215
  3696 107c 04       		.byte	0x4
  3697 107d 1C04     		.2byte	0x41c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 149
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 149
 
 
  3698 107f DE0E0000 		.4byte	0xede
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3752 10ee 00000000 		.4byte	.LFB367
  3753 10f2 16000000 		.4byte	.LFE367-.LFB367
  3754 10f6 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 150
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 150
 
 
  3755 10f7 9C       		.byte	0x9c
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3809 116c 91       		.byte	0x91
  3810 116d 70       		.sleb128 -16
  3811 116e 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 151
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 151
 
 
  3812 116f 1E       		.uleb128 0x1e
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3866 11e1 05       		.byte	0x5
  3867 11e2 C402     		.2byte	0x2c4
  3868 11e4 B8000000 		.4byte	0xb8
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 152
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 152
 
 
  3869 11e8 02       		.uleb128 0x2
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3923 1253 20000000 		.4byte	.LFE517-.LFB517
  3924 1257 01       		.uleb128 0x1
  3925 1258 9C       		.byte	0x9c
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 153
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 153
 
 
  3926 1259 6D120000 		.4byte	0x126d
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  3980 12cd 21       		.uleb128 0x21
  3981 12ce 850A0000 		.4byte	.LASF252
  3982 12d2 07       		.byte	0x7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 154
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 154
 
 
  3983 12d3 97       		.byte	0x97
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4037 134a 02       		.uleb128 0x2
  4038 134b 91       		.byte	0x91
  4039 134c 6F       		.sleb128 -17
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 155
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 155
 
 
  4040 134d 27       		.uleb128 0x27
@@ -9298,7 +9298,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4094 13bf 00       		.byte	0
  4095 13c0 28       		.uleb128 0x28
  4096 13c1 85070000 		.4byte	.LASF274
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 156
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 156
 
 
  4097 13c5 07       		.byte	0x7
@@ -9358,7 +9358,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4151              		.section	.debug_abbrev,"",%progbits
  4152              	.Ldebug_abbrev0:
  4153 0000 01       		.uleb128 0x1
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 157
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 157
 
 
  4154 0001 11       		.uleb128 0x11
@@ -9418,7 +9418,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4208 0037 35       		.uleb128 0x35
  4209 0038 00       		.byte	0
  4210 0039 49       		.uleb128 0x49
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 158
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 158
 
 
  4211 003a 13       		.uleb128 0x13
@@ -9478,7 +9478,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4265 0070 00       		.byte	0
  4266 0071 00       		.byte	0
  4267 0072 0B       		.uleb128 0xb
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 159
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 159
 
 
  4268 0073 0D       		.uleb128 0xd
@@ -9538,7 +9538,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4322 00a9 05       		.uleb128 0x5
  4323 00aa 00       		.byte	0
  4324 00ab 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 160
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 160
 
 
  4325 00ac 0F       		.uleb128 0xf
@@ -9598,7 +9598,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4379 00e2 15       		.uleb128 0x15
  4380 00e3 01       		.byte	0x1
  4381 00e4 27       		.uleb128 0x27
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 161
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 161
 
 
  4382 00e5 19       		.uleb128 0x19
@@ -9658,7 +9658,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4436 011b 03       		.uleb128 0x3
  4437 011c 0E       		.uleb128 0xe
  4438 011d 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 162
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 162
 
 
  4439 011e 0B       		.uleb128 0xb
@@ -9718,7 +9718,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4493 0155 3B       		.uleb128 0x3b
  4494 0156 05       		.uleb128 0x5
  4495 0157 27       		.uleb128 0x27
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 163
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 163
 
 
  4496 0158 19       		.uleb128 0x19
@@ -9778,7 +9778,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4550 0190 06       		.uleb128 0x6
  4551 0191 40       		.uleb128 0x40
  4552 0192 18       		.uleb128 0x18
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 164
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 164
 
 
  4553 0193 9642     		.uleb128 0x2116
@@ -9838,7 +9838,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4607 01cc 19       		.uleb128 0x19
  4608 01cd 03       		.uleb128 0x3
  4609 01ce 0E       		.uleb128 0xe
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 165
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 165
 
 
  4610 01cf 3A       		.uleb128 0x3a
@@ -9898,7 +9898,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4664 0207 02       		.uleb128 0x2
  4665 0208 18       		.uleb128 0x18
  4666 0209 00       		.byte	0
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 166
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 166
 
 
  4667 020a 00       		.byte	0
@@ -9958,7 +9958,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4721 0241 49       		.uleb128 0x49
  4722 0242 13       		.uleb128 0x13
  4723 0243 11       		.uleb128 0x11
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 167
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 167
 
 
  4724 0244 01       		.uleb128 0x1
@@ -10018,7 +10018,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4778 027c 03       		.uleb128 0x3
  4779 027d 0E       		.uleb128 0xe
  4780 027e 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 168
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 168
 
 
  4781 027f 0B       		.uleb128 0xb
@@ -10078,7 +10078,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4835 0010 00000000 		.4byte	.LFB245
  4836 0014 1C000000 		.4byte	.LFE245-.LFB245
  4837 0018 00000000 		.4byte	.LFB266
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 169
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 169
 
 
  4838 001c 28000000 		.4byte	.LFE266-.LFB266
@@ -10138,7 +10138,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4892 00f4 0C000000 		.4byte	.LFE605-.LFB605
  4893 00f8 00000000 		.4byte	.LFB606
  4894 00fc 34000000 		.4byte	.LFE606-.LFB606
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 170
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 170
 
 
  4895 0100 00000000 		.4byte	.LFB607
@@ -10198,7 +10198,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4949 0090 00000000 		.4byte	.LFB370
  4950 0094 18000000 		.4byte	.LFE370
  4951 0098 00000000 		.4byte	.LFB372
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 171
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 171
 
 
  4952 009c 1C000000 		.4byte	.LFE372
@@ -10258,7 +10258,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  4997 0016 5644445F 		.ascii	"VDD_ACTIVE\000"
  4997      41435449 
  4997      564500
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 172
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 172
 
 
  4998              	.LASF33:
@@ -10318,7 +10318,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5021 00cb 494E5452 		.ascii	"INTR_TX_MASK\000"
  5021      5F54585F 
  5021      4D41534B 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 173
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 173
 
 
  5021      00
@@ -10378,7 +10378,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5046              	.LASF184:
  5047 0174 63795F73 		.ascii	"cy_stc_scb_spi_config\000"
  5047      74635F73 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 174
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 174
 
 
  5047      63625F73 
@@ -10438,7 +10438,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5070              	.LASF196:
  5071 0221 7373506F 		.ascii	"ssPolarity\000"
  5071      6C617269 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 175
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 175
 
 
  5071      747900
@@ -10498,7 +10498,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5095 02cb 52585F46 		.ascii	"RX_FIFO_RD_SILENT\000"
  5095      49464F5F 
  5095      52445F53 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 176
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 176
 
 
  5095      494C454E 
@@ -10558,7 +10558,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5117 03ae 62617365 		.ascii	"base\000"
  5117      00
  5118              	.LASF220:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 177
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 177
 
 
  5119 03b3 636F756E 		.ascii	"count\000"
@@ -10618,7 +10618,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5143      43425F53 
  5143      50495F4D 
  5143      41535445 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 178
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 178
 
 
  5143      5200
@@ -10678,7 +10678,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5169      5F535049 
  5169      5F454300 
  5170              	.LASF212:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 179
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 179
 
 
  5171 04fc 63624576 		.ascii	"cbEvents\000"
@@ -10738,7 +10738,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5195      43425F47 
  5195      65744E75 
  5195      6D496E54 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 180
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 180
 
 
  5195      78466966 
@@ -10798,7 +10798,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5219 0655 4354524C 		.ascii	"CTRL_SET\000"
  5219      5F534554 
  5219      00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 181
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 181
 
 
  5220              	.LASF77:
@@ -10858,7 +10858,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5247      494E4B5F 
  5247      41747461 
  5247      63685350 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 182
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 182
 
 
  5247      4900
@@ -10918,7 +10918,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5269 079e 70657269 		.ascii	"period1\000"
  5269      6F643100 
  5270              	.LASF69:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 183
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 183
 
 
  5271 07a6 55415254 		.ascii	"UART_FLOW_CTRL\000"
@@ -10978,7 +10978,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5293      50495F54 
  5293      495F434F 
  5293      494E4349 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 184
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 184
 
 
  5294              	.LASF209:
@@ -11038,7 +11038,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5317 090c 43795F53 		.ascii	"Cy_SCB_GetTxSrValid\000"
  5317      43425F47 
  5317      65745478 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 185
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 185
 
 
  5317      53725661 
@@ -11098,7 +11098,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5341      52564544 
  5341      3700
  5342              	.LASF90:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 186
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 186
 
 
  5343 09b9 52455345 		.ascii	"RESERVED8\000"
@@ -11158,7 +11158,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5365      5F7400
  5366              	.LASF192:
  5367 0a59 656E6162 		.ascii	"enableFreeRunSclk\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 187
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 187
 
 
  5367      6C654672 
@@ -11218,7 +11218,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5389      6C656172 
  5389      52784669 
  5390              	.LASF105:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 188
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 188
 
 
  5391 0b11 494E5452 		.ascii	"INTR_SPI_EC_MASKED\000"
@@ -11278,7 +11278,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5414              	.LASF107:
  5415 0bba 494E5452 		.ascii	"INTR_M\000"
  5415      5F4D00
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 189
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 189
 
 
  5416              	.LASF112:
@@ -11338,7 +11338,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5439 0c68 4750494F 		.ascii	"GPIO_Type\000"
  5439      5F547970 
  5439      6500
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 190
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 190
 
 
  5440              	.LASF152:
@@ -11398,7 +11398,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5466              	.LASF269:
  5467 0d0a 65496E6B 		.ascii	"eInk Library\\cy_eink_psoc_interface.c\000"
  5467      204C6962 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 191
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 191
 
 
  5467      72617279 
@@ -11458,7 +11458,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5489      65642063 
  5489      68617200 
  5490              	.LASF134:
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 192
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 192
 
 
  5491 0dd9 70657269 		.ascii	"period\000"
@@ -11518,7 +11518,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5515      555300
  5516              	.LASF228:
  5517 0e75 43795F53 		.ascii	"Cy_SCB_GetRxInterruptStatus\000"
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 193
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 193
 
 
  5517      43425F47 
@@ -11578,7 +11578,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 1
  5535              	.LASF94:
  5536 0fa2 455A5F44 		.ascii	"EZ_DATA\000"
  5536      41544100 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\ccw2dYXK.s 			page 194
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccEsql32.s 			page 194
 
 
  5537              	.LASF260:

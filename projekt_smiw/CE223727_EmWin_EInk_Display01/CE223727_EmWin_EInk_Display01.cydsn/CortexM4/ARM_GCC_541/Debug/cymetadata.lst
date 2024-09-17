@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 1
 
 
    1              		.syntax unified
@@ -11,7 +11,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
    8              		.eabi_attribute 24, 1
    9              		.eabi_attribute 25, 1
   10              		.eabi_attribute 26, 1
-  11              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 30, 6
   12              		.eabi_attribute 34, 1
   13              		.eabi_attribute 18, 4
   14              		.thumb
@@ -50,15 +50,15 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
   47 0006 00000000 		.4byte	.Ldebug_abbrev0
   48 000a 04       		.byte	0x4
   49 000b 01       		.uleb128 0x1
-  50 000c 04010000 		.4byte	.LASF12
+  50 000c 49000000 		.4byte	.LASF12
   51 0010 0C       		.byte	0xc
-  52 0011 49000000 		.4byte	.LASF13
-  53 0015 6D000000 		.4byte	.LASF14
+  52 0011 FC000000 		.4byte	.LASF13
+  53 0015 20010000 		.4byte	.LASF14
   54 0019 00000000 		.4byte	.Ldebug_line0
   55 001d 02       		.uleb128 0x2
   56 001e 01       		.byte	0x1
   57 001f 06       		.byte	0x6
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 2
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 2
 
 
   58 0020 E1010000 		.4byte	.LASF0
@@ -94,7 +94,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
   88 0059 02       		.uleb128 0x2
   89 005a 08       		.byte	0x8
   90 005b 07       		.byte	0x7
-  91 005c E5000000 		.4byte	.LASF7
+  91 005c 98010000 		.4byte	.LASF7
   92 0060 04       		.uleb128 0x4
   93 0061 04       		.byte	0x4
   94 0062 05       		.byte	0x5
@@ -102,9 +102,9 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
   96 0067 02       		.uleb128 0x2
   97 0068 04       		.byte	0x4
   98 0069 07       		.byte	0x7
-  99 006a D8000000 		.4byte	.LASF8
+  99 006a 8B010000 		.4byte	.LASF8
  100 006e 03       		.uleb128 0x3
- 101 006f FC000000 		.4byte	.LASF10
+ 101 006f AF010000 		.4byte	.LASF10
  102 0073 02       		.byte	0x2
  103 0074 18       		.byte	0x18
  104 0075 24000000 		.4byte	0x24
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
  112 0089 02       		.uleb128 0x2
  113 008a 04       		.byte	0x4
  114 008b 07       		.byte	0x7
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 3
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 3
 
 
  115 008c B7010000 		.4byte	.LASF11
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
  169 0026 00       		.byte	0
  170 0027 04       		.uleb128 0x4
  171 0028 24       		.uleb128 0x24
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 4
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 4
 
 
  172 0029 00       		.byte	0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
  226 0004 0200     		.2byte	0x2
  227 0006 00000000 		.4byte	.Ldebug_info0
  228 000a 04       		.byte	0x4
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 5
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 5
 
 
  229 000b 00       		.byte	0
@@ -278,64 +278,64 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
  246      7369676E 
  246      65642069 
  246      6E7400
- 247              	.LASF13:
- 248 0049 47656E65 		.ascii	"Generated_Source\\PSoC6\\cymetadata.c\000"
- 248      72617465 
- 248      645F536F 
- 248      75726365 
- 248      5C50536F 
- 249              	.LASF14:
- 250 006d 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
- 250      73657273 
- 250      5C726F62 
- 250      65725C44 
- 250      65736B74 
- 251 009a 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
- 251      5F456D57 
- 251      696E5F45 
- 251      496E6B5F 
- 251      44697370 
- 252 00cc 6C617930 		.ascii	"lay01.cydsn\000"
- 252      312E6379 
- 252      64736E00 
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 6
+ 247              	.LASF12:
+ 248 0049 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 248      43313120 
+ 248      352E342E 
+ 248      31203230 
+ 248      31363036 
+ 249 007c 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
+ 249      20726576 
+ 249      6973696F 
+ 249      6E203233 
+ 249      37373135 
+ 250 00af 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -O0 -ffunction-s"
+ 250      70202D6D 
+ 250      6670753D 
+ 250      66707634 
+ 250      2D73702D 
+ 251 00e2 65637469 		.ascii	"ections -ffat-lto-objects\000"
+ 251      6F6E7320 
+ 251      2D666661 
+ 251      742D6C74 
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 6
 
 
- 253              	.LASF8:
- 254 00d8 756E7369 		.ascii	"unsigned int\000"
- 254      676E6564 
- 254      20696E74 
- 254      00
- 255              	.LASF7:
- 256 00e5 6C6F6E67 		.ascii	"long long unsigned int\000"
- 256      206C6F6E 
- 256      6720756E 
- 256      7369676E 
- 256      65642069 
- 257              	.LASF10:
- 258 00fc 75696E74 		.ascii	"uint8_t\000"
- 258      385F7400 
- 259              	.LASF12:
- 260 0104 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 260      43313120 
- 260      352E342E 
- 260      31203230 
- 260      31363036 
- 261 0137 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m4 -mfloat-abi=s"
- 261      20726576 
- 261      6973696F 
- 261      6E203233 
- 261      37373135 
- 262 016a 6F667466 		.ascii	"oftfp -mfpu=fpv4-sp-d16 -mthumb -g -Og -ffunction-s"
- 262      70202D6D 
- 262      6670753D 
- 262      66707634 
- 262      2D73702D 
- 263 019d 65637469 		.ascii	"ections -ffat-lto-objects\000"
- 263      6F6E7320 
- 263      2D666661 
- 263      742D6C74 
- 263      6F2D6F62 
+ 251      6F2D6F62 
+ 252              	.LASF13:
+ 253 00fc 47656E65 		.ascii	"Generated_Source\\PSoC6\\cymetadata.c\000"
+ 253      72617465 
+ 253      645F536F 
+ 253      75726365 
+ 253      5C50536F 
+ 254              	.LASF14:
+ 255 0120 433A5C55 		.ascii	"C:\\Users\\rober\\Desktop\\SMIW\\projekt_smiw\\CE22"
+ 255      73657273 
+ 255      5C726F62 
+ 255      65725C44 
+ 255      65736B74 
+ 256 014d 33373237 		.ascii	"3727_EmWin_EInk_Display01\\CE223727_EmWin_EInk_Disp"
+ 256      5F456D57 
+ 256      696E5F45 
+ 256      496E6B5F 
+ 256      44697370 
+ 257 017f 6C617930 		.ascii	"lay01.cydsn\000"
+ 257      312E6379 
+ 257      64736E00 
+ 258              	.LASF8:
+ 259 018b 756E7369 		.ascii	"unsigned int\000"
+ 259      676E6564 
+ 259      20696E74 
+ 259      00
+ 260              	.LASF7:
+ 261 0198 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 261      206C6F6E 
+ 261      6720756E 
+ 261      7369676E 
+ 261      65642069 
+ 262              	.LASF10:
+ 263 01af 75696E74 		.ascii	"uint8_t\000"
+ 263      385F7400 
  264              	.LASF11:
  265 01b7 73697A65 		.ascii	"sizetype\000"
  265      74797065 
@@ -358,6 +358,6 @@ ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 1
  273      65642063 
  273      68617200 
  274              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  C:\Users\rober\AppData\Local\Temp\cc9Zj55y.s 			page 7
+ARM GAS  C:\Users\rober\AppData\Local\Temp\ccrHCTtW.s 			page 7
 
 

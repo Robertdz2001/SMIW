@@ -680,13 +680,13 @@ void TimerInterruptHandler(void)
         static float randomTemperature3 = 0;
             
         randomTemperature2 = (rand() % (max - min + 1)) + min;
-        //randomTemperature3 = MAX6675_GetTemperature();
+        randomTemperature3 = MAX6675_GetTemperature();
 
         GUI_DrawLine((pointCounter-seconds) / 2 + 30, 150 - randomTemperature1/2, pointCounter / 2 + 30, 150 - randomTemperature2/2);
 
         //if(counter++ == 10){
             UpdateDisplay(CY_EINK_PARTIAL, true);
-            //CyDelay(500);
+            CyDelay(500);
         //    counter = 0;
         //}
         randomTemperature1 = randomTemperature2;
@@ -741,10 +741,10 @@ int main(void)
     Cy_EINK_Power(1);
 
     /* Inicjalizacja SPI */
- //   InitSPI();
+    InitSPI();
 
     /* Inicjalizacja pinu CS jako wyjście */
-  //  Cy_GPIO_Pin_FastInit(CS_MAX6675_PIN_PORT, CS_MAX6675_PIN_NUM, CY_GPIO_DM_STRONG, 1, HSIOM_SEL_GPIO);
+    Cy_GPIO_Pin_FastInit(CS_MAX6675_PIN_PORT, CS_MAX6675_PIN_NUM, CY_GPIO_DM_STRONG, 1, HSIOM_SEL_GPIO);
     
     for(;;)
     {
