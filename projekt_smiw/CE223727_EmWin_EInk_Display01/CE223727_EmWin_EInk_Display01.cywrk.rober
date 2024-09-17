@@ -269,52 +269,6 @@
 <VisibleNodeIds>
 <v>CE223727_EmWin_EInk_Display01</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CY_EINK_SPIM.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\CY_EINK_Timer.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_config.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_common.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_ezi2c.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_i2c.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_spi.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_scb_uart.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_counter.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_pwm.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_tcpwm_quaddec.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\GUI_X.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\GUIConf.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\LCDConf.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm0plus.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button1.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button2.lst</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CortexM0p\ARM_GCC_541\Debug\Listing Files\Status_Button3.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -330,7 +284,6 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\PSoC 63 Family Datasheet</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Peripheral Driver Library</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\System Reference Guides</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Comp_PDL_v1_0.pdf</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CyStatusReg_v1_90</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CyStatusReg_v1_90\CyStatusReg_v1_90.pdf</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\GPIO_PDL_v1_0</v>
@@ -350,7 +303,6 @@
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\PSoC 63 Family Datasheet</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Peripheral Driver Library</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\System Reference Guides</v>
-<v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\Comp_PDL_v1_0.pdf</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CyStatusReg_v1_90</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\CyStatusReg_v1_90\CyStatusReg_v1_90.pdf</v>
 <v>CE223727_EmWin_EInk_Display01\CE223727_EmWin_EInk_Display01\GPIO_PDL_v1_0</v>
