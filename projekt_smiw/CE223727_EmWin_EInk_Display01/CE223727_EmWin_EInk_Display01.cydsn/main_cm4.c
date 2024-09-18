@@ -51,6 +51,7 @@ void InitSPI()
 }
 
 /* Funkcja do odczytu danych z MAX6675 */
+//TODO: W momencie, gdy podpięta jest jednocześnie termopara i wyświetlacz, termopara nie sczytuje poprawnie danych z SPI.
 uint16_t MAX6675_Read()
 {
     uint8_t rxData[2]; // Miejsce na odebranie dwóch bajtów
@@ -157,26 +158,6 @@ void ClearScreen(void)
     UpdateDisplay(CY_EINK_FULL_4STAGE, true);
 }
 
-
-/*******************************************************************************
-* Function Name: void WaitforSwitchPressAndRelease(void)
-********************************************************************************
-*
-* Summary: This implements a simple "Wait for button press and release"
-*			function.  It first waits for the button to be pressed and then
-*			waits for the button to be released.
-*
-* Parameters:
-*  None
-*
-* Return:
-*  None
-*
-* Side Effects:
-*  This is a blocking function and exits only on a button press and release
-*
-*******************************************************************************/
-
 //zmienna do sterowania pwm
 int compareValue = 50;
 
@@ -198,8 +179,10 @@ typedef struct {
     char* name; //Nazwa tablicy.
 } DataSet;
 
+//rozmiar każdej tabeli.
 int dataSize = 6;
-    
+
+//dane z wybranego profilu lutowania.
 DataPoint data[6];
 
 //zmienna przechowujaca tablice z danymi.
@@ -221,11 +204,14 @@ DataSet table_data[3] = {
     }
 };
 
-//Funkcja do zmiany trybów uzywając przycisków.
+//Funkcja do zmiany trybów uzywając przycisków (nie wykorzystywana w trybie 2 - wybierania własnego profilu, ponieważ tam te przyciski mają
+// inną funkcję).
 void WaitforSwitchPressAndRelease(void)
 {   
+    //liczba elementów w tabeli
     int table_count = sizeof(table_data) / sizeof(table_data[0]);
     
+    //testowe sprawdzenie działania pwm.
     Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
     
     /* Oczekiwanie na wciśnięcie */
@@ -234,29 +220,34 @@ void WaitforSwitchPressAndRelease(void)
     /* Oczekiwanie na puszczenie */
     while(Status_Button1_Read() == 0)
     {
+        //testowe sprawdzenie zmieniania pwm przy przytrzymaniu przycisku.
         Cy_TCPWM_PWM_SetCompare0(PWM_HW, PWM_CNT_NUM, compareValue);
         compareValue = (compareValue + 1) % 100;
         CyDelay(20);
     };
     
-    //Wcisniety drugi przycisk
+    //Wcisniety drugi przycisk - tryb 1 - program grzania.
     if(Status_Button2_Read() == 0)
     {
         modeSwitch = 1;
         return;
     }
     
-    //Wcisniety trzeci przycisk
+    //Wcisniety trzeci przycisk - tryb 3 - wyświetlenie wykresu profilu lutowania.
     if(Status_Button3_Read() == 0)
     {
         modeSwitch = 3;
         return;
     }
     
+    //Po skończeniu programu grzania lub wyświetlania wykresu profilu, po wciśnięciu Button1
+    //następuje włączenie trybu 0 - wyświetlanie tabel.
     if(modeSwitch == 1 || modeSwitch == 3)
     {
         modeSwitch = 0;
     }
+    //Jeżeli wciśnięto przycisk pierwszy w trybie wyświetlania tabel (tryb 0) i nie ma kolejnej tablicy
+    //to program przechodzi w tryb wybierania własnego profilu. Gdy jest następna tabela to zostaje ona wyświetlona.
     else
     {
         which_data_table++;
@@ -273,6 +264,9 @@ bool programStarted = false;
 //ile trwa program dla danej tabeli.
 int maxTimeInGraph = 0;
 
+//Tryb 1 - Program grzania
+//Funkcja rysuje osie wykresu oraz ustawia zmienne potrzebne do rozpoczęcia
+//programu grzania.
 void ShowGraph_WithUpdate(void)
 {
     ClearScreen();
@@ -301,11 +295,14 @@ void ShowGraph_WithUpdate(void)
         GUI_DispStringAt(yAxisLabels[i], 5, 170 - yAxisTicks[i] - 6);
     }
     
+    //Przechowuje informację o tym, w którym momencie program powinien się zakończyć.
     maxTimeInGraph = data[dataSize-1].time;
     UpdateDisplay(CY_EINK_PARTIAL, true);
+    //Zmienna wykorzystywana w przerwaniu do załączenia programu grzania.
     programStarted = true;
 }
 
+//Wyświetla wykres profilu (z tabeli lub własnego).
 void ShowGraph(void) { 
     ClearScreen();
     
@@ -344,7 +341,7 @@ void ShowGraph(void) {
     UpdateDisplay(CY_EINK_PARTIAL, true);
 }
 
-
+//Wyświetla tabele profili lutowania.
 void ShowTable(void)
 {
     ClearScreen();
@@ -392,6 +389,7 @@ void ShowTable(void)
     UpdateDisplay(CY_EINK_PARTIAL, true);
 }
 
+//Funkcja umożliwiająca wybranie własnych punktów czasu oraz temperatury.
 void AddNew()
 {
     ClearScreen();
@@ -472,7 +470,7 @@ void AddNew()
 
             currentIndex++;  // Przejdź do kolejnego indeksu tablicy
 
-            // Resetowanie temperatury do 25, jeśli chcesz, by po dodaniu każdej temperatury zaczynało się od nowa
+            // Resetowanie temperatury do 25
             currentTemp = 25;
 
             // Aktualizacja wyświetlanej wartości temperatury
@@ -598,16 +596,20 @@ void AddNew()
         btn3_Pressed = true;
     }
     
+    //przejście do trybu wyświetlania tabel.
     if(btn1_Pressed)
     {
         modeSwitch = 0;
         which_data_table = 0;
     }
+    
+    //przejście do programu grzania.
     else if(btn2_Pressed)
     {
         modeSwitch = 1;
         which_data_table = 0;
     }
+    //wyświetlenie wykresu.
     else if(btn3_Pressed)
     {
         modeSwitch = 3;
@@ -615,7 +617,7 @@ void AddNew()
     }
 }
 
-
+//Wyświetlenie strony startowej wybierania własnego profilu.
 void ShowAddNewPage(void)
 {
     ClearScreen();
@@ -651,10 +653,12 @@ void ShowAddNewPage(void)
         btn2_Pressed = true;
     }
     
+    //Po wciśnięciu Button1 - przejście do trybu dodawania.
     if(btn1_Pressed)
     {
         AddNew();
     }
+    //Po wciśnięciu Button2 - przejście do trybu wyświetlania tabel.
     else if(btn2_Pressed)
     {
         modeSwitch = 0;
@@ -662,17 +666,27 @@ void ShowAddNewPage(void)
     }
 }
 
+//Przerwanie służące do rysowania, co sekundę temperatury na grzałce
+//oraz do sterowania mocą grzałki.
 void TimerInterruptHandler(void)
 {
     /* Clear the terminal count interrupt */
     Cy_TCPWM_ClearInterrupt(Timer_HW, Timer_CNT_NUM, CY_TCPWM_INT_ON_TC);
+    
+    //Można użyć tej zmiennej, jeżeli chcemy aktualizować wyświetlacz, np co 10 sekund
+    //wtedy counter = 10;
     static int counter = 0;
     
     if(programStarted)
     {
+        //zmienne tymczasowe do wybrania losowej temperatury.
         int min = 0;
         int max = 300;
+        
+        //jeżeli chcemy rysować wykres, co sekundę tutaj trzeba ustawić 1.
         const int seconds = 10;
+        
+        //jeżeli chcemy rysować wykres, co sekundę tutaj trzeba ustawić 1.
         static int pointCounter = 10;
     
         static int randomTemperature1 = 0;
@@ -680,18 +694,26 @@ void TimerInterruptHandler(void)
         static float randomTemperature3 = 0;
             
         randomTemperature2 = (rand() % (max - min + 1)) + min;
+        
+        //Po poprawnym skonfigurowaniu MAX6675, należy podmienić randomTemperature2 na randomTemperature3.
         randomTemperature3 = MAX6675_GetTemperature();
 
         GUI_DrawLine((pointCounter-seconds) / 2 + 30, 150 - randomTemperature1/2, pointCounter / 2 + 30, 150 - randomTemperature2/2);
 
+        //Odkomentować w sytuacji, gdy chcemy aktualizować wyświetlacz, np co 10 sekund
         //if(counter++ == 10){
             UpdateDisplay(CY_EINK_PARTIAL, true);
-            CyDelay(500);
+            CyDelay(500); //Należy sprawdzić, czy ten delay jest potrzebny
         //    counter = 0;
         //}
+        
+        //Zapamiętanie ostatniej temperatury.
         randomTemperature1 = randomTemperature2;
+        
+        //przejście do następnego punktu.
         pointCounter+=seconds;
         
+        //Przerwanie programu, gdy użytkownik przytrzyma Button1, lub gdy program się zakończy.
         if(Status_Button1_Read() == 0 || pointCounter >= maxTimeInGraph){
             programStarted = false;
             pointCounter = seconds;
@@ -702,6 +724,7 @@ void TimerInterruptHandler(void)
     }
 }
 
+//Inicjalizuje przerwania.
 void Init_Interrupts()
 {
     /* Initialize the interrupt vector table with the timer interrupt handler
@@ -746,6 +769,7 @@ int main(void)
     /* Inicjalizacja pinu CS jako wyjście */
     Cy_GPIO_Pin_FastInit(CS_MAX6675_PIN_PORT, CS_MAX6675_PIN_NUM, CY_GPIO_DM_STRONG, 1, HSIOM_SEL_GPIO);
     
+    //pętla do zmiany trybów.
     for(;;)
     {
         if(!programStarted) {
